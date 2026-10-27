@@ -1,0 +1,311 @@
+{
+  "sources": [
+    {
+      "name": "The Last Natural_260916_220739.pdf",
+      "exercise_pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "name": "TREINO LETICIA-1 (1)_261027_155142.pdf",
+      "exercise_pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "catalog_baseline_count": 100,
+  "status": "Comparação documental; novos GIFs ainda não produzidos",
+  "summary": {
+    "distinct_requirements": 43,
+    "covered": 21,
+    "new_required": 17,
+    "needs_definition": 5
+  },
+  "rules": [
+    "Comparar exercício, equipamento, posição e pegada; não apenas semelhança de nome.",
+    "Mesa flexora não substitui cadeira flexora; halter não substitui polia; barra V não substitui corda.",
+    "Correspondências genéricas usam a variante disponível e registram equipamento não especificado.",
+    "Cargas, séries, feeder sets e back-off pertencem à prescrição, não criam exercícios novos.",
+    "Não importar dados pessoais, cargas ou regras de intensidade para o catálogo."
+  ],
+  "covered": [
+    {
+      "name": "Elevação lateral com halteres",
+      "catalog_id": "e9",
+      "source": "Natural; Letícia",
+      "note": "Correspondência de movimento/equipamento."
+    },
+    {
+      "name": "Desenvolvimento — equipamento não especificado",
+      "catalog_id": "e8",
+      "source": "Natural",
+      "note": "Variante disponível atende ao nome genérico; equipamento não especificado no PDF."
+    },
+    {
+      "name": "Tríceps barra na polia",
+      "catalog_id": "e11",
+      "source": "Natural",
+      "note": "Correspondência de movimento/equipamento."
+    },
+    {
+      "name": "Puxada aberta / Puxada polia barra frente aberta",
+      "catalog_id": "e54",
+      "source": "Natural; Letícia",
+      "note": "Correspondência de movimento/equipamento."
+    },
+    {
+      "name": "Remada cavalinho",
+      "catalog_id": "e56",
+      "source": "Natural",
+      "note": "Correspondência de movimento/equipamento."
+    },
+    {
+      "name": "Remada baixa / Remada baixa triângulo",
+      "catalog_id": "e7",
+      "source": "Natural; Letícia",
+      "note": "Correspondência de movimento/equipamento."
+    },
+    {
+      "name": "Fly invertido — equipamento não especificado",
+      "catalog_id": "e60",
+      "source": "Natural",
+      "note": "Variante disponível atende ao nome genérico; equipamento não especificado no PDF."
+    },
+    {
+      "name": "Rosca direta com barra",
+      "catalog_id": "e10",
+      "source": "Natural",
+      "note": "Correspondência de movimento/equipamento."
+    },
+    {
+      "name": "Rosca martelo",
+      "catalog_id": "e43",
+      "source": "Natural",
+      "note": "Correspondência de movimento/equipamento."
+    },
+    {
+      "name": "Cadeira abdutora / Abdutor",
+      "catalog_id": "e19",
+      "source": "Natural",
+      "note": "Correspondência de movimento/equipamento."
+    },
+    {
+      "name": "Cadeira adutora / Adutora",
+      "catalog_id": "e20",
+      "source": "Natural",
+      "note": "Correspondência de movimento/equipamento."
+    },
+    {
+      "name": "Cadeira extensora",
+      "catalog_id": "e2",
+      "source": "Natural",
+      "note": "Correspondência de movimento/equipamento."
+    },
+    {
+      "name": "Crucifixo inclinado — equipamento não especificado",
+      "catalog_id": "e51",
+      "source": "Natural",
+      "note": "Variante disponível atende ao nome genérico; equipamento não especificado no PDF."
+    },
+    {
+      "name": "Panturrilha em pé",
+      "catalog_id": "e18",
+      "source": "Natural",
+      "note": "Correspondência de movimento/equipamento."
+    },
+    {
+      "name": "Leg press 45",
+      "catalog_id": "e1",
+      "source": "Natural",
+      "note": "Correspondência de movimento/equipamento."
+    },
+    {
+      "name": "Elevação pélvica — equipamento não especificado",
+      "catalog_id": "e30",
+      "source": "Natural",
+      "note": "Variante disponível atende ao nome genérico; equipamento não especificado no PDF."
+    },
+    {
+      "name": "Remada unilateral com halter",
+      "catalog_id": "e23",
+      "source": "Letícia",
+      "note": "Correspondência de movimento/equipamento."
+    },
+    {
+      "name": "Supino reto com barra",
+      "catalog_id": "e4",
+      "source": "Letícia",
+      "note": "Correspondência de movimento/equipamento."
+    },
+    {
+      "name": "Tríceps francês — equipamento não especificado",
+      "catalog_id": "e65",
+      "source": "Letícia",
+      "note": "Variante disponível atende ao nome genérico; equipamento não especificado no PDF."
+    },
+    {
+      "name": "Rosca Scott — equipamento não especificado",
+      "catalog_id": "e62",
+      "source": "Letícia",
+      "note": "Variante disponível atende ao nome genérico; equipamento não especificado no PDF."
+    },
+    {
+      "name": "Supino inclinado com halteres",
+      "catalog_id": "e5",
+      "source": "Letícia",
+      "note": "Correspondência de movimento/equipamento."
+    }
+  ],
+  "new_required": [
+    {
+      "proposed_id": "e100",
+      "name": "Supino inclinado articulado",
+      "source": "Natural — Push",
+      "priority": "obrigatório",
+      "animation_status": "não criada"
+    },
+    {
+      "proposed_id": "e101",
+      "name": "Crucifixo reto na polia baixa",
+      "source": "Natural — Push",
+      "priority": "obrigatório",
+      "animation_status": "não criada"
+    },
+    {
+      "proposed_id": "e102",
+      "name": "Voador / Pec deck",
+      "source": "Natural — Push",
+      "priority": "obrigatório",
+      "animation_status": "não criada"
+    },
+    {
+      "proposed_id": "e103",
+      "name": "Tríceps corda na polia",
+      "source": "Natural — Push; Letícia — A",
+      "priority": "obrigatório",
+      "animation_status": "não criada"
+    },
+    {
+      "proposed_id": "e104",
+      "name": "Hack squat",
+      "source": "Natural — Legs",
+      "priority": "obrigatório",
+      "animation_status": "não criada"
+    },
+    {
+      "proposed_id": "e105",
+      "name": "Cadeira flexora",
+      "source": "Natural — Legs e Lower",
+      "priority": "obrigatório",
+      "animation_status": "não criada"
+    },
+    {
+      "proposed_id": "e106",
+      "name": "Supino inclinado no Smith",
+      "source": "Natural — Upper",
+      "priority": "obrigatório",
+      "animation_status": "não criada"
+    },
+    {
+      "proposed_id": "e107",
+      "name": "Puxada neutra com triângulo",
+      "source": "Natural — Upper; Letícia — B",
+      "priority": "obrigatório",
+      "animation_status": "não criada"
+    },
+    {
+      "proposed_id": "e108",
+      "name": "Tríceps francês na polia",
+      "source": "Natural — Upper",
+      "priority": "obrigatório",
+      "animation_status": "não criada"
+    },
+    {
+      "proposed_id": "e109",
+      "name": "Remada baixa articulada",
+      "source": "Letícia — A",
+      "priority": "obrigatório",
+      "animation_status": "não criada"
+    },
+    {
+      "proposed_id": "e110",
+      "name": "Crucifixo inverso na máquina",
+      "source": "Letícia — A",
+      "priority": "obrigatório",
+      "animation_status": "não criada"
+    },
+    {
+      "proposed_id": "e111",
+      "name": "Rosca direta na polia",
+      "source": "Letícia — A",
+      "priority": "obrigatório",
+      "animation_status": "não criada"
+    },
+    {
+      "proposed_id": "e112",
+      "name": "Desenvolvimento na máquina",
+      "source": "Letícia — Sábado",
+      "priority": "obrigatório",
+      "animation_status": "não criada"
+    },
+    {
+      "proposed_id": "e113",
+      "name": "Puxada supinada",
+      "source": "Letícia — Sábado",
+      "priority": "obrigatório",
+      "animation_status": "não criada"
+    },
+    {
+      "proposed_id": "e114",
+      "name": "Elevação frontal alternada",
+      "source": "Letícia — Sábado",
+      "priority": "obrigatório",
+      "animation_status": "não criada"
+    },
+    {
+      "proposed_id": "e115",
+      "name": "Rosca inversa",
+      "source": "Letícia — Sábado",
+      "priority": "obrigatório",
+      "animation_status": "não criada"
+    },
+    {
+      "proposed_id": "e116",
+      "name": "Tríceps coice unilateral no cross",
+      "source": "Letícia — Sábado",
+      "priority": "obrigatório",
+      "animation_status": "não criada"
+    }
+  ],
+  "needs_definition": [
+    {
+      "name": "Panturrilha horizontal",
+      "source": "Natural — Legs",
+      "reason": "Falta definir máquina horizontal específica ou panturrilha no leg press. Existe e83, mas não confirmar equivalência automaticamente."
+    },
+    {
+      "name": "Remada pronada",
+      "source": "Natural — Upper",
+      "reason": "Falta definir equipamento: barra, polia ou máquina. Existe e34 com barra, mas a pegada isolada não define a variante."
+    },
+    {
+      "name": "Stiff",
+      "source": "Natural — Lower",
+      "reason": "Falta definir equipamento e execução desejada. Há terra romeno com halteres e16 e stiff unilateral e81; não marcar como stiff bilateral específico sem definir."
+    },
+    {
+      "name": "Supino voador na máquina",
+      "source": "Letícia — B",
+      "reason": "Nome combina supino e voador: pode indicar chest press ou pec deck. Não fundir automaticamente com voador."
+    },
+    {
+      "name": "Elevação unilateral de ombro",
+      "source": "Letícia — B",
+      "reason": "Falta definir direção lateral/frontal, equipamento e posição."
+    }
+  ]
+}
