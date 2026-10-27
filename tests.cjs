@@ -3,7 +3,7 @@ const html=fs.readFileSync('dist/index.html','utf8');
 const js=html.split('<script>')[1].split('</script>')[0];
 const stored=new Map(),nodes=new Map();
 const ctx={console,crypto:require('crypto').webcrypto,structuredClone,URL,Date,setTimeout:()=>1,clearTimeout:()=>{},setInterval:()=>1,clearInterval:()=>{},localStorage:{getItem:k=>stored.get(k)||null,setItem:(k,v)=>stored.set(k,v)},document:{body:{classList:{toggle(){}}},getElementById:id=>{if(!nodes.has(id))nodes.set(id,{classList:{toggle(){}},addEventListener(){}});return nodes.get(id)}}};
-vm.createContext(ctx);vm.runInContext(js,ctx);
+vm.createContext(ctx);vm.runInContext(fs.readFileSync('dist/training-methods.js','utf8'),ctx);vm.runInContext(js,ctx);
 let n=0;function check(expr,expected=true){assert.equal(vm.runInContext(expr,ctx),expected,expr);n++}
 check('validDB(seed())');
 check('seed().students.length',4);

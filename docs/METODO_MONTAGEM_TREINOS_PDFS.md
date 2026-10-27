@@ -1,6 +1,6 @@
 # Método de montagem dos treinos dos PDFs
 
-Estado: análise funcional para implementação. O aplicativo atual ainda usa séries uniformes; estes recursos não estão implementados. Fontes lidas integralmente: The Last Natural (5 páginas) e Treino Letícia (5 páginas, última vazia).
+Estado: núcleo implementado na Alpha 0.2: séries individuais por tipo, percentuais, back-off com referência, RIR, execução, histórico, migração e sugestões de progressão. Modelos completos dos dois PDFs, cadência e importação assistida continuam pendentes. Fontes lidas integralmente: The Last Natural (5 páginas) e Treino Letícia (5 páginas, última vazia).
 
 ## Estrutura compartilhada
 
@@ -84,12 +84,12 @@ Treinos atuais continuam como séries de trabalho. Evoluir o esquema de backup e
 
 ## Etapas de implementação
 
-1. Modelo de séries por tipo, referências percentuais e migração de dados.
-2. Editor do personal e resumo de volume por tipo/grupo.
-3. Tela do aluno, cargas sugeridas, cronômetro por série e histórico.
-4. Sugestões de progressão e critérios editáveis.
-5. Modelos PPLUL e A/B/Sábado com revisão obrigatória das ambiguidades acima.
-6. Importação assistida dos PDFs; nenhuma publicação automática de treino de aluno.
+1. Implementado: modelo de séries por tipo, referências percentuais e migração de dados.
+2. Implementado: editor do personal e resumo total por tipo; detalhamento de volume por grupo pendente.
+3. Implementado: tela do aluno, cargas sugeridas, cronômetro por série e histórico.
+4. Implementado: sugestões de progressão e critérios editáveis, sem mudança automática da prescrição.
+5. Pendente: modelos PPLUL e A/B/Sábado com revisão obrigatória das ambiguidades acima.
+6. Pendente: importação assistida dos PDFs; nenhuma publicação automática de treino de aluno.
 
 ## Critérios de aceitação
 
