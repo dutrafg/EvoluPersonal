@@ -19,9 +19,16 @@ Identificador estável; nome brasileiro; sinônimos de pesquisa; região e músc
 1. Concluído: lote 1 com 25 GIFs próprios ligados ao catálogo em `dist/assets/exercises/`.
 2. Concluído: lote 2 (exercícios e25–e49), elevando a biblioteca para 50 GIFs. Cada animação é um GIF original em loop e está ligada ao exercício correspondente.
 3. Concluído: lote 3 (e50–e74), elevando a biblioteca para 75 GIFs.
-4. A seguir: lote 4 (e75–e99), completando 100 animações; depois ampliar por padrão de movimento até 500.
-5. Cada lote publicado deve atualizar o catálogo, o contador e os metadados em português brasileiro.
-6. Conferir nomes brasileiros, duplicatas, equipamento, músculos e instruções de cada novo lote.
-7. Ampliar até cerca de 500 movimentos e concluir animações originais individuais; não contar variações quase idênticas como exercícios diferentes sem explicitar a mudança de equipamento, pegada, posição ou objetivo.
+4. Concluído: lote 4 (e75–e99), atingindo 100 GIFs originais.
+5. Próximo marco: ampliar por padrão de movimento até cerca de 500 exercícios.
+6. Cada lote publicado deve atualizar o catálogo, o contador e os metadados em português brasileiro.
+7. Conferir nomes brasileiros, duplicatas, equipamento, músculos e instruções de cada novo lote; não contar variações quase idênticas sem explicitar equipamento, pegada, posição ou objetivo.
+8. Produzir GIFs originais individuais; não incorporar mídia de terceiros.
+
+## Fontes técnicas consultadas
+
+- Biblioteca de exercícios ACE: https://www.acefitness.org/resources/everyone/exercise-library/ — referência de execução e grupos musculares.
+- ACE, protocolo baseado em evidências para posteriores da coxa: https://www.acefitness.org/resources/pros/expert-articles/9015/the-hamstrings-blueprint-evidence-based-exercises-for-better-function/ — referência para flexão de joelho e levantamento unilateral.
+- ACE, guia de exercícios para glúteos: https://www.acefitness.org/resources/pros/expert-articles/8807/strength-training-the-glutes-an-evidence-based-approach/ — referência para agachamentos, passada e extensão de quadril.
 
 As ilustrações são didáticas e não substituem avaliação individual ou instrução de profissional de Educação Física. Movimentos com limitações clínicas exigem revisão profissional antes de recomendação.
