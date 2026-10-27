@@ -8,7 +8,7 @@ Aplicativo separado para personal trainer, com identidade visual inspirada no Ev
 - Cadastro, edição, pesquisa e perfil de alunos.
 - Prescrição, edição, duplicação e exclusão de treinos.
 - Ordem de exercícios, séries, repetições/tempo, carga e descanso.
-- Biblioteca com 50 exercícios e GIFs originais em loop, destaque muscular em laranja e instruções em português brasileiro; cadastro e edição de exercícios próprios e links externos de demonstração.
+- Biblioteca com 75 exercícios e GIFs originais em loop, destaque muscular em laranja e instruções em português brasileiro; cadastro e edição de exercícios próprios e links externos de demonstração.
 - Prévia local da área do aluno: carga e repetições por série, marcação de conclusão, cronômetro, esforço e feedback.
 - Histórico de sessões com cópia dos registros na conclusão.
 - Persistência no navegador, exportação e restauração de backup JSON com validação.
