@@ -23,9 +23,9 @@ const suffix=[
 "const done=select('animated'),pending=select('pending'),active=select('batch');",
 "mdLibraryStatus='all';mdLibraryPage=0;const firstPage=libraryCards();",
 "mdLibraryPage=9;const lastPage=libraryCards();",
-"mdLibraryPage=0;libSearch='Supino';const search=libraryCards();",
-"libSearch='';group='Pernas';const legs=libraryCards();",
-"return {rendered,first,initial,done,pending,active,firstPage,lastPage,search,legs,currentIds:[...mdCurrentBatchIds]};"
+"mdLibraryPage=0;libSearch='Supino';const gallerySearch=libraryCards();",
+"libSearch='';group='Pernas';const galleryLegs=libraryCards();",
+"return {rendered,first,initial,done,pending,active,firstPage,lastPage,gallerySearch,galleryLegs,currentIds:[...mdCurrentBatchIds]};"
 ].join('\n');
 const outcome=Function('document','window','localStorage','crypto','structuredClone','URL','setTimeout','clearTimeout','setInterval','clearInterval',methods+'\n'+match[1]+'\n'+suffix)(
  document,{scrollTo(){}},localStorage,{randomUUID:()=>('t'+Date.now())},clone,URL,()=>1,()=>{},()=>1,()=>{});
@@ -43,8 +43,8 @@ assert.equal((outcome.active.match(/GIF 3D pendente/g)||[]).length,25);
 assert(!outcome.active.includes('src="assets/'),'Current batch must not contain fabricated GIFs');
 assert(outcome.done.includes('<img') && outcome.done.includes('src="assets/exercises/e'));
 assert(!outcome.pending.includes('<img'),'Pending exercises must not display a stock GIF');
-assert(outcome.search.includes('Supino')&&!outcome.search.includes('Agachamento Livre'));
-assert(outcome.legs.includes('Leg Press')&&!outcome.legs.includes('Supino Reto'));
+assert(outcome.gallerySearch.includes('Supino')&&!outcome.search.includes('Agachamento Livre'));
+assert(outcome.galleryLegs.includes('Leg Press')&&!outcome.legs.includes('Supino Reto'));
 assert(outcome.rendered.includes('md-gallery')&&outcome.rendered.includes('mdLibraryPager'));
 assert(src.includes('.md-gallery .md-gallery-grid{display:grid;grid-template-columns:repeat(5'));
 assert(src.includes('@media(max-width:440px)'));
