@@ -3,9 +3,9 @@
   "branch": "codex/evolupersonal-media-350",
   "updated_on": "2026-10-28",
   "target": 500,
-  "linked_gifs": 284,
-  "to_produce": 216,
-  "batch_size": 30,
+  "linked_gifs": 288,
+  "to_produce": 212,
+  "batch_size": 25,
   "rejected_batch": {
     "name": "MD500-01",
     "count": 30,
@@ -62,11 +62,6 @@
       "output_path": "dist/assets/md500/md76.gif"
     },
     {
-      "md_id": 85,
-      "name": "Remada Baixa Sentado na Polia com Barra Reta (Pegada Aberta)",
-      "output_path": "dist/assets/md500/md85.gif"
-    },
-    {
       "md_id": 88,
       "name": "Remada Baixa Unilateral na Polia Sentado",
       "output_path": "dist/assets/md500/md88.gif"
@@ -80,16 +75,6 @@
       "md_id": 109,
       "name": "Pulldown Unilateral na Polia Alta",
       "output_path": "dist/assets/md500/md109.gif"
-    },
-    {
-      "md_id": 131,
-      "name": "Elevação em T no Banco Inclinado com Halteres (Foco em Romboides)",
-      "output_path": "dist/assets/md500/md131.gif"
-    },
-    {
-      "md_id": 132,
-      "name": "Elevação em W no Banco Inclinado com Halteres",
-      "output_path": "dist/assets/md500/md132.gif"
     },
     {
       "md_id": 152,
@@ -115,11 +100,6 @@
       "md_id": 171,
       "name": "Leg Press Articulado (Iso-Lateral)",
       "output_path": "dist/assets/md500/md171.gif"
-    },
-    {
-      "md_id": 172,
-      "name": "Leg Press 45° Unilateral",
-      "output_path": "dist/assets/md500/md172.gif"
     },
     {
       "md_id": 178,
@@ -190,14 +170,14 @@
       "md_id": 115,
       "name": "Levantamento Terra com Déficit (Em cima de anilha/caixote)",
       "output_path": "dist/assets/md500/md115.gif"
-    },
+    }
+  ],
+  "remaining_after_next": [
     {
       "md_id": 120,
       "name": "Encolhimento de Ombros com Halteres Sentado",
       "output_path": "dist/assets/md500/md120.gif"
-    }
-  ],
-  "remaining_after_next": [
+    },
     {
       "md_id": 122,
       "name": "Encolhimento de Ombros no Smith"
@@ -950,5 +930,14 @@
     "Mesmo personagem, câmera, enquadramento e iluminação; equipamento específico correto; 6 poses coerentes por exercício formando loop.",
     "Os 30 GIFs 2D anteriores são reprovados: não reutilizar nem contar como concluídos.",
     "Não publicar alterações na main sem autorização explícita."
-  ]
+  ],
+  "delivery_policy": {
+    "cadence": "25 por commit de lote concluído",
+    "strict_md_only": true,
+    "approved_style": "Modelo anatômico detalhado de aparência 3D; roupa cinza; músculos solicitados laranja; equipamento específico; seis poses por ciclo",
+    "rejected_2d_gifs_count": 30,
+    "rejected_assets_are_not_approved": true,
+    "no_main_without_permission": true,
+    "completion_rule": "Marcar concluído somente com 25 GIFs próprios verificados visualmente e integrados sem erros."
+  }
 }
