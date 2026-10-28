@@ -21,13 +21,15 @@ const entries=lines.map((line,i)=>{
  return {id:i+1,name,ref};
 });
 const mapped=entries.filter(x=>x.ref!=='—');
-assert.equal(mapped.length,314);assert.equal(entries.length-mapped.length,186);
+assert.equal(mapped.length,284);assert.equal(entries.length-mapped.length,216);
 const batch=JSON.parse(read('production/lote-md500-01.json'));
 assert.equal(batch.files.length,30);
 const batchIDs=new Set(batch.files.map(x=>x.md_id));
 assert.equal(batchIDs.size,30);
 const codeIDs=JSON.parse((html.match(/const mdBatch1Animated=new Set\((\[[^\]]+\])\)/)||[])[1]||'null');
-assert.deepEqual(new Set(codeIDs),batchIDs,'IDs do lote não coincidem com o aplicativo');
+assert.equal(codeIDs.length,0,'Lote reprovado ainda vinculado ao app');
+assert.equal(batch.status,'REPROVADO');
+assert.equal(batch.counted_in_coverage,false);
 const signatures=new Set();
 function gifInfo(p){
  const bytes=fs.readFileSync(path.join(root,p));
@@ -60,11 +62,11 @@ for(const entry of mapped){
   signatures.add(info.hash);
  }
 }
-assert.equal(signatures.size,30);
+assert.equal(signatures.size,0);
 const queue=JSON.parse(read('production/FILA_PRIORIDADE_COBERTURA_MD500.json'));
-assert.equal(queue.batch_size,30);assert.equal(queue.to_produce,186);
-assert.equal(queue.next_batch.length,30);assert.equal(queue.remaining_after_next.length,156);
+assert.equal(queue.batch_size,30);assert.equal(queue.to_produce,216);
+assert.equal(queue.next_batch.length,30);assert.equal(queue.remaining_after_next.length,186);
 const queued=new Set([...queue.next_batch,...queue.remaining_after_next].map(x=>x.md_id));
-assert.equal(queued.size,186);
+assert.equal(queued.size,216);
 for(const entry of entries)assert.equal(queued.has(entry.id),entry.ref==='—','Fila divergente: '+entry.id);
 console.log(JSON.stringify({original_md:500,with_gif:mapped.length,distinct_new_gifs:signatures.size,remaining:queued.size,next_batch:queue.batch_size},null,2));
