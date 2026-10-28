@@ -55,8 +55,15 @@ function equipment(g,s,t){
  const k=s[2];
  if(k==='cable'){g.rect(11,17,5,112,9);g.dot(14,19,5,10);g.dot(14,119,5,10);g.line(15,20,15,120,1,13);}
  if(k==='smith'){g.line(29,18,29,121,1,9);g.line(116,18,116,121,1,9);g.line(27,20,118,20,1,13);g.line(27,121,118,121,1,13);}
- if(k.includes('leg-press')){g.line(126,34,126,124,3,9);g.line(117,39,137,39,3,3);g.line(117,120,137,120,3,3);}
- if(k==='machine'||k==='pendulum'){g.line(31,20,31,123,3,9);g.line(31,26,115,26,2,13);g.line(114,26,114,120,2,9);}
+ if(k.includes('leg-press')){
+  if(k==='vertical-leg-press'){g.line(104,23,130,23,4,9);g.line(113,23,132,45,2,13);}
+  else if(k==='articulated-leg-press'){g.line(126,30,119,116,4,9);g.dot(124,41,9,10);g.line(117,39,137,39,3,3);}
+  else{g.line(126,34,126,124,3,9);g.line(117,39,137,39,3,3);g.line(117,120,137,120,3,3);}
+ }
+ if(k==='machine'||k==='pendulum'){g.line(31,20,31,123,3,9);g.line(31,26,115,26,2,13);g.line(114,26,114,120,2,9);
+  if(k==='pendulum'){g.line(114,26,95,87,4,9);g.dot(114,26,7,10);g.line(95,87,108,95,4,9);}
+  else{g.rect(31,86,18,12,13);g.line(40,98,40,122,2,9);}
+ }
  if(k==='safety-bar'||k==='barbell'){g.line(46,39,104,39,2,10);g.dot(45,39,6,9);g.dot(105,39,6,9);}
  if(k==='landmine'){g.line(22,122,118,47-24*t,3,9);g.dot(22,122,5,10);g.dot(119,47-24*t,5,10);}
  if(k==='ankle-pad'){g.rect(54,121,38,5,9);}
@@ -81,7 +88,7 @@ function figure(g,s,t){
   if(motion==='legpress'){
    g.line(35,111,67,78,5,9);g.line(35,111,54,120,5,9);
    head(g,47,88);body(g,59,91,83,106,focus);
-   const kneex=101-9*t,kneey=93+11*t,footx=124-16*t,footy=66+13*t;
+   const kneex=101-9*t,kneey=93+11*t,footx=tool==='vertical-leg-press'?103:tool==='articulated-leg-press'?125-12*t:124-16*t,footy=tool==='vertical-leg-press'?29+22*t:tool==='articulated-leg-press'?57+16*t:66+13*t;
    limb(g,82,105,kneex,kneey,4,1);limb(g,kneex,kneey,footx,footy,4,1);
    g.line(footx-5,footy-5,footx+6,footy+4,4,9);
    limb(g,76,102,100-8*t,104+13*t,4,0);
@@ -153,18 +160,29 @@ function figure(g,s,t){
   g.line(shx-34,y,shx+29,y,2,9);
   g.line(15,20,shx,y,1,13);
  }else if(motion==='row'){
-  const handx=shx-42+24*t,handy=ly+24;
-  limb(g,shx-10,ly,shx-19,ly+18,4,1);
-  limb(g,shx-19,ly+18,handx,handy,4,1);
-  limb(g,shx+10,ly,shx+18,ly+17,4,1);
-  limb(g,shx+18,ly+17,shx+39-22*t,handy,4,1);
-  g.line(15,110,handx,handy,1,13);
+  const high=(n===101),one=(n===88||n===99);
+  const handx=shx-42+24*t,handy=ly+(high?8:24);
+  limb(g,shx-10,ly,shx-19,ly+(high?4:18),4,1);
+  limb(g,shx-19,ly+(high?4:18),handx,handy,4,1);
+  if(!one){
+    limb(g,shx+10,ly,shx+18,ly+(high?3:17),4,1);
+    limb(g,shx+18,ly+(high?3:17),shx+39-22*t,handy,4,1);
+  }else{
+    limb(g,shx+10,ly,shx+18,ly+30,4,0);
+  }
+  g.line(15,high?35:110,handx,handy,1,13);
  }else if(motion==='raise'){
   const reach=21+24*t;
-  limb(g,shx-10,ly,shx-reach,shy-5-30*t,4,1);
-  limb(g,shx+10,ly,shx+reach,shy-5-30*t,4,1);
-  g.dot(shx-reach,shy-5-30*t,5,9);
-  g.dot(shx+reach,shy-5-30*t,5,9);
+  if(n===132){
+    limb(g,shx-10,ly,shx-reach,shy-5-21*t,4,1);
+    limb(g,shx+10,ly,shx+reach,shy-5-21*t,4,1);
+    limb(g,shx-reach,shy-5-21*t,shx-reach+7,shy-20-19*t,4,1);
+    limb(g,shx+reach,shy-5-21*t,shx+reach-7,shy-20-19*t,4,1);
+  }else{
+    limb(g,shx-10,ly,shx-reach,shy-5-30*t,4,1);
+    limb(g,shx+10,ly,shx+reach,shy-5-30*t,4,1);
+    g.dot(shx-reach,shy-5-30*t,5,9);g.dot(shx+reach,shy-5-30*t,5,9);
+  }
  }else if(motion==='curl'){
   limb(g,shx-10,ly,shx-19,shy+23,4,1);
   limb(g,shx+10,ly,shx+19,shy+23,4,1);
