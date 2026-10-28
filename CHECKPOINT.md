@@ -5,25 +5,25 @@ Atualizado em 28/10/2026.
 ## Situação atual
 
 - Fonte: docs/500-exercicios-base.md, 500 nomes e IDs oficiais.
-- Aplicativo: 295 entradas vinculadas a GIFs legados; 205 ainda sem vínculo no HTML.
-- Acervo legado: 425 arquivos GIF (415 nomes normalizados distintos). A revisão biomecânica integral desse legado não está concluída.
-- Novos arquivos com visual 3D: **50 GIFs produzidos em dois lotes de 25**, ainda para revisão final e sem integração ao aplicativo.
-- Equivalência para evitar repetição: MD357 possui candidato legado e141, conforme production/e141-source.json; confirmar vínculo em vez de gerar novamente.
-- Fila de criação: **154 entradas**. A soma 295 vinculadas + 50 produzidas sem vínculo + 1 equivalência candidata + 154 a produzir fecha os 500 IDs.
-- Os 30 GIFs 2D reprovados e a prévia antiga MD292 não entram nos novos lotes nem na cobertura.
+- Aplicativo da branch de mídia: **346 exercícios com GIF vinculado e 154 sem GIF**.
+- Os 50 GIFs novos dos lotes MD500-25-01/02 estão associados por número MD e usam dist/assets/md500-3d/.
+- **51 vínculos em revisão**: os 50 novos e a equivalência legada MD357/e141. Associação não significa aprovação visual ou biomecânica.
+- MD16 foi corrigido de e400 (supino sentado) para e402 (supino deitado/horizontal).
+- Acervo legado: 425 arquivos. O lote de 30 GIFs 2D reprovados continua desativado.
+- A fila de criação permanece em **154 exercícios**. Não recriar os 50 novos ou o MD357 já associado.
 
-## Arquivos de controle atuais
+## Controles atuais
 
-- production/INVENTARIO_MD500.json — situação das 500 linhas, incluindo os 50 novos arquivos.
-- production/FILA_MD500_ATUAL.json — 154 exercícios que ainda exigem criação.
-- production/lote-md500-25-01.json — primeiro lote de 25.
-- production/lote-md500-25-02.json — segundo lote de 25.
-- production/md500-lote25-3d/ — auditoria e revisão do lote 01.
-- production/md500-lote25-3d-02/ — auditoria, prompts, revisão e validação do lote 02.
-- dist/assets/md500-3d/ — 50 GIFs novos, com revisão final pendente.
+- production/INVENTARIO_MD500.json: 500 linhas, caminho associado, SHA do arquivo e estado de revisão.
+- production/FILA_MD500_ATUAL.json: 154 exercícios sem mídia.
+- docs/COMPARACAO_LISTA_500.md e .json: vínculos sincronizados com o aplicativo.
+- production/lote-md500-25-01.json e lote-md500-25-02.json: associados; aprovação final pendente.
+- production/ASSOCIACOES_MD500.md: resumo da associação e validação.
+- scripts/validar_cobertura_500.cjs: verifica app, inventário, tabela e fila sem depender das contagens históricas antigas.
 
-## Regras para continuar
+## Continuidade
 
-Produzir individualmente, usando apenas nomes/variantes da lista MD. Conferir o inventário atual, o equipamento, o movimento e o hash antes de incluir um novo arquivo. Não reconstruir a fila apenas a partir do HTML, pois os novos GIFs ainda não estão vinculados. Manter as tentativas com equipamento incorreto fora dos arquivos finais. Somente integrar à cobertura após revisão final; um arquivo gerado não implica aprovação biomecânica.
+Criar um exercício por vez somente quando não houver mídia correspondente. Conferir equipamento e variante; reutilizar arquivos equivalentes em vez de duplicar. Enviar lotes de 25 com a associação ao número MD registrada, preservando o estado de revisão. A mídia reprovada em dist/assets/md500/ não pode voltar a ser ativada.
 
-Trabalhar em codex/evolupersonal-media-350 e enviar lotes de 25. **Não alterar main sem autorização.** Nenhum vínculo do aplicativo foi alterado na produção destes dois lotes. Alguns validadores e filas históricos contêm contagens antigas; preferir os controles atuais indicados acima.
+Trabalhar em codex/evolupersonal-media-350. **Não alterar main sem autorização.** A atualização das associações aplica-se ao código de desenvolvimento; não implica publicação do site de produção.
+

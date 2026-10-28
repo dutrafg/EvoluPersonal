@@ -1,3 +1,5 @@
+> Atualização de associação — 28/10/2026: os 25 GIFs deste lote agora estão vinculados aos exercícios no aplicativo da branch de desenvolvimento, com identificação de revisão pendente. O texto abaixo registra a situação no momento da produção; não constitui aprovação biomecânica.
+
 # MD500 — lote de 25 GIFs com visual 3D
 
 ## Auditoria antes da produção
@@ -62,4 +64,5 @@ Tentativas de MD153, MD155, MD171 e MD226 apresentaram representação insuficie
 inventario-md500.json registra, separadamente, o vínculo atual e os 25 novos arquivos produzidos. proxima-fila.json contém 179 entradas para produção posterior, excluindo estes 25 e a equivalência MD357/e141. Os 25 novos arquivos e o e141 ainda exigem decisão de integração ao aplicativo; a fila de produção não deve ser reconstruída apenas a partir dos vínculos antigos do HTML.
 
 Verificações antes do envio: 25 IDs únicos e pertencentes ao MD; nomes exatos; 25 hashes únicos; nenhum hash igual aos GIFs preexistentes; decodificação de todos os quadros; dimensões, loop e sequência 7+7+7 da Rosca 21.
+
 

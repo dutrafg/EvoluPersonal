@@ -1,0 +1,674 @@
+{
+  "schema_version": 1,
+  "batch": "MD500-25-01",
+  "date": "2026-10-28",
+  "repo": "dutrafg/EvoluPersonal",
+  "branch": "codex/evolupersonal-media-350",
+  "source": "500 Exercícios Base de Musculação.md",
+  "status": "ASSOCIADO_REVISAO_FINAL_PENDENTE",
+  "target": 25,
+  "completed_gifs": 25,
+  "production_grade": "3D anatômico detalhado igual à biblioteca histórica; roupa de compressão cinza, musculatura ativada em laranja; aparelho correto",
+  "delivery_policy": {
+    "no_schematic_2d": true,
+    "six_distinct_keyposes": true,
+    "consistent_identity": true,
+    "lossless_git_backup_after_25_final_gifs": true,
+    "do_not_reuse_rejected_assets": true,
+    "no_main_without_permission": true
+  },
+  "visual_quality_gate": [
+    "Render 3D detalhado com anatomia e mãos/pés corretos",
+    "Equipamento corresponde ao exercício da linha MD",
+    "Seis poses mostram o movimento real e formam loop suave",
+    "Mesma identidade do personagem e enquadramento",
+    "Análise visual de quadro a quadro antes de marcar aprovado"
+  ],
+  "items": [
+    {
+      "md_id": 292,
+      "name": "Desenvolvimento Sentado com Halteres",
+      "group": "Ombros",
+      "equipment": "Banco com encosto ajustado a 80–90°; um halter em cada mão",
+      "highlighted_muscles": [
+        "deltoide anterior",
+        "deltoide lateral",
+        "tríceps"
+      ],
+      "camera": "frontal 3/4, banco e halteres sempre visíveis",
+      "poses": [
+        "Sentado com os halteres alinhados aos ombros e pés apoiados",
+        "Iniciar extensão simultânea dos cotovelos sem inclinar o tronco",
+        "Elevar halteres acima da cabeça mantendo punhos neutros",
+        "Atingir posição superior confortável com os dois halteres alinhados",
+        "Iniciar descida controlada afastando os cotovelos",
+        "Retornar os halteres à altura dos ombros sem arquear a lombar"
+      ],
+      "output_path": "dist/assets/md500-3d/md292.gif",
+      "status": "associado_revisao_final_pendente",
+      "render_validated": true,
+      "visual_qa_approved": false,
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
+    },
+    {
+      "md_id": 76,
+      "name": "Puxada Alta Ajoelhado na Polia",
+      "group": "Costas",
+      "equipment": "Polia alta, barra de puxada e apoio acolchoado para joelhos",
+      "highlighted_muscles": [
+        "latíssimo do dorso",
+        "redondo maior",
+        "bíceps"
+      ],
+      "camera": "frontal 3/4 mostrando ajoelhamento e cabo vertical",
+      "poses": [
+        "Ajoelhado, quadril estabilizado, braços acima da cabeça",
+        "Iniciar depressão escapular e flexão dos cotovelos",
+        "Barra desce à frente do rosto sem inclinar o tronco",
+        "Barra chega à parte superior do tórax",
+        "Retorno controlado estendendo os cotovelos",
+        "Braços voltam a se alongar acima da cabeça"
+      ],
+      "output_path": "dist/assets/md500-3d/md76.gif",
+      "status": "associado_revisao_final_pendente",
+      "render_validated": true,
+      "visual_qa_approved": false,
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
+    },
+    {
+      "md_id": 88,
+      "name": "Remada Baixa Unilateral na Polia Sentado",
+      "group": "Costas",
+      "equipment": "Polia baixa e banco de remada sentado, pegador unilateral",
+      "highlighted_muscles": [
+        "latíssimo do dorso",
+        "romboides",
+        "bíceps"
+      ],
+      "camera": "diagonal traseira mostrando sentado no banco e cabo baixo",
+      "poses": [
+        "Sentado com pés apoiados, pegador em uma mão e braço estendido",
+        "Iniciar retração escapular do lado ativo",
+        "Flexionar cotovelo junto ao corpo puxando para a costela",
+        "Manter tronco estável com cabo junto à cintura",
+        "Estender gradualmente o cotovelo sem rodar tronco",
+        "Retornar braço à extensão inicial, pelve e pés fixos"
+      ],
+      "output_path": "dist/assets/md500-3d/md88.gif",
+      "status": "associado_revisao_final_pendente",
+      "render_validated": true,
+      "visual_qa_approved": false,
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
+    },
+    {
+      "md_id": 101,
+      "name": "Remada Alta na Polia Sentado com Corda (Puxando em direção ao peito/pescoço)",
+      "group": "Costas",
+      "equipment": "Banco de remada sentada, polia média/alta e corda",
+      "highlighted_muscles": [
+        "romboides",
+        "trapézio médio",
+        "deltoide posterior"
+      ],
+      "camera": "lateral 3/4 mostrando cabo e banco",
+      "poses": [
+        "Sentado de frente para corda com braços estendidos",
+        "Iniciar retração escapular mantendo coluna neutra",
+        "Levar cotovelos abertos para trás e separar pontas da corda",
+        "Corda chega à altura do peito/pescoço sem elevar ombros",
+        "Estender cotovelos lentamente",
+        "Retornar à extensão com escápulas controladas"
+      ],
+      "output_path": "dist/assets/md500-3d/md101.gif",
+      "status": "associado_revisao_final_pendente",
+      "render_validated": true,
+      "visual_qa_approved": false,
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
+    },
+    {
+      "md_id": 109,
+      "name": "Pulldown Unilateral na Polia Alta",
+      "group": "Costas",
+      "equipment": "Polia alta com pegador individual e apoio estável",
+      "highlighted_muscles": [
+        "latíssimo do dorso",
+        "redondo maior",
+        "bíceps"
+      ],
+      "camera": "frontal 3/4 deixando claro que a puxada é unilateral",
+      "poses": [
+        "Em pé diante da polia com um braço elevado segurando pegador",
+        "Iniciar depressão escapular e flexão do cotovelo ativo",
+        "Trazer cotovelo para baixo ao lado do tronco",
+        "Pegador atinge linha superior do tórax do mesmo lado",
+        "Estender cotovelo mantendo tronco estável",
+        "Retornar ao braço acima da cabeça sem troca de mão"
+      ],
+      "output_path": "dist/assets/md500-3d/md109.gif",
+      "status": "associado_revisao_final_pendente",
+      "render_validated": true,
+      "visual_qa_approved": false,
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
+    },
+    {
+      "md_id": 152,
+      "name": "Agachamento com Barra de Segurança (Safety Bar Squat - SSB)",
+      "group": "Pernas",
+      "equipment": "Barra de segurança SSB com alças frontais e rack",
+      "highlighted_muscles": [
+        "quadríceps",
+        "glúteos"
+      ],
+      "camera": "lateral 3/4 com SSB claramente diferente de barra reta",
+      "poses": [
+        "Em pé com yoke da SSB sobre ombros e mãos nas alças",
+        "Flexionar quadril e joelhos com coluna alinhada",
+        "Agachar até amplitude funcional sem tirar calcanhares",
+        "Chegar ao fundo com SSB estável",
+        "Estender joelhos e quadril subindo verticalmente",
+        "Retornar à posição ereta e manter mãos nas alças"
+      ],
+      "output_path": "dist/assets/md500-3d/md152.gif",
+      "status": "associado_revisao_final_pendente",
+      "render_validated": true,
+      "visual_qa_approved": false,
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
+    },
+    {
+      "replace": 153,
+      "md_id": 118,
+      "equipment": "Barra reta com anilhas segurada por trás das coxas; mãos pronadas, cotovelos estendidos",
+      "highlighted_muscles": [
+        "trapézio superior"
+      ],
+      "camera": "traseira 3/4, barra por trás do quadril claramente visível",
+      "poses": [
+        "Em pé, barra atrás das coxas, ombros relaxados",
+        "Elevar os ombros verticalmente com cotovelos estendidos",
+        "Continuar elevando escápulas sem girar ombros",
+        "Contração superior, barra sempre atrás do corpo",
+        "Baixar ombros lentamente",
+        "Retornar aos ombros relaxados"
+      ],
+      "name": "Encolhimento de Ombros com Barra por Trás",
+      "group": "Costas / Trapézio",
+      "output_path": "dist/assets/md500-3d/md118.gif",
+      "status": "associado_revisao_final_pendente",
+      "visual_qa_approved": false,
+      "render_validated": true,
+      "associated_with_exercise": true
+    },
+    {
+      "replace": 155,
+      "md_id": 122,
+      "equipment": "Smith Machine com barra guiada segurada à frente das coxas; cotovelos estendidos",
+      "highlighted_muscles": [
+        "trapézio superior"
+      ],
+      "camera": "frontal 3/4, trilhos do Smith e barra visíveis",
+      "poses": [
+        "Em pé segurando a barra baixa, ombros relaxados",
+        "Elevar os ombros sem flexionar cotovelos",
+        "Continuar elevação vertical dos ombros",
+        "Contração do trapézio com braços estendidos",
+        "Baixar os ombros lentamente",
+        "Retornar à posição inicial"
+      ],
+      "name": "Encolhimento de Ombros no Smith",
+      "group": "Costas / Trapézio",
+      "output_path": "dist/assets/md500-3d/md122.gif",
+      "status": "associado_revisao_final_pendente",
+      "visual_qa_approved": false,
+      "render_validated": true,
+      "associated_with_exercise": true
+    },
+    {
+      "md_id": 170,
+      "name": "Leg Press Vertical (90 Graus)",
+      "group": "Pernas",
+      "equipment": "Leg press vertical verdadeiro de 90°, plataforma diretamente acima do corpo",
+      "highlighted_muscles": [
+        "quadríceps",
+        "glúteos"
+      ],
+      "camera": "lateral mostrando orientação VERTICAL da carga, não leg press 45°",
+      "poses": [
+        "Deitado sob plataforma horizontal verticalmente carregada, pés posicionados",
+        "Flexionar joelhos e quadril fazendo a plataforma descer verticalmente",
+        "Descer com controle e quadril apoiado",
+        "Plataforma atinge a altura inferior segura",
+        "Estender as pernas empurrando a plataforma verticalmente",
+        "Voltar ao início sem bloquear totalmente os joelhos"
+      ],
+      "output_path": "dist/assets/md500-3d/md170.gif",
+      "status": "associado_revisao_final_pendente",
+      "render_validated": true,
+      "visual_qa_approved": false,
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
+    },
+    {
+      "replace": 171,
+      "md_id": 123,
+      "equipment": "Polia baixa com barra reta, cabo esticado de baixo para as mãos; braços estendidos",
+      "highlighted_muscles": [
+        "trapézio superior"
+      ],
+      "camera": "frontal 3/4, torre de polia baixa, corpo inteiro e cabo visíveis",
+      "poses": [
+        "Em pé diante da polia baixa, barra nas mãos à frente das coxas",
+        "Elevar os ombros mantendo braços retos",
+        "Continuar elevação escapular sem remar",
+        "Contração superior com cotovelos estendidos e cabo tensionado",
+        "Baixar ombros controlando o cabo",
+        "Retornar aos ombros relaxados"
+      ],
+      "name": "Encolhimento de Ombros na Polia Baixa",
+      "group": "Costas / Trapézio",
+      "output_path": "dist/assets/md500-3d/md123.gif",
+      "status": "associado_revisao_final_pendente",
+      "visual_qa_approved": false,
+      "render_validated": true,
+      "associated_with_exercise": true
+    },
+    {
+      "md_id": 178,
+      "name": "Afundo Estático no Smith",
+      "group": "Pernas",
+      "equipment": "Smith Machine com barra guiada e base de afundo estático",
+      "highlighted_muscles": [
+        "quadríceps",
+        "glúteos"
+      ],
+      "camera": "lateral 3/4 para registrar pés separados e barra na guia",
+      "poses": [
+        "Barra nas costas, um pé à frente e outro atrás sem deslocar os pés",
+        "Flexionar joelhos mantendo base estática",
+        "Descer verticalmente aproximando joelho traseiro do solo",
+        "Alcançar amplitude inferior sem alterar posicionamento dos pés",
+        "Empurrar o solo estendendo os joelhos",
+        "Retornar à posição inicial sem caminhar ou trocar perna"
+      ],
+      "output_path": "dist/assets/md500-3d/md178.gif",
+      "status": "associado_revisao_final_pendente",
+      "render_validated": true,
+      "visual_qa_approved": false,
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
+    },
+    {
+      "md_id": 207,
+      "name": "Stiff com Halteres",
+      "group": "Posteriores",
+      "equipment": "Dois halteres mantidos junto às pernas",
+      "highlighted_muscles": [
+        "isquiotibiais",
+        "glúteos",
+        "eretores da coluna"
+      ],
+      "camera": "lateral destacando dobradiça de quadril e joelhos semirrígidos",
+      "poses": [
+        "Em pé segurando halteres à frente/laterais das coxas",
+        "Levar quadril para trás com joelhos levemente flexionados",
+        "Descer halteres perto das pernas mantendo coluna neutra",
+        "Chegar ao ponto de alongamento dos posteriores sem arredondar coluna",
+        "Estender quadril e começar subida dos halteres",
+        "Voltar a ficar em pé sem hiperestender lombar"
+      ],
+      "output_path": "dist/assets/md500-3d/md207.gif",
+      "status": "associado_revisao_final_pendente",
+      "render_validated": true,
+      "visual_qa_approved": false,
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
+    },
+    {
+      "md_id": 208,
+      "name": "RDL no Smith",
+      "group": "Posteriores",
+      "equipment": "Smith Machine e barra guiada; pés posicionados para permitir hip hinge",
+      "highlighted_muscles": [
+        "isquiotibiais",
+        "glúteos"
+      ],
+      "camera": "lateral com barras verticais da máquina e barra perto das pernas",
+      "poses": [
+        "Em pé segurando barra do Smith próxima às coxas",
+        "Levar quadril para trás e destravar levemente joelhos",
+        "Descer barra vertical ao longo das pernas",
+        "Atingir máxima flexão do quadril com coluna neutra",
+        "Estender quadril enquanto barra sobe na guia",
+        "Retornar à posição ereta sem compensar na lombar"
+      ],
+      "output_path": "dist/assets/md500-3d/md208.gif",
+      "status": "associado_revisao_final_pendente",
+      "render_validated": true,
+      "visual_qa_approved": false,
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
+    },
+    {
+      "replace": 226,
+      "md_id": 125,
+      "name": "Encolhimento com Barra Hexagonal (Trap Bar Shrug)",
+      "group": "Costas / Trapézio",
+      "equipment": "Barra hexagonal trap bar com anilhas e duas alças laterais. Atleta em pé DENTRO do hexágono segurando as alças com cotovelos totalmente retos",
+      "highlighted_muscles": [
+        "trapézio superior"
+      ],
+      "camera": "frontal 3/4 mostrando o hexágono ao redor das pernas",
+      "poses": [
+        "Em pé dentro da barra hexagonal com ombros relaxados",
+        "Elevar os ombros verticalmente mantendo cotovelos estendidos",
+        "Continuar elevação escapular com pernas imóveis",
+        "Ombros próximos das orelhas e braços retos",
+        "Baixar ombros lentamente",
+        "Retornar à postura neutra sem agachar"
+      ],
+      "output_path": "dist/assets/md500-3d/md125.gif",
+      "status": "associado_revisao_final_pendente",
+      "visual_qa_approved": false,
+      "render_validated": true,
+      "associated_with_exercise": true
+    },
+    {
+      "replace": 229,
+      "md_id": 493,
+      "name": "Toque nos Calcanhares Deitado (Heel Touches)",
+      "group": "Core",
+      "equipment": "Colchonete no chão, sem pesos, joelhos flexionados com ambos os pés fixos no chão",
+      "highlighted_muscles": [
+        "oblíquos",
+        "reto abdominal"
+      ],
+      "camera": "vista elevada frontal 3/4, todo o corpo deitado visível, pés e mãos visíveis",
+      "poses": [
+        "Deitado de costas, joelhos dobrados, pés fixos, cabeça e ombros ligeiramente elevados, braços ao lado",
+        "Inclinar tronco lateralmente para a direita e aproximar mão direita do calcanhar direito",
+        "Tocar lateralmente o calcanhar direito sem mover os pés",
+        "Retornar ao centro e inclinar para o lado esquerdo",
+        "Tocar o calcanhar esquerdo com a mão esquerda",
+        "Retornar ao centro com ombros elevados e pés imóveis"
+      ],
+      "output_path": "dist/assets/md500-3d/md493.gif",
+      "status": "associado_revisao_final_pendente",
+      "visual_qa_approved": false,
+      "render_validated": true,
+      "associated_with_exercise": true
+    },
+    {
+      "md_id": 249,
+      "name": "Elevação Pélvica no Smith",
+      "group": "Glúteos",
+      "equipment": "Smith com barra acolchoada sobre quadril e banco de apoio para escápulas",
+      "highlighted_muscles": [
+        "glúteo máximo",
+        "isquiotibiais"
+      ],
+      "camera": "lateral evidenciando barra na guia e escápulas sobre banco",
+      "poses": [
+        "Escápulas sobre banco e barra do Smith sobre quadril protegido",
+        "Iniciar extensão do quadril pressionando os pés",
+        "Elevar quadril fazendo a barra subir na guia",
+        "Chegar ao topo com tronco e coxas alinhados",
+        "Baixar quadril mantendo coluna neutra",
+        "Retornar à posição inferior sem tirar os pés do solo"
+      ],
+      "output_path": "dist/assets/md500-3d/md249.gif",
+      "status": "associado_revisao_final_pendente",
+      "render_validated": true,
+      "visual_qa_approved": false,
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
+    },
+    {
+      "md_id": 298,
+      "name": "Desenvolvimento no Smith (Pela Frente)",
+      "group": "Ombros",
+      "equipment": "Smith Machine com barra guiada à frente do rosto e base em pé",
+      "highlighted_muscles": [
+        "deltoide anterior",
+        "deltoide lateral",
+        "tríceps"
+      ],
+      "camera": "frontal 3/4 com trilhos do Smith visíveis",
+      "poses": [
+        "Em pé, barra na altura do ombro à frente do rosto",
+        "Empurrar barra para cima na guia vertical",
+        "Estender cotovelos mantendo tronco firme",
+        "Chegar ao alto sem hiperestender a lombar",
+        "Descer barra pela frente e flexionar cotovelos",
+        "Retornar à altura do ombro sem passar por trás da nuca"
+      ],
+      "output_path": "dist/assets/md500-3d/md298.gif",
+      "status": "associado_revisao_final_pendente",
+      "render_validated": true,
+      "visual_qa_approved": false,
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
+    },
+    {
+      "md_id": 303,
+      "name": "Desenvolvimento Articulado Convergente",
+      "group": "Ombros",
+      "equipment": "Máquina de desenvolvimento de ombros articulada convergente com dois braços independentes",
+      "highlighted_muscles": [
+        "deltoides",
+        "tríceps"
+      ],
+      "camera": "frontal 3/4 mostrando trajetórias que convergem em cima",
+      "poses": [
+        "Sentado com costas no encosto e pegadores na altura dos ombros",
+        "Iniciar empurrada dos braços articulados",
+        "Elevar as manoplas seguindo trajetória ligeiramente convergente",
+        "Chegar ao ponto alto com braços próximos, mas não cruzados",
+        "Descer os braços guiados separando manoplas",
+        "Retornar ao nível dos ombros sem tirar costas do encosto"
+      ],
+      "output_path": "dist/assets/md500-3d/md303.gif",
+      "status": "associado_revisao_final_pendente",
+      "render_validated": true,
+      "visual_qa_approved": false,
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
+    },
+    {
+      "md_id": 373,
+      "name": "Rosca 21 (7 repetições metade inferior + 7 metade superior + 7 completas)",
+      "group": "Bíceps",
+      "equipment": "Barra reta/EZ e marcação das três faixas da rosca 21",
+      "highlighted_muscles": [
+        "bíceps braquial",
+        "braquial"
+      ],
+      "camera": "frontal 3/4 com cotovelos junto ao corpo; ilustrar fases sem cortar cotovelos",
+      "poses": [
+        "Início com barra baixa e cotovelos estendidos",
+        "Realizar metade inferior da rosca até cotovelos a 90°",
+        "Retornar à posição baixa representando primeiras sete repetições",
+        "Demonstrar fase superior de 90° até flexão máxima",
+        "Demonstrar fase de rosca completa de baixo a cima",
+        "Retornar à posição baixa para fechar ciclo, com instrução 7+7+7"
+      ],
+      "output_path": "dist/assets/md500-3d/md373.gif",
+      "status": "associado_revisao_final_pendente",
+      "render_validated": true,
+      "visual_qa_approved": false,
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
+    },
+    {
+      "md_id": 473,
+      "name": "Abdominal Infra no Solo ou Banco (Elevação de pernas deitado)",
+      "group": "Core",
+      "equipment": "Colchonete e banco reto opcional; usar versão deitada no solo",
+      "highlighted_muscles": [
+        "reto abdominal",
+        "flexores do quadril"
+      ],
+      "camera": "lateral 3/4 mostrando pelve e pernas completas",
+      "poses": [
+        "Deitado de costas, braços ao lado do corpo e pernas próximas do solo",
+        "Começar elevar ambas as pernas estendidas",
+        "Continuar flexão do quadril sem tirar lombar do controle",
+        "Chegar a pernas quase verticais com pelve estável",
+        "Baixar pernas sem hiperestender lombar",
+        "Retornar próximas ao solo sem tocar os calcanhares"
+      ],
+      "output_path": "dist/assets/md500-3d/md473.gif",
+      "status": "associado_revisao_final_pendente",
+      "render_validated": true,
+      "visual_qa_approved": false,
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
+    },
+    {
+      "md_id": 38,
+      "name": "Landmine Press (Empurrada unilateral ou bilateral na barra T)",
+      "group": "Ombros",
+      "equipment": "Landmine/barra ancorada numa extremidade, empurrada unilateral em pé",
+      "highlighted_muscles": [
+        "deltoide anterior",
+        "peitoral superior",
+        "tríceps"
+      ],
+      "camera": "lateral 3/4 mostrando o ponto fixo da barra no piso",
+      "poses": [
+        "Barra ancorada em landmine, mão ativa à altura do ombro",
+        "Iniciar extensão do cotovelo na diagonal para cima",
+        "Empurrar extremidade livre da barra em arco",
+        "Chegar ao alcance confortável sem girar o tronco",
+        "Retornar extremidade livre ao ombro com controle",
+        "Concluir com cotovelo flexionado e apoio dos dois pés"
+      ],
+      "output_path": "dist/assets/md500-3d/md38.gif",
+      "status": "associado_revisao_final_pendente",
+      "render_validated": true,
+      "visual_qa_approved": false,
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
+    },
+    {
+      "md_id": 111,
+      "name": "Pullover no Cabo Declinado ou no Banco Reto",
+      "group": "Costas",
+      "equipment": "Polia com cabo/pegador e banco reto, variante deitada",
+      "highlighted_muscles": [
+        "latíssimo do dorso",
+        "peitoral",
+        "serrátil"
+      ],
+      "camera": "lateral 3/4 mostrando banco e cabo cruzando atrás da cabeça",
+      "poses": [
+        "Deitado no banco, pegador da polia sustentado acima do peito",
+        "Levar os braços para trás da cabeça com cotovelos pouco flexionados",
+        "Alcançar alongamento confortável com cabo tensionado",
+        "Iniciar arco de retorno usando ombros e dorsais",
+        "Trazer o pegador novamente à vertical do tórax",
+        "Terminar sem dobrar excessivamente os cotovelos"
+      ],
+      "output_path": "dist/assets/md500-3d/md111.gif",
+      "status": "associado_revisao_final_pendente",
+      "render_validated": true,
+      "visual_qa_approved": false,
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
+    },
+    {
+      "md_id": 115,
+      "name": "Levantamento Terra com Déficit (Em cima de anilha/caixote)",
+      "group": "Posteriores",
+      "equipment": "Barra olímpica com anilhas e plataforma elevada de déficit estável",
+      "highlighted_muscles": [
+        "glúteos",
+        "isquiotibiais",
+        "eretores da coluna"
+      ],
+      "camera": "lateral 3/4 mostrando pés elevados acima do piso da barra",
+      "poses": [
+        "Em cima de plataforma estável, barra no solo abaixo do nível dos pés",
+        "Agachar e dobrar quadril para agarrar barra mantendo coluna neutra",
+        "Iniciar subida com quadril e ombros em ascensão conjunta",
+        "Barra ultrapassa joelhos próxima das pernas",
+        "Chegar à extensão de quadril ereta",
+        "Descer a barra ao solo com controle mantendo os pés sobre a plataforma"
+      ],
+      "output_path": "dist/assets/md500-3d/md115.gif",
+      "status": "associado_revisao_final_pendente",
+      "render_validated": true,
+      "visual_qa_approved": false,
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
+    },
+    {
+      "md_id": 128,
+      "name": "Remada Alta Pegada Fechada (Foco em Trapézio)",
+      "group": "Costas / Trapézio",
+      "equipment": "Barra reta com anilhas, segurada com pegada pronada fechada à frente do corpo",
+      "highlighted_muscles": [
+        "trapézio superior",
+        "deltoide lateral"
+      ],
+      "camera": "frontal 3/4, corpo inteiro e barra sempre visíveis",
+      "poses": [
+        "Em pé, braços estendidos e barra junto às coxas",
+        "Iniciar subida da barra dobrando os cotovelos para os lados",
+        "Elevar a barra próxima do tronco até a altura do abdome superior",
+        "Barra à altura do peito e cotovelos abertos sem passar muito da linha dos ombros",
+        "Baixar a barra lentamente estendendo os cotovelos",
+        "Retornar à barra junto às coxas"
+      ],
+      "output_path": "dist/assets/md500-3d/md128.gif",
+      "status": "associado_revisao_final_pendente",
+      "visual_qa_approved": false,
+      "render_validated": true,
+      "associated_with_exercise": true
+    },
+    {
+      "md_id": 23,
+      "name": "Supino Guilhotina (Neck Press) com Barra",
+      "group": "Peitoral",
+      "equipment": "Banco reto e barra olímpica com anilhas, apoios de segurança",
+      "highlighted_muscles": [
+        "peitoral maior",
+        "deltoide anterior",
+        "tríceps"
+      ],
+      "camera": "lateral 3/4, corpo inteiro e banco visíveis",
+      "poses": [
+        "Deitado, pés apoiados e pegada aberta; barra acima do tórax superior",
+        "Descer lentamente a barra com cotovelos abertos",
+        "Aproximar a barra da parte superior do peito sem tocar o pescoço",
+        "Manter amplitude confortável e barra afastada da garganta",
+        "Empurrar a barra para cima",
+        "Retornar à extensão dos cotovelos sobre o tórax superior"
+      ],
+      "output_path": "dist/assets/md500-3d/md23.gif",
+      "status": "associado_revisao_final_pendente",
+      "visual_qa_approved": false,
+      "render_validated": true,
+      "associated_with_exercise": true
+    }
+  ],
+  "prepared_poses": 150,
+  "production_notes": [
+    "25 GIFs animados novos, produzidos individualmente e sem repetição de ID MD.",
+    "MD357 não foi recriado: fonte e141 descreve o mesmo exercício.",
+    "MD153, MD155, MD171, MD226, MD229 e MD120 foram mantidos pendentes por falhas visuais das tentativas; substituídos por MD118, MD122, MD123, MD125, MD493 e MD128.",
+    "Revisão inicial realizada pelo assistente. Aprovação final visual/biomecânica não presumida; sem integração à cobertura do aplicativo.",
+    "Rosca 21 exportada com sequência explícita de 7+7+7 repetições."
+  ],
+  "visual_reference": "docs/PADRAO_VISUAL_IMAGEM_2.md",
+  "visual_reference_selection": "segunda imagem do comparativo de 50 cards selecionada pelo usuário em 28/10/2026",
+  "visual_reference_note": "A imagem é um mockup. Os 25 GIFs deste lote ainda não foram produzidos/aprovados; o padrão guia os renders individuais e o catálogo.",
+  "counted_in_app_coverage": true,
+  "associated_with_exercises": true,
+  "coverage_kind": "vinculo_cadastral_nao_aprovacao_biomecanica",
+  "approved_gifs": 0
+}

@@ -5,7 +5,7 @@
   "repo": "dutrafg/EvoluPersonal",
   "branch": "codex/evolupersonal-media-350",
   "source": "500 Exercícios Base de Musculação.md",
-  "status": "PRODUZIDO_PARA_REVISAO_FINAL",
+  "status": "ASSOCIADO_REVISAO_FINAL_PENDENTE",
   "target": 25,
   "completed_gifs": 25,
   "production_grade": "3D anatômico detalhado igual à biblioteca histórica; roupa de compressão cinza, musculatura ativada em laranja; aparelho correto",
@@ -45,10 +45,11 @@
         "Retornar os halteres à altura dos ombros sem arquear a lombar"
       ],
       "output_path": "dist/assets/md500-3d/md292.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "render_validated": true,
       "visual_qa_approved": false,
-      "reference_source": "500 Exercícios Base de Musculação.md"
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
     },
     {
       "md_id": 76,
@@ -70,10 +71,11 @@
         "Braços voltam a se alongar acima da cabeça"
       ],
       "output_path": "dist/assets/md500-3d/md76.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "render_validated": true,
       "visual_qa_approved": false,
-      "reference_source": "500 Exercícios Base de Musculação.md"
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
     },
     {
       "md_id": 88,
@@ -95,10 +97,11 @@
         "Retornar braço à extensão inicial, pelve e pés fixos"
       ],
       "output_path": "dist/assets/md500-3d/md88.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "render_validated": true,
       "visual_qa_approved": false,
-      "reference_source": "500 Exercícios Base de Musculação.md"
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
     },
     {
       "md_id": 101,
@@ -120,10 +123,11 @@
         "Retornar à extensão com escápulas controladas"
       ],
       "output_path": "dist/assets/md500-3d/md101.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "render_validated": true,
       "visual_qa_approved": false,
-      "reference_source": "500 Exercícios Base de Musculação.md"
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
     },
     {
       "md_id": 109,
@@ -145,10 +149,11 @@
         "Retornar ao braço acima da cabeça sem troca de mão"
       ],
       "output_path": "dist/assets/md500-3d/md109.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "render_validated": true,
       "visual_qa_approved": false,
-      "reference_source": "500 Exercícios Base de Musculação.md"
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
     },
     {
       "md_id": 152,
@@ -169,10 +174,11 @@
         "Retornar à posição ereta e manter mãos nas alças"
       ],
       "output_path": "dist/assets/md500-3d/md152.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "render_validated": true,
       "visual_qa_approved": false,
-      "reference_source": "500 Exercícios Base de Musculação.md"
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
     },
     {
       "replace": 153,
@@ -193,9 +199,10 @@
       "name": "Encolhimento de Ombros com Barra por Trás",
       "group": "Costas / Trapézio",
       "output_path": "dist/assets/md500-3d/md118.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "visual_qa_approved": false,
-      "render_validated": true
+      "render_validated": true,
+      "associated_with_exercise": true
     },
     {
       "replace": 155,
@@ -216,9 +223,10 @@
       "name": "Encolhimento de Ombros no Smith",
       "group": "Costas / Trapézio",
       "output_path": "dist/assets/md500-3d/md122.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "visual_qa_approved": false,
-      "render_validated": true
+      "render_validated": true,
+      "associated_with_exercise": true
     },
     {
       "md_id": 170,
@@ -239,10 +247,11 @@
         "Voltar ao início sem bloquear totalmente os joelhos"
       ],
       "output_path": "dist/assets/md500-3d/md170.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "render_validated": true,
       "visual_qa_approved": false,
-      "reference_source": "500 Exercícios Base de Musculação.md"
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
     },
     {
       "replace": 171,
@@ -263,9 +272,10 @@
       "name": "Encolhimento de Ombros na Polia Baixa",
       "group": "Costas / Trapézio",
       "output_path": "dist/assets/md500-3d/md123.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "visual_qa_approved": false,
-      "render_validated": true
+      "render_validated": true,
+      "associated_with_exercise": true
     },
     {
       "md_id": 178,
@@ -286,10 +296,11 @@
         "Retornar à posição inicial sem caminhar ou trocar perna"
       ],
       "output_path": "dist/assets/md500-3d/md178.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "render_validated": true,
       "visual_qa_approved": false,
-      "reference_source": "500 Exercícios Base de Musculação.md"
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
     },
     {
       "md_id": 207,
@@ -311,10 +322,11 @@
         "Voltar a ficar em pé sem hiperestender lombar"
       ],
       "output_path": "dist/assets/md500-3d/md207.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "render_validated": true,
       "visual_qa_approved": false,
-      "reference_source": "500 Exercícios Base de Musculação.md"
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
     },
     {
       "md_id": 208,
@@ -335,10 +347,11 @@
         "Retornar à posição ereta sem compensar na lombar"
       ],
       "output_path": "dist/assets/md500-3d/md208.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "render_validated": true,
       "visual_qa_approved": false,
-      "reference_source": "500 Exercícios Base de Musculação.md"
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
     },
     {
       "replace": 226,
@@ -359,9 +372,10 @@
         "Retornar à postura neutra sem agachar"
       ],
       "output_path": "dist/assets/md500-3d/md125.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "visual_qa_approved": false,
-      "render_validated": true
+      "render_validated": true,
+      "associated_with_exercise": true
     },
     {
       "replace": 229,
@@ -383,9 +397,10 @@
         "Retornar ao centro com ombros elevados e pés imóveis"
       ],
       "output_path": "dist/assets/md500-3d/md493.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "visual_qa_approved": false,
-      "render_validated": true
+      "render_validated": true,
+      "associated_with_exercise": true
     },
     {
       "md_id": 249,
@@ -406,10 +421,11 @@
         "Retornar à posição inferior sem tirar os pés do solo"
       ],
       "output_path": "dist/assets/md500-3d/md249.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "render_validated": true,
       "visual_qa_approved": false,
-      "reference_source": "500 Exercícios Base de Musculação.md"
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
     },
     {
       "md_id": 298,
@@ -431,10 +447,11 @@
         "Retornar à altura do ombro sem passar por trás da nuca"
       ],
       "output_path": "dist/assets/md500-3d/md298.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "render_validated": true,
       "visual_qa_approved": false,
-      "reference_source": "500 Exercícios Base de Musculação.md"
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
     },
     {
       "md_id": 303,
@@ -455,10 +472,11 @@
         "Retornar ao nível dos ombros sem tirar costas do encosto"
       ],
       "output_path": "dist/assets/md500-3d/md303.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "render_validated": true,
       "visual_qa_approved": false,
-      "reference_source": "500 Exercícios Base de Musculação.md"
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
     },
     {
       "md_id": 373,
@@ -479,10 +497,11 @@
         "Retornar à posição baixa para fechar ciclo, com instrução 7+7+7"
       ],
       "output_path": "dist/assets/md500-3d/md373.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "render_validated": true,
       "visual_qa_approved": false,
-      "reference_source": "500 Exercícios Base de Musculação.md"
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
     },
     {
       "md_id": 473,
@@ -503,10 +522,11 @@
         "Retornar próximas ao solo sem tocar os calcanhares"
       ],
       "output_path": "dist/assets/md500-3d/md473.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "render_validated": true,
       "visual_qa_approved": false,
-      "reference_source": "500 Exercícios Base de Musculação.md"
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
     },
     {
       "md_id": 38,
@@ -528,10 +548,11 @@
         "Concluir com cotovelo flexionado e apoio dos dois pés"
       ],
       "output_path": "dist/assets/md500-3d/md38.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "render_validated": true,
       "visual_qa_approved": false,
-      "reference_source": "500 Exercícios Base de Musculação.md"
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
     },
     {
       "md_id": 111,
@@ -553,10 +574,11 @@
         "Terminar sem dobrar excessivamente os cotovelos"
       ],
       "output_path": "dist/assets/md500-3d/md111.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "render_validated": true,
       "visual_qa_approved": false,
-      "reference_source": "500 Exercícios Base de Musculação.md"
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
     },
     {
       "md_id": 115,
@@ -578,10 +600,11 @@
         "Descer a barra ao solo com controle mantendo os pés sobre a plataforma"
       ],
       "output_path": "dist/assets/md500-3d/md115.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "render_validated": true,
       "visual_qa_approved": false,
-      "reference_source": "500 Exercícios Base de Musculação.md"
+      "reference_source": "500 Exercícios Base de Musculação.md",
+      "associated_with_exercise": true
     },
     {
       "md_id": 128,
@@ -602,9 +625,10 @@
         "Retornar à barra junto às coxas"
       ],
       "output_path": "dist/assets/md500-3d/md128.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "visual_qa_approved": false,
-      "render_validated": true
+      "render_validated": true,
+      "associated_with_exercise": true
     },
     {
       "md_id": 23,
@@ -626,9 +650,10 @@
         "Retornar à extensão dos cotovelos sobre o tórax superior"
       ],
       "output_path": "dist/assets/md500-3d/md23.gif",
-      "status": "gif_produzido_revisao_final_pendente",
+      "status": "associado_revisao_final_pendente",
       "visual_qa_approved": false,
-      "render_validated": true
+      "render_validated": true,
+      "associated_with_exercise": true
     }
   ],
   "prepared_poses": 150,
@@ -642,5 +667,8 @@
   "visual_reference": "docs/PADRAO_VISUAL_IMAGEM_2.md",
   "visual_reference_selection": "segunda imagem do comparativo de 50 cards selecionada pelo usuário em 28/10/2026",
   "visual_reference_note": "A imagem é um mockup. Os 25 GIFs deste lote ainda não foram produzidos/aprovados; o padrão guia os renders individuais e o catálogo.",
-  "counted_in_app_coverage": false
+  "counted_in_app_coverage": true,
+  "associated_with_exercises": true,
+  "coverage_kind": "vinculo_cadastral_nao_aprovacao_biomecanica",
+  "approved_gifs": 0
 }

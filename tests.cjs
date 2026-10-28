@@ -10,13 +10,13 @@ check('seed().students.length',4);
 check('catalog.length',500);
 check('seed().exercises.length',500);
 check("catalog.every((x,i)=>x.id==='md'+(i+1))");
-check('catalog.filter(x=>!!x.animation).length',288);
+check('catalog.filter(x=>!!x.animation).length',346);
 check('catalog.find(x=>x.id==="md85").animation','assets/exercises/e165.gif');
 check('catalog.find(x=>x.id==="md131").animation','assets/exercises/e299.gif');
 check('catalog.find(x=>x.id==="md132").animation','assets/exercises/e300.gif');
 check('catalog.find(x=>x.id==="md172").animation','assets/exercises/e259.gif');
-check('catalog.find(x=>x.id==="md292").animation','');
-check('catalog.find(x=>x.id==="md357").animation','');
+check('catalog.find(x=>x.id==="md292").animation','assets/md500-3d/md292.gif');
+check('catalog.find(x=>x.id==="md357").animation','assets/exercises/e141.gif');
 check('catalog.every(x=>x.md_id>=1&&x.md_id<=500)');
 
 check('makeDraft(seed().workouts[0]).records.length',9);
@@ -44,3 +44,4 @@ check('(()=>{document.getElementById("groupFilter").onchange({currentTarget:{val
 check('(()=>{document.getElementById("studentSearch").oninput({currentTarget:{value:"Carlos"}});return document.getElementById("studentGrid").innerHTML.includes("Carlos Mendes")&&!document.getElementById("studentGrid").innerHTML.includes("Ana Oliveira")})()');
 check('(()=>{toggleTheme();return JSON.parse(localStorage.getItem(KEY)).theme==="dark"})()');
 console.log(n+' verificações passaram: backup, vínculos, limites de prescrição, sessão, segurança de links e persistência.');
+

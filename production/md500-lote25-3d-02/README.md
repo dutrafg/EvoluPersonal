@@ -1,3 +1,5 @@
+> Atualização de associação — 28/10/2026: os 25 GIFs deste lote agora estão vinculados aos exercícios no aplicativo da branch de desenvolvimento, com identificação de revisão pendente. O texto abaixo registra a situação no momento da produção; não constitui aprovação biomecânica.
+
 # MD500-25-02 — segundo lote de GIFs com visual 3D
 
 25 GIFs novos, de números MD distintos, sem repetir os 25 GIFs do lote MD500-25-01. A fonte dos nomes continua sendo docs/500-exercicios-base.md.
@@ -53,4 +55,5 @@ A montagem recorta as poses, retira separadores quando presentes e aplica frame-
 Use production/INVENTARIO_MD500.json e production/FILA_MD500_ATUAL.json como controles atuais. Os inventários e filas dentro das pastas de cada lote preservam o estado daquele lote. Não reconstrua a fila de criação apenas pelos vínculos antigos do HTML, pois isso repetiria os 50 GIFs já produzidos e ainda não integrados.
 
 Partição atual da lista: 295 vínculos existentes + 50 novos produzidos sem vínculo + 1 candidato de equivalência existente + 154 a produzir = 500.
+
 
