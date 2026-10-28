@@ -4,8 +4,8 @@ Data: 28/10/2026.
 
 - Fonte única do catálogo: `500 Exercícios Base de Musculação.md`.
 - Biblioteca visível no app: **500 exercícios, exatamente os nomes e a ordem do MD**.
-- GIFs associados a entradas do MD: **288** (inclui quatro correspondências adicionais verificadas do acervo legado; lote 2D reprovado não contabilizado).
-- Exercícios ainda sem GIF específico: **212**.
+- GIFs associados a entradas do MD: **295** (inclui quatro correspondências adicionais verificadas do acervo legado; lote 2D reprovado não contabilizado).
+- Exercícios ainda sem GIF específico: **205**.
 - O repositório retém 425 GIFs legados para histórico; mídias antigas não correspondentes ao MD não aparecem como exercícios extras na interface.
 - Lote MD500-01: `production/lote-md500-01.json`; 30 GIFs 2D reprovados, arquivos preservados somente para histórico.
 - Gerador reprodutível: `scripts/gerar-animacoes-md.cjs`.
@@ -28,3 +28,13 @@ Modelo anatômico de aspecto 3D, roupa de compressão cinza, músculos ativos de
 - Próxima etapa `production/lote-md500-25-01.json`: **25 exercícios e 150 poses técnicas** com animação ainda pendente de geração/QA.
 - Padrão de exportação `scripts/montar_gif_3d.py`; validadores `scripts/validar_lote_25.cjs` e `scripts/validar_cobertura_500.cjs`.
 - A produção anterior de 30 bonecos 2D permanece reprovada; não subir como GIF aprovado.
+
+## Biblioteca Imagem 2 — integração validada
+
+- Interface dark navy/azul: **5 cards por linha** em desktop grande e adaptação responsiva; escopo de estilos limitado à Biblioteca.
+- Busca + filtros de grupo, **GIF vinculado / pendente / lote atual de 25**; páginas de **50** com navegação.
+- **295** exercícios MD com GIF legado vinculado (cadastral; requer QA anatômico integral) e **205** pendentes.
+- Lote `MD500-25-01`: **25 itens com 150 poses descritas**, **0/25 GIFs novos aprovados**.
+- Testes da interface: `tests-gallery.cjs` executado com resultado PASS.
+- O gerador de imagens devolveu pôsteres de catálogo, **não** folhas válidas de seis poses: nenhuma dessas imagens foi adicionada ao catálogo ou considerada GIF.
+- Continuar a produção **por exercício** e salvar no GitHub cada lote com 25 GIFs realmente verificados; preservar `main`.
