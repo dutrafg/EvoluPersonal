@@ -1,0 +1,129 @@
+[
+  {
+    "md_id": 116,
+    "initial_review": "representa_pegada_aberta_e_terra",
+    "notes": "Pés fixos, barra junto ao corpo e progressão de extensão; revisão biomecânica final pendente."
+  },
+  {
+    "md_id": 162,
+    "initial_review": "representa_overhead_squat",
+    "notes": "Barra acima da cabeça e cotovelos estendidos; pequena margem superior na primeira pose."
+  },
+  {
+    "md_id": 163,
+    "initial_review": "reprovado_equipamento",
+    "notes": "Alças não previstas; precisa de nova folha.",
+    "final_initial_review": "corrigido_via_imagegen",
+    "correction_notes": "Folha final remove os extensores e eleva a barra/placas até a altura das mãos nos quadros eretos."
+  },
+  {
+    "md_id": 166,
+    "initial_review": "representa_sumo_no_smith",
+    "notes": "Base aberta e barra em trilhos; quadro inferior com margens fixas."
+  },
+  {
+    "md_id": 168,
+    "initial_review": "representa_barra_livre_atras_das_pernas",
+    "notes": "Barra atrás do corpo, sem máquina; progresso de agachamento visível."
+  },
+  {
+    "md_id": 176,
+    "initial_review": "representa_variante_md",
+    "notes": "Ordem do retorno ajustada na montagem para evitar salto à posição ereta."
+  },
+  {
+    "md_id": 177,
+    "initial_review": "representa_variante_md",
+    "notes": "Ordem do retorno ajustada na montagem para evitar salto à posição ereta."
+  },
+  {
+    "md_id": 184,
+    "initial_review": "representa_variante_md",
+    "notes": "Movimento/equipamento correspondem à variante, sem assumir aprovação biomecânica final."
+  },
+  {
+    "md_id": 187,
+    "initial_review": "representa_movimento_com_variacao_enquadramento",
+    "notes": "A caixa muda ligeiramente de posição entre poses; registrar para revisão final de enquadramento."
+  },
+  {
+    "md_id": 188,
+    "initial_review": "representa_movimento_com_variacao_enquadramento",
+    "notes": "A caixa muda ligeiramente de posição entre poses; registrar para revisão final de enquadramento."
+  },
+  {
+    "md_id": 191,
+    "initial_review": "representa_variante_md",
+    "notes": "Movimento/equipamento correspondem à variante, sem assumir aprovação biomecânica final."
+  },
+  {
+    "md_id": 211,
+    "initial_review": "representa_variante_md",
+    "notes": "Ordem do retorno ajustada na montagem para evitar salto à posição ereta."
+  },
+  {
+    "md_id": 213,
+    "initial_review": "representa_variante_md",
+    "notes": "Ordem do retorno ajustada na montagem para evitar salto à posição ereta."
+  },
+  {
+    "md_id": 217,
+    "initial_review": "representa_bom_dia_no_smith",
+    "notes": "Barra nas costas; ordem de retorno corrigida na montagem."
+  },
+  {
+    "md_id": 218,
+    "initial_review": "representa_bom_dia_ssb",
+    "notes": "Yoke e alças frontais da SSB visíveis, movimento de dobradiça de quadril."
+  },
+  {
+    "md_id": 251,
+    "initial_review": "representa_hip_thrust_com_halter",
+    "notes": "Escápulas no banco, halter no quadril e pés no chão; revisão final pendente."
+  },
+  {
+    "md_id": 257,
+    "initial_review": "representa_variante_md",
+    "notes": "Equipamento e posição principal correspondem à variante; aprovação final pendente."
+  },
+  {
+    "md_id": 258,
+    "initial_review": "representa_variante_md",
+    "notes": "Ambos os pés no banco e ombros no chão, distinguindo da elevação com escápulas no banco."
+  },
+  {
+    "md_id": 305,
+    "initial_review": "representa_variante_md",
+    "notes": "Braços alternados identificados; montagem usa oito quadros para completar as subidas e descidas. Pequena deriva de enquadramento."
+  },
+  {
+    "md_id": 306,
+    "initial_review": "representa_variante_md",
+    "notes": "Equipamento e posição principal correspondem à variante; aprovação final pendente."
+  },
+  {
+    "md_id": 307,
+    "initial_review": "representa_variante_md",
+    "notes": "Equipamento e posição principal correspondem à variante; aprovação final pendente."
+  },
+  {
+    "md_id": 313,
+    "initial_review": "representa_variante_md",
+    "notes": "Kettlebell invertido, corpo pesado acima da mão, visível nas seis poses."
+  },
+  {
+    "md_id": 374,
+    "initial_review": "representa_variante_md",
+    "notes": "Barra próxima do tronco e cotovelos deslocados para trás."
+  },
+  {
+    "md_id": 379,
+    "initial_review": "representa_variante_md",
+    "notes": "Um halter vertical apoiado pela cabeça superior com as duas palmas."
+  },
+  {
+    "md_id": 380,
+    "initial_review": "representa_variante_md",
+    "notes": "Uma anilha segurada pelas bordas, com flexão de cotovelos."
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "md_id": 116,
+    "name": "Levantamento Terra Snatch Grip (Pegada muito aberta)",
+    "file": "../../dist/assets/md500-3d/md116.gif",
+    "repository_path": "dist/assets/md500-3d/md116.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 102398,
+    "sha256": "57149466a62208fe9a993fd4b7f6452940d0bdf16a25d222018b9a18f17dfdc0",
+    "git_blob_sha": "430c366849d6401190f4dfb1d77825a172d1891e",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 162,
+    "name": "Agachamento Acima da Cabeça (Overhead Squat)",
+    "file": "../../dist/assets/md500-3d/md162.gif",
+    "repository_path": "dist/assets/md500-3d/md162.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 103885,
+    "sha256": "3d53e395e2e6a0b06ce1ab2f30331c8e91eda995af9cfe6b7f482f318aa1c5de",
+    "git_blob_sha": "6c6b5f080373c562b4dd486fc14cd974549c949d",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 163,
+    "name": "Agachamento Jefferson (Barra entre as pernas)",
+    "file": "../../dist/assets/md500-3d/md163.gif",
+    "repository_path": "dist/assets/md500-3d/md163.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 107094,
+    "sha256": "4ee7f8d30c59343efb874a04c41554d9c1361c5af711103274143a2434e5da2c",
+    "git_blob_sha": "efee74eac471c0084fb34baaadf066b0401db25c",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 166,
+    "name": "Agachamento Sumô no Smith",
+    "file": "../../dist/assets/md500-3d/md166.gif",
+    "repository_path": "dist/assets/md500-3d/md166.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 120353,
+    "sha256": "644aa67a8996a532c9db26e03e7bdc762955948ba6592a5300b5ae9dde2a5749",
+    "git_blob_sha": "7e23647870b58f544c8b74f56c9740c2510f0fb8",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 168,
+    "name": "Agachamento Hack com Barra Livre (Barra por trás das pernas)",
+    "file": "../../dist/assets/md500-3d/md168.gif",
+    "repository_path": "dist/assets/md500-3d/md168.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 102634,
+    "sha256": "9f74875b43b7ba4fb1c18a84048a5588c32632131b67cb2b54f6aa5584a54c18",
+    "git_blob_sha": "b30b905d97f4984db3f6fb03030d9b981ec8dea9",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 176,
+    "name": "Afundo Estático com Barra Livre (Split Squat)",
+    "file": "../../dist/assets/md500-3d/md176.gif",
+    "repository_path": "dist/assets/md500-3d/md176.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 102398,
+    "sha256": "68bf34aa3532e4d263d52e05a2ea6dd4ea49282baa729c61be1dfcb0aad2f7b4",
+    "git_blob_sha": "ba089f4338038baef094df4e6898b1fb3e3a9204",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 177,
+    "name": "Afundo Estático com Halteres",
+    "file": "../../dist/assets/md500-3d/md177.gif",
+    "repository_path": "dist/assets/md500-3d/md177.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 94580,
+    "sha256": "34beff0323906adb7dece28e049f04652eafc4f01136cda58d18e37a554bf3c1",
+    "git_blob_sha": "e3a354b3e350cd84d45928c25df859c0d70bc65b",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 184,
+    "name": "Agachamento Búlgaro com Barra Livre",
+    "file": "../../dist/assets/md500-3d/md184.gif",
+    "repository_path": "dist/assets/md500-3d/md184.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 106918,
+    "sha256": "3214c7ab548574680a16268e82c33ba57d66ee03836c8081bc673cb0aa17071b",
+    "git_blob_sha": "a7517886ec2ba33fa1a8afa7073c490d25bd7229",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 187,
+    "name": "Subida no Banco com Barra",
+    "file": "../../dist/assets/md500-3d/md187.gif",
+    "repository_path": "dist/assets/md500-3d/md187.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 100327,
+    "sha256": "2d52d63b80c8f6a6b5dff61c784a1077951d2954406c16e2557eeb661eb1f0c4",
+    "git_blob_sha": "f510fb342ad00fc92e151a00b874d2d69c704806",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 188,
+    "name": "Step-up Lateral na Caixa",
+    "file": "../../dist/assets/md500-3d/md188.gif",
+    "repository_path": "dist/assets/md500-3d/md188.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 100395,
+    "sha256": "fa0b62b38a3f05410ac3b16927ef2eddc0e43d6a286debb9849ecc450031fe5c",
+    "git_blob_sha": "fcdef2791f1dc63bdc4a10a7a11941595bbbd4ac",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 191,
+    "name": "Agachamento Pistol (Unilateral com peso do corpo)",
+    "file": "../../dist/assets/md500-3d/md191.gif",
+    "repository_path": "dist/assets/md500-3d/md191.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 102150,
+    "sha256": "12f49353271d0ee782f73160d8d9402aab7a435b69b783fd40e3bd34d4e83730",
+    "git_blob_sha": "2d592544489f2f410f10db7ed606ec453f67b2c8",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 211,
+    "name": "RDL em Base Assimétrica (B-Stance RDL com Barra ou Halteres)",
+    "file": "../../dist/assets/md500-3d/md211.gif",
+    "repository_path": "dist/assets/md500-3d/md211.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 95001,
+    "sha256": "6a461031abd0ae8f063e44ca0bbb3f878cdf6738b815c85d7e6c4d4dd0830cdd",
+    "git_blob_sha": "8149d9f5db314b0f9d86e7bbd2c54200fa5e5374",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 213,
+    "name": "RDL na Polia Baixa",
+    "file": "../../dist/assets/md500-3d/md213.gif",
+    "repository_path": "dist/assets/md500-3d/md213.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 109473,
+    "sha256": "b6cb036bebd6ccde01cccdd2fd7c182f068b1d1765dba69de3330969693d0e6d",
+    "git_blob_sha": "69c295ee0c5f5ee633fb0c16edaa19ce0cd32f8c",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 217,
+    "name": "Bom Dia no Smith",
+    "file": "../../dist/assets/md500-3d/md217.gif",
+    "repository_path": "dist/assets/md500-3d/md217.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 123702,
+    "sha256": "1e98897e5c4399c8e27f57fa17c45821c99b45ea7f4d11a090163871af8d8b5a",
+    "git_blob_sha": "5bd3a026e4e201305376c5a7df3018cb07915c8b",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 218,
+    "name": "Bom Dia com Barra de Segurança (SSB Good Morning)",
+    "file": "../../dist/assets/md500-3d/md218.gif",
+    "repository_path": "dist/assets/md500-3d/md218.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 103213,
+    "sha256": "c720ee00bf496a5819699efed37c961e62bffd1cd329ee91bcb01bcfa1233f4a",
+    "git_blob_sha": "e90ed102c8bb80b697bca478beba43865b85e419",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 251,
+    "name": "Elevação Pélvica com Halter ou Kettlebell",
+    "file": "../../dist/assets/md500-3d/md251.gif",
+    "repository_path": "dist/assets/md500-3d/md251.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 101663,
+    "sha256": "dd994eccc82eba461d73594cccb16d53984c395fb380bac811bfd7fab2a6cc8d",
+    "git_blob_sha": "2940ac82e761131bfe8eea10c25a334ba6338cd5",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 257,
+    "name": "Frog Pump (Ponte de glúteo com solas dos pés unidas)",
+    "file": "../../dist/assets/md500-3d/md257.gif",
+    "repository_path": "dist/assets/md500-3d/md257.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 97879,
+    "sha256": "0ba45e77bc4b0d5c834d9bf93ca3003c8c059164f170d45f2aa7a778fc959936",
+    "git_blob_sha": "c995d0592f8eedd02914246ce805c80070c73c7a",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 258,
+    "name": "Elevação Pélvica com Pés Elevados no Banco",
+    "file": "../../dist/assets/md500-3d/md258.gif",
+    "repository_path": "dist/assets/md500-3d/md258.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 93627,
+    "sha256": "da746d45a3ef12855100ce8e1a8c86c2f833bc43994f1e46b005aa090ff06b8a",
+    "git_blob_sha": "da7fa77f0746b22d2df3ce9ade03aa07a85bdc92",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 305,
+    "name": "Desenvolvimento Alternado Sentado com Halteres",
+    "file": "../../dist/assets/md500-3d/md305.gif",
+    "repository_path": "dist/assets/md500-3d/md305.gif",
+    "frames": 8,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1440,
+    "bytes": 136105,
+    "sha256": "23c58c3aaa8b0d0837cb9f1339cd2bcae246d09a53977102e8c0350a8bd9e426",
+    "git_blob_sha": "a58e53235d798e6ca42126b84835a90df3626276",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 306,
+    "name": "Push Press com Barra (Desenvolvimento com impulso das pernas)",
+    "file": "../../dist/assets/md500-3d/md306.gif",
+    "repository_path": "dist/assets/md500-3d/md306.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 97402,
+    "sha256": "962989545a8769681475d21fc5d60b58b45dafd929e942dee4e6e691fb3a7189",
+    "git_blob_sha": "055ca3e801fefd3cd46888f5d00ca0969973c520",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 307,
+    "name": "Z-Press (Desenvolvimento sentado no chão com pernas estendidas à frente)",
+    "file": "../../dist/assets/md500-3d/md307.gif",
+    "repository_path": "dist/assets/md500-3d/md307.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 107122,
+    "sha256": "6cbf94f56ff4cbb00c4beba37fed06da6699119f88f3285c554dd207f5a22c7d",
+    "git_blob_sha": "6692d14f1fbb354bff77a8a5eb80b8df8e37b71c",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 313,
+    "name": "Desenvolvimento com Kettlebell de Cabeça para Baixo (Bottoms-up KB Press)",
+    "file": "../../dist/assets/md500-3d/md313.gif",
+    "repository_path": "dist/assets/md500-3d/md313.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 100023,
+    "sha256": "f031a40ea909e0a341b4633caa3cd56f4f4024769c293c85b22bda725948c87e",
+    "git_blob_sha": "0f68ccbe1ddd5a0680192348f28bc2937e551cab",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 374,
+    "name": "Rosca Arrasto com Barra ou no Smith (Drag Curl - cotovelos vão para trás)",
+    "file": "../../dist/assets/md500-3d/md374.gif",
+    "repository_path": "dist/assets/md500-3d/md374.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 103249,
+    "sha256": "014f7da05624de3d85989ac0776d7ba2f0ff75cb85a71e1b5ac54b57112066dc",
+    "git_blob_sha": "3d9917d0d6aee9e8168a2a1969ca0791ee17c49c",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 379,
+    "name": "Rosca Garçom (Waiter's Curl - segurando a cabeça de um único halter com as duas mãos)",
+    "file": "../../dist/assets/md500-3d/md379.gif",
+    "repository_path": "dist/assets/md500-3d/md379.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 103102,
+    "sha256": "8a437384571c21ea69b7bcd64824ddd5c1d8852b1d380d5cefe8441126815c34",
+    "git_blob_sha": "331ce6dde54221bef05e71d52e589ef565fa06b7",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 380,
+    "name": "Rosca com Anilha (Plate Curl)",
+    "file": "../../dist/assets/md500-3d/md380.gif",
+    "repository_path": "dist/assets/md500-3d/md380.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 98689,
+    "sha256": "c4af271d2288d5f90625a6c38cfe49467e92304e11440ac5278e59895fee5702",
+    "git_blob_sha": "7192ec46d15aa22e775ca302d137c2df2abad295",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  }
+]
