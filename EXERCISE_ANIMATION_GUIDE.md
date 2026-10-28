@@ -73,6 +73,10 @@ As ilustrações são didáticas e não substituem avaliação individual ou ins
 
 Os lotes novos são produzidos **somente a partir dos nomes e números 1–500 do arquivo `500 Exercícios Base de Musculação.md`**. A contagem não considera GIF de variações extras como substituto automático de exercício do MD.
 
-O primeiro novo lote contém 30 GIFs independentes `dist/assets/md500/md<ID>.gif`. O código para reprodução local é `scripts/gerar-animacoes-md.cjs`. **Este lote é ilustrativo 2D, não atende ainda o requisito visual final de modelos 3D.** A auditoria humana da execução e a adequação ao plano de treino permanecem requisitos para aprovação final.
+O primeiro novo lote, **reprovado e desativado**, continha 30 GIFs independentes `dist/assets/md500/md<ID>.gif`. O código para reprodução local é `scripts/gerar-animacoes-md.cjs`. **Este lote é ilustrativo 2D, não atende ainda o requisito visual final de modelos 3D.** A auditoria humana da execução e a adequação ao plano de treino permanecem requisitos para aprovação final.
 
-Meta atual: 500 entradas canônicas, 314 GIFs vinculados e 186 entradas a produzir, sempre em lotes de 30; o último lote poderá ser menor. Continuar usando `production/FILA_PRIORIDADE_COBERTURA_MD500.json` como fila oficial; planos anteriores lote18–20 só servem como histórico e não autorizam itens externos ao MD.
+Meta atual: 500 entradas canônicas, 284 GIFs legados vinculados e 216 entradas a produzir, sempre em lotes de 30; o último lote poderá ser menor. Continuar usando `production/FILA_PRIORIDADE_COBERTURA_MD500.json` como fila oficial; planos anteriores lote18–20 só servem como histórico e não autorizam itens externos ao MD.
+
+## Reprovação visual — 28/10/2026
+
+A amostra feita com bonecos 2D foi rejeitada pelo usuário. Os 30 GIFs de `dist/assets/md500/` não podem voltar a ser classificados como concluídos. O padrão aceito é modelo anatômico de aparência **3D**, roupa de compressão **cinza**, músculos do exercício em **laranja**, **seis poses** representando um ciclo e equipamentos e amplitudes realistas. O modelo deve permanecer consistente em todos os GIFs. Novas imagens estáticas de conceito não devem ser declaradas como animações reais.
