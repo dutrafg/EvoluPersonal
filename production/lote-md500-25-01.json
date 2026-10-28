@@ -640,5 +640,8 @@
     "Os 25 exercícios estão definidos, mas nenhum GIF anatômico 3D novo está concluído ou aprovado.",
     "Amostras ilustrativas em formato infográfico não substituem seis frames isolados, consistentes e tecnicamente corretos.",
     "Cada GIF deve usar material de renderização novo, não assets 2D reprovados."
-  ]
+  ],
+  "visual_reference": "docs/PADRAO_VISUAL_IMAGEM_2.md",
+  "visual_reference_selection": "segunda imagem do comparativo de 50 cards selecionada pelo usuário em 28/10/2026",
+  "visual_reference_note": "A imagem é um mockup. Os 25 GIFs deste lote ainda não foram produzidos/aprovados; o padrão guia os renders individuais e o catálogo."
 }
