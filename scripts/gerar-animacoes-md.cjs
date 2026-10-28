@@ -1,3 +1,4 @@
+// ARQUIVADO/REPROVADO: gerador de bonecos 2D, não usar na produção MD500.
 // Gerador independente de GIFs didáticos MD500 em paleta indexada.
 // Cada movimento possui poses originais, sem reutilização de GIFs de terceiros.
 // "node scripts/gerar-animacoes-md.cjs" extrai 30 GIFs em dist/assets/md500,
@@ -251,6 +252,11 @@ function toBase64(bytes){
 }
 if(typeof module!=='undefined')module.exports={FIRST_30,render,toBase64,FRAME_COUNT,W,H};
 if(typeof require==='function'&&typeof module!=='undefined'&&require.main===module){
+ if(process.env.EVOLUPERSONAL_ALLOW_REJECTED_2D!=='1'){
+  console.error('Gerador 2D REPROVADO. Produção bloqueada. Use apenas para auditoria histórica com EVOLUPERSONAL_ALLOW_REJECTED_2D=1.');
+  process.exitCode=1;
+  return;
+ }
  const fs=require('node:fs'),path=require('node:path');
  const dir=path.join(__dirname,'../dist/assets/md500');fs.mkdirSync(dir,{recursive:true});
  for(const item of FIRST_30){const gif=render(item);const id=String(item[0]);fs.writeFileSync(path.join(dir,'md'+id+'.gif'),gif);}
