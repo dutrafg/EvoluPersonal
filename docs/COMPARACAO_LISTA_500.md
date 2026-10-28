@@ -1,8 +1,8 @@
 # Comparação da lista de 500 exercícios
 
-Biblioteca: **425 GIFs integrados**. Linhas da lista com correspondência documental: **239**; relacionadas com variante exata pendente: **6**; demais a criar: **255**. **Ainda sem cobertura específica confirmada: 261**. Revisado em 28/10/2026.
+Biblioteca: **425 GIFs integrados**. Linhas da lista com correspondência documental: **240**; relacionadas com variante exata pendente: **8**; demais a criar: **252**. **Ainda sem cobertura específica confirmada: 260**. Revisado em 28/10/2026.
 
-Totais por linha da lista não equivalem a GIFs distintos. Correspondências por ID explícito de produção, nome normalizado exato, vínculo anterior e revisão manual de metadados do catálogo. Em 28/10/2026, **42 falsos negativos** foram corrigidos após comparar nomes, movimento, equipamentos e instruções de `dist/index.html`. Uma variante não cobre automaticamente alternativas de equipamento. Esta é auditoria de correspondência cadastral: a execução visual e a qualidade de todos os GIFs precisam de QA separado.
+Totais por linha da lista não equivalem a GIFs distintos. Correspondências por ID explícito de produção, nome normalizado exato, vínculo anterior e revisão manual de metadados do catálogo. Em 28/10/2026, **43 falsos negativos** foram corrigidos após comparar nomes, movimento, equipamentos e instruções de `dist/index.html`. Uma variante não cobre automaticamente alternativas de equipamento. Esta é auditoria de correspondência cadastral: a execução visual e a qualidade de todos os GIFs precisam de QA separado.
 
 | Nº | Exercício | Situação | IDs |
 |---|---|---|---|
@@ -207,11 +207,11 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 199 | Extensão de Joelho na Polia Baixa com Tornozelo Preso | correspondência cadastrada | e320 |
 | 200 | Empurrada de Trenó (Sled Push) / Puxada de Trenó de Costas (Backward Sled Drag) | a criar |  |
 | 201 | Levantamento Terra Romeno com Barra (RDL - Romanian Deadlift) | correspondência cadastrada | e134, e367 |
-| 202 | Stiff com Barra (Pernas semirrígidas) | a criar |  |
+| 202 | Stiff com Barra (Pernas semirrígidas) | correspondência cadastrada | e135 |
 | 203 | Levantamento Terra Romeno com Halteres | correspondência cadastrada | e16 |
 | 204 | Mesa Flexora (Deitado) | correspondência cadastrada | e3 |
 | 205 | Cadeira Flexora (Sentado) | correspondência cadastrada | e105 |
-| 206 | Bom Dia com Barra (Good Morning) | a criar |  |
+| 206 | Bom Dia com Barra (Good Morning) | variação relacionada; falta a exata | e323 |
 | 207 | Stiff com Halteres | a criar |  |
 | 208 | RDL no Smith | a criar |  |
 | 209 | Stiff no Smith | a criar |  |
@@ -362,7 +362,7 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 354 | Rosca Simultânea em Pé com Halteres | correspondência cadastrada | e140 |
 | 355 | Rosca Martelo com Halteres (Foco em Braquial e Braquiorradial) | correspondência cadastrada | e43 |
 | 356 | Rosca Scott com Barra W (Preacher Curl) | correspondência cadastrada | e335, e62 |
-| 357 | Rosca no Banco Inclinado 45° com Halteres (Braços alongados atrás do tronco) | a criar |  |
+| 357 | Rosca no Banco Inclinado 45° com Halteres (Braços alongados atrás do tronco) | variação relacionada; falta a exata | e141 |
 | 358 | Rosca Scott Unilateral com Halter | correspondência cadastrada | e187 |
 | 359 | Rosca Scott na Máquina | correspondência cadastrada | e160 |
 | 360 | Rosca Scott na Polia Baixa | a criar |  |
@@ -510,7 +510,7 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 
 ## Revisão de falsos negativos — 28/10/2026
 
-O relatório anterior registrava 197 linhas cobertas; a revisão documental localizou 42 correspondências específicas já presentes nos IDs e0–e424. Não foram gerados GIFs adicionais nesta revisão. Os IDs corrigidos foram:
+O relatório anterior registrava 197 linhas cobertas; a revisão documental localizou 43 correspondências específicas já presentes nos IDs e0–e424. Não foram gerados GIFs adicionais nesta revisão. Os IDs corrigidos foram:
 
 - Linha 6 → e292 — Mergulho nas paralelas com foco em peitoral
 - Linha 13 → e250 — Supino reto na máquina convergente
@@ -555,4 +555,14 @@ O relatório anterior registrava 197 linhas cobertas; a revisão documental loca
 - Linha 461 → e148 — Abdominal ajoelhado na polia
 - Linha 488 → e222 — Press Pallof na polia
 
-**Critério de aceite final:** cada uma das 500 linhas da lista original deverá apontar para um exercício com ID estável, equipamento/pegada/posição compatíveis, instrução específica, GIF próprio disponível e validação visual. A contagem de 500 GIFs não substitui essa verificação de cobertura. Os 261 casos pendentes deste relatório poderão diminuir com novas revisões ou novos exercícios.
+**Critério de aceite final:** cada uma das 500 linhas da lista original deverá apontar para um exercício com ID estável, equipamento/pegada/posição compatíveis, instrução específica, GIF próprio disponível e validação visual. A contagem de 500 GIFs não substitui essa verificação de cobertura. Os 260 casos pendentes deste relatório poderão diminuir com novas revisões ou novos exercícios.
+
+## Checagem dos movimentos Base / Principais
+
+Na lista original, há **65 exercícios** marcados nas seções «Exercícios Base / Principais». Após esta revisão documental, **62 têm correspondência cadastrada** e 3 continuam com variante específica pendente:
+
+- **Linha 206 — Bom Dia com Barra:** o catálogo traz e323 (bom dia **sentado**); confirmar e produzir a execução principal em pé.
+- **Linha 292 — Desenvolvimento Sentado com Halteres:** e8 não define a postura sentada e e124 é sentado **com barra**; falta a variante com halteres sentado.
+- **Linha 357 — Rosca no Banco Inclinado a 45° com Halteres:** e141 representa rosca inclinada, mas os metadados não asseguram o ângulo de 45°; conferir o GIF e a inclinação antes de classificar como exata.
+
+**Correção adicional:** a linha 202 (stiff bilateral com barra) já é coberta por e135. Essa checagem usa metadados; os GIFs deverão passar por validação visual específica.
