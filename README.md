@@ -1,4 +1,4 @@
-# EvoluPersonal — Alpha 0.9
+# EvoluPersonal — Alpha 0.9 · Biblioteca MD500
 
 Aplicativo separado para personal trainer, com identidade visual inspirada no EvoluFísico2. O nome é provisório.
 
@@ -11,8 +11,8 @@ Aplicativo separado para personal trainer, com identidade visual inspirada no Ev
 - Percentuais sobre carga base ou série anterior, carga não definida e unidade por equipamento.
 - Descanso antes de cada série, RIR alvo/realizado, GIF na execução e histórico de séries.
 - Sugestões de progressão por todas as séries de trabalho ou pela principal, sem alterar cargas automaticamente.
-- Migração de backups e bases versão 1 para versão 2 sem excluir registros.
-- Biblioteca com 425 exercícios e GIFs originais em loop, destaque muscular em laranja e instruções em português brasileiro; cadastro e edição de exercícios próprios e links externos de demonstração.
+- Migração de backups e bases versão 1 para versão 2 sem excluir registros; mudança para catálogo MD500 preserva as referências históricas de treinos antigos e cria cópia local antes da adaptação.
+- Biblioteca oficial com os **500 exercícios do arquivo `500 Exercícios Base de Musculação.md`**, na mesma ordem e com os nomes originais. **314 possuem GIF específico vinculado** (284 animações anteriores reutilizadas + 30 novas em `dist/assets/md500/`); 186 aguardam animação.
 - Prévia local da área do aluno: carga e repetições por série, marcação de conclusão, cronômetro, esforço e feedback.
 - Histórico de sessões com cópia dos registros na conclusão.
 - Persistência no navegador, exportação e restauração de backup JSON com validação.
@@ -24,7 +24,7 @@ Não há autenticação individual, sincronização entre personal e aluno, envi
 
 ## Executar
 
-A entrada está em `dist/index.html`. Não há dependências ou build. Pode ser servida por qualquer servidor estático. Mantenha `training-methods.js` e a pasta de GIFs junto ao HTML. A persistência depende do armazenamento do navegador.
+A entrada está em `dist/index.html`. Não há dependências ou build. Pode ser servida por qualquer servidor estático. Mantenha `training-methods.js`, `assets/exercises/` e `assets/md500/` junto ao HTML. A persistência depende do armazenamento do navegador.
 
 ## Verificação da Alpha 0.2
 
@@ -43,3 +43,14 @@ Contas e permissões por aluno, banco de dados e sincronização entre aparelhos
 ## Lote 17
 
 25 variações da lista MD adicionadas com GIFs originais e IDs e400–e424. Total: 425 GIFs. As 500 linhas da referência não equivalem à contagem do catálogo, que inclui variações e sinônimos anteriores.
+
+
+## Biblioteca original MD500 — lote 01 de 30
+
+- Fonte: `500 Exercícios Base de Musculação.md`; **não cadastrar exercícios externos** na biblioteca oficial.
+- Contagem atual: **500 itens oficiais; 314 com GIF; 186 ainda sem GIF**. O catálogo anterior de 425 GIFs permanece como acervo de apoio/histórico; não equivale a 425 itens do MD.
+- Primeiro lote novo: **30 GIFs binários individuais** em `dist/assets/md500/md<ID>.gif`, identificados pelo número no MD. Commit de inclusão: `39a3907d5c560073d16f26ef5fb04d8a1a96b05c`.
+- Formato técnico do lote: 144 × 144, 10 quadros, GIF89a, destaque muscular alaranjado. **As ilustrações novas são didáticas 2D e não substituem o padrão 3D previsto; falta validação visual/biomecânica profissional.**
+- A nova fila em `production/FILA_PRIORIDADE_COBERTURA_MD500.json` contém 186 exercícios, com o próximo grupo de 30 definido.
+- Validação: `node scripts/validar_cobertura_500.cjs`; testes do aplicativo `node tests.cjs` e `node tests-methods.cjs`.
+- O site privado não foi atualizado por este commit. A branch de desenvolvimento é `codex/evolupersonal-media-350`; `main` não foi alterada.
