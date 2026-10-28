@@ -1,0 +1,231 @@
+{
+  "name": "MD500-01",
+  "date": "2026-10-28",
+  "origin": "500 Exercícios Base de Musculação.md",
+  "branch": "codex/evolupersonal-media-350",
+  "exercise_count": 30,
+  "format": "image/gif",
+  "frames": 10,
+  "resolution": "144x144",
+  "style": "prévia didática 2D com músculos destacados em laranja; ainda não equivale ao padrão visual 3D definitivo",
+  "files": [
+    {
+      "md_id": 292,
+      "name": "Desenvolvimento Sentado com Halteres",
+      "path": "dist/assets/md500/md292.gif",
+      "motion": "press",
+      "equipment": "dumbbells"
+    },
+    {
+      "md_id": 357,
+      "name": "Rosca no Banco Inclinado 45° com Halteres (Braços alongados atrás do tronco)",
+      "path": "dist/assets/md500/md357.gif",
+      "motion": "curl",
+      "equipment": "dumbbells"
+    },
+    {
+      "md_id": 76,
+      "name": "Puxada Alta Ajoelhado na Polia",
+      "path": "dist/assets/md500/md76.gif",
+      "motion": "pulldown",
+      "equipment": "cable"
+    },
+    {
+      "md_id": 85,
+      "name": "Remada Baixa Sentado na Polia com Barra Reta (Pegada Aberta)",
+      "path": "dist/assets/md500/md85.gif",
+      "motion": "row",
+      "equipment": "cable"
+    },
+    {
+      "md_id": 88,
+      "name": "Remada Baixa Unilateral na Polia Sentado",
+      "path": "dist/assets/md500/md88.gif",
+      "motion": "row",
+      "equipment": "cable"
+    },
+    {
+      "md_id": 101,
+      "name": "Remada Alta na Polia Sentado com Corda (Puxando em direção ao peito/pescoço)",
+      "path": "dist/assets/md500/md101.gif",
+      "motion": "row",
+      "equipment": "cable"
+    },
+    {
+      "md_id": 109,
+      "name": "Pulldown Unilateral na Polia Alta",
+      "path": "dist/assets/md500/md109.gif",
+      "motion": "pulldown",
+      "equipment": "cable"
+    },
+    {
+      "md_id": 131,
+      "name": "Elevação em T no Banco Inclinado com Halteres (Foco em Romboides)",
+      "path": "dist/assets/md500/md131.gif",
+      "motion": "raise",
+      "equipment": "dumbbells"
+    },
+    {
+      "md_id": 132,
+      "name": "Elevação em W no Banco Inclinado com Halteres",
+      "path": "dist/assets/md500/md132.gif",
+      "motion": "raise",
+      "equipment": "dumbbells"
+    },
+    {
+      "md_id": 152,
+      "name": "Agachamento com Barra de Segurança (Safety Bar Squat - SSB)",
+      "path": "dist/assets/md500/md152.gif",
+      "motion": "squat",
+      "equipment": "safety-bar"
+    },
+    {
+      "md_id": 153,
+      "name": "Agachamento Pêndulo na Máquina (Pendulum Squat)",
+      "path": "dist/assets/md500/md153.gif",
+      "motion": "squat",
+      "equipment": "pendulum"
+    },
+    {
+      "md_id": 155,
+      "name": "Agachamento V-Squat na Máquina",
+      "path": "dist/assets/md500/md155.gif",
+      "motion": "squat",
+      "equipment": "machine"
+    },
+    {
+      "md_id": 170,
+      "name": "Leg Press Vertical (90 Graus)",
+      "path": "dist/assets/md500/md170.gif",
+      "motion": "legpress",
+      "equipment": "vertical-leg-press"
+    },
+    {
+      "md_id": 171,
+      "name": "Leg Press Articulado (Iso-Lateral)",
+      "path": "dist/assets/md500/md171.gif",
+      "motion": "legpress",
+      "equipment": "articulated-leg-press"
+    },
+    {
+      "md_id": 172,
+      "name": "Leg Press 45° Unilateral",
+      "path": "dist/assets/md500/md172.gif",
+      "motion": "legpress",
+      "equipment": "leg-press"
+    },
+    {
+      "md_id": 178,
+      "name": "Afundo Estático no Smith",
+      "path": "dist/assets/md500/md178.gif",
+      "motion": "lunge",
+      "equipment": "smith"
+    },
+    {
+      "md_id": 207,
+      "name": "Stiff com Halteres",
+      "path": "dist/assets/md500/md207.gif",
+      "motion": "hinge",
+      "equipment": "dumbbells"
+    },
+    {
+      "md_id": 208,
+      "name": "RDL no Smith",
+      "path": "dist/assets/md500/md208.gif",
+      "motion": "hinge",
+      "equipment": "smith"
+    },
+    {
+      "md_id": 226,
+      "name": "Cadeira Flexora Unilateral",
+      "path": "dist/assets/md500/md226.gif",
+      "motion": "legcurl",
+      "equipment": "machine"
+    },
+    {
+      "md_id": 229,
+      "name": "Flexão Nórdica (Nordic Hamstring Curl)",
+      "path": "dist/assets/md500/md229.gif",
+      "motion": "nordic",
+      "equipment": "ankle-pad"
+    },
+    {
+      "md_id": 249,
+      "name": "Elevação Pélvica no Smith",
+      "path": "dist/assets/md500/md249.gif",
+      "motion": "bridge",
+      "equipment": "smith"
+    },
+    {
+      "md_id": 298,
+      "name": "Desenvolvimento no Smith (Pela Frente)",
+      "path": "dist/assets/md500/md298.gif",
+      "motion": "press",
+      "equipment": "smith"
+    },
+    {
+      "md_id": 303,
+      "name": "Desenvolvimento Articulado Convergente",
+      "path": "dist/assets/md500/md303.gif",
+      "motion": "press",
+      "equipment": "machine"
+    },
+    {
+      "md_id": 373,
+      "name": "Rosca 21 (7 repetições metade inferior + 7 metade superior + 7 completas)",
+      "path": "dist/assets/md500/md373.gif",
+      "motion": "curl",
+      "equipment": "barbell"
+    },
+    {
+      "md_id": 473,
+      "name": "Abdominal Infra no Solo ou Banco (Elevação de pernas deitado)",
+      "path": "dist/assets/md500/md473.gif",
+      "motion": "legraise",
+      "equipment": "mat"
+    },
+    {
+      "md_id": 38,
+      "name": "Landmine Press (Empurrada unilateral ou bilateral na barra T)",
+      "path": "dist/assets/md500/md38.gif",
+      "motion": "landmine",
+      "equipment": "landmine"
+    },
+    {
+      "md_id": 99,
+      "name": "Remada Serrote na Polia Baixa",
+      "path": "dist/assets/md500/md99.gif",
+      "motion": "row",
+      "equipment": "cable"
+    },
+    {
+      "md_id": 111,
+      "name": "Pullover no Cabo Declinado ou no Banco Reto",
+      "path": "dist/assets/md500/md111.gif",
+      "motion": "pullover",
+      "equipment": "cable"
+    },
+    {
+      "md_id": 115,
+      "name": "Levantamento Terra com Déficit (Em cima de anilha/caixote)",
+      "path": "dist/assets/md500/md115.gif",
+      "motion": "hinge",
+      "equipment": "barbell"
+    },
+    {
+      "md_id": 120,
+      "name": "Encolhimento de Ombros com Halteres Sentado",
+      "path": "dist/assets/md500/md120.gif",
+      "motion": "shrug",
+      "equipment": "dumbbells"
+    }
+  ],
+  "validation": {
+    "unique_md_ids": 30,
+    "no_binary_duplicates": true,
+    "lzw_decoded_frames": 300,
+    "integrated_into_app": true,
+    "biomechanical_manual_review": "pending",
+    "android_visual_test": "pending"
+  }
+}
