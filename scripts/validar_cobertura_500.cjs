@@ -57,6 +57,7 @@ assert.deepEqual([+match[1],+match[2],+match[3]],[
 const open=statuses['variação relacionada; falta a exata']+statuses['a criar'];
 assert.equal(priority.original_500.pending_total,open,'Fila desatualizada');
 assert.equal(priority.original_500.documented_matches,statuses['correspondência cadastrada']);
+assert.equal(priority.priority_batches.length,3,'A fila deve ter tres grupos de 25');
 const picked=new Set();
 for(const batch of priority.priority_batches){
  assert.equal(batch.items.length,25,'Lote prioritario diferente de 25: '+batch.code);
@@ -70,9 +71,11 @@ for(const batch of priority.priority_batches){
 assert.equal(picked.size,75,'Nao existem 75 prioridades distintas');
 const backlog=new Set(priority.remaining_backlog.map(x=>x.original_md_id));
 assert.equal(backlog.size,priority.remaining_backlog.length,'Backlog duplicado');
-for(const n of backlog){
+for(const item of priority.remaining_backlog){
+ const n=item.original_md_id;
  assert(!picked.has(n),'Backlog repetido nas prioridades: '+n);
- assert.equal(rows.get(n)?.status,'a criar'===rows.get(n)?.status?'a criar':'variação relacionada; falta a exata');
+ assert.equal(item.status,rows.get(n)?.status,'Status do backlog desatualizado: '+n);
+ assert.notEqual(item.status,'correspondência cadastrada','Item ja coberto no backlog: '+n);
 }
 assert.equal(backlog.size+picked.size,open,'Fila e backlog nao cobrem todos os pendentes');
 const remainingIds = new Set([...picked,...backlog]);
