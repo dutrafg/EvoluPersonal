@@ -75,8 +75,13 @@ Os lotes novos são produzidos **somente a partir dos nomes e números 1–500 d
 
 O primeiro novo lote, **reprovado e desativado**, continha 30 GIFs independentes `dist/assets/md500/md<ID>.gif`. O código para reprodução local é `scripts/gerar-animacoes-md.cjs`. **Este lote é ilustrativo 2D, não atende ainda o requisito visual final de modelos 3D.** A auditoria humana da execução e a adequação ao plano de treino permanecem requisitos para aprovação final.
 
-Meta atual: 500 entradas canônicas, 284 GIFs legados vinculados e 216 entradas a produzir, sempre em lotes de 30; o último lote poderá ser menor. Continuar usando `production/FILA_PRIORIDADE_COBERTURA_MD500.json` como fila oficial; planos anteriores lote18–20 só servem como histórico e não autorizam itens externos ao MD.
+Meta atual: 500 entradas canônicas, 288 GIFs legados vinculados e 212 entradas a produzir, sempre em lotes de 25; o último lote poderá ser menor. Continuar usando `production/FILA_PRIORIDADE_COBERTURA_MD500.json` como fila oficial; planos anteriores lote18–20 só servem como histórico e não autorizam itens externos ao MD.
 
 ## Reprovação visual — 28/10/2026
 
 A amostra feita com bonecos 2D foi rejeitada pelo usuário. Os 30 GIFs de `dist/assets/md500/` não podem voltar a ser classificados como concluídos. O padrão aceito é modelo anatômico de aparência **3D**, roupa de compressão **cinza**, músculos do exercício em **laranja**, **seis poses** representando um ciclo e equipamentos e amplitudes realistas. O modelo deve permanecer consistente em todos os GIFs. Novas imagens estáticas de conceito não devem ser declaradas como animações reais.
+
+
+## Lotes de 25 — retomada
+
+A produção continua na branch de testes, em grupos de **25 exercícios do MD**. Os movimentos específicos e suas seis poses estão documentados em `production/lote-md500-25-01.json`. Não reutilizar o render 2D rejeitado. O acabamento anatômico 3D, fidelidade dos equipamentos e QA dos seis quadros são obrigatórios antes da integração. A recuperação de vínculos no catálogo não equivale à criação de uma animação nova.
