@@ -12,7 +12,7 @@ Aplicativo separado para personal trainer, com identidade visual inspirada no Ev
 - Descanso antes de cada série, RIR alvo/realizado, GIF na execução e histórico de séries.
 - Sugestões de progressão por todas as séries de trabalho ou pela principal, sem alterar cargas automaticamente.
 - Migração de backups e bases versão 1 para versão 2 sem excluir registros; mudança para catálogo MD500 preserva as referências históricas de treinos antigos e cria cópia local antes da adaptação.
-- Biblioteca oficial com os **500 exercícios do arquivo `500 Exercícios Base de Musculação.md`**, na mesma ordem e com os nomes originais. **288 possuem GIF legado vinculado**; **212 aguardam animação específica**. O lote de 30 animações 2D criado anteriormente foi reprovado e não conta como cobertura.
+- Biblioteca oficial com os **500 exercícios do arquivo `500 Exercícios Base de Musculação.md`**, na mesma ordem e com os nomes originais. **295 possuem GIF legado vinculado**; **205 aguardam animação específica**. O lote de 30 animações 2D criado anteriormente foi reprovado e não conta como cobertura.
 - Prévia local da área do aluno: carga e repetições por série, marcação de conclusão, cronômetro, esforço e feedback.
 - Histórico de sessões com cópia dos registros na conclusão.
 - Persistência no navegador, exportação e restauração de backup JSON com validação.
@@ -48,10 +48,10 @@ Contas e permissões por aluno, banco de dados e sincronização entre aparelhos
 ## Biblioteca original MD500 — lote 01 de 30
 
 - Fonte: `500 Exercícios Base de Musculação.md`; **não cadastrar exercícios externos** na biblioteca oficial.
-- Contagem atual: **500 itens oficiais; 288 com GIF vinculado; 212 ainda sem GIF aprovado**. O catálogo anterior de 425 GIFs permanece como acervo de apoio/histórico; não equivale a 425 itens do MD.
+- Contagem atual: **500 itens oficiais; 295 com GIF vinculado; 205 ainda sem GIF aprovado**. O catálogo anterior de 425 GIFs permanece como acervo de apoio/histórico; não equivale a 425 itens do MD.
 - Primeiro lote de 30 GIFs em `dist/assets/md500/md<ID>.gif`: **REPROVADO** por apresentar bonecos esquemáticos 2D. Arquivos preservados apenas para auditoria, sem vinculação no aplicativo.
 - Formato técnico do lote: 144 × 144, 10 quadros, GIF89a, destaque muscular alaranjado. **O padrão obrigatório é anatômico 3D com roupa de compressão cinza, musculatura ativa em laranja, equipamento correto e seis poses por ciclo.**
-- A nova fila em `production/FILA_PRIORIDADE_COBERTURA_MD500.json` contém 212 exercícios, com o próximo grupo de 25 definido.
+- A nova fila em `production/FILA_PRIORIDADE_COBERTURA_MD500.json` contém 205 exercícios, com o próximo grupo de 25 definido.
 - Validação: `node scripts/validar_cobertura_500.cjs`; testes do aplicativo `node tests.cjs` e `node tests-methods.cjs`.
 - O site privado não foi atualizado por este commit. A branch de desenvolvimento é `codex/evolupersonal-media-350`; `main` não foi alterada.
 
@@ -63,7 +63,16 @@ Em 28/10/2026, a amostra de bonecos 2D foi rejeitada. Os 30 arquivos estão pres
 ## Nova cadência de produção — 25 por lote
 
 - Lote de trabalho `production/lote-md500-25-01.json`: 25 exercícios originais do MD, seis poses técnicas por exercício (150 posições) em planejamento; **nenhum novo GIF 3D deste lote foi aprovado**.
-- Quatro correspondências preexistentes aproveitadas por inspeção: MD85→e165, MD131→e299, MD132→e300 e MD172→e259. Cobertura documental atual **288/500**; pendências **212**.
+- Quatro correspondências preexistentes aproveitadas por inspeção: MD85→e165, MD131→e299, MD132→e300 e MD172→e259. Cobertura documental atual **295/500**; pendências **205**.
 - Compositor de sprites aprovados em `scripts/montar_gif_3d.py`; saída de rascunho em `production/previews-md500-3d/`; entrega definitiva em `dist/assets/md500-3d/`.
 - Verificador `scripts/validar_lote_25.cjs` exige 25 assets diferentes, GIFs ≥400 px e validação de QA registrada antes de declarar o lote concluído. A análise da fidelidade anatômica é uma etapa humana independente.
 - Preservar `main`, preparar um commit com **25 GIFs aprovados de uma só vez**, sem reutilizar o material 2D reprovado.
+
+
+## Biblioteca no visual da imagem 2 — implementação
+
+O módulo **Biblioteca** em `dist/index.html` agora utiliza o layout escuro azul-marinho da imagem 2, com até cinco cards por linha no desktop, redução responsiva em tablet e celular, pesquisa, filtros por grupo e status, paginação de 50 itens e filtro dedicado ao lote atual de 25. A aparência não altera os demais módulos, nem insere exercícios fora da lista MD original.
+
+Cada card utiliza **um GIF real já vinculado** ao MD ou a indicação explícita **“GIF 3D pendente”**. Nenhuma montagem de pôster e nenhum GIF 2D reprovado foi integrado. Em 28/10/2026: **295/500 GIFs vinculados** (ainda sujeitos à revisão biomecânica) e **205** pendentes; novo lote `MD500-25-01` ainda com **0/25 GIFs 3D gerados e aprovados**.
+
+Regressão de interface: `node tests-gallery.cjs` (fonte MD500, contagens, 25 itens no lote, GIFs verdadeiros, busca, filtros, paginação e CSS responsivo). Os testes passaram em execução isolada do JavaScript da aplicação.
