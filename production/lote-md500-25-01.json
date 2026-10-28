@@ -560,31 +560,6 @@
       "reference_source": "500 Exercícios Base de Musculação.md"
     },
     {
-      "md_id": 99,
-      "name": "Remada Serrote na Polia Baixa",
-      "group": "Costas",
-      "equipment": "Polia baixa com pegador unilateral e banco de apoio para mão livre",
-      "highlighted_muscles": [
-        "latíssimo do dorso",
-        "romboides",
-        "bíceps"
-      ],
-      "camera": "lateral 3/4 mostrando tração de cabo baixa e coluna neutra",
-      "poses": [
-        "Tronco inclinado com uma mão apoiada e outra segurando cabo baixo",
-        "Iniciar retração escapular unilateral",
-        "Puxar pegador para o quadril sem rodar tronco",
-        "Cotovelos junto à cintura em posição final",
-        "Estender cotovelo e progredir retorno",
-        "Alcançar braço estendido sem mover base de apoio"
-      ],
-      "output_path": "dist/assets/md500-3d/md99.gif",
-      "status": "aguardando_geracao_3d",
-      "render_validated": false,
-      "visual_qa_approved": false,
-      "reference_source": "500 Exercícios Base de Musculação.md"
-    },
-    {
       "md_id": 111,
       "name": "Pullover no Cabo Declinado ou no Banco Reto",
       "group": "Costas",
@@ -633,6 +608,37 @@
       "render_validated": false,
       "visual_qa_approved": false,
       "reference_source": "500 Exercícios Base de Musculação.md"
+    },
+    {
+      "md_id": 120,
+      "name": "Encolhimento de Ombros com Halteres Sentado",
+      "group": "Costas / Trapézio",
+      "equipment": "Banco plano e dois halteres, um em cada mão",
+      "highlighted_muscles": [
+        "trapézio superior",
+        "elevador da escápula"
+      ],
+      "camera": "frontal 3/4 com banco, ombros, braços e dois halteres visíveis",
+      "poses": [
+        "Sentado no banco com tronco neutro e halteres pendurados ao lado das coxas",
+        "Iniciar elevação vertical de ambos os ombros sem flexionar os cotovelos",
+        "Elevar escápulas em direção às orelhas sem girar os ombros",
+        "Manter contração de trapézio superior com mãos e halteres ao lado do corpo",
+        "Baixar gradualmente os ombros sem inclinar o tronco",
+        "Retornar à posição inicial com ombros relaxados e cotovelos estendidos"
+      ],
+      "output_path": "dist/assets/md500-3d/md120.gif",
+      "status": "aguardando_geracao_3d",
+      "render_validated": false,
+      "visual_qa_approved": false,
+      "reference_source": "500 Exercícios Base de Musculação.md"
     }
+  ],
+  "prepared_poses": 150,
+  "production_notes": [
+    "MD99 foi retirado do lote por equivalência confirmada com GIF legado e254; entrou MD120.",
+    "Os 25 exercícios estão definidos, mas nenhum GIF anatômico 3D novo está concluído ou aprovado.",
+    "Amostras ilustrativas em formato infográfico não substituem seis frames isolados, consistentes e tecnicamente corretos.",
+    "Cada GIF deve usar material de renderização novo, não assets 2D reprovados."
   ]
 }
