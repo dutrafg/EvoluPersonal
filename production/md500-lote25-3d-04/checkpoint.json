@@ -1,0 +1,22 @@
+{
+  "status": "LOTE_COMPLETO_ASSOCIADO_EM_REVISAO",
+  "target": 25,
+  "source_count": 25,
+  "completed_gifs": 25,
+  "associated_with_exercises": true,
+  "approved_gifs": 0,
+  "missing": [],
+  "initial_corrections_addressed": [
+    233,
+    264,
+    342
+  ],
+  "final_visual_review_pending": true,
+  "linked_catalog": 396,
+  "pending_catalog": 104,
+  "review_catalog": 101,
+  "repeated_ids": 0,
+  "repeated_gif_bytes": 0,
+  "branch": "codex/evolupersonal-media-350",
+  "main_modified": false
+}

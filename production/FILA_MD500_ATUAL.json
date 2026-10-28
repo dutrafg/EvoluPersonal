@@ -5,16 +5,6 @@
     "ref": "—"
   },
   {
-    "id": 134,
-    "name": "Retração Escapular na Puxada Alta",
-    "ref": "—"
-  },
-  {
-    "id": 137,
-    "name": "Puxada de Trenó com Corda (Sled Pull)",
-    "ref": "—"
-  },
-  {
     "id": 153,
     "name": "Agachamento Pêndulo na Máquina (Pendulum Squat)",
     "ref": "—"
@@ -50,11 +40,6 @@
     "ref": "—"
   },
   {
-    "id": 212,
-    "name": "RDL no Landmine (Bilateral ou Unilateral)",
-    "ref": "—"
-  },
-  {
     "id": 214,
     "name": "RDL na Máquina de Hack / V-Squat Invertido",
     "ref": "—"
@@ -80,21 +65,6 @@
     "ref": "—"
   },
   {
-    "id": 233,
-    "name": "Flexão de Joelho Deitado na Polia Baixa",
-    "ref": "—"
-  },
-  {
-    "id": 236,
-    "name": "Flexão de Joelho Unilateral na Bola Suíça",
-    "ref": "—"
-  },
-  {
-    "id": 238,
-    "name": "Flexão de Joelho no TRX / Fita de Suspensão",
-    "ref": "—"
-  },
-  {
     "id": 240,
     "name": "Razor Curl no Aparelho de GHR",
     "ref": "—"
@@ -115,11 +85,6 @@
     "ref": "—"
   },
   {
-    "id": 264,
-    "name": "Step-up Cruzado (Cross-over Step-up)",
-    "ref": "—"
-  },
-  {
     "id": 265,
     "name": "Afundo no Smith com Pé de Trás Apoiado no Step e Tronco Inclinado",
     "ref": "—"
@@ -127,16 +92,6 @@
   {
     "id": 269,
     "name": "Coice no Smith (Empurrando a barra com a sola do pé em 4 apoios)",
-    "ref": "—"
-  },
-  {
-    "id": 272,
-    "name": "Levantamento Terra Sumô com Halter ou Kettlebell (Em cima de dois steps)",
-    "ref": "—"
-  },
-  {
-    "id": 273,
-    "name": "Agachamento Ajoelhado no Smith ou com Barra (Kneeling Squat)",
     "ref": "—"
   },
   {
@@ -157,11 +112,6 @@
   {
     "id": 290,
     "name": "Máquina Multiquadril (4-Way Hip Machine - Extensão, Flexão, Abdução, Adução)",
-    "ref": "—"
-  },
-  {
-    "id": 299,
-    "name": "Desenvolvimento por Trás da Nuca com Barra (Behind-the-Neck Press)",
     "ref": "—"
   },
   {
@@ -210,58 +160,8 @@
     "ref": "—"
   },
   {
-    "id": 325,
-    "name": "Remada Alta com Barra Reta ou W (Pegada Média/Aberta - foco em Deltoide Lateral)",
-    "ref": "—"
-  },
-  {
-    "id": 328,
-    "name": "Remada Alta no Smith",
-    "ref": "—"
-  },
-  {
-    "id": 329,
-    "name": "Remada Alta Unilateral com Halter ou na Polia (Monkey Row)",
-    "ref": "—"
-  },
-  {
-    "id": 333,
-    "name": "Elevação Frontal na Polia Baixa com Corda (Puxando por entre as pernas)",
-    "ref": "—"
-  },
-  {
-    "id": 334,
-    "name": "Elevação Frontal na Polia Baixa com Barra",
-    "ref": "—"
-  },
-  {
-    "id": 336,
-    "name": "Elevação Frontal Deitado de Costas no Banco Inclinado",
-    "ref": "—"
-  },
-  {
-    "id": 337,
-    "name": "Elevação Frontal com Peito Apoiado no Banco Inclinado",
-    "ref": "—"
-  },
-  {
-    "id": 342,
-    "name": "Crucifixo Inverso Unilateral na Polia",
-    "ref": "—"
-  },
-  {
-    "id": 343,
-    "name": "Remada para Deltoide Posterior com Halteres (Cotovelos abertos a 90°)",
-    "ref": "—"
-  },
-  {
     "id": 344,
     "name": "Remada para Deltoide Posterior na Polia ou Smith (Rear Delt Row)",
-    "ref": "—"
-  },
-  {
-    "id": 345,
-    "name": "Extensão de Ombro para Trás na Polia ou com Halteres (Skiers / Rear Delt Kickback)",
     "ref": "—"
   },
   {
@@ -280,21 +180,6 @@
     "ref": "—"
   },
   {
-    "id": 360,
-    "name": "Rosca Scott na Polia Baixa",
-    "ref": "—"
-  },
-  {
-    "id": 368,
-    "name": "Rosca Duplo Bíceps na Polia Alta (High Cable Curl / Posição de pose)",
-    "ref": "—"
-  },
-  {
-    "id": 369,
-    "name": "Rosca Hércules Unilateral na Polia Alta",
-    "ref": "—"
-  },
-  {
     "id": 370,
     "name": "Rosca Deitado no Chão na Polia Baixa (Lying Cable Curl)",
     "ref": "—"
@@ -307,16 +192,6 @@
   {
     "id": 372,
     "name": "Rosca na Máquina (Sentado, braços na horizontal)",
-    "ref": "—"
-  },
-  {
-    "id": 375,
-    "name": "Rosca Arrasto com Halteres",
-    "ref": "—"
-  },
-  {
-    "id": 378,
-    "name": "Rosca com Barra H / Romana (Pegada Neutra)",
     "ref": "—"
   },
   {

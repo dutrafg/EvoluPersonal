@@ -1,0 +1,552 @@
+[
+  {
+    "md_id": 134,
+    "name": "Retração Escapular na Puxada Alta",
+    "output_path": "dist/assets/md500-3d/md134.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 113230,
+    "sha256": "f14b9ee707729ba68b3998b604abb7c35e297929817815c409af92e09852de16",
+    "gif_blob_sha": "01cc5e8646ffa19191cf36784e19d1eed5bffae0",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 137,
+    "name": "Puxada de Trenó com Corda (Sled Pull)",
+    "output_path": "dist/assets/md500-3d/md137.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 89755,
+    "sha256": "cb5bc54fa7cf512ff21e23b0f82f843b4f9557edc3d1e5f1c004e1b85d2b907a",
+    "gif_blob_sha": "e305ec670683dcd42172db7b2f8126896497195a",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 212,
+    "name": "RDL no Landmine (Bilateral ou Unilateral)",
+    "output_path": "dist/assets/md500-3d/md212.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 98511,
+    "sha256": "52fdd1830933c5f4f9c237f1e1bbfaa7ae9aabbc55819f8f86e6352091750190",
+    "gif_blob_sha": "dff6ee8042a02315dac0384d40016d52a3fa6a01",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 233,
+    "name": "Flexão de Joelho Deitado na Polia Baixa",
+    "output_path": "dist/assets/md500-3d/md233.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 103590,
+    "sha256": "34171b13e7d507abc2b9e2b7b8d7c06f6428194a5dbadc5b0cd95be133e0ef63",
+    "gif_blob_sha": "65327d634f70c963ae4f41029d79a26ce362af76",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 236,
+    "name": "Flexão de Joelho Unilateral na Bola Suíça",
+    "output_path": "dist/assets/md500-3d/md236.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 98790,
+    "sha256": "7e71925b7f6dfb785598786623cb0ffc3bb2a38336fbf2a262eb1c8445925a14",
+    "gif_blob_sha": "8cb388d49844e24653e0573a4dd91385b2b54dc7",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 238,
+    "name": "Flexão de Joelho no TRX / Fita de Suspensão",
+    "output_path": "dist/assets/md500-3d/md238.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 101498,
+    "sha256": "f0fe862c0ba889d3151cb060aef1561aec4a03af85ea3a440afd7f9fe1bb6f0c",
+    "gif_blob_sha": "f8e6d1cd23e3a66ffff28d6ea0041fdf7c2eab50",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 264,
+    "name": "Step-up Cruzado (Cross-over Step-up)",
+    "output_path": "dist/assets/md500-3d/md264.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 104147,
+    "sha256": "b5b955cd7fbe01998d27b60a36483b83fccfe2e07eecc8a7fd363c11729ebf48",
+    "gif_blob_sha": "6b97702a7c4be1fe69ee6e5783e15e4cd70a44e3",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 272,
+    "name": "Levantamento Terra Sumô com Halter ou Kettlebell (Em cima de dois steps)",
+    "output_path": "dist/assets/md500-3d/md272.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 98398,
+    "sha256": "310ce7306bc0952073e9a18ddb70b21792ae8bd7989bc9b480f41c1144f7546f",
+    "gif_blob_sha": "d8f9cd803d80d031c766fb27951f66ba2933a902",
+    "frame_order": [
+      0,
+      1,
+      2,
+      1,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 273,
+    "name": "Agachamento Ajoelhado no Smith ou com Barra (Kneeling Squat)",
+    "output_path": "dist/assets/md500-3d/md273.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 107395,
+    "sha256": "90c6e6c92d20e7e8e802c1cfefbeda7971529b5148a047229d95443be0b70ef8",
+    "gif_blob_sha": "623dad54f256699c84ddec28149565e5bad86dc3",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 299,
+    "name": "Desenvolvimento por Trás da Nuca com Barra (Behind-the-Neck Press)",
+    "output_path": "dist/assets/md500-3d/md299.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 116046,
+    "sha256": "7a85ae4df800af50d796c64e2eb20d9a9cca53c846a142e4e2c7bab34b5ec7fe",
+    "gif_blob_sha": "ea99f8bcfe24920291cfb05393fe80cbad43207f",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 325,
+    "name": "Remada Alta com Barra Reta ou W (Pegada Média/Aberta - foco em Deltoide Lateral)",
+    "output_path": "dist/assets/md500-3d/md325.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 110372,
+    "sha256": "deb023bd1b89438a4b929b0dcea8dc8b3f6518d8187138d4949a5e45040dc671",
+    "gif_blob_sha": "971668557a4c3f01611ea420095791f2ff4582fb",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 328,
+    "name": "Remada Alta no Smith",
+    "output_path": "dist/assets/md500-3d/md328.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 120243,
+    "sha256": "446e79a49156a9043f4431ed37d5d8dd42e18f3bea3ccfc6e3643a809e531922",
+    "gif_blob_sha": "264ee498050d6a091d6a8bacada9a2a252ae7622",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 329,
+    "name": "Remada Alta Unilateral com Halter ou na Polia (Monkey Row)",
+    "output_path": "dist/assets/md500-3d/md329.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 105467,
+    "sha256": "4a175a8656d54169839bb3a3e41fd309d362f0ef52e938a1420815d8c48544ab",
+    "gif_blob_sha": "ec514b0dd2032fe84380f78ea3569e079c6cab11",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 333,
+    "name": "Elevação Frontal na Polia Baixa com Corda (Puxando por entre as pernas)",
+    "output_path": "dist/assets/md500-3d/md333.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 111495,
+    "sha256": "5b3b3f3d7d8913873d6f79d3bef62f8f6b0c9df49f0d50ab07bd4fc8004d2b7d",
+    "gif_blob_sha": "e9b0122806431421d72c47acf5895e8f0b7d0105",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 334,
+    "name": "Elevação Frontal na Polia Baixa com Barra",
+    "output_path": "dist/assets/md500-3d/md334.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 110945,
+    "sha256": "13b2fe8622fa5b64a40dc48c6cdf5bd0c610fc5469153b15defe4c3e09e826bf",
+    "gif_blob_sha": "bdbe51ace4c9ab3e0afe16e02fa0c312603108d8",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 336,
+    "name": "Elevação Frontal Deitado de Costas no Banco Inclinado",
+    "output_path": "dist/assets/md500-3d/md336.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 111374,
+    "sha256": "3c333848bfe59111d743a4586d69a93c8b60f0fff25b115e77920753eb6364f5",
+    "gif_blob_sha": "8166f65c09d6aefc20ab4198ad3ae70976f971fd",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 337,
+    "name": "Elevação Frontal com Peito Apoiado no Banco Inclinado",
+    "output_path": "dist/assets/md500-3d/md337.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 108513,
+    "sha256": "213f33789c9bb5cd36f87788df09d9c7f9206e38254aff98907f902be2ed431e",
+    "gif_blob_sha": "ef3ab5f26169e989ba7d35ca31c420c1ad6e7f65",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 342,
+    "name": "Crucifixo Inverso Unilateral na Polia",
+    "output_path": "dist/assets/md500-3d/md342.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 111396,
+    "sha256": "91b0974f86c971bb775034a4bb1f1fd05f1bef45986442e7e1e9f7aa5699a347",
+    "gif_blob_sha": "9693fafb980439ed6939bfff9c4db0ff171cd246",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 343,
+    "name": "Remada para Deltoide Posterior com Halteres (Cotovelos abertos a 90°)",
+    "output_path": "dist/assets/md500-3d/md343.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 106511,
+    "sha256": "93c5ae386878fef087ec49510e2303dc06f3623827989ec58340c40dd175ed5d",
+    "gif_blob_sha": "a770c14cb8e5ad9752398441fdbdf955698e16b6",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 345,
+    "name": "Extensão de Ombro para Trás na Polia ou com Halteres (Skiers / Rear Delt Kickback)",
+    "output_path": "dist/assets/md500-3d/md345.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 107067,
+    "sha256": "c439daca16f86ece1e6a375ccd07fe3d380c0f6b63399f7de3190849f5a693e6",
+    "gif_blob_sha": "eba6850b56b80a82b3b8390109d7fc65145cd466",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 360,
+    "name": "Rosca Scott na Polia Baixa",
+    "output_path": "dist/assets/md500-3d/md360.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 115367,
+    "sha256": "2f08eb43e575102bb04e181aa3676f23709e46c82a300ef669020bb347e9bbaf",
+    "gif_blob_sha": "4cc0ae4b432bdcb3adb1b82639751ec013f24c9c",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 368,
+    "name": "Rosca Duplo Bíceps na Polia Alta (High Cable Curl / Posição de pose)",
+    "output_path": "dist/assets/md500-3d/md368.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 110263,
+    "sha256": "dfc161e7ac7bd19dcc3b041cdec6298843f26349c016a568ce7fd26a04e4db82",
+    "gif_blob_sha": "706f17e5fd3ac682fafd47bce051a659700fb65d",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 369,
+    "name": "Rosca Hércules Unilateral na Polia Alta",
+    "output_path": "dist/assets/md500-3d/md369.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 107801,
+    "sha256": "2efb2a446591c076e2677eb3a8349ce615308a3d70ba3c0a33ed9152115fedde",
+    "gif_blob_sha": "5abadd344dac45ecc8a6905184d70a276f89dc67",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 375,
+    "name": "Rosca Arrasto com Halteres",
+    "output_path": "dist/assets/md500-3d/md375.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 100238,
+    "sha256": "05d981586bb3c8e4834ecc842073480c5da913c0d48d07397923aa7ffc019add",
+    "gif_blob_sha": "02296deb7c691275bf909715a9d82be1b3319663",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 378,
+    "name": "Rosca com Barra H / Romana (Pegada Neutra)",
+    "output_path": "dist/assets/md500-3d/md378.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 112758,
+    "sha256": "4e9e8206f95a7cbb13030c2b35d106a598383b3bf766217ee8033a4143593375",
+    "gif_blob_sha": "93cf5b9ee9d7221670949944ec6c40f9b3df48ca",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  }
+]
