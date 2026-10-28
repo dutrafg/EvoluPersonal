@@ -75,7 +75,7 @@ Os lotes novos são produzidos **somente a partir dos nomes e números 1–500 d
 
 O primeiro novo lote, **reprovado e desativado**, continha 30 GIFs independentes `dist/assets/md500/md<ID>.gif`. O código para reprodução local é `scripts/gerar-animacoes-md.cjs`. **Este lote é ilustrativo 2D, não atende ainda o requisito visual final de modelos 3D.** A auditoria humana da execução e a adequação ao plano de treino permanecem requisitos para aprovação final.
 
-Meta atual: 500 entradas canônicas, 288 GIFs legados vinculados e 212 entradas a produzir, sempre em lotes de 25; o último lote poderá ser menor. Continuar usando `production/FILA_PRIORIDADE_COBERTURA_MD500.json` como fila oficial; planos anteriores lote18–20 só servem como histórico e não autorizam itens externos ao MD.
+Meta atual: 500 entradas canônicas, 295 GIFs legados vinculados e 205 entradas a produzir, sempre em lotes de 25; o último lote poderá ser menor. Continuar usando `production/FILA_PRIORIDADE_COBERTURA_MD500.json` como fila oficial; planos anteriores lote18–20 só servem como histórico e não autorizam itens externos ao MD.
 
 ## Reprovação visual — 28/10/2026
 
@@ -90,3 +90,8 @@ A produção continua na branch de testes, em grupos de **25 exercícios do MD**
 ## Referência visual escolhida — imagem 2
 
 A segunda imagem do comparativo de 50 cards foi escolhida pelo usuário como **padrão de layout e acabamento**. Consultar `docs/PADRAO_VISUAL_IMAGEM_2.md` para composição dos cards, personagem e exigências dos GIFs. A imagem selecionada é um mockup, não a publicação de 50 GIFs; os exercícios são gerados individualmente, somente a partir do MD e com validação de cada animação.
+
+
+## Biblioteca Imagem 2 implementada no aplicativo
+
+A grade real de `dist/index.html` usa fundo navy, cartões individuais, até cinco colunas no desktop, estado “GIF 3D pendente” e filtros de mídia, grupo e lote. A UI **não** transforma os pôsteres referenciais em animações e não atribui status “aprovado” a registros sem GIF gerado e validado. Regra: salvar um GIF próprio por exercício, com frames e equipamentos coerentes, e somente depois associar ao catálogo MD500.
