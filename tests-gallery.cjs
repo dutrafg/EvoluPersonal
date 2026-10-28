@@ -28,7 +28,7 @@ const suffix=[
 "return {rendered,first,initial,done,pending,active,firstPage,lastPage,gallerySearch,galleryLegs,currentIds:[...mdCurrentBatchIds]};"
 ].join('\n');
 const outcome=Function('document','window','localStorage','crypto','structuredClone','URL','setTimeout','clearTimeout','setInterval','clearInterval',methods+'\n'+match[1]+'\n'+suffix)(
- document,{scrollTo(){}},localStorage,{randomUUID:()=>('t'+Date.now())},clone,URL,()=>1,()=>{},()=>1,()=>{});
+ document,{scrollTo(){}},localStorage,{randomUUID:()=>('t'+Date.now())},clone,(typeof URL==='undefined'?class FakeURL{}:URL),()=>1,()=>{},()=>1,()=>{});
 const count=s=>(s.match(/class="md-exercise"/g)||[]).length;
 assert.equal(outcome.initial.exercises.filter(x=>/^md\d+$/.test(x.id)).length,500);
 assert.equal(outcome.initial.exercises.filter(x=>/^md\d+$/.test(x.id)&&x.animation).length,295);
