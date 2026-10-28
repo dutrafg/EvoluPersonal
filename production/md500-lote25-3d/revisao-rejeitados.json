@@ -1,0 +1,67 @@
+[
+  {
+    "md_id": 292,
+    "state": "ajuste_pendente",
+    "notes": "pequena deriva do banco e do enquadramento; extensão superior repetida em duas poses"
+  },
+  {
+    "md_id": 76,
+    "state": "revisado",
+    "notes": "ajoelhamento, puxada bilateral e retorno representados; torre extrapola limite superior"
+  },
+  {
+    "md_id": 88,
+    "state": "revisado",
+    "notes": "remada unilateral sentada, apoio de pés e mão inativa estáveis"
+  },
+  {
+    "md_id": 101,
+    "state": "revisado",
+    "notes": "remada sentada com corda, cotovelos abertos e retração escapular representados"
+  },
+  {
+    "md_id": 109,
+    "state": "ajuste_pendente",
+    "notes": "cabo cruza a frente do rosto em algumas poses; pequeno deslocamento lateral do atleta"
+  },
+  {
+    "md_id": 152,
+    "state": "revisado",
+    "notes": "SSB com alças frontais, agachamento bilateral e amplitude distinta"
+  },
+  {
+    "md_id": 153,
+    "state": "revisao_mecanica_pendente",
+    "notes": "Máquina articulada ilustrada; confirmar geometria do eixo do pêndulo."
+  },
+  {
+    "md_id": 155,
+    "state": "reprovado_equipamento",
+    "notes": "Render mostra carrinho em trilho inclinado semelhante a hack, não mecanismo de V-Squat. Refazer ou substituir por outro pendente sem equivalente legado."
+  },
+  {
+    "md_id": 170,
+    "state": "revisado",
+    "notes": "Leg press com carga vertical e pessoa deitada; manter quadril apoiado."
+  },
+  {
+    "md_id": 171,
+    "state": "reprovado_equipamento",
+    "notes": "Plataformas afastadas lateralmente e abdução dos quadris; geometria não representa leg press com pés à frente. Não contar como pronto."
+  },
+  {
+    "md_id": 226,
+    "state": "reprovado_equipamento",
+    "notes": "Posição do rolo e ausência de apoio de coxa não mostram mecanismo confiável de cadeira flexora."
+  },
+  {
+    "md_id": 229,
+    "state": "reprovado_movimento",
+    "notes": "Suporte de mãos e deslocamento do joelho aproximam variante assistida; lista exige nórdica sem assistência."
+  },
+  {
+    "md_id": 120,
+    "state": "reprovado_movimento",
+    "notes": "Duas tentativas com flexão indevida dos cotovelos; substituir por MD128 neste lote e manter MD120 pendente."
+  }
+]

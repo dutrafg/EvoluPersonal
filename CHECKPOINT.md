@@ -38,3 +38,13 @@ Modelo anatômico de aspecto 3D, roupa de compressão cinza, músculos ativos de
 - Testes da interface: `tests-gallery.cjs` executado com resultado PASS.
 - O gerador de imagens devolveu pôsteres de catálogo, **não** folhas válidas de seis poses: nenhuma dessas imagens foi adicionada ao catálogo ou considerada GIF.
 - Continuar a produção **por exercício** e salvar no GitHub cada lote com 25 GIFs realmente verificados; preservar `main`.
+
+
+## Lote de 25 — arquivos animados produzidos
+
+- 25 GIFs novos de IDs MD distintos em `dist/assets/md500-3d/`.
+- Inventário, auditoria, prompts, revisão e próxima fila em `production/md500-lote25-3d/`.
+- Estado: produzidos para revisão final; **não integrados à cobertura do aplicativo**. O total vinculado continua 295.
+- MD357/e141 foi excluído da criação para evitar repetição. Seis tentativas com falhas foram substituídas por outros pendentes; seus IDs permanecem na fila.
+- `proxima-fila.json`: 179 entradas para produção posterior, sem repetir os 25 já produzidos nem MD357/e141.
+- A `main` permanece intacta. Consultar `production/md500-lote25-3d/README.md` antes de continuar.

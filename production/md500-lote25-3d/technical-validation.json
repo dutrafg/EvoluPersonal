@@ -1,0 +1,502 @@
+[
+  {
+    "md_id": 292,
+    "name": "Desenvolvimento Sentado com Halteres",
+    "file": "../../dist/assets/md500-3d/md292.gif",
+    "repository_path": "dist/assets/md500-3d/md292.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 100200,
+    "sha256": "2601539e58702b2577c93ed5e90de62ee0cfc3c5b83e21e4282691217bb9449a",
+    "git_blob_sha": "27cab9574fb23f9f7d99b4f5aeacd14533d23786",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 76,
+    "name": "Puxada Alta Ajoelhado na Polia",
+    "file": "../../dist/assets/md500-3d/md76.gif",
+    "repository_path": "dist/assets/md500-3d/md76.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 108664,
+    "sha256": "1879d0327798f47310dd2c402cc8dc7d38b24f3f2d92cbbe3bf176afd6e9f0d2",
+    "git_blob_sha": "939f17189527c8f486a0b875e574297157a2ce1a",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 88,
+    "name": "Remada Baixa Unilateral na Polia Sentado",
+    "file": "../../dist/assets/md500-3d/md88.gif",
+    "repository_path": "dist/assets/md500-3d/md88.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 112538,
+    "sha256": "367c9447781af2fe90d1c9011bf45bad3a486189664ed962a50242871671100e",
+    "git_blob_sha": "b5d2b9a711dac5142ee679a7167f599322d6c328",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 101,
+    "name": "Remada Alta na Polia Sentado com Corda (Puxando em direção ao peito/pescoço)",
+    "file": "../../dist/assets/md500-3d/md101.gif",
+    "repository_path": "dist/assets/md500-3d/md101.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 106932,
+    "sha256": "cba3b6d736e4cdfdc5440d5a4adeb6c2890f077a59028a19a062a4b46231ad73",
+    "git_blob_sha": "f626d5d001f17c01846f292a570d072c2b3a3a6f",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 109,
+    "name": "Pulldown Unilateral na Polia Alta",
+    "file": "../../dist/assets/md500-3d/md109.gif",
+    "repository_path": "dist/assets/md500-3d/md109.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 113298,
+    "sha256": "e91c2f0c4224b8b884167dca6668827766842fcdc2df19fa5dfce472f31e780f",
+    "git_blob_sha": "9901a366ac9f842211312d729d3b30519ed3229e",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 152,
+    "name": "Agachamento com Barra de Segurança (Safety Bar Squat - SSB)",
+    "file": "../../dist/assets/md500-3d/md152.gif",
+    "repository_path": "dist/assets/md500-3d/md152.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 113790,
+    "sha256": "e280200b40f9f3fb572f0b325dfac63b0a6cf06c82d714453f8851278f03dd18",
+    "git_blob_sha": "2f976aa6220b1a19ae8b5ee043f50f9442fefa6a",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 118,
+    "name": "Encolhimento de Ombros com Barra por Trás",
+    "file": "../../dist/assets/md500-3d/md118.gif",
+    "repository_path": "dist/assets/md500-3d/md118.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 106988,
+    "sha256": "980a038af165f4b4fbb1a5d3c06654f5bef4bd5dafabf42d89fea45487dd24ff",
+    "git_blob_sha": "33a8ff0e4c83631aa48f540bd603f31bc615b1b2",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 122,
+    "name": "Encolhimento de Ombros no Smith",
+    "file": "../../dist/assets/md500-3d/md122.gif",
+    "repository_path": "dist/assets/md500-3d/md122.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 115390,
+    "sha256": "936804b3a05c40eeb1ea7027e43bf588cfe55316fe9f9453c64a25ede7b69dd4",
+    "git_blob_sha": "f5b00c8f001a329701de5d174b49f952a81f220d",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 170,
+    "name": "Leg Press Vertical (90 Graus)",
+    "file": "../../dist/assets/md500-3d/md170.gif",
+    "repository_path": "dist/assets/md500-3d/md170.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 112525,
+    "sha256": "940eed884904a03d1de5b0a6dafbae0b004799cea69cd66cf9a9cbe8b355a099",
+    "git_blob_sha": "4a4759f6a1327555ac356b3c7fc47e5ad27258b3",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 123,
+    "name": "Encolhimento de Ombros na Polia Baixa",
+    "file": "../../dist/assets/md500-3d/md123.gif",
+    "repository_path": "dist/assets/md500-3d/md123.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 113237,
+    "sha256": "487b69a459ab56ff31f7545ca49fadcdb89b9e2a0845d3b816402d542b8c66dc",
+    "git_blob_sha": "a21ee6c0d6d4652b227c48c77882294c0b0d04f8",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 178,
+    "name": "Afundo Estático no Smith",
+    "file": "../../dist/assets/md500-3d/md178.gif",
+    "repository_path": "dist/assets/md500-3d/md178.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 122252,
+    "sha256": "734b3adf2bddf17fbc756717d3a8ee53380b124dd7ce358d1e14ab4c364f4f57",
+    "git_blob_sha": "432a719778f85cce7d4ef647e61984d6557baa1f",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 207,
+    "name": "Stiff com Halteres",
+    "file": "../../dist/assets/md500-3d/md207.gif",
+    "repository_path": "dist/assets/md500-3d/md207.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 101656,
+    "sha256": "fcddf2109737344e1f8c41081031e58c7a14c5eb2516edfaae9d43043be32ec8",
+    "git_blob_sha": "a51499fd49e95d73b932555933f55cf33852c5e1",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 208,
+    "name": "RDL no Smith",
+    "file": "../../dist/assets/md500-3d/md208.gif",
+    "repository_path": "dist/assets/md500-3d/md208.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 116407,
+    "sha256": "601535cb661d33a7d4c72f360fb39e35e7c4478a7e9be0bd5103cf330a8a1026",
+    "git_blob_sha": "1dbba90244b7ffbc71de67964a7ea65b2f370c3d",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 125,
+    "name": "Encolhimento com Barra Hexagonal (Trap Bar Shrug)",
+    "file": "../../dist/assets/md500-3d/md125.gif",
+    "repository_path": "dist/assets/md500-3d/md125.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 107403,
+    "sha256": "052808bc57832b4194195f9908de60bb694f6e3a64b7d57ede006b43a2caab84",
+    "git_blob_sha": "f08d92f84dbd260ed43846be1a28064f0145da16",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 493,
+    "name": "Toque nos Calcanhares Deitado (Heel Touches)",
+    "file": "../../dist/assets/md500-3d/md493.gif",
+    "repository_path": "dist/assets/md500-3d/md493.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 113874,
+    "sha256": "d1db1e3ec35bcd7e4d44729b0f41ed15d8ff2cf5282c05466cde4467c37c4f83",
+    "git_blob_sha": "2cf9897dcde0776d10d47ac560ca36a7b6db7886",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 249,
+    "name": "Elevação Pélvica no Smith",
+    "file": "../../dist/assets/md500-3d/md249.gif",
+    "repository_path": "dist/assets/md500-3d/md249.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 103038,
+    "sha256": "9d8f01e06923a3a609fa78de1c20067b7f2c797e7f5673fe7abf5057924891b8",
+    "git_blob_sha": "f150c589903e19f4543ece687d3b404a8063d113",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 298,
+    "name": "Desenvolvimento no Smith (Pela Frente)",
+    "file": "../../dist/assets/md500-3d/md298.gif",
+    "repository_path": "dist/assets/md500-3d/md298.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 117777,
+    "sha256": "7c1b257d378ca3c3c2b9a352cf72db296dbfa1718e8275ccf2b452bcd9943ec9",
+    "git_blob_sha": "5e04ad230ee0e5ceebcaa40c7b7d030a08fe186a",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 303,
+    "name": "Desenvolvimento Articulado Convergente",
+    "file": "../../dist/assets/md500-3d/md303.gif",
+    "repository_path": "dist/assets/md500-3d/md303.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 121938,
+    "sha256": "7102e5c5333b2c3d04d08b5a6dec96eac109509017ed75dc947e4df3af9b40c1",
+    "git_blob_sha": "6acc321dc6758ef17a658120576d7507e6a01f73",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 373,
+    "name": "Rosca 21 (7 repetições metade inferior + 7 metade superior + 7 completas)",
+    "file": "../../dist/assets/md500-3d/md373.gif",
+    "repository_path": "dist/assets/md500-3d/md373.gif",
+    "frames": 105,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 18900,
+    "bytes": 1788205,
+    "sha256": "27a277b3207531bee09359f1c449783efea8aeec966e1d027964e242e00843a4",
+    "git_blob_sha": "89147e8023ba7dc6dc00a4fd35be43bef32dd898",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 473,
+    "name": "Abdominal Infra no Solo ou Banco (Elevação de pernas deitado)",
+    "file": "../../dist/assets/md500-3d/md473.gif",
+    "repository_path": "dist/assets/md500-3d/md473.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 96769,
+    "sha256": "b0d5fce5434a813a3b0cc7281b28414d7669ba47865ecd4f0fd7f4650ffb4498",
+    "git_blob_sha": "d75c27519ac5e7813aee401ff6d4f99471f8c8a5",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 38,
+    "name": "Landmine Press (Empurrada unilateral ou bilateral na barra T)",
+    "file": "../../dist/assets/md500-3d/md38.gif",
+    "repository_path": "dist/assets/md500-3d/md38.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 101222,
+    "sha256": "22c884d1448eca5b7b0313b8d45443f785e634e3238988a93f29ffd50f3a1f00",
+    "git_blob_sha": "905483e8e6eab8d26d5934c464e836ac717d3613",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 111,
+    "name": "Pullover no Cabo Declinado ou no Banco Reto",
+    "file": "../../dist/assets/md500-3d/md111.gif",
+    "repository_path": "dist/assets/md500-3d/md111.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 103129,
+    "sha256": "02bd964864b4b55d956b02af1e2b5394ed86f7929dc0101a9226ce6d9b1bd80f",
+    "git_blob_sha": "902b4a7b2045d0ee3f6d7b31aff7145eb0c62cc8",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 115,
+    "name": "Levantamento Terra com Déficit (Em cima de anilha/caixote)",
+    "file": "../../dist/assets/md500-3d/md115.gif",
+    "repository_path": "dist/assets/md500-3d/md115.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 100231,
+    "sha256": "4f2188d4cb5628646cd3686f6039620d51dd3f6b02e7a3ee20e22e60f6f8202e",
+    "git_blob_sha": "ae19f5cd64b8c33984d68d7a56f91860b81aa2ec",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 128,
+    "name": "Remada Alta Pegada Fechada (Foco em Trapézio)",
+    "file": "../../dist/assets/md500-3d/md128.gif",
+    "repository_path": "dist/assets/md500-3d/md128.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 105008,
+    "sha256": "9735e4cf84c9864c10de99aa0351486d36a5d64840d47e7b1e682368128b8be0",
+    "git_blob_sha": "da942f48bc23b97733f5c520c85af56fe0940f6a",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 23,
+    "name": "Supino Guilhotina (Neck Press) com Barra",
+    "file": "../../dist/assets/md500-3d/md23.gif",
+    "repository_path": "dist/assets/md500-3d/md23.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "loop": 0,
+    "duration_ms": 1080,
+    "bytes": 117696,
+    "sha256": "00c938ca860df68d04f204cc832dc2f9b9a6824622ca9eff226e402df2a6dfb1",
+    "git_blob_sha": "c563be603f4661f1c244ca6a96179e8c41cf06c9",
+    "all_frames_decoded": true,
+    "technical_qa_passed": true,
+    "visual_review": "inicial_realizada_aprovacao_final_pendente",
+    "visual_qa_approved": false
+  }
+]

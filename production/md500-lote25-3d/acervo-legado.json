@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "e0",
+    "name": "Agachamento livre"
+  },
+  {
+    "id": "e1",
+    "name": "Leg press"
+  },
+  {
+    "id": "e2",
+    "name": "Cadeira extensora"
+  },
+  {
+    "id": "e3",
+    "name": "Mesa flexora"
+  },
+  {
+    "id": "e4",
+    "name": "Supino reto"
+  },
+  {
+    "id": "e5",
+    "name": "Supino inclinado com halteres"
+  },
+  {
+    "id": "e6",
+    "name": "Puxada frontal"
+  },
+  {
+    "id": "e7",
+    "name": "Remada baixa"
+  },
+  {
+    "id": "e8",
+    "name": "Desenvolvimento com halteres"
+  },
+  {
+    "id": "e9",
+    "name": "Elevação lateral"
+  },
+  {
+    "id": "e10",
+    "name": "Rosca direta"
+  },
+  {
+    "id": "e11",
+    "name": "Tríceps na polia"
+  },
+  {
+    "id": "e12",
+    "name": "Prancha"
+  },
+  {
+    "id": "e13",
+    "name": "Abdominal no solo"
+  },
+  {
+    "id": "e14",
+    "name": "Esteira"
+  },
+  {
+    "id": "e15",
+    "name": "Bicicleta ergométrica"
+  },
+  {
+    "id": "e16",
+    "name": "Levantamento terra romeno com halteres"
+  },
+  {
+    "id": "e17",
+    "name": "Afundo alternado"
+  },
+  {
+    "id": "e18",
+    "name": "Elevação de panturrilha em pé"
+  },
+  {
+    "id": "e19",
+    "name": "Cadeira abdutora"
+  },
+  {
+    "id": "e20",
+    "name": "Cadeira adutora"
+  },
+  {
+    "id": "e21",
+    "name": "Flexão de braços"
+  },
+  {
+    "id": "e22",
+    "name": "Crucifixo com halteres"
+  },
+  {
+    "id": "e23",
+    "name": "Remada unilateral com halter"
+  },
+  {
+    "id": "e24",
+    "name": "Face pull na polia"
+  },
+  {
+    "id": "e25",
+    "name": "Flexão inclinada"
+  },
+  {
+    "id": "e26",
+    "name": "Agachamento goblet"
+  },
+  {
+    "id": "e27",
+    "name": "Agachamento sumô com halter"
+  },
+  {
+    "id": "e28",
+    "name": "Levantamento terra com kettlebell"
+  },
+  {
+    "id": "e29",
+    "name": "Ponte de glúteos"
+  },
+  {
+    "id": "e30",
+    "name": "Elevação pélvica com barra"
+  },
+  {
+    "id": "e31",
+    "name": "Ponte unilateral"
+  },
+  {
+    "id": "e32",
+    "name": "Subida no step"
+  },
+  {
+    "id": "e33",
+    "name": "Agachamento búlgaro"
+  },
+  {
+    "id": "e34",
+    "name": "Remada curvada com barra"
+  },
+  {
+    "id": "e35",
+    "name": "Remada sentada com elástico"
+  },
+  {
+    "id": "e36",
+    "name": "Remada suspensa no TRX"
+  },
+  {
+    "id": "e37",
+    "name": "Puxada alta ajoelhada com elástico"
+  },
+  {
+    "id": "e38",
+    "name": "Pullover com halter"
+  },
+  {
+    "id": "e39",
+    "name": "Supino com elástico"
+  },
+  {
+    "id": "e40",
+    "name": "Flexão diamante"
+  },
+  {
+    "id": "e41",
+    "name": "Desenvolvimento Arnold"
+  },
+  {
+    "id": "e42",
+    "name": "Elevação frontal com halteres"
+  },
+  {
+    "id": "e43",
+    "name": "Rosca martelo"
+  },
+  {
+    "id": "e44",
+    "name": "Rosca alternada com halteres"
+  },
+  {
+    "id": "e45",
+    "name": "Tríceps testa com halteres"
+  },
+  {
+    "id": "e46",
+    "name": "Tríceps coice"
+  },
+  {
+    "id": "e47",
+    "name": "Prancha lateral"
+  },
+  {
+    "id": "e48",
+    "name": "Dead bug"
+  },
+  {
+    "id": "e49",
+    "name": "Corrida estacionária"
+  },
+  {
+    "id": "e50",
+    "name": "Supino declinado com halteres"
+  },
+  {
+    "id": "e51",
+    "name": "Crucifixo inclinado com halteres"
+  },
+  {
+    "id": "e52",
+    "name": "Flexão com joelhos apoiados"
+  },
+  {
+    "id": "e53",
+    "name": "Crossover com elástico"
+  },
+  {
+    "id": "e54",
+    "name": "Puxada alta aberta na polia"
+  },
+  {
+    "id": "e55",
+    "name": "Remada unilateral com elástico"
+  },
+  {
+    "id": "e56",
+    "name": "Remada cavalinho"
+  },
+  {
+    "id": "e57",
+    "name": "Pulldown de braços retos na polia"
+  },
+  {
+    "id": "e58",
+    "name": "Desenvolvimento militar com barra"
+  },
+  {
+    "id": "e59",
+    "name": "Elevação lateral sentada"
+  },
+  {
+    "id": "e60",
+    "name": "Crucifixo inverso com halteres"
+  },
+  {
+    "id": "e61",
+    "name": "Rotação externa de ombro com elástico"
+  },
+  {
+    "id": "e62",
+    "name": "Rosca Scott com barra EZ"
+  },
+  {
+    "id": "e63",
+    "name": "Rosca concentrada"
+  },
+  {
+    "id": "e64",
+    "name": "Rosca direta com elástico"
+  },
+  {
+    "id": "e65",
+    "name": "Tríceps francês unilateral"
+  },
+  {
+    "id": "e66",
+    "name": "Tríceps na polia com barra V"
+  },
+  {
+    "id": "e67",
+    "name": "Extensão de punhos com halteres"
+  },
+  {
+    "id": "e68",
+    "name": "Abdominal bicicleta"
+  },
+  {
+    "id": "e69",
+    "name": "Elevação de pernas suspenso"
+  },
+  {
+    "id": "e70",
+    "name": "Prancha com toque nos ombros"
+  },
+  {
+    "id": "e71",
+    "name": "Pallof press com elástico"
+  },
+  {
+    "id": "e72",
+    "name": "Abdominal canivete"
+  },
+  {
+    "id": "e73",
+    "name": "Caminhada lateral com miniband"
+  },
+  {
+    "id": "e74",
+    "name": "Polichinelo de baixo impacto"
+  },
+  {
+    "id": "e75",
+    "name": "Agachamento com salto"
+  },
+  {
+    "id": "e76",
+    "name": "Afundo reverso com halteres"
+  },
+  {
+    "id": "e77",
+    "name": "Passada lateral"
+  },
+  {
+    "id": "e78",
+    "name": "Extensão de quadril no cabo"
+  },
+  {
+    "id": "e79",
+    "name": "Coice de glúteo no cabo"
+  },
+  {
+    "id": "e80",
+    "name": "Flexão de joelho em pé com elástico"
+  },
+  {
+    "id": "e81",
+    "name": "Stiff unilateral com halter"
+  },
+  {
+    "id": "e82",
+    "name": "Elevação de panturrilha sentada"
+  },
+  {
+    "id": "e83",
+    "name": "Panturrilha no leg press"
+  },
+  {
+    "id": "e84",
+    "name": "Caminhada do fazendeiro"
+  },
+  {
+    "id": "e85",
+    "name": "Encolhimento com halteres"
+  },
+  {
+    "id": "e86",
+    "name": "Elevação em Y inclinada"
+  },
+  {
+    "id": "e87",
+    "name": "Supino com pegada fechada"
+  },
+  {
+    "id": "e88",
+    "name": "Flexão pike"
+  },
+  {
+    "id": "e89",
+    "name": "Remada alta com halteres"
+  },
+  {
+    "id": "e90",
+    "name": "Pullover na polia"
+  },
+  {
+    "id": "e91",
+    "name": "Puxada unilateral ajoelhada na polia"
+  },
+  {
+    "id": "e92",
+    "name": "Remada renegada"
+  },
+  {
+    "id": "e93",
+    "name": "Escalador"
+  },
+  {
+    "id": "e94",
+    "name": "Bird dog"
+  },
+  {
+    "id": "e95",
+    "name": "Rotação russa"
+  },
+  {
+    "id": "e96",
+    "name": "Prancha hollow"
+  },
+  {
+    "id": "e97",
+    "name": "Burpee adaptado"
+  },
+  {
+    "id": "e98",
+    "name": "Cadeira na parede"
+  },
+  {
+    "id": "e99",
+    "name": "Pular corda"
+  },
+  {
+    "id": "e100",
+    "name": "Supino inclinado articulado"
+  },
+  {
+    "id": "e101",
+    "name": "Crucifixo reto na polia baixa"
+  },
+  {
+    "id": "e102",
+    "name": "Voador na máquina com pegadores"
+  },
+  {
+    "id": "e103",
+    "name": "Tríceps corda na polia"
+  },
+  {
+    "id": "e104",
+    "name": "Hack squat"
+  },
+  {
+    "id": "e105",
+    "name": "Cadeira flexora"
+  },
+  {
+    "id": "e106",
+    "name": "Supino inclinado no Smith"
+  },
+  {
+    "id": "e107",
+    "name": "Puxada neutra com triângulo"
+  },
+  {
+    "id": "e108",
+    "name": "Tríceps francês na polia"
+  },
+  {
+    "id": "e109",
+    "name": "Remada baixa articulada"
+  },
+  {
+    "id": "e110",
+    "name": "Crucifixo inverso na máquina"
+  },
+  {
+    "id": "e111",
+    "name": "Rosca direta na polia"
+  },
+  {
+    "id": "e112",
+    "name": "Desenvolvimento na máquina"
+  },
+  {
+    "id": "e113",
+    "name": "Puxada supinada"
+  },
+  {
+    "id": "e114",
+    "name": "Elevação frontal alternada"
+  },
+  {
+    "id": "e115",
+    "name": "Rosca inversa"
+  },
+  {
+    "id": "e116",
+    "name": "Tríceps coice unilateral no cross"
+  },
+  {
+    "id": "e117",
+    "name": "Agachamento no Smith"
+  },
+  {
+    "id": "e118",
+    "name": "Agachamento frontal com barra"
+  },
+  {
+    "id": "e119",
+    "name": "Levantamento terra convencional com barra"
+  },
+  {
+    "id": "e120",
+    "name": "Supino reto com halteres"
+  },
+  {
+    "id": "e121",
+    "name": "Supino inclinado com barra"
+  },
+  {
+    "id": "e122",
+    "name": "Barra fixa pronada"
+  },
+  {
+    "id": "e123",
+    "name": "Barra fixa supinada"
+  },
+  {
+    "id": "e124",
+    "name": "Desenvolvimento sentado com barra"
+  },
+  {
+    "id": "e125",
+    "name": "Supino declinado com barra"
+  },
+  {
+    "id": "e126",
+    "name": "Mergulho nas paralelas"
+  },
+  {
+    "id": "e127",
+    "name": "Barra fixa neutra"
+  },
+  {
+    "id": "e128",
+    "name": "Remada curvada supinada com barra"
+  },
+  {
+    "id": "e129",
+    "name": "Remada Pendlay"
+  },
+  {
+    "id": "e130",
+    "name": "Agachamento livre com barra alta"
+  },
+  {
+    "id": "e131",
+    "name": "Agachamento livre com barra baixa"
+  },
+  {
+    "id": "e132",
+    "name": "Agachamento búlgaro com halteres — tronco ereto"
+  },
+  {
+    "id": "e133",
+    "name": "Passada caminhando com halteres"
+  },
+  {
+    "id": "e134",
+    "name": "Levantamento terra romeno com barra"
+  },
+  {
+    "id": "e135",
+    "name": "Stiff bilateral com barra"
+  },
+  {
+    "id": "e136",
+    "name": "Good morning com barra"
+  },
+  {
+    "id": "e137",
+    "name": "Levantamento terra sumô com barra"
+  },
+  {
+    "id": "e138",
+    "name": "Agachamento profundo com barra"
+  },
+  {
+    "id": "e139",
+    "name": "Rosca direta com barra EZ"
+  },
+  {
+    "id": "e140",
+    "name": "Rosca simultânea com halteres"
+  },
+  {
+    "id": "e141",
+    "name": "Rosca inclinada com halteres"
+  },
+  {
+    "id": "e142",
+    "name": "Mergulho nas paralelas — tronco vertical"
+  },
+  {
+    "id": "e143",
+    "name": "Tríceps testa com barra EZ"
+  },
+  {
+    "id": "e144",
+    "name": "Tríceps francês bilateral com halter"
+  },
+  {
+    "id": "e145",
+    "name": "Panturrilha em pé na máquina"
+  },
+  {
+    "id": "e146",
+    "name": "Panturrilha sentada na máquina"
+  },
+  {
+    "id": "e147",
+    "name": "Panturrilha burro"
+  },
+  {
+    "id": "e148",
+    "name": "Abdominal ajoelhado na polia"
+  },
+  {
+    "id": "e149",
+    "name": "Roda abdominal de joelhos"
+  },
+  {
+    "id": "e150",
+    "name": "Agachamento búlgaro com halteres — tronco inclinado"
+  },
+  {
+    "id": "e151",
+    "name": "Passada longa com halteres"
+  },
+  {
+    "id": "e152",
+    "name": "Elevação de pernas estendidas na barra fixa"
+  },
+  {
+    "id": "e153",
+    "name": "Hiperextensão no banco romano a 45 graus"
+  },
+  {
+    "id": "e154",
+    "name": "Barra fixa assistida na máquina"
+  },
+  {
+    "id": "e155",
+    "name": "Mergulho assistido na máquina"
+  },
+  {
+    "id": "e156",
+    "name": "Leg press horizontal"
+  },
+  {
+    "id": "e157",
+    "name": "Elevação pélvica na máquina"
+  },
+  {
+    "id": "e158",
+    "name": "Mesa flexora unilateral"
+  },
+  {
+    "id": "e159",
+    "name": "Remada com peito apoiado e halteres"
+  },
+  {
+    "id": "e160",
+    "name": "Rosca Scott na máquina"
+  },
+  {
+    "id": "e161",
+    "name": "Desenvolvimento unilateral com halter"
+  },
+  {
+    "id": "e162",
+    "name": "Desenvolvimento landmine unilateral"
+  },
+  {
+    "id": "e163",
+    "name": "Mergulho no banco"
+  },
+  {
+    "id": "e164",
+    "name": "Flexão declinada"
+  },
+  {
+    "id": "e165",
+    "name": "Remada sentada com pegada larga na polia"
+  },
+  {
+    "id": "e166",
+    "name": "Remada unilateral na máquina"
+  },
+  {
+    "id": "e167",
+    "name": "Agachamento no caixote com barra"
+  },
+  {
+    "id": "e168",
+    "name": "Panturrilha unilateral em pé com halter"
+  },
+  {
+    "id": "e169",
+    "name": "Supino reto no Smith"
+  },
+  {
+    "id": "e170",
+    "name": "Supino declinado no Smith"
+  },
+  {
+    "id": "e171",
+    "name": "Crucifixo inverso bilateral na polia"
+  },
+  {
+    "id": "e172",
+    "name": "Pulldown com corda"
+  },
+  {
+    "id": "e173",
+    "name": "Pullover na máquina"
+  },
+  {
+    "id": "e174",
+    "name": "Crucifixo declinado com halteres"
+  },
+  {
+    "id": "e175",
+    "name": "Crossover na polia alta"
+  },
+  {
+    "id": "e176",
+    "name": "Crossover na polia média"
+  },
+  {
+    "id": "e177",
+    "name": "Elevação lateral unilateral na polia"
+  },
+  {
+    "id": "e178",
+    "name": "Elevação lateral bilateral na polia"
+  },
+  {
+    "id": "e179",
+    "name": "Elevação lateral inclinada com halter"
+  },
+  {
+    "id": "e180",
+    "name": "Elevação lateral na máquina"
+  },
+  {
+    "id": "e181",
+    "name": "Elevação frontal com barra"
+  },
+  {
+    "id": "e182",
+    "name": "Elevação frontal com anilha"
+  },
+  {
+    "id": "e183",
+    "name": "Crucifixo inverso sentado com halteres"
+  },
+  {
+    "id": "e184",
+    "name": "Rotação externa de ombro na polia"
+  },
+  {
+    "id": "e185",
+    "name": "Rotação interna de ombro na polia"
+  },
+  {
+    "id": "e186",
+    "name": "Rosca spider com halteres"
+  },
+  {
+    "id": "e187",
+    "name": "Rosca Scott unilateral com halter"
+  },
+  {
+    "id": "e188",
+    "name": "Rosca martelo com corda na polia"
+  },
+  {
+    "id": "e189",
+    "name": "Tríceps francês unilateral na polia"
+  },
+  {
+    "id": "e190",
+    "name": "Tríceps testa deitado na polia"
+  },
+  {
+    "id": "e191",
+    "name": "Agachamento com cinto na máquina"
+  },
+  {
+    "id": "e192",
+    "name": "Agachamento búlgaro no Smith"
+  },
+  {
+    "id": "e193",
+    "name": "Abdução de quadril na polia"
+  },
+  {
+    "id": "e194",
+    "name": "Adução de quadril na polia"
+  },
+  {
+    "id": "e195",
+    "name": "Extensão de quadril em quatro apoios com caneleira"
+  },
+  {
+    "id": "e196",
+    "name": "Flexão de joelhos na bola suíça"
+  },
+  {
+    "id": "e197",
+    "name": "Flexão nórdica assistida"
+  },
+  {
+    "id": "e198",
+    "name": "Abdominal na máquina"
+  },
+  {
+    "id": "e199",
+    "name": "Caminhada da mala unilateral"
+  },
+  {
+    "id": "e200",
+    "name": "Supino unilateral na polia"
+  },
+  {
+    "id": "e201",
+    "name": "Flexão de braços com joelhos apoiados"
+  },
+  {
+    "id": "e202",
+    "name": "Remada cavalinho com apoio no peito"
+  },
+  {
+    "id": "e203",
+    "name": "Puxada de braços retos na polia"
+  },
+  {
+    "id": "e204",
+    "name": "Face pull na polia com corda"
+  },
+  {
+    "id": "e205",
+    "name": "Remada Meadows unilateral"
+  },
+  {
+    "id": "e206",
+    "name": "Desenvolvimento landmine bilateral"
+  },
+  {
+    "id": "e207",
+    "name": "Elevação em Y inclinada com halteres"
+  },
+  {
+    "id": "e208",
+    "name": "Elevação lateral inclinada no cabo"
+  },
+  {
+    "id": "e209",
+    "name": "Agachamento sissy assistido"
+  },
+  {
+    "id": "e210",
+    "name": "Subida no caixote com halteres"
+  },
+  {
+    "id": "e211",
+    "name": "Afundo lateral com halter"
+  },
+  {
+    "id": "e212",
+    "name": "Levantamento terra romeno unilateral com halter"
+  },
+  {
+    "id": "e213",
+    "name": "Elevação pélvica unilateral no banco"
+  },
+  {
+    "id": "e214",
+    "name": "Extensão de joelhos reversa nórdica"
+  },
+  {
+    "id": "e215",
+    "name": "Elevação dos dedos dos pés na parede"
+  },
+  {
+    "id": "e216",
+    "name": "Rosca concentrada com halter"
+  },
+  {
+    "id": "e217",
+    "name": "Rosca Zottman com halteres"
+  },
+  {
+    "id": "e218",
+    "name": "Rosca no cabo com braço atrás do tronco"
+  },
+  {
+    "id": "e219",
+    "name": "Extensão de tríceps acima da cabeça na polia"
+  },
+  {
+    "id": "e220",
+    "name": "Tríceps coice com halter"
+  },
+  {
+    "id": "e221",
+    "name": "Prancha lateral"
+  },
+  {
+    "id": "e222",
+    "name": "Press Pallof na polia"
+  },
+  {
+    "id": "e223",
+    "name": "Cachorro-pássaro em quatro apoios"
+  },
+  {
+    "id": "e224",
+    "name": "Abdominal dead bug"
+  },
+  {
+    "id": "e225",
+    "name": "Supino com halteres e pegada neutra"
+  },
+  {
+    "id": "e226",
+    "name": "Flexão diamante"
+  },
+  {
+    "id": "e227",
+    "name": "Crossover unilateral de baixo para cima"
+  },
+  {
+    "id": "e228",
+    "name": "Remada baixa com triângulo na polia"
+  },
+  {
+    "id": "e229",
+    "name": "Remada invertida no Smith"
+  },
+  {
+    "id": "e230",
+    "name": "Pullover com halter"
+  },
+  {
+    "id": "e231",
+    "name": "Encolhimento com barra"
+  },
+  {
+    "id": "e232",
+    "name": "Elevação frontal na polia baixa"
+  },
+  {
+    "id": "e233",
+    "name": "Remada alta na polia com corda"
+  },
+  {
+    "id": "e234",
+    "name": "Agachamento sumô com halter"
+  },
+  {
+    "id": "e235",
+    "name": "Afundo reverso com barra"
+  },
+  {
+    "id": "e236",
+    "name": "Agachamento pistol assistido ao banco"
+  },
+  {
+    "id": "e237",
+    "name": "Cadeira extensora unilateral"
+  },
+  {
+    "id": "e238",
+    "name": "Panturrilha unilateral em pé com halter"
+  },
+  {
+    "id": "e239",
+    "name": "Abdução de quadril com miniband em pé"
+  },
+  {
+    "id": "e240",
+    "name": "Rosca Bayesian na polia"
+  },
+  {
+    "id": "e241",
+    "name": "Rosca inversa com barra"
+  },
+  {
+    "id": "e242",
+    "name": "Extensão de tríceps deitado com halteres"
+  },
+  {
+    "id": "e243",
+    "name": "Flexão fechada para tríceps"
+  },
+  {
+    "id": "e244",
+    "name": "Flexão de punhos com barra sentado"
+  },
+  {
+    "id": "e245",
+    "name": "Abdominal bicicleta"
+  },
+  {
+    "id": "e246",
+    "name": "Rotação diagonal alta para baixa na polia"
+  },
+  {
+    "id": "e247",
+    "name": "Prancha hollow hold"
+  },
+  {
+    "id": "e248",
+    "name": "Prancha com toque nos ombros"
+  },
+  {
+    "id": "e249",
+    "name": "Abdominal oblíquo no solo"
+  },
+  {
+    "id": "e250",
+    "name": "Supino reto na máquina convergente"
+  },
+  {
+    "id": "e251",
+    "name": "Crossover na polia baixa"
+  },
+  {
+    "id": "e252",
+    "name": "Flexão arqueiro"
+  },
+  {
+    "id": "e253",
+    "name": "Remada curvada com halteres"
+  },
+  {
+    "id": "e254",
+    "name": "Remada unilateral baixa na polia"
+  },
+  {
+    "id": "e255",
+    "name": "Remada alta no banco inclinado com halteres"
+  },
+  {
+    "id": "e256",
+    "name": "Puxada neutra na polia alta"
+  },
+  {
+    "id": "e257",
+    "name": "Pullover com barra na polia alta"
+  },
+  {
+    "id": "e258",
+    "name": "Agachamento frontal no Smith"
+  },
+  {
+    "id": "e259",
+    "name": "Leg press unilateral"
+  },
+  {
+    "id": "e260",
+    "name": "Agachamento com halteres nos ombros"
+  },
+  {
+    "id": "e261",
+    "name": "Levantamento terra com barra hexagonal"
+  },
+  {
+    "id": "e262",
+    "name": "Flexão de joelhos sentada na máquina"
+  },
+  {
+    "id": "e263",
+    "name": "Extensão de quadril no banco romano"
+  },
+  {
+    "id": "e264",
+    "name": "Abdução de quadril na máquina"
+  },
+  {
+    "id": "e265",
+    "name": "Desenvolvimento com halteres em pé"
+  },
+  {
+    "id": "e266",
+    "name": "Elevação lateral inclinada na polia baixa"
+  },
+  {
+    "id": "e267",
+    "name": "Crucifixo inverso na máquina"
+  },
+  {
+    "id": "e268",
+    "name": "Rosca direta na máquina"
+  },
+  {
+    "id": "e269",
+    "name": "Rosca martelo cruzada"
+  },
+  {
+    "id": "e270",
+    "name": "Tríceps na polia alta com pegada supinada"
+  },
+  {
+    "id": "e271",
+    "name": "Tríceps testa com barra EZ"
+  },
+  {
+    "id": "e272",
+    "name": "Prancha com elevação alternada das pernas"
+  },
+  {
+    "id": "e273",
+    "name": "Abdominal reverso no banco"
+  },
+  {
+    "id": "e274",
+    "name": "Prancha Copenhagen com joelho apoiado"
+  },
+  {
+    "id": "e275",
+    "name": "Supino Spoto com barra"
+  },
+  {
+    "id": "e276",
+    "name": "Supino Larsen com barra"
+  },
+  {
+    "id": "e277",
+    "name": "Supino no chão com barra"
+  },
+  {
+    "id": "e278",
+    "name": "Supino no chão com halteres"
+  },
+  {
+    "id": "e279",
+    "name": "Supino com pegada supinada"
+  },
+  {
+    "id": "e280",
+    "name": "Supino inclinado unilateral com halter"
+  },
+  {
+    "id": "e281",
+    "name": "Supino alternado com halteres no banco reto"
+  },
+  {
+    "id": "e282",
+    "name": "Supino alternado com halteres no banco inclinado"
+  },
+  {
+    "id": "e283",
+    "name": "Supino deitado na polia baixa"
+  },
+  {
+    "id": "e284",
+    "name": "Supino inclinado deitado na polia baixa"
+  },
+  {
+    "id": "e285",
+    "name": "Supino em pé na polia"
+  },
+  {
+    "id": "e286",
+    "name": "Supino unilateral em pé na polia"
+  },
+  {
+    "id": "e287",
+    "name": "Landmine press ajoelhado"
+  },
+  {
+    "id": "e288",
+    "name": "Svend press em pé"
+  },
+  {
+    "id": "e289",
+    "name": "Hex press com halteres"
+  },
+  {
+    "id": "e290",
+    "name": "Flexão de braços com sobrecarga"
+  },
+  {
+    "id": "e291",
+    "name": "Flexão de braços nas argolas"
+  },
+  {
+    "id": "e292",
+    "name": "Mergulho nas paralelas com foco em peitoral"
+  },
+  {
+    "id": "e293",
+    "name": "Retração escapular na barra fixa"
+  },
+  {
+    "id": "e294",
+    "name": "Oração na polia ajoelhado"
+  },
+  {
+    "id": "e295",
+    "name": "Meio levantamento terra no rack"
+  },
+  {
+    "id": "e296",
+    "name": "Levantamento Reeves"
+  },
+  {
+    "id": "e297",
+    "name": "Encolhimento acima da cabeça com barra"
+  },
+  {
+    "id": "e298",
+    "name": "Encolhimento Kelso no banco inclinado"
+  },
+  {
+    "id": "e299",
+    "name": "Elevação em T no banco inclinado"
+  },
+  {
+    "id": "e300",
+    "name": "Elevação em W no banco inclinado"
+  },
+  {
+    "id": "e301",
+    "name": "Exercício de rolo para antebraço"
+  },
+  {
+    "id": "e302",
+    "name": "Elevação de ponta dos pés sentado"
+  },
+  {
+    "id": "e303",
+    "name": "Supino com pausa no peito"
+  },
+  {
+    "id": "e304",
+    "name": "Voador na máquina com antebraços apoiados"
+  },
+  {
+    "id": "e305",
+    "name": "Puxada ilíaca unilateral na polia"
+  },
+  {
+    "id": "e306",
+    "name": "Remada Seal com barra"
+  },
+  {
+    "id": "e307",
+    "name": "Barra fixa com carga adicional"
+  },
+  {
+    "id": "e308",
+    "name": "Encolhimento de ombros na máquina"
+  },
+  {
+    "id": "e309",
+    "name": "Agachamento Zercher"
+  },
+  {
+    "id": "e310",
+    "name": "Agachamento ciclista com calcanhares elevados"
+  },
+  {
+    "id": "e311",
+    "name": "Agachamento Anderson nos pinos"
+  },
+  {
+    "id": "e312",
+    "name": "Agachamento frontal com dois kettlebells"
+  },
+  {
+    "id": "e313",
+    "name": "Leg press com pés baixos e próximos"
+  },
+  {
+    "id": "e314",
+    "name": "Agachamento dividido com pé da frente elevado"
+  },
+  {
+    "id": "e315",
+    "name": "Descida controlada do step"
+  },
+  {
+    "id": "e316",
+    "name": "Poliquin step-up com calcanhares elevados"
+  },
+  {
+    "id": "e317",
+    "name": "Agachamento skater unilateral"
+  },
+  {
+    "id": "e318",
+    "name": "Cadeira extensora com tronco reclinado"
+  },
+  {
+    "id": "e319",
+    "name": "Agachamento sissy com peso corporal"
+  },
+  {
+    "id": "e320",
+    "name": "Extensão de joelho na polia baixa"
+  },
+  {
+    "id": "e321",
+    "name": "Empurrada de trenó"
+  },
+  {
+    "id": "e322",
+    "name": "Levantamento terra romeno na máquina hack"
+  },
+  {
+    "id": "e323",
+    "name": "Bom dia sentado com barra"
+  },
+  {
+    "id": "e324",
+    "name": "Flexão de joelhos no aparelho GHR"
+  },
+  {
+    "id": "e325",
+    "name": "Supino inclinado com barra no Smith"
+  },
+  {
+    "id": "e326",
+    "name": "Remada cavalinho com barra"
+  },
+  {
+    "id": "e327",
+    "name": "Remada baixa com pegada aberta"
+  },
+  {
+    "id": "e328",
+    "name": "Puxada frente com pegada aberta"
+  },
+  {
+    "id": "e329",
+    "name": "Puxada frente com pegada supinada"
+  },
+  {
+    "id": "e330",
+    "name": "Pulldown com braços retos e corda"
+  },
+  {
+    "id": "e331",
+    "name": "Pulldown unilateral ajoelhado"
+  },
+  {
+    "id": "e332",
+    "name": "Barra fixa com pegada supinada"
+  },
+  {
+    "id": "e333",
+    "name": "Face pull com corda"
+  },
+  {
+    "id": "e334",
+    "name": "Rotação externa do ombro na polia"
+  },
+  {
+    "id": "e335",
+    "name": "Rosca Scott com barra W"
+  },
+  {
+    "id": "e336",
+    "name": "Rosca Scott com halteres alternada"
+  },
+  {
+    "id": "e337",
+    "name": "Rosca spider com barra W"
+  },
+  {
+    "id": "e338",
+    "name": "Rosca direta com pegada aberta"
+  },
+  {
+    "id": "e339",
+    "name": "Rosca direta com pegada fechada"
+  },
+  {
+    "id": "e340",
+    "name": "Rosca inversa com barra W"
+  },
+  {
+    "id": "e341",
+    "name": "Rosca de punho com barra atrás do corpo"
+  },
+  {
+    "id": "e342",
+    "name": "Flexão de punhos com halteres"
+  },
+  {
+    "id": "e343",
+    "name": "Extensão de punhos com barra"
+  },
+  {
+    "id": "e344",
+    "name": "Tríceps testa com barra W"
+  },
+  {
+    "id": "e345",
+    "name": "Tríceps francês unilateral com halter"
+  },
+  {
+    "id": "e346",
+    "name": "Tríceps francês sentado com barra"
+  },
+  {
+    "id": "e347",
+    "name": "Extensão de tríceps unilateral na polia"
+  },
+  {
+    "id": "e348",
+    "name": "Extensão de dedos com elástico"
+  },
+  {
+    "id": "e349",
+    "name": "Agachamento no Smith com pés à frente"
+  },
+  {
+    "id": "e350",
+    "name": "Agachamento sumô com barra"
+  },
+  {
+    "id": "e351",
+    "name": "Agachamento goblet com kettlebell"
+  },
+  {
+    "id": "e352",
+    "name": "Agachamento goblet com halter"
+  },
+  {
+    "id": "e353",
+    "name": "Agachamento com pausa"
+  },
+  {
+    "id": "e354",
+    "name": "Agachamento com tempo controlado"
+  },
+  {
+    "id": "e355",
+    "name": "Agachamento búlgaro com halteres"
+  },
+  {
+    "id": "e356",
+    "name": "Afundo caminhando com barra"
+  },
+  {
+    "id": "e357",
+    "name": "Afundo caminhando com halteres"
+  },
+  {
+    "id": "e358",
+    "name": "Afundo lateral com halteres"
+  },
+  {
+    "id": "e359",
+    "name": "Passada reversa no Smith"
+  },
+  {
+    "id": "e360",
+    "name": "Passada curtsy com halteres"
+  },
+  {
+    "id": "e361",
+    "name": "Passada no step com halteres"
+  },
+  {
+    "id": "e362",
+    "name": "Agachamento unilateral assistido no TRX"
+  },
+  {
+    "id": "e363",
+    "name": "Extensão de joelho unilateral na máquina"
+  },
+  {
+    "id": "e364",
+    "name": "Extensão de joelho com elástico"
+  },
+  {
+    "id": "e365",
+    "name": "Agachamento isométrico na parede com bola"
+  },
+  {
+    "id": "e366",
+    "name": "Extensão de joelho terminal com faixa"
+  },
+  {
+    "id": "e367",
+    "name": "Levantamento terra romeno com barra"
+  },
+  {
+    "id": "e368",
+    "name": "Flexão nórdica excêntrica"
+  },
+  {
+    "id": "e369",
+    "name": "Flexão de joelhos deitada na máquina"
+  },
+  {
+    "id": "e370",
+    "name": "Flexão de joelhos unilateral em pé na máquina"
+  },
+  {
+    "id": "e371",
+    "name": "Flexão de joelhos com bola suíça"
+  },
+  {
+    "id": "e372",
+    "name": "Flexão de joelhos com sliders"
+  },
+  {
+    "id": "e373",
+    "name": "Pull-through na polia baixa"
+  },
+  {
+    "id": "e374",
+    "name": "Hip thrust com barra"
+  },
+  {
+    "id": "e375",
+    "name": "Elevação pélvica unilateral com peso do corpo ou halter"
+  },
+  {
+    "id": "e376",
+    "name": "Ponte de glúteo no solo com barra"
+  },
+  {
+    "id": "e377",
+    "name": "Elevação pélvica em base assimétrica (B-stance hip thrust)"
+  },
+  {
+    "id": "e378",
+    "name": "Hiperextensão no banco 45° com foco em glúteo"
+  },
+  {
+    "id": "e379",
+    "name": "Abdução de quadril em pé na polia baixa"
+  },
+  {
+    "id": "e380",
+    "name": "Abdução de quadril deitado de lado no solo com caneleira"
+  },
+  {
+    "id": "e381",
+    "name": "Exercício ostra (clamshell) com mini band"
+  },
+  {
+    "id": "e382",
+    "name": "Coice na máquina (glute kickback machine)"
+  },
+  {
+    "id": "e383",
+    "name": "Extensão de quadril em quatro apoios com caneleira (donkey kick)"
+  },
+  {
+    "id": "e384",
+    "name": "Elevação de panturrilha em pé no Smith (em cima do step)"
+  },
+  {
+    "id": "e385",
+    "name": "Panturrilha unilateral no leg press"
+  },
+  {
+    "id": "e386",
+    "name": "Panturrilha no leg press vertical (90°)"
+  },
+  {
+    "id": "e387",
+    "name": "Elevação de panturrilha unilateral em pé com halter (no step/degrau)"
+  },
+  {
+    "id": "e388",
+    "name": "Panturrilha no hack squat"
+  },
+  {
+    "id": "e389",
+    "name": "Elevação tibial sentado na polia baixa ou máquina específica"
+  },
+  {
+    "id": "e390",
+    "name": "Panturrilha burro (donkey calf raise)"
+  },
+  {
+    "id": "e391",
+    "name": "Adução de quadril em pé na polia baixa"
+  },
+  {
+    "id": "e392",
+    "name": "Adução de quadril deitado no solo com caneleira"
+  },
+  {
+    "id": "e393",
+    "name": "Prancha Copenhagen (adutor)"
+  },
+  {
+    "id": "e394",
+    "name": "Afundo lateral (Cossack squat / side lunge) com halter"
+  },
+  {
+    "id": "e395",
+    "name": "Prancha lateral com abdução de quadril"
+  },
+  {
+    "id": "e396",
+    "name": "Adução isométrica com bola suíça entre os joelhos"
+  },
+  {
+    "id": "e397",
+    "name": "Roda abdominal (ab wheel rollout)"
+  },
+  {
+    "id": "e398",
+    "name": "Hiperextensão lombar no banco romano (45° ou 90°)"
+  },
+  {
+    "id": "e399",
+    "name": "Elevação de pernas pendurado na barra fixa (toes to bar)"
+  },
+  {
+    "id": "e400",
+    "name": "Supino Reto na Máquina (Sentado / Vertical)"
+  },
+  {
+    "id": "e401",
+    "name": "Supino Declinado Articulado (Convergente)"
+  },
+  {
+    "id": "e402",
+    "name": "Supino Reto na Máquina (Deitado / Horizontal)"
+  },
+  {
+    "id": "e403",
+    "name": "Supino com Pegada Neutra (Barra Suíça / Football Bar)"
+  },
+  {
+    "id": "e404",
+    "name": "Supino Inclinado com Halteres e Pegada Neutra"
+  },
+  {
+    "id": "e405",
+    "name": "Supino Reto com Rotação de Punho (Pronação no topo)"
+  },
+  {
+    "id": "e406",
+    "name": "Supino Inclinado a 30 Graus com Halteres"
+  },
+  {
+    "id": "e407",
+    "name": "Supino Inclinado a 15 Graus (Baixa Inclinação) com Halteres"
+  },
+  {
+    "id": "e408",
+    "name": "Supino Reto Unilateral com Halter"
+  },
+  {
+    "id": "e409",
+    "name": "Crucifixo Inclinado deitado na Polia Baixa"
+  },
+  {
+    "id": "e410",
+    "name": "Crucifixo Unilateral na Polia Média"
+  },
+  {
+    "id": "e411",
+    "name": "Pullover no Banco com Barra W"
+  },
+  {
+    "id": "e412",
+    "name": "Flexão Pliométrica (Com palma)"
+  },
+  {
+    "id": "e413",
+    "name": "Puxada Alta com Barra Romana (Pegada Neutra Média)"
+  },
+  {
+    "id": "e414",
+    "name": "Puxada Alta Articulada na Máquina (Convergente)"
+  },
+  {
+    "id": "e415",
+    "name": "Barra Fixa com Elástico de Assistência"
+  },
+  {
+    "id": "e416",
+    "name": "Barra Fixa no Triângulo (Sternum Chin-up)"
+  },
+  {
+    "id": "e417",
+    "name": "Remada Baixa Sentado na Polia com Barra Romana"
+  },
+  {
+    "id": "e418",
+    "name": "Remada Baixa Sentado na Polia com Pegada Supinada"
+  },
+  {
+    "id": "e419",
+    "name": "Remada Sentado na Máquina (Pegada Pronada Aberta - Foco Upper Back)"
+  },
+  {
+    "id": "e420",
+    "name": "Remada Curvada no Smith"
+  },
+  {
+    "id": "e421",
+    "name": "Remada no Banco Inclinado com Barra"
+  },
+  {
+    "id": "e422",
+    "name": "Remada Unilateral no Landmine (Posição paralela)"
+  },
+  {
+    "id": "e423",
+    "name": "Remada Serrote no Smith"
+  },
+  {
+    "id": "e424",
+    "name": "Remada Gorila com Kettlebells (Gorilla Row)"
+  }
+]
