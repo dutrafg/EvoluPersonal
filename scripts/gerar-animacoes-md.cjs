@@ -1,7 +1,7 @@
 // Gerador independente de GIFs didáticos MD500 em paleta indexada.
 // Cada movimento possui poses originais, sem reutilização de GIFs de terceiros.
 // "node scripts/gerar-animacoes-md.cjs" extrai 30 GIFs em dist/assets/md500,
-// e atualiza dist/md-gifs.js para a prévia de um único HTML estático.
+// e mantém cada GIF individual com nome do exercício da lista MD.
 'use strict';
 const PALETTE=[
  [248,250,253],[228,236,245],[201,216,229],[22,39,62],
@@ -253,8 +253,6 @@ if(typeof module!=='undefined')module.exports={FIRST_30,render,toBase64,FRAME_CO
 if(typeof require==='function'&&typeof module!=='undefined'&&require.main===module){
  const fs=require('node:fs'),path=require('node:path');
  const dir=path.join(__dirname,'../dist/assets/md500');fs.mkdirSync(dir,{recursive:true});
- const assets={};
- for(const item of FIRST_30){const gif=render(item);const id=String(item[0]);assets[id]=toBase64(gif);fs.writeFileSync(path.join(dir,'md'+id+'.gif'),gif);}
- fs.writeFileSync(path.join(__dirname,'../dist/md-gifs.js'),'const MD_GIFS='+JSON.stringify(assets)+';\n');
+ for(const item of FIRST_30){const gif=render(item);const id=String(item[0]);fs.writeFileSync(path.join(dir,'md'+id+'.gif'),gif);}
  console.log('GIFs gerados: '+FIRST_30.length+' em '+dir);
 }
