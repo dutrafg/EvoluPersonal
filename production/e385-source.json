@@ -1,0 +1,17 @@
+{
+  "id": "e385",
+  "name": "Panturrilha unilateral no leg press",
+  "group": "Pernas",
+  "muscles": "Gastrocnêmio e sóleo",
+  "movement": "Panturrilha unilateral no leg press: antepé de um pé apoiado no trenó com joelho estável; empurrar pela ponta do pé e voltar flexionando o tornozelo.",
+  "cue": "Apoie o antepé de um lado no trenó e mantenha o joelho estável. Empurre o trenó pela ponta do pé, depois aproxime o calcanhar com controle; use carga confortável.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500",
+  "list_id": 455,
+  "source_sheet": "production/sprites/e385.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

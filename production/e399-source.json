@@ -1,0 +1,17 @@
+{
+  "id": "e399",
+  "name": "Elevação de pernas pendurado na barra fixa (toes to bar)",
+  "group": "Core",
+  "muscles": "Reto abdominal e flexores do quadril",
+  "movement": "Elevação de pernas pendurado até a barra: manter pegada firme e corpo controlado; elevar as pernas estendidas para tocar ou aproximar os pés da barra, descer sem balanço.",
+  "cue": "Pendure-se com pegada firme e estabilize o tronco. Eleve as pernas até os pés alcançarem a barra dentro da amplitude controlada e desça devagar, evitando balançar.",
+  "level": "Avançado",
+  "priority": "exercício da lista de 500",
+  "list_id": 462,
+  "source_sheet": "production/sprites/e399.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

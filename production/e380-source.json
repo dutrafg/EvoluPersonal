@@ -1,0 +1,17 @@
+{
+  "id": "e380",
+  "name": "Abdução de quadril deitado de lado no solo com caneleira",
+  "group": "Pernas",
+  "muscles": "Glúteo médio e mínimo",
+  "movement": "Abdução de quadril deitado de lado com caneleira: perna de cima estendida eleva-se lateralmente sem girar a pelve e retorna controlada.",
+  "cue": "Deite-se de lado, mantenha a perna de baixo flexionada e a de cima estendida com caneleira. Eleve a perna sem girar o quadril e desça até perto da posição inicial.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500",
+  "list_id": 277,
+  "source_sheet": "production/sprites/e380.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/38/side-lying-hip-abduction/"
+  ]
+}

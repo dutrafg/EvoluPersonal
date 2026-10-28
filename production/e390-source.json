@@ -1,0 +1,17 @@
+{
+  "id": "e390",
+  "name": "Panturrilha burro (donkey calf raise)",
+  "group": "Pernas",
+  "muscles": "Gastrocnêmio e sóleo",
+  "movement": "Panturrilha burro: tronco inclinado e quadris flexionados, antepés apoiados no degrau, carga sobre o quadril; abaixar e elevar os calcanhares sem balançar.",
+  "cue": "Incline o tronco mantendo a coluna confortável e apoie os antepés no degrau. Com a carga apoiada no quadril, abaixe e eleve os calcanhares de forma controlada.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500",
+  "list_id": 444,
+  "source_sheet": "production/sprites/e390.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

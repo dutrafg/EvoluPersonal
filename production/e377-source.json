@@ -1,0 +1,17 @@
+{
+  "id": "e377",
+  "name": "Elevação pélvica em base assimétrica (B-stance hip thrust)",
+  "group": "Pernas",
+  "muscles": "Glúteo máximo e posteriores da coxa",
+  "movement": "Hip thrust em base assimétrica: costas apoiadas no banco e barra acolchoada no quadril; pé principal sob o joelho e outro ligeiramente à frente para apoio leve; elevar e baixar o quadril sem inclinar a pelve.",
+  "cue": "Apoie as escápulas no banco. Deixe um pé sustentar a maior parte do peso e o outro um pouco à frente para equilíbrio; eleve o quadril mantendo a pelve nivelada e retorne controlando.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500",
+  "list_id": 253,
+  "source_sheet": "production/sprites/e377.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

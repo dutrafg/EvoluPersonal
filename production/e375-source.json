@@ -1,0 +1,17 @@
+{
+  "id": "e375",
+  "name": "Elevação pélvica unilateral com peso do corpo ou halter",
+  "group": "Pernas",
+  "muscles": "Glúteo máximo",
+  "movement": "Elevação pélvica unilateral no chão: um pé apoiado, a outra perna elevada; estenda o quadril até alinhar tronco e coxa de apoio, mantendo a pelve nivelada, e desça com controle.",
+  "cue": "Deite-se com um pé apoiado e a outra perna elevada. Contraia o abdômen, eleve o quadril sem girar a pelve e retorne devagar. Se usar halter, mantenha-o estável sobre o quadril.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500",
+  "list_id": 252,
+  "source_sheet": "production/sprites/e375.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/145/glute-bridge-single-leg-progression/"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "e394",
+  "name": "Afundo lateral (Cossack squat / side lunge) com halter",
+  "group": "Pernas",
+  "muscles": "Adutores, glúteos e quadríceps",
+  "movement": "Afundo lateral Cossack com halter: pés afastados e halter junto ao peito; flexionar um joelho levando o quadril ao lado enquanto a outra perna permanece estendida, retornar ao centro.",
+  "cue": "Segure o halter junto ao peito e afaste os pés. Flexione um joelho levando o quadril para trás nesse lado enquanto a outra perna fica estendida; volte ao centro sem perder o equilíbrio.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500",
+  "list_id": 287,
+  "source_sheet": "production/sprites/e394.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "e384",
+  "name": "Elevação de panturrilha em pé no Smith (em cima do step)",
+  "group": "Pernas",
+  "muscles": "Gastrocnêmio e sóleo",
+  "movement": "Elevação de panturrilha no Smith em pé sobre step: antepés apoiados, calcanhares descem abaixo do nível do step e sobem em flexão plantar, joelhos estáveis.",
+  "cue": "Posicione a barra do Smith sobre os ombros e apoie os antepés no step. Desça os calcanhares com controle, eleve-se na ponta dos pés e evite quicar.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500",
+  "list_id": 445,
+  "source_sheet": "production/sprites/e384.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

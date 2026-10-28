@@ -1,0 +1,17 @@
+{
+  "id": "e398",
+  "name": "Hiperextensão lombar no banco romano (45° ou 90°)",
+  "group": "Core",
+  "muscles": "Eretores da espinha, glúteos e posteriores da coxa",
+  "movement": "Hiperextensão no banco romano: quadris apoiados e tornozelos fixos, tronco desce pelo quadril e sobe até alinhar com as pernas, sem hiperestender a lombar.",
+  "cue": "Ajuste o apoio na altura do quadril e mantenha os tornozelos firmes. Incline o tronco pelo quadril e volte até alinhar o corpo, sem elevar além da linha das pernas.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500",
+  "list_id": 465,
+  "source_sheet": "production/sprites/e398.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

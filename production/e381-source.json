@@ -1,0 +1,17 @@
+{
+  "id": "e381",
+  "name": "Exercício ostra (clamshell) com mini band",
+  "group": "Pernas",
+  "muscles": "Glúteo médio e rotadores externos do quadril",
+  "movement": "Clamshell com mini band: deitado de lado, quadris e joelhos flexionados, pés unidos; afastar o joelho de cima mantendo a pelve empilhada e retornar.",
+  "cue": "Coloque a mini band acima dos joelhos e deite-se de lado com os pés unidos. Abra o joelho de cima sem girar o tronco e feche lentamente.",
+  "level": "Iniciante",
+  "priority": "exercício da lista de 500",
+  "list_id": 279,
+  "source_sheet": "production/sprites/e381.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

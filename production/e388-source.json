@@ -1,0 +1,17 @@
+{
+  "id": "e388",
+  "name": "Panturrilha no hack squat",
+  "group": "Pernas",
+  "muscles": "Gastrocnêmio e sóleo",
+  "movement": "Elevação de panturrilha no hack squat: ombros sob as almofadas e antepés na borda do apoio; elevar e baixar os calcanhares mantendo joelhos quase estendidos.",
+  "cue": "Ajuste os ombros sob as almofadas e deixe os antepés apoiados na borda da plataforma. Eleve os calcanhares e desça alongando a panturrilha, sem dobrar e estender os joelhos.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500",
+  "list_id": 448,
+  "source_sheet": "production/sprites/e388.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

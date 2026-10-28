@@ -1,0 +1,17 @@
+{
+  "id": "e393",
+  "name": "Prancha Copenhagen (adutor)",
+  "group": "Pernas",
+  "muscles": "Adutores do quadril e oblíquos",
+  "movement": "Prancha Copenhagen: apoio lateral no antebraço, perna superior apoiada no banco e inferior suspensa; elevar quadril e manter corpo alinhado.",
+  "cue": "Apoie o tornozelo ou a perna de cima no banco e alinhe o corpo de lado sobre o antebraço. Eleve o quadril, mantenha a posição sem prender a respiração e desça controlando.",
+  "level": "Avançado",
+  "priority": "exercício da lista de 500",
+  "list_id": 286,
+  "source_sheet": "production/sprites/e393.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

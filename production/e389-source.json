@@ -1,0 +1,17 @@
+{
+  "id": "e389",
+  "name": "Elevação tibial sentado na polia baixa ou máquina específica",
+  "group": "Pernas",
+  "muscles": "Tibial anterior",
+  "movement": "Elevação tibial sentado na polia baixa: cabo preso ao antepé, perna apoiada e tornozelo inicia em flexão plantar; puxar os dedos em direção à canela e retornar.",
+  "cue": "Sente-se com a perna apoiada e prenda o cabo ao antepé. Puxe os dedos em direção à canela sem mover o joelho e retorne lentamente.",
+  "level": "Iniciante",
+  "priority": "exercício da lista de 500",
+  "list_id": 460,
+  "source_sheet": "production/sprites/e389.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/23/ankle-flexion/"
+  ]
+}

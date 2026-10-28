@@ -1,0 +1,17 @@
+{
+  "id": "e379",
+  "name": "Abdução de quadril em pé na polia baixa",
+  "group": "Pernas",
+  "muscles": "Glúteo médio e mínimo",
+  "movement": "Abdução de quadril em pé na polia baixa: tornozeleira conectada à polia, perna ativa cruza ligeiramente à frente da perna de apoio e se afasta para o lado; tronco e pelve estáveis.",
+  "cue": "Prenda a tornozeleira à polia baixa e fique ao lado do aparelho. Afaste a perna contra o cabo sem inclinar o tronco ou girar a pelve; volte devagar.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500",
+  "list_id": 276,
+  "source_sheet": "production/sprites/e379.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/body-part/butt-hips/gluteus-medius-minimus%28abductors%29/"
+  ]
+}

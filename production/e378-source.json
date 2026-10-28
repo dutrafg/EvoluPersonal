@@ -1,0 +1,17 @@
+{
+  "id": "e378",
+  "name": "Hiperextensão no banco 45° com foco em glúteo",
+  "group": "Pernas",
+  "muscles": "Glúteos e posteriores da coxa",
+  "movement": "Hiperextensão no banco a 45 graus com ênfase nos glúteos: quadris apoiados, pés ligeiramente abduzidos e tronco inclinado; estender o quadril até alinhar o corpo e voltar sem hiperestender a lombar.",
+  "cue": "Ajuste o apoio abaixo do quadril, incline o tronco e mantenha os pés levemente voltados para fora. Estenda o quadril contraindo os glúteos até alinhar o corpo e desça sem forçar a lombar.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500",
+  "list_id": 259,
+  "source_sheet": "production/sprites/e378.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

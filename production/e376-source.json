@@ -1,0 +1,17 @@
+{
+  "id": "e376",
+  "name": "Ponte de glúteo no solo com barra",
+  "group": "Pernas",
+  "muscles": "Glúteo máximo",
+  "movement": "Ponte de glúteos com barra no solo: barra acolchoada sobre o quadril, pés apoiados e joelhos flexionados; elevar quadril até alinhar tronco e coxas e baixar controlando.",
+  "cue": "Apoie as costas no chão, posicione a barra acolchoada sobre o quadril e mantenha os pés firmes. Eleve o quadril até alinhar tronco e coxas, sem hiperestender a lombar, e desça com controle.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500",
+  "list_id": 255,
+  "source_sheet": "production/sprites/e376.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

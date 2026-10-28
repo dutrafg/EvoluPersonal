@@ -1,0 +1,17 @@
+{
+  "id": "e391",
+  "name": "Adução de quadril em pé na polia baixa",
+  "group": "Pernas",
+  "muscles": "Adutores do quadril",
+  "movement": "Adução em pé na polia baixa: tornozeleira ligada à polia, perna ativa começa afastada e cruza em direção à linha média, sem inclinar o tronco; retornar lentamente.",
+  "cue": "Prenda a tornozeleira na polia baixa e fique de lado ao aparelho. Traga o pé em direção à linha média sem girar a pelve; pause e deixe a perna voltar com controle.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500",
+  "list_id": 284,
+  "source_sheet": "production/sprites/e391.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/104/standing-hip-adduction/"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "e383",
+  "name": "Extensão de quadril em quatro apoios com caneleira (donkey kick)",
+  "group": "Pernas",
+  "muscles": "Glúteo máximo",
+  "movement": "Extensão de quadril em quatro apoios com joelho flexionado a 90 graus: com caneleira, elevar a coxa mantendo o joelho dobrado e coluna neutra; retornar sem apoiar o peso de uma vez.",
+  "cue": "Apoie mãos e joelho no chão e mantenha o abdômen ativo. Com caneleira e joelho dobrado, eleve a coxa sem arquear a lombar; desça controlando.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500",
+  "list_id": 271,
+  "source_sheet": "production/sprites/e383.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

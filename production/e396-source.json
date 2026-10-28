@@ -1,0 +1,17 @@
+{
+  "id": "e396",
+  "name": "Adução isométrica com bola suíça entre os joelhos",
+  "group": "Pernas",
+  "muscles": "Adutores do quadril",
+  "movement": "Adução isométrica deitada com bola entre os joelhos: apertar a bola, manter a contração e relaxar gradualmente sem levantar a pelve.",
+  "cue": "Deite-se com os joelhos flexionados e a bola entre eles. Aperte a bola sem prender a respiração, mantenha brevemente e relaxe devagar.",
+  "level": "Iniciante",
+  "priority": "exercício da lista de 500",
+  "list_id": 289,
+  "source_sheet": "production/sprites/e396.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

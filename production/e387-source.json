@@ -1,0 +1,17 @@
+{
+  "id": "e387",
+  "name": "Elevação de panturrilha unilateral em pé com halter (no step/degrau)",
+  "group": "Pernas",
+  "muscles": "Gastrocnêmio e sóleo",
+  "movement": "Elevação unilateral de panturrilha em pé com halter sobre um degrau: antepé de um pé no step; baixar o calcanhar e elevar o corpo na ponta do pé com apoio para equilíbrio.",
+  "cue": "Segure um halter e apoie o antepé de um pé no degrau. Baixe o calcanhar sem perder o equilíbrio e eleve-se na ponta do pé; use a outra mão como apoio.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500",
+  "list_id": 447,
+  "source_sheet": "production/sprites/e387.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/73/standing-calf-raises-wall/"
+  ]
+}

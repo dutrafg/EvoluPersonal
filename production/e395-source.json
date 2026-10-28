@@ -1,0 +1,17 @@
+{
+  "id": "e395",
+  "name": "Prancha lateral com abdução de quadril",
+  "group": "Core",
+  "muscles": "Oblíquos e glúteo médio",
+  "movement": "Prancha lateral com abdução: apoio no antebraço e pé inferior, corpo alinhado; afastar a perna de cima mantendo a pelve estável e retornar.",
+  "cue": "Apoie o antebraço e a lateral do pé, mantendo o corpo alinhado. Eleve a perna de cima sem girar a pelve e volte controlando; reduza a amplitude se perder estabilidade.",
+  "level": "Avançado",
+  "priority": "exercício da lista de 500",
+  "list_id": 280,
+  "source_sheet": "production/sprites/e395.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

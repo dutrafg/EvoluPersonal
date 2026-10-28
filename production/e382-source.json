@@ -1,0 +1,17 @@
+{
+  "id": "e382",
+  "name": "Coice na máquina (glute kickback machine)",
+  "group": "Pernas",
+  "muscles": "Glúteo máximo",
+  "movement": "Coice na máquina: tronco apoiado, pé na plataforma móvel; estender o quadril para trás contra a resistência sem arquear as costas e retornar controlando.",
+  "cue": "Ajuste o apoio para manter o tronco estável e posicione o pé na alavanca. Empurre a perna para trás contraindo o glúteo, sem arquear a lombar; retorne devagar.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500",
+  "list_id": 268,
+  "source_sheet": "production/sprites/e382.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

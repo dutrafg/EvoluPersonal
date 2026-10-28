@@ -1,0 +1,17 @@
+{
+  "id": "e386",
+  "name": "Panturrilha no leg press vertical (90°)",
+  "group": "Pernas",
+  "muscles": "Sóleo e gastrocnêmio",
+  "movement": "Panturrilha no leg press vertical com joelhos flexionados: costas apoiadas e joelhos dobrados; antepés no apoio movem o trenó por flexão plantar, sem estender os joelhos.",
+  "cue": "Ajuste a máquina com as costas apoiadas e joelhos flexionados. Movimente o trenó pelo tornozelo, elevando e baixando os calcanhares sem mudar o ângulo dos joelhos.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500",
+  "list_id": 450,
+  "source_sheet": "production/sprites/e386.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

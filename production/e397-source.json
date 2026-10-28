@@ -1,0 +1,17 @@
+{
+  "id": "e397",
+  "name": "Roda abdominal (ab wheel rollout)",
+  "group": "Core",
+  "muscles": "Reto abdominal, transverso e ombros",
+  "movement": "Roda abdominal ajoelhado: segurar a roda, rolar para a frente mantendo tronco alinhado e retornar puxando pela musculatura do core, sem deixar a lombar ceder.",
+  "cue": "Ajoelhe-se no colchonete segurando a roda. Contraia o abdômen, role só até manter a lombar controlada e puxe para voltar; use amplitude menor se necessário.",
+  "level": "Avançado",
+  "priority": "exercício da lista de 500",
+  "list_id": 464,
+  "source_sheet": "production/sprites/e397.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/309/roll-out/"
+  ]
+}

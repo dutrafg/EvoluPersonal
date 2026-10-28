@@ -1,0 +1,17 @@
+{
+  "id": "e392",
+  "name": "Adução de quadril deitado no solo com caneleira",
+  "group": "Pernas",
+  "muscles": "Adutores do quadril",
+  "movement": "Adução de quadril deitado de lado: perna de cima flexionada à frente e apoiada no solo, perna inferior estendida eleva-se e baixa mantendo o tronco estável.",
+  "cue": "Deite-se de lado, flexione a perna de cima e apoie o pé à frente. Com caneleira na perna de baixo, eleve-a estendida e retorne sem girar o corpo.",
+  "level": "Iniciante",
+  "priority": "exercício da lista de 500",
+  "list_id": 285,
+  "source_sheet": "production/sprites/e392.png",
+  "illustration": "Folha original de 6 poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}
