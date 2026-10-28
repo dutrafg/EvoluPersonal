@@ -224,8 +224,24 @@
     "unique_md_ids": 30,
     "no_binary_duplicates": true,
     "lzw_decoded_frames": 300,
-    "integrated_into_app": true,
-    "biomechanical_manual_review": "pending",
-    "android_visual_test": "pending"
+    "integrated_into_app": false,
+    "biomechanical_manual_review": "reprovado no estilo; requer refazer",
+    "android_visual_test": "não aplicável até redesign"
+  },
+  "status": "REPROVADO",
+  "rejection_reason": "Usuário rejeitou bonecos 2D esquemáticos; divergência do padrão anatômico 3D previamente aprovado.",
+  "counted_in_coverage": false,
+  "approved_gifs": 0,
+  "files_preserved_for_history": true,
+  "required_visual_standard": {
+    "model": "personagem anatômico detalhado com aspecto 3D, roupa de compressão cinza e destaque laranja dos grupos musculares trabalhados",
+    "animation": "6 poses específicas por ciclo GIF, mesmo modelo e mesmo enquadramento, loop contínuo",
+    "equipment": "realista e correto para a variante de exercício",
+    "ban": [
+      "bonecos-palito",
+      "desenhos esquemáticos 2D",
+      "movimentos genéricos reutilizados",
+      "mídias sem QA técnico"
+    ]
   }
 }
