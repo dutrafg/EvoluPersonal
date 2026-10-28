@@ -3,12 +3,13 @@
   "branch": "codex/evolupersonal-media-350",
   "updated_on": "2026-10-28",
   "target": 500,
-  "linked_gifs": 314,
-  "to_produce": 186,
-  "completed_batch": {
+  "linked_gifs": 284,
+  "to_produce": 216,
+  "batch_size": 30,
+  "rejected_batch": {
     "name": "MD500-01",
     "count": 30,
-    "ids": [
+    "md_ids": [
       292,
       357,
       76,
@@ -39,162 +40,284 @@
       111,
       115,
       120
-    ]
+    ],
+    "status": "reprovado: demonstrações 2D esquemáticas sem padrão anatômico 3D",
+    "files_preserved": "dist/assets/md500/",
+    "counted_in_coverage": false
   },
-  "batch_size": 30,
   "next_batch": [
     {
-      "md_id": 122,
-      "name": "Encolhimento de Ombros no Smith",
-      "output_path": "dist/assets/md500/md122.gif"
+      "md_id": 292,
+      "name": "Desenvolvimento Sentado com Halteres",
+      "output_path": "dist/assets/md500/md292.gif"
     },
     {
-      "md_id": 128,
-      "name": "Remada Alta Pegada Fechada (Foco em Trapézio)",
-      "output_path": "dist/assets/md500/md128.gif"
+      "md_id": 357,
+      "name": "Rosca no Banco Inclinado 45° com Halteres (Braços alongados atrás do tronco)",
+      "output_path": "dist/assets/md500/md357.gif"
     },
     {
-      "md_id": 134,
-      "name": "Retração Escapular na Puxada Alta",
-      "output_path": "dist/assets/md500/md134.gif"
+      "md_id": 76,
+      "name": "Puxada Alta Ajoelhado na Polia",
+      "output_path": "dist/assets/md500/md76.gif"
     },
     {
-      "md_id": 137,
-      "name": "Puxada de Trenó com Corda (Sled Pull)",
-      "output_path": "dist/assets/md500/md137.gif"
+      "md_id": 85,
+      "name": "Remada Baixa Sentado na Polia com Barra Reta (Pegada Aberta)",
+      "output_path": "dist/assets/md500/md85.gif"
     },
     {
-      "md_id": 160,
-      "name": "Agachamento com Halteres nas Laterais do Corpo",
-      "output_path": "dist/assets/md500/md160.gif"
+      "md_id": 88,
+      "name": "Remada Baixa Unilateral na Polia Sentado",
+      "output_path": "dist/assets/md500/md88.gif"
     },
     {
-      "md_id": 173,
-      "name": "Leg Press Horizontal Unilateral",
-      "output_path": "dist/assets/md500/md173.gif"
+      "md_id": 101,
+      "name": "Remada Alta na Polia Sentado com Corda (Puxando em direção ao peito/pescoço)",
+      "output_path": "dist/assets/md500/md101.gif"
     },
     {
-      "md_id": 174,
-      "name": "Leg Press 45° com Pés Baixos e Juntos (Ênfase máxima em Quadríceps)",
-      "output_path": "dist/assets/md500/md174.gif"
+      "md_id": 109,
+      "name": "Pulldown Unilateral na Polia Alta",
+      "output_path": "dist/assets/md500/md109.gif"
     },
     {
-      "md_id": 175,
-      "name": "Agachamento Hack Unilateral",
-      "output_path": "dist/assets/md500/md175.gif"
+      "md_id": 131,
+      "name": "Elevação em T no Banco Inclinado com Halteres (Foco em Romboides)",
+      "output_path": "dist/assets/md500/md131.gif"
     },
     {
-      "md_id": 187,
-      "name": "Subida no Banco com Barra",
-      "output_path": "dist/assets/md500/md187.gif"
+      "md_id": 132,
+      "name": "Elevação em W no Banco Inclinado com Halteres",
+      "output_path": "dist/assets/md500/md132.gif"
     },
     {
-      "md_id": 191,
-      "name": "Agachamento Pistol (Unilateral com peso do corpo)",
-      "output_path": "dist/assets/md500/md191.gif"
+      "md_id": 152,
+      "name": "Agachamento com Barra de Segurança (Safety Bar Squat - SSB)",
+      "output_path": "dist/assets/md500/md152.gif"
     },
     {
-      "md_id": 200,
-      "name": "Empurrada de Trenó (Sled Push) / Puxada de Trenó de Costas (Backward Sled Drag)",
-      "output_path": "dist/assets/md500/md200.gif"
+      "md_id": 153,
+      "name": "Agachamento Pêndulo na Máquina (Pendulum Squat)",
+      "output_path": "dist/assets/md500/md153.gif"
     },
     {
-      "md_id": 211,
-      "name": "RDL em Base Assimétrica (B-Stance RDL com Barra ou Halteres)",
-      "output_path": "dist/assets/md500/md211.gif"
+      "md_id": 155,
+      "name": "Agachamento V-Squat na Máquina",
+      "output_path": "dist/assets/md500/md155.gif"
     },
     {
-      "md_id": 213,
-      "name": "RDL na Polia Baixa",
-      "output_path": "dist/assets/md500/md213.gif"
+      "md_id": 170,
+      "name": "Leg Press Vertical (90 Graus)",
+      "output_path": "dist/assets/md500/md170.gif"
     },
     {
-      "md_id": 238,
-      "name": "Flexão de Joelho no TRX / Fita de Suspensão",
-      "output_path": "dist/assets/md500/md238.gif"
+      "md_id": 171,
+      "name": "Leg Press Articulado (Iso-Lateral)",
+      "output_path": "dist/assets/md500/md171.gif"
     },
     {
-      "md_id": 251,
-      "name": "Elevação Pélvica com Halter ou Kettlebell",
-      "output_path": "dist/assets/md500/md251.gif"
+      "md_id": 172,
+      "name": "Leg Press 45° Unilateral",
+      "output_path": "dist/assets/md500/md172.gif"
     },
     {
-      "md_id": 254,
-      "name": "Kas Glute Bridge (Elevação Pélvica com amplitude curta no topo)",
-      "output_path": "dist/assets/md500/md254.gif"
+      "md_id": 178,
+      "name": "Afundo Estático no Smith",
+      "output_path": "dist/assets/md500/md178.gif"
     },
     {
-      "md_id": 265,
-      "name": "Afundo no Smith com Pé de Trás Apoiado no Step e Tronco Inclinado",
-      "output_path": "dist/assets/md500/md265.gif"
+      "md_id": 207,
+      "name": "Stiff com Halteres",
+      "output_path": "dist/assets/md500/md207.gif"
     },
     {
-      "md_id": 305,
-      "name": "Desenvolvimento Alternado Sentado com Halteres",
-      "output_path": "dist/assets/md500/md305.gif"
+      "md_id": 208,
+      "name": "RDL no Smith",
+      "output_path": "dist/assets/md500/md208.gif"
     },
     {
-      "md_id": 315,
-      "name": "Elevação Lateral na Polia Baixa (Cabo passando pela frente do corpo)",
-      "output_path": "dist/assets/md500/md315.gif"
+      "md_id": 226,
+      "name": "Cadeira Flexora Unilateral",
+      "output_path": "dist/assets/md500/md226.gif"
     },
     {
-      "md_id": 386,
-      "name": "Rosca Inversa na Polia Baixa",
-      "output_path": "dist/assets/md500/md386.gif"
+      "md_id": 229,
+      "name": "Flexão Nórdica (Nordic Hamstring Curl)",
+      "output_path": "dist/assets/md500/md229.gif"
     },
     {
-      "md_id": 320,
-      "name": "Elevação Lateral Deitado de Lado no Banco Inclinado",
-      "output_path": "dist/assets/md500/md320.gif"
+      "md_id": 249,
+      "name": "Elevação Pélvica no Smith",
+      "output_path": "dist/assets/md500/md249.gif"
     },
     {
-      "md_id": 321,
-      "name": "Elevação Lateral com Peito Apoiado no Banco Inclinado",
-      "output_path": "dist/assets/md500/md321.gif"
+      "md_id": 298,
+      "name": "Desenvolvimento no Smith (Pela Frente)",
+      "output_path": "dist/assets/md500/md298.gif"
     },
     {
-      "md_id": 325,
-      "name": "Remada Alta com Barra Reta ou W (Pegada Média/Aberta - foco em Deltoide Lateral)",
-      "output_path": "dist/assets/md500/md325.gif"
+      "md_id": 303,
+      "name": "Desenvolvimento Articulado Convergente",
+      "output_path": "dist/assets/md500/md303.gif"
     },
     {
-      "md_id": 328,
-      "name": "Remada Alta no Smith",
-      "output_path": "dist/assets/md500/md328.gif"
+      "md_id": 373,
+      "name": "Rosca 21 (7 repetições metade inferior + 7 metade superior + 7 completas)",
+      "output_path": "dist/assets/md500/md373.gif"
     },
     {
-      "md_id": 331,
-      "name": "Elevação Frontal com Halteres em Pegada Neutra (Martelo)",
-      "output_path": "dist/assets/md500/md331.gif"
+      "md_id": 473,
+      "name": "Abdominal Infra no Solo ou Banco (Elevação de pernas deitado)",
+      "output_path": "dist/assets/md500/md473.gif"
     },
     {
-      "md_id": 339,
-      "name": "Crucifixo Inverso no Banco Inclinado com Halteres",
-      "output_path": "dist/assets/md500/md339.gif"
+      "md_id": 38,
+      "name": "Landmine Press (Empurrada unilateral ou bilateral na barra T)",
+      "output_path": "dist/assets/md500/md38.gif"
     },
     {
-      "md_id": 342,
-      "name": "Crucifixo Inverso Unilateral na Polia",
-      "output_path": "dist/assets/md500/md342.gif"
+      "md_id": 99,
+      "name": "Remada Serrote na Polia Baixa",
+      "output_path": "dist/assets/md500/md99.gif"
     },
     {
-      "md_id": 343,
-      "name": "Remada para Deltoide Posterior com Halteres (Cotovelos abertos a 90°)",
-      "output_path": "dist/assets/md500/md343.gif"
+      "md_id": 111,
+      "name": "Pullover no Cabo Declinado ou no Banco Reto",
+      "output_path": "dist/assets/md500/md111.gif"
     },
     {
-      "md_id": 347,
-      "name": "Face Pull com Rotação Externa na Polia Alta",
-      "output_path": "dist/assets/md500/md347.gif"
+      "md_id": 115,
+      "name": "Levantamento Terra com Déficit (Em cima de anilha/caixote)",
+      "output_path": "dist/assets/md500/md115.gif"
     },
     {
-      "md_id": 349,
-      "name": "Rotação Externa de Ombro com Halter (Deitado de lado ou apoiado no joelho)",
-      "output_path": "dist/assets/md500/md349.gif"
+      "md_id": 120,
+      "name": "Encolhimento de Ombros com Halteres Sentado",
+      "output_path": "dist/assets/md500/md120.gif"
     }
   ],
   "remaining_after_next": [
+    {
+      "md_id": 122,
+      "name": "Encolhimento de Ombros no Smith"
+    },
+    {
+      "md_id": 128,
+      "name": "Remada Alta Pegada Fechada (Foco em Trapézio)"
+    },
+    {
+      "md_id": 134,
+      "name": "Retração Escapular na Puxada Alta"
+    },
+    {
+      "md_id": 137,
+      "name": "Puxada de Trenó com Corda (Sled Pull)"
+    },
+    {
+      "md_id": 160,
+      "name": "Agachamento com Halteres nas Laterais do Corpo"
+    },
+    {
+      "md_id": 173,
+      "name": "Leg Press Horizontal Unilateral"
+    },
+    {
+      "md_id": 174,
+      "name": "Leg Press 45° com Pés Baixos e Juntos (Ênfase máxima em Quadríceps)"
+    },
+    {
+      "md_id": 175,
+      "name": "Agachamento Hack Unilateral"
+    },
+    {
+      "md_id": 187,
+      "name": "Subida no Banco com Barra"
+    },
+    {
+      "md_id": 191,
+      "name": "Agachamento Pistol (Unilateral com peso do corpo)"
+    },
+    {
+      "md_id": 200,
+      "name": "Empurrada de Trenó (Sled Push) / Puxada de Trenó de Costas (Backward Sled Drag)"
+    },
+    {
+      "md_id": 211,
+      "name": "RDL em Base Assimétrica (B-Stance RDL com Barra ou Halteres)"
+    },
+    {
+      "md_id": 213,
+      "name": "RDL na Polia Baixa"
+    },
+    {
+      "md_id": 238,
+      "name": "Flexão de Joelho no TRX / Fita de Suspensão"
+    },
+    {
+      "md_id": 251,
+      "name": "Elevação Pélvica com Halter ou Kettlebell"
+    },
+    {
+      "md_id": 254,
+      "name": "Kas Glute Bridge (Elevação Pélvica com amplitude curta no topo)"
+    },
+    {
+      "md_id": 265,
+      "name": "Afundo no Smith com Pé de Trás Apoiado no Step e Tronco Inclinado"
+    },
+    {
+      "md_id": 305,
+      "name": "Desenvolvimento Alternado Sentado com Halteres"
+    },
+    {
+      "md_id": 315,
+      "name": "Elevação Lateral na Polia Baixa (Cabo passando pela frente do corpo)"
+    },
+    {
+      "md_id": 386,
+      "name": "Rosca Inversa na Polia Baixa"
+    },
+    {
+      "md_id": 320,
+      "name": "Elevação Lateral Deitado de Lado no Banco Inclinado"
+    },
+    {
+      "md_id": 321,
+      "name": "Elevação Lateral com Peito Apoiado no Banco Inclinado"
+    },
+    {
+      "md_id": 325,
+      "name": "Remada Alta com Barra Reta ou W (Pegada Média/Aberta - foco em Deltoide Lateral)"
+    },
+    {
+      "md_id": 328,
+      "name": "Remada Alta no Smith"
+    },
+    {
+      "md_id": 331,
+      "name": "Elevação Frontal com Halteres em Pegada Neutra (Martelo)"
+    },
+    {
+      "md_id": 339,
+      "name": "Crucifixo Inverso no Banco Inclinado com Halteres"
+    },
+    {
+      "md_id": 342,
+      "name": "Crucifixo Inverso Unilateral na Polia"
+    },
+    {
+      "md_id": 343,
+      "name": "Remada para Deltoide Posterior com Halteres (Cotovelos abertos a 90°)"
+    },
+    {
+      "md_id": 347,
+      "name": "Face Pull com Rotação Externa na Polia Alta"
+    },
+    {
+      "md_id": 349,
+      "name": "Rotação Externa de Ombro com Halter (Deitado de lado ou apoiado no joelho)"
+    },
     {
       "md_id": 360,
       "name": "Rosca Scott na Polia Baixa"
@@ -820,10 +943,12 @@
       "name": "Vacuum Abdominal (Contração isométrica do Transverso do Abdômen)"
     }
   ],
-  "notes": [
-    "Somente entradas do arquivo MD.",
-    "Não criar um exercício que não conste da lista original.",
-    "Conservar GIFs existentes e histórico antigo para permitir reversão.",
-    "Cada lote de 30 exige geração de GIFs individuais, integração, QA técnico e commit GitHub."
+  "constraints": [
+    "Apenas exercícios que constam nas 500 linhas do MD original.",
+    "Cada grupo de 30 será publicado no GitHub após aprovação de padrão visual e conferência biomecânica.",
+    "Modelo humano anatômico detalhado, aparência 3D, roupa de compressão cinza e músculos ativos em laranja.",
+    "Mesmo personagem, câmera, enquadramento e iluminação; equipamento específico correto; 6 poses coerentes por exercício formando loop.",
+    "Os 30 GIFs 2D anteriores são reprovados: não reutilizar nem contar como concluídos.",
+    "Não publicar alterações na main sem autorização explícita."
   ]
 }
