@@ -12,7 +12,7 @@ Aplicativo separado para personal trainer, com identidade visual inspirada no Ev
 - Descanso antes de cada série, RIR alvo/realizado, GIF na execução e histórico de séries.
 - Sugestões de progressão por todas as séries de trabalho ou pela principal, sem alterar cargas automaticamente.
 - Migração de backups e bases versão 1 para versão 2 sem excluir registros; mudança para catálogo MD500 preserva as referências históricas de treinos antigos e cria cópia local antes da adaptação.
-- Biblioteca oficial com os **500 exercícios do arquivo `500 Exercícios Base de Musculação.md`**, na mesma ordem e com os nomes originais. **284 possuem GIF legado vinculado**; **216 aguardam animação específica**. O lote de 30 animações 2D criado anteriormente foi reprovado e não conta como cobertura.
+- Biblioteca oficial com os **500 exercícios do arquivo `500 Exercícios Base de Musculação.md`**, na mesma ordem e com os nomes originais. **288 possuem GIF legado vinculado**; **212 aguardam animação específica**. O lote de 30 animações 2D criado anteriormente foi reprovado e não conta como cobertura.
 - Prévia local da área do aluno: carga e repetições por série, marcação de conclusão, cronômetro, esforço e feedback.
 - Histórico de sessões com cópia dos registros na conclusão.
 - Persistência no navegador, exportação e restauração de backup JSON com validação.
@@ -48,13 +48,22 @@ Contas e permissões por aluno, banco de dados e sincronização entre aparelhos
 ## Biblioteca original MD500 — lote 01 de 30
 
 - Fonte: `500 Exercícios Base de Musculação.md`; **não cadastrar exercícios externos** na biblioteca oficial.
-- Contagem atual: **500 itens oficiais; 284 com GIF vinculado; 216 ainda sem GIF aprovado**. O catálogo anterior de 425 GIFs permanece como acervo de apoio/histórico; não equivale a 425 itens do MD.
+- Contagem atual: **500 itens oficiais; 288 com GIF vinculado; 212 ainda sem GIF aprovado**. O catálogo anterior de 425 GIFs permanece como acervo de apoio/histórico; não equivale a 425 itens do MD.
 - Primeiro lote de 30 GIFs em `dist/assets/md500/md<ID>.gif`: **REPROVADO** por apresentar bonecos esquemáticos 2D. Arquivos preservados apenas para auditoria, sem vinculação no aplicativo.
 - Formato técnico do lote: 144 × 144, 10 quadros, GIF89a, destaque muscular alaranjado. **O padrão obrigatório é anatômico 3D com roupa de compressão cinza, musculatura ativa em laranja, equipamento correto e seis poses por ciclo.**
-- A nova fila em `production/FILA_PRIORIDADE_COBERTURA_MD500.json` contém 216 exercícios, com o próximo grupo de 30 definido.
+- A nova fila em `production/FILA_PRIORIDADE_COBERTURA_MD500.json` contém 212 exercícios, com o próximo grupo de 25 definido.
 - Validação: `node scripts/validar_cobertura_500.cjs`; testes do aplicativo `node tests.cjs` e `node tests-methods.cjs`.
 - O site privado não foi atualizado por este commit. A branch de desenvolvimento é `codex/evolupersonal-media-350`; `main` não foi alterada.
 
 ### Reprovação do lote MD500-01
 
 Em 28/10/2026, a amostra de bonecos 2D foi rejeitada. Os 30 arquivos estão preservados no histórico Git, mas desativados em `dist/index.html`. A contagem oficial foi restaurada de 314 para **284 correspondências**, com **216 itens ainda pendentes**. Não recomeçar a produção em 2D ou reutilizar os movimentos genéricos. Qualquer próxima prévia é conceitual até ser gerado e validado um GIF anatômico 3D real.
+
+
+## Nova cadência de produção — 25 por lote
+
+- Lote de trabalho `production/lote-md500-25-01.json`: 25 exercícios originais do MD, seis poses técnicas por exercício (150 posições) em planejamento; **nenhum novo GIF 3D deste lote foi aprovado**.
+- Quatro correspondências preexistentes aproveitadas por inspeção: MD85→e165, MD131→e299, MD132→e300 e MD172→e259. Cobertura documental atual **288/500**; pendências **212**.
+- Compositor de sprites aprovados em `scripts/montar_gif_3d.py`; saída de rascunho em `production/previews-md500-3d/`; entrega definitiva em `dist/assets/md500-3d/`.
+- Verificador `scripts/validar_lote_25.cjs` exige 25 assets diferentes, GIFs ≥400 px e validação de QA registrada antes de declarar o lote concluído. A análise da fidelidade anatômica é uma etapa humana independente.
+- Preservar `main`, preparar um commit com **25 GIFs aprovados de uma só vez**, sem reutilizar o material 2D reprovado.
