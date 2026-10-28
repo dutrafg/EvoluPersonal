@@ -18,12 +18,14 @@
     }
   ],
   "catalog_baseline_count": 100,
-  "status": "17 novos obrigatórios integrados com GIFs no lote5; cinco descrições dos PDFs ainda exigem definição.",
+  "status": "38 dos 43 requisitos dos PDFs têm representação declarada no catálogo (21 prévios e 17 adicionados no lote 5); 5 descrições seguem indefinidas. Inspeção visual dos GIFs pendente.",
   "summary": {
     "distinct_requirements": 43,
     "covered": 21,
     "new_required": 17,
-    "needs_definition": 5
+    "needs_definition": 5,
+    "addressed_in_catalog": 38,
+    "visual_qa_pending": 17
   },
   "rules": [
     "Comparar exercício, equipamento, posição e pegada; não apenas semelhança de nome.",
@@ -166,119 +168,170 @@
       "name": "Supino inclinado articulado",
       "source": "Natural — Push",
       "priority": "obrigatório",
-      "animation_status": "não criada"
+      "animation_status": "integrada ao catálogo com GIF referenciado; inspeção visual pendente",
+      "catalog_id": "e100",
+      "catalog_name": "Supino inclinado articulado",
+      "gif_path": "dist/assets/exercises/e100.gif"
     },
     {
       "proposed_id": "e101",
       "name": "Crucifixo reto na polia baixa",
       "source": "Natural — Push",
       "priority": "obrigatório",
-      "animation_status": "não criada"
+      "animation_status": "integrada ao catálogo com GIF referenciado; inspeção visual pendente",
+      "catalog_id": "e101",
+      "catalog_name": "Crucifixo reto na polia baixa",
+      "gif_path": "dist/assets/exercises/e101.gif"
     },
     {
       "proposed_id": "e102",
       "name": "Voador / Pec deck",
       "source": "Natural — Push",
       "priority": "obrigatório",
-      "animation_status": "não criada"
+      "animation_status": "integrada ao catálogo com GIF referenciado; inspeção visual pendente",
+      "catalog_id": "e102",
+      "catalog_name": "Voador na máquina com pegadores",
+      "gif_path": "dist/assets/exercises/e102.gif"
     },
     {
       "proposed_id": "e103",
       "name": "Tríceps corda na polia",
       "source": "Natural — Push; Letícia — A",
       "priority": "obrigatório",
-      "animation_status": "não criada"
+      "animation_status": "integrada ao catálogo com GIF referenciado; inspeção visual pendente",
+      "catalog_id": "e103",
+      "catalog_name": "Tríceps corda na polia",
+      "gif_path": "dist/assets/exercises/e103.gif"
     },
     {
       "proposed_id": "e104",
       "name": "Hack squat",
       "source": "Natural — Legs",
       "priority": "obrigatório",
-      "animation_status": "não criada"
+      "animation_status": "integrada ao catálogo com GIF referenciado; inspeção visual pendente",
+      "catalog_id": "e104",
+      "catalog_name": "Hack squat",
+      "gif_path": "dist/assets/exercises/e104.gif"
     },
     {
       "proposed_id": "e105",
       "name": "Cadeira flexora",
       "source": "Natural — Legs e Lower",
       "priority": "obrigatório",
-      "animation_status": "não criada"
+      "animation_status": "integrada ao catálogo com GIF referenciado; inspeção visual pendente",
+      "catalog_id": "e105",
+      "catalog_name": "Cadeira flexora",
+      "gif_path": "dist/assets/exercises/e105.gif"
     },
     {
       "proposed_id": "e106",
       "name": "Supino inclinado no Smith",
       "source": "Natural — Upper",
       "priority": "obrigatório",
-      "animation_status": "não criada"
+      "animation_status": "integrada ao catálogo com GIF referenciado; inspeção visual pendente",
+      "catalog_id": "e106",
+      "catalog_name": "Supino inclinado no Smith",
+      "gif_path": "dist/assets/exercises/e106.gif"
     },
     {
       "proposed_id": "e107",
       "name": "Puxada neutra com triângulo",
       "source": "Natural — Upper; Letícia — B",
       "priority": "obrigatório",
-      "animation_status": "não criada"
+      "animation_status": "integrada ao catálogo com GIF referenciado; inspeção visual pendente",
+      "catalog_id": "e107",
+      "catalog_name": "Puxada neutra com triângulo",
+      "gif_path": "dist/assets/exercises/e107.gif"
     },
     {
       "proposed_id": "e108",
       "name": "Tríceps francês na polia",
       "source": "Natural — Upper",
       "priority": "obrigatório",
-      "animation_status": "não criada"
+      "animation_status": "integrada ao catálogo com GIF referenciado; inspeção visual pendente",
+      "catalog_id": "e108",
+      "catalog_name": "Tríceps francês na polia",
+      "gif_path": "dist/assets/exercises/e108.gif"
     },
     {
       "proposed_id": "e109",
       "name": "Remada baixa articulada",
       "source": "Letícia — A",
       "priority": "obrigatório",
-      "animation_status": "não criada"
+      "animation_status": "integrada ao catálogo com GIF referenciado; inspeção visual pendente",
+      "catalog_id": "e109",
+      "catalog_name": "Remada baixa articulada",
+      "gif_path": "dist/assets/exercises/e109.gif"
     },
     {
       "proposed_id": "e110",
       "name": "Crucifixo inverso na máquina",
       "source": "Letícia — A",
       "priority": "obrigatório",
-      "animation_status": "não criada"
+      "animation_status": "integrada ao catálogo com GIF referenciado; inspeção visual pendente",
+      "catalog_id": "e110",
+      "catalog_name": "Crucifixo inverso na máquina",
+      "gif_path": "dist/assets/exercises/e110.gif"
     },
     {
       "proposed_id": "e111",
       "name": "Rosca direta na polia",
       "source": "Letícia — A",
       "priority": "obrigatório",
-      "animation_status": "não criada"
+      "animation_status": "integrada ao catálogo com GIF referenciado; inspeção visual pendente",
+      "catalog_id": "e111",
+      "catalog_name": "Rosca direta na polia",
+      "gif_path": "dist/assets/exercises/e111.gif"
     },
     {
       "proposed_id": "e112",
       "name": "Desenvolvimento na máquina",
       "source": "Letícia — Sábado",
       "priority": "obrigatório",
-      "animation_status": "não criada"
+      "animation_status": "integrada ao catálogo com GIF referenciado; inspeção visual pendente",
+      "catalog_id": "e112",
+      "catalog_name": "Desenvolvimento na máquina",
+      "gif_path": "dist/assets/exercises/e112.gif"
     },
     {
       "proposed_id": "e113",
       "name": "Puxada supinada",
       "source": "Letícia — Sábado",
       "priority": "obrigatório",
-      "animation_status": "não criada"
+      "animation_status": "integrada ao catálogo com GIF referenciado; inspeção visual pendente",
+      "catalog_id": "e113",
+      "catalog_name": "Puxada supinada",
+      "gif_path": "dist/assets/exercises/e113.gif"
     },
     {
       "proposed_id": "e114",
       "name": "Elevação frontal alternada",
       "source": "Letícia — Sábado",
       "priority": "obrigatório",
-      "animation_status": "não criada"
+      "animation_status": "integrada ao catálogo com GIF referenciado; inspeção visual pendente",
+      "catalog_id": "e114",
+      "catalog_name": "Elevação frontal alternada",
+      "gif_path": "dist/assets/exercises/e114.gif"
     },
     {
       "proposed_id": "e115",
       "name": "Rosca inversa",
       "source": "Letícia — Sábado",
       "priority": "obrigatório",
-      "animation_status": "não criada"
+      "animation_status": "integrada ao catálogo com GIF referenciado; inspeção visual pendente",
+      "catalog_id": "e115",
+      "catalog_name": "Rosca inversa",
+      "gif_path": "dist/assets/exercises/e115.gif"
     },
     {
       "proposed_id": "e116",
       "name": "Tríceps coice unilateral no cross",
       "source": "Letícia — Sábado",
       "priority": "obrigatório",
-      "animation_status": "não criada"
+      "animation_status": "integrada ao catálogo com GIF referenciado; inspeção visual pendente",
+      "catalog_id": "e116",
+      "catalog_name": "Tríceps coice unilateral no cross",
+      "gif_path": "dist/assets/exercises/e116.gif"
     }
   ],
   "needs_definition": [
@@ -308,5 +361,7 @@
       "reason": "Falta definir direção lateral/frontal, equipamento e posição."
     }
   ],
-  "catalog_current_count": 125
+  "catalog_current_count": 125,
+  "last_reviewed_on": "2026-10-28",
+  "verification_notes": "Os IDs e100–e116 e seus caminhos de GIF foram conferidos em dist/index.html; os arquivos e100, e108 e e116 tiveram existência confirmada. A inspeção de qualidade quadro a quadro não foi realizada."
 }
