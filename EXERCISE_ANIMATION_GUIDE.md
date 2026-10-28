@@ -85,3 +85,8 @@ A amostra feita com bonecos 2D foi rejeitada pelo usuário. Os 30 GIFs de `dist/
 ## Lotes de 25 — retomada
 
 A produção continua na branch de testes, em grupos de **25 exercícios do MD**. Os movimentos específicos e suas seis poses estão documentados em `production/lote-md500-25-01.json`. Não reutilizar o render 2D rejeitado. O acabamento anatômico 3D, fidelidade dos equipamentos e QA dos seis quadros são obrigatórios antes da integração. A recuperação de vínculos no catálogo não equivale à criação de uma animação nova.
+
+
+## Referência visual escolhida — imagem 2
+
+A segunda imagem do comparativo de 50 cards foi escolhida pelo usuário como **padrão de layout e acabamento**. Consultar `docs/PADRAO_VISUAL_IMAGEM_2.md` para composição dos cards, personagem e exigências dos GIFs. A imagem selecionada é um mockup, não a publicação de 50 GIFs; os exercícios são gerados individualmente, somente a partir do MD e com validação de cada animação.
