@@ -2,7 +2,7 @@
 
 Fonte única: **500 Exercícios Base de Musculação.md**. A tabela abaixo preserva a ordem e os nomes originais. Somente os exercícios desta lista são oferecidos no aplicativo.
 
-**500 exercícios oficiais · 288 com correspondência de GIF registrada · 212 aguardando GIF específico aprovado.** O lote MD500-01 (30 animações 2D) foi reprovado e está preservado somente como histórico técnico, fora do catálogo. Animações anteriores aproveitadas usam identificadores `eN`.
+**500 exercícios oficiais · 295 com correspondência de GIF registrada · 205 aguardando GIF específico aprovado.** O lote MD500-01 (30 animações 2D) foi reprovado e está preservado somente como histórico técnico, fora do catálogo. Animações anteriores aproveitadas usam identificadores `eN`.
 
 Esta relação contém apenas os 500 exercícios do arquivo original. Não inclui categorias ou filas de exercícios de outras fontes. Correspondência de mídia é cadastral e não substitui auditoria biomecânica/visual. Somente GIFs com padrão visual aprovado devem voltar à cobertura.
 
@@ -106,7 +106,7 @@ Esta relação contém apenas os 500 exercícios do arquivo original. Não inclu
 | 96 | Seal Row (Remada deitado totalmente na horizontal no banco alto) | `e306` |
 | 97 | Meadows Row (Remada unilateral transversal na barra Landmine) | `e205` |
 | 98 | Remada Unilateral no Landmine (Posição paralela) | `e422` |
-| 99 | Remada Serrote na Polia Baixa | — |
+| 99 | Remada Serrote na Polia Baixa | `e254` |
 | 100 | Remada Serrote no Smith | `e423` |
 | 101 | Remada Alta na Polia Sentado com Corda (Puxando em direção ao peito/pescoço) | — |
 | 102 | Remada Invertida na Barra (Australian Pull-up) | `e229` |
@@ -133,7 +133,7 @@ Esta relação contém apenas os 500 exercícios do arquivo original. Não inclu
 | 123 | Encolhimento de Ombros na Polia Baixa | — |
 | 124 | Encolhimento de Ombros na Máquina (Ou no aparelho de Supino em pé) | `e308` |
 | 125 | Encolhimento com Barra Hexagonal (Trap Bar Shrug) | — |
-| 126 | Encolhimento Kelso (Kelso Shrug - retração escapular no banco inclinado) | — |
+| 126 | Encolhimento Kelso (Kelso Shrug - retração escapular no banco inclinado) | `e298` |
 | 127 | Encolhimento Acima da Cabeça (Overhead Shrug com Barra) | `e297` |
 | 128 | Remada Alta Pegada Fechada (Foco em Trapézio) | — |
 | 129 | Face Pull na Polia com Corda (Foco em Trapézio Médio/Inferior e Romboides) | `e204` |
@@ -181,14 +181,14 @@ Esta relação contém apenas os 500 exercícios do arquivo original. Não inclu
 | 171 | Leg Press Articulado (Iso-Lateral) | — |
 | 172 | Leg Press 45° Unilateral | `e259` |
 | 173 | Leg Press Horizontal Unilateral | — |
-| 174 | Leg Press 45° com Pés Baixos e Juntos (Ênfase máxima em Quadríceps) | — |
+| 174 | Leg Press 45° com Pés Baixos e Juntos (Ênfase máxima em Quadríceps) | `e313` |
 | 175 | Agachamento Hack Unilateral | — |
 | 176 | Afundo Estático com Barra Livre (Split Squat) | — |
 | 177 | Afundo Estático com Halteres | — |
 | 178 | Afundo Estático no Smith | — |
 | 179 | Afundo com Pé da Frente Elevado (Front Foot Elevated Split Squat) | `e314` |
 | 180 | Passada / Avanço Caminhando com Barra nas Costas | `e356` |
-| 181 | Avanço Reverso (Passo para trás) com Barra | — |
+| 181 | Avanço Reverso (Passo para trás) com Barra | `e235` |
 | 182 | Avanço Reverso com Halteres | `e76` |
 | 183 | Avanço Reverso no Smith | `e359` |
 | 184 | Agachamento Búlgaro com Barra Livre | — |
@@ -227,7 +227,7 @@ Esta relação contém apenas os 500 exercícios do arquivo original. Não inclu
 | 217 | Bom Dia no Smith | — |
 | 218 | Bom Dia com Barra de Segurança (SSB Good Morning) | — |
 | 219 | Bom Dia na Máquina (Hack Squat ou Pendulum) | — |
-| 220 | Hiperextensão no Banco 45° (Foco em Posterior - coluna neutra, rotação no quadril) | — |
+| 220 | Hiperextensão no Banco 45° (Foco em Posterior - coluna neutra, rotação no quadril) | `e153` |
 | 221 | Hiperextensão Unilateral no Banco 45° | — |
 | 222 | Glute-Ham Raise (GHR) no Aparelho Específico | `e324` |
 | 223 | Pull-Through na Polia Baixa com Corda | `e373` |
@@ -418,7 +418,7 @@ Esta relação contém apenas os 500 exercícios do arquivo original. Não inclu
 | 408 | Tríceps Testa com Halteres (Pegada Neutra) | `e45` |
 | 409 | Tríceps Testa no Banco Inclinado com Barra W | — |
 | 410 | Tríceps Testa no Banco Declinado com Barra W | — |
-| 411 | Tríceps Testa Deitado na Polia Baixa | — |
+| 411 | Tríceps Testa Deitado na Polia Baixa | `e190` |
 | 412 | Extensão de Tríceps Passando da Cabeça ( pullover + testa / Rolling Triceps Extension) | — |
 | 413 | JM Press com Barra ou no Smith (Híbrido entre Supino Fechado e Testa) | — |
 | 414 | California Press | — |
@@ -430,7 +430,7 @@ Esta relação contém apenas os 500 exercícios do arquivo original. Não inclu
 | 420 | Mergulho Sentado na Máquina (Triceps Dip Machine) | — |
 | 421 | Paralelas no Graviton (Foco em Tríceps) | — |
 | 422 | Tríceps Francês Unilateral Sentado ou em Pé com Halter | `e65` |
-| 423 | Tríceps Francês Sentado com Barra W | — |
+| 423 | Tríceps Francês Sentado com Barra W | `e346` |
 | 424 | Tríceps Francês na Polia Alta com Corda (Inclinado à frente, de costas para o aparelho) | — |
 | 425 | Tríceps Francês na Polia Baixa com Corda ou Barra (Em pé, de costas para o aparelho) | `e108` |
 | 426 | Tríceps Francês Unilateral na Polia (Katana Extension) | `e189` |
@@ -513,3 +513,18 @@ Esta relação contém apenas os 500 exercícios do arquivo original. Não inclu
 ## Recuperações de equivalência após QA visual — 28/10/2026
 
 Quatro exercícios receberam vínculos a GIFs 3D **preexistentes**, sem geração ou duplicação de mídia: MD 85 → e165 (remada baixa com pegada aberta, sentado); MD 131 → e299 (elevação T com halteres no banco inclinado); MD 132 → e300 (elevação W no banco inclinado); MD 172 → e259 (leg press unilateral na máquina 45°). Os metadados foram comparados e o primeiro quadro dos GIFs inspecionado. As transições e biomecânica integrais ainda precisam de QA específico antes do aceite definitivo.
+
+
+## Equivalências legadas recuperadas na revisão de 28/10/2026
+
+Foram vinculados sete GIFs 3D preexistentes após confronto do nome, do equipamento e de imagens dos exercícios (sem criar novas animações):
+
+- MD 99 → e254 — Remada Serrote na Polia Baixa
+- MD 126 → e298 — Encolhimento Kelso (Kelso Shrug - retração escapular no banco inclinado)
+- MD 174 → e313 — Leg Press 45° com Pés Baixos e Juntos (Ênfase máxima em Quadríceps)
+- MD 181 → e235 — Avanço Reverso (Passo para trás) com Barra
+- MD 220 → e153 — Hiperextensão no Banco 45° (Foco em Posterior - coluna neutra, rotação no quadril)
+- MD 411 → e190 — Tríceps Testa Deitado na Polia Baixa
+- MD 423 → e346 — Tríceps Francês Sentado com Barra W
+
+O teste de quadros e a revisão biomecânica integral ainda são necessários para aceite final. Nenhum GIF do lote 2D reprovado foi reintroduzido.
