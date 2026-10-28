@@ -7,6 +7,14 @@ vm.createContext(ctx);vm.runInContext(fs.readFileSync('dist/training-methods.js'
 let n=0;function check(expr,expected=true){assert.equal(vm.runInContext(expr,ctx),expected,expr);n++}
 check('validDB(seed())');
 check('seed().students.length',4);
+check('catalog.length',500);
+check('seed().exercises.length',500);
+check("catalog.every((x,i)=>x.id==='md'+(i+1))");
+check('catalog.filter(x=>!!x.animation).length',314);
+check('catalog.find(x=>x.id==="md292").animation','assets/md500/md292.gif');
+check('catalog.find(x=>x.id==="md357").animation','assets/md500/md357.gif');
+check('catalog.every(x=>x.md_id>=1&&x.md_id<=500)');
+
 check('makeDraft(seed().workouts[0]).records.length',9);
 check('makeDraft(seed().workouts[0]).records.every(r=>!r.done&&r.load===0)');
 check('safeURL("javascript:alert(1)")',null);
@@ -27,7 +35,7 @@ check('(()=>{let x=seed(),w=x.workouts[0];x.drafts[w.id]=makeDraft(w);x.drafts[w
 check('(()=>{let x=seed(),w=x.workouts[0],records=makeDraft(w).records;records.forEach(r=>r.done=true);x.sessions.push({id:"test",student:w.student,title:w.title,date:new Date().toISOString(),effort:"Moderado",feedback:"",records});return validDB(x)})()');
 check('validDB(JSON.parse(JSON.stringify(db)))');
 check('JSON.parse(localStorage.getItem(KEY)).students.length',4);
-check('(()=>{bind();document.getElementById("libSearch").oninput({currentTarget:{value:"Supino"}});return document.getElementById("libGrid").innerHTML.includes("Supino reto")&&!document.getElementById("libGrid").innerHTML.includes("Agachamento livre")})()');
+check('(()=>{bind();document.getElementById("libSearch").oninput({currentTarget:{value:"Supino"}});return document.getElementById("libGrid").innerHTML.includes("Supino Reto")&&!document.getElementById("libGrid").innerHTML.includes("Agachamento livre")})()');
 check('(()=>{document.getElementById("groupFilter").onchange({currentTarget:{value:"Pernas"}});return document.getElementById("libGrid").innerHTML.includes("Nenhum exercício encontrado")})()');
 check('(()=>{document.getElementById("studentSearch").oninput({currentTarget:{value:"Carlos"}});return document.getElementById("studentGrid").innerHTML.includes("Carlos Mendes")&&!document.getElementById("studentGrid").innerHTML.includes("Ana Oliveira")})()');
 check('(()=>{toggleTheme();return JSON.parse(localStorage.getItem(KEY)).theme==="dark"})()');
