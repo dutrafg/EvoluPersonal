@@ -1,0 +1,2492 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-28",
+  "project": "EvoluPersonal",
+  "repository": "dutrafg/EvoluPersonal",
+  "branch": "codex/evolupersonal-media-350",
+  "source_of_truth": "500 Exercícios Base de Musculação.md",
+  "mapping_report": "docs/COMPARACAO_LISTA_500.md",
+  "current_gif_catalog": 425,
+  "original_500": {
+    "total": 500,
+    "documented_matches": 284,
+    "related_require_review": 25,
+    "not_mapped": 191,
+    "pending_total": 216
+  },
+  "scope": "Fila de 75 PRIORIDADES a conferir e atender; NÃO indica GIFs prontos ou publicados. As séries A/B/C NÃO substituem os lotes 18–20 em andamento.",
+  "policy": [
+    "Conferir histórico do lote 18, não sobrescrever os IDs e425–e449 sem recuperar/validar a produção anterior.",
+    "Antes de gerar, validar candidato existente e conferir equipamento, posição, pegada, amplitude e movimento.",
+    "Registrar original_md_id (1–500) e um vínculo 1:1 verificável ao GIF ou justificativa de múltiplas variantes.",
+    "Cada lote novo tem 25 itens e só é marcado concluído após GIF original, integração no catálogo, testes e commit no GitHub.",
+    "Apenas 75 slots adicionais não são suficientes para cobrir automaticamente as 216 linhas pendentes.",
+    "Preservar main; alterações somente na branch de trabalho."
+  ],
+  "priority_batches": [
+    {
+      "code": "A",
+      "description": "Corrigir bases faltantes, variantes já próximas e fundamentos de puxar/pernas",
+      "items": [
+        {
+          "original_md_id": 292,
+          "name": "Desenvolvimento Sentado com Halteres",
+          "status": "variação relacionada; falta a exata",
+          "existing_catalog_ids": [
+            "e8"
+          ],
+          "group": "Ombros",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "verificar_compatibilidade_e_gif_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 357,
+          "name": "Rosca no Banco Inclinado 45° com Halteres (Braços alongados atrás do tronco)",
+          "status": "variação relacionada; falta a exata",
+          "existing_catalog_ids": [
+            "e141"
+          ],
+          "group": "Bíceps/antebraço",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "verificar_compatibilidade_e_gif_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 76,
+          "name": "Puxada Alta Ajoelhado na Polia",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Costas",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 85,
+          "name": "Remada Baixa Sentado na Polia com Barra Reta (Pegada Aberta)",
+          "status": "variação relacionada; falta a exata",
+          "existing_catalog_ids": [
+            "e327"
+          ],
+          "group": "Costas",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "verificar_compatibilidade_e_gif_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 88,
+          "name": "Remada Baixa Unilateral na Polia Sentado",
+          "status": "variação relacionada; falta a exata",
+          "existing_catalog_ids": [
+            "e254"
+          ],
+          "group": "Costas",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "verificar_compatibilidade_e_gif_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 101,
+          "name": "Remada Alta na Polia Sentado com Corda (Puxando em direção ao peito/pescoço)",
+          "status": "variação relacionada; falta a exata",
+          "existing_catalog_ids": [
+            "e233"
+          ],
+          "group": "Costas",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "verificar_compatibilidade_e_gif_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 109,
+          "name": "Pulldown Unilateral na Polia Alta",
+          "status": "variação relacionada; falta a exata",
+          "existing_catalog_ids": [
+            "e331"
+          ],
+          "group": "Costas",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "verificar_compatibilidade_e_gif_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 131,
+          "name": "Elevação em T no Banco Inclinado com Halteres (Foco em Romboides)",
+          "status": "variação relacionada; falta a exata",
+          "existing_catalog_ids": [
+            "e299"
+          ],
+          "group": "Costas",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "verificar_compatibilidade_e_gif_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 132,
+          "name": "Elevação em W no Banco Inclinado com Halteres",
+          "status": "variação relacionada; falta a exata",
+          "existing_catalog_ids": [
+            "e300"
+          ],
+          "group": "Costas",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "verificar_compatibilidade_e_gif_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 152,
+          "name": "Agachamento com Barra de Segurança (Safety Bar Squat - SSB)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Quadríceps",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 153,
+          "name": "Agachamento Pêndulo na Máquina (Pendulum Squat)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Quadríceps",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 155,
+          "name": "Agachamento V-Squat na Máquina",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Quadríceps",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 170,
+          "name": "Leg Press Vertical (90 Graus)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Quadríceps",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 171,
+          "name": "Leg Press Articulado (Iso-Lateral)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Quadríceps",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 172,
+          "name": "Leg Press 45° Unilateral",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Quadríceps",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 178,
+          "name": "Afundo Estático no Smith",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Quadríceps",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 207,
+          "name": "Stiff com Halteres",
+          "status": "variação relacionada; falta a exata",
+          "existing_catalog_ids": [
+            "e16"
+          ],
+          "group": "Posteriores",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "verificar_compatibilidade_e_gif_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 208,
+          "name": "RDL no Smith",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Posteriores",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "conferir_lote_anterior_e_backup",
+          "already_in_existing_plan": "e484 (lote 20; somente planejado)"
+        },
+        {
+          "original_md_id": 226,
+          "name": "Cadeira Flexora Unilateral",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Posteriores",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 229,
+          "name": "Flexão Nórdica (Nordic Hamstring Curl)",
+          "status": "variação relacionada; falta a exata",
+          "existing_catalog_ids": [
+            "e368"
+          ],
+          "group": "Posteriores",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "verificar_compatibilidade_e_gif_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 249,
+          "name": "Elevação Pélvica no Smith",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Glúteos/adutores",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 298,
+          "name": "Desenvolvimento no Smith (Pela Frente)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Ombros",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 303,
+          "name": "Desenvolvimento Articulado Convergente",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Ombros",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 373,
+          "name": "Rosca 21 (7 repetições metade inferior + 7 metade superior + 7 completas)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Bíceps/antebraço",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "conferir_lote_anterior_e_backup",
+          "already_in_existing_plan": "e467 (lote 19; somente planejado)"
+        },
+        {
+          "original_md_id": 473,
+          "name": "Abdominal Infra no Solo ou Banco (Elevação de pernas deitado)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Core",
+          "priority": "alta",
+          "priority_batch": "A",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "description": "Movimentos compostos e acessórios frequentes",
+      "items": [
+        {
+          "original_md_id": 38,
+          "name": "Landmine Press (Empurrada unilateral ou bilateral na barra T)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Peito",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 99,
+          "name": "Remada Serrote na Polia Baixa",
+          "status": "variação relacionada; falta a exata",
+          "existing_catalog_ids": [
+            "e254"
+          ],
+          "group": "Costas",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "verificar_compatibilidade_e_gif_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 111,
+          "name": "Pullover no Cabo Declinado ou no Banco Reto",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Costas",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 115,
+          "name": "Levantamento Terra com Déficit (Em cima de anilha/caixote)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Costas",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 120,
+          "name": "Encolhimento de Ombros com Halteres Sentado",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Costas",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 122,
+          "name": "Encolhimento de Ombros no Smith",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Costas",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 128,
+          "name": "Remada Alta Pegada Fechada (Foco em Trapézio)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Costas",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 134,
+          "name": "Retração Escapular na Puxada Alta",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Costas",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 137,
+          "name": "Puxada de Trenó com Corda (Sled Pull)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Costas",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 160,
+          "name": "Agachamento com Halteres nas Laterais do Corpo",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Quadríceps",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 173,
+          "name": "Leg Press Horizontal Unilateral",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Quadríceps",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 174,
+          "name": "Leg Press 45° com Pés Baixos e Juntos (Ênfase máxima em Quadríceps)",
+          "status": "variação relacionada; falta a exata",
+          "existing_catalog_ids": [
+            "e313"
+          ],
+          "group": "Quadríceps",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "verificar_compatibilidade_e_gif_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 175,
+          "name": "Agachamento Hack Unilateral",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Quadríceps",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 187,
+          "name": "Subida no Banco com Barra",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Quadríceps",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 191,
+          "name": "Agachamento Pistol (Unilateral com peso do corpo)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Quadríceps",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 200,
+          "name": "Empurrada de Trenó (Sled Push) / Puxada de Trenó de Costas (Backward Sled Drag)",
+          "status": "variação relacionada; falta a exata",
+          "existing_catalog_ids": [
+            "e321"
+          ],
+          "group": "Quadríceps",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "verificar_compatibilidade_e_gif_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 211,
+          "name": "RDL em Base Assimétrica (B-Stance RDL com Barra ou Halteres)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Posteriores",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 213,
+          "name": "RDL na Polia Baixa",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Posteriores",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 238,
+          "name": "Flexão de Joelho no TRX / Fita de Suspensão",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Posteriores",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 251,
+          "name": "Elevação Pélvica com Halter ou Kettlebell",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Glúteos/adutores",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 254,
+          "name": "Kas Glute Bridge (Elevação Pélvica com amplitude curta no topo)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Glúteos/adutores",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 265,
+          "name": "Afundo no Smith com Pé de Trás Apoiado no Step e Tronco Inclinado",
+          "status": "variação relacionada; falta a exata",
+          "existing_catalog_ids": [
+            "e192"
+          ],
+          "group": "Glúteos/adutores",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "verificar_compatibilidade_e_gif_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 305,
+          "name": "Desenvolvimento Alternado Sentado com Halteres",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Ombros",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 315,
+          "name": "Elevação Lateral na Polia Baixa (Cabo passando pela frente do corpo)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Ombros",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 386,
+          "name": "Rosca Inversa na Polia Baixa",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Bíceps/antebraço",
+          "priority": "alta",
+          "priority_batch": "B",
+          "action": "conferir_lote_anterior_e_backup",
+          "already_in_existing_plan": "e449 (lote 18; GIF ainda não confirmado no GitHub)"
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "description": "Ombros, braços e core com lacunas específicas",
+      "items": [
+        {
+          "original_md_id": 320,
+          "name": "Elevação Lateral Deitado de Lado no Banco Inclinado",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Ombros",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 321,
+          "name": "Elevação Lateral com Peito Apoiado no Banco Inclinado",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Ombros",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 325,
+          "name": "Remada Alta com Barra Reta ou W (Pegada Média/Aberta - foco em Deltoide Lateral)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Ombros",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 328,
+          "name": "Remada Alta no Smith",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Ombros",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 331,
+          "name": "Elevação Frontal com Halteres em Pegada Neutra (Martelo)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Ombros",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 339,
+          "name": "Crucifixo Inverso no Banco Inclinado com Halteres",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Ombros",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 342,
+          "name": "Crucifixo Inverso Unilateral na Polia",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Ombros",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 343,
+          "name": "Remada para Deltoide Posterior com Halteres (Cotovelos abertos a 90°)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Ombros",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 347,
+          "name": "Face Pull com Rotação Externa na Polia Alta",
+          "status": "variação relacionada; falta a exata",
+          "existing_catalog_ids": [
+            "e24"
+          ],
+          "group": "Ombros",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "verificar_compatibilidade_e_gif_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 349,
+          "name": "Rotação Externa de Ombro com Halter (Deitado de lado ou apoiado no joelho)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Ombros",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 360,
+          "name": "Rosca Scott na Polia Baixa",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Bíceps/antebraço",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 367,
+          "name": "Rosca Unilateral na Polia Baixa (De frente)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Bíceps/antebraço",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 368,
+          "name": "Rosca Duplo Bíceps na Polia Alta (High Cable Curl / Posição de pose)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Bíceps/antebraço",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 375,
+          "name": "Rosca Arrasto com Halteres",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Bíceps/antebraço",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 378,
+          "name": "Rosca com Barra H / Romana (Pegada Neutra)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Bíceps/antebraço",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 392,
+          "name": "Extensão de Punho Sentado com Barra (Palma para baixo)",
+          "status": "variação relacionada; falta a exata",
+          "existing_catalog_ids": [
+            "e343"
+          ],
+          "group": "Bíceps/antebraço",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "verificar_compatibilidade_e_gif_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 398,
+          "name": "Suspensão Isométrica na Barra Fixa (Dead Hang - Bilateral ou Unilateral)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Bíceps/antebraço",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 407,
+          "name": "Tríceps Testa com Barra Reta",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Tríceps",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 416,
+          "name": "Supino Pegada Fechada no Smith",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Tríceps",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 418,
+          "name": "Flexão Esfinge / Extensão de Tríceps no Solo ou Banco (Bodyweight Triceps Extension)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Tríceps",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 420,
+          "name": "Mergulho Sentado na Máquina (Triceps Dip Machine)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Tríceps",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 421,
+          "name": "Paralelas no Graviton (Foco em Tríceps)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Tríceps",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 449,
+          "name": "Panturrilha no Leg Press Horizontal",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Panturrilha",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 459,
+          "name": "Elevação Tibial com Barra Tibial ou Kettlebell (Weighted Tib Raise)",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Panturrilha",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "produzir_somente_apos_descartar_correspondencia_existente",
+          "already_in_existing_plan": null
+        },
+        {
+          "original_md_id": 476,
+          "name": "Abdominal Remador",
+          "status": "a criar",
+          "existing_catalog_ids": [],
+          "group": "Core",
+          "priority": "alta",
+          "priority_batch": "C",
+          "action": "conferir_lote_anterior_e_backup",
+          "already_in_existing_plan": "e495 (lote 20; somente planejado)"
+        }
+      ]
+    }
+  ],
+  "remaining_backlog": [
+    {
+      "original_md_id": 23,
+      "name": "Supino Guilhotina (Neck Press) com Barra",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Peito",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 77,
+      "name": "Puxada Alta por Trás da Nuca (Uso específico/mobilidade)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Costas",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 104,
+      "name": "Helms Row (Remada apoiada na ponta do banco com halteres)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Costas",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 116,
+      "name": "Levantamento Terra Snatch Grip (Pegada muito aberta)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Costas",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 118,
+      "name": "Encolhimento de Ombros com Barra por Trás",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Costas",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 121,
+      "name": "Encolhimento de Ombros no Banco Inclinado (Foco no trapézio médio/superior)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Costas",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 123,
+      "name": "Encolhimento de Ombros na Polia Baixa",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Costas",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 125,
+      "name": "Encolhimento com Barra Hexagonal (Trap Bar Shrug)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Costas",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 126,
+      "name": "Encolhimento Kelso (Kelso Shrug - retração escapular no banco inclinado)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Costas",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 162,
+      "name": "Agachamento Acima da Cabeça (Overhead Squat)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Quadríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 163,
+      "name": "Agachamento Jefferson (Barra entre as pernas)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Quadríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 166,
+      "name": "Agachamento Sumô no Smith",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Quadríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 168,
+      "name": "Agachamento Hack com Barra Livre (Barra por trás das pernas)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Quadríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 176,
+      "name": "Afundo Estático com Barra Livre (Split Squat)",
+      "status": "variação relacionada; falta a exata",
+      "existing_catalog_ids": [
+        "e17"
+      ],
+      "group": "Quadríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "verificar_compatibilidade_e_gif_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 177,
+      "name": "Afundo Estático com Halteres",
+      "status": "variação relacionada; falta a exata",
+      "existing_catalog_ids": [
+        "e17"
+      ],
+      "group": "Quadríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "verificar_compatibilidade_e_gif_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 181,
+      "name": "Avanço Reverso (Passo para trás) com Barra",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Quadríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 184,
+      "name": "Agachamento Búlgaro com Barra Livre",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Quadríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 188,
+      "name": "Step-up Lateral na Caixa",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Quadríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 197,
+      "name": "Sissy Squat no Aparelho / Suporte de Pés",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Quadríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 209,
+      "name": "Stiff no Smith",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Posteriores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 212,
+      "name": "RDL no Landmine (Bilateral ou Unilateral)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Posteriores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 214,
+      "name": "RDL na Máquina de Hack / V-Squat Invertido",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Posteriores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 215,
+      "name": "Stiff com Pés Elevados na Rampa (Maior alongamento dos isquiotibiais)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Posteriores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 217,
+      "name": "Bom Dia no Smith",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Posteriores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 218,
+      "name": "Bom Dia com Barra de Segurança (SSB Good Morning)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Posteriores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 219,
+      "name": "Bom Dia na Máquina (Hack Squat ou Pendulum)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Posteriores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 220,
+      "name": "Hiperextensão no Banco 45° (Foco em Posterior - coluna neutra, rotação no quadril)",
+      "status": "variação relacionada; falta a exata",
+      "existing_catalog_ids": [
+        "e378"
+      ],
+      "group": "Posteriores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "verificar_compatibilidade_e_gif_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 221,
+      "name": "Hiperextensão Unilateral no Banco 45°",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Posteriores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 224,
+      "name": "Swing Russo com Kettlebell (Kettlebell Swing)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Posteriores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 228,
+      "name": "Flexora Ajoelhada na Máquina (Kneeling Leg Curl)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Posteriores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 231,
+      "name": "Flexão de Joelho Deitado com Halter entre os Pés",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Posteriores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 232,
+      "name": "Flexão de Joelho em Pé na Polia Baixa",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Posteriores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 233,
+      "name": "Flexão de Joelho Deitado na Polia Baixa",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Posteriores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 234,
+      "name": "Flexão de Joelho em Pé com Caneleira",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Posteriores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 236,
+      "name": "Flexão de Joelho Unilateral na Bola Suíça",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Posteriores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 239,
+      "name": "Ponte de Isquiotibiais com Pernas Semi-estendidas (Long-Lever Glute Bridge)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Posteriores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 240,
+      "name": "Razor Curl no Aparelho de GHR",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Posteriores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 250,
+      "name": "Elevação Pélvica na Cadeira Extensora / Mesa Flexora (Adaptação)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Glúteos/adutores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 257,
+      "name": "Frog Pump (Ponte de glúteo com solas dos pés unidas)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Glúteos/adutores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 258,
+      "name": "Elevação Pélvica com Pés Elevados no Banco",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Glúteos/adutores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 260,
+      "name": "Extensão de Quadril Reversa na Máquina (Reverse Hyperextension)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Glúteos/adutores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 262,
+      "name": "Agachamento Reverência no Smith",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Glúteos/adutores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 263,
+      "name": "Step-up Alto na Caixa (Tronco inclinado à frente)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Glúteos/adutores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 264,
+      "name": "Step-up Cruzado (Cross-over Step-up)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Glúteos/adutores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 269,
+      "name": "Coice no Smith (Empurrando a barra com a sola do pé em 4 apoios)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Glúteos/adutores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 270,
+      "name": "Extensão de Quadril em 4 Apoios com Caneleira (Perna estendida)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Glúteos/adutores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 272,
+      "name": "Levantamento Terra Sumô com Halter ou Kettlebell (Em cima de dois steps)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Glúteos/adutores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 273,
+      "name": "Agachamento Ajoelhado no Smith ou com Barra (Kneeling Squat)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Glúteos/adutores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 274,
+      "name": "Cadeira Abdutora com Tronco Inclinado à Frente",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Glúteos/adutores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 275,
+      "name": "Cadeira Abdutora em Pé (Sem sentar no banco)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Glúteos/adutores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 278,
+      "name": "Abdução de Quadril Deitado de Lado na Polia Baixa",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Glúteos/adutores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 282,
+      "name": "Hidrante (Fire Hydrant - Abdução em 4 apoios com caneleira ou elástico)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Glúteos/adutores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 283,
+      "name": "Queda Pélvica Lateral no Step (Hip Drop / Pelvic Drop)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Glúteos/adutores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 288,
+      "name": "Deslizamento Lateral de Adutores no Solo (Slider Lateral Lunge)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Glúteos/adutores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 290,
+      "name": "Máquina Multiquadril (4-Way Hip Machine - Extensão, Flexão, Abdução, Adução)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Glúteos/adutores",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 299,
+      "name": "Desenvolvimento por Trás da Nuca com Barra (Behind-the-Neck Press)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 300,
+      "name": "Desenvolvimento por Trás da Nuca no Smith",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 306,
+      "name": "Push Press com Barra (Desenvolvimento com impulso das pernas)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 307,
+      "name": "Z-Press (Desenvolvimento sentado no chão com pernas estendidas à frente)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 308,
+      "name": "Viking Press (No acessório específico ou Landmine)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 310,
+      "name": "Desenvolvimento com Barra Suíça (Pegada Neutra)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 311,
+      "name": "Bradford Press (Passando a barra da frente para trás da cabeça sem trancar os cotovelos)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 313,
+      "name": "Desenvolvimento com Kettlebell de Cabeça para Baixo (Bottoms-up KB Press)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 316,
+      "name": "Elevação Lateral na Polia Baixa (Cabo passando por trás do corpo)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 317,
+      "name": "Elevação Lateral na Polia na Altura do Quadril/Punho (Maior tensão no início)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 318,
+      "name": "Elevação Lateral Dupla Cruzada nos Cabos (Bilateral no Crossover)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 323,
+      "name": "Elevação Lateral Completa (Lu Raise - subindo até acima da cabeça)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 324,
+      "name": "Elevação Lateral Parcial Pesada (Heavy Partial Lateral Raise)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 329,
+      "name": "Remada Alta Unilateral com Halter ou na Polia (Monkey Row)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 333,
+      "name": "Elevação Frontal na Polia Baixa com Corda (Puxando por entre as pernas)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 334,
+      "name": "Elevação Frontal na Polia Baixa com Barra",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 336,
+      "name": "Elevação Frontal Deitado de Costas no Banco Inclinado",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 337,
+      "name": "Elevação Frontal com Peito Apoiado no Banco Inclinado",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 344,
+      "name": "Remada para Deltoide Posterior na Polia ou Smith (Rear Delt Row)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 345,
+      "name": "Extensão de Ombro para Trás na Polia ou com Halteres (Skiers / Rear Delt Kickback)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 346,
+      "name": "Powell Raise (Crucifixo inverso unilateral deitado de lado no banco)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 350,
+      "name": "Cuban Press (Remada alta + rotação externa + desenvolvimento)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Ombros",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 369,
+      "name": "Rosca Hércules Unilateral na Polia Alta",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Bíceps/antebraço",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 370,
+      "name": "Rosca Deitado no Chão na Polia Baixa (Lying Cable Curl)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Bíceps/antebraço",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 371,
+      "name": "Rosca na Polia Alta Deitado no Banco (Puxando em direção à testa)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Bíceps/antebraço",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 372,
+      "name": "Rosca na Máquina (Sentado, braços na horizontal)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Bíceps/antebraço",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 374,
+      "name": "Rosca Arrasto com Barra ou no Smith (Drag Curl - cotovelos vão para trás)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Bíceps/antebraço",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 379,
+      "name": "Rosca Garçom (Waiter's Curl - segurando a cabeça de um único halter com as duas mãos)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Bíceps/antebraço",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 380,
+      "name": "Rosca com Anilha (Plate Curl)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Bíceps/antebraço",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 381,
+      "name": "Rosca Inclinada na Polia Baixa (Banco a 45° posicionado no crossover)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Bíceps/antebraço",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 382,
+      "name": "Rosca Estrita na Parede (Strict Curl - costas e glúteos colados na parede)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Bíceps/antebraço",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 383,
+      "name": "Rosca Bíceps no TRX / Argolas",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Bíceps/antebraço",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 387,
+      "name": "Rosca Inversa com Halteres",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Bíceps/antebraço",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 389,
+      "name": "Flexão de Punho Sentado com Halteres",
+      "status": "variação relacionada; falta a exata",
+      "existing_catalog_ids": [
+        "e342"
+      ],
+      "group": "Bíceps/antebraço",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "verificar_compatibilidade_e_gif_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 390,
+      "name": "Flexão de Punho na Polia Baixa",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Bíceps/antebraço",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 394,
+      "name": "Extensão de Punho na Polia Baixa",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Bíceps/antebraço",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 396,
+      "name": "Pronação e Supinação de Antebraço com Halter ou Barra unilateral",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Bíceps/antebraço",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 397,
+      "name": "Flexão Radial e Ulnar de Punho (Movimento de martelada em pé com halter)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Bíceps/antebraço",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 399,
+      "name": "Pinça de Anilhas (Plate Pinch Hold)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Bíceps/antebraço",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 400,
+      "name": "Fechamento de Gripper (Hand Grip / Capitains of Crush)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Bíceps/antebraço",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 409,
+      "name": "Tríceps Testa no Banco Inclinado com Barra W",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Tríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 410,
+      "name": "Tríceps Testa no Banco Declinado com Barra W",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Tríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 411,
+      "name": "Tríceps Testa Deitado na Polia Baixa",
+      "status": "variação relacionada; falta a exata",
+      "existing_catalog_ids": [
+        "e190"
+      ],
+      "group": "Tríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "verificar_compatibilidade_e_gif_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 412,
+      "name": "Extensão de Tríceps Passando da Cabeça ( pullover + testa / Rolling Triceps Extension)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Tríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 413,
+      "name": "JM Press com Barra ou no Smith (Híbrido entre Supino Fechado e Testa)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Tríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 414,
+      "name": "California Press",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Tríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 415,
+      "name": "Tate Press (Extensão com halteres apontando os cotovelos para fora no peito)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Tríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 423,
+      "name": "Tríceps Francês Sentado com Barra W",
+      "status": "variação relacionada; falta a exata",
+      "existing_catalog_ids": [
+        "e346"
+      ],
+      "group": "Tríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "verificar_compatibilidade_e_gif_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 424,
+      "name": "Tríceps Francês na Polia Alta com Corda (Inclinado à frente, de costas para o aparelho)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Tríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 427,
+      "name": "Tríceps Francês Sentado na Máquina Específica",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Tríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 428,
+      "name": "PJR Pullover (Híbrido de Pullover com Francês usando Halter pesado)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Tríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 431,
+      "name": "Tríceps Pulley Unilateral (Pegada Pronada, Supinada ou Neutra sem puxador)",
+      "status": "variação relacionada; falta a exata",
+      "existing_catalog_ids": [
+        "e347"
+      ],
+      "group": "Tríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "verificar_compatibilidade_e_gif_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 432,
+      "name": "Tríceps Cruzado no Cabo (Cross-body Cable Triceps Extension - Bilateral ou Unilateral)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Tríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 434,
+      "name": "Tríceps Coice Bilateral no Banco Inclinado com Halteres",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Tríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 436,
+      "name": "Tríceps Coice em Pé na Polia (Tronco a 45°)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Tríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 437,
+      "name": "Extensão de Tríceps Sentado na Máquina (Apoio tipo Rosca Scott invertida)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Tríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 438,
+      "name": "Extensão de Tríceps no TRX / Fita de Suspensão",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Tríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 439,
+      "name": "Extensão de Tríceps com Elástico (Band Pushdown)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Tríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 440,
+      "name": "Pin Press Fechado (Empurrada final do supino saindo dos pinos de segurança)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Tríceps",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 446,
+      "name": "Elevação de Panturrilha em Pé com Barra Livre",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Panturrilha",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 451,
+      "name": "Panturrilha no V-Squat / Pêndulo",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Panturrilha",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 453,
+      "name": "Panturrilha em Pé com Pés Abduzidos (Pontas para fora - ênfase na cabeça medial)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Panturrilha",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 454,
+      "name": "Panturrilha em Pé com Pés Aduzidos (Pontas para dentro - ênfase na cabeça lateral)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Panturrilha",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 456,
+      "name": "Panturrilha Agachado (Squat Calf Raise / Iso-Hold)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Panturrilha",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 457,
+      "name": "Caminhada na Ponta dos Pés com Halteres (Farmer's Walk on Toes)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Panturrilha",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 467,
+      "name": "Abdominal Supra com Peso no Peito (Anilha ou Halter)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 468,
+      "name": "Abdominal no Banco Declinado (Sit-up Declinado)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 470,
+      "name": "Abdominal na Bola Suíça (Swiss Ball Crunch - Maior amplitude de extensão)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 472,
+      "name": "Elevação de Pernas / Joelhos na Cadeira Romana (Captain's Chair)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 474,
+      "name": "Abdominal Infra no Banco Inclinado (Reverse Crunch / Encolhimento reverso da pelve)",
+      "status": "variação relacionada; falta a exata",
+      "existing_catalog_ids": [
+        "e273"
+      ],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "verificar_compatibilidade_e_gif_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 477,
+      "name": "Abdominal GHD (Glute-Ham Developer Sit-up)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 478,
+      "name": "Abdominal Janda (Janda Sit-up - contraindo posteriores para anular o psoas)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 479,
+      "name": "Dragon Flag (Bandeira do Dragão no banco)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 480,
+      "name": "L-Sit (Sustentação isométrica em L nas paralelas ou argolas)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 483,
+      "name": "Giro Russo Sentado com Peso ou Medicine Ball (Russian Twist)",
+      "status": "variação relacionada; falta a exata",
+      "existing_catalog_ids": [
+        "e95"
+      ],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "verificar_compatibilidade_e_gif_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 486,
+      "name": "Lenhador na Polia Baixa para o Alto (Low-to-High Cable Woodchopper)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 487,
+      "name": "Lenhador Horizontal na Polia Média",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 489,
+      "name": "Rotação de Tronco no Landmine em Pé (Landmine 180s / Rainbow)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 490,
+      "name": "Elevação de Pernas Oblíqua na Barra Fixa (Windshield Wipers / Para-brisa)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 491,
+      "name": "Flexão Lateral de Tronco em Pé com Halter ou na Polia (Side Bend)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 492,
+      "name": "Flexão Lateral de Tronco no Banco Romano (45°)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 493,
+      "name": "Toque nos Calcanhares Deitado (Heel Touches)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 494,
+      "name": "Prancha Dinâmica na Bola Suíça (Stir the Pot)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 495,
+      "name": "Prancha RKC (Contração máxima de glúteos, quadríceps e dorsais)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 498,
+      "name": "Superman no Solo (Extensão lombar deitado de bruços)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    },
+    {
+      "original_md_id": 500,
+      "name": "Vacuum Abdominal (Contração isométrica do Transverso do Abdômen)",
+      "status": "a criar",
+      "existing_catalog_ids": [],
+      "group": "Core",
+      "priority": "posterior",
+      "priority_batch": null,
+      "action": "produzir_somente_apos_descartar_correspondencia_existente",
+      "already_in_existing_plan": null
+    }
+  ],
+  "existing_plans_to_reconcile": [
+    {
+      "original_md_id": 386,
+      "reference": "e449 (lote 18; GIF ainda não confirmado no GitHub)"
+    },
+    {
+      "original_md_id": 373,
+      "reference": "e467 (lote 19; somente planejado)"
+    },
+    {
+      "original_md_id": 208,
+      "reference": "e484 (lote 20; somente planejado)"
+    },
+    {
+      "original_md_id": 476,
+      "reference": "e495 (lote 20; somente planejado)"
+    }
+  ]
+}
