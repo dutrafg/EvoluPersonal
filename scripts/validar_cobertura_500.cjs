@@ -1,88 +1,70 @@
-// Auditoria reproduzivel da biblioteca EvoluPersonal. Executar: node scripts/validar_cobertura_500.cjs
-// Valida metadados, referencia de GIF, integridade do mapeamento e a fila de prioridades.
-// A correspondencia cadastral nao substitui revisao anatomica/visual dos GIFs.
-const fs = require('node:fs');
-const path = require('node:path');
-const assert = require('node:assert/strict');
-const base = path.resolve(__dirname, '..');
-const read = p => fs.readFileSync(path.join(base, p), 'utf8');
-const html = read('dist/index.html');
-const report = read('docs/COMPARACAO_LISTA_500.md');
-const priority = JSON.parse(read('production/FILA_PRIORIDADE_COBERTURA_MD500.json'));
-const mandatory = JSON.parse(read('docs/EXERCICIOS_OBRIGATORIOS_PDFS.json'));
-const initial = [...html.matchAll(/^\['((?:\\'|[^'])+)','/gm)].map((m, i) => ({id:'e'+i, name:m[1], animation:'assets/exercises/e'+i+'.gif'}));
-const jsonGroups = [...html.matchAll(/catalog\.push\(\.\.\.(\[\{"id":.*?\}\])\);/gs)]
-  .flatMap(m => JSON.parse(m[1]));
-const catalog = [...initial, ...jsonGroups];
-const byId = new Map();
-for(let i=0;i<catalog.length;i++){
-  const x=catalog[i];
-  assert.equal(x.id,'e'+i, 'ID ausente ou desordenado');
-  assert(x.name && x.animation, 'Nome ou referencia de GIF ausente: '+x.id);
-  assert.equal(x.animation,'assets/exercises/'+x.id+'.gif', 'GIF incompativel com o ID: '+x.id);
-  assert(!byId.has(x.id), 'ID duplicado: '+x.id);
-  byId.set(x.id,x);
-  const gif=path.join(base,'dist',x.animation);
-  assert(fs.existsSync(gif),'GIF ausente: '+gif);
-  const fd=fs.openSync(gif,'r');
-  let header=Buffer.alloc(6);
-  try { assert.equal(fs.readSync(fd,header,0,6,0),6,'GIF vazio: '+gif); }
-  finally { fs.closeSync(fd); }
-  assert(['GIF87a','GIF89a'].includes(header.toString('ascii')), 'Arquivo nao e GIF: '+gif);
+// QA do catálogo exclusivo MD500. Rode: node scripts/validar_cobertura_500.cjs
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),crypto=require('node:crypto');
+const root=path.resolve(__dirname,'..');
+const read=p=>fs.readFileSync(path.join(root,p),'utf8');
+const html=read('dist/index.html');
+const matched=html.match(/const md500Rows=(\[\[.*?\]\]);/s);
+assert(matched,'Array MD500 ausente do HTML');
+const official=JSON.parse(matched[1]);
+assert.equal(official.length,500);
+const lines=read('docs/COMPARACAO_LISTA_500.md').split('\n').filter(x=>/^\|\s*\d+\s*\|/.test(x));
+assert.equal(lines.length,500);
+const entries=lines.map((line,i)=>{
+ const p=line.split('|').slice(1,-1).map(x=>x.trim());
+ assert.equal(p.length,3,'Linha malformada '+(i+1));
+ const [number,name,media]=p;
+ assert.equal(Number(number),i+1,'Ordem inválida');
+ assert.equal(name,official[i][0],'Nome divergente do MD: '+number);
+ const ref=media.replace(/\x60/g,'');
+ assert(ref==='—'||/^(e|md)\d+$/.test(ref),'Referência inválida: '+number);
+ return {id:i+1,name,ref};
+});
+const mapped=entries.filter(x=>x.ref!=='—');
+assert.equal(mapped.length,314);assert.equal(entries.length-mapped.length,186);
+const batch=JSON.parse(read('production/lote-md500-01.json'));
+assert.equal(batch.files.length,30);
+const batchIDs=new Set(batch.files.map(x=>x.md_id));
+assert.equal(batchIDs.size,30);
+const codeIDs=JSON.parse((html.match(/const mdBatch1Animated=new Set\((\[[^\]]+\])\)/)||[])[1]||'null');
+assert.deepEqual(new Set(codeIDs),batchIDs,'IDs do lote não coincidem com o aplicativo');
+const signatures=new Set();
+function gifInfo(p){
+ const bytes=fs.readFileSync(path.join(root,p));
+ assert(['GIF87a','GIF89a'].includes(bytes.subarray(0,6).toString('ascii')),'Cabeçalho inválido: '+p);
+ assert(bytes.length>300,'GIF curto: '+p);
+ let off=13;if(bytes[10]&128)off+=3*(1<<((bytes[10]&7)+1));
+ let frames=0;
+ while(off<bytes.length){
+  const type=bytes[off++];
+  if(type===0x3b)break;
+  if(type===0x21){off++;while(true){const n=bytes[off++];if(!n)break;off+=n;}continue;}
+  assert.equal(type,0x2c,'Bloco GIF corrompido: '+p);
+  const flags=bytes[off+8];off+=9;
+  if(flags&128)off+=3*(1<<((flags&7)+1));
+  off++;
+  while(true){const n=bytes[off++];if(!n)break;off+=n;}
+  frames++;
+ }
+ assert.equal(bytes[off-1],0x3b,'Arquivo GIF sem terminador: '+p);
+ return {frames,width:bytes.readUInt16LE(6),height:bytes.readUInt16LE(8),hash:crypto.createHash('sha256').update(bytes).digest('hex')};
 }
-const lines=report.split('\n').filter(line=>/^\|\s*\d+\s*\|/.test(line));
-assert.equal(lines.length,500,'A comparacao nao tem 500 linhas');
-const statuses={ 'correspondência cadastrada':0,'variação relacionada; falta a exata':0,'a criar':0 };
-const rows=new Map();
-for(const [i,line] of lines.entries()){
-  const cells=line.split('|').slice(1,-1).map(x=>x.trim());
-  assert.equal(cells.length,4,'Linha malformada: '+line);
-  const [number,name,status,ids]=cells;
-  const n=Number(number);
-  assert.equal(n,i+1,'Sequencia MD quebrada');
-  assert(name.trim(),'Nome vazio na linha '+n);
-  assert(Object.hasOwn(statuses,status),'Status invalido: '+status+' na linha '+n);
-  statuses[status]++;
-  const linked=ids?ids.split(',').map(x=>x.trim()):[];
-  if(status==='a criar')assert.equal(linked.length,0,'Linha sem cobertura tem ID: '+n);
-  else assert(linked.length>0,'Linha mapeada sem ID: '+n);
-  for(const id of linked)assert(byId.has(id),'Linha '+n+' referencia GIF inexistente '+id);
-  rows.set(n,{name,status,linked});
-}
-const match=report.match(/Linhas da lista com correspondência documental: \*\*(\d+)\*\*; relacionadas com variante exata pendente: \*\*(\d+)\*\*; demais a criar: \*\*(\d+)\*\*/);
-assert(match,'Resumo de cobertura nao encontrado');
-assert.deepEqual([+match[1],+match[2],+match[3]],[
- statuses['correspondência cadastrada'],statuses['variação relacionada; falta a exata'],statuses['a criar']
-],'Resumo de cobertura desatualizado');
-const open=statuses['variação relacionada; falta a exata']+statuses['a criar'];
-assert.equal(priority.original_500.pending_total,open,'Fila desatualizada');
-assert.equal(priority.original_500.documented_matches,statuses['correspondência cadastrada']);
-assert.equal(priority.priority_batches.length,3,'A fila deve ter tres grupos de 25');
-const picked=new Set();
-for(const batch of priority.priority_batches){
- assert.equal(batch.items.length,25,'Lote prioritario diferente de 25: '+batch.code);
- for(const x of batch.items){
-  assert(!picked.has(x.original_md_id),'Prioridade duplicada '+x.original_md_id);
-  picked.add(x.original_md_id);
-  assert.equal(x.status,rows.get(x.original_md_id)?.status,'Status da fila desatualizado: '+x.original_md_id);
-  assert.notEqual(x.status,'correspondência cadastrada','Ja coberto entrou na fila: '+x.original_md_id);
+for(const entry of mapped){
+ const newGIF=entry.ref.startsWith('md');
+ const p=newGIF?'dist/assets/md500/'+entry.ref+'.gif':'dist/assets/exercises/'+entry.ref+'.gif';
+ const info=gifInfo(p);
+ if(newGIF){
+  assert(batchIDs.has(entry.id),'GIF MD não declarado no lote: '+entry.id);
+  assert.equal(info.frames,10);assert.equal(info.width,144);assert.equal(info.height,144);
+  assert(!signatures.has(info.hash),'GIF repetido: '+p);
+  signatures.add(info.hash);
  }
 }
-assert.equal(picked.size,75,'Nao existem 75 prioridades distintas');
-const backlog=new Set(priority.remaining_backlog.map(x=>x.original_md_id));
-assert.equal(backlog.size,priority.remaining_backlog.length,'Backlog duplicado');
-for(const item of priority.remaining_backlog){
- const n=item.original_md_id;
- assert(!picked.has(n),'Backlog repetido nas prioridades: '+n);
- assert.equal(item.status,rows.get(n)?.status,'Status do backlog desatualizado: '+n);
- assert.notEqual(item.status,'correspondência cadastrada','Item ja coberto no backlog: '+n);
-}
-assert.equal(backlog.size+picked.size,open,'Fila e backlog nao cobrem todos os pendentes');
-const remainingIds = new Set([...picked,...backlog]);
-for(const [n,row] of rows)assert.equal(remainingIds.has(n),row.status!=='correspondência cadastrada','Pendencia ausente da fila: '+n);
-assert.equal(mandatory.new_required.length,17,'Faltam obrigatorios no inventario');
-for(const item of mandatory.new_required){
- assert(byId.has(item.catalog_id||item.proposed_id),'Obrigatorio sem cadastro '+item.name);
- assert(item.animation_status.includes('integrada ao catálogo'),'Status antigo de obrigatorio: '+item.name);
-}
-console.log(JSON.stringify({gifs_com_cabecalho_valido:catalog.length,linhas_md:lines.length,correspondencias:statuses['correspondência cadastrada'],variantes_a_revisar:statuses['variação relacionada; falta a exata'],a_criar:statuses['a criar'],fila_prioritaria:picked.size,backlog:backlog.size,obrigatorios_documentados:mandatory.new_required.length},null,2));
+assert.equal(signatures.size,30);
+const queue=JSON.parse(read('production/FILA_PRIORIDADE_COBERTURA_MD500.json'));
+assert.equal(queue.batch_size,30);assert.equal(queue.to_produce,186);
+assert.equal(queue.next_batch.length,30);assert.equal(queue.remaining_after_next.length,156);
+const queued=new Set([...queue.next_batch,...queue.remaining_after_next].map(x=>x.md_id));
+assert.equal(queued.size,186);
+for(const entry of entries)assert.equal(queued.has(entry.id),entry.ref==='—','Fila divergente: '+entry.id);
+console.log(JSON.stringify({original_md:500,with_gif:mapped.length,distinct_new_gifs:signatures.size,remaining:queued.size,next_batch:queue.batch_size},null,2));
