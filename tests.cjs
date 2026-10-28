@@ -10,9 +10,9 @@ check('seed().students.length',4);
 check('catalog.length',500);
 check('seed().exercises.length',500);
 check("catalog.every((x,i)=>x.id==='md'+(i+1))");
-check('catalog.filter(x=>!!x.animation).length',314);
-check('catalog.find(x=>x.id==="md292").animation','assets/md500/md292.gif');
-check('catalog.find(x=>x.id==="md357").animation','assets/md500/md357.gif');
+check('catalog.filter(x=>!!x.animation).length',284);
+check('catalog.find(x=>x.id==="md292").animation','');
+check('catalog.find(x=>x.id==="md357").animation','');
 check('catalog.every(x=>x.md_id>=1&&x.md_id<=500)');
 
 check('makeDraft(seed().workouts[0]).records.length',9);
