@@ -1,0 +1,14 @@
+{
+  "id": "e319",
+  "name": "Agachamento sissy com peso corporal",
+  "group": "Pernas",
+  "muscles": "Quadríceps",
+  "movement": "Bodyweight sissy squat with stable hand support; knees travel forward as torso leans back, bend knees and return.",
+  "cue": "Segure um apoio firme. Leve os joelhos à frente inclinando o corpo para trás e volte sem perder o equilíbrio.",
+  "level": "Avançado",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/sissy-squat/",
+  "source_sheet": "production/sprites/e319.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

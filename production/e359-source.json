@@ -1,0 +1,14 @@
+{
+  "id": "e359",
+  "name": "Passada reversa no Smith",
+  "group": "Pernas",
+  "muscles": "Glúteos e quadríceps",
+  "movement": "Perform Passada reversa no Smith with a controlled, anatomically accurate range of motion, pause briefly at the endpoint, then return to the starting position.",
+  "cue": "Posicione-se sob a barra guiada, dê um passo para trás e flexione os joelhos. Mantenha o tronco firme e retorne empurrando o chão com o pé da frente.",
+  "level": "Intermediário",
+  "priority": "principal ou variação complementar de grupo muscular",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "source_sheet": "production/sprites/e359.png",
+  "illustration": "Original 6-pose sprite sheet converted to looping GIF",
+  "generator": "OpenAI image generation"
+}

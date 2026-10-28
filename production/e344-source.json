@@ -1,0 +1,14 @@
+{
+  "id": "e344",
+  "name": "Tríceps testa com barra W",
+  "group": "Braços",
+  "muscles": "Tríceps",
+  "movement": "Extend the elbows against resistance and return with control.",
+  "cue": "Estabilize os ombros e mantenha os cotovelos apontados para a frente ou junto ao corpo, conforme a variação. Estenda os cotovelos contra a resistência e retorne com controle.",
+  "level": "Intermediário",
+  "priority": "principal ou variação complementar de grupo muscular",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "source_sheet": "production/sprites/e344.png",
+  "illustration": "Original 6-pose sprite sheet converted to looping GIF",
+  "generator": "OpenAI image generation"
+}

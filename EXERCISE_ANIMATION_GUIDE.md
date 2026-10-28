@@ -63,3 +63,7 @@ As ilustrações são didáticas e não substituem avaliação individual ou ins
 ## Lote 16 — e375–e399
 
 25 exercícios da lista de 500, com 25 folhas de sprites originais e 25 GIFs cíclicos em pt-BR. Total após publicação: 400 GIFs; faltam 100.
+
+## Lote 17 — e400–e424
+
+25 variantes da lista MD com sprites originais e GIFs em loop. Total: 425 GIFs, faltam 75 para a meta numérica. Produção conforme `production/lote17-plan.json`.

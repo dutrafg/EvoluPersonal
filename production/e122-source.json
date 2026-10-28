@@ -1,0 +1,18 @@
+{
+  "id": "e122",
+  "name": "Barra fixa pronada",
+  "group": "Costas",
+  "muscles": "Grande dorsal e bíceps",
+  "movement": "Overhand pull-up, palms facing away, hang on fixed horizontal bar and pull chin over bar, lower with control.",
+  "cue": "Segure a barra com palmas para frente. Puxe o corpo sem balanço e desça com controle.",
+  "level": "Intermediário",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Overhand pull-up, palms facing away, hang on fixed horizontal bar and pull chin over bar, lower with control.",
+  "mandatory": false,
+  "priority": "básico/principal",
+  "source_image": "/workspace/scratch/40fe464c14fa/generated_images/exec-2fc624a0-8983-4c59-a780-44d3d7929642.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/pull-up/"
+  ],
+  "review_status": "Revisão visual de quadros: equipamento, enquadramento e sequência; não equivale a validação biomecânica profissional."
+}

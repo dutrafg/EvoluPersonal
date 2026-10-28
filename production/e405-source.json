@@ -1,0 +1,24 @@
+{
+  "id": "e405",
+  "list_id": 20,
+  "name": "Supino Reto com Rotação de Punho (Pronação no topo)",
+  "group": "Peito",
+  "muscles": "Peitoral maior, deltoide anterior e tríceps",
+  "movement": "Flat bench dumbbell press with wrist rotation: palms inward at bottom, slowly rotate to palms toward feet at top while extending elbows; reverse rotation on descent. Keep forearms vertical.",
+  "cue": "No banco reto, inicie com as palmas entre si. Empurre os halteres girando gradualmente os punhos para a pegada pronada no alto e desfaça a rotação na descida.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/",
+  "lot": 17,
+  "equipment": "Banco reto e halteres",
+  "url": "",
+  "motion": "e405",
+  "animation": "assets/exercises/e405.gif",
+  "animation_alt": "Demonstração em loop de Supino Reto com Rotação de Punho (Pronação no topo)",
+  "source_sheet": "production/sprites/e405.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/"
+  ]
+}

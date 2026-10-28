@@ -1,0 +1,24 @@
+{
+  "id": "e409",
+  "list_id": 51,
+  "name": "Crucifixo Inclinado deitado na Polia Baixa",
+  "group": "Peito",
+  "muscles": "Peitoral maior e deltoide anterior",
+  "movement": "Incline cable chest fly lying on 30-degree bench between two low pulleys. Both handles in hands, cables taut from low side anchors. Arms open with slight fixed elbow bend then arc together above upper chest.",
+  "cue": "Posicione o banco inclinado entre duas polias baixas. Com cotovelos levemente flexionados e ângulo estável, aproxime os pegadores acima do peito e abra os braços com controle.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/",
+  "lot": 17,
+  "equipment": "Banco inclinado e duas polias baixas",
+  "url": "",
+  "motion": "e409",
+  "animation": "assets/exercises/e409.gif",
+  "animation_alt": "Demonstração em loop de Crucifixo Inclinado deitado na Polia Baixa",
+  "source_sheet": "production/sprites/e409.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "e322",
+  "name": "Levantamento terra romeno na máquina hack",
+  "group": "Pernas",
+  "muscles": "Posteriores da coxa e glúteos",
+  "movement": "Reverse-facing hack squat Romanian deadlift; hinge hips with slight knee bend, slide carriage and return by extending hips.",
+  "cue": "Fique de frente para o encosto da máquina, com joelhos levemente flexionados. Leve o quadril para trás e estenda para retornar.",
+  "level": "Avançado",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/romanian-deadlift/",
+  "source_sheet": "production/sprites/e322.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

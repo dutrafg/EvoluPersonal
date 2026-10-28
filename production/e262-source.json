@@ -1,0 +1,17 @@
+{
+  "id": "e262",
+  "name": "Flexão de joelhos sentada na máquina",
+  "group": "Pernas",
+  "muscles": "Posteriores da coxa",
+  "movement": "Seated leg curl machine; flex knees to bring roller down/back, return slowly.",
+  "cue": "Ajuste o encosto e a almofada acima dos tornozelos. Flexione os joelhos e retorne lentamente.",
+  "level": "Iniciante",
+  "priority": "base/principal por grupo muscular",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Seated leg curl machine; flex knees to bring roller down/back, return slowly.",
+  "reference": "https://www.strengthlog.com/seated-leg-curl/",
+  "source_image": "production/sprites/e262.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/seated-leg-curl/"
+  ]
+}

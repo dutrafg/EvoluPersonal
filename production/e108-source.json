@@ -1,0 +1,17 @@
+{
+  "id": "e108",
+  "name": "Tríceps francês na polia",
+  "group": "Braços",
+  "muscles": "Tríceps",
+  "movement": "Standing overhead cable rope triceps extension facing away from low pulley, upper arms beside head, extend elbows overhead then bend.",
+  "cue": "Com a corda atrás da cabeça e cotovelos estáveis, estenda os braços acima e retorne em amplitude confortável.",
+  "level": "Intermediário",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Standing overhead cable rope triceps extension facing away from low pulley, upper arms beside head, extend elbows overhead then bend.",
+  "mandatory": true,
+  "source_image": "/workspace/scratch/40fe464c14fa/generated_images/exec-fa4c12cc-b15f-4a0b-9e2b-c00b9d324115.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/overhead-cable-triceps-extension/"
+  ],
+  "review_status": "Revisão visual de quadros: equipamento, enquadramento e sequência; não equivale a validação biomecânica profissional."
+}

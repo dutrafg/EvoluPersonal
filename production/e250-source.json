@@ -1,0 +1,17 @@
+{
+  "id": "e250",
+  "name": "Supino reto na máquina convergente",
+  "group": "Peito",
+  "muscles": "Peitoral e tríceps",
+  "movement": "Chest press machine with independent converging handles; lower elbows beside torso then press forward and slightly inward.",
+  "cue": "Ajuste o banco para as manoplas ficarem na linha do meio do peito. Empurre para a frente e aproxime as mãos sem travar os cotovelos.",
+  "level": "Intermediário",
+  "priority": "base/principal por grupo muscular",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Chest press machine with independent converging handles; lower elbows beside torso then press forward and slightly inward.",
+  "reference": "https://www.strengthlog.com/chest-press-machine/",
+  "source_image": "production/sprites/e250.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/chest-press-machine/"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "e314",
+  "name": "Agachamento dividido com pé da frente elevado",
+  "group": "Pernas",
+  "muscles": "Quadríceps e glúteos",
+  "movement": "Front-foot elevated split squat; front foot on low stable plate, descend vertically and stand, switch sides.",
+  "cue": "Apoie o pé da frente em uma base baixa e estável. Flexione os joelhos mantendo equilíbrio e retorne; troque o lado.",
+  "level": "Intermediário",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/bulgarian-split-squat/",
+  "source_sheet": "production/sprites/e314.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "e423",
+  "list_id": 100,
+  "name": "Remada Serrote no Smith",
+  "group": "Costas",
+  "muscles": "Latíssimo do dorso, romboides, trapézio e bíceps",
+  "movement": "One-arm bent-over Smith row, both feet on floor, free hand on thigh, neutral spine. Pull bar vertically toward waist and lower without torso rotation. No bench.",
+  "cue": "Incline o tronco com os dois pés apoiados no chão. Apoie a mão livre na coxa e puxe a barra do Smith com uma mão em direção à cintura; desça na guia sem girar o tronco.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "lot": 17,
+  "equipment": "Smith",
+  "url": "",
+  "motion": "e423",
+  "animation": "assets/exercises/e423.gif",
+  "animation_alt": "Demonstração em loop de Remada Serrote no Smith",
+  "source_sheet": "production/sprites/e423.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "source": "500 Exercícios Base de Musculação.md",
   "summary": {
-    "a criar": 413,
-    "correspondência cadastrada": 70,
-    "variação relacionada; falta a exata": 17,
+    "correspondência cadastrada": 197,
+    "variação relacionada; falta a exata": 11,
+    "a criar": 292,
     "bases_principais_total": 65,
-    "bases_com_correspondencia": 25,
-    "biblioteca_publicada": 100,
-    "observação": "Os totais referem-se às linhas da lista, não a 500 movimentos únicos nem a GIFs novos. Correspondência é documental; revisão biomecânica não realizada por profissional."
+    "bases_com_correspondencia": 47,
+    "biblioteca_publicada": 425,
+    "observação": "Totais por linha da lista não equivalem a GIFs distintos. Correspondências por ID explícito de produção, nome normalizado exato ou vínculo anterior; uma variante não cobre alternativas de equipamento."
   },
   "items": [
     {
@@ -34,13 +34,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e121"
+      ],
+      "catalog_names": [
+        "Supino inclinado com barra"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e121",
-      "status": "a criar",
-      "production_status": "planejado no lote5"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 3,
@@ -48,13 +52,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e120"
+      ],
+      "catalog_names": [
+        "Supino reto com halteres"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e120",
-      "status": "a criar",
-      "production_status": "planejado no lote5"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 4,
@@ -80,13 +88,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e125"
+      ],
+      "catalog_names": [
+        "Supino declinado com barra"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 6,
@@ -144,13 +156,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Supino e Empurrar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e169"
+      ],
+      "catalog_names": [
+        "Supino reto no Smith"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 10,
@@ -158,13 +174,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Supino e Empurrar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e106"
+      ],
+      "catalog_names": [
+        "Supino inclinado no Smith"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e106",
-      "status": "a criar",
-      "production_status": "GIF gerado; aguardando revisão e integração"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 11,
@@ -172,13 +192,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Supino e Empurrar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e170"
+      ],
+      "catalog_names": [
+        "Supino declinado no Smith"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 12,
@@ -186,13 +210,19 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Supino e Empurrar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e400",
+        "e402"
+      ],
+      "catalog_names": [
+        "Supino Reto na Máquina (Sentado / Vertical)",
+        "Supino Reto na Máquina (Deitado / Horizontal)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 13,
@@ -214,13 +244,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Supino e Empurrar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e100"
+      ],
+      "catalog_names": [
+        "Supino inclinado articulado"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e100",
-      "status": "a criar",
-      "production_status": "planejado no lote5"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 15,
@@ -228,13 +262,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Supino e Empurrar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e401"
+      ],
+      "catalog_names": [
+        "Supino Declinado Articulado (Convergente)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 16,
@@ -242,13 +280,19 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Supino e Empurrar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e400",
+        "e402"
+      ],
+      "catalog_names": [
+        "Supino Reto na Máquina (Sentado / Vertical)",
+        "Supino Reto na Máquina (Deitado / Horizontal)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 17,
@@ -256,13 +300,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Supino e Empurrar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e403"
+      ],
+      "catalog_names": [
+        "Supino com Pegada Neutra (Barra Suíça / Football Bar)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 18,
@@ -284,13 +332,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Supino e Empurrar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e404"
+      ],
+      "catalog_names": [
+        "Supino Inclinado com Halteres e Pegada Neutra"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 20,
@@ -298,13 +350,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Supino e Empurrar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e405"
+      ],
+      "catalog_names": [
+        "Supino Reto com Rotação de Punho (Pronação no topo)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 21,
@@ -312,15 +368,19 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Supino e Empurrar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e406"
+      ],
+      "catalog_names": [
+        "Supino Inclinado a 30 Graus com Halteres"
+      ],
       "related_ids": [
         "e5"
       ],
       "note": "Ângulo de 30 graus não confirmado no cadastro existente.",
       "planned_id": null,
-      "status": "variação relacionada; falta a exata",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 22,
@@ -328,13 +388,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Supino e Empurrar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e407"
+      ],
+      "catalog_names": [
+        "Supino Inclinado a 15 Graus (Baixa Inclinação) com Halteres"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 23,
@@ -356,13 +420,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Supino e Empurrar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e277"
+      ],
+      "catalog_names": [
+        "Supino no chão com barra"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 25,
@@ -370,13 +438,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Supino e Empurrar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e278"
+      ],
+      "catalog_names": [
+        "Supino no chão com halteres"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 26,
@@ -398,13 +470,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Supino e Empurrar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e408"
+      ],
+      "catalog_names": [
+        "Supino Reto Unilateral com Halter"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 28,
@@ -412,13 +488,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Supino e Empurrar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e280"
+      ],
+      "catalog_names": [
+        "Supino inclinado unilateral com halter"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 29,
@@ -482,13 +562,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Supino e Empurrar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e285"
+      ],
+      "catalog_names": [
+        "Supino em pé na polia"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 34,
@@ -496,13 +580,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Supino e Empurrar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e286"
+      ],
+      "catalog_names": [
+        "Supino unilateral em pé na polia"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 35,
@@ -510,13 +598,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Supino e Empurrar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e303"
+      ],
+      "catalog_names": [
+        "Supino com pausa no peito"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 36,
@@ -566,13 +658,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Supino e Empurrar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e287"
+      ],
+      "catalog_names": [
+        "Landmine press ajoelhado"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 40,
@@ -644,13 +740,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Isoladores (Crucifixos, Crossovers e Pullovers)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e174"
+      ],
+      "catalog_names": [
+        "Crucifixo declinado com halteres"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 45,
@@ -672,13 +772,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Isoladores (Crucifixos, Crossovers e Pullovers)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e102"
+      ],
+      "catalog_names": [
+        "Voador na máquina com pegadores"
+      ],
       "related_ids": [],
       "note": "Imagem gerada com pegadores; não confirmar o modelo de antebraços apoiados do item45.",
       "planned_id": "e102",
-      "status": "a criar",
-      "production_status": "planejado no lote5"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 47,
@@ -686,13 +790,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Isoladores (Crucifixos, Crossovers e Pullovers)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e175"
+      ],
+      "catalog_names": [
+        "Crossover na polia alta"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 48,
@@ -700,13 +808,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Isoladores (Crucifixos, Crossovers e Pullovers)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e176"
+      ],
+      "catalog_names": [
+        "Crossover na polia média"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 49,
@@ -714,13 +826,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Isoladores (Crucifixos, Crossovers e Pullovers)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e251"
+      ],
+      "catalog_names": [
+        "Crossover na polia baixa"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 50,
@@ -728,13 +844,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Isoladores (Crucifixos, Crossovers e Pullovers)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e101"
+      ],
+      "catalog_names": [
+        "Crucifixo reto na polia baixa"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e101",
-      "status": "a criar",
-      "production_status": "planejado no lote5"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 51,
@@ -742,13 +862,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Isoladores (Crucifixos, Crossovers e Pullovers)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e409"
+      ],
+      "catalog_names": [
+        "Crucifixo Inclinado deitado na Polia Baixa"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 52,
@@ -756,13 +880,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Isoladores (Crucifixos, Crossovers e Pullovers)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e410"
+      ],
+      "catalog_names": [
+        "Crucifixo Unilateral na Polia Média"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 53,
@@ -788,13 +916,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Isoladores (Crucifixos, Crossovers e Pullovers)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e411"
+      ],
+      "catalog_names": [
+        "Pullover no Banco com Barra W"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 55,
@@ -834,13 +966,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Calistenia / Peso do Corpo",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e290"
+      ],
+      "catalog_names": [
+        "Flexão de braços com sobrecarga"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 58,
@@ -848,13 +984,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Calistenia / Peso do Corpo",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e291"
+      ],
+      "catalog_names": [
+        "Flexão de braços nas argolas"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 59,
@@ -862,13 +1002,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Calistenia / Peso do Corpo",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e252"
+      ],
+      "catalog_names": [
+        "Flexão arqueiro"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 60,
@@ -876,13 +1020,17 @@
       "group": "1. Peitoral (1 a 60)",
       "section": "Variações de Calistenia / Peso do Corpo",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e412"
+      ],
+      "catalog_names": [
+        "Flexão Pliométrica (Com palma)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 61,
@@ -890,13 +1038,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e119"
+      ],
+      "catalog_names": [
+        "Levantamento terra convencional com barra"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e119",
-      "status": "a criar",
-      "production_status": "planejado no lote5"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 62,
@@ -904,13 +1056,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e122"
+      ],
+      "catalog_names": [
+        "Barra fixa pronada"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e122",
-      "status": "a criar",
-      "production_status": "planejado no lote5"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 63,
@@ -918,13 +1074,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e123"
+      ],
+      "catalog_names": [
+        "Barra fixa supinada"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e123",
-      "status": "a criar",
-      "production_status": "planejado no lote5"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 64,
@@ -964,13 +1124,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e34"
+      ],
+      "catalog_names": [
+        "Remada curvada com barra"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 67,
@@ -978,13 +1142,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e129"
+      ],
+      "catalog_names": [
+        "Remada Pendlay"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 68,
@@ -1029,12 +1197,12 @@
       "section": "Exercícios Base / Principais",
       "primary": true,
       "catalog_ids": [
-        "e6",
-        "e54"
+        "e54",
+        "e6"
       ],
       "catalog_names": [
-        "Puxada frontal",
-        "Puxada alta aberta na polia"
+        "Puxada alta aberta na polia",
+        "Puxada frontal"
       ],
       "related_ids": [],
       "note": "",
@@ -1048,13 +1216,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Puxadas Verticais",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e107"
+      ],
+      "catalog_names": [
+        "Puxada neutra com triângulo"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e107",
-      "status": "a criar",
-      "production_status": "planejado no lote5"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 72,
@@ -1062,13 +1234,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Puxadas Verticais",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e113"
+      ],
+      "catalog_names": [
+        "Puxada supinada"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e113",
-      "status": "a criar",
-      "production_status": "planejado no lote5"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 73,
@@ -1076,13 +1252,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Puxadas Verticais",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e413"
+      ],
+      "catalog_names": [
+        "Puxada Alta com Barra Romana (Pegada Neutra Média)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 74,
@@ -1090,13 +1270,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Puxadas Verticais",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e414"
+      ],
+      "catalog_names": [
+        "Puxada Alta Articulada na Máquina (Convergente)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 75,
@@ -1164,13 +1348,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Puxadas Verticais",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e415"
+      ],
+      "catalog_names": [
+        "Barra Fixa com Elástico de Assistência"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 80,
@@ -1178,13 +1366,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Puxadas Verticais",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e307"
+      ],
+      "catalog_names": [
+        "Barra fixa com carga adicional"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 81,
@@ -1192,13 +1384,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Puxadas Verticais",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e416"
+      ],
+      "catalog_names": [
+        "Barra Fixa no Triângulo (Sternum Chin-up)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 82,
@@ -1206,13 +1402,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Puxadas Verticais",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e305"
+      ],
+      "catalog_names": [
+        "Puxada ilíaca unilateral na polia"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 83,
@@ -1266,13 +1466,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Remadas Horizontais e Anguladas",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e417"
+      ],
+      "catalog_names": [
+        "Remada Baixa Sentado na Polia com Barra Romana"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 87,
@@ -1280,13 +1484,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Remadas Horizontais e Anguladas",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e418"
+      ],
+      "catalog_names": [
+        "Remada Baixa Sentado na Polia com Pegada Supinada"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 88,
@@ -1308,13 +1516,19 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Remadas Horizontais e Anguladas",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e109",
+        "e419"
+      ],
+      "catalog_names": [
+        "Remada baixa articulada",
+        "Remada Sentado na Máquina (Pegada Pronada Aberta - Foco Upper Back)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e109",
-      "status": "a criar",
-      "production_status": "planejado no lote5"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 90,
@@ -1322,13 +1536,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Remadas Horizontais e Anguladas",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e419"
+      ],
+      "catalog_names": [
+        "Remada Sentado na Máquina (Pegada Pronada Aberta - Foco Upper Back)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 91,
@@ -1350,13 +1568,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Remadas Horizontais e Anguladas",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e420"
+      ],
+      "catalog_names": [
+        "Remada Curvada no Smith"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 93,
@@ -1364,13 +1586,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Remadas Horizontais e Anguladas",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e253"
+      ],
+      "catalog_names": [
+        "Remada curvada com halteres"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 94,
@@ -1392,13 +1618,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Remadas Horizontais e Anguladas",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e421"
+      ],
+      "catalog_names": [
+        "Remada no Banco Inclinado com Barra"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 96,
@@ -1434,13 +1664,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Remadas Horizontais e Anguladas",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e422"
+      ],
+      "catalog_names": [
+        "Remada Unilateral no Landmine (Posição paralela)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 99,
@@ -1462,13 +1696,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Remadas Horizontais e Anguladas",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e423"
+      ],
+      "catalog_names": [
+        "Remada Serrote no Smith"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 101,
@@ -1536,13 +1774,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Remadas Horizontais e Anguladas",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e424"
+      ],
+      "catalog_names": [
+        "Remada Gorila com Kettlebells (Gorilla Row)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 106,
@@ -1616,13 +1858,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Isoladores de Dorsal (Pulldowns e Pullovers)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e173"
+      ],
+      "catalog_names": [
+        "Pullover na máquina"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 111,
@@ -1658,13 +1904,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Terra e Trapézio / Alto das Costas",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e295"
+      ],
+      "catalog_names": [
+        "Meio levantamento terra no rack"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 114,
@@ -1672,13 +1922,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Terra e Trapézio / Alto das Costas",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e261"
+      ],
+      "catalog_names": [
+        "Levantamento terra com barra hexagonal"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 115,
@@ -1816,13 +2070,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Terra e Trapézio / Alto das Costas",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e308"
+      ],
+      "catalog_names": [
+        "Encolhimento de ombros na máquina"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 125,
@@ -1887,9 +2145,11 @@
       "section": "Variações de Terra e Trapézio / Alto das Costas",
       "primary": false,
       "catalog_ids": [
+        "e204",
         "e24"
       ],
       "catalog_names": [
+        "Face pull na polia com corda",
         "Face pull na polia"
       ],
       "related_ids": [],
@@ -1950,13 +2210,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Terra e Trapézio / Alto das Costas",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e293"
+      ],
+      "catalog_names": [
+        "Retração escapular na barra fixa"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 134,
@@ -2042,13 +2306,17 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Terra e Trapézio / Alto das Costas",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e296"
+      ],
+      "catalog_names": [
+        "Levantamento Reeves"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 140,
@@ -2056,13 +2324,19 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Terra e Trapézio / Alto das Costas",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e110",
+        "e267"
+      ],
+      "catalog_names": [
+        "Crucifixo inverso na máquina",
+        "Crucifixo inverso na máquina"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 141,
@@ -2086,13 +2360,17 @@
       "group": "3. Quadríceps (141 a 200)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e131"
+      ],
+      "catalog_names": [
+        "Agachamento livre com barra baixa"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 143,
@@ -2100,13 +2378,17 @@
       "group": "3. Quadríceps (141 a 200)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e118"
+      ],
+      "catalog_names": [
+        "Agachamento frontal com barra"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e118",
-      "status": "a criar",
-      "production_status": "planejado no lote5"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 144,
@@ -2132,13 +2414,17 @@
       "group": "3. Quadríceps (141 a 200)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e104"
+      ],
+      "catalog_names": [
+        "Hack squat"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e104",
-      "status": "a criar",
-      "production_status": "GIF gerado; aguardando revisão e integração"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 146,
@@ -2146,15 +2432,19 @@
       "group": "3. Quadríceps (141 a 200)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e355"
+      ],
+      "catalog_names": [
+        "Agachamento búlgaro com halteres"
+      ],
       "related_ids": [
         "e33"
       ],
       "note": "e33 é sem halteres: não atende à variante carregada.",
       "planned_id": null,
-      "status": "variação relacionada; falta a exata",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 147,
@@ -2176,13 +2466,17 @@
       "group": "3. Quadríceps (141 a 200)",
       "section": "Variações de Agachamento",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e117"
+      ],
+      "catalog_names": [
+        "Agachamento no Smith"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e117",
-      "status": "a criar",
-      "production_status": "planejado no lote5"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 149,
@@ -2190,13 +2484,17 @@
       "group": "3. Quadríceps (141 a 200)",
       "section": "Variações de Agachamento",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e258"
+      ],
+      "catalog_names": [
+        "Agachamento frontal no Smith"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 150,
@@ -2222,13 +2520,17 @@
       "group": "3. Quadríceps (141 a 200)",
       "section": "Variações de Agachamento",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e309"
+      ],
+      "catalog_names": [
+        "Agachamento Zercher"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 152,
@@ -2404,13 +2706,17 @@
       "group": "3. Quadríceps (141 a 200)",
       "section": "Variações de Agachamento",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e350"
+      ],
+      "catalog_names": [
+        "Agachamento sumô com barra"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 165,
@@ -2714,13 +3020,17 @@
       "group": "3. Quadríceps (141 a 200)",
       "section": "Variações Unilaterais (Afundos, Passadas e Subidas)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e192"
+      ],
+      "catalog_names": [
+        "Agachamento búlgaro no Smith"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 186,
@@ -2846,13 +3156,17 @@
       "group": "3. Quadríceps (141 a 200)",
       "section": "Isoladores de Quadríceps eEspecíficos",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e237"
+      ],
+      "catalog_names": [
+        "Cadeira extensora unilateral"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 195,
@@ -2860,13 +3174,17 @@
       "group": "3. Quadríceps (141 a 200)",
       "section": "Isoladores de Quadríceps eEspecíficos",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e318"
+      ],
+      "catalog_names": [
+        "Cadeira extensora com tronco reclinado"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 196,
@@ -2944,13 +3262,19 @@
       "group": "4. Posteriores de Coxa / Isquiotibiais (201 a 240)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e134",
+        "e367"
+      ],
+      "catalog_names": [
+        "Levantamento terra romeno com barra",
+        "Levantamento terra romeno com barra"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 202,
@@ -3008,13 +3332,17 @@
       "group": "4. Posteriores de Coxa / Isquiotibiais (201 a 240)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e105"
+      ],
+      "catalog_names": [
+        "Cadeira flexora"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e105",
-      "status": "a criar",
-      "production_status": "GIF gerado; aguardando revisão e integração"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 206,
@@ -3166,13 +3494,17 @@
       "group": "4. Posteriores de Coxa / Isquiotibiais (201 a 240)",
       "section": "Variações de Dobradiça de Quadril (Hip Hinge)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e323"
+      ],
+      "catalog_names": [
+        "Bom dia sentado com barra"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 217,
@@ -3292,13 +3624,17 @@
       "group": "4. Posteriores de Coxa / Isquiotibiais (201 a 240)",
       "section": "Variações de Flexão de Joelho (Isoladores)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e158"
+      ],
+      "catalog_names": [
+        "Mesa flexora unilateral"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 226,
@@ -3534,13 +3870,17 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e137"
+      ],
+      "catalog_names": [
+        "Levantamento terra sumô com barra"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 243,
@@ -3548,15 +3888,19 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e138"
+      ],
+      "catalog_names": [
+        "Agachamento profundo com barra"
+      ],
       "related_ids": [
         "e0"
       ],
       "note": "Fonte exige barra e profundidade específica; não confundir com agachamento livre sem carga.",
       "planned_id": null,
-      "status": "variação relacionada; falta a exata",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 244,
@@ -3686,13 +4030,17 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Variações de Elevação Pélvica e Extensão de Quadril",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e375"
+      ],
+      "catalog_names": [
+        "Elevação pélvica unilateral com peso do corpo ou halter"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e375",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 253,
@@ -3700,13 +4048,17 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Variações de Elevação Pélvica e Extensão de Quadril",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e377"
+      ],
+      "catalog_names": [
+        "Elevação pélvica em base assimétrica (B-stance hip thrust)"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e377",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 254,
@@ -3728,13 +4080,17 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Variações de Elevação Pélvica e Extensão de Quadril",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e376"
+      ],
+      "catalog_names": [
+        "Ponte de glúteo no solo com barra"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e376",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 256,
@@ -3788,13 +4144,17 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Variações de Elevação Pélvica e Extensão de Quadril",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e378"
+      ],
+      "catalog_names": [
+        "Hiperextensão no banco 45° com foco em glúteo"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e378",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 260,
@@ -3922,13 +4282,17 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Agachamentos, Passadas e Isoladores de Glúteo Máximo",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e382"
+      ],
+      "catalog_names": [
+        "Coice na máquina (glute kickback machine)"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e382",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 269,
@@ -3964,13 +4328,17 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Agachamentos, Passadas e Isoladores de Glúteo Máximo",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e383"
+      ],
+      "catalog_names": [
+        "Extensão de quadril em quatro apoios com caneleira (donkey kick)"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e383",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 272,
@@ -4034,13 +4402,17 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Glúteo Médio/Mínimo (Abdutores) e Adutores",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e379"
+      ],
+      "catalog_names": [
+        "Abdução de quadril em pé na polia baixa"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e379",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 277,
@@ -4048,13 +4420,17 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Glúteo Médio/Mínimo (Abdutores) e Adutores",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e380"
+      ],
+      "catalog_names": [
+        "Abdução de quadril deitado de lado no solo com caneleira"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e380",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 278,
@@ -4076,13 +4452,17 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Glúteo Médio/Mínimo (Abdutores) e Adutores",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e381"
+      ],
+      "catalog_names": [
+        "Exercício ostra (clamshell) com mini band"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e381",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 280,
@@ -4090,13 +4470,17 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Glúteo Médio/Mínimo (Abdutores) e Adutores",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e395"
+      ],
+      "catalog_names": [
+        "Prancha lateral com abdução de quadril"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e395",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 281,
@@ -4150,13 +4534,17 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Glúteo Médio/Mínimo (Abdutores) e Adutores",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e391"
+      ],
+      "catalog_names": [
+        "Adução de quadril em pé na polia baixa"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e391",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 285,
@@ -4164,13 +4552,17 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Glúteo Médio/Mínimo (Abdutores) e Adutores",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e392"
+      ],
+      "catalog_names": [
+        "Adução de quadril deitado no solo com caneleira"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e392",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 286,
@@ -4178,13 +4570,17 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Glúteo Médio/Mínimo (Abdutores) e Adutores",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e393"
+      ],
+      "catalog_names": [
+        "Prancha Copenhagen (adutor)"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e393",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 287,
@@ -4192,15 +4588,17 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Glúteo Médio/Mínimo (Abdutores) e Adutores",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
-      "related_ids": [
-        "e77"
+      "catalog_ids": [
+        "e394"
       ],
+      "catalog_names": [
+        "Afundo lateral (Cossack squat / side lunge) com halter"
+      ],
+      "related_ids": [],
       "note": "e77 não utiliza halter ou barra.",
-      "planned_id": null,
-      "status": "variação relacionada; falta a exata",
-      "production_status": "pendente"
+      "planned_id": "e394",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 288,
@@ -4222,13 +4620,17 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Glúteo Médio/Mínimo (Abdutores) e Adutores",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e396"
+      ],
+      "catalog_names": [
+        "Adução isométrica com bola suíça entre os joelhos"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e396",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 290,
@@ -4284,13 +4686,17 @@
       "group": "6. Ombros: Deltoide Anterior, Lateral e Posterior (291 a 350)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e124"
+      ],
+      "catalog_names": [
+        "Desenvolvimento sentado com barra"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e124",
-      "status": "a criar",
-      "production_status": "planejado no lote5"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 294,
@@ -4408,13 +4814,17 @@
       "group": "6. Ombros: Deltoide Anterior, Lateral e Posterior (291 a 350)",
       "section": "Variações de Desenvolvimento (Empurrar Vertical)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e112"
+      ],
+      "catalog_names": [
+        "Desenvolvimento na máquina"
+      ],
       "related_ids": [],
       "note": "Confirmar pegada/modelo na revisão da imagem antes de afirmar correspondência exata.",
       "planned_id": "e112",
-      "status": "a criar",
-      "production_status": "planejado no lote5"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 302,
@@ -4422,13 +4832,17 @@
       "group": "6. Ombros: Deltoide Anterior, Lateral e Posterior (291 a 350)",
       "section": "Variações de Desenvolvimento (Empurrar Vertical)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e112"
+      ],
+      "catalog_names": [
+        "Desenvolvimento na máquina"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 303,
@@ -4827,9 +5241,11 @@
       "section": "Variações de Elevação Frontal (Deltoide Anterior)",
       "primary": false,
       "catalog_ids": [
+        "e114",
         "e42"
       ],
       "catalog_names": [
+        "Elevação frontal alternada",
         "Elevação frontal com halteres"
       ],
       "related_ids": [],
@@ -4900,13 +5316,17 @@
       "group": "6. Ombros: Deltoide Anterior, Lateral e Posterior (291 a 350)",
       "section": "Variações de Elevação Frontal (Deltoide Anterior)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e182"
+      ],
+      "catalog_names": [
+        "Elevação frontal com anilha"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 336,
@@ -4942,13 +5362,17 @@
       "group": "6. Ombros: Deltoide Anterior, Lateral e Posterior (291 a 350)",
       "section": "Variações para Deltoide Posterior e Manguito Rotador",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e183"
+      ],
+      "catalog_names": [
+        "Crucifixo inverso sentado com halteres"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 339,
@@ -4970,13 +5394,17 @@
       "group": "6. Ombros: Deltoide Anterior, Lateral e Posterior (291 a 350)",
       "section": "Variações para Deltoide Posterior e Manguito Rotador",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e110"
+      ],
+      "catalog_names": [
+        "Crucifixo inverso na máquina"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e110",
-      "status": "a criar",
-      "production_status": "planejado no lote5"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 341,
@@ -5084,15 +5512,19 @@
       "group": "6. Ombros: Deltoide Anterior, Lateral e Posterior (291 a 350)",
       "section": "Variações para Deltoide Posterior e Manguito Rotador",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e184"
+      ],
+      "catalog_names": [
+        "Rotação externa de ombro na polia"
+      ],
       "related_ids": [
         "e61"
       ],
       "note": "e61 utiliza elástico; fonte exige polia.",
       "planned_id": null,
-      "status": "variação relacionada; falta a exata",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 349,
@@ -5211,9 +5643,11 @@
       "section": "Exercícios Base / Principais",
       "primary": true,
       "catalog_ids": [
+        "e335",
         "e62"
       ],
       "catalog_names": [
+        "Rosca Scott com barra W",
         "Rosca Scott com barra EZ"
       ],
       "related_ids": [],
@@ -5242,13 +5676,17 @@
       "group": "7. Bíceps, Braquial e Antebraço (351 a 400)",
       "section": "Variações de Rosca para Bíceps e Braquial",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e187"
+      ],
+      "catalog_names": [
+        "Rosca Scott unilateral com halter"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 359,
@@ -5256,13 +5694,17 @@
       "group": "7. Bíceps, Braquial e Antebraço (351 a 400)",
       "section": "Variações de Rosca para Bíceps e Braquial",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e160"
+      ],
+      "catalog_names": [
+        "Rosca Scott na máquina"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 360,
@@ -5316,13 +5758,17 @@
       "group": "7. Bíceps, Braquial e Antebraço (351 a 400)",
       "section": "Variações de Rosca para Bíceps e Braquial",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e186"
+      ],
+      "catalog_names": [
+        "Rosca spider com halteres"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 364,
@@ -5330,13 +5776,17 @@
       "group": "7. Bíceps, Braquial e Antebraço (351 a 400)",
       "section": "Variações de Rosca para Bíceps e Braquial",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e111"
+      ],
+      "catalog_names": [
+        "Rosca direta na polia"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e111",
-      "status": "a criar",
-      "production_status": "planejado no lote5"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 365,
@@ -5610,13 +6060,17 @@
       "group": "7. Bíceps, Braquial e Antebraço (351 a 400)",
       "section": "Antebraço e Pegada",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e115"
+      ],
+      "catalog_names": [
+        "Rosca inversa"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e115",
-      "status": "a criar",
-      "production_status": "planejado no lote5"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 385,
@@ -5624,13 +6078,17 @@
       "group": "7. Bíceps, Braquial e Antebraço (351 a 400)",
       "section": "Antebraço e Pegada",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e340"
+      ],
+      "catalog_names": [
+        "Rosca inversa com barra W"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 386,
@@ -5930,13 +6388,17 @@
       "group": "8. Tríceps (401 a 440)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e103"
+      ],
+      "catalog_names": [
+        "Tríceps corda na polia"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e103",
-      "status": "a criar",
-      "production_status": "GIF gerado; aguardando revisão e integração"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 407,
@@ -6120,13 +6582,17 @@
       "group": "8. Tríceps (401 a 440)",
       "section": "Variações de Extensão Deitado e Empurrar (Cabeça Lateral, Medial e Longa)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e163"
+      ],
+      "catalog_names": [
+        "Mergulho no banco"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 420,
@@ -6208,13 +6674,17 @@
       "group": "8. Tríceps (401 a 440)",
       "section": "Variações de Tríceps Francês (Acima da Cabeça - Ênfase na Cabeça Longa)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e108"
+      ],
+      "catalog_names": [
+        "Tríceps francês na polia"
+      ],
       "related_ids": [],
       "note": "Variação de polia baixa definida no plano; polia alta permanece item424.",
       "planned_id": "e108",
-      "status": "a criar",
-      "production_status": "planejado no lote5"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 426,
@@ -6222,13 +6692,17 @@
       "group": "8. Tríceps (401 a 440)",
       "section": "Variações de Tríceps Francês (Acima da Cabeça - Ênfase na Cabeça Longa)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e189"
+      ],
+      "catalog_names": [
+        "Tríceps francês unilateral na polia"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 427,
@@ -6356,13 +6830,17 @@
       "group": "8. Tríceps (401 a 440)",
       "section": "Variações na Polia e Coices",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e116"
+      ],
+      "catalog_names": [
+        "Tríceps coice unilateral no cross"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": "e116",
-      "status": "a criar",
-      "production_status": "planejado no lote5"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 436,
@@ -6490,13 +6968,19 @@
       "group": "9. Panturrilhas: Gastrocnêmio, Sóleo e Tibial (441 a 460)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e147",
+        "e390"
+      ],
+      "catalog_names": [
+        "Panturrilha burro",
+        "Panturrilha burro (donkey calf raise)"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e390",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 445,
@@ -6504,13 +6988,17 @@
       "group": "9. Panturrilhas: Gastrocnêmio, Sóleo e Tibial (441 a 460)",
       "section": "Variações e Tibial Anterior",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e384"
+      ],
+      "catalog_names": [
+        "Elevação de panturrilha em pé no Smith (em cima do step)"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e384",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 446,
@@ -6532,13 +7020,17 @@
       "group": "9. Panturrilhas: Gastrocnêmio, Sóleo e Tibial (441 a 460)",
       "section": "Variações e Tibial Anterior",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e387"
+      ],
+      "catalog_names": [
+        "Elevação de panturrilha unilateral em pé com halter (no step/degrau)"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e387",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 448,
@@ -6546,13 +7038,17 @@
       "group": "9. Panturrilhas: Gastrocnêmio, Sóleo e Tibial (441 a 460)",
       "section": "Variações e Tibial Anterior",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e388"
+      ],
+      "catalog_names": [
+        "Panturrilha no hack squat"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e388",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 449,
@@ -6574,13 +7070,17 @@
       "group": "9. Panturrilhas: Gastrocnêmio, Sóleo e Tibial (441 a 460)",
       "section": "Variações e Tibial Anterior",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e386"
+      ],
+      "catalog_names": [
+        "Panturrilha no leg press vertical (90°)"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e386",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 451,
@@ -6648,13 +7148,17 @@
       "group": "9. Panturrilhas: Gastrocnêmio, Sóleo e Tibial (441 a 460)",
       "section": "Variações e Tibial Anterior",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e385"
+      ],
+      "catalog_names": [
+        "Panturrilha unilateral no leg press"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e385",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 456,
@@ -6718,13 +7222,17 @@
       "group": "9. Panturrilhas: Gastrocnêmio, Sóleo e Tibial (441 a 460)",
       "section": "Variações e Tibial Anterior",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e389"
+      ],
+      "catalog_names": [
+        "Elevação tibial sentado na polia baixa ou máquina específica"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e389",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 461,
@@ -6746,15 +7254,17 @@
       "group": "10. Abdômen, Core e Lombar (461 a 500)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
-      "related_ids": [
-        "e69"
+      "catalog_ids": [
+        "e399"
       ],
+      "catalog_names": [
+        "Elevação de pernas pendurado na barra fixa (toes to bar)"
+      ],
+      "related_ids": [],
       "note": "GIF/cue existentes mostram joelhos flexionados; não confirmar pernas estendidas/toes-to-bar.",
-      "planned_id": null,
-      "status": "variação relacionada; falta a exata",
-      "production_status": "pendente"
+      "planned_id": "e399",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 463,
@@ -6780,13 +7290,17 @@
       "group": "10. Abdômen, Core e Lombar (461 a 500)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e397"
+      ],
+      "catalog_names": [
+        "Roda abdominal (ab wheel rollout)"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e397",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 465,
@@ -6794,13 +7308,17 @@
       "group": "10. Abdômen, Core e Lombar (461 a 500)",
       "section": "Exercícios Base / Principais",
       "primary": true,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e398"
+      ],
+      "catalog_names": [
+        "Hiperextensão lombar no banco romano (45° ou 90°)"
+      ],
       "related_ids": [],
       "note": "",
-      "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "planned_id": "e398",
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 466,
@@ -7306,13 +7824,17 @@
       "group": "10. Abdômen, Core e Lombar (461 a 500)",
       "section": "Estabilização Profunda, Carregamentos e Lombar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "e199"
+      ],
+      "catalog_names": [
+        "Caminhada da mala unilateral"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "pendente"
+      "status": "correspondência cadastrada",
+      "production_status": "publicado"
     },
     {
       "list_id": 500,

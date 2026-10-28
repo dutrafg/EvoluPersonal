@@ -1,0 +1,24 @@
+{
+  "id": "e403",
+  "list_id": 17,
+  "name": "Supino com Pegada Neutra (Barra Suíça / Football Bar)",
+  "group": "Peito",
+  "muscles": "Peitoral maior, deltoide anterior e tríceps",
+  "movement": "Flat bench press holding a single Swiss football bar with clearly visible parallel internal neutral-grip handles, palms inward. Lower the bar to chest level with wrists aligned, then press upward.",
+  "cue": "Deite no banco reto e segure as alças paralelas da barra suíça, com palmas entre si. Desça a barra em direção ao peito e empurre sem dobrar os punhos.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/",
+  "lot": 17,
+  "equipment": "Banco reto e barra suíça",
+  "url": "",
+  "motion": "e403",
+  "animation": "assets/exercises/e403.gif",
+  "animation_alt": "Demonstração em loop de Supino com Pegada Neutra (Barra Suíça / Football Bar)",
+  "source_sheet": "production/sprites/e403.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/"
+  ]
+}

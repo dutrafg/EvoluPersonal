@@ -18,7 +18,7 @@
     }
   ],
   "catalog_baseline_count": 100,
-  "status": "Comparação documental; novos GIFs ainda não produzidos",
+  "status": "17 novos obrigatórios integrados com GIFs no lote5; cinco descrições dos PDFs ainda exigem definição.",
   "summary": {
     "distinct_requirements": 43,
     "covered": 21,
@@ -307,5 +307,6 @@
       "source": "Letícia — B",
       "reason": "Falta definir direção lateral/frontal, equipamento e posição."
     }
-  ]
+  ],
+  "catalog_current_count": 125
 }

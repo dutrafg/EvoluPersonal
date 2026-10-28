@@ -1,0 +1,17 @@
+{
+  "id": "e109",
+  "name": "Remada baixa articulada",
+  "group": "Costas",
+  "muscles": "Costas e bíceps",
+  "movement": "Seated plate-loaded lever low row machine with chest support; pull independent handles toward lower ribs then extend arms.",
+  "cue": "Ajuste o banco e estabilize o tronco. Puxe os pegadores em direção às costelas e retorne com controle.",
+  "level": "Intermediário",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Seated plate-loaded lever low row machine with chest support; pull independent handles toward lower ribs then extend arms.",
+  "mandatory": true,
+  "source_image": "/workspace/scratch/40fe464c14fa/generated_images/exec-6a183029-468a-4796-a3c5-7f831d2327f1.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/168/seated-row/"
+  ],
+  "review_status": "Revisão visual de quadros: equipamento, enquadramento e sequência; não equivale a validação biomecânica profissional."
+}

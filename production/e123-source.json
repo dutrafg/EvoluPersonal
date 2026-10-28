@@ -1,0 +1,18 @@
+{
+  "id": "e123",
+  "name": "Barra fixa supinada",
+  "group": "Costas",
+  "muscles": "Grande dorsal e bíceps",
+  "movement": "Underhand chin-up, palms facing exerciser, pull chin above fixed bar then lower slowly.",
+  "cue": "Segure a barra com palmas voltadas para você. Eleve o corpo sem embalar e retorne devagar.",
+  "level": "Intermediário",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Underhand chin-up, palms facing exerciser, pull chin above fixed bar then lower slowly.",
+  "mandatory": false,
+  "priority": "básico/principal",
+  "source_image": "/workspace/scratch/40fe464c14fa/generated_images/exec-31c6fa33-a348-46fc-8c46-baf49757a894.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/chin-up/"
+  ],
+  "review_status": "Revisão visual de quadros: equipamento, enquadramento e sequência; não equivale a validação biomecânica profissional."
+}

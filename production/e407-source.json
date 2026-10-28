@@ -1,0 +1,24 @@
+{
+  "id": "e407",
+  "list_id": 22,
+  "name": "Supino Inclinado a 15 Graus (Baixa Inclinação) com Halteres",
+  "group": "Peito",
+  "muscles": "Peitoral maior, deltoide anterior e tríceps",
+  "movement": "Dumbbell press on low incline bench visibly 15 degrees above horizontal. Pronated grip, stable feet and supported back, lower dumbbells beside upper chest then press upward.",
+  "cue": "Ajuste o banco em baixa inclinação, a 15 graus. Apoie os pés e as costas, desça os halteres ao lado do peito e empurre com controle.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/",
+  "lot": 17,
+  "equipment": "Banco a 15 graus e halteres",
+  "url": "",
+  "motion": "e407",
+  "animation": "assets/exercises/e407.gif",
+  "animation_alt": "Demonstração em loop de Supino Inclinado a 15 Graus (Baixa Inclinação) com Halteres",
+  "source_sheet": "production/sprites/e407.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/"
+  ]
+}

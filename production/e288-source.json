@@ -1,0 +1,17 @@
+{
+  "id": "e288",
+  "name": "Svend press em pé",
+  "group": "Peito",
+  "muscles": "Peitoral e deltoide anterior",
+  "movement": "Svend plate press; hold plates squeezed together at chest and press forward, return while maintaining squeeze.",
+  "cue": "Aperte duas anilhas juntas à frente do peito. Estenda os braços sem perder a pressão entre elas e retorne.",
+  "level": "Iniciante",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Svend plate press; hold plates squeezed together at chest and press forward, return while maintaining squeeze.",
+  "reference": "https://www.strengthlog.com/svend-press/",
+  "source_image": "production/sprites/e288.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/svend-press/"
+  ]
+}

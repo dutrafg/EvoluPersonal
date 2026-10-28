@@ -1,0 +1,24 @@
+{
+  "id": "e411",
+  "list_id": 54,
+  "name": "Pullover no Banco com Barra W",
+  "group": "Peito",
+  "muscles": "Peitoral maior, latíssimo do dorso e serrátil anterior",
+  "movement": "Pullover lying supine along flat bench holding a short EZ curl bar in both hands above chest. Elbows slightly bent at fixed angle; arc bar backward above head within controlled shoulder range, then return over chest.",
+  "cue": "Deite no banco reto e segure a barra W acima do peito. Com cotovelos levemente flexionados, leve a barra em arco para trás da cabeça dentro da amplitude controlada e retorne.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/",
+  "lot": 17,
+  "equipment": "Banco reto e barra W",
+  "url": "",
+  "motion": "e411",
+  "animation": "assets/exercises/e411.gif",
+  "animation_alt": "Demonstração em loop de Pullover no Banco com Barra W",
+  "source_sheet": "production/sprites/e411.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/"
+  ]
+}

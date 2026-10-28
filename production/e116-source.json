@@ -1,0 +1,15 @@
+{
+  "id": "e116",
+  "name": "Tríceps coice unilateral no cross",
+  "group": "Braços",
+  "muscles": "Tríceps",
+  "movement": "Single-arm cable triceps kickback, bent-over torso, upper arm held beside body, extend elbow backward then return.",
+  "cue": "Incline o tronco e estabilize o braço junto ao corpo. Estenda o cotovelo para trás contra o cabo e retorne.",
+  "level": "Intermediário",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Single-arm cable triceps kickback, bent-over torso, upper arm held beside body, extend elbow backward then return.",
+  "mandatory": true,
+  "source_image": "/workspace/scratch/40fe464c14fa/generated_images/exec-3f029b3a-686f-4307-b788-5902ad2b57de.png",
+  "generator": "image_gen built-in",
+  "references": [],
+  "review_status": "Revisão visual de quadros: equipamento, enquadramento e sequência; não equivale a validação biomecânica profissional."
+}

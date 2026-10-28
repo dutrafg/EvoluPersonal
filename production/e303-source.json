@@ -1,0 +1,14 @@
+{
+  "id": "e303",
+  "name": "Supino com pausa no peito",
+  "group": "Peito",
+  "muscles": "Peitoral e tríceps",
+  "movement": "Paused barbell bench press; lower bar to chest, pause briefly without relaxing, press upward.",
+  "cue": "Desça a barra até o peito, faça uma pausa breve sem relaxar o tronco e empurre para cima.",
+  "level": "Intermediário",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/paused-bench-press/",
+  "source_sheet": "production/sprites/e303.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

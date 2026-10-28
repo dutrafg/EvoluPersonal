@@ -1,0 +1,14 @@
+{
+  "id": "e313",
+  "name": "Leg press com pés baixos e próximos",
+  "group": "Pernas",
+  "muscles": "Quadríceps",
+  "movement": "Leg press with feet low and close on platform; lower under control, press without locking knees.",
+  "cue": "Posicione os pés mais baixos e próximos na plataforma. Desça sem tirar o quadril do encosto e empurre sem travar os joelhos.",
+  "level": "Intermediário",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/leg-press/",
+  "source_sheet": "production/sprites/e313.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

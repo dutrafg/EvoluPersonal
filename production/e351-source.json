@@ -1,0 +1,14 @@
+{
+  "id": "e351",
+  "name": "Agachamento goblet com kettlebell",
+  "group": "Pernas",
+  "muscles": "Quadríceps e glúteos",
+  "movement": "Squat using the named stance or equipment, bending hips and knees and standing back up.",
+  "cue": "Segure o kettlebell junto ao peito. Agache levando o quadril para trás e para baixo, mantendo os calcanhares apoiados; retorne com controle.",
+  "level": "Intermediário",
+  "priority": "principal ou variação complementar de grupo muscular",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "source_sheet": "production/sprites/e351.png",
+  "illustration": "Original 6-pose sprite sheet converted to looping GIF",
+  "generator": "OpenAI image generation"
+}

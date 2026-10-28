@@ -1,0 +1,17 @@
+{
+  "id": "e298",
+  "name": "Encolhimento Kelso no banco inclinado",
+  "group": "Costas",
+  "muscles": "Romboides e trapézio médio",
+  "movement": "Kelso shrug chest-supported; retract shoulder blades without bending elbows, release under control.",
+  "cue": "Apoie o peito no banco inclinado e deixe os braços estendidos. Aproxime as escápulas sem flexionar os cotovelos.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Kelso shrug chest-supported; retract shoulder blades without bending elbows, release under control.",
+  "reference": "https://www.strengthlog.com/kelso-shrug/",
+  "source_image": "production/sprites/e298.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/kelso-shrug/"
+  ]
+}

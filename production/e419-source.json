@@ -1,0 +1,24 @@
+{
+  "id": "e419",
+  "list_id": 90,
+  "name": "Remada Sentado na Máquina (Pegada Pronada Aberta - Foco Upper Back)",
+  "group": "Costas",
+  "muscles": "Latíssimo do dorso, romboides, trapézio e bíceps",
+  "movement": "Seated rowing machine with wide pronated horizontal handles and chest supported against fixed pad. Pull elbows outward to retract shoulder blades, then extend arms, keeping torso on support.",
+  "cue": "Apoie o peito no encosto da máquina e segure os pegadores em pronação aberta. Puxe com os cotovelos afastados e aproxime as escápulas, mantendo o peito apoiado.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "lot": 17,
+  "equipment": "Máquina de remada com apoio peitoral",
+  "url": "",
+  "motion": "e419",
+  "animation": "assets/exercises/e419.gif",
+  "animation_alt": "Demonstração em loop de Remada Sentado na Máquina (Pegada Pronada Aberta - Foco Upper Back)",
+  "source_sheet": "production/sprites/e419.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

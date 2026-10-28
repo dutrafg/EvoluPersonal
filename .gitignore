@@ -1,0 +1,6 @@
+backup-staging/
+production/lote17-generated-paths.json
+production/lote17-corrections.json
+production/lote17-plan-anterior.json
+production/sprites/.*.png.*
+__pycache__/

@@ -1,0 +1,24 @@
+{
+  "id": "e408",
+  "list_id": 27,
+  "name": "Supino Reto Unilateral com Halter",
+  "group": "Peito",
+  "muscles": "Peitoral maior, deltoide anterior e tríceps",
+  "movement": "Single-arm dumbbell flat bench press. Only right hand holds one dumbbell, left palm rests on abdomen. Both feet planted, torso remains flat and stable, right elbow bends and extends.",
+  "cue": "Deite no banco reto com um halter em uma mão. Mantenha os dois pés firmes e o tronco sem girar; desça o peso ao lado do peito e empurre. Repita do outro lado.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/",
+  "lot": 17,
+  "equipment": "Banco reto e um halter",
+  "url": "",
+  "motion": "e408",
+  "animation": "assets/exercises/e408.gif",
+  "animation_alt": "Demonstração em loop de Supino Reto Unilateral com Halter",
+  "source_sheet": "production/sprites/e408.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/"
+  ]
+}

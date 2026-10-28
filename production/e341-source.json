@@ -1,0 +1,14 @@
+{
+  "id": "e341",
+  "name": "Rosca de punho com barra atrás do corpo",
+  "group": "Braços",
+  "muscles": "Flexores do antebraço",
+  "movement": "Curl the named implement by bending the elbows, then lower slowly.",
+  "cue": "Apoie os antebraços e mova apenas os punhos contra a resistência. Flexione ou estenda conforme a pegada e retorne lentamente.",
+  "level": "Intermediário",
+  "priority": "principal ou variação complementar de grupo muscular",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "source_sheet": "production/sprites/e341.png",
+  "illustration": "Original 6-pose sprite sheet converted to looping GIF",
+  "generator": "OpenAI image generation"
+}

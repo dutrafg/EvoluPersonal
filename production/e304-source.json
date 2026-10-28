@@ -1,0 +1,14 @@
+{
+  "id": "e304",
+  "name": "Voador na máquina com antebraços apoiados",
+  "group": "Peito",
+  "muscles": "Peitoral",
+  "movement": "Pec deck with forearms on pads; bring elbows together in front of chest, return slowly.",
+  "cue": "Apoie os antebraços nas almofadas. Aproxime os cotovelos à frente do peito e retorne sem soltar o controle.",
+  "level": "Iniciante",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/pec-deck/",
+  "source_sheet": "production/sprites/e304.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

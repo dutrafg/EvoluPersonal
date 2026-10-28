@@ -1,0 +1,17 @@
+{
+  "id": "e110",
+  "name": "Crucifixo inverso na máquina",
+  "group": "Ombros",
+  "muscles": "Deltoide posterior e parte alta das costas",
+  "movement": "Reverse pec deck rear delt fly; seated facing chest pad, open arms horizontally then return forward.",
+  "cue": "Sente de frente para o apoio. Abra os braços lateralmente com cotovelos suaves e retorne controlando.",
+  "level": "Intermediário",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Reverse pec deck rear delt fly; seated facing chest pad, open arms horizontally then return forward.",
+  "mandatory": true,
+  "source_image": "/workspace/scratch/40fe464c14fa/generated_images/exec-7b643dc5-cd5f-40a5-9026-05cf12b13731.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/reverse-machine-fly/"
+  ],
+  "review_status": "Revisão visual de quadros: equipamento, enquadramento e sequência; não equivale a validação biomecânica profissional."
+}

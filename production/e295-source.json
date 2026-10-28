@@ -1,0 +1,17 @@
+{
+  "id": "e295",
+  "name": "Meio levantamento terra no rack",
+  "group": "Costas",
+  "muscles": "Eretores da coluna, glúteos e trapézio",
+  "movement": "Rack pull; bar starts on safety pins below knees, brace, extend hips and knees to stand, lower to pins.",
+  "cue": "A barra começa apoiada nos pinos, abaixo dos joelhos. Trave o abdômen, fique em pé e devolva a barra aos pinos.",
+  "level": "Avançado",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Rack pull; bar starts on safety pins below knees, brace, extend hips and knees to stand, lower to pins.",
+  "reference": "https://www.strengthlog.com/rack-pull/",
+  "source_image": "production/sprites/e295.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/rack-pull/"
+  ]
+}

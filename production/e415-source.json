@@ -1,0 +1,24 @@
+{
+  "id": "e415",
+  "list_id": 79,
+  "name": "Barra Fixa com Elástico de Assistência",
+  "group": "Costas",
+  "muscles": "Latíssimo do dorso, romboides, trapézio e bíceps",
+  "movement": "Band-assisted pronated pull-up. Elastic band looped over fixed high bar with one knee resting in lower loop. Both hands grip bar, flex elbows pulling chin to bar, lower with body aligned. Band remains visible and tensioned.",
+  "cue": "Prenda o elástico à barra fixa e apoie um joelho na alça. Segure a barra em pronação, eleve o corpo sem balanço e desça controlando a ajuda do elástico.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "lot": 17,
+  "equipment": "Barra fixa e elástico",
+  "url": "",
+  "motion": "e415",
+  "animation": "assets/exercises/e415.gif",
+  "animation_alt": "Demonstração em loop de Barra Fixa com Elástico de Assistência",
+  "source_sheet": "production/sprites/e415.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

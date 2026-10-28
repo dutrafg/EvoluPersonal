@@ -1,0 +1,17 @@
+{
+  "id": "e266",
+  "name": "Elevação lateral inclinada na polia baixa",
+  "group": "Ombros",
+  "muscles": "Deltoide lateral",
+  "movement": "Lean-away single-arm cable lateral raise; raise arm out to shoulder height and lower.",
+  "cue": "Segure a polia baixa e incline-se levemente para o lado oposto. Eleve o braço até a altura do ombro.",
+  "level": "Intermediário",
+  "priority": "base/principal por grupo muscular",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Lean-away single-arm cable lateral raise; raise arm out to shoulder height and lower.",
+  "reference": "https://www.strengthlog.com/cable-lateral-raise/",
+  "source_image": "production/sprites/e266.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/cable-lateral-raise/"
+  ]
+}

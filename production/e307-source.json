@@ -1,0 +1,14 @@
+{
+  "id": "e307",
+  "name": "Barra fixa com carga adicional",
+  "group": "Costas",
+  "muscles": "Grande dorsal e bíceps",
+  "movement": "Weighted pull-up with dip belt; start from dead hang, pull until chin clears bar, lower with control.",
+  "cue": "Use cinto de carga bem ajustado. Puxe até o queixo passar da barra e desça sem perder o controle.",
+  "level": "Avançado",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/weighted-pull-up/",
+  "source_sheet": "production/sprites/e307.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

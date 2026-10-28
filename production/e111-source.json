@@ -1,0 +1,17 @@
+{
+  "id": "e111",
+  "name": "Rosca direta na polia",
+  "group": "Braços",
+  "muscles": "Bíceps",
+  "movement": "Standing low cable straight-bar biceps curl, elbows tucked, curl bar toward shoulders then lower.",
+  "cue": "Segure a barra da polia baixa. Flexione os cotovelos sem mover o tronco e desça devagar.",
+  "level": "Intermediário",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Standing low cable straight-bar biceps curl, elbows tucked, curl bar toward shoulders then lower.",
+  "mandatory": true,
+  "source_image": "/workspace/scratch/40fe464c14fa/generated_images/exec-cc1494c4-3354-4ca9-a94b-36a088ef57b7.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/cable-curl-with-bar/"
+  ],
+  "review_status": "Revisão visual de quadros: equipamento, enquadramento e sequência; não equivale a validação biomecânica profissional."
+}

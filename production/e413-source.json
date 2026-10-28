@@ -1,0 +1,24 @@
+{
+  "id": "e413",
+  "list_id": 73,
+  "name": "Puxada Alta com Barra Romana (Pegada Neutra Média)",
+  "group": "Costas",
+  "muscles": "Latíssimo do dorso, romboides, trapézio e bíceps",
+  "movement": "Seated lat pulldown using medium-width Roman multi-grip bar with clearly visible parallel neutral handles. Thighs secured under pad, pull handle to upper chest keeping torso upright, then extend arms under control.",
+  "cue": "Apoie as coxas sob as almofadas e segure as alças paralelas da barra romana. Puxe em direção à parte superior do peito mantendo o tronco firme e retorne devagar.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "lot": 17,
+  "equipment": "Polia alta e barra romana",
+  "url": "",
+  "motion": "e413",
+  "animation": "assets/exercises/e413.gif",
+  "animation_alt": "Demonstração em loop de Puxada Alta com Barra Romana (Pegada Neutra Média)",
+  "source_sheet": "production/sprites/e413.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

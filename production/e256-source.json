@@ -1,0 +1,17 @@
+{
+  "id": "e256",
+  "name": "Puxada neutra na polia alta",
+  "group": "Costas",
+  "muscles": "Grande dorsal e bíceps",
+  "movement": "Neutral-grip lat pulldown with parallel handles; pull handles toward upper chest and return overhead.",
+  "cue": "Segure as manoplas paralelas. Puxe em direção à parte alta do peito, mantendo o tronco estável; retorne devagar.",
+  "level": "Iniciante",
+  "priority": "base/principal por grupo muscular",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Neutral-grip lat pulldown with parallel handles; pull handles toward upper chest and return overhead.",
+  "reference": "https://www.strengthlog.com/lat-pulldown/",
+  "source_image": "production/sprites/e256.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/lat-pulldown/"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "e257",
+  "name": "Pullover com barra na polia alta",
+  "group": "Costas",
+  "muscles": "Grande dorsal",
+  "movement": "Standing cable pullover with straight bar; sweep bar from overhead to thighs with elbows softly bent.",
+  "cue": "Com a barra e os braços quase estendidos, leve-a de cima até as coxas sem balançar o tronco.",
+  "level": "Intermediário",
+  "priority": "base/principal por grupo muscular",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Standing cable pullover with straight bar; sweep bar from overhead to thighs with elbows softly bent.",
+  "reference": "https://www.strengthlog.com/cable-pullover/",
+  "source_image": "production/sprites/e257.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/cable-pullover/"
+  ]
+}

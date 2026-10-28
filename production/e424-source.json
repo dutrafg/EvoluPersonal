@@ -1,0 +1,24 @@
+{
+  "id": "e424",
+  "list_id": 105,
+  "name": "Remada Gorila com Kettlebells (Gorilla Row)",
+  "group": "Costas",
+  "muscles": "Latíssimo do dorso, romboides, trapézio e bíceps",
+  "movement": "Gorilla row with two kettlebells on floor between spread feet. Hip hinge and neutral spine, flex knees slightly, pull right kettlebell toward hip while left hand supports on left kettlebell still on floor; lower right, then alternate left. No torso twisting.",
+  "cue": "Afaste os pés e incline o tronco com coluna estável. Apoie uma mão no kettlebell que permanece no chão e reme o outro em direção ao quadril; desça e alterne os lados sem girar o corpo.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "lot": 17,
+  "equipment": "Dois kettlebells",
+  "url": "",
+  "motion": "e424",
+  "animation": "assets/exercises/e424.gif",
+  "animation_alt": "Demonstração em loop de Remada Gorila com Kettlebells (Gorilla Row)",
+  "source_sheet": "production/sprites/e424.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

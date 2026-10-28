@@ -1,0 +1,14 @@
+{
+  "id": "e358",
+  "name": "Afundo lateral com halteres",
+  "group": "Pernas",
+  "muscles": "Glúteos, adutores e quadríceps",
+  "movement": "Perform Afundo lateral com halteres with a controlled, anatomically accurate range of motion, pause briefly at the endpoint, then return to the starting position.",
+  "cue": "Segure o halter junto ao peito. Afaste uma perna para o lado, leve o quadril para trás sobre essa perna e mantenha a outra estendida; empurre o chão para voltar.",
+  "level": "Intermediário",
+  "priority": "principal ou variação complementar de grupo muscular",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "source_sheet": "production/sprites/e358.png",
+  "illustration": "Original 6-pose sprite sheet converted to looping GIF",
+  "generator": "OpenAI image generation"
+}

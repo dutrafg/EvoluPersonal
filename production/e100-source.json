@@ -1,0 +1,15 @@
+{
+  "id": "e100",
+  "name": "Supino inclinado articulado",
+  "group": "Peito",
+  "muscles": "Peitoral superior e tríceps",
+  "movement": "Incline plate-loaded machine chest press, seated with back supported, press handles forward and up then return.",
+  "cue": "Ajuste o banco e mantenha as costas apoiadas. Empurre os pegadores à frente e acima, retornando com controle.",
+  "level": "Intermediário",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Incline plate-loaded machine chest press, seated with back supported, press handles forward and up then return.",
+  "mandatory": true,
+  "source_image": "/workspace/scratch/40fe464c14fa/generated_images/exec-fe5d5e3e-787d-43e8-bc28-2c1a3e08dfc2.png",
+  "generator": "image_gen built-in",
+  "status": "frames generated; recovered after interruption",
+  "review_status": "Revisão visual de quadros: equipamento, enquadramento e sequência; não equivale a validação biomecânica profissional."
+}

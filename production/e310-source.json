@@ -1,0 +1,14 @@
+{
+  "id": "e310",
+  "name": "Agachamento ciclista com calcanhares elevados",
+  "group": "Pernas",
+  "muscles": "Quadríceps",
+  "movement": "Cyclist squat; narrow stance with heels elevated, squat deeply while keeping torso upright, rise.",
+  "cue": "Aproxime os pés e eleve os calcanhares em uma cunha estável. Flexione os joelhos com o tronco ereto e suba.",
+  "level": "Intermediário",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/cyclist-squat/",
+  "source_sheet": "production/sprites/e310.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

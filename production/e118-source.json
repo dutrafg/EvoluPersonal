@@ -1,0 +1,18 @@
+{
+  "id": "e118",
+  "name": "Agachamento frontal com barra",
+  "group": "Pernas",
+  "muscles": "Quadríceps e glúteos",
+  "movement": "Barbell front squat, bar on front shoulders, elbows raised, squat then stand.",
+  "cue": "Apoie a barra à frente dos ombros. Mantenha os cotovelos elevados e agache com controle.",
+  "level": "Intermediário",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Barbell front squat, bar on front shoulders, elbows raised, squat then stand.",
+  "mandatory": false,
+  "priority": "básico/principal",
+  "source_image": "/workspace/scratch/40fe464c14fa/generated_images/exec-97579b96-0e66-40e5-934a-a750a6d10203.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/front-squat/"
+  ],
+  "review_status": "Revisão visual de quadros: equipamento, enquadramento e sequência; não equivale a validação biomecânica profissional."
+}

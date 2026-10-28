@@ -1,0 +1,24 @@
+{
+  "id": "e412",
+  "list_id": 60,
+  "name": "Flexão Pliométrica (Com palma)",
+  "group": "Peito",
+  "muscles": "Peitoral maior, deltoide anterior e tríceps",
+  "movement": "Clap push-up on floor. Side three-quarter view: straight plank, lower chest with elbows flexing, press explosively until both hands leave floor briefly, clap once beneath chest, hands separate, land softly bending elbows, return stable plank. Feet stay in same place.",
+  "cue": "Alinhe o corpo em prancha, desça o peito e empurre de forma explosiva. Bata uma palma com as mãos fora do solo e aterrisse amortecendo com os cotovelos, sem perder o alinhamento.",
+  "level": "Avançado",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/",
+  "lot": 17,
+  "equipment": "Peso corporal",
+  "url": "",
+  "motion": "e412",
+  "animation": "assets/exercises/e412.gif",
+  "animation_alt": "Demonstração em loop de Flexão Pliométrica (Com palma)",
+  "source_sheet": "production/sprites/e412.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/"
+  ]
+}

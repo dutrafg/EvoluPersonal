@@ -1,0 +1,14 @@
+{
+  "id": "e317",
+  "name": "Agachamento skater unilateral",
+  "group": "Pernas",
+  "muscles": "Quadríceps e glúteos",
+  "movement": "Skater squat; balance on one leg, bend knee to lower rear knee toward floor without support, stand.",
+  "cue": "Equilibre-se em uma perna e flexione o joelho levando o outro em direção ao chão, sem apoiar; suba.",
+  "level": "Avançado",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/skater-squat/",
+  "source_sheet": "production/sprites/e317.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

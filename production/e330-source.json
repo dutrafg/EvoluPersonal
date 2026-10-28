@@ -1,0 +1,14 @@
+{
+  "id": "e330",
+  "name": "Pulldown com braços retos e corda",
+  "group": "Costas",
+  "muscles": "Grande dorsal",
+  "movement": "Pull the cable toward the hips or chest using the back, arms mostly straight if specified.",
+  "cue": "Estabilize o tronco e inicie o movimento deprimindo as escápulas. Puxe a barra ou o pegador em direção à parte alta do peito, sem balançar; retorne com controle.",
+  "level": "Intermediário",
+  "priority": "principal ou variação complementar de grupo muscular",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "source_sheet": "production/sprites/e330.png",
+  "illustration": "Original 6-pose sprite sheet converted to looping GIF",
+  "generator": "OpenAI image generation"
+}

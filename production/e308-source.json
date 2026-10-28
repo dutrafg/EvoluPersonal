@@ -1,0 +1,14 @@
+{
+  "id": "e308",
+  "name": "Encolhimento de ombros na máquina",
+  "group": "Ombros",
+  "muscles": "Trapézio superior",
+  "movement": "Machine shrug; hold handles with arms straight, elevate shoulders toward ears, lower slowly.",
+  "cue": "Segure as manoplas com braços estendidos. Eleve os ombros em direção às orelhas e abaixe lentamente.",
+  "level": "Iniciante",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/shrugs/",
+  "source_sheet": "production/sprites/e308.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

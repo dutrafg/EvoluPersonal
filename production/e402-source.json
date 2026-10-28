@@ -1,0 +1,24 @@
+{
+  "id": "e402",
+  "list_id": 16,
+  "name": "Supino Reto na Máquina (Deitado / Horizontal)",
+  "group": "Peito",
+  "muscles": "Peitoral maior, deltoide anterior e tríceps",
+  "movement": "Lying flat on a horizontal machine chest-press bench, feet firmly planted. Machine handles above mid-chest follow a fixed vertical pressing path; flex and extend elbows. No barbell, no free dumbbells.",
+  "cue": "Deite no banco horizontal do aparelho e apoie os pés. Empurre os pegadores acima do peito e retorne devagar, mantendo as costas apoiadas.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/",
+  "lot": 17,
+  "equipment": "Máquina de supino horizontal",
+  "url": "",
+  "motion": "e402",
+  "animation": "assets/exercises/e402.gif",
+  "animation_alt": "Demonstração em loop de Supino Reto na Máquina (Deitado / Horizontal)",
+  "source_sheet": "production/sprites/e402.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/"
+  ]
+}

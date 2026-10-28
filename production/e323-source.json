@@ -1,0 +1,14 @@
+{
+  "id": "e323",
+  "name": "Bom dia sentado com barra",
+  "group": "Pernas",
+  "muscles": "Posteriores da coxa e eretores da coluna",
+  "movement": "Seated good morning; sit with bar across upper back, hinge torso forward with neutral spine and return upright.",
+  "cue": "Sente-se com a barra apoiada na parte alta das costas. Incline o tronco pelo quadril mantendo a coluna neutra e volte.",
+  "level": "Avançado",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/good-morning/",
+  "source_sheet": "production/sprites/e323.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

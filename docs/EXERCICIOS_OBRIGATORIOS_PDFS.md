@@ -71,3 +71,8 @@ Os itens sem equipamento especificado estão cobertos pela variante disponível,
 | Stiff | Natural — Lower | Falta definir equipamento e execução desejada. Há terra romeno com halteres e16 e stiff unilateral e81; não marcar como stiff bilateral específico sem definir. |
 | Supino voador na máquina | Letícia — B | Nome combina supino e voador: pode indicar chest press ou pec deck. Não fundir automaticamente com voador. |
 | Elevação unilateral de ombro | Letícia — B | Falta definir direção lateral/frontal, equipamento e posição. |
+
+
+## Atualização — lote 5
+
+Os 17 movimentos novos obrigatórios foram integrados em e100–e116, com GIFs ilustrados originais. Voador usa pegadores; remada articulada usa estabilização do tronco. As cinco descrições ambíguas continuam pendentes de definição. Catálogo total:125 exercícios.

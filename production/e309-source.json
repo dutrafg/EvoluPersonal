@@ -1,0 +1,14 @@
+{
+  "id": "e309",
+  "name": "Agachamento Zercher",
+  "group": "Pernas",
+  "muscles": "Quadríceps, glúteos e core",
+  "movement": "Zercher squat; bar supported in elbow creases, squat with upright torso, stand.",
+  "cue": "Apoie a barra nas dobras dos cotovelos. Agache com o tronco firme e retorne à posição em pé.",
+  "level": "Avançado",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/zercher-squat/",
+  "source_sheet": "production/sprites/e309.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

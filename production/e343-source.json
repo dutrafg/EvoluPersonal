@@ -1,0 +1,14 @@
+{
+  "id": "e343",
+  "name": "Extensão de punhos com barra",
+  "group": "Braços",
+  "muscles": "Extensores do antebraço",
+  "movement": "Perform Extensão de punhos com barra with a controlled, anatomically accurate range of motion, pause briefly at the endpoint, then return to the starting position.",
+  "cue": "Mantenha o tronco estável e faça a trajetória do exercício com controle. Use amplitude confortável, evite impulsos e retorne lentamente à posição inicial.",
+  "level": "Intermediário",
+  "priority": "principal ou variação complementar de grupo muscular",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "source_sheet": "production/sprites/e343.png",
+  "illustration": "Original 6-pose sprite sheet converted to looping GIF",
+  "generator": "OpenAI image generation"
+}

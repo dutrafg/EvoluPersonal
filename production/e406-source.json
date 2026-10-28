@@ -1,0 +1,24 @@
+{
+  "id": "e406",
+  "list_id": 21,
+  "name": "Supino Inclinado a 30 Graus com Halteres",
+  "group": "Peito",
+  "muscles": "Peitoral maior, deltoide anterior e tríceps",
+  "movement": "Dumbbell incline press on visibly 30-degree incline bench. Pronated grip, feet planted, weights move from upper chest sides upward over shoulders. Bench angle fixed at 30 degrees.",
+  "cue": "Ajuste o banco em 30 graus. Com pés firmes e pegada pronada, desça os halteres ao lado da parte superior do peito e empurre sem elevar os ombros.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/",
+  "lot": 17,
+  "equipment": "Banco a 30 graus e halteres",
+  "url": "",
+  "motion": "e406",
+  "animation": "assets/exercises/e406.gif",
+  "animation_alt": "Demonstração em loop de Supino Inclinado a 30 Graus com Halteres",
+  "source_sheet": "production/sprites/e406.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/"
+  ]
+}

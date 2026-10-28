@@ -1,0 +1,24 @@
+{
+  "id": "e416",
+  "list_id": 81,
+  "name": "Barra Fixa no Triângulo (Sternum Chin-up)",
+  "group": "Costas",
+  "muscles": "Latíssimo do dorso, romboides, trapézio e bíceps",
+  "movement": "Sternum chin-up using a V triangle handle looped over fixed horizontal pull-up bar. Both hands on triangle close neutral grips; lean torso back while pulling lower chest toward handle; controlled return with feet off floor.",
+  "cue": "Prenda o triângulo à barra fixa e segure as alças com palmas entre si. Mantendo os pés suspensos, incline levemente o tronco para trás e aproxime o esterno do pegador; desça controlando.",
+  "level": "Avançado",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "lot": 17,
+  "equipment": "Barra fixa e triângulo",
+  "url": "",
+  "motion": "e416",
+  "animation": "assets/exercises/e416.gif",
+  "animation_alt": "Demonstração em loop de Barra Fixa no Triângulo (Sternum Chin-up)",
+  "source_sheet": "production/sprites/e416.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

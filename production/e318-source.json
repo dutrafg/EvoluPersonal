@@ -1,0 +1,14 @@
+{
+  "id": "e318",
+  "name": "Cadeira extensora com tronco reclinado",
+  "group": "Pernas",
+  "muscles": "Quadríceps, com ênfase no reto femoral",
+  "movement": "Reclined leg extension machine; lean back against adjusted pad, extend knees and lower slowly.",
+  "cue": "Ajuste o encosto mais reclinado e alinhe o eixo ao joelho. Estenda as pernas e retorne devagar.",
+  "level": "Intermediário",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/leg-extension/",
+  "source_sheet": "production/sprites/e318.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "e291",
+  "name": "Flexão de braços nas argolas",
+  "group": "Peito",
+  "muscles": "Peitoral, tríceps e estabilizadores",
+  "movement": "Ring push-up; hands on stable rings, lower chest between rings, press while controlling ring wobble.",
+  "cue": "Apoie as mãos nas argolas. Desça o peito entre elas mantendo o corpo alinhado e controle a instabilidade.",
+  "level": "Avançado",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Ring push-up; hands on stable rings, lower chest between rings, press while controlling ring wobble.",
+  "reference": "https://www.strengthlog.com/ring-push-up/",
+  "source_image": "production/sprites/e291.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/ring-push-up/"
+  ]
+}

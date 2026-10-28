@@ -1,0 +1,24 @@
+{
+  "id": "e421",
+  "list_id": 95,
+  "name": "Remada no Banco Inclinado com Barra",
+  "group": "Costas",
+  "muscles": "Latíssimo do dorso, romboides, trapézio e bíceps",
+  "movement": "Chest-supported incline bench barbell row. Face down on 30-degree elevated incline bench, feet planted. Hold straight bar with pronated grip below bench, pull bar toward lower chest with elbow flexion then lower. Bar never intersects bench.",
+  "cue": "Apoie o peito no banco inclinado com os pés firmes e espaço livre para a barra. Puxe a barra em direção à parte inferior do peito e estenda os braços sem tirar o tronco do apoio.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "lot": 17,
+  "equipment": "Banco inclinado e barra",
+  "url": "",
+  "motion": "e421",
+  "animation": "assets/exercises/e421.gif",
+  "animation_alt": "Demonstração em loop de Remada no Banco Inclinado com Barra",
+  "source_sheet": "production/sprites/e421.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

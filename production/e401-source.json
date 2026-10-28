@@ -1,0 +1,24 @@
+{
+  "id": "e401",
+  "list_id": 15,
+  "name": "Supino Declinado Articulado (Convergente)",
+  "group": "Peito",
+  "muscles": "Peitoral maior, deltoide anterior e tríceps",
+  "movement": "Decline plate-loaded converging chest press machine. Reclined torso with head lower than hips, secured legs, press the two handles up and inward from lower chest level, return slowly.",
+  "cue": "Prenda os tornozelos no apoio do aparelho declinado. Mantenha cabeça e ombros abaixo do quadril e empurre os pegadores acima da parte inferior do peito, aproximando-os sem bater.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/",
+  "lot": 17,
+  "equipment": "Máquina articulada declinada",
+  "url": "",
+  "motion": "e401",
+  "animation": "assets/exercises/e401.gif",
+  "animation_alt": "Demonstração em loop de Supino Declinado Articulado (Convergente)",
+  "source_sheet": "production/sprites/e401.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "e264",
+  "name": "Abdução de quadril na máquina",
+  "group": "Pernas",
+  "muscles": "Glúteo médio e mínimo",
+  "movement": "Seated hip abduction machine; push pads outward, pause, return under control.",
+  "cue": "Sente-se com as pernas apoiadas nas almofadas. Afaste os joelhos e retorne controlando o movimento.",
+  "level": "Iniciante",
+  "priority": "base/principal por grupo muscular",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Seated hip abduction machine; push pads outward, pause, return under control.",
+  "reference": "https://www.strengthlog.com/hip-abduction-machine/",
+  "source_image": "production/sprites/e264.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/hip-abduction-machine/"
+  ]
+}

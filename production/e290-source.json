@@ -1,0 +1,17 @@
+{
+  "id": "e290",
+  "name": "Flexão de braços com sobrecarga",
+  "group": "Peito",
+  "muscles": "Peitoral, tríceps e core",
+  "movement": "Weighted push-up with securely placed vest or plate; lower body as one unit and press up.",
+  "cue": "Use colete ou anilha posicionada com segurança. Desça com o corpo alinhado e empurre o chão.",
+  "level": "Avançado",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Weighted push-up with securely placed vest or plate; lower body as one unit and press up.",
+  "reference": "https://www.strengthlog.com/weighted-push-up/",
+  "source_image": "production/sprites/e290.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/weighted-push-up/"
+  ]
+}

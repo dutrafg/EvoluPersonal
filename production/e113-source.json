@@ -1,0 +1,17 @@
+{
+  "id": "e113",
+  "name": "Puxada supinada",
+  "group": "Costas",
+  "muscles": "Grande dorsal e bíceps",
+  "movement": "Seated underhand supinated grip cable lat pulldown, palms facing exerciser, pull bar toward upper chest then return.",
+  "cue": "Segure a barra com palmas voltadas para você. Puxe à frente em direção ao peito e retorne sem embalar o corpo.",
+  "level": "Intermediário",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Seated underhand supinated grip cable lat pulldown, palms facing exerciser, pull bar toward upper chest then return.",
+  "mandatory": true,
+  "source_image": "/workspace/scratch/40fe464c14fa/generated_images/exec-8638ac55-37ee-4e32-aeb9-6ecfd9f12a2b.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/lat-pulldown-with-supinated-grip/"
+  ],
+  "review_status": "Revisão visual de quadros: equipamento, enquadramento e sequência; não equivale a validação biomecânica profissional."
+}

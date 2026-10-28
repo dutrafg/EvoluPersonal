@@ -1,0 +1,24 @@
+{
+  "id": "e414",
+  "list_id": 74,
+  "name": "Puxada Alta Articulada na Máquina (Convergente)",
+  "group": "Costas",
+  "muscles": "Latíssimo do dorso, romboides, trapézio e bíceps",
+  "movement": "Seated plate-loaded converging lat pulldown machine, two independent overhead lever arms. Thighs secured, pull neutral handles downward and inward beside upper chest, raise slowly. No cable bar.",
+  "cue": "Ajuste o apoio das coxas e segure os dois pegadores da máquina articulada. Puxe os braços do aparelho para baixo e para dentro sem balançar o tronco, depois retorne com controle.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "lot": 17,
+  "equipment": "Máquina articulada de puxada",
+  "url": "",
+  "motion": "e414",
+  "animation": "assets/exercises/e414.gif",
+  "animation_alt": "Demonstração em loop de Puxada Alta Articulada na Máquina (Convergente)",
+  "source_sheet": "production/sprites/e414.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

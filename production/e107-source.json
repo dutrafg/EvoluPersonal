@@ -1,0 +1,17 @@
+{
+  "id": "e107",
+  "name": "Puxada neutra com triângulo",
+  "group": "Costas",
+  "muscles": "Grande dorsal e bíceps",
+  "movement": "Seated close neutral grip V-handle cable lat pulldown; pull triangle handle from overhead toward upper chest and return.",
+  "cue": "Segure o triângulo com palmas voltadas entre si. Puxe em direção ao peito e retorne sem balançar o tronco.",
+  "level": "Intermediário",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Seated close neutral grip V-handle cable lat pulldown; pull triangle handle from overhead toward upper chest and return.",
+  "mandatory": true,
+  "source_image": "/workspace/scratch/40fe464c14fa/generated_images/exec-207f5811-f174-4f7d-9cfa-646c618b020e.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/lat-pulldown-types/"
+  ],
+  "review_status": "Revisão visual de quadros: equipamento, enquadramento e sequência; não equivale a validação biomecânica profissional."
+}

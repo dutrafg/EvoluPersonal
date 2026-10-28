@@ -1,0 +1,17 @@
+{
+  "id": "e292",
+  "name": "Mergulho nas paralelas com foco em peitoral",
+  "group": "Peito",
+  "muscles": "Peitoral inferior e tríceps",
+  "movement": "Chest-focused parallel-bar dip; slight forward torso lean, elbows bend, press back up without shrugging.",
+  "cue": "Incline levemente o tronco à frente. Flexione os cotovelos e empurre para subir sem elevar os ombros.",
+  "level": "Avançado",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Chest-focused parallel-bar dip; slight forward torso lean, elbows bend, press back up without shrugging.",
+  "reference": "https://www.strengthlog.com/dips/",
+  "source_image": "production/sprites/e292.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/dips/"
+  ]
+}

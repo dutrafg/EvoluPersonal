@@ -1,0 +1,17 @@
+{
+  "id": "e252",
+  "name": "Flexão arqueiro",
+  "group": "Peito",
+  "muscles": "Peitoral, tríceps e core",
+  "movement": "Archer push-up; wide hand placement, shift chest toward one bent arm while the other remains extended, alternate sides.",
+  "cue": "Afaste as mãos. Desloque o peito em direção a uma mão enquanto mantém o outro braço estendido; alterne os lados.",
+  "level": "Avançado",
+  "priority": "base/principal por grupo muscular",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Archer push-up; wide hand placement, shift chest toward one bent arm while the other remains extended, alternate sides.",
+  "reference": "https://www.strengthlog.com/archer-push-up/",
+  "source_image": "production/sprites/e252.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/archer-push-up/"
+  ]
+}

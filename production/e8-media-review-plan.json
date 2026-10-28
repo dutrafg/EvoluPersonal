@@ -1,0 +1,12 @@
+{
+  "name": "Desenvolvimento sentado com halteres — revisão de mídia",
+  "group": "Ombros",
+  "muscles": "Deltoides e tríceps",
+  "movement": "Seated dumbbell shoulder press on upright bench with back supported, raise weights from shoulders overhead then lower.",
+  "cue": "Apoie as costas no banco e pressione os halteres acima da cabeça. Retorne em uma amplitude confortável.",
+  "level": "Intermediário",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Seated dumbbell shoulder press on upright bench with back supported, raise weights from shoulders overhead then lower.",
+  "id": "e8-v2",
+  "catalog_id": "e8",
+  "counts_as_new": false
+}

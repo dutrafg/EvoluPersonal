@@ -1,0 +1,24 @@
+{
+  "id": "e422",
+  "list_id": 98,
+  "name": "Remada Unilateral no Landmine (Posição paralela)",
+  "group": "Costas",
+  "muscles": "Latíssimo do dorso, romboides, trapézio e bíceps",
+  "movement": "One-arm landmine row with body parallel to bar. Right hand grips free end of anchored bar, same-side arm rows toward hip, other hand supported on bench; feet stay planted and torso remains hinged and parallel to bar.",
+  "cue": "Fique ao lado e paralelo à barra presa no landmine. Apoie a mão livre no banco, puxe a extremidade carregada em direção ao quadril e retorne sem girar o tronco.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "lot": 17,
+  "equipment": "Landmine e banco de apoio",
+  "url": "",
+  "motion": "e422",
+  "animation": "assets/exercises/e422.gif",
+  "animation_alt": "Demonstração em loop de Remada Unilateral no Landmine (Posição paralela)",
+  "source_sheet": "production/sprites/e422.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

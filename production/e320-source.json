@@ -1,0 +1,14 @@
+{
+  "id": "e320",
+  "name": "Extensão de joelho na polia baixa",
+  "group": "Pernas",
+  "muscles": "Quadríceps",
+  "movement": "Low cable knee extension with ankle cuff; seated, extend knee against cable and return slowly.",
+  "cue": "Sentado com tornozeleira na polia baixa, estenda o joelho contra a resistência e retorne com controle.",
+  "level": "Intermediário",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/cable-leg-extension/",
+  "source_sheet": "production/sprites/e320.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

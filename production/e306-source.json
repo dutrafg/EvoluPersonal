@@ -1,0 +1,14 @@
+{
+  "id": "e306",
+  "name": "Remada Seal com barra",
+  "group": "Costas",
+  "muscles": "Grande dorsal, romboides e trapézio médio",
+  "movement": "Seal row; lie prone on elevated flat bench, row bar from floor toward underside of bench, lower.",
+  "cue": "Deite de bruços em banco elevado. Puxe a barra até a parte inferior do banco e abaixe até o chão.",
+  "level": "Avançado",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/seal-row/",
+  "source_sheet": "production/sprites/e306.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

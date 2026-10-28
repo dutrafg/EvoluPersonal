@@ -1,0 +1,17 @@
+{
+  "id": "e277",
+  "name": "Supino no chão com barra",
+  "group": "Peito",
+  "muscles": "Peitoral e tríceps",
+  "movement": "Barbell floor press; lie on floor, lower until upper arms gently touch floor, pause and press.",
+  "cue": "Deite no chão com joelhos flexionados. Desça a barra até os braços tocarem suavemente o solo e empurre.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Barbell floor press; lie on floor, lower until upper arms gently touch floor, pause and press.",
+  "reference": "https://www.strengthlog.com/floor-press/",
+  "source_image": "production/sprites/e277.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/floor-press/"
+  ]
+}

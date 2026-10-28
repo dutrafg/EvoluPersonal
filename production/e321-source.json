@@ -1,0 +1,14 @@
+{
+  "id": "e321",
+  "name": "Empurrada de trenó",
+  "group": "Pernas",
+  "muscles": "Quadríceps, glúteos e panturrilhas",
+  "movement": "Sled push; lean into high handles and drive sled forward with short powerful steps, maintain neutral trunk.",
+  "cue": "Incline-se nas alças do trenó e empurre com passos curtos e firmes, mantendo o tronco alinhado.",
+  "level": "Intermediário",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/sled-push/",
+  "source_sheet": "production/sprites/e321.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

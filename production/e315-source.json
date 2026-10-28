@@ -1,0 +1,14 @@
+{
+  "id": "e315",
+  "name": "Descida controlada do step",
+  "group": "Pernas",
+  "muscles": "Quadríceps e glúteo médio",
+  "movement": "Step-down; stand on low step, lower free heel toward floor by bending stance knee, return.",
+  "cue": "Fique em um step baixo. Flexione o joelho de apoio para aproximar o outro calcanhar do chão e volte com controle.",
+  "level": "Iniciante",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/step-up/",
+  "source_sheet": "production/sprites/e315.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

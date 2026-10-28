@@ -1,0 +1,17 @@
+{
+  "id": "e278",
+  "name": "Supino no chão com halteres",
+  "group": "Peito",
+  "muscles": "Peitoral e tríceps",
+  "movement": "Dumbbell floor press; neutral or pronated grip, lower elbows to floor and press upward.",
+  "cue": "Com um halter em cada mão, desça até os braços tocarem o chão e empurre sem bater os cotovelos.",
+  "level": "Iniciante",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Dumbbell floor press; neutral or pronated grip, lower elbows to floor and press upward.",
+  "reference": "https://www.strengthlog.com/dumbbell-floor-press/",
+  "source_image": "production/sprites/e278.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/dumbbell-floor-press/"
+  ]
+}

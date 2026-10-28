@@ -1,0 +1,14 @@
+{
+  "id": "e312",
+  "name": "Agachamento frontal com dois kettlebells",
+  "group": "Pernas",
+  "muscles": "Quadríceps, glúteos e core",
+  "movement": "Double kettlebell front squat; hold bells in front rack, squat between hips and stand.",
+  "cue": "Segure um kettlebell em cada posição frontal. Agache entre os quadris mantendo o tronco firme e suba.",
+  "level": "Avançado",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/kettlebell-squat/",
+  "source_sheet": "production/sprites/e312.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

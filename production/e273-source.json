@@ -1,0 +1,17 @@
+{
+  "id": "e273",
+  "name": "Abdominal reverso no banco",
+  "group": "Core",
+  "muscles": "Reto abdominal",
+  "movement": "Bench reverse crunch; knees bent, curl pelvis toward ribs lifting hips slightly, lower slowly.",
+  "cue": "Deite no banco com joelhos flexionados. Enrole a pelve em direção às costelas, elevando levemente o quadril.",
+  "level": "Iniciante",
+  "priority": "base/principal por grupo muscular",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Bench reverse crunch; knees bent, curl pelvis toward ribs lifting hips slightly, lower slowly.",
+  "reference": "https://www.strengthlog.com/reverse-crunch/",
+  "source_image": "production/sprites/e273.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/reverse-crunch/"
+  ]
+}

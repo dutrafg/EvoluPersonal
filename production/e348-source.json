@@ -1,0 +1,14 @@
+{
+  "id": "e348",
+  "name": "Extensão de dedos com elástico",
+  "group": "Braços",
+  "muscles": "Extensores dos dedos e antebraço",
+  "movement": "Perform Extensão de dedos com elástico with a controlled, anatomically accurate range of motion, pause briefly at the endpoint, then return to the starting position.",
+  "cue": "Mantenha o tronco estável e faça a trajetória do exercício com controle. Use amplitude confortável, evite impulsos e retorne lentamente à posição inicial.",
+  "level": "Intermediário",
+  "priority": "principal ou variação complementar de grupo muscular",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "source_sheet": "production/sprites/e348.png",
+  "illustration": "Original 6-pose sprite sheet converted to looping GIF",
+  "generator": "OpenAI image generation"
+}

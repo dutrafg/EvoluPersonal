@@ -1,0 +1,15 @@
+{
+  "id": "e103",
+  "name": "Tríceps corda na polia",
+  "group": "Braços",
+  "muscles": "Tríceps",
+  "movement": "Rope cable triceps pushdown, elbows tucked, extend arms downward separating rope ends slightly then return.",
+  "cue": "Mantenha os cotovelos junto ao tronco. Estenda os braços levando as pontas da corda para baixo e retorne devagar.",
+  "level": "Intermediário",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Rope cable triceps pushdown, elbows tucked, extend arms downward separating rope ends slightly then return.",
+  "mandatory": true,
+  "source_image": "/workspace/scratch/40fe464c14fa/generated_images/exec-5e7f6d32-de13-45da-aab3-d069bb36f74b.png",
+  "generator": "image_gen built-in",
+  "status": "frames generated",
+  "review_status": "Revisão visual de quadros: equipamento, enquadramento e sequência; não equivale a validação biomecânica profissional."
+}

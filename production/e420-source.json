@@ -1,0 +1,24 @@
+{
+  "id": "e420",
+  "list_id": 92,
+  "name": "Remada Curvada no Smith",
+  "group": "Costas",
+  "muscles": "Latíssimo do dorso, romboides, trapézio e bíceps",
+  "movement": "Bent-over row on Smith machine. Bar constrained to vertical rails. Pronated grip, hip hinge, neutral back, knees slightly bent, pull bar toward abdomen then lower without moving torso. Rails and feet fixed.",
+  "cue": "Incline o tronco a partir do quadril, com joelhos levemente flexionados. Segure a barra do Smith em pronação e puxe ao abdômen sem mudar a posição das costas; desça na guia.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "lot": 17,
+  "equipment": "Smith",
+  "url": "",
+  "motion": "e420",
+  "animation": "assets/exercises/e420.gif",
+  "animation_alt": "Demonstração em loop de Remada Curvada no Smith",
+  "source_sheet": "production/sprites/e420.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

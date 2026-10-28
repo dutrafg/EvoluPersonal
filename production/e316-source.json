@@ -1,0 +1,14 @@
+{
+  "id": "e316",
+  "name": "Poliquin step-up com calcanhares elevados",
+  "group": "Pernas",
+  "muscles": "Quadríceps",
+  "movement": "Poliquin step-up; heels elevated on a slant board, step onto low platform and descend slowly.",
+  "cue": "Com os calcanhares sobre uma rampa firme, suba em uma plataforma baixa e desça lentamente.",
+  "level": "Intermediário",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/poliquin-step-up/",
+  "source_sheet": "production/sprites/e316.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

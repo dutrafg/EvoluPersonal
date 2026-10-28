@@ -1,0 +1,17 @@
+{
+  "id": "e263",
+  "name": "Extensão de quadril no banco romano",
+  "group": "Pernas",
+  "muscles": "Glúteos e posteriores da coxa",
+  "movement": "45-degree hip extension emphasizing glutes; hinge at hips, extend to straight body, avoid overextension.",
+  "cue": "Apoie o quadril no banco. Desça flexionando os quadris e suba até alinhar o corpo, sem hiperestender a lombar.",
+  "level": "Intermediário",
+  "priority": "base/principal por grupo muscular",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: 45-degree hip extension emphasizing glutes; hinge at hips, extend to straight body, avoid overextension.",
+  "reference": "https://www.strengthlog.com/back-extension/",
+  "source_image": "production/sprites/e263.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/back-extension/"
+  ]
+}

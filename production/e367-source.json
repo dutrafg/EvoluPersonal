@@ -1,0 +1,14 @@
+{
+  "id": "e367",
+  "name": "Levantamento terra romeno com barra",
+  "group": "Pernas",
+  "muscles": "Posteriores da coxa e glúteos",
+  "movement": "Hinge at the hips with a neutral spine, then extend hips to stand.",
+  "cue": "Segure a barra junto às pernas. Leve o quadril para trás com coluna neutra e joelhos levemente flexionados; estenda o quadril para retornar à posição em pé.",
+  "level": "Intermediário",
+  "priority": "principal ou variação complementar de grupo muscular",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "source_sheet": "production/sprites/e367.png",
+  "illustration": "Original 6-pose sprite sheet converted to looping GIF",
+  "generator": "OpenAI image generation"
+}

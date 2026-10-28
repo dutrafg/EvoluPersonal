@@ -1,0 +1,14 @@
+{
+  "id": "e300",
+  "name": "Elevação em W no banco inclinado",
+  "group": "Ombros",
+  "muscles": "Trapézio médio e inferior e deltoide posterior",
+  "movement": "Incline bench W raise; elbows bent, pull arms into a W shape by retracting scapulae, lower.",
+  "cue": "Com o peito apoiado, dobre os cotovelos e forme um W ao aproximar as escápulas. Retorne sem encolher os ombros.",
+  "level": "Iniciante",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "reference": "https://www.strengthlog.com/prone-y-raise/",
+  "source_sheet": "production/sprites/e300.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

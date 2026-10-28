@@ -1,0 +1,14 @@
+{
+  "id": "e305",
+  "name": "Puxada ilíaca unilateral na polia",
+  "group": "Costas",
+  "muscles": "Grande dorsal, ênfase na região inferior",
+  "movement": "Single-arm cable lat pulldown toward ipsilateral hip; keep elbow close and torso steady.",
+  "cue": "Com a polia alta, puxe a manopla em direção ao quadril do mesmo lado, mantendo o tronco firme.",
+  "level": "Intermediário",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/single-arm-lat-pulldown/",
+  "source_sheet": "production/sprites/e305.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "e115",
+  "name": "Rosca inversa",
+  "group": "Braços",
+  "muscles": "Braquiorradial e antebraços",
+  "movement": "Standing reverse barbell curl with overhand pronated grip; palms down, bend elbows and lower bar slowly.",
+  "cue": "Segure a barra com palmas para baixo. Flexione os cotovelos mantendo punhos alinhados e retorne devagar.",
+  "level": "Intermediário",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Standing reverse barbell curl with overhand pronated grip; palms down, bend elbows and lower bar slowly.",
+  "mandatory": true,
+  "source_image": "/workspace/scratch/40fe464c14fa/generated_images/exec-30b27143-3c7a-43db-9dd3-defb47f5c4e3.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/reverse-barbell-curl/"
+  ],
+  "review_status": "Revisão visual de quadros: equipamento, enquadramento e sequência; não equivale a validação biomecânica profissional."
+}

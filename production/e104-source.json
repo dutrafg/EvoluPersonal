@@ -1,0 +1,15 @@
+{
+  "id": "e104",
+  "name": "Hack squat",
+  "group": "Pernas",
+  "muscles": "Quadríceps e glúteos",
+  "movement": "45 degree hack squat sled machine, back and shoulders on pads, flex hips and knees then extend legs without locking.",
+  "cue": "Apoie costas e ombros na máquina. Desça flexionando quadril e joelhos e suba mantendo os pés inteiros na plataforma.",
+  "level": "Intermediário",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: 45 degree hack squat sled machine, back and shoulders on pads, flex hips and knees then extend legs without locking.",
+  "mandatory": true,
+  "source_image": "/workspace/scratch/40fe464c14fa/generated_images/exec-a5383398-bdd4-4584-b0c7-d86606014319.png",
+  "generator": "image_gen built-in",
+  "status": "frames generated",
+  "review_status": "Revisão visual de quadros: equipamento, enquadramento e sequência; não equivale a validação biomecânica profissional."
+}

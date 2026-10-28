@@ -1,0 +1,17 @@
+{
+  "id": "e289",
+  "name": "Hex press com halteres",
+  "group": "Peito",
+  "muscles": "Peitoral e tríceps",
+  "movement": "Dumbbell hex press; hold dumbbells pressed together with neutral grip above chest, press upward and lower.",
+  "cue": "Mantenha os halteres encostados entre si, com pegada neutra. Empurre acima do peito e desça mantendo contato.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Dumbbell hex press; hold dumbbells pressed together with neutral grip above chest, press upward and lower.",
+  "reference": "https://www.strengthlog.com/hex-press/",
+  "source_image": "production/sprites/e289.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/hex-press/"
+  ]
+}

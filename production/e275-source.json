@@ -1,0 +1,17 @@
+{
+  "id": "e275",
+  "name": "Supino Spoto com barra",
+  "group": "Peito",
+  "muscles": "Peitoral e tríceps",
+  "movement": "Spoto barbell bench press; lower bar to hover 2–3 cm above chest, pause without resting, press to lockout.",
+  "cue": "Desça a barra até poucos centímetros do peito, faça uma pausa sem apoiá-la e empurre para cima com controle.",
+  "level": "Avançado",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Spoto barbell bench press; lower bar to hover 2–3 cm above chest, pause without resting, press to lockout.",
+  "reference": "https://www.strengthlog.com/spoto-press/",
+  "source_image": "production/sprites/e275.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/spoto-press/"
+  ]
+}

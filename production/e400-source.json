@@ -1,0 +1,24 @@
+{
+  "id": "e400",
+  "list_id": 12,
+  "name": "Supino Reto na Máquina (Sentado / Vertical)",
+  "group": "Peito",
+  "muscles": "Peitoral maior, deltoide anterior e tríceps",
+  "movement": "Seated upright on a fixed-path weight-stack chest press machine, back against vertical pad, feet planted. Pronated handles move forward horizontally from chest height to almost straight elbows and return. Machine arms stay parallel, not converging.",
+  "cue": "Ajuste o banco para manter os pegadores na altura do peito. Apoie as costas e os pés, empurre os braços da máquina à frente e retorne controlando a carga.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/",
+  "lot": 17,
+  "equipment": "Máquina de supino vertical",
+  "url": "",
+  "motion": "e400",
+  "animation": "assets/exercises/e400.gif",
+  "animation_alt": "Demonstração em loop de Supino Reto na Máquina (Sentado / Vertical)",
+  "source_sheet": "production/sprites/e400.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/"
+  ]
+}

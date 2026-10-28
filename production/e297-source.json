@@ -1,0 +1,17 @@
+{
+  "id": "e297",
+  "name": "Encolhimento acima da cabeça com barra",
+  "group": "Ombros",
+  "muscles": "Trapézio superior e estabilizadores dos ombros",
+  "movement": "Overhead barbell shrug; hold bar overhead with elbows locked, elevate shoulders toward ears and lower.",
+  "cue": "Mantenha a barra acima da cabeça com cotovelos estendidos. Eleve os ombros e retorne sem perder o controle.",
+  "level": "Avançado",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Overhead barbell shrug; hold bar overhead with elbows locked, elevate shoulders toward ears and lower.",
+  "reference": "https://www.strengthlog.com/overhead-shrug/",
+  "source_image": "production/sprites/e297.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/overhead-shrug/"
+  ]
+}

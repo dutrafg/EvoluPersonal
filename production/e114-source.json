@@ -1,0 +1,17 @@
+{
+  "id": "e114",
+  "name": "Elevação frontal alternada",
+  "group": "Ombros",
+  "muscles": "Deltoide anterior",
+  "movement": "Alternating standing dumbbell front raise; lift one arm forward to shoulder height, lower and alternate.",
+  "cue": "Eleve um halter à frente até a altura do ombro, desça devagar e alterne os braços sem balançar.",
+  "level": "Intermediário",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Alternating standing dumbbell front raise; lift one arm forward to shoulder height, lower and alternate.",
+  "mandatory": true,
+  "source_image": "/workspace/scratch/40fe464c14fa/generated_images/exec-18940c56-fb06-4052-b850-281293aafc85.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/dumbbell-front-raise/"
+  ],
+  "review_status": "Revisão visual de quadros: equipamento, enquadramento e sequência; não equivale a validação biomecânica profissional."
+}

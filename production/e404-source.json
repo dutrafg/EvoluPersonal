@@ -1,0 +1,24 @@
+{
+  "id": "e404",
+  "list_id": 19,
+  "name": "Supino Inclinado com Halteres e Pegada Neutra",
+  "group": "Peito",
+  "muscles": "Peitoral maior, deltoide anterior e tríceps",
+  "movement": "Dumbbell incline press on 30-degree bench with neutral grip, palms facing each other throughout. Feet fixed, shoulders and head supported; dumbbells move from sides of upper chest to above shoulders.",
+  "cue": "No banco inclinado, mantenha as palmas das mãos voltadas uma para a outra. Desça os halteres ao lado do peito e empurre mantendo ombros e costas apoiados.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/",
+  "lot": 17,
+  "equipment": "Banco inclinado e halteres",
+  "url": "",
+  "motion": "e404",
+  "animation": "assets/exercises/e404.gif",
+  "animation_alt": "Demonstração em loop de Supino Inclinado com Halteres e Pegada Neutra",
+  "source_sheet": "production/sprites/e404.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/"
+  ]
+}

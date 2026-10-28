@@ -1,0 +1,17 @@
+{
+  "id": "e279",
+  "name": "Supino com pegada supinada",
+  "group": "Peito",
+  "muscles": "Peitoral superior e tríceps",
+  "movement": "Reverse-grip barbell bench press; palms facing toward face, lower bar to lower chest and press.",
+  "cue": "Segure a barra com as palmas voltadas para o rosto. Desça até a parte inferior do peito e empurre mantendo os punhos firmes.",
+  "level": "Avançado",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Reverse-grip barbell bench press; palms facing toward face, lower bar to lower chest and press.",
+  "reference": "https://www.strengthlog.com/reverse-grip-bench-press/",
+  "source_image": "production/sprites/e279.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/reverse-grip-bench-press/"
+  ]
+}

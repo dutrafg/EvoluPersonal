@@ -1,0 +1,38 @@
+[
+  {
+    "id": "e300",
+    "name": "Elevação em W no banco inclinado",
+    "group": "Ombros",
+    "muscles": "Trapézio médio e inferior e deltoide posterior",
+    "movement": "Incline bench W raise; elbows bent, pull arms into a W shape by retracting scapulae, lower.",
+    "cue": "Com o peito apoiado, dobre os cotovelos e forme um W ao aproximar as escápulas. Retorne sem encolher os ombros.",
+    "level": "Iniciante",
+    "priority": "exercício da lista de 500; complementar após os básicos/principais",
+    "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Incline bench W raise; elbows bent, pull arms into a W shape by retracting scapulae, lower.",
+    "reference": "https://www.strengthlog.com/prone-y-raise/"
+  },
+  {
+    "id": "e301",
+    "name": "Exercício de rolo para antebraço",
+    "group": "Braços",
+    "muscles": "Flexores e extensores do antebraço",
+    "movement": "Wrist roller; hold roller at shoulder height, wind weighted rope upward by alternating wrist flexion and extension, unwind slowly.",
+    "cue": "Segure o rolo à frente do corpo e enrole a corda usando os punhos. Desenrole lentamente, mantendo os braços estáveis.",
+    "level": "Intermediário",
+    "priority": "exercício da lista de 500; complementar após os básicos/principais",
+    "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Wrist roller; hold roller at shoulder height, wind weighted rope upward by alternating wrist flexion and extension, unwind slowly.",
+    "reference": "https://www.strengthlog.com/wrist-roller/"
+  },
+  {
+    "id": "e302",
+    "name": "Elevação de ponta dos pés sentado",
+    "group": "Pernas",
+    "muscles": "Tibial anterior",
+    "movement": "Seated tibialis raise; heels stay down, lift toes toward shins against light resistance, lower slowly.",
+    "cue": "Sentado com os calcanhares apoiados, levante as pontas dos pés em direção às canelas e desça com controle.",
+    "level": "Iniciante",
+    "priority": "exercício da lista de 500; complementar após os básicos/principais",
+    "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Seated tibialis raise; heels stay down, lift toes toward shins against light resistance, lower slowly.",
+    "reference": "https://www.strengthlog.com/tibialis-raise/"
+  }
+]

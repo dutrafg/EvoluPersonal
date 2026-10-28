@@ -1,0 +1,24 @@
+{
+  "id": "e410",
+  "list_id": 52,
+  "name": "Crucifixo Unilateral na Polia Média",
+  "group": "Peito",
+  "muscles": "Peitoral maior e deltoide anterior",
+  "movement": "Standing unilateral cable fly at shoulder height. One right hand holds cable handle anchored behind and to right at shoulder height, left hand on hip. Slight elbow bend fixed; right arm arcs across the chest without torso rotation.",
+  "cue": "Com a polia na altura do ombro, segure um pegador e mantenha o tronco estável. Leve o braço em arco à frente do peito, conservando a leve flexão do cotovelo; retorne e troque o lado.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/",
+  "lot": 17,
+  "equipment": "Polia média e pegador",
+  "url": "",
+  "motion": "e410",
+  "animation": "assets/exercises/e410.gif",
+  "animation_alt": "Demonstração em loop de Crucifixo Unilateral na Polia Média",
+  "source_sheet": "production/sprites/e410.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/body-part/chest/"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "e418",
+  "list_id": 87,
+  "name": "Remada Baixa Sentado na Polia com Pegada Supinada",
+  "group": "Costas",
+  "muscles": "Latíssimo do dorso, romboides, trapézio e bíceps",
+  "movement": "Seated low cable row with straight bar and underhand supinated grip, palms upward, elbows near ribs. Feet fixed on plates and back neutral; pull bar toward abdomen and return.",
+  "cue": "Sentado na remada baixa, segure a barra reta com as palmas para cima. Puxe ao abdômen mantendo os cotovelos próximos das costelas e retorne sem balançar.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "lot": 17,
+  "equipment": "Polia baixa e barra reta",
+  "url": "",
+  "motion": "e418",
+  "animation": "assets/exercises/e418.gif",
+  "animation_alt": "Demonstração em loop de Remada Baixa Sentado na Polia com Pegada Supinada",
+  "source_sheet": "production/sprites/e418.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

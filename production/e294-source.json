@@ -1,0 +1,17 @@
+{
+  "id": "e294",
+  "name": "Oração na polia ajoelhado",
+  "group": "Costas",
+  "muscles": "Grande dorsal",
+  "movement": "Kneeling cable lat prayer; arms nearly straight, pull bar from overhead toward thighs using lats, return.",
+  "cue": "Ajoelhe-se diante da polia alta. Com os braços quase estendidos, leve a barra até as coxas usando as costas.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Kneeling cable lat prayer; arms nearly straight, pull bar from overhead toward thighs using lats, return.",
+  "reference": "https://www.strengthlog.com/cable-pullover/",
+  "source_image": "production/sprites/e294.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/cable-pullover/"
+  ]
+}

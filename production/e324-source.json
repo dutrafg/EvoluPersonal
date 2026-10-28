@@ -1,0 +1,14 @@
+{
+  "id": "e324",
+  "name": "Flexão de joelhos no aparelho GHR",
+  "group": "Pernas",
+  "muscles": "Posteriores da coxa e glúteos",
+  "movement": "Glute-ham raise; secure ankles in GHR, lower torso forward under control, curl back upright using hamstrings.",
+  "cue": "Ajuste os tornozelos no aparelho. Incline o corpo à frente com controle e retorne flexionando os joelhos.",
+  "level": "Avançado",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/glute-ham-raise/",
+  "source_sheet": "production/sprites/e324.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

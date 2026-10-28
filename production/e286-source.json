@@ -1,0 +1,17 @@
+{
+  "id": "e286",
+  "name": "Supino unilateral em pé na polia",
+  "group": "Peito",
+  "muscles": "Peitoral e core",
+  "movement": "Single-arm standing cable chest press; press one handle forward while keeping shoulders and hips squared.",
+  "cue": "Empurre uma manopla à frente por vez. Mantenha quadris e ombros alinhados e controle o retorno.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Single-arm standing cable chest press; press one handle forward while keeping shoulders and hips squared.",
+  "reference": "https://www.strengthlog.com/single-arm-cable-chest-press/",
+  "source_image": "production/sprites/e286.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/single-arm-cable-chest-press/"
+  ]
+}

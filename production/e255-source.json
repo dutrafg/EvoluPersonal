@@ -1,0 +1,17 @@
+{
+  "id": "e255",
+  "name": "Remada alta no banco inclinado com halteres",
+  "group": "Costas",
+  "muscles": "Trapézio médio, romboides e deltoide posterior",
+  "movement": "Chest-supported incline dumbbell row, elbows flared about 45 degrees, squeeze shoulder blades, lower.",
+  "cue": "Apoie o peito no banco inclinado. Puxe os halteres com os cotovelos afastados e aproxime as escápulas.",
+  "level": "Intermediário",
+  "priority": "base/principal por grupo muscular",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Chest-supported incline dumbbell row, elbows flared about 45 degrees, squeeze shoulder blades, lower.",
+  "reference": "https://www.strengthlog.com/incline-dumbbell-row/",
+  "source_image": "production/sprites/e255.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/incline-dumbbell-row/"
+  ]
+}

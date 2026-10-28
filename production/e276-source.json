@@ -1,0 +1,17 @@
+{
+  "id": "e276",
+  "name": "Supino Larsen com barra",
+  "group": "Peito",
+  "muscles": "Peitoral e tríceps",
+  "movement": "Larsen press; bench press with legs extended and feet off the floor, maintain upper-back support and press.",
+  "cue": "Deite no banco, mantenha as pernas estendidas sem apoio e faça o supino sem perder a estabilidade do tronco.",
+  "level": "Avançado",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Larsen press; bench press with legs extended and feet off the floor, maintain upper-back support and press.",
+  "reference": "https://www.strengthlog.com/larsen-press/",
+  "source_image": "production/sprites/e276.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/larsen-press/"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "e311",
+  "name": "Agachamento Anderson nos pinos",
+  "group": "Pernas",
+  "muscles": "Quadríceps e glúteos",
+  "movement": "Anderson squat; bar starts on safety pins at bottom squat depth, brace and stand, return to pins.",
+  "cue": "A barra começa apoiada nos pinos na posição baixa. Trave o abdômen, levante-se e devolva a barra aos pinos.",
+  "level": "Avançado",
+  "priority": "lista de 500 exercícios; variação complementar após os bases/principais",
+  "reference": "https://www.strengthlog.com/anderson-squat/",
+  "source_sheet": "production/sprites/e311.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

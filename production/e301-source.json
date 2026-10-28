@@ -1,0 +1,14 @@
+{
+  "id": "e301",
+  "name": "Exercício de rolo para antebraço",
+  "group": "Braços",
+  "muscles": "Flexores e extensores do antebraço",
+  "movement": "Wrist roller; hold roller at shoulder height, wind weighted rope upward by alternating wrist flexion and extension, unwind slowly.",
+  "cue": "Segure o rolo à frente do corpo e enrole a corda usando os punhos. Desenrole lentamente, mantendo os braços estáveis.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "reference": "https://www.strengthlog.com/wrist-roller/",
+  "source_sheet": "production/sprites/e301.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

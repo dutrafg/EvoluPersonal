@@ -1,0 +1,17 @@
+{
+  "id": "e287",
+  "name": "Landmine press ajoelhado",
+  "group": "Ombros",
+  "muscles": "Deltoide anterior e tríceps",
+  "movement": "Half-kneeling landmine press; press bar end upward and forward from shoulder, keep ribs down.",
+  "cue": "Ajoelhe-se com um pé à frente e empurre a barra em diagonal para cima, mantendo o abdômen firme.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Half-kneeling landmine press; press bar end upward and forward from shoulder, keep ribs down.",
+  "reference": "https://www.strengthlog.com/landmine-press/",
+  "source_image": "production/sprites/e287.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/landmine-press/"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "e417",
+  "list_id": 86,
+  "name": "Remada Baixa Sentado na Polia com Barra Romana",
+  "group": "Costas",
+  "muscles": "Latíssimo do dorso, romboides, trapézio e bíceps",
+  "movement": "Seated low cable row with Roman bar, medium neutral grip, feet against fixed plates, knees slightly bent, neutral back. Pull handle toward abdomen by bending elbows then extend arms without swinging torso.",
+  "cue": "Apoie os pés na plataforma e segure a barra romana em pegada neutra. Puxe o pegador ao abdômen com coluna estável e retorne sem projetar o tronco.",
+  "level": "Intermediário",
+  "priority": "variante exata da lista MD ainda sem GIF próprio",
+  "reference": "https://www.acefitness.org/resources/everyone/exercise-library/",
+  "lot": 17,
+  "equipment": "Polia baixa e barra romana",
+  "url": "",
+  "motion": "e417",
+  "animation": "assets/exercises/e417.gif",
+  "animation_alt": "Demonstração em loop de Remada Baixa Sentado na Polia com Barra Romana",
+  "source_sheet": "production/sprites/e417.png",
+  "illustration": "Folha original de seis poses convertida em GIF cíclico",
+  "generator": "OpenAI image generation",
+  "references": [
+    "https://www.acefitness.org/resources/everyone/exercise-library/"
+  ]
+}

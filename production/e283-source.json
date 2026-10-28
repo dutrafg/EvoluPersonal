@@ -1,0 +1,17 @@
+{
+  "id": "e283",
+  "name": "Supino deitado na polia baixa",
+  "group": "Peito",
+  "muscles": "Peitoral e tríceps",
+  "movement": "Lying low-cable chest press on a flat bench; press cable handles from chest line to above chest, controlled return.",
+  "cue": "Deite no banco entre as polias baixas. Empurre as manoplas para cima e retorne até a linha do peito.",
+  "level": "Intermediário",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Lying low-cable chest press on a flat bench; press cable handles from chest line to above chest, controlled return.",
+  "reference": "https://www.strengthlog.com/cable-chest-press/",
+  "source_image": "production/sprites/e283.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/cable-chest-press/"
+  ]
+}

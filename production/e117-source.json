@@ -1,0 +1,18 @@
+{
+  "id": "e117",
+  "name": "Agachamento no Smith",
+  "group": "Pernas",
+  "muscles": "Quadríceps e glúteos",
+  "movement": "Smith machine back squat, guided bar on upper back, descend then stand with heels grounded.",
+  "cue": "Apoie a barra na parte alta das costas. Agache com os pés firmes e suba mantendo o tronco estável.",
+  "level": "Intermediário",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Smith machine back squat, guided bar on upper back, descend then stand with heels grounded.",
+  "mandatory": false,
+  "priority": "básico/principal",
+  "source_image": "/workspace/scratch/40fe464c14fa/generated_images/exec-1324c5c4-4afc-43d8-ad52-177739cea8ab.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/smith-machine-squat/"
+  ],
+  "review_status": "Revisão visual de quadros: equipamento, enquadramento e sequência; não equivale a validação biomecânica profissional."
+}

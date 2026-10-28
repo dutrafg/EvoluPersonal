@@ -1,0 +1,17 @@
+{
+  "id": "e271",
+  "name": "Tríceps testa com barra EZ",
+  "group": "Braços",
+  "muscles": "Tríceps",
+  "movement": "Lying EZ-bar skull crusher; lower bar toward forehead by bending elbows, extend to start.",
+  "cue": "Deite no banco e segure a barra EZ. Flexione os cotovelos levando a barra perto da testa e estenda sem abrir os braços.",
+  "level": "Intermediário",
+  "priority": "base/principal por grupo muscular",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Lying EZ-bar skull crusher; lower bar toward forehead by bending elbows, extend to start.",
+  "reference": "https://www.strengthlog.com/skull-crusher/",
+  "source_image": "production/sprites/e271.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/skull-crusher/"
+  ]
+}

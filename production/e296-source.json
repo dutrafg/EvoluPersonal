@@ -1,0 +1,17 @@
+{
+  "id": "e296",
+  "name": "Levantamento Reeves",
+  "group": "Costas",
+  "muscles": "Trapézio, dorsais, glúteos e posteriores",
+  "movement": "Reeves deadlift; wide grip holding plate rims, hinge and extend hips to stand, lower with control.",
+  "cue": "Segure as bordas das anilhas com pegada aberta. Estenda quadris e joelhos para ficar em pé e desça com controle.",
+  "level": "Avançado",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Reeves deadlift; wide grip holding plate rims, hinge and extend hips to stand, lower with control.",
+  "reference": "https://www.strengthlog.com/reeves-deadlift/",
+  "source_image": "production/sprites/e296.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/reeves-deadlift/"
+  ]
+}

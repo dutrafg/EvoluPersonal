@@ -1,0 +1,15 @@
+{
+  "id": "e106",
+  "name": "Supino inclinado no Smith",
+  "group": "Peito",
+  "muscles": "Peitoral superior e tríceps",
+  "movement": "Incline Smith machine bench press; lying on incline bench under guided bar, lower to upper chest and press up.",
+  "cue": "Ajuste o banco inclinado sob a barra guiada. Desça em direção à parte alta do peito e empurre com controle.",
+  "level": "Intermediário",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Incline Smith machine bench press; lying on incline bench under guided bar, lower to upper chest and press up.",
+  "mandatory": true,
+  "source_image": "/workspace/scratch/40fe464c14fa/generated_images/exec-b0a34d87-e932-4c09-b4dd-01a22f52927a.png",
+  "generator": "image_gen built-in",
+  "status": "frames generated",
+  "review_status": "Revisão visual de quadros: equipamento, enquadramento e sequência; não equivale a validação biomecânica profissional."
+}

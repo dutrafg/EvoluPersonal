@@ -1,4 +1,4 @@
-# EvoluPersonal — Alpha 0.8
+# EvoluPersonal — Alpha 0.9
 
 Aplicativo separado para personal trainer, com identidade visual inspirada no EvoluFísico2. O nome é provisório.
 
@@ -12,7 +12,7 @@ Aplicativo separado para personal trainer, com identidade visual inspirada no Ev
 - Descanso antes de cada série, RIR alvo/realizado, GIF na execução e histórico de séries.
 - Sugestões de progressão por todas as séries de trabalho ou pela principal, sem alterar cargas automaticamente.
 - Migração de backups e bases versão 1 para versão 2 sem excluir registros.
-- Biblioteca com 400 exercícios e GIFs originais em loop, destaque muscular em laranja e instruções em português brasileiro; cadastro e edição de exercícios próprios e links externos de demonstração.
+- Biblioteca com 425 exercícios e GIFs originais em loop, destaque muscular em laranja e instruções em português brasileiro; cadastro e edição de exercícios próprios e links externos de demonstração.
 - Prévia local da área do aluno: carga e repetições por série, marcação de conclusão, cronômetro, esforço e feedback.
 - Histórico de sessões com cópia dos registros na conclusão.
 - Persistência no navegador, exportação e restauração de backup JSON com validação.
@@ -39,3 +39,7 @@ Testes de navegador realizados na prévia: cadastro de aluno; treino com duas s�
 ## Próxima etapa
 
 Contas e permissões por aluno, banco de dados e sincronização entre aparelhos. Depois, ampliar avaliações, acompanhamento, agenda e mensalidades.
+
+## Lote 17
+
+25 variações da lista MD adicionadas com GIFs originais e IDs e400–e424. Total: 425 GIFs. As 500 linhas da referência não equivalem à contagem do catálogo, que inclui variações e sinônimos anteriores.

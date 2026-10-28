@@ -1,0 +1,14 @@
+{
+  "id": "e302",
+  "name": "Elevação de ponta dos pés sentado",
+  "group": "Pernas",
+  "muscles": "Tibial anterior",
+  "movement": "Seated tibialis raise; heels stay down, lift toes toward shins against light resistance, lower slowly.",
+  "cue": "Sentado com os calcanhares apoiados, levante as pontas dos pés em direção às canelas e desça com controle.",
+  "level": "Iniciante",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "reference": "https://www.strengthlog.com/tibialis-raise/",
+  "source_sheet": "production/sprites/e302.png",
+  "illustration": "Original sprite sheet converted to a six-frame looping GIF",
+  "generator": "OpenAI image generation"
+}

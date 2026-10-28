@@ -1,0 +1,17 @@
+{
+  "id": "e299",
+  "name": "Elevação em T no banco inclinado",
+  "group": "Costas",
+  "muscles": "Romboides e deltoide posterior",
+  "movement": "Incline bench T raise; arms move out to sides at shoulder level with thumbs up, squeeze shoulder blades, lower.",
+  "cue": "Com o peito apoiado, eleve os braços lateralmente até formar um T. Aproxime as escápulas e desça devagar.",
+  "level": "Iniciante",
+  "priority": "exercício da lista de 500; complementar após os básicos/principais",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One fully clothed athletic adult wearing fitted charcoal-gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, numbers or watermark. Identical camera and scale in every cell. Full body and equipment visible. Row-major: start, quarter movement, midpoint, endpoint, controlled return, start. No extra limbs. Movement: Incline bench T raise; arms move out to sides at shoulder level with thumbs up, squeeze shoulder blades, lower.",
+  "reference": "https://www.strengthlog.com/prone-y-raise/",
+  "source_image": "production/sprites/e299.png",
+  "generator": "image_gen built-in",
+  "references": [
+    "https://www.strengthlog.com/prone-y-raise/"
+  ]
+}

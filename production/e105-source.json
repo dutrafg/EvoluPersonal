@@ -1,0 +1,15 @@
+{
+  "id": "e105",
+  "name": "Cadeira flexora",
+  "group": "Pernas",
+  "muscles": "Posteriores da coxa",
+  "movement": "Seated leg curl machine; thighs secured under pad, bend knees pulling ankle pad down and back, return slowly.",
+  "cue": "Alinhe os joelhos ao eixo da máquina. Flexione os joelhos contra o apoio e retorne sem levantar o quadril.",
+  "level": "Intermediário",
+  "prompt": "Use case: scientific-educational. Original fitness animation sprite sheet. Exactly six sequential poses in a strict 3 columns by 2 rows grid with six equal square cells. One clothed athletic adult, fitted charcoal gray sportswear, realistic polished 3D educational anatomy, primary working muscles highlighted orange. White background, no text, no numbers, no watermark. Identical camera, body scale, equipment and stationary supports in every cell. Fixed foot contact and joint alignment. Full body and full equipment visible within each cell. Row-major order: start, quarter movement, midpoint, endpoint, returning, start. No camera mirroring, no added limbs. Movement: Seated leg curl machine; thighs secured under pad, bend knees pulling ankle pad down and back, return slowly.",
+  "mandatory": true,
+  "source_image": "/workspace/scratch/40fe464c14fa/generated_images/exec-be7759d8-8f6e-4688-8688-a7dfd6e7449b.png",
+  "generator": "image_gen built-in",
+  "status": "frames generated",
+  "review_status": "Revisão visual de quadros: equipamento, enquadramento e sequência; não equivale a validação biomecânica profissional."
+}
