@@ -2,7 +2,7 @@
 
 Fonte única: **500 Exercícios Base de Musculação.md**. A tabela abaixo preserva a ordem e os nomes originais. Somente os exercícios desta lista são oferecidos no aplicativo.
 
-**500 exercícios oficiais · 284 com correspondência de GIF registrada · 216 aguardando GIF específico aprovado.** O lote MD500-01 (30 animações 2D) foi reprovado e está preservado somente como histórico técnico, fora do catálogo. Animações anteriores aproveitadas usam identificadores `eN`.
+**500 exercícios oficiais · 288 com correspondência de GIF registrada · 212 aguardando GIF específico aprovado.** O lote MD500-01 (30 animações 2D) foi reprovado e está preservado somente como histórico técnico, fora do catálogo. Animações anteriores aproveitadas usam identificadores `eN`.
 
 Esta relação contém apenas os 500 exercícios do arquivo original. Não inclui categorias ou filas de exercícios de outras fontes. Correspondência de mídia é cadastral e não substitui auditoria biomecânica/visual. Somente GIFs com padrão visual aprovado devem voltar à cobertura.
 
@@ -92,7 +92,7 @@ Esta relação contém apenas os 500 exercícios do arquivo original. Não inclu
 | 82 | Puxada Ilíaca Unilateral na Polia (Foco na divisão inferior da dorsal) | `e305` |
 | 83 | Remada Cavalinho na Máquina (Com apoio no peito) | `e202` |
 | 84 | Remada Baixa Sentado na Polia com Triângulo | `e7` |
-| 85 | Remada Baixa Sentado na Polia com Barra Reta (Pegada Aberta) | — |
+| 85 | Remada Baixa Sentado na Polia com Barra Reta (Pegada Aberta) | `e165` |
 | 86 | Remada Baixa Sentado na Polia com Barra Romana | `e417` |
 | 87 | Remada Baixa Sentado na Polia com Pegada Supinada | `e418` |
 | 88 | Remada Baixa Unilateral na Polia Sentado | — |
@@ -138,8 +138,8 @@ Esta relação contém apenas os 500 exercícios do arquivo original. Não inclu
 | 128 | Remada Alta Pegada Fechada (Foco em Trapézio) | — |
 | 129 | Face Pull na Polia com Corda (Foco em Trapézio Médio/Inferior e Romboides) | `e204` |
 | 130 | Elevação em Y no Banco Inclinado com Halteres (Foco em Trapézio Inferior) | `e86` |
-| 131 | Elevação em T no Banco Inclinado com Halteres (Foco em Romboides) | — |
-| 132 | Elevação em W no Banco Inclinado com Halteres | — |
+| 131 | Elevação em T no Banco Inclinado com Halteres (Foco em Romboides) | `e299` |
+| 132 | Elevação em W no Banco Inclinado com Halteres | `e300` |
 | 133 | Retração Escapular na Barra Fixa (Scapular Pull-up) | `e293` |
 | 134 | Retração Escapular na Puxada Alta | — |
 | 135 | Crucifixo Inverso no Cabo (Foco em Upper Back/Romboides) | `e171` |
@@ -179,7 +179,7 @@ Esta relação contém apenas os 500 exercícios do arquivo original. Não inclu
 | 169 | Leg Press Horizontal na Máquina | `e156` |
 | 170 | Leg Press Vertical (90 Graus) | — |
 | 171 | Leg Press Articulado (Iso-Lateral) | — |
-| 172 | Leg Press 45° Unilateral | — |
+| 172 | Leg Press 45° Unilateral | `e259` |
 | 173 | Leg Press Horizontal Unilateral | — |
 | 174 | Leg Press 45° com Pés Baixos e Juntos (Ênfase máxima em Quadríceps) | — |
 | 175 | Agachamento Hack Unilateral | — |
@@ -508,3 +508,8 @@ Esta relação contém apenas os 500 exercícios do arquivo original. Não inclu
 | 498 | Superman no Solo (Extensão lombar deitado de bruços) | — |
 | 499 | Caminhada da Mala Unilateral (Suitcase Carry - Anti-flexão lateral) | `e199` |
 | 500 | Vacuum Abdominal (Contração isométrica do Transverso do Abdômen) | — |
+
+
+## Recuperações de equivalência após QA visual — 28/10/2026
+
+Quatro exercícios receberam vínculos a GIFs 3D **preexistentes**, sem geração ou duplicação de mídia: MD 85 → e165 (remada baixa com pegada aberta, sentado); MD 131 → e299 (elevação T com halteres no banco inclinado); MD 132 → e300 (elevação W no banco inclinado); MD 172 → e259 (leg press unilateral na máquina 45°). Os metadados foram comparados e o primeiro quadro dos GIFs inspecionado. As transições e biomecânica integrais ainda precisam de QA específico antes do aceite definitivo.
