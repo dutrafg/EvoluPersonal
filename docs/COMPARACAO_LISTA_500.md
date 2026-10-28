@@ -1,8 +1,8 @@
 # Comparação da lista de 500 exercícios
 
-Biblioteca: **425 GIFs integrados**. Linhas da lista com correspondência documental: **240**; relacionadas com variante exata pendente: **8**; demais a criar: **252**. **Ainda sem cobertura específica confirmada: 260**. Revisado em 28/10/2026.
+Biblioteca: **425 GIFs integrados**. Linhas da lista com correspondência documental: **284**; relacionadas com variante exata pendente: **25**; demais a criar: **191**. **Ainda sem cobertura específica confirmada: 216**. Revisado em 28/10/2026.
 
-Totais por linha da lista não equivalem a GIFs distintos. Correspondências por ID explícito de produção, nome normalizado exato, vínculo anterior e revisão manual de metadados do catálogo. Em 28/10/2026, **43 falsos negativos** foram corrigidos após comparar nomes, movimento, equipamentos e instruções de `dist/index.html`. Uma variante não cobre automaticamente alternativas de equipamento. Esta é auditoria de correspondência cadastral: a execução visual e a qualidade de todos os GIFs precisam de QA separado.
+Totais por linha da lista não equivalem a GIFs distintos. Correspondências por ID explícito de produção, nome normalizado exato, vínculo anterior e revisão manual de metadados do catálogo. Em 28/10/2026, **87 falsos negativos** foram corrigidos após comparar nomes, movimento, equipamentos e instruções de `dist/index.html`. Uma variante não cobre automaticamente alternativas de equipamento. Esta é auditoria de correspondência cadastral: a execução visual e a qualidade de todos os GIFs precisam de QA separado.
 
 | Nº | Exercício | Situação | IDs |
 |---|---|---|---|
@@ -50,7 +50,7 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 42 | Crucifixo Reto com Halteres | correspondência cadastrada | e22 |
 | 43 | Crucifixo Inclinado com Halteres | correspondência cadastrada | e51 |
 | 44 | Crucifixo Declinado com Halteres | correspondência cadastrada | e174 |
-| 45 | Voador Peitoral / Peck Deck (Com antebraços apoiados) | a criar |  |
+| 45 | Voador Peitoral / Peck Deck (Com antebraços apoiados) | correspondência cadastrada | e304 |
 | 46 | Crucifixo na Máquina (Braços estendidos) | correspondência cadastrada | e102 |
 | 47 | Crossover na Polia Alta (Foco inferior/geral) | correspondência cadastrada | e175 |
 | 48 | Crossover na Polia Média (Altura dos ombros) | correspondência cadastrada | e176 |
@@ -83,38 +83,38 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 75 | Puxada Alta Unilateral na Polia | correspondência cadastrada | e91 |
 | 76 | Puxada Alta Ajoelhado na Polia | a criar |  |
 | 77 | Puxada Alta por Trás da Nuca (Uso específico/mobilidade) | a criar |  |
-| 78 | Barra Fixa no Graviton (Máquina Assistida) | a criar |  |
+| 78 | Barra Fixa no Graviton (Máquina Assistida) | correspondência cadastrada | e154 |
 | 79 | Barra Fixa com Elástico de Assistência | correspondência cadastrada | e415 |
 | 80 | Barra Fixa com Carga Adicional (Cinto de Lastro) | correspondência cadastrada | e307 |
 | 81 | Barra Fixa no Triângulo (Sternum Chin-up) | correspondência cadastrada | e416 |
 | 82 | Puxada Ilíaca Unilateral na Polia (Foco na divisão inferior da dorsal) | correspondência cadastrada | e305 |
-| 83 | Remada Cavalinho na Máquina (Com apoio no peito) | a criar |  |
+| 83 | Remada Cavalinho na Máquina (Com apoio no peito) | correspondência cadastrada | e202 |
 | 84 | Remada Baixa Sentado na Polia com Triângulo | correspondência cadastrada | e7 |
-| 85 | Remada Baixa Sentado na Polia com Barra Reta (Pegada Aberta) | a criar |  |
+| 85 | Remada Baixa Sentado na Polia com Barra Reta (Pegada Aberta) | variação relacionada; falta a exata | e327 |
 | 86 | Remada Baixa Sentado na Polia com Barra Romana | correspondência cadastrada | e417 |
 | 87 | Remada Baixa Sentado na Polia com Pegada Supinada | correspondência cadastrada | e418 |
-| 88 | Remada Baixa Unilateral na Polia Sentado | a criar |  |
+| 88 | Remada Baixa Unilateral na Polia Sentado | variação relacionada; falta a exata | e254 |
 | 89 | Remada Sentado na Máquina (Pegada Neutra) | correspondência cadastrada | e109, e419 |
 | 90 | Remada Sentado na Máquina (Pegada Pronada Aberta - Foco Upper Back) | correspondência cadastrada | e419 |
 | 91 | Remada Articulada Unilateral na Máquina | correspondência cadastrada | e166 |
 | 92 | Remada Curvada no Smith | correspondência cadastrada | e420 |
 | 93 | Remada Curvada com Halteres (Bilateral) | correspondência cadastrada | e253 |
-| 94 | Remada no Banco Inclinado com Halteres (Peito apoiado / Chest-Supported Row) | a criar |  |
+| 94 | Remada no Banco Inclinado com Halteres (Peito apoiado / Chest-Supported Row) | correspondência cadastrada | e159 |
 | 95 | Remada no Banco Inclinado com Barra | correspondência cadastrada | e421 |
-| 96 | Seal Row (Remada deitado totalmente na horizontal no banco alto) | a criar |  |
-| 97 | Meadows Row (Remada unilateral transversal na barra Landmine) | a criar |  |
+| 96 | Seal Row (Remada deitado totalmente na horizontal no banco alto) | correspondência cadastrada | e306 |
+| 97 | Meadows Row (Remada unilateral transversal na barra Landmine) | correspondência cadastrada | e205 |
 | 98 | Remada Unilateral no Landmine (Posição paralela) | correspondência cadastrada | e422 |
-| 99 | Remada Serrote na Polia Baixa | a criar |  |
+| 99 | Remada Serrote na Polia Baixa | variação relacionada; falta a exata | e254 |
 | 100 | Remada Serrote no Smith | correspondência cadastrada | e423 |
-| 101 | Remada Alta na Polia Sentado com Corda (Puxando em direção ao peito/pescoço) | a criar |  |
-| 102 | Remada Invertida na Barra (Australian Pull-up) | a criar |  |
+| 101 | Remada Alta na Polia Sentado com Corda (Puxando em direção ao peito/pescoço) | variação relacionada; falta a exata | e233 |
+| 102 | Remada Invertida na Barra (Australian Pull-up) | correspondência cadastrada | e229 |
 | 103 | Remada Invertida no TRX / Argolas | correspondência cadastrada | e36 |
 | 104 | Helms Row (Remada apoiada na ponta do banco com halteres) | a criar |  |
 | 105 | Remada Gorila com Kettlebells (Gorilla Row) | correspondência cadastrada | e424 |
 | 106 | Remada Renegada (Renegade Row em posição de prancha) | correspondência cadastrada | e92 |
 | 107 | Pulldown na Polia Alta com Barra Reta (Braços estendidos) | correspondência cadastrada | e57, e90 |
-| 108 | Pulldown na Polia Alta com Corda | a criar |  |
-| 109 | Pulldown Unilateral na Polia Alta | a criar |  |
+| 108 | Pulldown na Polia Alta com Corda | correspondência cadastrada | e172 |
+| 109 | Pulldown Unilateral na Polia Alta | variação relacionada; falta a exata | e331 |
 | 110 | Pullover na Máquina (Nautilus Pullover) | correspondência cadastrada | e173 |
 | 111 | Pullover no Cabo Declinado ou no Banco Reto | a criar |  |
 | 112 | Oração na Polia (Kneeling Lat Prayer) | correspondência cadastrada | e294 |
@@ -122,7 +122,7 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 114 | Levantamento Terra com Barra Hexagonal (Trap Bar Deadlift) | correspondência cadastrada | e261 |
 | 115 | Levantamento Terra com Déficit (Em cima de anilha/caixote) | a criar |  |
 | 116 | Levantamento Terra Snatch Grip (Pegada muito aberta) | a criar |  |
-| 117 | Encolhimento de Ombros com Barra pela Frente | a criar |  |
+| 117 | Encolhimento de Ombros com Barra pela Frente | correspondência cadastrada | e231 |
 | 118 | Encolhimento de Ombros com Barra por Trás | a criar |  |
 | 119 | Encolhimento de Ombros com Halteres em Pé | correspondência cadastrada | e85 |
 | 120 | Encolhimento de Ombros com Halteres Sentado | a criar |  |
@@ -136,11 +136,11 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 128 | Remada Alta Pegada Fechada (Foco em Trapézio) | a criar |  |
 | 129 | Face Pull na Polia com Corda (Foco em Trapézio Médio/Inferior e Romboides) | correspondência cadastrada | e204, e24 |
 | 130 | Elevação em Y no Banco Inclinado com Halteres (Foco em Trapézio Inferior) | correspondência cadastrada | e86 |
-| 131 | Elevação em T no Banco Inclinado com Halteres (Foco em Romboides) | a criar |  |
-| 132 | Elevação em W no Banco Inclinado com Halteres | a criar |  |
+| 131 | Elevação em T no Banco Inclinado com Halteres (Foco em Romboides) | variação relacionada; falta a exata | e299 |
+| 132 | Elevação em W no Banco Inclinado com Halteres | variação relacionada; falta a exata | e300 |
 | 133 | Retração Escapular na Barra Fixa (Scapular Pull-up) | correspondência cadastrada | e293 |
 | 134 | Retração Escapular na Puxada Alta | a criar |  |
-| 135 | Crucifixo Inverso no Cabo (Foco em Upper Back/Romboides) | a criar |  |
+| 135 | Crucifixo Inverso no Cabo (Foco em Upper Back/Romboides) | correspondência cadastrada | e171 |
 | 136 | Remada com Elástico Sentado | correspondência cadastrada | e35 |
 | 137 | Puxada de Trenó com Corda (Sled Pull) | a criar |  |
 | 138 | Caminhada do Fazendeiro (Farmer's Walk - Foco em Trapézio e Estabilizadores) | correspondência cadastrada | e84 |
@@ -161,12 +161,12 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 153 | Agachamento Pêndulo na Máquina (Pendulum Squat) | a criar |  |
 | 154 | Agachamento no Cinto (Belt Squat) | correspondência cadastrada | e191 |
 | 155 | Agachamento V-Squat na Máquina | a criar |  |
-| 156 | Agachamento Ciclista (Calcanhares elevados em rampa/anilhas) | a criar |  |
-| 157 | Agachamento na Caixa (Box Squat) | a criar |  |
+| 156 | Agachamento Ciclista (Calcanhares elevados em rampa/anilhas) | correspondência cadastrada | e310 |
+| 157 | Agachamento na Caixa (Box Squat) | correspondência cadastrada | e167 |
 | 158 | Agachamento com Pausa no Fundo (Paused Squat) | correspondência cadastrada | e353 |
-| 159 | Agachamento Anderson (Saída dos pinos de segurança do fundo) | a criar |  |
+| 159 | Agachamento Anderson (Saída dos pinos de segurança do fundo) | correspondência cadastrada | e311 |
 | 160 | Agachamento com Halteres nas Laterais do Corpo | a criar |  |
-| 161 | Agachamento com Dois Kettlebells no Peito (Double Kettlebell Front Squat) | a criar |  |
+| 161 | Agachamento com Dois Kettlebells no Peito (Double Kettlebell Front Squat) | correspondência cadastrada | e312 |
 | 162 | Agachamento Acima da Cabeça (Overhead Squat) | a criar |  |
 | 163 | Agachamento Jefferson (Barra entre as pernas) | a criar |  |
 | 164 | Agachamento Sumô com Barra (Tronco vertical) | correspondência cadastrada | e350 |
@@ -179,40 +179,40 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 171 | Leg Press Articulado (Iso-Lateral) | a criar |  |
 | 172 | Leg Press 45° Unilateral | a criar |  |
 | 173 | Leg Press Horizontal Unilateral | a criar |  |
-| 174 | Leg Press 45° com Pés Baixos e Juntos (Ênfase máxima em Quadríceps) | a criar |  |
+| 174 | Leg Press 45° com Pés Baixos e Juntos (Ênfase máxima em Quadríceps) | variação relacionada; falta a exata | e313 |
 | 175 | Agachamento Hack Unilateral | a criar |  |
 | 176 | Afundo Estático com Barra Livre (Split Squat) | variação relacionada; falta a exata | e17 |
 | 177 | Afundo Estático com Halteres | variação relacionada; falta a exata | e17 |
 | 178 | Afundo Estático no Smith | a criar |  |
-| 179 | Afundo com Pé da Frente Elevado (Front Foot Elevated Split Squat) | a criar |  |
-| 180 | Passada / Avanço Caminhando com Barra nas Costas | a criar |  |
+| 179 | Afundo com Pé da Frente Elevado (Front Foot Elevated Split Squat) | correspondência cadastrada | e314 |
+| 180 | Passada / Avanço Caminhando com Barra nas Costas | correspondência cadastrada | e356 |
 | 181 | Avanço Reverso (Passo para trás) com Barra | a criar |  |
 | 182 | Avanço Reverso com Halteres | correspondência cadastrada | e76 |
-| 183 | Avanço Reverso no Smith | a criar |  |
+| 183 | Avanço Reverso no Smith | correspondência cadastrada | e359 |
 | 184 | Agachamento Búlgaro com Barra Livre | a criar |  |
 | 185 | Agachamento Búlgaro no Smith | correspondência cadastrada | e192 |
-| 186 | Subida no Banco / Caixa com Halteres (Step-up) | variação relacionada; falta a exata | e32 |
+| 186 | Subida no Banco / Caixa com Halteres (Step-up) | correspondência cadastrada | e210 |
 | 187 | Subida no Banco com Barra | a criar |  |
 | 188 | Step-up Lateral na Caixa | a criar |  |
-| 189 | Step-down (Descida controlada da caixa - foco no vasto medial) | a criar |  |
-| 190 | Poliquin Step-up (Com calcanhar elevado na rampa) | a criar |  |
+| 189 | Step-down (Descida controlada da caixa - foco no vasto medial) | correspondência cadastrada | e315 |
+| 190 | Poliquin Step-up (Com calcanhar elevado na rampa) | correspondência cadastrada | e316 |
 | 191 | Agachamento Pistol (Unilateral com peso do corpo) | a criar |  |
 | 192 | Agachamento Skater (Unilateral tocando o joelho de trás no chão) | correspondência cadastrada | e317 |
 | 193 | Cadeira Extensora (Bilateral) | correspondência cadastrada | e2 |
 | 194 | Cadeira Extensora Unilateral | correspondência cadastrada | e237 |
 | 195 | Cadeira Extensora com Tronco Reclinado (Maior estiramento do reto femoral) | correspondência cadastrada | e318 |
-| 196 | Sissy Squat Livre (Peso do corpo ou segurando anilha) | a criar |  |
+| 196 | Sissy Squat Livre (Peso do corpo ou segurando anilha) | correspondência cadastrada | e319 |
 | 197 | Sissy Squat no Aparelho / Suporte de Pés | a criar |  |
-| 198 | Extensão de Joelho Reversa Nórdica (Reverse Nordic Curl) | a criar |  |
+| 198 | Extensão de Joelho Reversa Nórdica (Reverse Nordic Curl) | correspondência cadastrada | e214 |
 | 199 | Extensão de Joelho na Polia Baixa com Tornozelo Preso | correspondência cadastrada | e320 |
-| 200 | Empurrada de Trenó (Sled Push) / Puxada de Trenó de Costas (Backward Sled Drag) | a criar |  |
+| 200 | Empurrada de Trenó (Sled Push) / Puxada de Trenó de Costas (Backward Sled Drag) | variação relacionada; falta a exata | e321 |
 | 201 | Levantamento Terra Romeno com Barra (RDL - Romanian Deadlift) | correspondência cadastrada | e134, e367 |
 | 202 | Stiff com Barra (Pernas semirrígidas) | correspondência cadastrada | e135 |
 | 203 | Levantamento Terra Romeno com Halteres | correspondência cadastrada | e16 |
 | 204 | Mesa Flexora (Deitado) | correspondência cadastrada | e3 |
 | 205 | Cadeira Flexora (Sentado) | correspondência cadastrada | e105 |
-| 206 | Bom Dia com Barra (Good Morning) | variação relacionada; falta a exata | e323 |
-| 207 | Stiff com Halteres | a criar |  |
+| 206 | Bom Dia com Barra (Good Morning) | correspondência cadastrada | e136 |
+| 207 | Stiff com Halteres | variação relacionada; falta a exata | e16 |
 | 208 | RDL no Smith | a criar |  |
 | 209 | Stiff no Smith | a criar |  |
 | 210 | RDL Unilateral com Halteres (Livre - Single Leg RDL) | correspondência cadastrada | e81 |
@@ -225,24 +225,24 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 217 | Bom Dia no Smith | a criar |  |
 | 218 | Bom Dia com Barra de Segurança (SSB Good Morning) | a criar |  |
 | 219 | Bom Dia na Máquina (Hack Squat ou Pendulum) | a criar |  |
-| 220 | Hiperextensão no Banco 45° (Foco em Posterior - coluna neutra, rotação no quadril) | a criar |  |
+| 220 | Hiperextensão no Banco 45° (Foco em Posterior - coluna neutra, rotação no quadril) | variação relacionada; falta a exata | e378 |
 | 221 | Hiperextensão Unilateral no Banco 45° | a criar |  |
-| 222 | Glute-Ham Raise (GHR) no Aparelho Específico | a criar |  |
+| 222 | Glute-Ham Raise (GHR) no Aparelho Específico | correspondência cadastrada | e324 |
 | 223 | Pull-Through na Polia Baixa com Corda | correspondência cadastrada | e373 |
 | 224 | Swing Russo com Kettlebell (Kettlebell Swing) | a criar |  |
 | 225 | Mesa Flexora Unilateral | correspondência cadastrada | e158 |
 | 226 | Cadeira Flexora Unilateral | a criar |  |
-| 227 | Flexora em Pé Unilateral na Máquina (Standing Leg Curl) | a criar |  |
+| 227 | Flexora em Pé Unilateral na Máquina (Standing Leg Curl) | correspondência cadastrada | e370 |
 | 228 | Flexora Ajoelhada na Máquina (Kneeling Leg Curl) | a criar |  |
-| 229 | Flexão Nórdica (Nordic Hamstring Curl) | a criar |  |
-| 230 | Flexão Nórdica Assistida com Elástico ou Polia Alta | a criar |  |
+| 229 | Flexão Nórdica (Nordic Hamstring Curl) | variação relacionada; falta a exata | e368 |
+| 230 | Flexão Nórdica Assistida com Elástico ou Polia Alta | correspondência cadastrada | e197 |
 | 231 | Flexão de Joelho Deitado com Halter entre os Pés | a criar |  |
 | 232 | Flexão de Joelho em Pé na Polia Baixa | a criar |  |
 | 233 | Flexão de Joelho Deitado na Polia Baixa | a criar |  |
 | 234 | Flexão de Joelho em Pé com Caneleira | a criar |  |
-| 235 | Flexão de Joelho na Bola Suíça (Swiss Ball Hamstring Curl) | a criar |  |
+| 235 | Flexão de Joelho na Bola Suíça (Swiss Ball Hamstring Curl) | correspondência cadastrada | e371 |
 | 236 | Flexão de Joelho Unilateral na Bola Suíça | a criar |  |
-| 237 | Flexão de Joelho Deslizante no Solo (Slider Leg Curl) | a criar |  |
+| 237 | Flexão de Joelho Deslizante no Solo (Slider Leg Curl) | correspondência cadastrada | e372 |
 | 238 | Flexão de Joelho no TRX / Fita de Suspensão | a criar |  |
 | 239 | Ponte de Isquiotibiais com Pernas Semi-estendidas (Long-Lever Glute Bridge) | a criar |  |
 | 240 | Razor Curl no Aparelho de GHR | a criar |  |
@@ -266,11 +266,11 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 258 | Elevação Pélvica com Pés Elevados no Banco | a criar |  |
 | 259 | Hiperextensão no Banco 45° com Foco em Glúteo (Costas arredondadas, pés abduzidos) | correspondência cadastrada | e378 |
 | 260 | Extensão de Quadril Reversa na Máquina (Reverse Hyperextension) | a criar |  |
-| 261 | Agachamento Reverência / Cruzado (Curtsy Lunge) com Halteres ou Barra | a criar |  |
+| 261 | Agachamento Reverência / Cruzado (Curtsy Lunge) com Halteres ou Barra | correspondência cadastrada | e360 |
 | 262 | Agachamento Reverência no Smith | a criar |  |
 | 263 | Step-up Alto na Caixa (Tronco inclinado à frente) | a criar |  |
 | 264 | Step-up Cruzado (Cross-over Step-up) | a criar |  |
-| 265 | Afundo no Smith com Pé de Trás Apoiado no Step e Tronco Inclinado | a criar |  |
+| 265 | Afundo no Smith com Pé de Trás Apoiado no Step e Tronco Inclinado | variação relacionada; falta a exata | e192 |
 | 266 | Coice na Polia Baixa (Cable Glute Kickback) | correspondência cadastrada | e78 |
 | 267 | Coice na Polia Baixa com Perna Semi-flexionada | correspondência cadastrada | e79 |
 | 268 | Coice na Máquina (Glute Kickback Machine - em pé ou 4 apoios) | correspondência cadastrada | e382 |
@@ -309,7 +309,7 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 301 | Desenvolvimento na Máquina (Pegada Pronada Aberta) | correspondência cadastrada | e112 |
 | 302 | Desenvolvimento na Máquina (Pegada Neutra Fechada) | correspondência cadastrada | e112 |
 | 303 | Desenvolvimento Articulado Convergente | a criar |  |
-| 304 | Desenvolvimento Unilateral em Pé com Halter ou Kettlebell | a criar |  |
+| 304 | Desenvolvimento Unilateral em Pé com Halter ou Kettlebell | correspondência cadastrada | e161 |
 | 305 | Desenvolvimento Alternado Sentado com Halteres | a criar |  |
 | 306 | Push Press com Barra (Desenvolvimento com impulso das pernas) | a criar |  |
 | 307 | Z-Press (Desenvolvimento sentado no chão com pernas estendidas à frente) | a criar |  |
@@ -324,7 +324,7 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 316 | Elevação Lateral na Polia Baixa (Cabo passando por trás do corpo) | a criar |  |
 | 317 | Elevação Lateral na Polia na Altura do Quadril/Punho (Maior tensão no início) | a criar |  |
 | 318 | Elevação Lateral Dupla Cruzada nos Cabos (Bilateral no Crossover) | a criar |  |
-| 319 | Elevação Lateral Unilateral Inclinado (Segurando na coluna do aparelho) | a criar |  |
+| 319 | Elevação Lateral Unilateral Inclinado (Segurando na coluna do aparelho) | correspondência cadastrada | e208 |
 | 320 | Elevação Lateral Deitado de Lado no Banco Inclinado | a criar |  |
 | 321 | Elevação Lateral com Peito Apoiado no Banco Inclinado | a criar |  |
 | 322 | Elevação Lateral na Máquina Específica | correspondência cadastrada | e180 |
@@ -332,12 +332,12 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 324 | Elevação Lateral Parcial Pesada (Heavy Partial Lateral Raise) | a criar |  |
 | 325 | Remada Alta com Barra Reta ou W (Pegada Média/Aberta - foco em Deltoide Lateral) | a criar |  |
 | 326 | Remada Alta com Halteres | correspondência cadastrada | e89 |
-| 327 | Remada Alta na Polia Baixa (Com Barra ou Corda) | a criar |  |
+| 327 | Remada Alta na Polia Baixa (Com Barra ou Corda) | correspondência cadastrada | e233 |
 | 328 | Remada Alta no Smith | a criar |  |
 | 329 | Remada Alta Unilateral com Halter ou na Polia (Monkey Row) | a criar |  |
 | 330 | Elevação Frontal com Halteres (Alternada ou Simultânea - Pegada Pronada) | correspondência cadastrada | e114, e42 |
 | 331 | Elevação Frontal com Halteres em Pegada Neutra (Martelo) | a criar |  |
-| 332 | Elevação Frontal com Barra Reta ou W | a criar |  |
+| 332 | Elevação Frontal com Barra Reta ou W | correspondência cadastrada | e181 |
 | 333 | Elevação Frontal na Polia Baixa com Corda (Puxando por entre as pernas) | a criar |  |
 | 334 | Elevação Frontal na Polia Baixa com Barra | a criar |  |
 | 335 | Elevação Frontal com Anilha (Plate Front Raise - com ou sem giro de volante) | correspondência cadastrada | e182 |
@@ -346,7 +346,7 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 338 | Crucifixo Inverso Sentado com Halteres (Tronco sobre os joelhos) | correspondência cadastrada | e183 |
 | 339 | Crucifixo Inverso no Banco Inclinado com Halteres | a criar |  |
 | 340 | Crucifixo Inverso no Peck Deck / Voador Inverso (Pegada Pronada ou Neutra) | correspondência cadastrada | e110 |
-| 341 | Crucifixo Inverso Cruzado na Polia Alta / Média (Sem puxador, segurando nas bolinhas do cabo) | a criar |  |
+| 341 | Crucifixo Inverso Cruzado na Polia Alta / Média (Sem puxador, segurando nas bolinhas do cabo) | correspondência cadastrada | e171 |
 | 342 | Crucifixo Inverso Unilateral na Polia | a criar |  |
 | 343 | Remada para Deltoide Posterior com Halteres (Cotovelos abertos a 90°) | a criar |  |
 | 344 | Remada para Deltoide Posterior na Polia ou Smith (Rear Delt Row) | a criar |  |
@@ -367,11 +367,11 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 359 | Rosca Scott na Máquina | correspondência cadastrada | e160 |
 | 360 | Rosca Scott na Polia Baixa | a criar |  |
 | 361 | Rosca Concentrada Sentado com Halter | correspondência cadastrada | e63 |
-| 362 | Rosca Spider (Peito apoiado no banco inclinado) com Barra W ou Reta | a criar |  |
+| 362 | Rosca Spider (Peito apoiado no banco inclinado) com Barra W ou Reta | correspondência cadastrada | e337 |
 | 363 | Rosca Spider com Halteres | correspondência cadastrada | e186 |
 | 364 | Rosca Direta na Polia Baixa com Barra Reta ou W | correspondência cadastrada | e111 |
 | 365 | Rosca Martelo na Polia Baixa com Corda | correspondência cadastrada | e188 |
-| 366 | Rosca Bayesiana na Polia Baixa (De costas para o aparelho, braço atrás do tronco) | a criar |  |
+| 366 | Rosca Bayesiana na Polia Baixa (De costas para o aparelho, braço atrás do tronco) | correspondência cadastrada | e218 |
 | 367 | Rosca Unilateral na Polia Baixa (De frente) | a criar |  |
 | 368 | Rosca Duplo Bíceps na Polia Alta (High Cable Curl / Posição de pose) | a criar |  |
 | 369 | Rosca Hércules Unilateral na Polia Alta | a criar |  |
@@ -381,7 +381,7 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 373 | Rosca 21 (7 repetições metade inferior + 7 metade superior + 7 completas) | a criar |  |
 | 374 | Rosca Arrasto com Barra ou no Smith (Drag Curl - cotovelos vão para trás) | a criar |  |
 | 375 | Rosca Arrasto com Halteres | a criar |  |
-| 376 | Rosca Cruzada no Peito (Cross-Body Hammer Curl / Pinwheel Curl) | a criar |  |
+| 376 | Rosca Cruzada no Peito (Cross-Body Hammer Curl / Pinwheel Curl) | correspondência cadastrada | e269 |
 | 377 | Rosca Zottman (Subida supinada, descida pronada) | correspondência cadastrada | e217 |
 | 378 | Rosca com Barra H / Romana (Pegada Neutra) | a criar |  |
 | 379 | Rosca Garçom (Waiter's Curl - segurando a cabeça de um único halter com as duas mãos) | a criar |  |
@@ -393,14 +393,14 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 385 | Rosca Inversa com Barra W | correspondência cadastrada | e340 |
 | 386 | Rosca Inversa na Polia Baixa | a criar |  |
 | 387 | Rosca Inversa com Halteres | a criar |  |
-| 388 | Flexão de Punho Sentado com Barra (Antebraços nos joelhos ou no banco - Palma para cima) | a criar |  |
-| 389 | Flexão de Punho Sentado com Halteres | a criar |  |
+| 388 | Flexão de Punho Sentado com Barra (Antebraços nos joelhos ou no banco - Palma para cima) | correspondência cadastrada | e244 |
+| 389 | Flexão de Punho Sentado com Halteres | variação relacionada; falta a exata | e342 |
 | 390 | Flexão de Punho na Polia Baixa | a criar |  |
-| 391 | Flexão de Punho em Pé por Trás das Costas com Barra ou no Smith | a criar |  |
-| 392 | Extensão de Punho Sentado com Barra (Palma para baixo) | a criar |  |
+| 391 | Flexão de Punho em Pé por Trás das Costas com Barra ou no Smith | correspondência cadastrada | e341 |
+| 392 | Extensão de Punho Sentado com Barra (Palma para baixo) | variação relacionada; falta a exata | e343 |
 | 393 | Extensão de Punho Sentado com Halteres | correspondência cadastrada | e67 |
 | 394 | Extensão de Punho na Polia Baixa | a criar |  |
-| 395 | Rolo de Punho (Wrist Roller - enrolar a corda com anilha) | a criar |  |
+| 395 | Rolo de Punho (Wrist Roller - enrolar a corda com anilha) | correspondência cadastrada | e301 |
 | 396 | Pronação e Supinação de Antebraço com Halter ou Barra unilateral | a criar |  |
 | 397 | Flexão Radial e Ulnar de Punho (Movimento de martelada em pé com halter) | a criar |  |
 | 398 | Suspensão Isométrica na Barra Fixa (Dead Hang - Bilateral ou Unilateral) | a criar |  |
@@ -416,7 +416,7 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 408 | Tríceps Testa com Halteres (Pegada Neutra) | correspondência cadastrada | e45 |
 | 409 | Tríceps Testa no Banco Inclinado com Barra W | a criar |  |
 | 410 | Tríceps Testa no Banco Declinado com Barra W | a criar |  |
-| 411 | Tríceps Testa Deitado na Polia Baixa | a criar |  |
+| 411 | Tríceps Testa Deitado na Polia Baixa | variação relacionada; falta a exata | e190 |
 | 412 | Extensão de Tríceps Passando da Cabeça ( pullover + testa / Rolling Triceps Extension) | a criar |  |
 | 413 | JM Press com Barra ou no Smith (Híbrido entre Supino Fechado e Testa) | a criar |  |
 | 414 | California Press | a criar |  |
@@ -428,15 +428,15 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 420 | Mergulho Sentado na Máquina (Triceps Dip Machine) | a criar |  |
 | 421 | Paralelas no Graviton (Foco em Tríceps) | a criar |  |
 | 422 | Tríceps Francês Unilateral Sentado ou em Pé com Halter | correspondência cadastrada | e65 |
-| 423 | Tríceps Francês Sentado com Barra W | a criar |  |
+| 423 | Tríceps Francês Sentado com Barra W | variação relacionada; falta a exata | e346 |
 | 424 | Tríceps Francês na Polia Alta com Corda (Inclinado à frente, de costas para o aparelho) | a criar |  |
 | 425 | Tríceps Francês na Polia Baixa com Corda ou Barra (Em pé, de costas para o aparelho) | correspondência cadastrada | e108 |
 | 426 | Tríceps Francês Unilateral na Polia (Katana Extension) | correspondência cadastrada | e189 |
 | 427 | Tríceps Francês Sentado na Máquina Específica | a criar |  |
 | 428 | PJR Pullover (Híbrido de Pullover com Francês usando Halter pesado) | a criar |  |
 | 429 | Tríceps Pulley com Barra V | correspondência cadastrada | e66 |
-| 430 | Tríceps Pulley com Pegada Supinada / Inversa (Barra reta ou W) | a criar |  |
-| 431 | Tríceps Pulley Unilateral (Pegada Pronada, Supinada ou Neutra sem puxador) | a criar |  |
+| 430 | Tríceps Pulley com Pegada Supinada / Inversa (Barra reta ou W) | correspondência cadastrada | e270 |
+| 431 | Tríceps Pulley Unilateral (Pegada Pronada, Supinada ou Neutra sem puxador) | variação relacionada; falta a exata | e347 |
 | 432 | Tríceps Cruzado no Cabo (Cross-body Cable Triceps Extension - Bilateral ou Unilateral) | a criar |  |
 | 433 | Tríceps Coice Unilateral com Halter (Triceps Kickback) | correspondência cadastrada | e46 |
 | 434 | Tríceps Coice Bilateral no Banco Inclinado com Halteres | a criar |  |
@@ -463,7 +463,7 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 455 | Panturrilha Unilateral no Leg Press | correspondência cadastrada | e385 |
 | 456 | Panturrilha Agachado (Squat Calf Raise / Iso-Hold) | a criar |  |
 | 457 | Caminhada na Ponta dos Pés com Halteres (Farmer's Walk on Toes) | a criar |  |
-| 458 | Elevação Tibial na Parede (Bodyweight Tibialis Raise) | a criar |  |
+| 458 | Elevação Tibial na Parede (Bodyweight Tibialis Raise) | correspondência cadastrada | e215 |
 | 459 | Elevação Tibial com Barra Tibial ou Kettlebell (Weighted Tib Raise) | a criar |  |
 | 460 | Elevação Tibial Sentado na Polia Baixa ou Máquina Específica | correspondência cadastrada | e389 |
 | 461 | Abdominal Ajoelhado na Polia Alta com Corda (Cable Crunch) | correspondência cadastrada | e148 |
@@ -474,12 +474,12 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 466 | Abdominal Supra Tradicional no Solo (Crunch) | correspondência cadastrada | e13 |
 | 467 | Abdominal Supra com Peso no Peito (Anilha ou Halter) | a criar |  |
 | 468 | Abdominal no Banco Declinado (Sit-up Declinado) | a criar |  |
-| 469 | Abdominal na Máquina Sentado (Ab Crunch Machine) | a criar |  |
+| 469 | Abdominal na Máquina Sentado (Ab Crunch Machine) | correspondência cadastrada | e198 |
 | 470 | Abdominal na Bola Suíça (Swiss Ball Crunch - Maior amplitude de extensão) | a criar |  |
 | 471 | Elevação de Joelhos Pendurado na Barra Fixa (Hanging Knee Raise) | correspondência cadastrada | e69 |
 | 472 | Elevação de Pernas / Joelhos na Cadeira Romana (Captain's Chair) | a criar |  |
 | 473 | Abdominal Infra no Solo ou Banco (Elevação de pernas deitado) | a criar |  |
-| 474 | Abdominal Infra no Banco Inclinado (Reverse Crunch / Encolhimento reverso da pelve) | a criar |  |
+| 474 | Abdominal Infra no Banco Inclinado (Reverse Crunch / Encolhimento reverso da pelve) | variação relacionada; falta a exata | e273 |
 | 475 | Abdominal Canivete (V-Up) | correspondência cadastrada | e72 |
 | 476 | Abdominal Remador | a criar |  |
 | 477 | Abdominal GHD (Glute-Ham Developer Sit-up) | a criar |  |
@@ -490,7 +490,7 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 | 482 | Prancha Lateral Isométrica (Side Plank) | correspondência cadastrada | e47 |
 | 483 | Giro Russo Sentado com Peso ou Medicine Ball (Russian Twist) | variação relacionada; falta a exata | e95 |
 | 484 | Abdominal Bicicleta no Solo (Bicycle Crunch) | correspondência cadastrada | e68 |
-| 485 | Lenhador na Polia Alta para Baixo (High-to-Low Cable Woodchopper) | a criar |  |
+| 485 | Lenhador na Polia Alta para Baixo (High-to-Low Cable Woodchopper) | correspondência cadastrada | e246 |
 | 486 | Lenhador na Polia Baixa para o Alto (Low-to-High Cable Woodchopper) | a criar |  |
 | 487 | Lenhador Horizontal na Polia Média | a criar |  |
 | 488 | Pallof Press na Polia Média (Exercício de Anti-Rotação) | correspondência cadastrada | e222 |
@@ -510,7 +510,7 @@ Totais por linha da lista não equivalem a GIFs distintos. Correspondências por
 
 ## Revisão de falsos negativos — 28/10/2026
 
-O relatório anterior registrava 197 linhas cobertas; a revisão documental localizou 43 correspondências específicas já presentes nos IDs e0–e424. Não foram gerados GIFs adicionais nesta revisão. Os IDs corrigidos foram:
+O relatório anterior registrava 197 linhas cobertas; a revisão documental localizou 87 correspondências específicas já presentes nos IDs e0–e424. Não foram gerados GIFs adicionais nesta revisão. Os IDs corrigidos foram:
 
 - Linha 6 → e292 — Mergulho nas paralelas com foco em peitoral
 - Linha 13 → e250 — Supino reto na máquina convergente
@@ -555,7 +555,7 @@ O relatório anterior registrava 197 linhas cobertas; a revisão documental loca
 - Linha 461 → e148 — Abdominal ajoelhado na polia
 - Linha 488 → e222 — Press Pallof na polia
 
-**Critério de aceite final:** cada uma das 500 linhas da lista original deverá apontar para um exercício com ID estável, equipamento/pegada/posição compatíveis, instrução específica, GIF próprio disponível e validação visual. A contagem de 500 GIFs não substitui essa verificação de cobertura. Os 260 casos pendentes deste relatório poderão diminuir com novas revisões ou novos exercícios.
+**Critério de aceite final:** cada uma das 500 linhas da lista original deverá apontar para um exercício com ID estável, equipamento/pegada/posição compatíveis, instrução específica, GIF próprio disponível e validação visual. A contagem de 500 GIFs não substitui essa verificação de cobertura. Os 216 casos pendentes deste relatório poderão diminuir com novas revisões ou novos exercícios.
 
 ## Checagem dos movimentos Base / Principais
 
@@ -566,3 +566,79 @@ Na lista original, há **65 exercícios** marcados nas seções «Exercícios Ba
 - **Linha 357 — Rosca no Banco Inclinado a 45° com Halteres:** e141 representa rosca inclinada, mas os metadados não asseguram o ângulo de 45°; conferir o GIF e a inclinação antes de classificar como exata.
 
 **Correção adicional:** a linha 202 (stiff bilateral com barra) já é coberta por e135. Essa checagem usa metadados; os GIFs deverão passar por validação visual específica.
+
+
+## Etapa adicional de auditoria de lacunas — 28/10/2026
+
+Foram identificadas **44 correspondências cadastrais adicionais** pelo nome, variante, instrução e/ou trajetória declarada, além de **19 candidatos relacionados** (sem assumir equivalência de postura, pegada, máquina ou ângulo). Esses achados não representam novos GIFs nem conferência quadro a quadro.
+
+### Correspondências adicionadas
+
+- Linha 45 → e304: Voador na máquina com antebraços apoiados
+- Linha 78 → e154: Barra fixa assistida na máquina
+- Linha 83 → e202: Remada cavalinho com apoio no peito
+- Linha 94 → e159: Remada com peito apoiado e halteres
+- Linha 96 → e306: Remada Seal com barra
+- Linha 97 → e205: Remada Meadows unilateral
+- Linha 102 → e229: Remada invertida no Smith
+- Linha 108 → e172: Pulldown com corda
+- Linha 117 → e231: Encolhimento com barra
+- Linha 135 → e171: Crucifixo inverso bilateral na polia
+- Linha 156 → e310: Agachamento ciclista com calcanhares elevados
+- Linha 157 → e167: Agachamento no caixote com barra
+- Linha 159 → e311: Agachamento Anderson nos pinos
+- Linha 161 → e312: Agachamento frontal com dois kettlebells
+- Linha 179 → e314: Agachamento dividido com pé da frente elevado
+- Linha 180 → e356: Afundo caminhando com barra
+- Linha 183 → e359: Passada reversa no Smith
+- Linha 186 → e210: Subida no caixote com halteres
+- Linha 189 → e315: Descida controlada do step
+- Linha 190 → e316: Poliquin step-up com calcanhares elevados
+- Linha 196 → e319: Agachamento sissy com peso corporal
+- Linha 198 → e214: Extensão de joelhos reversa nórdica
+- Linha 206 → e136: Good morning com barra
+- Linha 222 → e324: Flexão de joelhos no aparelho GHR
+- Linha 227 → e370: Flexão de joelhos unilateral em pé na máquina
+- Linha 230 → e197: Flexão nórdica assistida
+- Linha 235 → e371: Flexão de joelhos com bola suíça
+- Linha 237 → e372: Flexão de joelhos com sliders
+- Linha 261 → e360: Passada curtsy com halteres
+- Linha 304 → e161: Desenvolvimento unilateral com halter
+- Linha 319 → e208: Elevação lateral inclinada no cabo
+- Linha 327 → e233: Remada alta na polia com corda
+- Linha 332 → e181: Elevação frontal com barra
+- Linha 341 → e171: Crucifixo inverso bilateral na polia
+- Linha 362 → e337: Rosca spider com barra W
+- Linha 366 → e218: Rosca no cabo com braço atrás do tronco
+- Linha 376 → e269: Rosca martelo cruzada
+- Linha 388 → e244: Flexão de punhos com barra sentado
+- Linha 391 → e341: Rosca de punho com barra atrás do corpo
+- Linha 395 → e301: Exercício de rolo para antebraço
+- Linha 430 → e270: Tríceps na polia alta com pegada supinada
+- Linha 458 → e215: Elevação dos dedos dos pés na parede
+- Linha 469 → e198: Abdominal na máquina
+- Linha 485 → e246: Rotação diagonal alta para baixa na polia
+
+### Variações relacionadas mantidas pendentes de especificação ou inspeção
+
+- Linha 85 → e327: Remada baixa com pegada aberta (não substituir automaticamente)
+- Linha 88 → e254: Remada unilateral baixa na polia (não substituir automaticamente)
+- Linha 99 → e254: Remada unilateral baixa na polia (não substituir automaticamente)
+- Linha 101 → e233: Remada alta na polia com corda (não substituir automaticamente)
+- Linha 109 → e331: Pulldown unilateral ajoelhado (não substituir automaticamente)
+- Linha 131 → e299: Elevação em T no banco inclinado (não substituir automaticamente)
+- Linha 132 → e300: Elevação em W no banco inclinado (não substituir automaticamente)
+- Linha 174 → e313: Leg press com pés baixos e próximos (não substituir automaticamente)
+- Linha 200 → e321: Empurrada de trenó (não substituir automaticamente)
+- Linha 207 → e16: Levantamento terra romeno com halteres (não substituir automaticamente)
+- Linha 220 → e378: Hiperextensão no banco 45° com foco em glúteo (não substituir automaticamente)
+- Linha 229 → e368: Flexão nórdica excêntrica (não substituir automaticamente)
+- Linha 265 → e192: Agachamento búlgaro no Smith (não substituir automaticamente)
+- Linha 389 → e342: Flexão de punhos com halteres (não substituir automaticamente)
+- Linha 392 → e343: Extensão de punhos com barra (não substituir automaticamente)
+- Linha 411 → e190: Tríceps testa deitado na polia (não substituir automaticamente)
+- Linha 423 → e346: Tríceps francês sentado com barra (não substituir automaticamente)
+- Linha 431 → e347: Extensão de tríceps unilateral na polia (não substituir automaticamente)
+- Linha 474 → e273: Abdominal reverso no banco (não substituir automaticamente)
+
+**QA obrigatório:** antes de confirmar cada item da lista original, conferir metadados, arquivo GIF presente e decodificável, trajetória correta, equipamento, pegada, posição e amplitude. O vínculo cadastral não comprova a qualidade da demonstração visual.
