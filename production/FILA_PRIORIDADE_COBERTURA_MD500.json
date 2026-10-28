@@ -3,8 +3,8 @@
   "branch": "codex/evolupersonal-media-350",
   "updated_on": "2026-10-28",
   "target": 500,
-  "linked_gifs": 288,
-  "to_produce": 212,
+  "linked_gifs": 295,
+  "to_produce": 205,
   "batch_size": 25,
   "rejected_batch": {
     "name": "MD500-01",
@@ -157,11 +157,6 @@
       "output_path": "dist/assets/md500/md38.gif"
     },
     {
-      "md_id": 99,
-      "name": "Remada Serrote na Polia Baixa",
-      "output_path": "dist/assets/md500/md99.gif"
-    },
-    {
       "md_id": 111,
       "name": "Pullover no Cabo Declinado ou no Banco Reto",
       "output_path": "dist/assets/md500/md111.gif"
@@ -170,14 +165,14 @@
       "md_id": 115,
       "name": "Levantamento Terra com Déficit (Em cima de anilha/caixote)",
       "output_path": "dist/assets/md500/md115.gif"
-    }
-  ],
-  "remaining_after_next": [
+    },
     {
       "md_id": 120,
       "name": "Encolhimento de Ombros com Halteres Sentado",
       "output_path": "dist/assets/md500/md120.gif"
-    },
+    }
+  ],
+  "remaining_after_next": [
     {
       "md_id": 122,
       "name": "Encolhimento de Ombros no Smith"
@@ -201,10 +196,6 @@
     {
       "md_id": 173,
       "name": "Leg Press Horizontal Unilateral"
-    },
-    {
-      "md_id": 174,
-      "name": "Leg Press 45° com Pés Baixos e Juntos (Ênfase máxima em Quadríceps)"
     },
     {
       "md_id": 175,
@@ -391,10 +382,6 @@
       "name": "Encolhimento com Barra Hexagonal (Trap Bar Shrug)"
     },
     {
-      "md_id": 126,
-      "name": "Encolhimento Kelso (Kelso Shrug - retração escapular no banco inclinado)"
-    },
-    {
       "md_id": 162,
       "name": "Agachamento Acima da Cabeça (Overhead Squat)"
     },
@@ -417,10 +404,6 @@
     {
       "md_id": 177,
       "name": "Afundo Estático com Halteres"
-    },
-    {
-      "md_id": 181,
-      "name": "Avanço Reverso (Passo para trás) com Barra"
     },
     {
       "md_id": 184,
@@ -461,10 +444,6 @@
     {
       "md_id": 219,
       "name": "Bom Dia na Máquina (Hack Squat ou Pendulum)"
-    },
-    {
-      "md_id": 220,
-      "name": "Hiperextensão no Banco 45° (Foco em Posterior - coluna neutra, rotação no quadril)"
     },
     {
       "md_id": 221,
@@ -747,10 +726,6 @@
       "name": "Tríceps Testa no Banco Declinado com Barra W"
     },
     {
-      "md_id": 411,
-      "name": "Tríceps Testa Deitado na Polia Baixa"
-    },
-    {
       "md_id": 412,
       "name": "Extensão de Tríceps Passando da Cabeça ( pullover + testa / Rolling Triceps Extension)"
     },
@@ -765,10 +740,6 @@
     {
       "md_id": 415,
       "name": "Tate Press (Extensão com halteres apontando os cotovelos para fora no peito)"
-    },
-    {
-      "md_id": 423,
-      "name": "Tríceps Francês Sentado com Barra W"
     },
     {
       "md_id": 424,
@@ -939,5 +910,42 @@
     "rejected_assets_are_not_approved": true,
     "no_main_without_permission": true,
     "completion_rule": "Marcar concluído somente com 25 GIFs próprios verificados visualmente e integrados sem erros."
-  }
+  },
+  "reviewed_legacy_recoveries": [
+    {
+      "md_id": 99,
+      "legacy_id": "e254",
+      "note": "GIF legado anatômico, reaproveitado por equivalência declarada; revisão visual integral ainda necessária"
+    },
+    {
+      "md_id": 126,
+      "legacy_id": "e298",
+      "note": "GIF legado anatômico, reaproveitado por equivalência declarada; revisão visual integral ainda necessária"
+    },
+    {
+      "md_id": 174,
+      "legacy_id": "e313",
+      "note": "GIF legado anatômico, reaproveitado por equivalência declarada; revisão visual integral ainda necessária"
+    },
+    {
+      "md_id": 181,
+      "legacy_id": "e235",
+      "note": "GIF legado anatômico, reaproveitado por equivalência declarada; revisão visual integral ainda necessária"
+    },
+    {
+      "md_id": 220,
+      "legacy_id": "e153",
+      "note": "GIF legado anatômico, reaproveitado por equivalência declarada; revisão visual integral ainda necessária"
+    },
+    {
+      "md_id": 411,
+      "legacy_id": "e190",
+      "note": "GIF legado anatômico, reaproveitado por equivalência declarada; revisão visual integral ainda necessária"
+    },
+    {
+      "md_id": 423,
+      "legacy_id": "e346",
+      "note": "GIF legado anatômico, reaproveitado por equivalência declarada; revisão visual integral ainda necessária"
+    }
+  ]
 }
