@@ -194,7 +194,7 @@ function gifLZW(pixel){
   if(dict.has(joined)){phrase=joined;continue;}
   const code=phrase.includes(',')?dict.get(phrase):+phrase;
   push(code);
-  if(next<4096){dict.set(joined,next++);if(next===(1<<size)&&size<12)size++;}
+  if(next<4096){dict.set(joined,next++);if(next>(1<<size)&&size<12)size++;}
   else{push(clr);reset();}
   phrase=String(k);
  }
