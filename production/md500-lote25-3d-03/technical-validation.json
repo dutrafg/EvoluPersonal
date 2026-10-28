@@ -1,0 +1,551 @@
+[
+  {
+    "md_id": 104,
+    "name": "Helms Row (Remada apoiada na ponta do banco com halteres)",
+    "output_path": "dist/assets/md500-3d/md104.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 103207,
+    "sha256": "8bd155f5f551641efacd5945a3b95d2c10c4b087384e706d05b94b98b633b8cd",
+    "gif_blob_sha": "9661dd015c05bdbf37f2353c831c99a5ee9fa663",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 120,
+    "name": "Encolhimento de Ombros com Halteres Sentado",
+    "output_path": "dist/assets/md500-3d/md120.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 110880,
+    "sha256": "2f64e27d84e39a64be9723b94a0cfa305da33a02d1063eda628df6bf0f923b15",
+    "gif_blob_sha": "7ff77d435e0e13a07824c0866778b6dce0d52c96",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 121,
+    "name": "Encolhimento de Ombros no Banco Inclinado (Foco no trapézio médio/superior)",
+    "output_path": "dist/assets/md500-3d/md121.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 108442,
+    "sha256": "d14bfb6a19e0103e7b97831aad2e5ec44a2be8a425fb0fe9f0fce66a348d8724",
+    "gif_blob_sha": "16d86afe5348a7f74938d182b6e642c86c37ba7e",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 160,
+    "name": "Agachamento com Halteres nas Laterais do Corpo",
+    "output_path": "dist/assets/md500-3d/md160.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 106893,
+    "sha256": "265be39e9115808306b1c6251e1a408cc35bee61a6d5145349a9d086b45615c8",
+    "gif_blob_sha": "5cf67f5dcb2642443bfc77734c821c35aecf006f",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 209,
+    "name": "Stiff no Smith",
+    "output_path": "dist/assets/md500-3d/md209.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 112708,
+    "sha256": "a4d2beeb8b4a546e3191904f5c8705457c3f493ab6c9a852f7e1b9873142517b",
+    "gif_blob_sha": "28bde37a70c4246421cf958b3f7ba56197adfcc3",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 215,
+    "name": "Stiff com Pés Elevados na Rampa (Maior alongamento dos isquiotibiais)",
+    "output_path": "dist/assets/md500-3d/md215.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 105405,
+    "sha256": "4812fd4b752c17d62d6bdcecd618f4ee4f0bfc4067bce346de6e554a0988d59f",
+    "gif_blob_sha": "6fcf0e4ff2a2beb1827e1c747639155ff21c7662",
+    "frame_order": [
+      0,
+      1,
+      2,
+      1,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 221,
+    "name": "Hiperextensão Unilateral no Banco 45°",
+    "output_path": "dist/assets/md500-3d/md221.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 104924,
+    "sha256": "869e93e05d42a58b7f1f28555f20db14ff012da10ea1e7987c9684526114f09b",
+    "gif_blob_sha": "b450370494c4a673b3c535c554de25d868d6de34",
+    "frame_order": [
+      1,
+      2,
+      3,
+      4,
+      2,
+      1
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 224,
+    "name": "Swing Russo com Kettlebell (Kettlebell Swing)",
+    "output_path": "dist/assets/md500-3d/md224.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 101116,
+    "sha256": "fce7af691e008ab2fffa065502ac76d282100ec01eecb2756423c842c1bba0c4",
+    "gif_blob_sha": "7ce73aafbb172f84b8e88c8328ae0a9e98afba31",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 231,
+    "name": "Flexão de Joelho Deitado com Halter entre os Pés",
+    "output_path": "dist/assets/md500-3d/md231.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 107536,
+    "sha256": "d7189b5758d0dbadc0e255e12cdbcc769392caa3e2a22f87db4889dd7b958161",
+    "gif_blob_sha": "b13b1b489574ff60ddc5a1023b42ebaf75f6c3c8",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 232,
+    "name": "Flexão de Joelho em Pé na Polia Baixa",
+    "output_path": "dist/assets/md500-3d/md232.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 111325,
+    "sha256": "67e00756c0f2aee55626415d3eb575c8bca3b607e3885a6fffa06f1f8f53941b",
+    "gif_blob_sha": "d297ffadf101401cabcf22ce9cfa25293df77608",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 234,
+    "name": "Flexão de Joelho em Pé com Caneleira",
+    "output_path": "dist/assets/md500-3d/md234.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 101939,
+    "sha256": "af16bbdd6650011c7b9b9f556d7eb0037de8bd7fd236d71811e195f56931ccaf",
+    "gif_blob_sha": "4c6b271321edd3679d5080c604b6a1ec169a2d7b",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 239,
+    "name": "Ponte de Isquiotibiais com Pernas Semi-estendidas (Long-Lever Glute Bridge)",
+    "output_path": "dist/assets/md500-3d/md239.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 96954,
+    "sha256": "e3877b0a90cf78d3fd3626ffa61cf60bf4f6c11cd86bc9509d2ae350a3f49e1c",
+    "gif_blob_sha": "c7f75aa7f9042a27503504eaabb9181e3c5504b0",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 254,
+    "name": "Kas Glute Bridge (Elevação Pélvica com amplitude curta no topo)",
+    "output_path": "dist/assets/md500-3d/md254.gif",
+    "frames": 5,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 82041,
+    "sha256": "423e27a821ba747052268ea5a4568c43e563273263e21db5fd0d92e05f4bb683",
+    "gif_blob_sha": "bdbd7b042f24753a7618e6198664ae94bda1c5f4",
+    "frame_order": [
+      1,
+      2,
+      3,
+      4,
+      1
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 263,
+    "name": "Step-up Alto na Caixa (Tronco inclinado à frente)",
+    "output_path": "dist/assets/md500-3d/md263.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 99862,
+    "sha256": "146b60ec4fa4b6504c72e25cf04269e3ab75bb3226690478936081234eda8fe3",
+    "gif_blob_sha": "ce0ac27ac744bbb23603ee5e40ec78d57922342e",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 270,
+    "name": "Extensão de Quadril em 4 Apoios com Caneleira (Perna estendida)",
+    "output_path": "dist/assets/md500-3d/md270.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 106883,
+    "sha256": "63f936b147479cb30980749ac5c184222e4c7aef526ec74883de92f762022bda",
+    "gif_blob_sha": "4bdf268c767336fba97451238bd0758fdad685a8",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 282,
+    "name": "Hidrante (Fire Hydrant - Abdução em 4 apoios com caneleira ou elástico)",
+    "output_path": "dist/assets/md500-3d/md282.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 107807,
+    "sha256": "6801815f6f558d48d2784831a9068881ec916b52862bf55995a963571c22253d",
+    "gif_blob_sha": "8291fd96e4b206badeb95680134c40676eb650a8",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 283,
+    "name": "Queda Pélvica Lateral no Step (Hip Drop / Pelvic Drop)",
+    "output_path": "dist/assets/md500-3d/md283.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 108538,
+    "sha256": "d71bf8a4608986b2422abe1f13a355353d93e26c2445d679bc143ef2074e8110",
+    "gif_blob_sha": "7ae4d1965cc332dfe0e250d8b1d318f3a6952e41",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 288,
+    "name": "Deslizamento Lateral de Adutores no Solo (Slider Lateral Lunge)",
+    "output_path": "dist/assets/md500-3d/md288.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 98132,
+    "sha256": "31005e9c02a98a2c461aa0f58a8710d103d521175d16025179eea3ea913f7e49",
+    "gif_blob_sha": "42e2e5cd6a7a1c3c45254b732fa585db246a29d8",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 320,
+    "name": "Elevação Lateral Deitado de Lado no Banco Inclinado",
+    "output_path": "dist/assets/md500-3d/md320.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 109444,
+    "sha256": "b69f65e08fa61cbf09c6a35dd137657ad8ea5dca93eccd7caa0467332df156b6",
+    "gif_blob_sha": "9968aff3be723467919fdcc1954fd8ef9c739a7e",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 367,
+    "name": "Rosca Unilateral na Polia Baixa (De frente)",
+    "output_path": "dist/assets/md500-3d/md367.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 112419,
+    "sha256": "f4f6aae8a29a54dcd0ef4822ef93390c8a6c8d8c32280e7164fa3a1acccac6db",
+    "gif_blob_sha": "248e3ab08b7ba055cda4b461261c0911e1499a12",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      1,
+      0
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 323,
+    "name": "Elevação Lateral Completa (Lu Raise - subindo até acima da cabeça)",
+    "output_path": "dist/assets/md500-3d/md323.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 105251,
+    "sha256": "52b02ce66847b0ecbf8f87aadebfe03ddc214bb52d6bf3f625d0d6ed5230ff94",
+    "gif_blob_sha": "a4850efdebe5dc9558478b0a5c75bdc2959567f5",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 324,
+    "name": "Elevação Lateral Parcial Pesada (Heavy Partial Lateral Raise)",
+    "output_path": "dist/assets/md500-3d/md324.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 107122,
+    "sha256": "b4ba86e022867b50aa5a96db7f1bcba03772bce32b13b67d4dff26c0d6a14a0a",
+    "gif_blob_sha": "79605b712de06290e2010927136ea2df49ec173e",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 331,
+    "name": "Elevação Frontal com Halteres em Pegada Neutra (Martelo)",
+    "output_path": "dist/assets/md500-3d/md331.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 105799,
+    "sha256": "5da46330667c6e0411bb6d56e495da63c2236f52bb197b40246d5d41f88da553",
+    "gif_blob_sha": "7cca4372af94e79f198c35bcfae3bf69831333f9",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 339,
+    "name": "Crucifixo Inverso no Banco Inclinado com Halteres",
+    "output_path": "dist/assets/md500-3d/md339.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 107004,
+    "sha256": "7ae83046f14e9083810fb804909414a06b5142cbb1b8d78543aad344c0da8065",
+    "gif_blob_sha": "49a065100c09dd3faaf74f69a2b437b91bca5149",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 349,
+    "name": "Rotação Externa de Ombro com Halter (Deitado de lado ou apoiado no joelho)",
+    "output_path": "dist/assets/md500-3d/md349.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 105475,
+    "sha256": "0b078ea5e0ed94d97bae723479aa23641e209ff83e9868f50b10c3ddc3452656",
+    "gif_blob_sha": "5959065a74bf294cc4866a8b43bce810d3cd17c5",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  }
+]

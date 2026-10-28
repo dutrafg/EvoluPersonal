@@ -2,9 +2,9 @@
 
 Fonte única: **500 Exercícios Base de Musculação.md**. Nomes e ordem preservados.
 
-**500 exercícios · 346 com GIF vinculado · 154 sem GIF.** Os 50 GIFs novos e a equivalência MD357/e141 estão associados para revisão: vínculo cadastral não significa aprovação visual ou biomecânica.
+**500 exercícios · 371 com GIF vinculado · 129 sem GIF.** Os 75 GIFs novos e a equivalência MD357/e141 estão associados para revisão: vínculo cadastral não significa aprovação visual ou biomecânica.
 
-Os identificadores `eN` apontam para `dist/assets/exercises/`; os `mdN` apontam para `dist/assets/md500-3d/`. O lote 2D reprovado em `dist/assets/md500/` continua fora do catálogo.
+Os identificadores `eN` apontam para `dist/assets/exercises/`; os `mdN` para `dist/assets/md500-3d/`. O lote 2D reprovado continua fora do catálogo.
 
 | Nº MD | Nome original no MD | GIF |
 |---:|---|---|
@@ -84,7 +84,7 @@ Os identificadores `eN` apontam para `dist/assets/exercises/`; os `mdN` apontam 
 | 74 | Puxada Alta Articulada na Máquina (Convergente) | `e414` |
 | 75 | Puxada Alta Unilateral na Polia | `e91` |
 | 76 | Puxada Alta Ajoelhado na Polia | `md76` |
-| 77 | Puxada Alta por Trás da Nuca (Uso específico/mobilidade) | — |
+| 77 | Puxada Alta por Trás da Nuca (Uso específico/mobilidade) | `—` |
 | 78 | Barra Fixa no Graviton (Máquina Assistida) | `e154` |
 | 79 | Barra Fixa com Elástico de Assistência | `e415` |
 | 80 | Barra Fixa com Carga Adicional (Cinto de Lastro) | `e307` |
@@ -111,7 +111,7 @@ Os identificadores `eN` apontam para `dist/assets/exercises/`; os `mdN` apontam 
 | 101 | Remada Alta na Polia Sentado com Corda (Puxando em direção ao peito/pescoço) | `md101` |
 | 102 | Remada Invertida na Barra (Australian Pull-up) | `e229` |
 | 103 | Remada Invertida no TRX / Argolas | `e36` |
-| 104 | Helms Row (Remada apoiada na ponta do banco com halteres) | — |
+| 104 | Helms Row (Remada apoiada na ponta do banco com halteres) | `md104` |
 | 105 | Remada Gorila com Kettlebells (Gorilla Row) | `e424` |
 | 106 | Remada Renegada (Renegade Row em posição de prancha) | `e92` |
 | 107 | Pulldown na Polia Alta com Barra Reta (Braços estendidos) | `e57` |
@@ -127,8 +127,8 @@ Os identificadores `eN` apontam para `dist/assets/exercises/`; os `mdN` apontam 
 | 117 | Encolhimento de Ombros com Barra pela Frente | `e231` |
 | 118 | Encolhimento de Ombros com Barra por Trás | `md118` |
 | 119 | Encolhimento de Ombros com Halteres em Pé | `e85` |
-| 120 | Encolhimento de Ombros com Halteres Sentado | — |
-| 121 | Encolhimento de Ombros no Banco Inclinado (Foco no trapézio médio/superior) | — |
+| 120 | Encolhimento de Ombros com Halteres Sentado | `md120` |
+| 121 | Encolhimento de Ombros no Banco Inclinado (Foco no trapézio médio/superior) | `md121` |
 | 122 | Encolhimento de Ombros no Smith | `md122` |
 | 123 | Encolhimento de Ombros na Polia Baixa | `md123` |
 | 124 | Encolhimento de Ombros na Máquina (Ou no aparelho de Supino em pé) | `e308` |
@@ -141,10 +141,10 @@ Os identificadores `eN` apontam para `dist/assets/exercises/`; os `mdN` apontam 
 | 131 | Elevação em T no Banco Inclinado com Halteres (Foco em Romboides) | `e299` |
 | 132 | Elevação em W no Banco Inclinado com Halteres | `e300` |
 | 133 | Retração Escapular na Barra Fixa (Scapular Pull-up) | `e293` |
-| 134 | Retração Escapular na Puxada Alta | — |
+| 134 | Retração Escapular na Puxada Alta | `—` |
 | 135 | Crucifixo Inverso no Cabo (Foco em Upper Back/Romboides) | `e171` |
 | 136 | Remada com Elástico Sentado | `e35` |
-| 137 | Puxada de Trenó com Corda (Sled Pull) | — |
+| 137 | Puxada de Trenó com Corda (Sled Pull) | `—` |
 | 138 | Caminhada do Fazendeiro (Farmer's Walk - Foco em Trapézio e Estabilizadores) | `e84` |
 | 139 | Levantamento Reeves (Reeves Deadlift - pegada na aba das anilhas) | `e296` |
 | 140 | Crucifixo Inverso na Máquina (Peck Deck Inverso com escápulas móveis) | `e110` |
@@ -160,14 +160,14 @@ Os identificadores `eN` apontam para `dist/assets/exercises/`; os `mdN` apontam 
 | 150 | Agachamento Goblet (Com Halter ou Kettlebell no peito) | `e26` |
 | 151 | Agachamento Zercher (Barra apoiada na dobra dos cotovelos) | `e309` |
 | 152 | Agachamento com Barra de Segurança (Safety Bar Squat - SSB) | `md152` |
-| 153 | Agachamento Pêndulo na Máquina (Pendulum Squat) | — |
+| 153 | Agachamento Pêndulo na Máquina (Pendulum Squat) | `—` |
 | 154 | Agachamento no Cinto (Belt Squat) | `e191` |
-| 155 | Agachamento V-Squat na Máquina | — |
+| 155 | Agachamento V-Squat na Máquina | `—` |
 | 156 | Agachamento Ciclista (Calcanhares elevados em rampa/anilhas) | `e310` |
 | 157 | Agachamento na Caixa (Box Squat) | `e167` |
 | 158 | Agachamento com Pausa no Fundo (Paused Squat) | `e353` |
 | 159 | Agachamento Anderson (Saída dos pinos de segurança do fundo) | `e311` |
-| 160 | Agachamento com Halteres nas Laterais do Corpo | — |
+| 160 | Agachamento com Halteres nas Laterais do Corpo | `md160` |
 | 161 | Agachamento com Dois Kettlebells no Peito (Double Kettlebell Front Squat) | `e312` |
 | 162 | Agachamento Acima da Cabeça (Overhead Squat) | `md162` |
 | 163 | Agachamento Jefferson (Barra entre as pernas) | `md163` |
@@ -178,11 +178,11 @@ Os identificadores `eN` apontam para `dist/assets/exercises/`; os `mdN` apontam 
 | 168 | Agachamento Hack com Barra Livre (Barra por trás das pernas) | `md168` |
 | 169 | Leg Press Horizontal na Máquina | `e156` |
 | 170 | Leg Press Vertical (90 Graus) | `md170` |
-| 171 | Leg Press Articulado (Iso-Lateral) | — |
+| 171 | Leg Press Articulado (Iso-Lateral) | `—` |
 | 172 | Leg Press 45° Unilateral | `e259` |
-| 173 | Leg Press Horizontal Unilateral | — |
+| 173 | Leg Press Horizontal Unilateral | `—` |
 | 174 | Leg Press 45° com Pés Baixos e Juntos (Ênfase máxima em Quadríceps) | `e313` |
-| 175 | Agachamento Hack Unilateral | — |
+| 175 | Agachamento Hack Unilateral | `—` |
 | 176 | Afundo Estático com Barra Livre (Split Squat) | `md176` |
 | 177 | Afundo Estático com Halteres | `md177` |
 | 178 | Afundo Estático no Smith | `md178` |
@@ -204,10 +204,10 @@ Os identificadores `eN` apontam para `dist/assets/exercises/`; os `mdN` apontam 
 | 194 | Cadeira Extensora Unilateral | `e237` |
 | 195 | Cadeira Extensora com Tronco Reclinado (Maior estiramento do reto femoral) | `e318` |
 | 196 | Sissy Squat Livre (Peso do corpo ou segurando anilha) | `e319` |
-| 197 | Sissy Squat no Aparelho / Suporte de Pés | — |
+| 197 | Sissy Squat no Aparelho / Suporte de Pés | `—` |
 | 198 | Extensão de Joelho Reversa Nórdica (Reverse Nordic Curl) | `e214` |
 | 199 | Extensão de Joelho na Polia Baixa com Tornozelo Preso | `e320` |
-| 200 | Empurrada de Trenó (Sled Push) / Puxada de Trenó de Costas (Backward Sled Drag) | — |
+| 200 | Empurrada de Trenó (Sled Push) / Puxada de Trenó de Costas (Backward Sled Drag) | `—` |
 | 201 | Levantamento Terra Romeno com Barra (RDL - Romanian Deadlift) | `e134` |
 | 202 | Stiff com Barra (Pernas semirrígidas) | `e135` |
 | 203 | Levantamento Terra Romeno com Halteres | `e16` |
@@ -216,38 +216,38 @@ Os identificadores `eN` apontam para `dist/assets/exercises/`; os `mdN` apontam 
 | 206 | Bom Dia com Barra (Good Morning) | `e136` |
 | 207 | Stiff com Halteres | `md207` |
 | 208 | RDL no Smith | `md208` |
-| 209 | Stiff no Smith | — |
+| 209 | Stiff no Smith | `md209` |
 | 210 | RDL Unilateral com Halteres (Livre - Single Leg RDL) | `e81` |
 | 211 | RDL em Base Assimétrica (B-Stance RDL com Barra ou Halteres) | `md211` |
-| 212 | RDL no Landmine (Bilateral ou Unilateral) | — |
+| 212 | RDL no Landmine (Bilateral ou Unilateral) | `—` |
 | 213 | RDL na Polia Baixa | `md213` |
-| 214 | RDL na Máquina de Hack / V-Squat Invertido | — |
-| 215 | Stiff com Pés Elevados na Rampa (Maior alongamento dos isquiotibiais) | — |
+| 214 | RDL na Máquina de Hack / V-Squat Invertido | `—` |
+| 215 | Stiff com Pés Elevados na Rampa (Maior alongamento dos isquiotibiais) | `md215` |
 | 216 | Bom Dia Sentado com Barra (Seated Good Morning) | `e323` |
 | 217 | Bom Dia no Smith | `md217` |
 | 218 | Bom Dia com Barra de Segurança (SSB Good Morning) | `md218` |
-| 219 | Bom Dia na Máquina (Hack Squat ou Pendulum) | — |
+| 219 | Bom Dia na Máquina (Hack Squat ou Pendulum) | `—` |
 | 220 | Hiperextensão no Banco 45° (Foco em Posterior - coluna neutra, rotação no quadril) | `e153` |
-| 221 | Hiperextensão Unilateral no Banco 45° | — |
+| 221 | Hiperextensão Unilateral no Banco 45° | `md221` |
 | 222 | Glute-Ham Raise (GHR) no Aparelho Específico | `e324` |
 | 223 | Pull-Through na Polia Baixa com Corda | `e373` |
-| 224 | Swing Russo com Kettlebell (Kettlebell Swing) | — |
+| 224 | Swing Russo com Kettlebell (Kettlebell Swing) | `md224` |
 | 225 | Mesa Flexora Unilateral | `e158` |
-| 226 | Cadeira Flexora Unilateral | — |
+| 226 | Cadeira Flexora Unilateral | `—` |
 | 227 | Flexora em Pé Unilateral na Máquina (Standing Leg Curl) | `e370` |
-| 228 | Flexora Ajoelhada na Máquina (Kneeling Leg Curl) | — |
-| 229 | Flexão Nórdica (Nordic Hamstring Curl) | — |
+| 228 | Flexora Ajoelhada na Máquina (Kneeling Leg Curl) | `—` |
+| 229 | Flexão Nórdica (Nordic Hamstring Curl) | `—` |
 | 230 | Flexão Nórdica Assistida com Elástico ou Polia Alta | `e197` |
-| 231 | Flexão de Joelho Deitado com Halter entre os Pés | — |
-| 232 | Flexão de Joelho em Pé na Polia Baixa | — |
-| 233 | Flexão de Joelho Deitado na Polia Baixa | — |
-| 234 | Flexão de Joelho em Pé com Caneleira | — |
+| 231 | Flexão de Joelho Deitado com Halter entre os Pés | `md231` |
+| 232 | Flexão de Joelho em Pé na Polia Baixa | `md232` |
+| 233 | Flexão de Joelho Deitado na Polia Baixa | `—` |
+| 234 | Flexão de Joelho em Pé com Caneleira | `md234` |
 | 235 | Flexão de Joelho na Bola Suíça (Swiss Ball Hamstring Curl) | `e371` |
-| 236 | Flexão de Joelho Unilateral na Bola Suíça | — |
+| 236 | Flexão de Joelho Unilateral na Bola Suíça | `—` |
 | 237 | Flexão de Joelho Deslizante no Solo (Slider Leg Curl) | `e372` |
-| 238 | Flexão de Joelho no TRX / Fita de Suspensão | — |
-| 239 | Ponte de Isquiotibiais com Pernas Semi-estendidas (Long-Lever Glute Bridge) | — |
-| 240 | Razor Curl no Aparelho de GHR | — |
+| 238 | Flexão de Joelho no TRX / Fita de Suspensão | `—` |
+| 239 | Ponte de Isquiotibiais com Pernas Semi-estendidas (Long-Lever Glute Bridge) | `md239` |
+| 240 | Razor Curl no Aparelho de GHR | `—` |
 | 241 | Elevação Pélvica com Barra (Barbell Hip Thrust) | `e30` |
 | 242 | Levantamento Terra Sumô com Barra | `e137` |
 | 243 | Agachamento Profundo com Barra (Full Squat) | `e138` |
@@ -257,47 +257,47 @@ Os identificadores `eN` apontam para `dist/assets/exercises/`; os `mdN` apontam 
 | 247 | Cadeira Adutora | `e20` |
 | 248 | Elevação Pélvica na Máquina Específica | `e157` |
 | 249 | Elevação Pélvica no Smith | `md249` |
-| 250 | Elevação Pélvica na Cadeira Extensora / Mesa Flexora (Adaptação) | — |
+| 250 | Elevação Pélvica na Cadeira Extensora / Mesa Flexora (Adaptação) | `—` |
 | 251 | Elevação Pélvica com Halter ou Kettlebell | `md251` |
 | 252 | Elevação Pélvica Unilateral com Peso do Corpo ou Halter | `e375` |
 | 253 | Elevação Pélvica em Base Assimétrica (B-Stance Hip Thrust) | `e377` |
-| 254 | Kas Glute Bridge (Elevação Pélvica com amplitude curta no topo) | — |
+| 254 | Kas Glute Bridge (Elevação Pélvica com amplitude curta no topo) | `md254` |
 | 255 | Ponte de Glúteo no Solo com Barra (Barbell Glute Bridge) | `e376` |
 | 256 | Ponte de Glúteo Unilateral no Solo (Single-Leg Glute Bridge) | `e31` |
 | 257 | Frog Pump (Ponte de glúteo com solas dos pés unidas) | `md257` |
 | 258 | Elevação Pélvica com Pés Elevados no Banco | `md258` |
 | 259 | Hiperextensão no Banco 45° com Foco em Glúteo (Costas arredondadas, pés abduzidos) | `e378` |
-| 260 | Extensão de Quadril Reversa na Máquina (Reverse Hyperextension) | — |
+| 260 | Extensão de Quadril Reversa na Máquina (Reverse Hyperextension) | `—` |
 | 261 | Agachamento Reverência / Cruzado (Curtsy Lunge) com Halteres ou Barra | `e360` |
-| 262 | Agachamento Reverência no Smith | — |
-| 263 | Step-up Alto na Caixa (Tronco inclinado à frente) | — |
-| 264 | Step-up Cruzado (Cross-over Step-up) | — |
-| 265 | Afundo no Smith com Pé de Trás Apoiado no Step e Tronco Inclinado | — |
+| 262 | Agachamento Reverência no Smith | `—` |
+| 263 | Step-up Alto na Caixa (Tronco inclinado à frente) | `md263` |
+| 264 | Step-up Cruzado (Cross-over Step-up) | `—` |
+| 265 | Afundo no Smith com Pé de Trás Apoiado no Step e Tronco Inclinado | `—` |
 | 266 | Coice na Polia Baixa (Cable Glute Kickback) | `e78` |
 | 267 | Coice na Polia Baixa com Perna Semi-flexionada | `e79` |
 | 268 | Coice na Máquina (Glute Kickback Machine - em pé ou 4 apoios) | `e382` |
-| 269 | Coice no Smith (Empurrando a barra com a sola do pé em 4 apoios) | — |
-| 270 | Extensão de Quadril em 4 Apoios com Caneleira (Perna estendida) | — |
+| 269 | Coice no Smith (Empurrando a barra com a sola do pé em 4 apoios) | `—` |
+| 270 | Extensão de Quadril em 4 Apoios com Caneleira (Perna estendida) | `md270` |
 | 271 | Extensão de Quadril em 4 Apoios com Caneleira (Joelho flexionado a 90° - Donkey Kick) | `e383` |
-| 272 | Levantamento Terra Sumô com Halter ou Kettlebell (Em cima de dois steps) | — |
-| 273 | Agachamento Ajoelhado no Smith ou com Barra (Kneeling Squat) | — |
-| 274 | Cadeira Abdutora com Tronco Inclinado à Frente | — |
-| 275 | Cadeira Abdutora em Pé (Sem sentar no banco) | — |
+| 272 | Levantamento Terra Sumô com Halter ou Kettlebell (Em cima de dois steps) | `—` |
+| 273 | Agachamento Ajoelhado no Smith ou com Barra (Kneeling Squat) | `—` |
+| 274 | Cadeira Abdutora com Tronco Inclinado à Frente | `—` |
+| 275 | Cadeira Abdutora em Pé (Sem sentar no banco) | `—` |
 | 276 | Abdução de Quadril em Pé na Polia Baixa (Pelo lado ou por trás da perna de apoio) | `e379` |
 | 277 | Abdução de Quadril Deitado de Lado no Solo com Caneleira | `e380` |
-| 278 | Abdução de Quadril Deitado de Lado na Polia Baixa | — |
+| 278 | Abdução de Quadril Deitado de Lado na Polia Baixa | `—` |
 | 279 | Exercício Ostra (Clamshell) com Mini Band | `e381` |
 | 280 | Prancha Lateral com Abdução de Quadril | `e395` |
 | 281 | Caminhada Lateral com Mini Band (Monster Walk / Lateral Band Walk) | `e73` |
-| 282 | Hidrante (Fire Hydrant - Abdução em 4 apoios com caneleira ou elástico) | — |
-| 283 | Queda Pélvica Lateral no Step (Hip Drop / Pelvic Drop) | — |
+| 282 | Hidrante (Fire Hydrant - Abdução em 4 apoios com caneleira ou elástico) | `md282` |
+| 283 | Queda Pélvica Lateral no Step (Hip Drop / Pelvic Drop) | `md283` |
 | 284 | Adução de Quadril em Pé na Polia Baixa | `e391` |
 | 285 | Adução de Quadril Deitado no Solo com Caneleira | `e392` |
 | 286 | Prancha Copenhague (Copenhagen Adductor Plank - Isométrica ou Dinâmica) | `e393` |
 | 287 | Afundo Lateral (Cossack Squat / Side Lunge) com Halter ou Barra | `e394` |
-| 288 | Deslizamento Lateral de Adutores no Solo (Slider Lateral Lunge) | — |
+| 288 | Deslizamento Lateral de Adutores no Solo (Slider Lateral Lunge) | `md288` |
 | 289 | Adução Isométrica com Bola Suíça entre os Joelhos | `e396` |
-| 290 | Máquina Multiquadril (4-Way Hip Machine - Extensão, Flexão, Abdução, Adução) | — |
+| 290 | Máquina Multiquadril (4-Way Hip Machine - Extensão, Flexão, Abdução, Adução) | `—` |
 | 291 | Desenvolvimento Militar em Pé com Barra (Overhead Press - OHP) | `e58` |
 | 292 | Desenvolvimento Sentado com Halteres | `md292` |
 | 293 | Desenvolvimento Sentado com Barra pela Frente | `e124` |
@@ -306,8 +306,8 @@ Os identificadores `eN` apontam para `dist/assets/exercises/`; os `mdN` apontam 
 | 296 | Crucifixo Inverso com Halteres (Deltoide Posterior) | `e60` |
 | 297 | Desenvolvimento em Pé com Halteres | `e265` |
 | 298 | Desenvolvimento no Smith (Pela Frente) | `md298` |
-| 299 | Desenvolvimento por Trás da Nuca com Barra (Behind-the-Neck Press) | — |
-| 300 | Desenvolvimento por Trás da Nuca no Smith | — |
+| 299 | Desenvolvimento por Trás da Nuca com Barra (Behind-the-Neck Press) | `—` |
+| 300 | Desenvolvimento por Trás da Nuca no Smith | `—` |
 | 301 | Desenvolvimento na Máquina (Pegada Pronada Aberta) | `e112` |
 | 302 | Desenvolvimento na Máquina (Pegada Neutra Fechada) | `e112` |
 | 303 | Desenvolvimento Articulado Convergente | `md303` |
@@ -315,49 +315,49 @@ Os identificadores `eN` apontam para `dist/assets/exercises/`; os `mdN` apontam 
 | 305 | Desenvolvimento Alternado Sentado com Halteres | `md305` |
 | 306 | Push Press com Barra (Desenvolvimento com impulso das pernas) | `md306` |
 | 307 | Z-Press (Desenvolvimento sentado no chão com pernas estendidas à frente) | `md307` |
-| 308 | Viking Press (No acessório específico ou Landmine) | — |
+| 308 | Viking Press (No acessório específico ou Landmine) | `—` |
 | 309 | Desenvolvimento Unilateral no Landmine (Em pé ou ajoelhado) | `e162` |
-| 310 | Desenvolvimento com Barra Suíça (Pegada Neutra) | — |
-| 311 | Bradford Press (Passando a barra da frente para trás da cabeça sem trancar os cotovelos) | — |
+| 310 | Desenvolvimento com Barra Suíça (Pegada Neutra) | `—` |
+| 311 | Bradford Press (Passando a barra da frente para trás da cabeça sem trancar os cotovelos) | `—` |
 | 312 | Desenvolvimento Invertido na Parede (Handstand Push-up / Pike Push-up) | `e88` |
 | 313 | Desenvolvimento com Kettlebell de Cabeça para Baixo (Bottoms-up KB Press) | `md313` |
 | 314 | Elevação Lateral Sentado com Halteres | `e59` |
-| 315 | Elevação Lateral na Polia Baixa (Cabo passando pela frente do corpo) | — |
-| 316 | Elevação Lateral na Polia Baixa (Cabo passando por trás do corpo) | — |
-| 317 | Elevação Lateral na Polia na Altura do Quadril/Punho (Maior tensão no início) | — |
-| 318 | Elevação Lateral Dupla Cruzada nos Cabos (Bilateral no Crossover) | — |
+| 315 | Elevação Lateral na Polia Baixa (Cabo passando pela frente do corpo) | `—` |
+| 316 | Elevação Lateral na Polia Baixa (Cabo passando por trás do corpo) | `—` |
+| 317 | Elevação Lateral na Polia na Altura do Quadril/Punho (Maior tensão no início) | `—` |
+| 318 | Elevação Lateral Dupla Cruzada nos Cabos (Bilateral no Crossover) | `—` |
 | 319 | Elevação Lateral Unilateral Inclinado (Segurando na coluna do aparelho) | `e208` |
-| 320 | Elevação Lateral Deitado de Lado no Banco Inclinado | — |
-| 321 | Elevação Lateral com Peito Apoiado no Banco Inclinado | — |
+| 320 | Elevação Lateral Deitado de Lado no Banco Inclinado | `md320` |
+| 321 | Elevação Lateral com Peito Apoiado no Banco Inclinado | `—` |
 | 322 | Elevação Lateral na Máquina Específica | `e180` |
-| 323 | Elevação Lateral Completa (Lu Raise - subindo até acima da cabeça) | — |
-| 324 | Elevação Lateral Parcial Pesada (Heavy Partial Lateral Raise) | — |
-| 325 | Remada Alta com Barra Reta ou W (Pegada Média/Aberta - foco em Deltoide Lateral) | — |
+| 323 | Elevação Lateral Completa (Lu Raise - subindo até acima da cabeça) | `md323` |
+| 324 | Elevação Lateral Parcial Pesada (Heavy Partial Lateral Raise) | `md324` |
+| 325 | Remada Alta com Barra Reta ou W (Pegada Média/Aberta - foco em Deltoide Lateral) | `—` |
 | 326 | Remada Alta com Halteres | `e89` |
 | 327 | Remada Alta na Polia Baixa (Com Barra ou Corda) | `e233` |
-| 328 | Remada Alta no Smith | — |
-| 329 | Remada Alta Unilateral com Halter ou na Polia (Monkey Row) | — |
+| 328 | Remada Alta no Smith | `—` |
+| 329 | Remada Alta Unilateral com Halter ou na Polia (Monkey Row) | `—` |
 | 330 | Elevação Frontal com Halteres (Alternada ou Simultânea - Pegada Pronada) | `e114` |
-| 331 | Elevação Frontal com Halteres em Pegada Neutra (Martelo) | — |
+| 331 | Elevação Frontal com Halteres em Pegada Neutra (Martelo) | `md331` |
 | 332 | Elevação Frontal com Barra Reta ou W | `e181` |
-| 333 | Elevação Frontal na Polia Baixa com Corda (Puxando por entre as pernas) | — |
-| 334 | Elevação Frontal na Polia Baixa com Barra | — |
+| 333 | Elevação Frontal na Polia Baixa com Corda (Puxando por entre as pernas) | `—` |
+| 334 | Elevação Frontal na Polia Baixa com Barra | `—` |
 | 335 | Elevação Frontal com Anilha (Plate Front Raise - com ou sem giro de volante) | `e182` |
-| 336 | Elevação Frontal Deitado de Costas no Banco Inclinado | — |
-| 337 | Elevação Frontal com Peito Apoiado no Banco Inclinado | — |
+| 336 | Elevação Frontal Deitado de Costas no Banco Inclinado | `—` |
+| 337 | Elevação Frontal com Peito Apoiado no Banco Inclinado | `—` |
 | 338 | Crucifixo Inverso Sentado com Halteres (Tronco sobre os joelhos) | `e183` |
-| 339 | Crucifixo Inverso no Banco Inclinado com Halteres | — |
+| 339 | Crucifixo Inverso no Banco Inclinado com Halteres | `md339` |
 | 340 | Crucifixo Inverso no Peck Deck / Voador Inverso (Pegada Pronada ou Neutra) | `e110` |
 | 341 | Crucifixo Inverso Cruzado na Polia Alta / Média (Sem puxador, segurando nas bolinhas do cabo) | `e171` |
-| 342 | Crucifixo Inverso Unilateral na Polia | — |
-| 343 | Remada para Deltoide Posterior com Halteres (Cotovelos abertos a 90°) | — |
-| 344 | Remada para Deltoide Posterior na Polia ou Smith (Rear Delt Row) | — |
-| 345 | Extensão de Ombro para Trás na Polia ou com Halteres (Skiers / Rear Delt Kickback) | — |
-| 346 | Powell Raise (Crucifixo inverso unilateral deitado de lado no banco) | — |
-| 347 | Face Pull com Rotação Externa na Polia Alta | — |
+| 342 | Crucifixo Inverso Unilateral na Polia | `—` |
+| 343 | Remada para Deltoide Posterior com Halteres (Cotovelos abertos a 90°) | `—` |
+| 344 | Remada para Deltoide Posterior na Polia ou Smith (Rear Delt Row) | `—` |
+| 345 | Extensão de Ombro para Trás na Polia ou com Halteres (Skiers / Rear Delt Kickback) | `—` |
+| 346 | Powell Raise (Crucifixo inverso unilateral deitado de lado no banco) | `—` |
+| 347 | Face Pull com Rotação Externa na Polia Alta | `—` |
 | 348 | Rotação Externa de Ombro na Polia (Cotovelo a 90° colado ao tronco) | `e184` |
-| 349 | Rotação Externa de Ombro com Halter (Deitado de lado ou apoiado no joelho) | — |
-| 350 | Cuban Press (Remada alta + rotação externa + desenvolvimento) | — |
+| 349 | Rotação Externa de Ombro com Halter (Deitado de lado ou apoiado no joelho) | `md349` |
+| 350 | Cuban Press (Remada alta + rotação externa + desenvolvimento) | `—` |
 | 351 | Rosca Direta com Barra Reta | `e10` |
 | 352 | Rosca Direta com Barra W (EZ Bar) | `e139` |
 | 353 | Rosca Alternada em Pé com Halteres (Com supinação) | `e44` |
@@ -367,106 +367,106 @@ Os identificadores `eN` apontam para `dist/assets/exercises/`; os `mdN` apontam 
 | 357 | Rosca no Banco Inclinado 45° com Halteres (Braços alongados atrás do tronco) | `e141` |
 | 358 | Rosca Scott Unilateral com Halter | `e187` |
 | 359 | Rosca Scott na Máquina | `e160` |
-| 360 | Rosca Scott na Polia Baixa | — |
+| 360 | Rosca Scott na Polia Baixa | `—` |
 | 361 | Rosca Concentrada Sentado com Halter | `e63` |
 | 362 | Rosca Spider (Peito apoiado no banco inclinado) com Barra W ou Reta | `e337` |
 | 363 | Rosca Spider com Halteres | `e186` |
 | 364 | Rosca Direta na Polia Baixa com Barra Reta ou W | `e111` |
 | 365 | Rosca Martelo na Polia Baixa com Corda | `e188` |
 | 366 | Rosca Bayesiana na Polia Baixa (De costas para o aparelho, braço atrás do tronco) | `e218` |
-| 367 | Rosca Unilateral na Polia Baixa (De frente) | — |
-| 368 | Rosca Duplo Bíceps na Polia Alta (High Cable Curl / Posição de pose) | — |
-| 369 | Rosca Hércules Unilateral na Polia Alta | — |
-| 370 | Rosca Deitado no Chão na Polia Baixa (Lying Cable Curl) | — |
-| 371 | Rosca na Polia Alta Deitado no Banco (Puxando em direção à testa) | — |
-| 372 | Rosca na Máquina (Sentado, braços na horizontal) | — |
+| 367 | Rosca Unilateral na Polia Baixa (De frente) | `md367` |
+| 368 | Rosca Duplo Bíceps na Polia Alta (High Cable Curl / Posição de pose) | `—` |
+| 369 | Rosca Hércules Unilateral na Polia Alta | `—` |
+| 370 | Rosca Deitado no Chão na Polia Baixa (Lying Cable Curl) | `—` |
+| 371 | Rosca na Polia Alta Deitado no Banco (Puxando em direção à testa) | `—` |
+| 372 | Rosca na Máquina (Sentado, braços na horizontal) | `—` |
 | 373 | Rosca 21 (7 repetições metade inferior + 7 metade superior + 7 completas) | `md373` |
 | 374 | Rosca Arrasto com Barra ou no Smith (Drag Curl - cotovelos vão para trás) | `md374` |
-| 375 | Rosca Arrasto com Halteres | — |
+| 375 | Rosca Arrasto com Halteres | `—` |
 | 376 | Rosca Cruzada no Peito (Cross-Body Hammer Curl / Pinwheel Curl) | `e269` |
 | 377 | Rosca Zottman (Subida supinada, descida pronada) | `e217` |
-| 378 | Rosca com Barra H / Romana (Pegada Neutra) | — |
+| 378 | Rosca com Barra H / Romana (Pegada Neutra) | `—` |
 | 379 | Rosca Garçom (Waiter's Curl - segurando a cabeça de um único halter com as duas mãos) | `md379` |
 | 380 | Rosca com Anilha (Plate Curl) | `md380` |
-| 381 | Rosca Inclinada na Polia Baixa (Banco a 45° posicionado no crossover) | — |
-| 382 | Rosca Estrita na Parede (Strict Curl - costas e glúteos colados na parede) | — |
-| 383 | Rosca Bíceps no TRX / Argolas | — |
+| 381 | Rosca Inclinada na Polia Baixa (Banco a 45° posicionado no crossover) | `—` |
+| 382 | Rosca Estrita na Parede (Strict Curl - costas e glúteos colados na parede) | `—` |
+| 383 | Rosca Bíceps no TRX / Argolas | `—` |
 | 384 | Rosca Inversa (Pegada Pronada) com Barra Reta | `e115` |
 | 385 | Rosca Inversa com Barra W | `e340` |
-| 386 | Rosca Inversa na Polia Baixa | — |
-| 387 | Rosca Inversa com Halteres | — |
+| 386 | Rosca Inversa na Polia Baixa | `—` |
+| 387 | Rosca Inversa com Halteres | `—` |
 | 388 | Flexão de Punho Sentado com Barra (Antebraços nos joelhos ou no banco - Palma para cima) | `e244` |
-| 389 | Flexão de Punho Sentado com Halteres | — |
-| 390 | Flexão de Punho na Polia Baixa | — |
+| 389 | Flexão de Punho Sentado com Halteres | `—` |
+| 390 | Flexão de Punho na Polia Baixa | `—` |
 | 391 | Flexão de Punho em Pé por Trás das Costas com Barra ou no Smith | `e341` |
-| 392 | Extensão de Punho Sentado com Barra (Palma para baixo) | — |
+| 392 | Extensão de Punho Sentado com Barra (Palma para baixo) | `—` |
 | 393 | Extensão de Punho Sentado com Halteres | `e67` |
-| 394 | Extensão de Punho na Polia Baixa | — |
+| 394 | Extensão de Punho na Polia Baixa | `—` |
 | 395 | Rolo de Punho (Wrist Roller - enrolar a corda com anilha) | `e301` |
-| 396 | Pronação e Supinação de Antebraço com Halter ou Barra unilateral | — |
-| 397 | Flexão Radial e Ulnar de Punho (Movimento de martelada em pé com halter) | — |
-| 398 | Suspensão Isométrica na Barra Fixa (Dead Hang - Bilateral ou Unilateral) | — |
-| 399 | Pinça de Anilhas (Plate Pinch Hold) | — |
-| 400 | Fechamento de Gripper (Hand Grip / Capitains of Crush) | — |
+| 396 | Pronação e Supinação de Antebraço com Halter ou Barra unilateral | `—` |
+| 397 | Flexão Radial e Ulnar de Punho (Movimento de martelada em pé com halter) | `—` |
+| 398 | Suspensão Isométrica na Barra Fixa (Dead Hang - Bilateral ou Unilateral) | `—` |
+| 399 | Pinça de Anilhas (Plate Pinch Hold) | `—` |
+| 400 | Fechamento de Gripper (Hand Grip / Capitains of Crush) | `—` |
 | 401 | Supino Reto com Pegada Fechada (Close-Grip Bench Press) | `e87` |
 | 402 | Paralelas com Tronco Vertical (Foco em Tríceps) | `e142` |
 | 403 | Tríceps Testa Deitado com Barra W (Skullcrusher) | `e143` |
 | 404 | Tríceps Francês Sentado com Halter (Bilateral - Overhead Extension) | `e144` |
 | 405 | Tríceps Pulley na Polia Alta com Barra Reta ou W (Pushdown) | `e11` |
 | 406 | Tríceps Pulley na Polia Alta com Corda | `e103` |
-| 407 | Tríceps Testa com Barra Reta | — |
+| 407 | Tríceps Testa com Barra Reta | `—` |
 | 408 | Tríceps Testa com Halteres (Pegada Neutra) | `e45` |
-| 409 | Tríceps Testa no Banco Inclinado com Barra W | — |
-| 410 | Tríceps Testa no Banco Declinado com Barra W | — |
+| 409 | Tríceps Testa no Banco Inclinado com Barra W | `—` |
+| 410 | Tríceps Testa no Banco Declinado com Barra W | `—` |
 | 411 | Tríceps Testa Deitado na Polia Baixa | `e190` |
-| 412 | Extensão de Tríceps Passando da Cabeça ( pullover + testa / Rolling Triceps Extension) | — |
-| 413 | JM Press com Barra ou no Smith (Híbrido entre Supino Fechado e Testa) | — |
-| 414 | California Press | — |
-| 415 | Tate Press (Extensão com halteres apontando os cotovelos para fora no peito) | — |
-| 416 | Supino Pegada Fechada no Smith | — |
+| 412 | Extensão de Tríceps Passando da Cabeça ( pullover + testa / Rolling Triceps Extension) | `—` |
+| 413 | JM Press com Barra ou no Smith (Híbrido entre Supino Fechado e Testa) | `—` |
+| 414 | California Press | `—` |
+| 415 | Tate Press (Extensão com halteres apontando os cotovelos para fora no peito) | `—` |
+| 416 | Supino Pegada Fechada no Smith | `—` |
 | 417 | Flexão de Braços Diamante (Diamond Push-up - mãos unidas) | `e40` |
-| 418 | Flexão Esfinge / Extensão de Tríceps no Solo ou Banco (Bodyweight Triceps Extension) | — |
+| 418 | Flexão Esfinge / Extensão de Tríceps no Solo ou Banco (Bodyweight Triceps Extension) | `—` |
 | 419 | Mergulho no Banco (Bench Dips - com ou sem anilha no colo) | `e163` |
-| 420 | Mergulho Sentado na Máquina (Triceps Dip Machine) | — |
-| 421 | Paralelas no Graviton (Foco em Tríceps) | — |
+| 420 | Mergulho Sentado na Máquina (Triceps Dip Machine) | `—` |
+| 421 | Paralelas no Graviton (Foco em Tríceps) | `—` |
 | 422 | Tríceps Francês Unilateral Sentado ou em Pé com Halter | `e65` |
 | 423 | Tríceps Francês Sentado com Barra W | `e346` |
-| 424 | Tríceps Francês na Polia Alta com Corda (Inclinado à frente, de costas para o aparelho) | — |
+| 424 | Tríceps Francês na Polia Alta com Corda (Inclinado à frente, de costas para o aparelho) | `—` |
 | 425 | Tríceps Francês na Polia Baixa com Corda ou Barra (Em pé, de costas para o aparelho) | `e108` |
 | 426 | Tríceps Francês Unilateral na Polia (Katana Extension) | `e189` |
-| 427 | Tríceps Francês Sentado na Máquina Específica | — |
-| 428 | PJR Pullover (Híbrido de Pullover com Francês usando Halter pesado) | — |
+| 427 | Tríceps Francês Sentado na Máquina Específica | `—` |
+| 428 | PJR Pullover (Híbrido de Pullover com Francês usando Halter pesado) | `—` |
 | 429 | Tríceps Pulley com Barra V | `e66` |
 | 430 | Tríceps Pulley com Pegada Supinada / Inversa (Barra reta ou W) | `e270` |
-| 431 | Tríceps Pulley Unilateral (Pegada Pronada, Supinada ou Neutra sem puxador) | — |
-| 432 | Tríceps Cruzado no Cabo (Cross-body Cable Triceps Extension - Bilateral ou Unilateral) | — |
+| 431 | Tríceps Pulley Unilateral (Pegada Pronada, Supinada ou Neutra sem puxador) | `—` |
+| 432 | Tríceps Cruzado no Cabo (Cross-body Cable Triceps Extension - Bilateral ou Unilateral) | `—` |
 | 433 | Tríceps Coice Unilateral com Halter (Triceps Kickback) | `e46` |
-| 434 | Tríceps Coice Bilateral no Banco Inclinado com Halteres | — |
+| 434 | Tríceps Coice Bilateral no Banco Inclinado com Halteres | `—` |
 | 435 | Tríceps Coice na Polia Baixa (Inclinado à frente) | `e116` |
-| 436 | Tríceps Coice em Pé na Polia (Tronco a 45°) | — |
-| 437 | Extensão de Tríceps Sentado na Máquina (Apoio tipo Rosca Scott invertida) | — |
-| 438 | Extensão de Tríceps no TRX / Fita de Suspensão | — |
-| 439 | Extensão de Tríceps com Elástico (Band Pushdown) | — |
-| 440 | Pin Press Fechado (Empurrada final do supino saindo dos pinos de segurança) | — |
+| 436 | Tríceps Coice em Pé na Polia (Tronco a 45°) | `—` |
+| 437 | Extensão de Tríceps Sentado na Máquina (Apoio tipo Rosca Scott invertida) | `—` |
+| 438 | Extensão de Tríceps no TRX / Fita de Suspensão | `—` |
+| 439 | Extensão de Tríceps com Elástico (Band Pushdown) | `—` |
+| 440 | Pin Press Fechado (Empurrada final do supino saindo dos pinos de segurança) | `—` |
 | 441 | Elevação de Panturrilha em Pé na Máquina (Standing Calf Raise - Foco no Gastrocnêmio) | `e145` |
 | 442 | Elevação de Panturrilha Sentado na Máquina (Seated Calf Raise - Foco no Sóleo) | `e146` |
 | 443 | Panturrilha no Leg Press 45° | `e83` |
 | 444 | Panturrilha Burro (Donkey Calf Raise - Tronco a 90°, maior estiramento do gastrocnêmio) | `e147` |
 | 445 | Elevação de Panturrilha em Pé no Smith (Em cima do step) | `e384` |
-| 446 | Elevação de Panturrilha em Pé com Barra Livre | — |
+| 446 | Elevação de Panturrilha em Pé com Barra Livre | `—` |
 | 447 | Elevação de Panturrilha Unilateral em Pé com Halter (No step/degrau) | `e387` |
 | 448 | Panturrilha no Hack Squat | `e388` |
-| 449 | Panturrilha no Leg Press Horizontal | — |
+| 449 | Panturrilha no Leg Press Horizontal | `—` |
 | 450 | Panturrilha no Leg Press Vertical (90°) | `e386` |
-| 451 | Panturrilha no V-Squat / Pêndulo | — |
+| 451 | Panturrilha no V-Squat / Pêndulo | `—` |
 | 452 | Panturrilha Sentado Livre (Com Barra ou Halteres apoiados sobre os joelhos) | `e82` |
-| 453 | Panturrilha em Pé com Pés Abduzidos (Pontas para fora - ênfase na cabeça medial) | — |
-| 454 | Panturrilha em Pé com Pés Aduzidos (Pontas para dentro - ênfase na cabeça lateral) | — |
+| 453 | Panturrilha em Pé com Pés Abduzidos (Pontas para fora - ênfase na cabeça medial) | `—` |
+| 454 | Panturrilha em Pé com Pés Aduzidos (Pontas para dentro - ênfase na cabeça lateral) | `—` |
 | 455 | Panturrilha Unilateral no Leg Press | `e385` |
-| 456 | Panturrilha Agachado (Squat Calf Raise / Iso-Hold) | — |
-| 457 | Caminhada na Ponta dos Pés com Halteres (Farmer's Walk on Toes) | — |
+| 456 | Panturrilha Agachado (Squat Calf Raise / Iso-Hold) | `—` |
+| 457 | Caminhada na Ponta dos Pés com Halteres (Farmer's Walk on Toes) | `—` |
 | 458 | Elevação Tibial na Parede (Bodyweight Tibialis Raise) | `e215` |
-| 459 | Elevação Tibial com Barra Tibial ou Kettlebell (Weighted Tib Raise) | — |
+| 459 | Elevação Tibial com Barra Tibial ou Kettlebell (Weighted Tib Raise) | `—` |
 | 460 | Elevação Tibial Sentado na Polia Baixa ou Máquina Específica | `e389` |
 | 461 | Abdominal Ajoelhado na Polia Alta com Corda (Cable Crunch) | `e148` |
 | 462 | Elevação de Pernas Pendurado na Barra Fixa (Hanging Leg Raise / Toes to Bar) | `e399` |
@@ -474,38 +474,37 @@ Os identificadores `eN` apontam para `dist/assets/exercises/`; os `mdN` apontam 
 | 464 | Roda Abdominal (Ab Wheel Rollout) | `e397` |
 | 465 | Hiperextensão Lombar no Banco Romano (45° ou 90°) | `e398` |
 | 466 | Abdominal Supra Tradicional no Solo (Crunch) | `e13` |
-| 467 | Abdominal Supra com Peso no Peito (Anilha ou Halter) | — |
-| 468 | Abdominal no Banco Declinado (Sit-up Declinado) | — |
+| 467 | Abdominal Supra com Peso no Peito (Anilha ou Halter) | `—` |
+| 468 | Abdominal no Banco Declinado (Sit-up Declinado) | `—` |
 | 469 | Abdominal na Máquina Sentado (Ab Crunch Machine) | `e198` |
-| 470 | Abdominal na Bola Suíça (Swiss Ball Crunch - Maior amplitude de extensão) | — |
+| 470 | Abdominal na Bola Suíça (Swiss Ball Crunch - Maior amplitude de extensão) | `—` |
 | 471 | Elevação de Joelhos Pendurado na Barra Fixa (Hanging Knee Raise) | `e69` |
-| 472 | Elevação de Pernas / Joelhos na Cadeira Romana (Captain's Chair) | — |
+| 472 | Elevação de Pernas / Joelhos na Cadeira Romana (Captain's Chair) | `—` |
 | 473 | Abdominal Infra no Solo ou Banco (Elevação de pernas deitado) | `md473` |
-| 474 | Abdominal Infra no Banco Inclinado (Reverse Crunch / Encolhimento reverso da pelve) | — |
+| 474 | Abdominal Infra no Banco Inclinado (Reverse Crunch / Encolhimento reverso da pelve) | `—` |
 | 475 | Abdominal Canivete (V-Up) | `e72` |
-| 476 | Abdominal Remador | — |
-| 477 | Abdominal GHD (Glute-Ham Developer Sit-up) | — |
-| 478 | Abdominal Janda (Janda Sit-up - contraindo posteriores para anular o psoas) | — |
-| 479 | Dragon Flag (Bandeira do Dragão no banco) | — |
-| 480 | L-Sit (Sustentação isométrica em L nas paralelas ou argolas) | — |
+| 476 | Abdominal Remador | `—` |
+| 477 | Abdominal GHD (Glute-Ham Developer Sit-up) | `—` |
+| 478 | Abdominal Janda (Janda Sit-up - contraindo posteriores para anular o psoas) | `—` |
+| 479 | Dragon Flag (Bandeira do Dragão no banco) | `—` |
+| 480 | L-Sit (Sustentação isométrica em L nas paralelas ou argolas) | `—` |
 | 481 | Canoinha Isométrica (Hollow Body Hold) | `e96` |
 | 482 | Prancha Lateral Isométrica (Side Plank) | `e47` |
-| 483 | Giro Russo Sentado com Peso ou Medicine Ball (Russian Twist) | — |
+| 483 | Giro Russo Sentado com Peso ou Medicine Ball (Russian Twist) | `—` |
 | 484 | Abdominal Bicicleta no Solo (Bicycle Crunch) | `e68` |
 | 485 | Lenhador na Polia Alta para Baixo (High-to-Low Cable Woodchopper) | `e246` |
-| 486 | Lenhador na Polia Baixa para o Alto (Low-to-High Cable Woodchopper) | — |
-| 487 | Lenhador Horizontal na Polia Média | — |
+| 486 | Lenhador na Polia Baixa para o Alto (Low-to-High Cable Woodchopper) | `—` |
+| 487 | Lenhador Horizontal na Polia Média | `—` |
 | 488 | Pallof Press na Polia Média (Exercício de Anti-Rotação) | `e222` |
-| 489 | Rotação de Tronco no Landmine em Pé (Landmine 180s / Rainbow) | — |
-| 490 | Elevação de Pernas Oblíqua na Barra Fixa (Windshield Wipers / Para-brisa) | — |
-| 491 | Flexão Lateral de Tronco em Pé com Halter ou na Polia (Side Bend) | — |
-| 492 | Flexão Lateral de Tronco no Banco Romano (45°) | — |
+| 489 | Rotação de Tronco no Landmine em Pé (Landmine 180s / Rainbow) | `—` |
+| 490 | Elevação de Pernas Oblíqua na Barra Fixa (Windshield Wipers / Para-brisa) | `—` |
+| 491 | Flexão Lateral de Tronco em Pé com Halter ou na Polia (Side Bend) | `—` |
+| 492 | Flexão Lateral de Tronco no Banco Romano (45°) | `—` |
 | 493 | Toque nos Calcanhares Deitado (Heel Touches) | `md493` |
-| 494 | Prancha Dinâmica na Bola Suíça (Stir the Pot) | — |
-| 495 | Prancha RKC (Contração máxima de glúteos, quadríceps e dorsais) | — |
+| 494 | Prancha Dinâmica na Bola Suíça (Stir the Pot) | `—` |
+| 495 | Prancha RKC (Contração máxima de glúteos, quadríceps e dorsais) | `—` |
 | 496 | Dead Bug (Inseto Morto - estabilização lombar contralateral) | `e48` |
 | 497 | Perdigueiro em 4 Apoios (Bird Dog) | `e94` |
-| 498 | Superman no Solo (Extensão lombar deitado de bruços) | — |
+| 498 | Superman no Solo (Extensão lombar deitado de bruços) | `—` |
 | 499 | Caminhada da Mala Unilateral (Suitcase Carry - Anti-flexão lateral) | `e199` |
-| 500 | Vacuum Abdominal (Contração isométrica do Transverso do Abdômen) | — |
-
+| 500 | Vacuum Abdominal (Contração isométrica do Transverso do Abdômen) | `—` |

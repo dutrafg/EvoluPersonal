@@ -5,21 +5,6 @@
     "ref": "—"
   },
   {
-    "id": 104,
-    "name": "Helms Row (Remada apoiada na ponta do banco com halteres)",
-    "ref": "—"
-  },
-  {
-    "id": 120,
-    "name": "Encolhimento de Ombros com Halteres Sentado",
-    "ref": "—"
-  },
-  {
-    "id": 121,
-    "name": "Encolhimento de Ombros no Banco Inclinado (Foco no trapézio médio/superior)",
-    "ref": "—"
-  },
-  {
     "id": 134,
     "name": "Retração Escapular na Puxada Alta",
     "ref": "—"
@@ -37,11 +22,6 @@
   {
     "id": 155,
     "name": "Agachamento V-Squat na Máquina",
-    "ref": "—"
-  },
-  {
-    "id": 160,
-    "name": "Agachamento com Halteres nas Laterais do Corpo",
     "ref": "—"
   },
   {
@@ -70,11 +50,6 @@
     "ref": "—"
   },
   {
-    "id": 209,
-    "name": "Stiff no Smith",
-    "ref": "—"
-  },
-  {
     "id": 212,
     "name": "RDL no Landmine (Bilateral ou Unilateral)",
     "ref": "—"
@@ -85,23 +60,8 @@
     "ref": "—"
   },
   {
-    "id": 215,
-    "name": "Stiff com Pés Elevados na Rampa (Maior alongamento dos isquiotibiais)",
-    "ref": "—"
-  },
-  {
     "id": 219,
     "name": "Bom Dia na Máquina (Hack Squat ou Pendulum)",
-    "ref": "—"
-  },
-  {
-    "id": 221,
-    "name": "Hiperextensão Unilateral no Banco 45°",
-    "ref": "—"
-  },
-  {
-    "id": 224,
-    "name": "Swing Russo com Kettlebell (Kettlebell Swing)",
     "ref": "—"
   },
   {
@@ -120,23 +80,8 @@
     "ref": "—"
   },
   {
-    "id": 231,
-    "name": "Flexão de Joelho Deitado com Halter entre os Pés",
-    "ref": "—"
-  },
-  {
-    "id": 232,
-    "name": "Flexão de Joelho em Pé na Polia Baixa",
-    "ref": "—"
-  },
-  {
     "id": 233,
     "name": "Flexão de Joelho Deitado na Polia Baixa",
-    "ref": "—"
-  },
-  {
-    "id": 234,
-    "name": "Flexão de Joelho em Pé com Caneleira",
     "ref": "—"
   },
   {
@@ -150,11 +95,6 @@
     "ref": "—"
   },
   {
-    "id": 239,
-    "name": "Ponte de Isquiotibiais com Pernas Semi-estendidas (Long-Lever Glute Bridge)",
-    "ref": "—"
-  },
-  {
     "id": 240,
     "name": "Razor Curl no Aparelho de GHR",
     "ref": "—"
@@ -165,11 +105,6 @@
     "ref": "—"
   },
   {
-    "id": 254,
-    "name": "Kas Glute Bridge (Elevação Pélvica com amplitude curta no topo)",
-    "ref": "—"
-  },
-  {
     "id": 260,
     "name": "Extensão de Quadril Reversa na Máquina (Reverse Hyperextension)",
     "ref": "—"
@@ -177,11 +112,6 @@
   {
     "id": 262,
     "name": "Agachamento Reverência no Smith",
-    "ref": "—"
-  },
-  {
-    "id": 263,
-    "name": "Step-up Alto na Caixa (Tronco inclinado à frente)",
     "ref": "—"
   },
   {
@@ -197,11 +127,6 @@
   {
     "id": 269,
     "name": "Coice no Smith (Empurrando a barra com a sola do pé em 4 apoios)",
-    "ref": "—"
-  },
-  {
-    "id": 270,
-    "name": "Extensão de Quadril em 4 Apoios com Caneleira (Perna estendida)",
     "ref": "—"
   },
   {
@@ -227,21 +152,6 @@
   {
     "id": 278,
     "name": "Abdução de Quadril Deitado de Lado na Polia Baixa",
-    "ref": "—"
-  },
-  {
-    "id": 282,
-    "name": "Hidrante (Fire Hydrant - Abdução em 4 apoios com caneleira ou elástico)",
-    "ref": "—"
-  },
-  {
-    "id": 283,
-    "name": "Queda Pélvica Lateral no Step (Hip Drop / Pelvic Drop)",
-    "ref": "—"
-  },
-  {
-    "id": 288,
-    "name": "Deslizamento Lateral de Adutores no Solo (Slider Lateral Lunge)",
     "ref": "—"
   },
   {
@@ -295,23 +205,8 @@
     "ref": "—"
   },
   {
-    "id": 320,
-    "name": "Elevação Lateral Deitado de Lado no Banco Inclinado",
-    "ref": "—"
-  },
-  {
     "id": 321,
     "name": "Elevação Lateral com Peito Apoiado no Banco Inclinado",
-    "ref": "—"
-  },
-  {
-    "id": 323,
-    "name": "Elevação Lateral Completa (Lu Raise - subindo até acima da cabeça)",
-    "ref": "—"
-  },
-  {
-    "id": 324,
-    "name": "Elevação Lateral Parcial Pesada (Heavy Partial Lateral Raise)",
     "ref": "—"
   },
   {
@@ -327,11 +222,6 @@
   {
     "id": 329,
     "name": "Remada Alta Unilateral com Halter ou na Polia (Monkey Row)",
-    "ref": "—"
-  },
-  {
-    "id": 331,
-    "name": "Elevação Frontal com Halteres em Pegada Neutra (Martelo)",
     "ref": "—"
   },
   {
@@ -352,11 +242,6 @@
   {
     "id": 337,
     "name": "Elevação Frontal com Peito Apoiado no Banco Inclinado",
-    "ref": "—"
-  },
-  {
-    "id": 339,
-    "name": "Crucifixo Inverso no Banco Inclinado com Halteres",
     "ref": "—"
   },
   {
@@ -390,11 +275,6 @@
     "ref": "—"
   },
   {
-    "id": 349,
-    "name": "Rotação Externa de Ombro com Halter (Deitado de lado ou apoiado no joelho)",
-    "ref": "—"
-  },
-  {
     "id": 350,
     "name": "Cuban Press (Remada alta + rotação externa + desenvolvimento)",
     "ref": "—"
@@ -402,11 +282,6 @@
   {
     "id": 360,
     "name": "Rosca Scott na Polia Baixa",
-    "ref": "—"
-  },
-  {
-    "id": 367,
-    "name": "Rosca Unilateral na Polia Baixa (De frente)",
     "ref": "—"
   },
   {
