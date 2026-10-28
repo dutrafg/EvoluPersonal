@@ -67,3 +67,12 @@ As ilustrações são didáticas e não substituem avaliação individual ou ins
 ## Lote 17 — e400–e424
 
 25 variantes da lista MD com sprites originais e GIFs em loop. Total: 425 GIFs, faltam 75 para a meta numérica. Produção conforme `production/lote17-plan.json`.
+
+
+## Regra vigente após a auditoria MD500 (28/10/2026)
+
+Os lotes novos são produzidos **somente a partir dos nomes e números 1–500 do arquivo `500 Exercícios Base de Musculação.md`**. A contagem não considera GIF de variações extras como substituto automático de exercício do MD.
+
+O primeiro novo lote contém 30 GIFs independentes `dist/assets/md500/md<ID>.gif`. O código para reprodução local é `scripts/gerar-animacoes-md.cjs`. **Este lote é ilustrativo 2D, não atende ainda o requisito visual final de modelos 3D.** A auditoria humana da execução e a adequação ao plano de treino permanecem requisitos para aprovação final.
+
+Meta atual: 500 entradas canônicas, 314 GIFs vinculados e 186 entradas a produzir, sempre em lotes de 30; o último lote poderá ser menor. Continuar usando `production/FILA_PRIORIDADE_COBERTURA_MD500.json` como fila oficial; planos anteriores lote18–20 só servem como histórico e não autorizam itens externos ao MD.
