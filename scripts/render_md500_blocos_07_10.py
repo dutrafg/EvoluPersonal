@@ -100,7 +100,7 @@ def main_pose(s,md,t):
   figures(s,j,'calf')
   for yy in (-.17,.17):s.sphere((.44,yy,.145),.13,'shoe',scale=(1.5,.95,.5))
  elif md==457:
-  stride=.20*math.sin(t*2*math.pi);rise=.10+.035*math.cos(t*4*math.pi)
+  stride=.20*math.cos(t*2*math.pi);rise=.10+.035*math.cos(t*4*math.pi)
   j=sj(hip=(-.02,0,1.20+rise),shoulder=(-.02,0,1.78+rise),
     knee=(.06,0,.73),ankle=(.10,0,.23))
   j['kneeL']+=A([stride,0,.05]);j['ankleL']+=A([stride*.9,0,.12+rise*.12])
