@@ -76,7 +76,7 @@ assert.deepEqual(Object.keys(md3d).map(Number).sort((a,b)=>a-b),inventory.filter
 const grouped=[...seen].filter(([,ids])=>ids.length>1).map(([media,ids])=>({media,ids}));
 for(const x of grouped)warnings.push('Arquivo compartilhado: '+x.media+' → MD'+x.ids.join('/MD'));
 for(const id of [46,135,140,301,302,319,340,341,357,471]) assert(pageEntries[id-1].priority,'Prioridade ausente: MD'+id);
-warnings.push('MD471/e69: conferir se o GIF realmente mostra joelhos flexionados');
+warnings.push('MD471/e69: o texto instrui elevação de joelhos; resta validação visual');
 const reviewIndex=process.argv.indexOf('--review');
 if(reviewIndex!==-1){
  const p=process.argv[reviewIndex+1];
