@@ -54,6 +54,19 @@ def barbell(s,p,z=None):
  p=A(p)
  s.bar(p+A([0,-.75,0]),p+A([0,.75,0]),.042,'steel')
  for y in (-.69,.69):s.sphere(p+A([0,y,0]),.15,'metal2')
+def draw_person(s,j,focus):
+ # Prévia apenas: roupa cinza, destaque exclusivamente nos membros superiores.
+ s.person(j,active=())
+ shoulder=A(j['shoulder'],dtype=float)
+ for sign,side in [(-1,'L'),(1,'R')]:
+  sh=shoulder+A([.01,sign*.15,0])
+  elbow=A(j['elbow'+side]);hand=A(j['hand'+side])
+  if focus in ('shoulders','triceps','biceps'):
+   s.bar(sh,elbow,.104,'orange')
+  if focus in ('triceps','forearm','biceps'):
+   s.bar(elbow,hand,.074,'orange2')
+  if focus=='shoulders':
+   s.sphere(sh,.115,'orange2',scale=(1.1,.95,.80))
 def pose(s,md,t):
  q=(1-math.cos(2*math.pi*t))/2
  j=jbase()
@@ -70,7 +83,7 @@ def pose(s,md,t):
    else:
     u=phase-2;el=[.17,y,1.90+.28*u];ha=[.19,y,2.17+.45*u]
    joint(s,j,side,el,ha)
-  s.person(j,active=('shoulders',))
+  draw_person(s,j,'shoulders')
   for side in ('L','R'):dumbbell(s,j['hand'+side])
  elif md==372: # biceps machine seated, arms horizontal on support
   seat(s, -.1,.76,True);s.cam.SetPosition(4.0,5.8,2.55)
@@ -80,7 +93,7 @@ def pose(s,md,t):
   for sign,sd in [(-1,'L'),(1,'R')]:
    y=.24*sign; el=[.36,y,1.30]; ha=[.78-.20*q,y,1.13+.47*q]
    joint(s,j,sd,el,ha)
-  s.person(j,active=('biceps',))
+  draw_person(s,j,'biceps')
   for sd in ('L','R'):
    s.sphere(j['hand'+sd],.08,'steel')
   s.bar((.7,-.39,.73),(.7,.39,.73),.045,'metal')
@@ -95,7 +108,7 @@ def pose(s,md,t):
   for sign,sd in [(-1,'L'),(1,'R')]:
    y=.27*sign;el=[-.63,y,1.20];ha=[-.36+.20*q,y,1.03+.40*q]
    joint(s,j,sd,el,ha)
-  s.person(j,active=('biceps',))
+  draw_person(s,j,'biceps')
   for sd,y in [('L',-.55),('R',.55)]:
    s.bar((1.37,y,.27),j['hand'+sd],.007,'steel')
  elif md==396: # seated/standing forearm pronation-supination
@@ -104,7 +117,7 @@ def pose(s,md,t):
   j=jbase(hip=(-.25,0,.85),sho=(-.24,0,1.47),seated=True)
   joint(s,j,'L',[.04,-.29,1.26],[.42,-.29,1.25])
   joint(s,j,'R',[.04,.29,1.26],[.42,.29,1.25])
-  s.person(j,active=('forearm',))
+  draw_person(s,j,'forearm')
   a=q*math.pi
   p=j['handR'];axis=A([.05,.27*math.cos(a),.27*math.sin(a)])
   s.bar(p-axis,p+axis,.035,'metal2')
@@ -115,7 +128,7 @@ def pose(s,md,t):
   j=jbase()
   joint(s,j,'R',[.17,.26,1.43],[.29+.11*q,.27,1.14+.16*q])
   joint(s,j,'L',[.17,-.26,1.43],[.29,-.27,1.12])
-  s.person(j,active=('forearm',))
+  draw_person(s,j,'forearm')
   p=j['handR']; v=A([.12*math.cos((q-.5)*1.5),.04,.31*math.sin((q-.5)*1.5)+.10])
   s.bar(p,p+v,.043,'metal2');s.sphere(p+v,.11,'steel')
  elif md in (412,413,414,415,428): # supine press/extension variation
@@ -135,7 +148,7 @@ def pose(s,md,t):
    else:
     el=[-.78,y,1.31];ha=[-.91-.32*q,y,1.60-.22*q]
    joint(s,j,sd,el,ha)
-  s.person(j,active=('triceps',))
+  draw_person(s,j,'triceps')
   if md==415:
    for sd in ('L','R'):dumbbell(s,j['hand'+sd])
   elif md==428:
@@ -157,7 +170,7 @@ def pose(s,md,t):
    joint(s,j,sd,[.23,sign*.41,1.81-.21*q],[.57,y,1.66])
    j['knee'+sd]=A([.12,sign*.18,1.06-.15*q])
    j['ankle'+sd]=A([-.19,sign*.18,.84-.18*q])
-  s.person(j,active=('triceps',))
+  draw_person(s,j,'triceps')
  elif md==427: # French seated on dedicated triceps machine
   s.cam.SetPosition(4,5.9,2.65)
   seat(s,-.2,.73,True)
@@ -167,7 +180,7 @@ def pose(s,md,t):
   j=jbase(hip=(-.2,0,.86),sho=(-.23,0,1.49),seated=True)
   for sign,sd in [(-1,'L'),(1,'R')]:
    y=.22*sign;j['elbow'+sd]=A([-.1,y,2.01]);j['hand'+sd]=A([.21+.24*q,y,1.82+.42*q])
-  s.person(j,active=('triceps',))
+  draw_person(s,j,'triceps')
   s.bar(j['handL'],j['handR'],.053,'steel')
   s.bar((.72,0,2.25),(j['handL']+j['handR'])/2,.055,'metal')
  elif md==432: # cross-body cable triceps
@@ -176,7 +189,7 @@ def pose(s,md,t):
   j=jbase()
   for sign,sd in [(-1,'L'),(1,'R')]:
    joint(s,j,sd,[.24,sign*.23,1.53],[.30+.40*q,(-sign)*(.08+.24*q),1.22+.18*q])
-  s.person(j,active=('triceps',))
+  draw_person(s,j,'triceps')
   for sd,y in [('L',.89),('R',-.89)]:
    s.bar((1.22,y,2.30),j['hand'+sd],.008,'steel')
  elif md==436: # triceps cable kickback, torso 45 degrees
@@ -185,7 +198,7 @@ def pose(s,md,t):
   j=jbase(hip=(-.22,0,1.12),sho=(.28,0,1.48))
   joint(s,j,'L',[.52,-.25,1.22],[.52+.49*q,-.25,1.12+.12*q])
   joint(s,j,'R',[.51,.25,1.22],[.78,.25,1.00])
-  s.person(j,active=('triceps',))
+  draw_person(s,j,'triceps')
   s.bar((1.15,-.47,.22),j['handL'],.008,'steel')
  elif md==437: # seated triceps pushdown machine, inverse Scott support
   s.cam.SetPosition(4.1,5.9,2.7)
@@ -196,7 +209,7 @@ def pose(s,md,t):
   for sign,sd in [(-1,'L'),(1,'R')]:
    y=.24*sign
    joint(s,j,sd,[.24,y,1.28],[.49+.28*q,y,1.07-.35*q])
-  s.person(j,active=('triceps',))
+  draw_person(s,j,'triceps')
   s.bar(j['handL'],j['handR'],.05,'steel')
  else:raise ValueError("MD não implementado: "+str(md))
 def main():
