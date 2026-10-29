@@ -3,8 +3,8 @@
     "id": 350,
     "name": "Cuban Press",
     "frames": 18,
-    "size_bytes": 1063941,
-    "sha256": "f91b98039490ca6abbe73d7d2c0e9688e8a0acdbe37dd36f2611f6cd038c6e77",
+    "size_bytes": 1063237,
+    "sha256": "3c1e256d9e6caaa7b01cc2c5010781558c40bc300435ab88ab54a43b010aee93",
     "status": "geometric_3d_preview_not_approved",
     "catalog_linked": false
   },
@@ -12,8 +12,8 @@
     "id": 372,
     "name": "Rosca na Máquina",
     "frames": 18,
-    "size_bytes": 1102582,
-    "sha256": "ac49063c873c5bfc22e6fed283f2bdd1bd2d3a4e8d8aca942bc734948e43ed81",
+    "size_bytes": 1096134,
+    "sha256": "fdd4d346f8ce03cb3cedbb1529bab9fb89b3b421a2164d73551673ece063476b",
     "status": "geometric_3d_preview_not_approved",
     "catalog_linked": false
   },
@@ -21,8 +21,8 @@
     "id": 381,
     "name": "Rosca Inclinada na Polia Baixa",
     "frames": 18,
-    "size_bytes": 1149701,
-    "sha256": "a4495efdface78863eba203349cabb760e924cca7e5fac9f5e59b632515ec767",
+    "size_bytes": 1156675,
+    "sha256": "23af0a0d9bd6e4591f6c3105093b636e27faeeb03de515f933656b04762b24ad",
     "status": "geometric_3d_preview_not_approved",
     "catalog_linked": false
   },
@@ -30,8 +30,8 @@
     "id": 396,
     "name": "Pronação e Supinação de Antebraço",
     "frames": 18,
-    "size_bytes": 1056156,
-    "sha256": "d77764f2a138afccdabd57f10109b716402da6d2707cbe66bc290c9a5bc08537",
+    "size_bytes": 1057797,
+    "sha256": "0b1d98048a43c414d9213aa9628a1d7142f362c880ad8f9e14944edbcf183145",
     "status": "geometric_3d_preview_not_approved",
     "catalog_linked": false
   },
@@ -39,8 +39,8 @@
     "id": 397,
     "name": "Flexão Radial e Ulnar do Punho",
     "frames": 18,
-    "size_bytes": 1054461,
-    "sha256": "505798317f400bdee1686cd8397d47c64750eb118e3466df14112bfaf89721aa",
+    "size_bytes": 1053843,
+    "sha256": "7ed27ac579019685107a427ef0bcd602eb82cae09fef234c7cdf2552394a943e",
     "status": "geometric_3d_preview_not_approved",
     "catalog_linked": false
   }
