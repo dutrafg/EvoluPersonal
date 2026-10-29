@@ -30,7 +30,7 @@ assert.equal(inventory.length,500);
 assert.equal(rows.length,500);
 assert.equal(comparison.items.length,500);
 assert.equal(pageEntries.length,500);
-assert.equal(original.split(/\r?\n/).filter(x=>/^\s*\d+\.\s/.test(x)).length,500);
+assert.equal(original.split(/\r?\n/).filter(x=>/^\s*\d+\.\s*/.test(x)).length,500);
 const abs=p=>path.join(root,'dist',p);
 const seen=new Map(),warnings=[],missing=[],paths=new Set(pageAssets.map(x=>x.path));
 let linked=0,new3d=0,review=0,legacy=0;
