@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "source": "production/FILA_PRODUCAO_3D_MD500.json",
+  "note": "Nenhum GIF deve ser declarado aprovado antes de existir arquivo renderizado e avaliacao humana especifica.",
+  "approved": {}
+}
