@@ -1,0 +1,47 @@
+[
+  {
+    "id": 490,
+    "name": "Elevar Pernas Oblíquas na Barra Fixa",
+    "frames": 18,
+    "size_bytes": 1100839,
+    "sha256": "fe274e3fe07776dca5998a576ef5d04ff889f4794888d404fe743100cb087970",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  },
+  {
+    "id": 492,
+    "name": "Flexao Lateral Banco Romano",
+    "frames": 18,
+    "size_bytes": 1072386,
+    "sha256": "9b73f07385955b63f0c3790e5515992ea8521059d93734bdadd847d622c94ce1",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  },
+  {
+    "id": 494,
+    "name": "Prancha Dinamica na Bola Suica",
+    "frames": 18,
+    "size_bytes": 1087721,
+    "sha256": "649afa77e25954237d22a8f95cd74c62029e794a351023cc6ec1968f15f57397",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  },
+  {
+    "id": 495,
+    "name": "Prancha RKC",
+    "frames": 18,
+    "size_bytes": 1042379,
+    "sha256": "f651d3dfc5f87221a4681f82be1fd87921a71d8f08258010443d162198e42ea4",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  },
+  {
+    "id": 500,
+    "name": "Vacuum Abdominal",
+    "frames": 18,
+    "size_bytes": 1069875,
+    "sha256": "72ae8bd7b81aa1a6feca04c2b91fbe23f329a7cfbd1dca6a34600b833760e73d",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  }
+]
