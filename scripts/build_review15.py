@@ -6,7 +6,10 @@ Executar na raiz: python3 scripts/build_review15.py
 O resultado é dist/revisao-visual-15-offline.html.
 """
 import base64
+import hashlib
 import json
+import subprocess
+import tempfile
 import pathlib
 import re
 
@@ -30,6 +33,9 @@ for x in selected:
     raw=path.read_bytes()
     if raw[:6] not in (b'GIF87a',b'GIF89a'):
         raise RuntimeError('Arquivo GIF inválido: '+str(path))
+    git_sha=hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\x00'+raw).hexdigest()
+    if git_sha!=x['sha']:
+        raise RuntimeError('SHA Git divergente: '+str(path))
     media[x['path']]='data:image/gif;base64,'+base64.b64encode(raw).decode('ascii')
 text=text[:m.start()]+(
     'const ITEMS='+json.dumps(chosen,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')+';\n'
@@ -87,5 +93,12 @@ text=text.replace('doFilter();\n</script>', inject+'\ndoFilter();\n</script>')
 if text.count('const ITEMS=')!=1 or len(media)!=12 or 'resolveMedia(path)' not in text or 'reviewSummary()' not in text:
     raise RuntimeError('Falha ao construir a página')
 OUT.write_text(text,encoding='utf-8')
+scripts=re.findall(r'<script>([\\s\\S]*?)</script>',text)
+if len(scripts)!=1: raise RuntimeError('Script principal não encontrado')
+with tempfile.TemporaryDirectory() as folder:
+    jsfile=pathlib.Path(folder)/'review15.js'
+    jsfile.write_text(scripts[0],encoding='utf-8')
+    subprocess.run(['node','--check',str(jsfile)],check=True)
+
 print(json.dumps({'output':str(OUT.relative_to(ROOT)),'size':OUT.stat().st_size,
                   'review_items':len(chosen),'embedded_gifs':len(media)},ensure_ascii=False))
