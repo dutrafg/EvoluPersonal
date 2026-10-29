@@ -229,10 +229,11 @@ def main_pose(s,md,t):
   figures(s,j,'core')
  elif md==500:
   # Vacuum breathing cycle, stable feet; navel contraction shown with oval overlay.
-  j=sj(hip=(0,0,1.13),shoulder=(0,0,1.72))
+  j=sj(hip=(-.035*q,0,1.13),shoulder=(0,0,1.72))
   figures(s,j,'core')
-  # Visual compression marker on abdomen; no artificial exercise flexion.
-  s.sphere((.17,0,1.39),.11,'orange',scale=(.45+.32*(1-q),.75,1.4))
+  # Visible gradual compression of abdominal wall without spinal flexion.
+  s.sphere((.235-.035*q,0,1.38),.185,'orange',scale=(.90-.48*q,.96,1.20))
+  s.sphere((.238-.04*q,0,1.50),.10,'orange2',scale=(1.0-.50*q,.90,1.0))
  else:raise ValueError("Unsupported MD"+str(md))
 def generate(block):
  target=Path("production/revisoes-md500-3d")/("bloco%02d"%block)
