@@ -9,6 +9,7 @@ from pathlib import Path
 import hashlib
 import io
 import json
+import re
 from PIL import Image, ImageChops, ImageSequence
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -79,6 +80,19 @@ gallery = ROOT / "dist/revisao-vinculos-md500.html"
 html = gallery.read_text(encoding="utf-8")
 assert html.count(BACKUP_SHA) >= 1
 html = html.replace(BACKUP_SHA, sha)
+# Sincronizar os marcadores de revisão após aprovação visual dos 15.
+m = re.search(r'const ITEMS=(\[.*?\]);\nconst ASSETS=',html,re.DOTALL)
+if not m:
+    raise SystemExit("Catálogo de revisão não encontrado")
+gallery_items = json.loads(m.group(1))
+catalog_items = json.loads((ROOT/"production/INVENTARIO_MD500.json").read_text(encoding="utf-8"))
+if len(gallery_items)!=500 or len(catalog_items)!=500:
+    raise SystemExit("Inventários inesperados")
+for item in gallery_items:
+    source = catalog_items[item["id"]-1]
+    assert source["id"]==item["id"]
+    item["reviewListed"]=bool(source["media_review_pending"])
+html=html[:m.start(1)]+json.dumps(gallery_items,ensure_ascii=False,separators=(",",":")).replace("<","\\u003c")+html[m.end(1):]
 gallery.write_text(html, encoding="utf-8")
 print(json.dumps({"md_id":1,"ref":"e4","new_sha":sha,
                   "old_frames":len(frames),"new_frames":new_image.n_frames,
