@@ -93,7 +93,7 @@ text=text.replace('doFilter();\n</script>', inject+'\ndoFilter();\n</script>')
 if text.count('const ITEMS=')!=1 or len(media)!=12 or 'resolveMedia(path)' not in text or 'reviewSummary()' not in text:
     raise RuntimeError('Falha ao construir a página')
 OUT.write_text(text,encoding='utf-8')
-scripts=re.findall(r'<script>([\\s\\S]*?)</script>',text)
+scripts=re.findall(r'<script>([\s\S]*?)</script>',text)
 if len(scripts)!=1: raise RuntimeError('Script principal não encontrado')
 with tempfile.TemporaryDirectory() as folder:
     jsfile=pathlib.Path(folder)/'review15.js'
