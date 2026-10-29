@@ -1,0 +1,47 @@
+[
+  {
+    "id": 427,
+    "name": "Tríceps Francês Sentado na Máquina",
+    "frames": 18,
+    "size_bytes": 1124700,
+    "sha256": "bf2cc37bd3efb97decfccaa8a2d97872e83caa138bb3d1c3dcc61ddfbcfd418a",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  },
+  {
+    "id": 428,
+    "name": "PJR Pullover",
+    "frames": 18,
+    "size_bytes": 1076872,
+    "sha256": "413edd7b6baed1e5b6a026d4c14bf0bf907ecd4fc0cf479fd9ae14e508060551",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  },
+  {
+    "id": 432,
+    "name": "Tríceps Cruzado no Cabo",
+    "frames": 18,
+    "size_bytes": 1117743,
+    "sha256": "2ffef5b4bca3669481c326b44f8d0eba2de08edfd864ebff791d0ab41338121f",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  },
+  {
+    "id": 436,
+    "name": "Tríceps Coice na Polia",
+    "frames": 18,
+    "size_bytes": 1094433,
+    "sha256": "60da56898cd311b4123848bc5c73840db7e2b4ed8ec0309f4b39f905352b88f4",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  },
+  {
+    "id": 437,
+    "name": "Tríceps Sentado na Máquina",
+    "frames": 18,
+    "size_bytes": 1096918,
+    "sha256": "bcb6f9f61a38de36e150cb6fe58e312975c57b0d9391f07a351a53c4c0e6fc24",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  }
+]
