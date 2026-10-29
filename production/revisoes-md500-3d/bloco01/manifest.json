@@ -1,0 +1,42 @@
+[
+  {
+    "id": 214,
+    "name": "RDL Hack / V-Squat invertido",
+    "frames": 18,
+    "size_bytes": 1154932,
+    "sha256": "831fe6709c7d3ab15f28803f186fb08e56382c04dbd9f96a8f416ae9d562e2fd",
+    "status": "geometric_3d_prototype_unapproved"
+  },
+  {
+    "id": 219,
+    "name": "Bom Dia na Máquina",
+    "frames": 18,
+    "size_bytes": 1154076,
+    "sha256": "4e71e26b220b7a241bbad686b19c20c53f8865b842859f715eba07817b58e2cd",
+    "status": "geometric_3d_prototype_unapproved"
+  },
+  {
+    "id": 228,
+    "name": "Flexora Ajoelhada",
+    "frames": 18,
+    "size_bytes": 1033452,
+    "sha256": "b637162eba05981c0c53391eed6dc58f21fcb38a671829bbf6c545df5f5c1670",
+    "status": "geometric_3d_prototype_unapproved"
+  },
+  {
+    "id": 240,
+    "name": "Razor Curl GHR",
+    "frames": 18,
+    "size_bytes": 1040176,
+    "sha256": "046a26e4d44ac4d5ce566210de3c9f119a2bee38d9c46a474a99ecf151a0e827",
+    "status": "geometric_3d_prototype_unapproved"
+  },
+  {
+    "id": 250,
+    "name": "Elevação Pélvica na Máquina",
+    "frames": 18,
+    "size_bytes": 1026188,
+    "sha256": "4f5fa62dd0879902e8026943f393327a668927f04e4195643dee2e018978dd04",
+    "status": "geometric_3d_prototype_unapproved"
+  }
+]

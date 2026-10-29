@@ -1,0 +1,71 @@
+name: Render MD500 bloco 01 — prévias 3D
+on:
+  push:
+    branches:
+      - feat/md500-bloco01-previews-20261029
+    paths:
+      - production/revisoes-md500-3d/bloco01/renderer.zlib64
+      - .github/workflows/md500-bloco01-previews.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  render-and-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install renderer dependencies
+        run: python3 -m pip install --user vtk Pillow numpy
+      - name: Install OpenGL offscreen dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libosmesa6 libegl1 libgl1-mesa-dri xvfb
+      - name: Restore human-readable source and render
+        run: |
+          python3 - <<'PY'
+          import base64,zlib,pathlib
+          p=pathlib.Path('production/revisoes-md500-3d/bloco01/renderer.zlib64')
+          src=zlib.decompress(base64.b64decode(p.read_text()))
+          src=src.replace(b"BASE=Path('/mnt/data/md500_block1')",b"BASE=Path('production/revisoes-md500-3d/bloco01')")
+          src=src.replace(b"aL=np.array([-.50+.27*cycle,-.16,.21+.47*cycle]);",b"aL=np.array([-.66+.70*cycle,.37,.12+.65*cycle]);")
+          src=src.replace(b"scene=Scene(name);frames=[]",b"scene=Scene(name);frames=[]\n  if md==228: scene.cam.SetPosition(5.2,4.8,2.6)")
+          out=pathlib.Path('scripts/render_md500_bloco01.py')
+          out.write_bytes(src)
+          assert b'VTK' in src or b'vtk' in src
+          PY
+          xvfb-run -a python3 scripts/render_md500_bloco01.py
+      - name: Validate GIFs as animation-only drafts
+        run: |
+          python3 - <<'PY'
+          from PIL import Image,ImageChops,ImageStat
+          import json,hashlib
+          from pathlib import Path
+          base=Path('production/revisoes-md500-3d/bloco01')
+          data=json.loads((base/'manifest.json').read_text())
+          assert [x['id'] for x in data]==[214,219,228,240,250]
+          hashes=set()
+          for row in data:
+            path=base/f"md{row['id']}.gif"
+            im=Image.open(path)
+            assert im.format=='GIF'
+            assert im.size==(448,448)
+            assert im.n_frames>=8, (path,im.n_frames)
+            f0=im.seek(0) or im.convert('RGB').copy()
+            im.seek(im.n_frames//2); fm=im.convert('RGB').copy()
+            delta=sum(ImageStat.Stat(ImageChops.difference(f0,fm)).mean)
+            assert delta>(0.30 if row['id']==228 else 1.0),(path,delta)
+            h=hashlib.sha256(path.read_bytes()).hexdigest()
+            assert h not in hashes
+            hashes.add(h)
+            print(path,im.n_frames,'frames',round(delta,1),'delta')
+          assert len(hashes)==5
+          print('OK: 5 GIFs distintos com movimento, em status de prévia.')
+          PY
+      - name: Publish previews to review branch only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add scripts/render_md500_bloco01.py production/revisoes-md500-3d/bloco01
+          git diff --cached --quiet && exit 0
+          git commit -m "preview(md500): 5 GIFs 3D geométricos para revisão MD214/219/228/240/250"
+          git push origin HEAD:feat/md500-bloco01-previews-20261029
