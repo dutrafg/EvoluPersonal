@@ -51,7 +51,7 @@ text=text.replace('const ITEMS=', 'const EMBEDDED_MEDIA='+json.dumps(media,separ
                   'const ITEMS=',1)
 text=text.replace('im.src=path;', 'im.src=resolveMedia(path);')
 # Apenas o GIF selecionado é executado, evitando 12 animações simultâneas no celular.
-text=re.sub(r'const srcHtml=.*?;\\nfunction renderCounts',
+text=re.sub(r'const srcHtml=.*?;\nfunction renderCounts',
             """const srcHtml=(path,id)=>path?'<span class="noimage">Toque em Conferir GIF para reproduzir</span>':'<span class="noimage">Sem GIF</span>';
 function renderCounts""",
             text,count=1,flags=re.DOTALL)
