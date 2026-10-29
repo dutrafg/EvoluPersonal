@@ -12,7 +12,12 @@
     "referencias_distintas_em_uso": 442,
     "bases_principais_total": 65,
     "bases_com_correspondencia": 65,
-    "observacao": "Vínculo cadastral não significa aprovação visual ou biomecânica. GIFs 2D reprovados continuam desativados."
+    "observacao": "Aprovação visual de 15 vínculos registrada por declaração do usuário, 6 com mídias compartilhadas. Diferenciar cobertura com mídia (445), GIFs exclusivos em uso (442) e produção pendente para exclusividade (58). GIFs 2D reprovados continuam desativados.",
+    "aprovacoes_visuais_informadas": 15,
+    "aprovacoes_sem_compartilhamento": 9,
+    "vinculos_compartilhados_pendentes": 6,
+    "midias_duplicadas_exatas": 3,
+    "itens_em_producao_para_cobertura_unica": 58
   },
   "items": [
     {
@@ -967,7 +972,7 @@
         "Voador na máquina com pegadores"
       ],
       "related_ids": [],
-      "note": "Imagem gerada com pegadores; não confirmar o modelo de antebraços apoiados do item45.",
+      "note": "Imagem gerada com pegadores; não confirmar o modelo de antebraços apoiados do item45. Aprovação visual informada pelo usuário em 29/10/2026; sem formulário individual de critérios.",
       "planned_id": null,
       "status": "correspondência cadastrada",
       "production_status": "vinculado_legado",
@@ -1387,13 +1392,13 @@
         "Remada curvada supinada com barra"
       ],
       "related_ids": [],
-      "note": "Corrigido de e34 para e128; fonte e128 descreve explicitamente pegada supinada.",
+      "note": "Corrigido de e34 para e128; fonte e128 descreve explicitamente pegada supinada. Aprovação visual informada pelo usuário em 29/10/2026; sem formulário individual de critérios.",
       "planned_id": null,
-      "status": "correspondência cadastrada; revisão pendente",
-      "production_status": "vinculado_legado_revisao_pendente",
+      "status": "correspondência cadastrada",
+      "production_status": "vinculado_legado",
       "media_ref": "e128",
       "animation_path": "assets/exercises/e128.gif",
-      "review_pending": true
+      "review_pending": false
     },
     {
       "list_id": 67,
@@ -1862,7 +1867,7 @@
         "Remada baixa articulada"
       ],
       "related_ids": [],
-      "note": "",
+      "note": "Aprovação visual informada pelo usuário em 29/10/2026; sem formulário individual de critérios.",
       "planned_id": null,
       "status": "correspondência cadastrada",
       "production_status": "vinculado_legado",
@@ -2131,7 +2136,7 @@
         "Remada Invertida na Barra (Australian Pull-up)"
       ],
       "related_ids": [],
-      "note": "",
+      "note": "Aprovação visual informada pelo usuário em 29/10/2026; sem formulário individual de critérios.",
       "planned_id": null,
       "status": "correspondência cadastrada",
       "production_status": "vinculado_legado",
@@ -2788,7 +2793,7 @@
         "Crucifixo Inverso no Cabo (Foco em Upper Back/Romboides)"
       ],
       "related_ids": [],
-      "note": "",
+      "note": "Aprovação visual informada pelo usuário; GIF compartilhado com outra variação, requer mídia distinta ou justificativa técnica registrada.",
       "planned_id": null,
       "status": "correspondência cadastrada; revisão pendente",
       "production_status": "vinculado_legado_revisao_pendente",
@@ -2893,13 +2898,13 @@
         "Crucifixo inverso na máquina"
       ],
       "related_ids": [],
-      "note": "",
+      "note": "Aprovação visual informada pelo usuário; GIF compartilhado com outra variação, requer mídia distinta ou justificativa técnica registrada.",
       "planned_id": null,
-      "status": "correspondência cadastrada",
-      "production_status": "vinculado_legado",
+      "status": "correspondência cadastrada; revisão pendente",
+      "production_status": "vinculado_legado_revisao_pendente",
       "media_ref": "e110",
       "animation_path": "assets/exercises/e110.gif",
-      "review_pending": false
+      "review_pending": true
     },
     {
       "list_id": 141,
@@ -6134,7 +6139,7 @@
         "Desenvolvimento na máquina"
       ],
       "related_ids": [],
-      "note": "Confirmar pegada/modelo na revisão da imagem antes de afirmar correspondência exata.",
+      "note": "Confirmar pegada/modelo na revisão da imagem antes de afirmar correspondência exata. Aprovação visual informada pelo usuário; GIF compartilhado com outra variação, requer mídia distinta ou justificativa técnica registrada.",
       "planned_id": null,
       "status": "correspondência cadastrada; revisão pendente",
       "production_status": "vinculado_legado_revisao_pendente",
@@ -6155,7 +6160,7 @@
         "Desenvolvimento na máquina"
       ],
       "related_ids": [],
-      "note": "",
+      "note": "Aprovação visual informada pelo usuário; GIF compartilhado com outra variação, requer mídia distinta ou justificativa técnica registrada.",
       "planned_id": null,
       "status": "correspondência cadastrada; revisão pendente",
       "production_status": "vinculado_legado_revisao_pendente",
@@ -6341,7 +6346,7 @@
         "Flexão pike"
       ],
       "related_ids": [],
-      "note": "",
+      "note": "Aprovação visual informada pelo usuário em 29/10/2026; sem formulário individual de critérios.",
       "planned_id": null,
       "status": "correspondência cadastrada",
       "production_status": "vinculado_legado",
@@ -6474,18 +6479,18 @@
       "section": "Variações de Elevação Lateral e Remada Alta (Deltoide Lateral)",
       "primary": false,
       "catalog_ids": [
-        "e208"
+        "e179"
       ],
       "catalog_names": [
-        "Elevação Lateral Unilateral Inclinado (Segurando na coluna do aparelho)"
+        "Elevação lateral inclinada com halter"
       ],
       "related_ids": [],
-      "note": "",
+      "note": "Reassociado de e208 (execução na polia) para e179 (elevação lateral inclinada com halter e apoio fixo); correspondência documental verificada, inspeção do GIF ainda pendente. Aprovação visual informada pelo usuário em 29/10/2026; sem formulário individual de critérios.",
       "planned_id": null,
       "status": "correspondência cadastrada",
       "production_status": "vinculado_legado",
-      "media_ref": "e208",
-      "animation_path": "assets/exercises/e208.gif",
+      "media_ref": "e179",
+      "animation_path": "assets/exercises/e179.gif",
       "review_pending": false
     },
     {
@@ -6917,13 +6922,13 @@
         "Crucifixo inverso na máquina"
       ],
       "related_ids": [],
-      "note": "",
+      "note": "Aprovação visual informada pelo usuário; GIF compartilhado com outra variação, requer mídia distinta ou justificativa técnica registrada.",
       "planned_id": null,
-      "status": "correspondência cadastrada",
-      "production_status": "vinculado_legado",
+      "status": "correspondência cadastrada; revisão pendente",
+      "production_status": "vinculado_legado_revisao_pendente",
       "media_ref": "e110",
       "animation_path": "assets/exercises/e110.gif",
-      "review_pending": false
+      "review_pending": true
     },
     {
       "list_id": 341,
@@ -6938,7 +6943,7 @@
         "Crucifixo Inverso Cruzado na Polia Alta / Média (Sem puxador, segurando nas bolinhas do cabo)"
       ],
       "related_ids": [],
-      "note": "",
+      "note": "Aprovação visual informada pelo usuário; GIF compartilhado com outra variação, requer mídia distinta ou justificativa técnica registrada.",
       "planned_id": null,
       "status": "correspondência cadastrada; revisão pendente",
       "production_status": "vinculado_legado_revisao_pendente",
@@ -7266,13 +7271,13 @@
         "Rosca no Banco Inclinado 45° com Halteres (Braços alongados atrás do tronco)"
       ],
       "related_ids": [],
-      "note": "GIF associado ao exercício para revisão; aprovação visual e biomecânica final pendente.",
+      "note": "GIF associado ao exercício para revisão; aprovação visual e biomecânica final pendente. Aprovação visual informada pelo usuário em 29/10/2026; sem formulário individual de critérios.",
       "planned_id": null,
-      "status": "correspondência cadastrada; revisão pendente",
-      "production_status": "associado_revisao_pendente",
+      "status": "correspondência cadastrada",
+      "production_status": "vinculado_legado",
       "media_ref": "e141",
       "animation_path": "assets/exercises/e141.gif",
-      "review_pending": true
+      "review_pending": false
     },
     {
       "list_id": 358,
@@ -7956,7 +7961,7 @@
         "Flexão de Punho em Pé por Trás das Costas com Barra ou no Smith"
       ],
       "related_ids": [],
-      "note": "",
+      "note": "Aprovação visual informada pelo usuário em 29/10/2026; sem formulário individual de critérios.",
       "planned_id": null,
       "status": "correspondência cadastrada",
       "production_status": "vinculado_legado",
@@ -9568,7 +9573,7 @@
         "Elevação de pernas suspenso"
       ],
       "related_ids": [],
-      "note": "",
+      "note": "Aprovação visual informada pelo usuário em 29/10/2026; sem formulário individual de critérios.",
       "planned_id": null,
       "status": "correspondência cadastrada",
       "production_status": "vinculado_legado",

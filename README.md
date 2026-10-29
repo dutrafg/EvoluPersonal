@@ -12,7 +12,7 @@ Aplicativo separado para personal trainer, com identidade visual inspirada no Ev
 - Descanso antes de cada série, RIR alvo/realizado, GIF na execução e histórico de séries.
 - Sugestões de progressão por todas as séries de trabalho ou pela principal, sem alterar cargas automaticamente.
 - Migração de backups e bases versão 1 para versão 2 sem excluir registros; mudança para catálogo MD500 preserva as referências históricas de treinos antigos e cria cópia local antes da adaptação.
-- Biblioteca oficial com os **500 exercícios do arquivo `500 Exercícios Base de Musculação.md`**, na mesma ordem e com os nomes originais. **295 possuem GIF legado vinculado**; **205 aguardam animação específica**. O lote de 30 animações 2D criado anteriormente foi reprovado e não conta como cobertura.
+- Biblioteca oficial com os **500 exercícios do arquivo `500 Exercícios Base de Musculação.md`**, na mesma ordem e com os nomes originais. **445 com GIF vinculado** (296 legados e 149 novos GIFs 3D), **55 sem GIF**. Desses 445 vínculos, são **442 arquivos distintos**, pois três GIFs são compartilhados por dois exercícios. **58 tarefas** para obter uma animação exclusiva em cada exercício (55 ausentes + 3 substituições condicionais). Os 30 GIFs 2D reprovados continuam excluídos.
 - Prévia local da área do aluno: carga e repetições por série, marcação de conclusão, cronômetro, esforço e feedback.
 - Histórico de sessões com cópia dos registros na conclusão.
 - Persistência no navegador, exportação e restauração de backup JSON com validação.
@@ -76,3 +76,7 @@ O módulo **Biblioteca** em `dist/index.html` agora utiliza o layout escuro azul
 Cada card utiliza **um GIF real já vinculado** ao MD ou a indicação explícita **“GIF 3D pendente”**. Nenhuma montagem de pôster e nenhum GIF 2D reprovado foi integrado. Em 28/10/2026: **295/500 GIFs vinculados** (ainda sujeitos à revisão biomecânica) e **205** pendentes; novo lote `MD500-25-01` ainda com **0/25 GIFs 3D gerados e aprovados**.
 
 Regressão de interface: `node tests-gallery.cjs` (fonte MD500, contagens, 25 itens no lote, GIFs verdadeiros, busca, filtros, paginação e CSS responsivo). Os testes passaram em execução isolada do JavaScript da aplicação.
+
+## Auditoria e pendências MD500 (29/10/2026)
+
+Aprovação visual relatada para 15 vínculos legados, preservando alerta para três pares de GIFs repetidos. A biblioteca não está concluída até resolver GIFs ausentes e vínculos compartilhados. Consulte `production/PLANO_GIFS_3D_PENDENTES.md` e `production/FILA_PRODUCAO_3D_MD500.json`.

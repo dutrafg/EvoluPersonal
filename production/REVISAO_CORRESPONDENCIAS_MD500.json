@@ -1,5 +1,5 @@
 {
-  "scope": "Revisão cadastral de IDs, nomes, referências, caminhos e hashes. Não equivale a aprovação visual/biomecânica integral.",
+  "scope": "Revisão cadastral de IDs, nomes, referências, caminhos e hashes. Não equivale a aprovação visual/biomecânica integral. | 15 vínculos validados visualmente pelo usuário, 6 dependentes de GIF único",
   "total": 500,
   "linked": 445,
   "missing": 55,
@@ -37,7 +37,7 @@
       "name": "Supino Reto com Barra",
       "media_ref": "e4",
       "path": "dist/assets/exercises/e4.gif",
-      "gif_blob_sha": "1e879245c8d6e764c2c88d74b5178ed1e40bf3af",
+      "gif_blob_sha": "51ea3ccdd05bcb1b290ad0929e42dba6be5236b1",
       "file_present": true,
       "correspondence": "vinculo_cadastral_verificado",
       "visual_review": "legado_nao_auditado_integralmente"
@@ -490,7 +490,7 @@
       "gif_blob_sha": "3707a135e68be29949ee691914ec437ccc1ea43f",
       "file_present": true,
       "correspondence": "vinculo_cadastral_verificado",
-      "visual_review": "legado_nao_auditado_integralmente"
+      "visual_review": "aprovado_visual_usuario"
     },
     {
       "md_id": 47,
@@ -690,7 +690,7 @@
       "gif_blob_sha": "5a14655136e7c8787e83e6196d2d85e549eb9739",
       "file_present": true,
       "correspondence": "vinculo_cadastral_verificado",
-      "visual_review": "pendente"
+      "visual_review": "aprovado_visual_usuario"
     },
     {
       "md_id": 67,
@@ -920,7 +920,7 @@
       "gif_blob_sha": "a8fa6a9fb2f172ebaceb340f13b0d8f657a3252f",
       "file_present": true,
       "correspondence": "vinculo_cadastral_verificado",
-      "visual_review": "legado_nao_auditado_integralmente"
+      "visual_review": "aprovado_visual_usuario"
     },
     {
       "md_id": 90,
@@ -1050,7 +1050,7 @@
       "gif_blob_sha": "b829b4431a7893111e69ac40c9267e96d2b750d4",
       "file_present": true,
       "correspondence": "vinculo_cadastral_verificado",
-      "visual_review": "legado_nao_auditado_integralmente"
+      "visual_review": "aprovado_visual_usuario"
     },
     {
       "md_id": 103,
@@ -1380,7 +1380,7 @@
       "gif_blob_sha": "0f44a0514868cea89dcd9a6843d76e666455ee7b",
       "file_present": true,
       "correspondence": "vinculo_cadastral_verificado",
-      "visual_review": "pendente"
+      "visual_review": "aprovado_usuario_repeticao_pendente"
     },
     {
       "md_id": 136,
@@ -1430,7 +1430,7 @@
       "gif_blob_sha": "23fd6e4ad5e5c2912b6d5748be3509b6ccd789c4",
       "file_present": true,
       "correspondence": "vinculo_cadastral_verificado",
-      "visual_review": "legado_nao_auditado_integralmente"
+      "visual_review": "aprovado_usuario_repeticao_pendente"
     },
     {
       "md_id": 141,
@@ -3040,7 +3040,7 @@
       "gif_blob_sha": "825981473f4fa218e8851a5689c0646e7bb2111c",
       "file_present": true,
       "correspondence": "vinculo_cadastral_verificado",
-      "visual_review": "pendente"
+      "visual_review": "aprovado_usuario_repeticao_pendente"
     },
     {
       "md_id": 302,
@@ -3050,7 +3050,7 @@
       "gif_blob_sha": "825981473f4fa218e8851a5689c0646e7bb2111c",
       "file_present": true,
       "correspondence": "vinculo_cadastral_verificado",
-      "visual_review": "pendente"
+      "visual_review": "aprovado_usuario_repeticao_pendente"
     },
     {
       "md_id": 303,
@@ -3150,7 +3150,7 @@
       "gif_blob_sha": "59e109c966ec150e0883afe2c331daea69acc933",
       "file_present": true,
       "correspondence": "vinculo_cadastral_verificado",
-      "visual_review": "legado_nao_auditado_integralmente"
+      "visual_review": "aprovado_visual_usuario"
     },
     {
       "md_id": 313,
@@ -3215,12 +3215,12 @@
     {
       "md_id": 319,
       "name": "Elevação Lateral Unilateral Inclinado (Segurando na coluna do aparelho)",
-      "media_ref": "e208",
-      "path": "dist/assets/exercises/e208.gif",
-      "gif_blob_sha": "497c637d34e806f9f25a1538a60b422cd44a03f8",
+      "media_ref": "e179",
+      "path": "dist/assets/exercises/e179.gif",
+      "gif_blob_sha": "11186acd36938c1e67f96c41d7ae78c8090f5df5",
       "file_present": true,
-      "correspondence": "vinculo_cadastral_verificado",
-      "visual_review": "legado_nao_auditado_integralmente"
+      "correspondence": "reassociado_por_descricao_de_origem",
+      "visual_review": "aprovado_visual_usuario"
     },
     {
       "md_id": 320,
@@ -3430,7 +3430,7 @@
       "gif_blob_sha": "23fd6e4ad5e5c2912b6d5748be3509b6ccd789c4",
       "file_present": true,
       "correspondence": "vinculo_cadastral_verificado",
-      "visual_review": "legado_nao_auditado_integralmente"
+      "visual_review": "aprovado_usuario_repeticao_pendente"
     },
     {
       "md_id": 341,
@@ -3440,7 +3440,7 @@
       "gif_blob_sha": "0f44a0514868cea89dcd9a6843d76e666455ee7b",
       "file_present": true,
       "correspondence": "vinculo_cadastral_verificado",
-      "visual_review": "pendente"
+      "visual_review": "aprovado_usuario_repeticao_pendente"
     },
     {
       "md_id": 342,
@@ -3600,7 +3600,7 @@
       "gif_blob_sha": "6d87d56c3bc0688885e8f9d4f13ece7603bf21f1",
       "file_present": true,
       "correspondence": "vinculo_cadastral_verificado",
-      "visual_review": "pendente"
+      "visual_review": "aprovado_visual_usuario"
     },
     {
       "md_id": 358,
@@ -3940,7 +3940,7 @@
       "gif_blob_sha": "8f92c5f758202202821a515693b0e6253a733e86",
       "file_present": true,
       "correspondence": "vinculo_cadastral_verificado",
-      "visual_review": "legado_nao_auditado_integralmente"
+      "visual_review": "aprovado_visual_usuario"
     },
     {
       "md_id": 392,
@@ -4740,7 +4740,7 @@
       "gif_blob_sha": "a8af68c080c037888c4ae7b03e588f417bdebec4",
       "file_present": true,
       "correspondence": "vinculo_cadastral_verificado",
-      "visual_review": "legado_nao_auditado_integralmente"
+      "visual_review": "aprovado_visual_usuario"
     },
     {
       "md_id": 472,

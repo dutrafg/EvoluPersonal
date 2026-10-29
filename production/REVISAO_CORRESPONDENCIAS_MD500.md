@@ -67,3 +67,8 @@ A revisão cadastral não certifica a biomecânica de todas as animações. As14
 - MD494 — Prancha Dinâmica na Bola Suíça (Stir the Pot)
 - MD495 — Prancha RKC (Contração máxima de glúteos, quadríceps e dorsais)
 - MD500 — Vacuum Abdominal (Contração isométrica do Transverso do Abdômen)
+
+
+## Correção cadastral de 29/10/2026 (branch de revisão)
+
+- **MD319** foi alterado de `e208` (elevação lateral inclinada **na polia**) para `e179` (elevação lateral inclinada **com halter e apoio fixo**), de acordo com o detalhamento do nome MD e a fonte `production/e179-source.json`. GIF existente, SHA `11186acd36938c1e67f96c41d7ae78c8090f5df5`. **Validação visual ainda pendente; não é aprovação biomecânica.**

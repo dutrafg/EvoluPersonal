@@ -1,0 +1,31 @@
+name: QA lista MD500 e prioridade 55 GIFs
+on:
+  push:
+    branches:
+      - codex/md500-revisao-associacoes-20261029
+    paths:
+      - scripts/validar_fila_prioritaria_55.cjs
+      - production/FILA_PRIORITARIA_55_GIF3D.json
+      - production/ESPECIFICACOES_55_GIF3D.md
+      - .github/workflows/qa-prioridade-55.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Confirmar 500 registros e 55 ausentes
+        run: |
+          node scripts/validar_cobertura_500.cjs
+          node scripts/validar_fila_producao_md500.cjs
+          node scripts/validar_fila_prioritaria_55.cjs
+          node scripts/validar_legado_296.cjs
+      - name: Testes do aplicativo
+        run: |
+          node tests.cjs
+          node tests-methods.cjs

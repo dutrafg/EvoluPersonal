@@ -1,0 +1,48 @@
+name: Build offline review of 15 exercise GIFs
+on:
+  push:
+    branches:
+      - codex/md500-revisao-associacoes-20261029
+    paths:
+      - scripts/build_review15.py
+      - .github/workflows/build-review15.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout review branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Generate standalone HTML with GIFs
+        run: |
+          python3 scripts/build_review15.py
+          test -s dist/revisao-visual-15-offline.html
+          python3 - <<'PY'
+          import pathlib, re, json
+          s=pathlib.Path('dist/revisao-visual-15-offline.html').read_text()
+          assert len(s)>5000000, len(s)
+          assert s.count('data:image/gif;base64,')==12
+          assert 'Copiar resultado para o ChatGPT' in s
+          assert 'const ITEMS=' in s
+          assert 'resolveMedia(path)' in s
+          print(json.dumps({'size':len(s),'gifs':12,'valid':True}))
+          PY
+      - name: Package standalone HTML for download
+        uses: actions/upload-artifact@v4
+        with:
+          name: EvoluPersonal_15_GIFs_OFFLINE
+          path: dist/revisao-visual-15-offline.html
+          if-no-files-found: error
+          retention-days: 7
+      - name: Commit generated page on review branch only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add dist/revisao-visual-15-offline.html
+          git diff --cached --quiet && exit 0
+          git commit -m "build: revisão visual offline com 15 exercícios e GIFs embutidos"
+          git push origin HEAD:codex/md500-revisao-associacoes-20261029

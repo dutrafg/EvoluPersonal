@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "project": "EvoluPersonal",
+  "scope": "15 vínculos legados encaminhados à revisão visual",
+  "date": "2026-10-29",
+  "branch": "codex/md500-revisao-associacoes-20261029",
+  "source_commit": "3fd5af1a4b1407b0efb651e795f02e265161ce05",
+  "user_feedback": "Aprovados, mas tem alguns repetidos",
+  "approval_source": "declaração do usuário na conversa",
+  "approval_type": "aprovação visual informada, sem formulário JSON individual enviado",
+  "summary": {
+    "reviewed_by_user": 15,
+    "approved_by_user": 15,
+    "distinct_gif_files": 12,
+    "shared_gif_pairs": 3,
+    "unique_asset_issues_pending": 3,
+    "release_ready": false
+  },
+  "records": [
+    {
+      "md_id": 46,
+      "exercise_name": "Crucifixo na Máquina (Braços estendidos)",
+      "media_ref": "e102",
+      "path": "assets/exercises/e102.gif",
+      "gif_blob_sha": "3707a135e68be29949ee691914ec437ccc1ea43f",
+      "user_decision": "aprovado_com_ressalva_de_repeticao",
+      "shared_gif": false,
+      "uniqueness_status": "sem_duplicidade_exata_identificada",
+      "group": "1. Peitoral (1 a 60)"
+    },
+    {
+      "md_id": 66,
+      "exercise_name": "Remada Curvada com Barra (Pegada Supinada / Yates Row)",
+      "media_ref": "e128",
+      "path": "assets/exercises/e128.gif",
+      "gif_blob_sha": "5a14655136e7c8787e83e6196d2d85e549eb9739",
+      "user_decision": "aprovado_com_ressalva_de_repeticao",
+      "shared_gif": false,
+      "uniqueness_status": "sem_duplicidade_exata_identificada",
+      "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)"
+    },
+    {
+      "md_id": 89,
+      "exercise_name": "Remada Sentado na Máquina (Pegada Neutra)",
+      "media_ref": "e109",
+      "path": "assets/exercises/e109.gif",
+      "gif_blob_sha": "a8fa6a9fb2f172ebaceb340f13b0d8f657a3252f",
+      "user_decision": "aprovado_com_ressalva_de_repeticao",
+      "shared_gif": false,
+      "uniqueness_status": "sem_duplicidade_exata_identificada",
+      "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)"
+    },
+    {
+      "md_id": 102,
+      "exercise_name": "Remada Invertida na Barra (Australian Pull-up)",
+      "media_ref": "e229",
+      "path": "assets/exercises/e229.gif",
+      "gif_blob_sha": "b829b4431a7893111e69ac40c9267e96d2b750d4",
+      "user_decision": "aprovado_com_ressalva_de_repeticao",
+      "shared_gif": false,
+      "uniqueness_status": "sem_duplicidade_exata_identificada",
+      "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)"
+    },
+    {
+      "md_id": 135,
+      "exercise_name": "Crucifixo Inverso no Cabo (Foco em Upper Back/Romboides)",
+      "media_ref": "e171",
+      "path": "assets/exercises/e171.gif",
+      "gif_blob_sha": "0f44a0514868cea89dcd9a6843d76e666455ee7b",
+      "user_decision": "aprovado_com_ressalva_de_repeticao",
+      "shared_gif": true,
+      "uniqueness_status": "pendente_de_decisao_por_variacao",
+      "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)"
+    },
+    {
+      "md_id": 140,
+      "exercise_name": "Crucifixo Inverso na Máquina (Peck Deck Inverso com escápulas móveis)",
+      "media_ref": "e110",
+      "path": "assets/exercises/e110.gif",
+      "gif_blob_sha": "23fd6e4ad5e5c2912b6d5748be3509b6ccd789c4",
+      "user_decision": "aprovado_com_ressalva_de_repeticao",
+      "shared_gif": true,
+      "uniqueness_status": "pendente_de_decisao_por_variacao",
+      "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)"
+    },
+    {
+      "md_id": 301,
+      "exercise_name": "Desenvolvimento na Máquina (Pegada Pronada Aberta)",
+      "media_ref": "e112",
+      "path": "assets/exercises/e112.gif",
+      "gif_blob_sha": "825981473f4fa218e8851a5689c0646e7bb2111c",
+      "user_decision": "aprovado_com_ressalva_de_repeticao",
+      "shared_gif": true,
+      "uniqueness_status": "pendente_de_decisao_por_variacao",
+      "group": "6. Ombros: Deltoide Anterior, Lateral e Posterior (291 a 350)"
+    },
+    {
+      "md_id": 302,
+      "exercise_name": "Desenvolvimento na Máquina (Pegada Neutra Fechada)",
+      "media_ref": "e112",
+      "path": "assets/exercises/e112.gif",
+      "gif_blob_sha": "825981473f4fa218e8851a5689c0646e7bb2111c",
+      "user_decision": "aprovado_com_ressalva_de_repeticao",
+      "shared_gif": true,
+      "uniqueness_status": "pendente_de_decisao_por_variacao",
+      "group": "6. Ombros: Deltoide Anterior, Lateral e Posterior (291 a 350)"
+    },
+    {
+      "md_id": 312,
+      "exercise_name": "Desenvolvimento Invertido na Parede (Handstand Push-up / Pike Push-up)",
+      "media_ref": "e88",
+      "path": "assets/exercises/e88.gif",
+      "gif_blob_sha": "59e109c966ec150e0883afe2c331daea69acc933",
+      "user_decision": "aprovado_com_ressalva_de_repeticao",
+      "shared_gif": false,
+      "uniqueness_status": "sem_duplicidade_exata_identificada",
+      "group": "6. Ombros: Deltoide Anterior, Lateral e Posterior (291 a 350)"
+    },
+    {
+      "md_id": 319,
+      "exercise_name": "Elevação Lateral Unilateral Inclinado (Segurando na coluna do aparelho)",
+      "media_ref": "e179",
+      "path": "assets/exercises/e179.gif",
+      "gif_blob_sha": "11186acd36938c1e67f96c41d7ae78c8090f5df5",
+      "user_decision": "aprovado_com_ressalva_de_repeticao",
+      "shared_gif": false,
+      "uniqueness_status": "sem_duplicidade_exata_identificada",
+      "group": "6. Ombros: Deltoide Anterior, Lateral e Posterior (291 a 350)"
+    },
+    {
+      "md_id": 340,
+      "exercise_name": "Crucifixo Inverso no Peck Deck / Voador Inverso (Pegada Pronada ou Neutra)",
+      "media_ref": "e110",
+      "path": "assets/exercises/e110.gif",
+      "gif_blob_sha": "23fd6e4ad5e5c2912b6d5748be3509b6ccd789c4",
+      "user_decision": "aprovado_com_ressalva_de_repeticao",
+      "shared_gif": true,
+      "uniqueness_status": "pendente_de_decisao_por_variacao",
+      "group": "6. Ombros: Deltoide Anterior, Lateral e Posterior (291 a 350)"
+    },
+    {
+      "md_id": 341,
+      "exercise_name": "Crucifixo Inverso Cruzado na Polia Alta / Média (Sem puxador, segurando nas bolinhas do cabo)",
+      "media_ref": "e171",
+      "path": "assets/exercises/e171.gif",
+      "gif_blob_sha": "0f44a0514868cea89dcd9a6843d76e666455ee7b",
+      "user_decision": "aprovado_com_ressalva_de_repeticao",
+      "shared_gif": true,
+      "uniqueness_status": "pendente_de_decisao_por_variacao",
+      "group": "6. Ombros: Deltoide Anterior, Lateral e Posterior (291 a 350)"
+    },
+    {
+      "md_id": 357,
+      "exercise_name": "Rosca no Banco Inclinado 45° com Halteres (Braços alongados atrás do tronco)",
+      "media_ref": "e141",
+      "path": "assets/exercises/e141.gif",
+      "gif_blob_sha": "6d87d56c3bc0688885e8f9d4f13ece7603bf21f1",
+      "user_decision": "aprovado_com_ressalva_de_repeticao",
+      "shared_gif": false,
+      "uniqueness_status": "sem_duplicidade_exata_identificada",
+      "group": "7. Bíceps, Braquial e Antebraço (351 a 400)"
+    },
+    {
+      "md_id": 391,
+      "exercise_name": "Flexão de Punho em Pé por Trás das Costas com Barra ou no Smith",
+      "media_ref": "e341",
+      "path": "assets/exercises/e341.gif",
+      "gif_blob_sha": "8f92c5f758202202821a515693b0e6253a733e86",
+      "user_decision": "aprovado_com_ressalva_de_repeticao",
+      "shared_gif": false,
+      "uniqueness_status": "sem_duplicidade_exata_identificada",
+      "group": "7. Bíceps, Braquial e Antebraço (351 a 400)"
+    },
+    {
+      "md_id": 471,
+      "exercise_name": "Elevação de Joelhos Pendurado na Barra Fixa (Hanging Knee Raise)",
+      "media_ref": "e69",
+      "path": "assets/exercises/e69.gif",
+      "gif_blob_sha": "a8af68c080c037888c4ae7b03e588f417bdebec4",
+      "user_decision": "aprovado_com_ressalva_de_repeticao",
+      "shared_gif": false,
+      "uniqueness_status": "sem_duplicidade_exata_identificada",
+      "group": "10. Abdômen, Core e Lombar (461 a 500)"
+    }
+  ],
+  "duplicates": [
+    {
+      "media_ref": "e171",
+      "md_ids": [
+        135,
+        341
+      ],
+      "reason": "Crucifixo inverso no cabo vs crucifixo cruzado sem puxadores; confirmar detalhe do implemento e produzir mídia específica quando a execução exigir outra variação",
+      "policy": "não substituir automaticamente"
+    },
+    {
+      "media_ref": "e110",
+      "md_ids": [
+        140,
+        340
+      ],
+      "reason": "Ambos movimentos de voador inverso; pode ser a mesma execução listada em grupos distintos, confirmar relevância de variação de pegada e mobilidade escapular",
+      "candidate": "e267.gif",
+      "candidate_sha": "111bad28d8c8834e6f723d88dbac5992bde71755",
+      "policy": "candidato sem aprovação visual, não reatribuir"
+    },
+    {
+      "media_ref": "e112",
+      "md_ids": [
+        301,
+        302
+      ],
+      "reason": "Pronada aberta e neutra fechada diferem obrigatoriamente; um GIF com uma pegada não comprova as duas execuções",
+      "policy": "gerar segundo GIF específico após determinar qual pegada aparece no atual"
+    }
+  ],
+  "notes": [
+    "Não afirmar que os 15 arquivos são distintos: são 15 vínculos e 12 GIFs únicos.",
+    "A aprovação do usuário não transforma duas pegadas em uma única execução biomecânica válida.",
+    "A auditoria detecta reutilização exata de arquivo por SHA; não elimina duplicações visuais entre arquivos com hashes distintos.",
+    "Manter todos os IDs do MD500 e os vínculos existentes até confirmar substituições. Nenhum GIF criado ou substituído nesta etapa.",
+    "A main não deve ser modificada sem autorização explícita.",
+    "Em 29/10/2026 o usuário autorizou publicação da auditoria na main. Aprovação visual é distinta de exclusividade de arquivo; 3 GIFs continuam compartilhados até substituições individuais."
+  ]
+}
