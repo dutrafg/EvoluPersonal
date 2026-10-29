@@ -1,0 +1,47 @@
+[
+  {
+    "id": 350,
+    "name": "Cuban Press",
+    "frames": 18,
+    "size_bytes": 1063941,
+    "sha256": "f91b98039490ca6abbe73d7d2c0e9688e8a0acdbe37dd36f2611f6cd038c6e77",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  },
+  {
+    "id": 372,
+    "name": "Rosca na Máquina",
+    "frames": 18,
+    "size_bytes": 1102582,
+    "sha256": "ac49063c873c5bfc22e6fed283f2bdd1bd2d3a4e8d8aca942bc734948e43ed81",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  },
+  {
+    "id": 381,
+    "name": "Rosca Inclinada na Polia Baixa",
+    "frames": 18,
+    "size_bytes": 1149701,
+    "sha256": "a4495efdface78863eba203349cabb760e924cca7e5fac9f5e59b632515ec767",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  },
+  {
+    "id": 396,
+    "name": "Pronação e Supinação de Antebraço",
+    "frames": 18,
+    "size_bytes": 1056156,
+    "sha256": "d77764f2a138afccdabd57f10109b716402da6d2707cbe66bc290c9a5bc08537",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  },
+  {
+    "id": 397,
+    "name": "Flexão Radial e Ulnar do Punho",
+    "frames": 18,
+    "size_bytes": 1054461,
+    "sha256": "505798317f400bdee1686cd8397d47c64750eb118e3466df14112bfaf89721aa",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  }
+]
