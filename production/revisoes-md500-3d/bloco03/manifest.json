@@ -1,0 +1,42 @@
+[
+  {
+    "id": 311,
+    "name": "Bradford Press",
+    "frames": 18,
+    "size_bytes": 1056825,
+    "sha256": "3e0ceffbd3778546d6ba2e8269d75e6f078ffca43b52baf7bdc0ea75775be5a4",
+    "status": "geometric_3d_preview_not_approved"
+  },
+  {
+    "id": 318,
+    "name": "Elevação lateral cruzada nos cabos",
+    "frames": 18,
+    "size_bytes": 1109498,
+    "sha256": "4de7d6d61f5366b0dc9a1e42bb6daac890dc3f64280c5cc4ba7a2175f5ba4c38",
+    "status": "geometric_3d_preview_not_approved"
+  },
+  {
+    "id": 321,
+    "name": "Elevação lateral com peito apoiado",
+    "frames": 18,
+    "size_bytes": 1048160,
+    "sha256": "e21ef3472613bddbe6070da65f70bba251d2c15930fa7090d5bce79f86d72e99",
+    "status": "geometric_3d_preview_not_approved"
+  },
+  {
+    "id": 346,
+    "name": "Powell Raise",
+    "frames": 18,
+    "size_bytes": 1047865,
+    "sha256": "82bc0219812fa5351bf1abe0dd8c4bafb7716063ae2f96b8ae13332747603ea9",
+    "status": "geometric_3d_preview_not_approved"
+  },
+  {
+    "id": 347,
+    "name": "Face Pull com rotação externa",
+    "frames": 18,
+    "size_bytes": 1103469,
+    "sha256": "3b0db81b0adcc48cb21e8d00f00e3d2ff3ddf390020a6ba70f1d11c5b02b2fa4",
+    "status": "geometric_3d_preview_not_approved"
+  }
+]

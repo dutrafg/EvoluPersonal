@@ -1,0 +1,63 @@
+name: Render MD500 bloco 03 — prévias 3D
+on:
+  push:
+    branches:
+      - feat/md500-bloco03-previews-20261029
+    paths:
+      - production/revisoes-md500-3d/bloco03/renderer.zlib64
+      - .github/workflows/md500-bloco03-previews.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  render-and-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install 3D renderer dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libosmesa6 libegl1 libgl1-mesa-dri xvfb
+          python3 -m pip install --user vtk Pillow numpy
+      - name: Recover source and render five distinct GIFs
+        run: |
+          python3 - <<'PY'
+          import base64,zlib,pathlib
+          encoded=pathlib.Path('production/revisoes-md500-3d/bloco03/renderer.zlib64').read_text()
+          source=zlib.decompress(base64.b64decode(encoded))
+          source=source.replace(b'from produce_block1 import Scene',b'from render_md500_bloco01 import Scene')
+          source=source.replace(b"BASE=Path('/mnt/data/md500_block3')",b"BASE=Path('production/revisoes-md500-3d/bloco03')")
+          pathlib.Path('scripts/render_md500_bloco03.py').write_bytes(source)
+          PY
+          xvfb-run -a python3 scripts/render_md500_bloco03.py
+      - name: QA frames, IDs and distinct assets
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from PIL import Image,ImageChops,ImageStat
+          import json,hashlib
+          base=Path('production/revisoes-md500-3d/bloco03')
+          data=json.loads((base/'manifest.json').read_text())
+          assert [x['id'] for x in data]==[311,318,321,346,347]
+          sha=set()
+          for item in data:
+            p=base/f"md{item['id']}.gif";im=Image.open(p)
+            assert im.size==(448,448) and im.n_frames>=8
+            im.seek(0);first=im.convert('RGB').copy()
+            im.seek(im.n_frames//2);mid=im.convert('RGB').copy()
+            delta=sum(ImageStat.Stat(ImageChops.difference(first,mid)).mean)
+            assert delta>.50,(item['id'],delta)
+            h=hashlib.sha256(p.read_bytes()).hexdigest()
+            assert h not in sha
+            sha.add(h)
+            print(item['id'],im.n_frames,'quadros; variação',round(delta,1))
+          assert len(sha)==5
+          PY
+      - name: Commit five unapproved preview assets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add scripts/render_md500_bloco03.py production/revisoes-md500-3d/bloco03
+          git diff --cached --quiet && exit 0
+          git commit -m "preview(md500): cinco GIFs técnicos do bloco 3"
+          git push origin HEAD:feat/md500-bloco03-previews-20261029
