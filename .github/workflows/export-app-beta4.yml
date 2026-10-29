@@ -1,0 +1,63 @@
+name: Exportar biblioteca 445 e compilar EvoluPersonal beta 4
+on:
+  push:
+    branches: [integration/evolupersonal-beta4-media]
+  workflow_dispatch:
+concurrency:
+  group: hybrid-beta-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  qa-apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: app
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: media-source
+      - uses: actions/checkout@v4
+        with:
+          repository: dutrafg/Evolutrainer
+          ref: 99238b0a8f159b8465529a0a4b3e780d71439e79
+          path: app
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - run: npm ci
+      - run: npm run check && npm test && npm run build
+      - run: python scripts/sync-media.py ../media-source
+      - uses: actions/upload-artifact@v4
+        with:
+          name: EvoluPersonal-GIFs-445
+          path: app/dist/media/
+          compression-level: 0
+      - run: npx cap sync android
+      - name: Assinatura fixa de desenvolvimento para atualização do beta
+        run: base64 -d scripts/beta-signing-key.base64 > android/beta.keystore
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.14.3'
+      - name: Compilar APK beta
+        working-directory: app/android
+        run: gradle --no-daemon :app:assembleDebug
+      - uses: actions/upload-artifact@v4
+        with:
+          name: EvoluPersonal-0.1.0-beta.4-APK
+          path: app/android/app/build/outputs/apk/debug/app-debug.apk
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: EvoluPersonal-beta-QA
+          path: |
+            app/docs/
+            app/test-results/
