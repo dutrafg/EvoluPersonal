@@ -39,8 +39,8 @@
     "id": 500,
     "name": "Vacuum Abdominal",
     "frames": 18,
-    "size_bytes": 1063562,
-    "sha256": "7b0b5bfbe4f34d9625ed03680f5655ced22b84171a100b20f0b8296bb63c3dd5",
+    "size_bytes": 1069875,
+    "sha256": "72ae8bd7b81aa1a6feca04c2b91fbe23f329a7cfbd1dca6a34600b833760e73d",
     "status": "geometric_3d_preview_not_approved",
     "catalog_linked": false
   }
