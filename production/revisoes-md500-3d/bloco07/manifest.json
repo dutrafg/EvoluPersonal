@@ -1,0 +1,47 @@
+[
+  {
+    "id": 440,
+    "name": "Pin Press Fechado",
+    "frames": 18,
+    "size_bytes": 1162231,
+    "sha256": "01136b34fb2fd8eb0bce05eb34188ef9206da678ec41dae78c572b191ea423f0",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  },
+  {
+    "id": 451,
+    "name": "Panturrilha no V-Squat / Pendulo",
+    "frames": 18,
+    "size_bytes": 1149706,
+    "sha256": "531a667a1d147977725125f72124e43188760d93e1af4a1bea5faf75d8323d47",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  },
+  {
+    "id": 456,
+    "name": "Panturrilha Agachado",
+    "frames": 18,
+    "size_bytes": 1057892,
+    "sha256": "3993280bdfe6d950a1a7cfdcd8b238946842e43851acce9ecb55b9d2f02ae103",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  },
+  {
+    "id": 457,
+    "name": "Caminhada na Ponta dos Pes com Halteres",
+    "frames": 18,
+    "size_bytes": 1055375,
+    "sha256": "400ddc6aee71e7fd25aeab114b8301d244f84064cfa136ad532faae00e000039",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  },
+  {
+    "id": 459,
+    "name": "Elevacao Tibial com Barra Tibial",
+    "frames": 18,
+    "size_bytes": 1091312,
+    "sha256": "dbf6c5ee9d7db9da9569b46cb9addfe1892c079bafdefbbe05035db96a06baee",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  }
+]
