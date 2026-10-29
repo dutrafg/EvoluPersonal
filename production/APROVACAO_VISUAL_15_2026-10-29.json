@@ -219,6 +219,7 @@
     "A aprovação do usuário não transforma duas pegadas em uma única execução biomecânica válida.",
     "A auditoria detecta reutilização exata de arquivo por SHA; não elimina duplicações visuais entre arquivos com hashes distintos.",
     "Manter todos os IDs do MD500 e os vínculos existentes até confirmar substituições. Nenhum GIF criado ou substituído nesta etapa.",
-    "A main não deve ser modificada sem autorização explícita."
+    "A main não deve ser modificada sem autorização explícita.",
+    "Em 29/10/2026 o usuário autorizou publicação da auditoria na main. Aprovação visual é distinta de exclusividade de arquivo; 3 GIFs continuam compartilhados até substituições individuais."
   ]
 }

@@ -14,9 +14,12 @@
     "corrected_md_ids": [
       319
     ],
-    "metadata_not_biomechanics": true
+    "metadata_not_biomechanics": true,
+    "visual_approved_by_user": 15,
+    "visual_approved_without_shared_gif": 9,
+    "duplicate_pair_links_pending": 6
   },
-  "explanation": "Coerência documental confirma IDs, fonte, nome, metadados, existência e SHA do GIF. Não confirma quadros, técnica, pegada, equipamento visível nem qualidade biomecânica. As 281 correspondências coerentes continuam aguardando auditoria visual.",
+  "explanation": "Coerência documental confirma IDs, fonte, nome, metadados, existência e SHA do GIF. Não confirma quadros, técnica, pegada, equipamento visível nem qualidade biomecânica. As 281 correspondências coerentes continuam aguardando auditoria visual. Em 29/10/2026 o usuário aprovou visualmente estes 15 vínculos, mas apontou repetições. Para 6 vínculos de 3 pares compartilhados, a exclusividade ainda não foi resolvida. Os demais 281 vínculos não foram automaticamente aprovados.",
   "records": [
     {
       "md_id": 1,
@@ -849,10 +852,12 @@
       "source_movement": "",
       "source_muscles": "Peitoral",
       "metadata_status": "revisar_variacao",
-      "visual_status": "nao_inspecionado",
+      "visual_status": "aprovado_usuario",
       "shared_media": false,
       "manual_review_reason": "Confirmar se os braços estão estendidos, e não apoiados como no voador MD45.",
-      "corrected_from": null
+      "corrected_from": null,
+      "user_visual_review_source": "mensagem_chat_2026-10-29_sem_json",
+      "requires_unique_gif": false
     },
     {
       "md_id": 47,
@@ -1229,10 +1234,12 @@
       "source_movement": "Underhand barbell bent-over row, palms forward, hip hinge, pull bar toward abdomen then lower.",
       "source_muscles": "Costas e bíceps",
       "metadata_status": "revisar_variacao",
-      "visual_status": "nao_inspecionado",
+      "visual_status": "aprovado_usuario",
       "shared_media": false,
       "manual_review_reason": "Correção anterior e34→e128: fonte explicita pegada supinada; confirmar a execução visual.",
-      "corrected_from": null
+      "corrected_from": null,
+      "user_visual_review_source": "mensagem_chat_2026-10-29_sem_json",
+      "requires_unique_gif": false
     },
     {
       "md_id": 67,
@@ -1609,10 +1616,12 @@
       "source_movement": "",
       "source_muscles": "Costas e bíceps",
       "metadata_status": "revisar_variacao",
-      "visual_status": "nao_inspecionado",
+      "visual_status": "aprovado_usuario",
       "shared_media": false,
       "manual_review_reason": "Confirmar pegada neutra na remada articulada da máquina.",
-      "corrected_from": null
+      "corrected_from": null,
+      "user_visual_review_source": "mensagem_chat_2026-10-29_sem_json",
+      "requires_unique_gif": false
     },
     {
       "md_id": 90,
@@ -1837,10 +1846,12 @@
       "source_movement": "",
       "source_muscles": "Costas e bíceps",
       "metadata_status": "revisar_variacao",
-      "visual_status": "nao_inspecionado",
+      "visual_status": "aprovado_usuario",
       "shared_media": false,
       "manual_review_reason": "e229 mostra remada invertida na barra do Smith, uma variação da barra fixa; conferir escopo.",
-      "corrected_from": null
+      "corrected_from": null,
+      "user_visual_review_source": "mensagem_chat_2026-10-29_sem_json",
+      "requires_unique_gif": false
     },
     {
       "md_id": 103,
@@ -2217,10 +2228,12 @@
       "source_movement": "Standing bilateral reverse cable fly at shoulder height with crossed cables, open arms outward then return.",
       "source_muscles": "Deltoide posterior e costas",
       "metadata_status": "revisar_variacao",
-      "visual_status": "nao_inspecionado",
+      "visual_status": "aprovado_usuario_duplicidade_pendente",
       "shared_media": true,
       "manual_review_reason": "e171 compartilhado com MD341; verificar tipo de puxador e trajetória.",
-      "corrected_from": null
+      "corrected_from": null,
+      "user_visual_review_source": "mensagem_chat_2026-10-29_sem_json",
+      "requires_unique_gif": true
     },
     {
       "md_id": 136,
@@ -2293,10 +2306,12 @@
       "source_movement": "",
       "source_muscles": "Deltoide posterior e parte alta das costas",
       "metadata_status": "revisar_variacao",
-      "visual_status": "nao_inspecionado",
+      "visual_status": "aprovado_usuario_duplicidade_pendente",
       "shared_media": true,
       "manual_review_reason": "e110 compartilhado com MD340; confirmar postura e escápulas móveis.",
-      "corrected_from": null
+      "corrected_from": null,
+      "user_visual_review_source": "mensagem_chat_2026-10-29_sem_json",
+      "requires_unique_gif": true
     },
     {
       "md_id": 141,
@@ -4003,10 +4018,12 @@
       "source_movement": "",
       "source_muscles": "Deltoides e tríceps",
       "metadata_status": "revisar_variacao",
-      "visual_status": "nao_inspecionado",
+      "visual_status": "aprovado_usuario_duplicidade_pendente",
       "shared_media": true,
       "manual_review_reason": "e112 não especifica pegada pronada aberta; confirmar.",
-      "corrected_from": null
+      "corrected_from": null,
+      "user_visual_review_source": "mensagem_chat_2026-10-29_sem_json",
+      "requires_unique_gif": true
     },
     {
       "md_id": 302,
@@ -4022,10 +4039,12 @@
       "source_movement": "",
       "source_muscles": "Deltoides e tríceps",
       "metadata_status": "revisar_variacao",
-      "visual_status": "nao_inspecionado",
+      "visual_status": "aprovado_usuario_duplicidade_pendente",
       "shared_media": true,
       "manual_review_reason": "e112 não especifica pegada neutra fechada; confirmar.",
-      "corrected_from": null
+      "corrected_from": null,
+      "user_visual_review_source": "mensagem_chat_2026-10-29_sem_json",
+      "requires_unique_gif": true
     },
     {
       "md_id": 304,
@@ -4079,10 +4098,12 @@
       "source_movement": "",
       "source_muscles": "Ombros e tríceps",
       "metadata_status": "revisar_variacao",
-      "visual_status": "nao_inspecionado",
+      "visual_status": "aprovado_usuario",
       "shared_media": false,
       "manual_review_reason": "e88 mostra pike push-up; não valida handstand push-up, apenas alternativa da descrição.",
-      "corrected_from": null
+      "corrected_from": null,
+      "user_visual_review_source": "mensagem_chat_2026-10-29_sem_json",
+      "requires_unique_gif": false
     },
     {
       "md_id": 314,
@@ -4117,10 +4138,12 @@
       "source_movement": "",
       "source_muscles": "Deltoide lateral",
       "metadata_status": "revisar_variacao",
-      "visual_status": "nao_inspecionado",
+      "visual_status": "aprovado_usuario",
       "shared_media": false,
       "manual_review_reason": "Reassociado e208→e179 pela especificação de halter e apoio; confirmar visual.",
-      "corrected_from": "e208"
+      "corrected_from": "e208",
+      "user_visual_review_source": "mensagem_chat_2026-10-29_sem_json",
+      "requires_unique_gif": false
     },
     {
       "md_id": 322,
@@ -4269,10 +4292,12 @@
       "source_movement": "",
       "source_muscles": "Deltoide posterior e parte alta das costas",
       "metadata_status": "revisar_variacao",
-      "visual_status": "nao_inspecionado",
+      "visual_status": "aprovado_usuario_duplicidade_pendente",
       "shared_media": true,
       "manual_review_reason": "e110 compartilhado com MD140; conferir pegada pronada/neutra.",
-      "corrected_from": null
+      "corrected_from": null,
+      "user_visual_review_source": "mensagem_chat_2026-10-29_sem_json",
+      "requires_unique_gif": true
     },
     {
       "md_id": 341,
@@ -4288,10 +4313,12 @@
       "source_movement": "Standing bilateral reverse cable fly at shoulder height with crossed cables, open arms outward then return.",
       "source_muscles": "Deltoide posterior e costas",
       "metadata_status": "revisar_variacao",
-      "visual_status": "nao_inspecionado",
+      "visual_status": "aprovado_usuario_duplicidade_pendente",
       "shared_media": true,
       "manual_review_reason": "e171 compartilhado com MD135; confirmar execução cruzada sem puxadores.",
-      "corrected_from": null
+      "corrected_from": null,
+      "user_visual_review_source": "mensagem_chat_2026-10-29_sem_json",
+      "requires_unique_gif": true
     },
     {
       "md_id": 348,
@@ -4440,10 +4467,12 @@
       "source_movement": "Incline bench seated dumbbell biceps curl, arms hanging behind torso, curl weights then lower slowly.",
       "source_muscles": "Bíceps",
       "metadata_status": "revisar_variacao",
-      "visual_status": "nao_inspecionado",
+      "visual_status": "aprovado_usuario",
       "shared_media": false,
       "manual_review_reason": "e141 descreve rosca inclinada com braços atrás do corpo; confirmar ângulo e técnica.",
-      "corrected_from": null
+      "corrected_from": null,
+      "user_visual_review_source": "mensagem_chat_2026-10-29_sem_json",
+      "requires_unique_gif": false
     },
     {
       "md_id": 358,
@@ -4706,10 +4735,12 @@
       "source_movement": "",
       "source_muscles": "Flexores do antebraço",
       "metadata_status": "revisar_variacao",
-      "visual_status": "nao_inspecionado",
+      "visual_status": "aprovado_usuario",
       "shared_media": false,
       "manual_review_reason": "e341 descreve barra atrás do corpo, mas instrução genérica de apoio de antebraços requer inspeção.",
-      "corrected_from": null
+      "corrected_from": null,
+      "user_visual_review_source": "mensagem_chat_2026-10-29_sem_json",
+      "requires_unique_gif": false
     },
     {
       "md_id": 393,
@@ -5466,10 +5497,12 @@
       "source_movement": "",
       "source_muscles": "Abdômen inferior",
       "metadata_status": "revisar_variacao",
-      "visual_status": "nao_inspecionado",
+      "visual_status": "aprovado_usuario",
       "shared_media": false,
       "manual_review_reason": "e69 orienta elevação de joelhos na instrução, apesar de título genérico sobre pernas suspensas.",
-      "corrected_from": null
+      "corrected_from": null,
+      "user_visual_review_source": "mensagem_chat_2026-10-29_sem_json",
+      "requires_unique_gif": false
     },
     {
       "md_id": 475,

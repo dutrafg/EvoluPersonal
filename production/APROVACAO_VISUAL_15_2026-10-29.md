@@ -25,4 +25,4 @@
 3. **MD140/MD340:** candidato legado não utilizado `e267.gif` (crucifixo inverso com apoio de peito) existe e possui outro SHA. **Não foi inspecionado nem reatribuído**, exige revisão técnica para decidir se representa a variação.
 4. Executar auditoria também para **semelhanças visuais** que não compartilhem arquivo: a análise por SHA não identifica essas ocorrências.
 
-**Branch:** `codex/md500-revisao-associacoes-20261029` — **não modificar main sem autorização.**
+**Branch:** `codex/md500-revisao-associacoes-20261029`. Em 29/10/2026, o usuário autorizou publicar a auditoria na `main`, preservando pendências de unicidade.

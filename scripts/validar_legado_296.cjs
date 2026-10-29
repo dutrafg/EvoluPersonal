@@ -35,7 +35,7 @@ for(let id=1;id<=500;id++){
  assert(fs.existsSync(file),'GIF ausente: '+a.media_path);
  const buf=fs.readFileSync(file);
  assert(['GIF89a','GIF87a'].includes(buf.subarray(0,6).toString('ascii')));
- assert.equal(a.visual_status,'nao_inspecionado');
+ assert(['nao_inspecionado','aprovado_usuario','aprovado_usuario_duplicidade_pendente'].includes(a.visual_status));
  if(a.metadata_status==='revisar_variacao')manual++;
  else if(a.metadata_status==='coerencia_documental')coherent++;
  else throw Error('Status inesperado: '+a.metadata_status);
@@ -44,5 +44,7 @@ assert.equal(linked,296);
 assert.equal(manual,15);
 assert.equal(coherent,281);
 assert.equal(inv[318].ref,'e179');
+assert.equal(audit.records.filter(x=>x.visual_status==='aprovado_usuario').length,9);
+assert.equal(audit.records.filter(x=>x.visual_status==='aprovado_usuario_duplicidade_pendente').length,6);
 assert.equal(audit.records.find(x=>x.md_id===319).corrected_from,'e208');
-console.log(JSON.stringify({legacy_associations:linked,metadata_coherent:coherent,specific_visual_review:manual,actual_visual_approvals:0,corrected_md319:'e179',status:'PASS'},null,2));
+console.log(JSON.stringify({legacy_associations:linked,metadata_coherent:coherent,specific_visual_review:manual,visual_approvals_reported_by_user:15,corrected_md319:'e179',status:'PASS'},null,2));

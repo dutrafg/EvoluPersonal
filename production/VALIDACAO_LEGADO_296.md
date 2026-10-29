@@ -4,9 +4,9 @@
 
 - 296 associações legadas documentadas e persistidas no catálogo MD500.
 - 281 com coerência cadastral/documental e sem divergência específica levantada.
-- 15 com variação ou característica a revisar visualmente antes de aprovar.
+- 15 vínculos foram aprovados visualmente pelo usuário em 29/10/2026; desses, seis em três GIFs compartilhados ainda precisam de solução para exclusividade.
 - Todos os 296 GIFs apontam para arquivos existentes na branch, com SHA correspondente ao inventário do GitHub.
-- Nenhum GIF novo foi produzido; os 55 sem mídia continuam pendentes.
+- Nenhum GIF novo foi produzido; os 55 sem mídia continuam pendentes. Três GIFs também são compartilhados e requerem uma decisão sobre mídia exclusiva.
 - 3 pares de exercícios compartilham arquivo (MD135/341, MD140/340, MD301/302).
 - **1 correção feita na branch:** MD319 de `e208` (polia) para `e179` (halter e apoio fixo).
 
@@ -37,4 +37,4 @@
 Arquivo completo de evidências: `production/VALIDACAO_LEGADO_296.json`.
 Para revisão visual, abrir `dist/revisao-vinculos-md500.html` e filtrar **Somente GIFs legados (296)**.
 Executar `node scripts/validar_cobertura_500.cjs` e `node scripts/validar_legado_296.cjs` antes de qualquer integração.
-**Não publicar na main sem autorização explícita.**
+A publicação da auditoria na main foi autorizada pelo usuário em 29/10/2026, sem declarar GIFs repetidos como únicos.

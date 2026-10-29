@@ -687,7 +687,7 @@
     "gif_blob_sha": "3707a135e68be29949ee691914ec437ccc1ea43f",
     "media_review_pending": false,
     "association_status": "associado",
-    "review_status": "legado_nao_auditado_integralmente"
+    "review_status": "aprovado_visual_usuario"
   },
   {
     "id": 47,
@@ -980,14 +980,14 @@
     "ref": "e128",
     "new_gif": null,
     "existing_candidate": null,
-    "production_state": "vinculado_legado_revisao_pendente",
+    "production_state": "vinculado_legado",
     "batch_id": null,
     "legacy_ref": "e128",
     "animation_path": "assets/exercises/e128.gif",
     "gif_blob_sha": "5a14655136e7c8787e83e6196d2d85e549eb9739",
-    "media_review_pending": true,
+    "media_review_pending": false,
     "association_status": "associado",
-    "review_status": "pendente"
+    "review_status": "aprovado_visual_usuario"
   },
   {
     "id": 67,
@@ -1332,7 +1332,7 @@
     "gif_blob_sha": "a8fa6a9fb2f172ebaceb340f13b0d8f657a3252f",
     "media_review_pending": false,
     "association_status": "associado",
-    "review_status": "legado_nao_auditado_integralmente"
+    "review_status": "aprovado_visual_usuario"
   },
   {
     "id": 90,
@@ -1527,7 +1527,7 @@
     "gif_blob_sha": "b829b4431a7893111e69ac40c9267e96d2b750d4",
     "media_review_pending": false,
     "association_status": "associado",
-    "review_status": "legado_nao_auditado_integralmente"
+    "review_status": "aprovado_visual_usuario"
   },
   {
     "id": 103,
@@ -2022,7 +2022,7 @@
     "gif_blob_sha": "0f44a0514868cea89dcd9a6843d76e666455ee7b",
     "media_review_pending": true,
     "association_status": "associado",
-    "review_status": "pendente"
+    "review_status": "aprovado_usuario_repeticao_pendente"
   },
   {
     "id": 136,
@@ -2090,14 +2090,14 @@
     "ref": "e110",
     "new_gif": null,
     "existing_candidate": null,
-    "production_state": "vinculado_legado",
+    "production_state": "vinculado_legado_revisao_pendente",
     "batch_id": null,
     "legacy_ref": "e110",
     "animation_path": "assets/exercises/e110.gif",
     "gif_blob_sha": "23fd6e4ad5e5c2912b6d5748be3509b6ccd789c4",
-    "media_review_pending": false,
+    "media_review_pending": true,
     "association_status": "associado",
-    "review_status": "legado_nao_auditado_integralmente"
+    "review_status": "aprovado_usuario_repeticao_pendente"
   },
   {
     "id": 141,
@@ -4512,7 +4512,7 @@
     "gif_blob_sha": "825981473f4fa218e8851a5689c0646e7bb2111c",
     "media_review_pending": true,
     "association_status": "associado",
-    "review_status": "pendente"
+    "review_status": "aprovado_usuario_repeticao_pendente"
   },
   {
     "id": 302,
@@ -4527,7 +4527,7 @@
     "gif_blob_sha": "825981473f4fa218e8851a5689c0646e7bb2111c",
     "media_review_pending": true,
     "association_status": "associado",
-    "review_status": "pendente"
+    "review_status": "aprovado_usuario_repeticao_pendente"
   },
   {
     "id": 303,
@@ -4677,7 +4677,7 @@
     "gif_blob_sha": "59e109c966ec150e0883afe2c331daea69acc933",
     "media_review_pending": false,
     "association_status": "associado",
-    "review_status": "legado_nao_auditado_integralmente"
+    "review_status": "aprovado_visual_usuario"
   },
   {
     "id": 313,
@@ -4782,7 +4782,7 @@
     "gif_blob_sha": "11186acd36938c1e67f96c41d7ae78c8090f5df5",
     "media_review_pending": false,
     "association_status": "associado",
-    "review_status": "legado_nao_auditado_integralmente"
+    "review_status": "aprovado_visual_usuario"
   },
   {
     "id": 320,
@@ -5090,14 +5090,14 @@
     "ref": "e110",
     "new_gif": null,
     "existing_candidate": null,
-    "production_state": "vinculado_legado",
+    "production_state": "vinculado_legado_revisao_pendente",
     "batch_id": null,
     "legacy_ref": "e110",
     "animation_path": "assets/exercises/e110.gif",
     "gif_blob_sha": "23fd6e4ad5e5c2912b6d5748be3509b6ccd789c4",
-    "media_review_pending": false,
+    "media_review_pending": true,
     "association_status": "associado",
-    "review_status": "legado_nao_auditado_integralmente"
+    "review_status": "aprovado_usuario_repeticao_pendente"
   },
   {
     "id": 341,
@@ -5112,7 +5112,7 @@
     "gif_blob_sha": "0f44a0514868cea89dcd9a6843d76e666455ee7b",
     "media_review_pending": true,
     "association_status": "associado",
-    "review_status": "pendente"
+    "review_status": "aprovado_usuario_repeticao_pendente"
   },
   {
     "id": 342,
@@ -5345,14 +5345,14 @@
     "ref": "e141",
     "new_gif": null,
     "existing_candidate": null,
-    "production_state": "vinculado_legado_revisao_pendente",
+    "production_state": "vinculado_legado",
     "batch_id": null,
     "legacy_ref": "e141",
     "animation_path": "assets/exercises/e141.gif",
     "gif_blob_sha": "6d87d56c3bc0688885e8f9d4f13ece7603bf21f1",
-    "media_review_pending": true,
+    "media_review_pending": false,
     "association_status": "associado",
-    "review_status": "pendente"
+    "review_status": "aprovado_visual_usuario"
   },
   {
     "id": 358,
@@ -5862,7 +5862,7 @@
     "gif_blob_sha": "8f92c5f758202202821a515693b0e6253a733e86",
     "media_review_pending": false,
     "association_status": "associado",
-    "review_status": "legado_nao_auditado_integralmente"
+    "review_status": "aprovado_visual_usuario"
   },
   {
     "id": 392,
@@ -7062,7 +7062,7 @@
     "gif_blob_sha": "a8af68c080c037888c4ae7b03e588f417bdebec4",
     "media_review_pending": false,
     "association_status": "associado",
-    "review_status": "legado_nao_auditado_integralmente"
+    "review_status": "aprovado_visual_usuario"
   },
   {
     "id": 472,
