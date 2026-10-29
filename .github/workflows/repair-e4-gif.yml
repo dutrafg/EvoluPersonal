@@ -1,0 +1,55 @@
+name: Repair e4 GIF and validate MD500
+on:
+  push:
+    branches:
+      - codex/md500-revisao-associacoes-20261029
+    paths:
+      - scripts/reparar_e4_gif.py
+      - .github/workflows/repair-e4-gif.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  repair-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout review branch
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install image processing dependency
+        run: python3 -m pip install --user Pillow
+      - name: Repair e4 stacked GIF into one-scene frames
+        run: python3 scripts/reparar_e4_gif.py
+      - name: Confirm GIF frames and dimensions
+        run: |
+          python3 - <<'PY'
+          from PIL import Image, ImageSequence
+          im=Image.open('dist/assets/exercises/e4.gif')
+          assert im.size==(448,218),im.size
+          assert im.n_frames>=2,im.n_frames
+          original=Image.open('production/legacy-originals/e4-stacked-original.gif')
+          assert original.size==(448,448),original.size
+          assert original.n_frames==6
+          print('GIF e4: ',im.size,im.n_frames,'quadros; original preservado')
+          PY
+      - name: Regression tests
+        run: |
+          node --check tests-media.cjs
+          node tests-media.cjs
+          node tests-gallery.cjs
+          node scripts/validar_cobertura_500.cjs
+          node scripts/validar_legado_296.cjs
+          node scripts/validar_fila_producao_md500.cjs
+          node --check scripts/validar_associacoes_md500.cjs
+          node scripts/validar_associacoes_md500.cjs --sha
+      - name: Commit corrected media and refreshed SHA on review branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add dist/assets/exercises/e4.gif production/legacy-originals/e4-stacked-original.gif \
+            production/INVENTARIO_MD500.json production/REVISAO_CORRESPONDENCIAS_MD500.json \
+            production/VALIDACAO_LEGADO_296.json dist/revisao-vinculos-md500.html
+          git diff --cached --quiet && exit 0
+          git commit -m "fix(media): Supino Reto e4 GIF em cena única; sincronizar auditoria"
+          git push origin HEAD:codex/md500-revisao-associacoes-20261029
