@@ -1,0 +1,45 @@
+name: Auditoria de integridade MD500
+on:
+  push:
+    branches:
+      - codex/md500-producao-58-20261029
+    paths:
+      - 'scripts/auditar_md500_integral.cjs'
+      - 'scripts/verificar_entregas_gifs_58.cjs'
+      - 'production/**'
+      - 'dist/assets/**'
+      - 'dist/index.html'
+      - '.github/workflows/auditar-md500.yml'
+  workflow_dispatch:
+jobs:
+  auditoria:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout completo da biblioteca
+        uses: actions/checkout@v4
+      - name: Preparar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Executar auditoria MD500
+        id: audit
+        continue-on-error: true
+        run: node scripts/auditar_md500_integral.cjs --write
+      - name: Verificar entregas das 58 tarefas
+        id: render
+        continue-on-error: true
+        run: node scripts/verificar_entregas_gifs_58.cjs
+      - name: Publicar relatório JSON
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: auditoria-md500
+          path: production/RELATORIO_AUDITORIA_MD500.json
+          if-no-files-found: warn
+      - name: Bloquear aprovação enquanto houver pendências
+        if: steps.audit.outcome != 'success' || steps.render.outcome != 'success'
+        run: |
+          echo 'Biblioteca incompleta: consulte o relatório da auditoria.'
+          exit 1
