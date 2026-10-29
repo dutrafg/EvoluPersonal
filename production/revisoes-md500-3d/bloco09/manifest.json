@@ -1,0 +1,47 @@
+[
+  {
+    "id": 479,
+    "name": "Dragon Flag",
+    "frames": 18,
+    "size_bytes": 1039160,
+    "sha256": "3a43ef11b9278b5df5a7ef993984cd23ca899f13bd755d8ca8df95db6059c9f8",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  },
+  {
+    "id": 480,
+    "name": "L-Sit",
+    "frames": 18,
+    "size_bytes": 1076639,
+    "sha256": "63ecb16778811f9faf4ebd86eb93ddf83ae819679929a07cda0b5ccad0eda1ca",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  },
+  {
+    "id": 486,
+    "name": "Lenhador Baixo para Alto na Polia",
+    "frames": 18,
+    "size_bytes": 1096649,
+    "sha256": "3634d7f801d190a80359ec6c699032459776592f7b68ea928ed393e41e3879e4",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  },
+  {
+    "id": 487,
+    "name": "Lenhador Horizontal na Polia",
+    "frames": 18,
+    "size_bytes": 1094102,
+    "sha256": "6fa6954cc5e93e9f081f088437e55aaeac75992e555f5d4bbb88ed9fa56afd2d",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  },
+  {
+    "id": 489,
+    "name": "Rotacao de Tronco no Landmine",
+    "frames": 18,
+    "size_bytes": 1091318,
+    "sha256": "7966c76c250e04b65f8314a8601a1d286e63a9e176d638adf75532a20e2b4e9c",
+    "status": "geometric_3d_preview_not_approved",
+    "catalog_linked": false
+  }
+]
