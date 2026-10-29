@@ -1,3 +1,3 @@
 # Associações MD500
 
-Quatro lotes de25: 100 novos GIFs associados. MD357 reutiliza e141; MD16 usa e402. Total396 vinculados,104 sem GIF,101 em revisão. Main preservada. Inventário e manifestos registram referências exatas.
+124 GIFs novos associados;420 exercícios vinculados,80 sem GIF,125 em revisão. MD357 reutiliza e141; MD16 usa e402. Main preservada. Lote atual24 conforme solicitação.

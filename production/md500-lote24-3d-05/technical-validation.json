@@ -1,0 +1,530 @@
+[
+  {
+    "md_id": 382,
+    "name": "Rosca Estrita na Parede (Strict Curl - costas e glúteos colados na parede)",
+    "output_path": "dist/assets/md500-3d/md382.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 103032,
+    "sha256": "d159b3e7d981c608da871849d2813caf0f680d0798703a150d609945bb9815a2",
+    "gif_blob_sha": "2e32c83e1849a999e2c728b8e8d3bfc9ba8d4a7c",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 386,
+    "name": "Rosca Inversa na Polia Baixa",
+    "output_path": "dist/assets/md500-3d/md386.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 107706,
+    "sha256": "4427fec4cfdac09f48fc6bdb95a22f2fcba96d406043ce25f5651a52ec77fd2c",
+    "gif_blob_sha": "5c352df52390c3e870a061cff3b1437af6628503",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 387,
+    "name": "Rosca Inversa com Halteres",
+    "output_path": "dist/assets/md500-3d/md387.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 109862,
+    "sha256": "51e9880b2a880fbf8e578ad50558533f6c934f13d3167a1b44fc39b8a35073b0",
+    "gif_blob_sha": "449faa68918fc4f3695c39530e5434e00d37bf27",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 389,
+    "name": "Flexão de Punho Sentado com Halteres",
+    "output_path": "dist/assets/md500-3d/md389.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 105739,
+    "sha256": "4c8cd2a282a29d494108c218ebfed08cd7aaaae5238ce91234ca93a5943dd0ea",
+    "gif_blob_sha": "8a8769d804a2d55554e339c93b1df447fee7befb",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 392,
+    "name": "Extensão de Punho Sentado com Barra (Palma para baixo)",
+    "output_path": "dist/assets/md500-3d/md392.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 105258,
+    "sha256": "6de8c073861788d6a64c667298fe1c1c576d3a5ae55959c93a5d1077ea494c0a",
+    "gif_blob_sha": "16c41939c9aaffb049586ad099ba5b66936f314a",
+    "frame_order": [
+      0,
+      2,
+      1,
+      2,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 394,
+    "name": "Extensão de Punho na Polia Baixa",
+    "output_path": "dist/assets/md500-3d/md394.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 114487,
+    "sha256": "ac7cc038e7ff58e6165ad040ebb53875d5dcfe20b9f61f1b13d8c3f58211adfc",
+    "gif_blob_sha": "634e3ee3cb77a4734d380791f8b0be293cd5e790",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 400,
+    "name": "Fechamento de Gripper (Hand Grip / Capitains of Crush)",
+    "output_path": "dist/assets/md500-3d/md400.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 111353,
+    "sha256": "e6c99abbb6c399e85e2f8768ad8912dcf602b13e90501e2f69e136209c4ea6d9",
+    "gif_blob_sha": "79d3dfded5be447c4dbd680ed49ab97449911bff",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 407,
+    "name": "Tríceps Testa com Barra Reta",
+    "output_path": "dist/assets/md500-3d/md407.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 105893,
+    "sha256": "dfda1d78d7c6a87a2b7bdef3ba3677116ce488322e407f9d326f4245780dc1d9",
+    "gif_blob_sha": "946929c9807f53b89a65ea794f2be6afe6dafb8d",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 409,
+    "name": "Tríceps Testa no Banco Inclinado com Barra W",
+    "output_path": "dist/assets/md500-3d/md409.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 107608,
+    "sha256": "1b0b68a668649232e43d3b6d9d71559ce66adf07eb258e90489a24e97568d456",
+    "gif_blob_sha": "8bf53f0a598a83cf5741ea7174d5494f4eee074a",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 410,
+    "name": "Tríceps Testa no Banco Declinado com Barra W",
+    "output_path": "dist/assets/md500-3d/md410.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 106745,
+    "sha256": "2e6f38bbaace1472ca4307a375d3a370672a48f768187b8fa2befee0ecf5d0cb",
+    "gif_blob_sha": "a9ec89aeb984c479a77e0f75e6962aacf312a0f3",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 416,
+    "name": "Supino Pegada Fechada no Smith",
+    "output_path": "dist/assets/md500-3d/md416.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 117780,
+    "sha256": "84fea083ac1ac20b6cdcdb95b875e122367fe990f30f200ac8042d961f6ddc02",
+    "gif_blob_sha": "2e41b935460227073fbd677eae1b917a966a247a",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 424,
+    "name": "Tríceps Francês na Polia Alta com Corda (Inclinado à frente, de costas para o aparelho)",
+    "output_path": "dist/assets/md500-3d/md424.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 109375,
+    "sha256": "47ae6982459373b129187d588c8bf0947f332eb1f1c05a814d36ae36288a4dd2",
+    "gif_blob_sha": "fd744e677c433916d9c91b04fdfef35ed3d0203c",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 431,
+    "name": "Tríceps Pulley Unilateral (Pegada Pronada, Supinada ou Neutra sem puxador)",
+    "output_path": "dist/assets/md500-3d/md431.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 103212,
+    "sha256": "5c03d88a5dfe50cb38738d6d64bb3d0785b59ba68d225db7fecc4eb0161ba142",
+    "gif_blob_sha": "e3d6dea1030857882e4e74bf29c66538e3894322",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 434,
+    "name": "Tríceps Coice Bilateral no Banco Inclinado com Halteres",
+    "output_path": "dist/assets/md500-3d/md434.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 109488,
+    "sha256": "1851fefe374ae5ddb3b2b50069e7478bb2ca7c317a64c3aad573b3fa49fda6b9",
+    "gif_blob_sha": "24fc7ecf336230a9a5a39eb10aa7cdbd0d2a4fdc",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 439,
+    "name": "Extensão de Tríceps com Elástico (Band Pushdown)",
+    "output_path": "dist/assets/md500-3d/md439.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 103539,
+    "sha256": "7011e36e7bcfc7b8e572ccf9e399a6dedf79f04a228ce68688f8b33767d73a85",
+    "gif_blob_sha": "567a78d73a9fed58a5372615b4c5c8d783800f91",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 446,
+    "name": "Elevação de Panturrilha em Pé com Barra Livre",
+    "output_path": "dist/assets/md500-3d/md446.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 105596,
+    "sha256": "abb55e792ee1f202a0ae4015cab8aebae5cfa884e2039c936b97312eb7b0b3bf",
+    "gif_blob_sha": "8be529c6afd91d4749b0c1070bdc1484fbc08906",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 453,
+    "name": "Panturrilha em Pé com Pés Abduzidos (Pontas para fora - ênfase na cabeça medial)",
+    "output_path": "dist/assets/md500-3d/md453.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 100484,
+    "sha256": "809560c4b19502566de354b4fa166e09180282f8ea39e710b05d9e9393cc341a",
+    "gif_blob_sha": "11aa60851a74e2d373f6614af3421455f94dac36",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 454,
+    "name": "Panturrilha em Pé com Pés Aduzidos (Pontas para dentro - ênfase na cabeça lateral)",
+    "output_path": "dist/assets/md500-3d/md454.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 106589,
+    "sha256": "b955edce2c058ffedde248368b002a79c1ef1e0272c0ab57bad1d54289076a26",
+    "gif_blob_sha": "0efd944033d3e85c8c22e40fe4cfc09bddd3c165",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 467,
+    "name": "Abdominal Supra com Peso no Peito (Anilha ou Halter)",
+    "output_path": "dist/assets/md500-3d/md467.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 97906,
+    "sha256": "bd8745f63275848be9d5e83fcd83c0aa37a0c99d2d7c0e997ab6ca66546bd7c1",
+    "gif_blob_sha": "19ad06bd36c77cdb4bd4e9e990596b3a79723a17",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 470,
+    "name": "Abdominal na Bola Suíça (Swiss Ball Crunch - Maior amplitude de extensão)",
+    "output_path": "dist/assets/md500-3d/md470.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 87082,
+    "sha256": "ac5f7389f7d089cb8643aa2f64e4d135bf2a5ea6d2fb061662e381fe6bee1252",
+    "gif_blob_sha": "7e46e0c7e3935d83d8a470870231cbaead98e0b9",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 476,
+    "name": "Abdominal Remador",
+    "output_path": "dist/assets/md500-3d/md476.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 101283,
+    "sha256": "c6867699eb653e7d469f4306916b7de3c8b35f8cb9e5ecbbc6ba42cff585e7ff",
+    "gif_blob_sha": "65b414087bc27964ddc2799621574cb6cc3a9762",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 483,
+    "name": "Giro Russo Sentado com Peso ou Medicine Ball (Russian Twist)",
+    "output_path": "dist/assets/md500-3d/md483.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 104348,
+    "sha256": "87c70ace11fda82b39c824484861338a2cee95ec0aef1879f32b35239ca4edca",
+    "gif_blob_sha": "178d75f9319be70b53a2557c6d4c0b09dfd8c8e9",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 491,
+    "name": "Flexão Lateral de Tronco em Pé com Halter ou na Polia (Side Bend)",
+    "output_path": "dist/assets/md500-3d/md491.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 102000,
+    "sha256": "65e13b902c68ea878721ee9abeb26228dd4aab55bef9fc72022f0799e0f96afb",
+    "gif_blob_sha": "cdd3ffecd19c56fd851aede7b7f6aad15ab0d1b6",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 498,
+    "name": "Superman no Solo (Extensão lombar deitado de bruços)",
+    "output_path": "dist/assets/md500-3d/md498.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 102557,
+    "sha256": "cc50a57f7467d3cc5a75ddbeef34e82460547462521975c32e7e611bf282d87e",
+    "gif_blob_sha": "66da64353a142c3df531c6275a427bebf8b54afe",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  }
+]

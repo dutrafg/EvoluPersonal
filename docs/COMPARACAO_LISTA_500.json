@@ -2,14 +2,14 @@
   "source": "500 Exercícios Base de Musculação.md",
   "summary": {
     "correspondência cadastrada": 295,
-    "GIF 3D vinculado; revisão pendente": 100,
-    "a criar": 104,
+    "GIF 3D vinculado; revisão pendente": 124,
+    "a criar": 80,
     "correspondência cadastrada; revisão pendente": 1,
-    "exercicios_com_midia": 396,
-    "novos_gifs_3d_associados": 100,
-    "revisao_pendente": 101,
-    "sem_gif": 104,
-    "referencias_distintas_em_uso": 392,
+    "exercicios_com_midia": 420,
+    "novos_gifs_3d_associados": 124,
+    "revisao_pendente": 125,
+    "sem_gif": 80,
+    "referencias_distintas_em_uso": 416,
     "bases_principais_total": 65,
     "bases_com_correspondencia": 65,
     "observacao": "Vínculo cadastral não significa aprovação visual ou biomecânica. GIFs 2D reprovados continuam desativados."
@@ -7692,16 +7692,20 @@
       "group": "7. Bíceps, Braquial e Antebraço (351 a 400)",
       "section": "Variações de Rosca para Bíceps e Braquial",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md382"
+      ],
+      "catalog_names": [
+        "Rosca Estrita na Parede (Strict Curl - costas e glúteos colados na parede)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md382",
+      "animation_path": "assets/md500-3d/md382.gif",
+      "review_pending": true
     },
     {
       "list_id": 383,
@@ -7768,16 +7772,20 @@
       "group": "7. Bíceps, Braquial e Antebraço (351 a 400)",
       "section": "Antebraço e Pegada",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md386"
+      ],
+      "catalog_names": [
+        "Rosca Inversa na Polia Baixa"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md386",
+      "animation_path": "assets/md500-3d/md386.gif",
+      "review_pending": true
     },
     {
       "list_id": 387,
@@ -7785,16 +7793,20 @@
       "group": "7. Bíceps, Braquial e Antebraço (351 a 400)",
       "section": "Antebraço e Pegada",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md387"
+      ],
+      "catalog_names": [
+        "Rosca Inversa com Halteres"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md387",
+      "animation_path": "assets/md500-3d/md387.gif",
+      "review_pending": true
     },
     {
       "list_id": 388,
@@ -7823,16 +7835,20 @@
       "group": "7. Bíceps, Braquial e Antebraço (351 a 400)",
       "section": "Antebraço e Pegada",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md389"
+      ],
+      "catalog_names": [
+        "Flexão de Punho Sentado com Halteres"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md389",
+      "animation_path": "assets/md500-3d/md389.gif",
+      "review_pending": true
     },
     {
       "list_id": 390,
@@ -7878,16 +7894,20 @@
       "group": "7. Bíceps, Braquial e Antebraço (351 a 400)",
       "section": "Antebraço e Pegada",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md392"
+      ],
+      "catalog_names": [
+        "Extensão de Punho Sentado com Barra (Palma para baixo)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md392",
+      "animation_path": "assets/md500-3d/md392.gif",
+      "review_pending": true
     },
     {
       "list_id": 393,
@@ -7916,16 +7936,20 @@
       "group": "7. Bíceps, Braquial e Antebraço (351 a 400)",
       "section": "Antebraço e Pegada",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md394"
+      ],
+      "catalog_names": [
+        "Extensão de Punho na Polia Baixa"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md394",
+      "animation_path": "assets/md500-3d/md394.gif",
+      "review_pending": true
     },
     {
       "list_id": 395,
@@ -8022,16 +8046,20 @@
       "group": "7. Bíceps, Braquial e Antebraço (351 a 400)",
       "section": "Antebraço e Pegada",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md400"
+      ],
+      "catalog_names": [
+        "Fechamento de Gripper (Hand Grip / Capitains of Crush)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md400",
+      "animation_path": "assets/md500-3d/md400.gif",
+      "review_pending": true
     },
     {
       "list_id": 401,
@@ -8165,16 +8193,20 @@
       "group": "8. Tríceps (401 a 440)",
       "section": "Variações de Extensão Deitado e Empurrar (Cabeça Lateral, Medial e Longa)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md407"
+      ],
+      "catalog_names": [
+        "Tríceps Testa com Barra Reta"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md407",
+      "animation_path": "assets/md500-3d/md407.gif",
+      "review_pending": true
     },
     {
       "list_id": 408,
@@ -8203,16 +8235,20 @@
       "group": "8. Tríceps (401 a 440)",
       "section": "Variações de Extensão Deitado e Empurrar (Cabeça Lateral, Medial e Longa)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md409"
+      ],
+      "catalog_names": [
+        "Tríceps Testa no Banco Inclinado com Barra W"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md409",
+      "animation_path": "assets/md500-3d/md409.gif",
+      "review_pending": true
     },
     {
       "list_id": 410,
@@ -8220,16 +8256,20 @@
       "group": "8. Tríceps (401 a 440)",
       "section": "Variações de Extensão Deitado e Empurrar (Cabeça Lateral, Medial e Longa)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md410"
+      ],
+      "catalog_names": [
+        "Tríceps Testa no Banco Declinado com Barra W"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md410",
+      "animation_path": "assets/md500-3d/md410.gif",
+      "review_pending": true
     },
     {
       "list_id": 411,
@@ -8326,16 +8366,20 @@
       "group": "8. Tríceps (401 a 440)",
       "section": "Variações de Extensão Deitado e Empurrar (Cabeça Lateral, Medial e Longa)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md416"
+      ],
+      "catalog_names": [
+        "Supino Pegada Fechada no Smith"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md416",
+      "animation_path": "assets/md500-3d/md416.gif",
+      "review_pending": true
     },
     {
       "list_id": 417,
@@ -8478,16 +8522,20 @@
       "group": "8. Tríceps (401 a 440)",
       "section": "Variações de Tríceps Francês (Acima da Cabeça - Ênfase na Cabeça Longa)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md424"
+      ],
+      "catalog_names": [
+        "Tríceps Francês na Polia Alta com Corda (Inclinado à frente, de costas para o aparelho)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md424",
+      "animation_path": "assets/md500-3d/md424.gif",
+      "review_pending": true
     },
     {
       "list_id": 425,
@@ -8613,16 +8661,20 @@
       "group": "8. Tríceps (401 a 440)",
       "section": "Variações na Polia e Coices",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md431"
+      ],
+      "catalog_names": [
+        "Tríceps Pulley Unilateral (Pegada Pronada, Supinada ou Neutra sem puxador)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md431",
+      "animation_path": "assets/md500-3d/md431.gif",
+      "review_pending": true
     },
     {
       "list_id": 432,
@@ -8668,16 +8720,20 @@
       "group": "8. Tríceps (401 a 440)",
       "section": "Variações na Polia e Coices",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md434"
+      ],
+      "catalog_names": [
+        "Tríceps Coice Bilateral no Banco Inclinado com Halteres"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md434",
+      "animation_path": "assets/md500-3d/md434.gif",
+      "review_pending": true
     },
     {
       "list_id": 435,
@@ -8757,16 +8813,20 @@
       "group": "8. Tríceps (401 a 440)",
       "section": "Variações na Polia e Coices",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md439"
+      ],
+      "catalog_names": [
+        "Extensão de Tríceps com Elástico (Band Pushdown)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md439",
+      "animation_path": "assets/md500-3d/md439.gif",
+      "review_pending": true
     },
     {
       "list_id": 440,
@@ -8900,16 +8960,20 @@
       "group": "9. Panturrilhas: Gastrocnêmio, Sóleo e Tibial (441 a 460)",
       "section": "Variações e Tibial Anterior",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md446"
+      ],
+      "catalog_names": [
+        "Elevação de Panturrilha em Pé com Barra Livre"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md446",
+      "animation_path": "assets/md500-3d/md446.gif",
+      "review_pending": true
     },
     {
       "list_id": 447,
@@ -9035,16 +9099,20 @@
       "group": "9. Panturrilhas: Gastrocnêmio, Sóleo e Tibial (441 a 460)",
       "section": "Variações e Tibial Anterior",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md453"
+      ],
+      "catalog_names": [
+        "Panturrilha em Pé com Pés Abduzidos (Pontas para fora - ênfase na cabeça medial)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md453",
+      "animation_path": "assets/md500-3d/md453.gif",
+      "review_pending": true
     },
     {
       "list_id": 454,
@@ -9052,16 +9120,20 @@
       "group": "9. Panturrilhas: Gastrocnêmio, Sóleo e Tibial (441 a 460)",
       "section": "Variações e Tibial Anterior",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md454"
+      ],
+      "catalog_names": [
+        "Panturrilha em Pé com Pés Aduzidos (Pontas para dentro - ênfase na cabeça lateral)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md454",
+      "animation_path": "assets/md500-3d/md454.gif",
+      "review_pending": true
     },
     {
       "list_id": 455,
@@ -9309,16 +9381,20 @@
       "group": "10. Abdômen, Core e Lombar (461 a 500)",
       "section": "Variações de Flexão de Tronco e Quadril (Reto Abdominal)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md467"
+      ],
+      "catalog_names": [
+        "Abdominal Supra com Peso no Peito (Anilha ou Halter)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md467",
+      "animation_path": "assets/md500-3d/md467.gif",
+      "review_pending": true
     },
     {
       "list_id": 468,
@@ -9364,16 +9440,20 @@
       "group": "10. Abdômen, Core e Lombar (461 a 500)",
       "section": "Variações de Flexão de Tronco e Quadril (Reto Abdominal)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md470"
+      ],
+      "catalog_names": [
+        "Abdominal na Bola Suíça (Swiss Ball Crunch - Maior amplitude de extensão)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md470",
+      "animation_path": "assets/md500-3d/md470.gif",
+      "review_pending": true
     },
     {
       "list_id": 471,
@@ -9474,16 +9554,20 @@
       "group": "10. Abdômen, Core e Lombar (461 a 500)",
       "section": "Variações de Flexão de Tronco e Quadril (Reto Abdominal)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md476"
+      ],
+      "catalog_names": [
+        "Abdominal Remador"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md476",
+      "animation_path": "assets/md500-3d/md476.gif",
+      "review_pending": true
     },
     {
       "list_id": 477,
@@ -9601,18 +9685,22 @@
       "group": "10. Abdômen, Core e Lombar (461 a 500)",
       "section": "Oblíquos, Rotação e Anti-Rotação",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md483"
+      ],
+      "catalog_names": [
+        "Giro Russo Sentado com Peso ou Medicine Ball (Russian Twist)"
+      ],
       "related_ids": [
         "e95"
       ],
       "note": "e95 não utiliza peso ou medicine ball.",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md483",
+      "animation_path": "assets/md500-3d/md483.gif",
+      "review_pending": true
     },
     {
       "list_id": 484,
@@ -9753,16 +9841,20 @@
       "group": "10. Abdômen, Core e Lombar (461 a 500)",
       "section": "Oblíquos, Rotação e Anti-Rotação",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md491"
+      ],
+      "catalog_names": [
+        "Flexão Lateral de Tronco em Pé com Halter ou na Polia (Side Bend)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md491",
+      "animation_path": "assets/md500-3d/md491.gif",
+      "review_pending": true
     },
     {
       "list_id": 492,
@@ -9880,16 +9972,20 @@
       "group": "10. Abdômen, Core e Lombar (461 a 500)",
       "section": "Estabilização Profunda, Carregamentos e Lombar",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md498"
+      ],
+      "catalog_names": [
+        "Superman no Solo (Extensão lombar deitado de bruços)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md498",
+      "animation_path": "assets/md500-3d/md498.gif",
+      "review_pending": true
     },
     {
       "list_id": 499,

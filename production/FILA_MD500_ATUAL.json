@@ -200,43 +200,13 @@
     "ref": "—"
   },
   {
-    "id": 382,
-    "name": "Rosca Estrita na Parede (Strict Curl - costas e glúteos colados na parede)",
-    "ref": "—"
-  },
-  {
     "id": 383,
     "name": "Rosca Bíceps no TRX / Argolas",
     "ref": "—"
   },
   {
-    "id": 386,
-    "name": "Rosca Inversa na Polia Baixa",
-    "ref": "—"
-  },
-  {
-    "id": 387,
-    "name": "Rosca Inversa com Halteres",
-    "ref": "—"
-  },
-  {
-    "id": 389,
-    "name": "Flexão de Punho Sentado com Halteres",
-    "ref": "—"
-  },
-  {
     "id": 390,
     "name": "Flexão de Punho na Polia Baixa",
-    "ref": "—"
-  },
-  {
-    "id": 392,
-    "name": "Extensão de Punho Sentado com Barra (Palma para baixo)",
-    "ref": "—"
-  },
-  {
-    "id": 394,
-    "name": "Extensão de Punho na Polia Baixa",
     "ref": "—"
   },
   {
@@ -260,26 +230,6 @@
     "ref": "—"
   },
   {
-    "id": 400,
-    "name": "Fechamento de Gripper (Hand Grip / Capitains of Crush)",
-    "ref": "—"
-  },
-  {
-    "id": 407,
-    "name": "Tríceps Testa com Barra Reta",
-    "ref": "—"
-  },
-  {
-    "id": 409,
-    "name": "Tríceps Testa no Banco Inclinado com Barra W",
-    "ref": "—"
-  },
-  {
-    "id": 410,
-    "name": "Tríceps Testa no Banco Declinado com Barra W",
-    "ref": "—"
-  },
-  {
     "id": 412,
     "name": "Extensão de Tríceps Passando da Cabeça ( pullover + testa / Rolling Triceps Extension)",
     "ref": "—"
@@ -300,11 +250,6 @@
     "ref": "—"
   },
   {
-    "id": 416,
-    "name": "Supino Pegada Fechada no Smith",
-    "ref": "—"
-  },
-  {
     "id": 418,
     "name": "Flexão Esfinge / Extensão de Tríceps no Solo ou Banco (Bodyweight Triceps Extension)",
     "ref": "—"
@@ -320,11 +265,6 @@
     "ref": "—"
   },
   {
-    "id": 424,
-    "name": "Tríceps Francês na Polia Alta com Corda (Inclinado à frente, de costas para o aparelho)",
-    "ref": "—"
-  },
-  {
     "id": 427,
     "name": "Tríceps Francês Sentado na Máquina Específica",
     "ref": "—"
@@ -335,18 +275,8 @@
     "ref": "—"
   },
   {
-    "id": 431,
-    "name": "Tríceps Pulley Unilateral (Pegada Pronada, Supinada ou Neutra sem puxador)",
-    "ref": "—"
-  },
-  {
     "id": 432,
     "name": "Tríceps Cruzado no Cabo (Cross-body Cable Triceps Extension - Bilateral ou Unilateral)",
-    "ref": "—"
-  },
-  {
-    "id": 434,
-    "name": "Tríceps Coice Bilateral no Banco Inclinado com Halteres",
     "ref": "—"
   },
   {
@@ -365,18 +295,8 @@
     "ref": "—"
   },
   {
-    "id": 439,
-    "name": "Extensão de Tríceps com Elástico (Band Pushdown)",
-    "ref": "—"
-  },
-  {
     "id": 440,
     "name": "Pin Press Fechado (Empurrada final do supino saindo dos pinos de segurança)",
-    "ref": "—"
-  },
-  {
-    "id": 446,
-    "name": "Elevação de Panturrilha em Pé com Barra Livre",
     "ref": "—"
   },
   {
@@ -387,16 +307,6 @@
   {
     "id": 451,
     "name": "Panturrilha no V-Squat / Pêndulo",
-    "ref": "—"
-  },
-  {
-    "id": 453,
-    "name": "Panturrilha em Pé com Pés Abduzidos (Pontas para fora - ênfase na cabeça medial)",
-    "ref": "—"
-  },
-  {
-    "id": 454,
-    "name": "Panturrilha em Pé com Pés Aduzidos (Pontas para dentro - ênfase na cabeça lateral)",
     "ref": "—"
   },
   {
@@ -415,18 +325,8 @@
     "ref": "—"
   },
   {
-    "id": 467,
-    "name": "Abdominal Supra com Peso no Peito (Anilha ou Halter)",
-    "ref": "—"
-  },
-  {
     "id": 468,
     "name": "Abdominal no Banco Declinado (Sit-up Declinado)",
-    "ref": "—"
-  },
-  {
-    "id": 470,
-    "name": "Abdominal na Bola Suíça (Swiss Ball Crunch - Maior amplitude de extensão)",
     "ref": "—"
   },
   {
@@ -437,11 +337,6 @@
   {
     "id": 474,
     "name": "Abdominal Infra no Banco Inclinado (Reverse Crunch / Encolhimento reverso da pelve)",
-    "ref": "—"
-  },
-  {
-    "id": 476,
-    "name": "Abdominal Remador",
     "ref": "—"
   },
   {
@@ -465,11 +360,6 @@
     "ref": "—"
   },
   {
-    "id": 483,
-    "name": "Giro Russo Sentado com Peso ou Medicine Ball (Russian Twist)",
-    "ref": "—"
-  },
-  {
     "id": 486,
     "name": "Lenhador na Polia Baixa para o Alto (Low-to-High Cable Woodchopper)",
     "ref": "—"
@@ -490,11 +380,6 @@
     "ref": "—"
   },
   {
-    "id": 491,
-    "name": "Flexão Lateral de Tronco em Pé com Halter ou na Polia (Side Bend)",
-    "ref": "—"
-  },
-  {
     "id": 492,
     "name": "Flexão Lateral de Tronco no Banco Romano (45°)",
     "ref": "—"
@@ -507,11 +392,6 @@
   {
     "id": 495,
     "name": "Prancha RKC (Contração máxima de glúteos, quadríceps e dorsais)",
-    "ref": "—"
-  },
-  {
-    "id": 498,
-    "name": "Superman no Solo (Extensão lombar deitado de bruços)",
     "ref": "—"
   },
   {
