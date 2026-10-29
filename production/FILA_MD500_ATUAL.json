@@ -1,10 +1,5 @@
 [
   {
-    "id": 77,
-    "name": "Puxada Alta por Trás da Nuca (Uso específico/mobilidade)",
-    "ref": "—"
-  },
-  {
     "id": 153,
     "name": "Agachamento Pêndulo na Máquina (Pendulum Squat)",
     "ref": "—"
@@ -30,16 +25,6 @@
     "ref": "—"
   },
   {
-    "id": 197,
-    "name": "Sissy Squat no Aparelho / Suporte de Pés",
-    "ref": "—"
-  },
-  {
-    "id": 200,
-    "name": "Empurrada de Trenó (Sled Push) / Puxada de Trenó de Costas (Backward Sled Drag)",
-    "ref": "—"
-  },
-  {
     "id": 214,
     "name": "RDL na Máquina de Hack / V-Squat Invertido",
     "ref": "—"
@@ -50,18 +35,8 @@
     "ref": "—"
   },
   {
-    "id": 226,
-    "name": "Cadeira Flexora Unilateral",
-    "ref": "—"
-  },
-  {
     "id": 228,
     "name": "Flexora Ajoelhada na Máquina (Kneeling Leg Curl)",
-    "ref": "—"
-  },
-  {
-    "id": 229,
-    "name": "Flexão Nórdica (Nordic Hamstring Curl)",
     "ref": "—"
   },
   {
@@ -75,28 +50,8 @@
     "ref": "—"
   },
   {
-    "id": 260,
-    "name": "Extensão de Quadril Reversa na Máquina (Reverse Hyperextension)",
-    "ref": "—"
-  },
-  {
-    "id": 262,
-    "name": "Agachamento Reverência no Smith",
-    "ref": "—"
-  },
-  {
-    "id": 265,
-    "name": "Afundo no Smith com Pé de Trás Apoiado no Step e Tronco Inclinado",
-    "ref": "—"
-  },
-  {
     "id": 269,
     "name": "Coice no Smith (Empurrando a barra com a sola do pé em 4 apoios)",
-    "ref": "—"
-  },
-  {
-    "id": 274,
-    "name": "Cadeira Abdutora com Tronco Inclinado à Frente",
     "ref": "—"
   },
   {
@@ -115,38 +70,13 @@
     "ref": "—"
   },
   {
-    "id": 300,
-    "name": "Desenvolvimento por Trás da Nuca no Smith",
-    "ref": "—"
-  },
-  {
     "id": 308,
     "name": "Viking Press (No acessório específico ou Landmine)",
     "ref": "—"
   },
   {
-    "id": 310,
-    "name": "Desenvolvimento com Barra Suíça (Pegada Neutra)",
-    "ref": "—"
-  },
-  {
     "id": 311,
     "name": "Bradford Press (Passando a barra da frente para trás da cabeça sem trancar os cotovelos)",
-    "ref": "—"
-  },
-  {
-    "id": 315,
-    "name": "Elevação Lateral na Polia Baixa (Cabo passando pela frente do corpo)",
-    "ref": "—"
-  },
-  {
-    "id": 316,
-    "name": "Elevação Lateral na Polia Baixa (Cabo passando por trás do corpo)",
-    "ref": "—"
-  },
-  {
-    "id": 317,
-    "name": "Elevação Lateral na Polia na Altura do Quadril/Punho (Maior tensão no início)",
     "ref": "—"
   },
   {
@@ -157,11 +87,6 @@
   {
     "id": 321,
     "name": "Elevação Lateral com Peito Apoiado no Banco Inclinado",
-    "ref": "—"
-  },
-  {
-    "id": 344,
-    "name": "Remada para Deltoide Posterior na Polia ou Smith (Rear Delt Row)",
     "ref": "—"
   },
   {
@@ -180,16 +105,6 @@
     "ref": "—"
   },
   {
-    "id": 370,
-    "name": "Rosca Deitado no Chão na Polia Baixa (Lying Cable Curl)",
-    "ref": "—"
-  },
-  {
-    "id": 371,
-    "name": "Rosca na Polia Alta Deitado no Banco (Puxando em direção à testa)",
-    "ref": "—"
-  },
-  {
     "id": 372,
     "name": "Rosca na Máquina (Sentado, braços na horizontal)",
     "ref": "—"
@@ -200,16 +115,6 @@
     "ref": "—"
   },
   {
-    "id": 383,
-    "name": "Rosca Bíceps no TRX / Argolas",
-    "ref": "—"
-  },
-  {
-    "id": 390,
-    "name": "Flexão de Punho na Polia Baixa",
-    "ref": "—"
-  },
-  {
     "id": 396,
     "name": "Pronação e Supinação de Antebraço com Halter ou Barra unilateral",
     "ref": "—"
@@ -217,16 +122,6 @@
   {
     "id": 397,
     "name": "Flexão Radial e Ulnar de Punho (Movimento de martelada em pé com halter)",
-    "ref": "—"
-  },
-  {
-    "id": 398,
-    "name": "Suspensão Isométrica na Barra Fixa (Dead Hang - Bilateral ou Unilateral)",
-    "ref": "—"
-  },
-  {
-    "id": 399,
-    "name": "Pinça de Anilhas (Plate Pinch Hold)",
     "ref": "—"
   },
   {
@@ -247,16 +142,6 @@
   {
     "id": 415,
     "name": "Tate Press (Extensão com halteres apontando os cotovelos para fora no peito)",
-    "ref": "—"
-  },
-  {
-    "id": 418,
-    "name": "Flexão Esfinge / Extensão de Tríceps no Solo ou Banco (Bodyweight Triceps Extension)",
-    "ref": "—"
-  },
-  {
-    "id": 420,
-    "name": "Mergulho Sentado na Máquina (Triceps Dip Machine)",
     "ref": "—"
   },
   {
@@ -290,18 +175,8 @@
     "ref": "—"
   },
   {
-    "id": 438,
-    "name": "Extensão de Tríceps no TRX / Fita de Suspensão",
-    "ref": "—"
-  },
-  {
     "id": 440,
     "name": "Pin Press Fechado (Empurrada final do supino saindo dos pinos de segurança)",
-    "ref": "—"
-  },
-  {
-    "id": 449,
-    "name": "Panturrilha no Leg Press Horizontal",
     "ref": "—"
   },
   {

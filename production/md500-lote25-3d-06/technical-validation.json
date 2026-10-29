@@ -1,0 +1,552 @@
+[
+  {
+    "md_id": 77,
+    "name": "Puxada Alta por Trás da Nuca (Uso específico/mobilidade)",
+    "output_path": "dist/assets/md500-3d/md77.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 109790,
+    "sha256": "ebe96790d9d95902ca5c825f1f39a1f116b290369879f6cedd24fdd0d5345f37",
+    "gif_blob_sha": "65ae745bb9ed7c6d331cdf8f2cb0529e65c91587",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 197,
+    "name": "Sissy Squat no Aparelho / Suporte de Pés",
+    "output_path": "dist/assets/md500-3d/md197.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 105739,
+    "sha256": "102dbcaa949e0ee57ef7687f48c8e9cc99c792061fa109e9bf963891a4a8e66a",
+    "gif_blob_sha": "30edc26d9c24f0d379d464a84e8e6f01f8653033",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 200,
+    "name": "Empurrada de Trenó (Sled Push) / Puxada de Trenó de Costas (Backward Sled Drag)",
+    "output_path": "dist/assets/md500-3d/md200.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 94630,
+    "sha256": "fb77567d467e3711ddd4052baf3ba971a910402febdb70d3b29e4c92766c7190",
+    "gif_blob_sha": "71632cfffa2d7d1569984e3f02c9acb95565bdb5",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 226,
+    "name": "Cadeira Flexora Unilateral",
+    "output_path": "dist/assets/md500-3d/md226.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 116135,
+    "sha256": "abef7691bcbed3ed097d472b27da968a793befee1d26fe63920d0091bb59223c",
+    "gif_blob_sha": "03ddf8de57eb3cde1d1e9f8b2479fcc7e271573d",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 229,
+    "name": "Flexão Nórdica (Nordic Hamstring Curl)",
+    "output_path": "dist/assets/md500-3d/md229.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 98995,
+    "sha256": "edf11ef4ad541dc9bdc76603b53283ff03b779edd3d3d745376c746813cd6a59",
+    "gif_blob_sha": "ab13d83aa10056858eb66b173116d3a0e7a8d923",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 260,
+    "name": "Extensão de Quadril Reversa na Máquina (Reverse Hyperextension)",
+    "output_path": "dist/assets/md500-3d/md260.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 114248,
+    "sha256": "199f01dc432408d1b943a3e0663bb0af2b6fffa6f6f8a0cb256baa6516fffb94",
+    "gif_blob_sha": "e28b3bb01ec3709928e5d93319799d5f4f838bb1",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 262,
+    "name": "Agachamento Reverência no Smith",
+    "output_path": "dist/assets/md500-3d/md262.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 114015,
+    "sha256": "00505dd08967805aa42af8eacb42804818769b5b965068b21891ab5a40aa32a1",
+    "gif_blob_sha": "a448f36bd8761d32a741a625879de460ff94e8df",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 265,
+    "name": "Afundo no Smith com Pé de Trás Apoiado no Step e Tronco Inclinado",
+    "output_path": "dist/assets/md500-3d/md265.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 119490,
+    "sha256": "e1b05e4162b4514acf1933b8390bb83a828000ea9b586c2af86001e8227972a2",
+    "gif_blob_sha": "8e08ea4abf10ceef8feeff3c00dc501382a75011",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 274,
+    "name": "Cadeira Abdutora com Tronco Inclinado à Frente",
+    "output_path": "dist/assets/md500-3d/md274.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 120952,
+    "sha256": "9e4cbc5dc408111dfd8836915a37173d7391885bdc56c3dcdb420a941c0a3a12",
+    "gif_blob_sha": "aea2e8c531d9802868bf140509847d25c4677000",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 300,
+    "name": "Desenvolvimento por Trás da Nuca no Smith",
+    "output_path": "dist/assets/md500-3d/md300.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 116614,
+    "sha256": "4254c3790b9905ec4f7f2afdb213c957b4eff00d1e1abc7ad38e151479e4468c",
+    "gif_blob_sha": "f3399d05aad9085ebd5c985db2dcc635c4489376",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 310,
+    "name": "Desenvolvimento com Barra Suíça (Pegada Neutra)",
+    "output_path": "dist/assets/md500-3d/md310.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 118595,
+    "sha256": "238f64f7e9847755e68c9798f9df14b0727150a0cf8251d0e1dc78c05d9a2bdd",
+    "gif_blob_sha": "d14a0e06fd7f6cda35422b7befbe2d538a2b8883",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 315,
+    "name": "Elevação Lateral na Polia Baixa (Cabo passando pela frente do corpo)",
+    "output_path": "dist/assets/md500-3d/md315.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 102897,
+    "sha256": "cce755d33790dfe9b4c5884837add9aa782b7d2d7274a9ce3f503c76b5d46caa",
+    "gif_blob_sha": "dcd80fe87215ade71939dbdafebdef0f5c07046b",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 316,
+    "name": "Elevação Lateral na Polia Baixa (Cabo passando por trás do corpo)",
+    "output_path": "dist/assets/md500-3d/md316.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 107583,
+    "sha256": "9dc4c3f6df061c7852307f005cb09db1ca82c06689e8581def119cc9e1aafc5f",
+    "gif_blob_sha": "48f5610999337df1f7a4be706a031081b28fcf74",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 317,
+    "name": "Elevação Lateral na Polia na Altura do Quadril/Punho (Maior tensão no início)",
+    "output_path": "dist/assets/md500-3d/md317.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 106174,
+    "sha256": "6f284e31198df51ac660d657533dd989d681ae992138a2237928156ae0abd75e",
+    "gif_blob_sha": "575360564d47ebb9ac140b124cb1fd599358cbf5",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 344,
+    "name": "Remada para Deltoide Posterior na Polia ou Smith (Rear Delt Row)",
+    "output_path": "dist/assets/md500-3d/md344.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 114379,
+    "sha256": "d6b86b799aadf6c676b261800b3b9fce588dde15fea86f6f50738bc8b1a894d9",
+    "gif_blob_sha": "54d1263e708661ad2794619601353e82a1149850",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 370,
+    "name": "Rosca Deitado no Chão na Polia Baixa (Lying Cable Curl)",
+    "output_path": "dist/assets/md500-3d/md370.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 99086,
+    "sha256": "7e15b5acf49fe7c4d2438fdfecbae868c23e949cd5d6889a4fb6b272639d90ab",
+    "gif_blob_sha": "978a38beb609290bc36bcd2b26def932ce50dcd7",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 371,
+    "name": "Rosca na Polia Alta Deitado no Banco (Puxando em direção à testa)",
+    "output_path": "dist/assets/md500-3d/md371.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 103302,
+    "sha256": "03ac4214889d16f6e48942a45a23e5a610a9ea5689bdd3ed9184c497783fbb53",
+    "gif_blob_sha": "831e2d00d6e1a393606886b908c71534c5f32ca6",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 383,
+    "name": "Rosca Bíceps no TRX / Argolas",
+    "output_path": "dist/assets/md500-3d/md383.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 104339,
+    "sha256": "0b854b283092edf7c3ad0d46541b6bae60069e5ce6b8b1e2cf310836b19076b9",
+    "gif_blob_sha": "0b82cf0f70f3b45be63da57b709f93306e7f5d15",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 390,
+    "name": "Flexão de Punho na Polia Baixa",
+    "output_path": "dist/assets/md500-3d/md390.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 109017,
+    "sha256": "691f8de1d3dff329a5a6122c0187b3a616e65e98aaa97b31dc87aa5163721412",
+    "gif_blob_sha": "ce398ebf931c80c2034ecb8ef0045bd08fc0efaf",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 398,
+    "name": "Suspensão Isométrica na Barra Fixa (Dead Hang - Bilateral ou Unilateral)",
+    "output_path": "dist/assets/md500-3d/md398.gif",
+    "frames": 5,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 81802,
+    "sha256": "674badea8bc2b20508f9859b68cdc24108bd36d02e1347a5fc65b6b99af3b1a1",
+    "gif_blob_sha": "f80120f2a07757e0ba3da284c822909357f210c3",
+    "frame_order": [
+      0,
+      1,
+      2,
+      2,
+      1,
+      0
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 399,
+    "name": "Pinça de Anilhas (Plate Pinch Hold)",
+    "output_path": "dist/assets/md500-3d/md399.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 106303,
+    "sha256": "05ca4af7a8baecf5b568f1d124ea89cb41ca17d6242e3cc52cb33c95c1848f77",
+    "gif_blob_sha": "c663a11a0a189059f21f8751d04804dd1a3c688a",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 418,
+    "name": "Flexão Esfinge / Extensão de Tríceps no Solo ou Banco (Bodyweight Triceps Extension)",
+    "output_path": "dist/assets/md500-3d/md418.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 106474,
+    "sha256": "f8ddd797260213caeeefab2d496e3648c3580d15b0eff75d6b683ed470ca5d0b",
+    "gif_blob_sha": "20aba694ea4d864bb719700ad0eb1db8eeeb5b91",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 420,
+    "name": "Mergulho Sentado na Máquina (Triceps Dip Machine)",
+    "output_path": "dist/assets/md500-3d/md420.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 116797,
+    "sha256": "b9d1d69d47104d4a94e4be41cb34a6468d7164751ba69d4a7c15abbb10dbcbab",
+    "gif_blob_sha": "f15a41c88bd3223e21c0519c183370c4333ab79e",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 438,
+    "name": "Extensão de Tríceps no TRX / Fita de Suspensão",
+    "output_path": "dist/assets/md500-3d/md438.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 104611,
+    "sha256": "f5610459331bc6b86ec033c71b4a23a821b3bf6be56ffa85fb5e8f8adf42126b",
+    "gif_blob_sha": "16b0087902d8c8a8e1fee5b3a1b01b194e97426a",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  },
+  {
+    "md_id": 449,
+    "name": "Panturrilha no Leg Press Horizontal",
+    "output_path": "dist/assets/md500-3d/md449.gif",
+    "frames": 6,
+    "size": [
+      144,
+      144
+    ],
+    "bytes": 103780,
+    "sha256": "13232b2b0009757f384bba5665ef9e22287e3069ade3ce4a11b8f1e9c7837670",
+    "gif_blob_sha": "18d04352dc9d49306475ed4cec5f5cd9b2789a81",
+    "frame_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "visual_qa_approved": false
+  }
+]

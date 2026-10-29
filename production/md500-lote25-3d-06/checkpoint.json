@@ -1,0 +1,11 @@
+{
+  "status": "LOTE_COMPLETO_ASSOCIADO_EM_REVISAO",
+  "target": 25,
+  "completed_gifs": 25,
+  "associated": true,
+  "approved_gifs": 0,
+  "linked": 445,
+  "missing": 55,
+  "review": 155,
+  "main_publication_authorized": true
+}

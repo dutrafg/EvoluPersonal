@@ -10,7 +10,7 @@ check('seed().students.length',4);
 check('catalog.length',500);
 check('seed().exercises.length',500);
 check("catalog.every((x,i)=>x.id==='md'+(i+1))");
-check('catalog.filter(x=>!!x.animation).length',420);
+check('catalog.filter(x=>!!x.animation).length',445);
 check('catalog.find(x=>x.id==="md85").animation','assets/exercises/e165.gif');
 check('catalog.find(x=>x.id==="md131").animation','assets/exercises/e299.gif');
 check('catalog.find(x=>x.id==="md132").animation','assets/exercises/e300.gif');

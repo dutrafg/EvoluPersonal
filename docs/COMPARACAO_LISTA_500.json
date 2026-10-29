@@ -1,15 +1,15 @@
 {
   "source": "500 Exercícios Base de Musculação.md",
   "summary": {
-    "correspondência cadastrada": 295,
-    "GIF 3D vinculado; revisão pendente": 124,
-    "a criar": 80,
-    "correspondência cadastrada; revisão pendente": 1,
-    "exercicios_com_midia": 420,
-    "novos_gifs_3d_associados": 124,
-    "revisao_pendente": 125,
-    "sem_gif": 80,
-    "referencias_distintas_em_uso": 416,
+    "correspondência cadastrada": 290,
+    "GIF 3D vinculado; revisão pendente": 149,
+    "a criar": 55,
+    "correspondência cadastrada; revisão pendente": 6,
+    "exercicios_com_midia": 445,
+    "novos_gifs_3d_associados": 149,
+    "revisao_pendente": 155,
+    "sem_gif": 55,
+    "referencias_distintas_em_uso": 442,
     "bases_principais_total": 65,
     "bases_com_correspondencia": 65,
     "observacao": "Vínculo cadastral não significa aprovação visual ou biomecânica. GIFs 2D reprovados continuam desativados."
@@ -1381,19 +1381,19 @@
       "section": "Exercícios Base / Principais",
       "primary": true,
       "catalog_ids": [
-        "e34"
+        "e128"
       ],
       "catalog_names": [
-        "Remada curvada com barra"
+        "Remada curvada supinada com barra"
       ],
       "related_ids": [],
-      "note": "",
+      "note": "Corrigido de e34 para e128; fonte e128 descreve explicitamente pegada supinada.",
       "planned_id": null,
-      "status": "correspondência cadastrada",
-      "production_status": "vinculado_legado",
-      "media_ref": "e34",
-      "animation_path": "assets/exercises/e34.gif",
-      "review_pending": false
+      "status": "correspondência cadastrada; revisão pendente",
+      "production_status": "vinculado_legado_revisao_pendente",
+      "media_ref": "e128",
+      "animation_path": "assets/exercises/e128.gif",
+      "review_pending": true
     },
     {
       "list_id": 67,
@@ -1607,16 +1607,20 @@
       "group": "2. Costas: Dorsais, Romboides e Trapézio (61 a 140)",
       "section": "Variações de Puxadas Verticais",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md77"
+      ],
+      "catalog_names": [
+        "Puxada Alta por Trás da Nuca (Uso específico/mobilidade)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md77",
+      "animation_path": "assets/md500-3d/md77.gif",
+      "review_pending": true
     },
     {
       "list_id": 78,
@@ -2786,11 +2790,11 @@
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "correspondência cadastrada",
-      "production_status": "vinculado_legado",
+      "status": "correspondência cadastrada; revisão pendente",
+      "production_status": "vinculado_legado_revisao_pendente",
       "media_ref": "e171",
       "animation_path": "assets/exercises/e171.gif",
-      "review_pending": false
+      "review_pending": true
     },
     {
       "list_id": 136,
@@ -4017,16 +4021,20 @@
       "group": "3. Quadríceps (141 a 200)",
       "section": "Isoladores de Quadríceps eEspecíficos",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md197"
+      ],
+      "catalog_names": [
+        "Sissy Squat no Aparelho / Suporte de Pés"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md197",
+      "animation_path": "assets/md500-3d/md197.gif",
+      "review_pending": true
     },
     {
       "list_id": 198,
@@ -4076,16 +4084,20 @@
       "group": "3. Quadríceps (141 a 200)",
       "section": "Isoladores de Quadríceps eEspecíficos",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md200"
+      ],
+      "catalog_names": [
+        "Empurrada de Trenó (Sled Push) / Puxada de Trenó de Costas (Backward Sled Drag)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md200",
+      "animation_path": "assets/md500-3d/md200.gif",
+      "review_pending": true
     },
     {
       "list_id": 201,
@@ -4586,16 +4598,20 @@
       "group": "4. Posteriores de Coxa / Isquiotibiais (201 a 240)",
       "section": "Variações de Flexão de Joelho (Isoladores)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md226"
+      ],
+      "catalog_names": [
+        "Cadeira Flexora Unilateral"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md226",
+      "animation_path": "assets/md500-3d/md226.gif",
+      "review_pending": true
     },
     {
       "list_id": 227,
@@ -4641,16 +4657,20 @@
       "group": "4. Posteriores de Coxa / Isquiotibiais (201 a 240)",
       "section": "Variações de Flexão de Joelho (Isoladores)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md229"
+      ],
+      "catalog_names": [
+        "Flexão Nórdica (Nordic Hamstring Curl)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md229",
+      "animation_path": "assets/md500-3d/md229.gif",
+      "review_pending": true
     },
     {
       "list_id": 230,
@@ -5268,16 +5288,20 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Variações de Elevação Pélvica e Extensão de Quadril",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md260"
+      ],
+      "catalog_names": [
+        "Extensão de Quadril Reversa na Máquina (Reverse Hyperextension)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md260",
+      "animation_path": "assets/md500-3d/md260.gif",
+      "review_pending": true
     },
     {
       "list_id": 261,
@@ -5306,16 +5330,20 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Agachamentos, Passadas e Isoladores de Glúteo Máximo",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md262"
+      ],
+      "catalog_names": [
+        "Agachamento Reverência no Smith"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md262",
+      "animation_path": "assets/md500-3d/md262.gif",
+      "review_pending": true
     },
     {
       "list_id": 263,
@@ -5365,16 +5393,20 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Agachamentos, Passadas e Isoladores de Glúteo Máximo",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md265"
+      ],
+      "catalog_names": [
+        "Afundo no Smith com Pé de Trás Apoiado no Step e Tronco Inclinado"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md265",
+      "animation_path": "assets/md500-3d/md265.gif",
+      "review_pending": true
     },
     {
       "list_id": 266,
@@ -5546,16 +5578,20 @@
       "group": "5. Glúteos, Adutores e Abdutores (241 a 290)",
       "section": "Glúteo Médio/Mínimo (Abdutores) e Adutores",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md274"
+      ],
+      "catalog_names": [
+        "Cadeira Abdutora com Tronco Inclinado à Frente"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md274",
+      "animation_path": "assets/md500-3d/md274.gif",
+      "review_pending": true
     },
     {
       "list_id": 275,
@@ -6070,16 +6106,20 @@
       "group": "6. Ombros: Deltoide Anterior, Lateral e Posterior (291 a 350)",
       "section": "Variações de Desenvolvimento (Empurrar Vertical)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md300"
+      ],
+      "catalog_names": [
+        "Desenvolvimento por Trás da Nuca no Smith"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md300",
+      "animation_path": "assets/md500-3d/md300.gif",
+      "review_pending": true
     },
     {
       "list_id": 301,
@@ -6096,11 +6136,11 @@
       "related_ids": [],
       "note": "Confirmar pegada/modelo na revisão da imagem antes de afirmar correspondência exata.",
       "planned_id": null,
-      "status": "correspondência cadastrada",
-      "production_status": "vinculado_legado",
+      "status": "correspondência cadastrada; revisão pendente",
+      "production_status": "vinculado_legado_revisao_pendente",
       "media_ref": "e112",
       "animation_path": "assets/exercises/e112.gif",
-      "review_pending": false
+      "review_pending": true
     },
     {
       "list_id": 302,
@@ -6117,11 +6157,11 @@
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "correspondência cadastrada",
-      "production_status": "vinculado_legado",
+      "status": "correspondência cadastrada; revisão pendente",
+      "production_status": "vinculado_legado_revisao_pendente",
       "media_ref": "e112",
       "animation_path": "assets/exercises/e112.gif",
-      "review_pending": false
+      "review_pending": true
     },
     {
       "list_id": 303,
@@ -6256,16 +6296,20 @@
       "group": "6. Ombros: Deltoide Anterior, Lateral e Posterior (291 a 350)",
       "section": "Variações de Desenvolvimento (Empurrar Vertical)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md310"
+      ],
+      "catalog_names": [
+        "Desenvolvimento com Barra Suíça (Pegada Neutra)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md310",
+      "animation_path": "assets/md500-3d/md310.gif",
+      "review_pending": true
     },
     {
       "list_id": 311,
@@ -6349,16 +6393,20 @@
       "group": "6. Ombros: Deltoide Anterior, Lateral e Posterior (291 a 350)",
       "section": "Variações de Elevação Lateral e Remada Alta (Deltoide Lateral)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md315"
+      ],
+      "catalog_names": [
+        "Elevação Lateral na Polia Baixa (Cabo passando pela frente do corpo)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md315",
+      "animation_path": "assets/md500-3d/md315.gif",
+      "review_pending": true
     },
     {
       "list_id": 316,
@@ -6366,16 +6414,20 @@
       "group": "6. Ombros: Deltoide Anterior, Lateral e Posterior (291 a 350)",
       "section": "Variações de Elevação Lateral e Remada Alta (Deltoide Lateral)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md316"
+      ],
+      "catalog_names": [
+        "Elevação Lateral na Polia Baixa (Cabo passando por trás do corpo)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md316",
+      "animation_path": "assets/md500-3d/md316.gif",
+      "review_pending": true
     },
     {
       "list_id": 317,
@@ -6383,16 +6435,20 @@
       "group": "6. Ombros: Deltoide Anterior, Lateral e Posterior (291 a 350)",
       "section": "Variações de Elevação Lateral e Remada Alta (Deltoide Lateral)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md317"
+      ],
+      "catalog_names": [
+        "Elevação Lateral na Polia na Altura do Quadril/Punho (Maior tensão no início)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md317",
+      "animation_path": "assets/md500-3d/md317.gif",
+      "review_pending": true
     },
     {
       "list_id": 318,
@@ -6884,11 +6940,11 @@
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "correspondência cadastrada",
-      "production_status": "vinculado_legado",
+      "status": "correspondência cadastrada; revisão pendente",
+      "production_status": "vinculado_legado_revisao_pendente",
       "media_ref": "e171",
       "animation_path": "assets/exercises/e171.gif",
-      "review_pending": false
+      "review_pending": true
     },
     {
       "list_id": 342,
@@ -6938,16 +6994,20 @@
       "group": "6. Ombros: Deltoide Anterior, Lateral e Posterior (291 a 350)",
       "section": "Variações para Deltoide Posterior e Manguito Rotador",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md344"
+      ],
+      "catalog_names": [
+        "Remada para Deltoide Posterior na Polia ou Smith (Rear Delt Row)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md344",
+      "animation_path": "assets/md500-3d/md344.gif",
+      "review_pending": true
     },
     {
       "list_id": 345,
@@ -7472,16 +7532,20 @@
       "group": "7. Bíceps, Braquial e Antebraço (351 a 400)",
       "section": "Variações de Rosca para Bíceps e Braquial",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md370"
+      ],
+      "catalog_names": [
+        "Rosca Deitado no Chão na Polia Baixa (Lying Cable Curl)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md370",
+      "animation_path": "assets/md500-3d/md370.gif",
+      "review_pending": true
     },
     {
       "list_id": 371,
@@ -7489,16 +7553,20 @@
       "group": "7. Bíceps, Braquial e Antebraço (351 a 400)",
       "section": "Variações de Rosca para Bíceps e Braquial",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md371"
+      ],
+      "catalog_names": [
+        "Rosca na Polia Alta Deitado no Banco (Puxando em direção à testa)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md371",
+      "animation_path": "assets/md500-3d/md371.gif",
+      "review_pending": true
     },
     {
       "list_id": 372,
@@ -7713,16 +7781,20 @@
       "group": "7. Bíceps, Braquial e Antebraço (351 a 400)",
       "section": "Variações de Rosca para Bíceps e Braquial",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md383"
+      ],
+      "catalog_names": [
+        "Rosca Bíceps no TRX / Argolas"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md383",
+      "animation_path": "assets/md500-3d/md383.gif",
+      "review_pending": true
     },
     {
       "list_id": 384,
@@ -7856,16 +7928,20 @@
       "group": "7. Bíceps, Braquial e Antebraço (351 a 400)",
       "section": "Antebraço e Pegada",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md390"
+      ],
+      "catalog_names": [
+        "Flexão de Punho na Polia Baixa"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md390",
+      "animation_path": "assets/md500-3d/md390.gif",
+      "review_pending": true
     },
     {
       "list_id": 391,
@@ -8012,16 +8088,20 @@
       "group": "7. Bíceps, Braquial e Antebraço (351 a 400)",
       "section": "Antebraço e Pegada",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md398"
+      ],
+      "catalog_names": [
+        "Suspensão Isométrica na Barra Fixa (Dead Hang - Bilateral ou Unilateral)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md398",
+      "animation_path": "assets/md500-3d/md398.gif",
+      "review_pending": true
     },
     {
       "list_id": 399,
@@ -8029,16 +8109,20 @@
       "group": "7. Bíceps, Braquial e Antebraço (351 a 400)",
       "section": "Antebraço e Pegada",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md399"
+      ],
+      "catalog_names": [
+        "Pinça de Anilhas (Plate Pinch Hold)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md399",
+      "animation_path": "assets/md500-3d/md399.gif",
+      "review_pending": true
     },
     {
       "list_id": 400,
@@ -8408,16 +8492,20 @@
       "group": "8. Tríceps (401 a 440)",
       "section": "Variações de Extensão Deitado e Empurrar (Cabeça Lateral, Medial e Longa)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md418"
+      ],
+      "catalog_names": [
+        "Flexão Esfinge / Extensão de Tríceps no Solo ou Banco (Bodyweight Triceps Extension)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md418",
+      "animation_path": "assets/md500-3d/md418.gif",
+      "review_pending": true
     },
     {
       "list_id": 419,
@@ -8446,16 +8534,20 @@
       "group": "8. Tríceps (401 a 440)",
       "section": "Variações de Extensão Deitado e Empurrar (Cabeça Lateral, Medial e Longa)",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md420"
+      ],
+      "catalog_names": [
+        "Mergulho Sentado na Máquina (Triceps Dip Machine)"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md420",
+      "animation_path": "assets/md500-3d/md420.gif",
+      "review_pending": true
     },
     {
       "list_id": 421,
@@ -8796,16 +8888,20 @@
       "group": "8. Tríceps (401 a 440)",
       "section": "Variações na Polia e Coices",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md438"
+      ],
+      "catalog_names": [
+        "Extensão de Tríceps no TRX / Fita de Suspensão"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md438",
+      "animation_path": "assets/md500-3d/md438.gif",
+      "review_pending": true
     },
     {
       "list_id": 439,
@@ -9023,16 +9119,20 @@
       "group": "9. Panturrilhas: Gastrocnêmio, Sóleo e Tibial (441 a 460)",
       "section": "Variações e Tibial Anterior",
       "primary": false,
-      "catalog_ids": [],
-      "catalog_names": [],
+      "catalog_ids": [
+        "md449"
+      ],
+      "catalog_names": [
+        "Panturrilha no Leg Press Horizontal"
+      ],
       "related_ids": [],
       "note": "",
       "planned_id": null,
-      "status": "a criar",
-      "production_status": "a_criar",
-      "media_ref": null,
-      "animation_path": null,
-      "review_pending": false
+      "status": "GIF 3D vinculado; revisão pendente",
+      "production_status": "vinculado_3d_revisao_pendente",
+      "media_ref": "md449",
+      "animation_path": "assets/md500-3d/md449.gif",
+      "review_pending": true
     },
     {
       "list_id": 450,
