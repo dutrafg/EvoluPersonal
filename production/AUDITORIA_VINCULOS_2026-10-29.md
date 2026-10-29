@@ -19,7 +19,7 @@ Escopo: branch de revisão `codex/md500-revisao-associacoes-20261029`. Não alte
 - MD340 — Crucifixo Inverso no Peck Deck / Voador Inverso (Pegada Pronada ou Neutra) → `e110` — GIF compartilhado com MD140; confirmar pegada.
 - MD341 — Crucifixo Inverso Cruzado na Polia Alta / Média (Sem puxador, segurando nas bolinhas do cabo) → `e171` — GIF compartilhado com MD135; confirmar ausência de puxadores.
 - MD357 — Rosca no Banco Inclinado 45° com Halteres (Braços alongados atrás do tronco) → `e141` — Correspondência e141 plausível, aprovação visual pendente.
-- MD471 — Elevação de Joelhos Pendurado na Barra Fixa (Hanging Knee Raise) → `e69` — Nome do GIF e69 indica pernas suspensas; o MD471 exige joelhos flexionados.
+- MD471 — Elevação de Joelhos Pendurado na Barra Fixa (Hanging Knee Raise) → `e69` — Título do GIF e69 é genérico, mas sua instrução técnica orienta elevar os joelhos; confirmar execução visual.
 
 ## Como revisar
 
