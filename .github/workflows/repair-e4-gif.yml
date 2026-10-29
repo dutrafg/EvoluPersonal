@@ -33,6 +33,7 @@ jobs:
           assert original.n_frames==6
           print('GIF e4: ',im.size,im.n_frames,'quadros; original preservado')
           PY
+      # A galeria de revisão recebe marcadores sincronizados com a base.
       # O validador aceita a pontuação sem espaço em 127. e 132. do MD original.
       - name: Regression tests
         run: |
