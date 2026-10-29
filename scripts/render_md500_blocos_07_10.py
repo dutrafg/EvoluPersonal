@@ -95,8 +95,8 @@ def main_pose(s,md,t):
   for y in (-.36,.36):s.bar((1.08,y,2.26),(-.13,y,1.84+lift),.059,'metal')
  elif md==456:
   s.cam.SetPosition(3.0,6.8,2.65)
-  j=sj(hip=(-.29,0,.83+.12*q),shoulder=(-.36,0,1.38+.12*q),
-       knee=(.31,0,.51+.08*q),ankle=(.44,0,.15+.12*q))
+  j=sj(hip=(-.18,0,.76+.12*q),shoulder=(-.25,0,1.35+.12*q),
+       knee=(.32,0,.69+.05*q),ankle=(.04,0,.16+.12*q))
   figures(s,j,'calf')
   for yy in (-.17,.17):s.sphere((.44,yy,.145),.13,'shoe',scale=(1.5,.95,.5))
  elif md==457:
