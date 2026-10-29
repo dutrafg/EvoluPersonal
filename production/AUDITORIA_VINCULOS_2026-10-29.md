@@ -15,7 +15,7 @@ Escopo: branch de revisão `codex/md500-revisao-associacoes-20261029`. Não alte
 - MD140 — Crucifixo Inverso na Máquina (Peck Deck Inverso com escápulas móveis) → `e110` — GIF compartilhado com MD340; conferir aparelho e mobilidade escapular.
 - MD301 — Desenvolvimento na Máquina (Pegada Pronada Aberta) → `e112` — GIF compartilhado com MD302; confirmar pegada pronada aberta.
 - MD302 — Desenvolvimento na Máquina (Pegada Neutra Fechada) → `e112` — GIF compartilhado com MD301; confirmar pegada neutra fechada.
-- MD319 — Elevação Lateral Unilateral Inclinado (Segurando na coluna do aparelho) → `e208` — Fonte e208 especifica execução no cabo; confirmar implemento e postura.
+- MD319 — Elevação Lateral Unilateral Inclinado → `e179` (antes `e208`) — corrigida a divergência documental: `e179` descreve exercício com halter e apoio; `e208` descreve polia. Mídia permanece sem inspeção visual.
 - MD340 — Crucifixo Inverso no Peck Deck / Voador Inverso (Pegada Pronada ou Neutra) → `e110` — GIF compartilhado com MD140; confirmar pegada.
 - MD341 — Crucifixo Inverso Cruzado na Polia Alta / Média (Sem puxador, segurando nas bolinhas do cabo) → `e171` — GIF compartilhado com MD135; confirmar ausência de puxadores.
 - MD357 — Rosca no Banco Inclinado 45° com Halteres (Braços alongados atrás do tronco) → `e141` — Correspondência e141 plausível, aprovação visual pendente.

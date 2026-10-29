@@ -4772,14 +4772,14 @@
   {
     "id": 319,
     "name": "Elevação Lateral Unilateral Inclinado (Segurando na coluna do aparelho)",
-    "ref": "e208",
+    "ref": "e179",
     "new_gif": null,
     "existing_candidate": null,
     "production_state": "vinculado_legado",
     "batch_id": null,
-    "legacy_ref": "e208",
-    "animation_path": "assets/exercises/e208.gif",
-    "gif_blob_sha": "497c637d34e806f9f25a1538a60b422cd44a03f8",
+    "legacy_ref": "e179",
+    "animation_path": "assets/exercises/e179.gif",
+    "gif_blob_sha": "11186acd36938c1e67f96c41d7ae78c8090f5df5",
     "media_review_pending": false,
     "association_status": "associado",
     "review_status": "legado_nao_auditado_integralmente"

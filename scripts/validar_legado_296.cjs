@@ -1,0 +1,48 @@
+'use strict';
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const path=require('node:path');
+const root=path.join(__dirname,'..');
+const read=p=>fs.readFileSync(path.join(root,p),'utf8');
+const inv=JSON.parse(read('production/INVENTARIO_MD500.json'));
+const docs=JSON.parse(read('docs/COMPARACAO_LISTA_500.json'));
+const audit=JSON.parse(read('production/VALIDACAO_LEGADO_296.json'));
+const html=read('dist/index.html');
+const rows=JSON.parse(html.match(/const md500Rows=(\[\[.*?\]\]);/s)[1]);
+const gallery=read('dist/revisao-vinculos-md500.html');
+const galleryRows=JSON.parse(gallery.match(/const ITEMS=(\[.*?\]);\nconst ASSETS=/s)[1]);
+assert.equal(inv.length,500);
+assert.equal(audit.records.length,296);
+assert.equal(audit.summary.legacy_links,296);
+const byId=new Map(audit.records.map(x=>[x.md_id,x]));
+assert.equal(byId.size,296);
+let linked=0,manual=0,coherent=0;
+for(let id=1;id<=500;id++){
+ const i=inv[id-1], a=byId.get(id);
+ if(!i.animation_path?.startsWith('assets/exercises/')){assert.equal(a,undefined);continue}
+ linked++;
+ assert(a&&a.gif_exists&&a.sha_matches_repository);
+ assert.equal(a.media_ref,i.ref);
+ assert.equal(a.media_path,i.animation_path);
+ assert.equal(a.git_blob_sha,i.gif_blob_sha);
+ assert.equal(a.exercise_name,i.name);
+ assert.equal(docs.items[id-1].media_ref,a.media_ref);
+ assert.equal(docs.items[id-1].animation_path,a.media_path);
+ assert.equal(rows[id-1][1],a.media_ref);
+ assert.equal(galleryRows[id-1].path,a.media_path);
+ assert.equal(galleryRows[id-1].sha,a.git_blob_sha);
+ const file=path.join(root,'dist',a.media_path);
+ assert(fs.existsSync(file),'GIF ausente: '+a.media_path);
+ const buf=fs.readFileSync(file);
+ assert(['GIF89a','GIF87a'].includes(buf.subarray(0,6).toString('ascii')));
+ assert.equal(a.visual_status,'nao_inspecionado');
+ if(a.metadata_status==='revisar_variacao')manual++;
+ else if(a.metadata_status==='coerencia_documental')coherent++;
+ else throw Error('Status inesperado: '+a.metadata_status);
+}
+assert.equal(linked,296);
+assert.equal(manual,15);
+assert.equal(coherent,281);
+assert.equal(inv[318].ref,'e179');
+assert.equal(audit.records.find(x=>x.md_id===319).corrected_from,'e208');
+console.log(JSON.stringify({legacy_associations:linked,metadata_coherent:coherent,specific_visual_review:manual,actual_visual_approvals:0,corrected_md319:'e179',status:'PASS'},null,2));

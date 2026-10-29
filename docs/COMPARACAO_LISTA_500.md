@@ -326,7 +326,7 @@ Os identificadores `eN` apontam para `dist/assets/exercises/`; os `mdN` para `di
 | 316 | Elevação Lateral na Polia Baixa (Cabo passando por trás do corpo) | `md316` |
 | 317 | Elevação Lateral na Polia na Altura do Quadril/Punho (Maior tensão no início) | `md317` |
 | 318 | Elevação Lateral Dupla Cruzada nos Cabos (Bilateral no Crossover) | `—` |
-| 319 | Elevação Lateral Unilateral Inclinado (Segurando na coluna do aparelho) | `e208` |
+| 319 | Elevação Lateral Unilateral Inclinado (Segurando na coluna do aparelho) | `e179` |
 | 320 | Elevação Lateral Deitado de Lado no Banco Inclinado | `md320` |
 | 321 | Elevação Lateral com Peito Apoiado no Banco Inclinado | `—` |
 | 322 | Elevação Lateral na Máquina Específica | `e180` |

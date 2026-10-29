@@ -6474,18 +6474,18 @@
       "section": "Variações de Elevação Lateral e Remada Alta (Deltoide Lateral)",
       "primary": false,
       "catalog_ids": [
-        "e208"
+        "e179"
       ],
       "catalog_names": [
-        "Elevação Lateral Unilateral Inclinado (Segurando na coluna do aparelho)"
+        "Elevação lateral inclinada com halter"
       ],
       "related_ids": [],
-      "note": "",
+      "note": "Reassociado de e208 (execução na polia) para e179 (elevação lateral inclinada com halter e apoio fixo); correspondência documental verificada, inspeção do GIF ainda pendente.",
       "planned_id": null,
       "status": "correspondência cadastrada",
       "production_status": "vinculado_legado",
-      "media_ref": "e208",
-      "animation_path": "assets/exercises/e208.gif",
+      "media_ref": "e179",
+      "animation_path": "assets/exercises/e179.gif",
       "review_pending": false
     },
     {
