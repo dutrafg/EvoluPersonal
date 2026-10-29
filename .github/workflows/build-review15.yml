@@ -31,6 +31,13 @@ jobs:
           assert 'resolveMedia(path)' in s
           print(json.dumps({'size':len(s),'gifs':12,'valid':True}))
           PY
+      - name: Package standalone HTML for download
+        uses: actions/upload-artifact@v4
+        with:
+          name: EvoluPersonal_15_GIFs_OFFLINE
+          path: dist/revisao-visual-15-offline.html
+          if-no-files-found: error
+          retention-days: 7
       - name: Commit generated page on review branch only
         run: |
           git config user.name 'github-actions[bot]'
