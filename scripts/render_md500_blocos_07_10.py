@@ -232,8 +232,8 @@ def main_pose(s,md,t):
   j=sj(hip=(-.035*q,0,1.13),shoulder=(0,0,1.72))
   figures(s,j,'core')
   # Visible gradual compression of abdominal wall without spinal flexion.
-  s.sphere((.235-.035*q,0,1.38),.185,'orange',scale=(.90-.48*q,.96,1.20))
-  s.sphere((.238-.04*q,0,1.50),.10,'orange2',scale=(1.0-.50*q,.90,1.0))
+  s.sphere((.198-.087*q,0,1.38),.16,'orange',scale=(.53-.14*q,.88,1.10))
+  s.sphere((.20-.080*q,0,1.49),.10,'orange2',scale=(.52-.16*q,.76,.90))
  else:raise ValueError("Unsupported MD"+str(md))
 def generate(block):
  target=Path("production/revisoes-md500-3d")/("bloco%02d"%block)
