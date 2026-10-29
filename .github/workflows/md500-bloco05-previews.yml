@@ -1,0 +1,58 @@
+name: Render MD500 Bloco 05 - cinco previas
+on:
+  push:
+    branches:
+      - feat/md500-bloco05-previews-20261029
+    paths:
+      - scripts/render_md500_blocos_04_06.py
+      - .github/workflows/md500-bloco05-previews.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  render-test-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Instalar VTK e Pillow
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libegl1 libgl1-mesa-dri libosmesa6 xvfb
+          python3 -m pip install --user vtk numpy Pillow
+      - name: Renderizar os cinco GIFs do bloco 5
+        run: xvfb-run -a python3 scripts/render_md500_blocos_04_06.py --block 5
+      - name: Testar arquivos, quadros e diferencas
+        run: |
+          python3 - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          from PIL import Image,ImageChops,ImageStat
+          root=Path('production/revisoes-md500-3d/bloco05')
+          rows=json.loads((root/'manifest.json').read_text())
+          assert [x['id'] for x in rows]==[412,413,414,415,421]
+          hashes=set()
+          for x in rows:
+            path=root/f"md{x['id']}.gif"
+            im=Image.open(path)
+            assert im.format=='GIF' and im.size==(448,448) and im.n_frames>=8
+            im.seek(0);a=im.convert('RGB').copy()
+            im.seek(im.n_frames//2);b=im.convert('RGB').copy()
+            delta=sum(ImageStat.Stat(ImageChops.difference(a,b)).mean)
+            assert delta>.25,(x['id'],delta)
+            h=hashlib.sha256(path.read_bytes()).hexdigest()
+            assert h==x['sha256'] and h not in hashes
+            hashes.add(h)
+            assert x['status']=='geometric_3d_preview_not_approved'
+            print('OK',x['id'],im.n_frames,round(delta,2),flush=True)
+          assert len(hashes)==5
+          PY
+          node scripts/validar_cobertura_500.cjs
+          node scripts/validar_fila_prioritaria_55.cjs
+      - name: Salvar previsualizacoes e hashes na branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add production/revisoes-md500-3d/bloco05
+          git diff --cached --quiet && exit 0
+          git commit -m "preview(md500): GIFs geometricos MD412 413 414 415 421"
+          git push origin HEAD:feat/md500-bloco05-previews-20261029
