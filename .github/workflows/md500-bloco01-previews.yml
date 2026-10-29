@@ -28,7 +28,7 @@ jobs:
           src=zlib.decompress(base64.b64decode(p.read_text()))
           src=src.replace(b"BASE=Path('/mnt/data/md500_block1')",b"BASE=Path('production/revisoes-md500-3d/bloco01')")
           src=src.replace(b"aL=np.array([-.50+.27*cycle,-.16,.21+.47*cycle]);",b"aL=np.array([-.66+.70*cycle,.37,.12+.65*cycle]);")
-          src=src.replace(b"scene=Scene(name);frames=[]",b"scene=Scene(name);frames=[]\\n  if md==228: scene.cam.SetPosition(5.2,4.8,2.6)")
+          src=src.replace(b"scene=Scene(name);frames=[]",b"scene=Scene(name);frames=[]\n  if md==228: scene.cam.SetPosition(5.2,4.8,2.6)")
           out=pathlib.Path('scripts/render_md500_bloco01.py')
           out.write_bytes(src)
           assert b'VTK' in src or b'vtk' in src
