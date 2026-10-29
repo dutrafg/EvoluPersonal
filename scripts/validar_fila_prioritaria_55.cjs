@@ -1,0 +1,30 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'..');
+const read=name=>JSON.parse(fs.readFileSync(path.join(root,name),'utf8'));
+const queue=read('production/FILA_MD500_ATUAL.json');
+const plan=read('production/FILA_PRIORITARIA_55_GIF3D.json');
+const original=read('production/INVENTARIO_MD500.json');
+const old=read('production/FILA_PRODUCAO_3D_MD500.json');
+assert.equal(queue.length,55);
+assert.equal(plan.items.length,55);
+assert.equal(plan.counts.total,55);
+assert.deepEqual(plan.counts.batches,[25,25,5]);
+assert.equal(plan.items.filter(x=>x.stage==='rascunho_geometria_3D_local_nao_aprovado').length,5);
+assert.equal(plan.items.filter(x=>x.gif_accepted===true).length,0);
+assert.equal(original.length,500);
+assert.deepEqual(plan.items.map(x=>x.md_id),queue.map(x=>x.id));
+assert.deepEqual(plan.items.map(x=>x.md_id),original.filter(x=>!x.animation_path).map(x=>x.id));
+const ids=new Set();
+for(let i=0;i<55;i++){
+ const x=plan.items[i],q=queue[i];
+ assert.equal(x.order,i+1);
+ assert.equal(x.name,q.name);
+ assert(!ids.has(x.md_id));ids.add(x.md_id);
+ assert.equal(x.batch,'Lote '+String(Math.floor(i/25)+1).padStart(2,'0'));
+ assert(x.equipment.trim().length>8,'Equipamento não especificado MD'+x.md_id);
+ assert(x.movement_spec.trim().length>40,'Movimento não especificado MD'+x.md_id);
+ assert.equal(x.gif_catalog_path,null,'GIF ainda não aprovado MD'+x.md_id);
+}
+assert.equal(old.items.filter(x=>x.kind==='substituicao_de_gif_compartilhado').length,3);
+console.log(JSON.stringify({total:500,linked:445,priority_missing:55,prototype_unapproved:5,final_approved:0,batches:[25,25,5],duplicate_cases_separate:3,checks:'PASS'}));
