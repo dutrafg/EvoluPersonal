@@ -1,0 +1,31 @@
+name: Auditoria integral dos GIFs MD500
+on:
+  push:
+    branches: [codex/validacao-integral-md500-20261030]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python -m pip install Pillow==11.3.0
+      - name: Conferir associações e SHA de todos os vínculos
+        run: node scripts/validar_associacoes_md500.cjs --sha
+      - name: Decodificar todos os quadros de todos os GIFs vinculados e preliminares
+        if: always()
+        run: python scripts/auditar_md500_integral.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: validacao-integral-md500
+          path: qa-md500/
+          if-no-files-found: error
