@@ -9,13 +9,15 @@
 - [x] **1. Preparar a integração:** revisar a estrutura, preservar a biblioteca oficial MD500 e manter o trabalho isolado em branch. Registrar os limites de licenciamento; não importar mídia Gym visual.
 - [x] **2. Integrar recursos de planejamento e progressão:** indicadores locais, agenda semanal, rotação A/B/C, substitutos por grupo muscular e sugestões de dupla progressão/deload.
 - [x] **3. Consultar a execução anterior:** mostrar a última carga/repetições do mesmo exercício e permitir aplicá-la à série atual, respeitando a unidade e sem alterar automaticamente a prescrição.
-- [ ] **4. Recordes pessoais na execução:** indicar quando uma série concluída supera a melhor marca registrada, com cálculo claro e histórico por aluno/exercício.
-- [ ] **5. Mais formatos de execução:** melhorar registros de séries cronometradas, isométricos e cardio sem forçar repetições ou carga nesses casos.
-- [ ] **6. Biblioteca complementar isolada:** preparar importação selecionada de dados textuais do openGym sem misturar itens externos aos 500 oficiais MD500; incluir atribuição e licença por origem.
-- [ ] **7. Busca complementar:** filtrar a biblioteca importada por grupo muscular, equipamento e nome, mantendo os vínculos com exercícios usados em treinos.
-- [ ] **8. Rotinas iniciais editáveis:** oferecer modelos de divisão semanal feitos para o EvoluPersonal, sem copiar telas, código ou texto não permitido do openGym.
-- [ ] **9. Fluxo de dados entre aparelhos:** definir um caminho de exportação/importação compatível com os backups atuais e preparar a base para sincronização futura.
-- [ ] **10. Revisão integrada:** gerar o HTML completo para teste do fluxo ponta a ponta, verificar a navegação e documentar o que ainda precisa de dispositivo Android real.
+- [x] **4. Recordes pessoais na execução:** indicar uma nova melhor marca estimada de 1RM apenas para uma série concluída, usando os registros anteriores do mesmo aluno e exercício.
+- [x] **5. Comparar os 500 exercícios:** cruzar nomes, grupo, equipamento e instruções disponíveis do catálogo textual openGym. Relatório gravado em `production/COMPARACAO_MD500_OPENGYM_2026-10-30.md` e CSV com todos os candidatos.
+- [ ] **6. Validar movimentos candidatos:** conferir instruções PT-BR, grupo muscular e equipamento dos candidatos contra a execução dos GIFs próprios. A ficha externa serve como referência textual; não aprova um GIF sozinha.
+- [ ] **7. Corrigir biblioteca oficial:** corrigir nomes, grupos, instruções e associações incorretas, mantendo os IDs `md1…md500`.
+- [ ] **8. Completar as animações ausentes:** criar GIFs próprios para os exercícios ainda sem mídia; não copiar nem vincular mídia do Gym visual.
+- [ ] **9. Auditar os 500 vínculos:** revisar exercício, movimento, equipamento, arquivo GIF e estado de aprovação de cada item; exportar a fila de pendências.
+- [ ] **10. Revisão integrada:** gerar o HTML completo para teste do fluxo e da biblioteca revisada; documentar o que ainda precisa de verificação em Android físico.
+
+**Regra da prévia:** após cada dez etapas concluídas (10, 20, 30…), gerar um HTML completo e testável para revisão. Progresso atual: **5 de 10**.
 
 ## Limites de conteúdo
 
@@ -29,3 +31,11 @@
 - `dist/training-methods.js`: consulta o registro concluído mais recente do mesmo exercício, série, aluno e unidade. Quando houver correspondência, exibe a carga e as repetições anteriores.
 - O botão **Usar carga anterior** aplica o valor apenas à série atual e salva como registro manual; não muda a prescrição nem outras séries.
 - Sem registro compatível, a tela continua igual e nenhum valor presumido é preenchido.
+
+
+## Etapas 4 e 5 — progresso
+
+- **Etapa 4:** a execução agora identifica uma nova melhor 1RM estimada nas séries concluídas, usando apenas sessões anteriores do mesmo aluno e exercício. O cálculo é mostrado como estimativa; não altera o treino.
+- **Etapa 5:** a triagem comparou os 500 IDs do inventário com 5.632 exercícios e 5.632 nomes PT-BR do openGym. Resultado: 18 nomes exatos únicos, 1 nome exato ambíguo, 60 candidatos fortes, 129 candidatos para revisão e 292 sem correspondência confiável por nome. Os nomes no CSV são candidatos, não validações biomecânicas.
+- A lista Markdown tem somente 498 linhas numeradas; faltam nela os números 127 e 132, que constam do inventário oficial. O inventário foi usado como referência para comparar todos os 500.
+- Nenhum arquivo de mídia nem instrução longa foi copiado para o EvoluPersonal. A análise usa referências, metadados e contagem de instruções; cada GIF ainda precisa ser conferido individualmente.
