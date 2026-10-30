@@ -538,5 +538,5 @@ function pauseTimer(){if(!paused){remaining=Math.max(0,timerEnd-Date.now());paus
 function stopTimer(){clearInterval(timerHandle);timerHandle=null;document.getElementById('timer').hidden=true}
 document.getElementById('themeBtn').onclick=toggleTheme;document.getElementById('themeRail').onclick=toggleTheme;document.getElementById('modeBtn').onclick=()=>{mode=mode==='coach'?'student':'coach';render()};document.getElementById('modal').addEventListener('click',e=>{if(e.target===e.currentTarget){const r=e.currentTarget.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeModal()}});
 render();if(loadError)toast('Não foi possível ler a base anterior. Verifique a recuperação em Ajustes.');else save();
-</script></body></html>
+</script><script src="programs.js"></script></body></html>
 
