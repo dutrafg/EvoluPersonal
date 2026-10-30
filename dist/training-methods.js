@@ -95,13 +95,13 @@ function substitutePickHTML(w,d,i,n){
  '<p class="muted">A troca não altera a prescrição. Séries concluídas impedem alterações nesta posição.</p></div>';
 }
 
-function previousSetRecord(studentId,exerciseId,setNo,workoutId,sessions=db.sessions){
+function previousSetRecord(studentId,exerciseId,setNo,workoutId,sessions=db.sessions,expectedUnit='kg total'){
  const rows=[];
  for(const session of sessions||[]){
   if(session.student!==studentId||!Array.isArray(session.records))continue;
   for(const record of session.records){
    const unit=record.unit||'kg total';
-   if(record.exercise===exerciseId&&record.set===setNo&&record.done===true&&Number.isFinite(record.load)&&record.load>=0&&unit==='kg total')rows.push({record,session});
+   if(record.exercise===exerciseId&&record.set===setNo&&record.done===true&&Number.isFinite(record.load)&&record.load>=0&&unit===expectedUnit)rows.push({record,session});
   }
  }
  rows.sort((a,b)=>Number(b.session.workout===workoutId)-Number(a.session.workout===workoutId)||Date.parse(b.session.date)-Date.parse(a.session.date));
@@ -110,9 +110,9 @@ function previousSetRecord(studentId,exerciseId,setNo,workoutId,sessions=db.sess
 function previousPerformanceHTML(w,d,item,index,record,rowIndex){
  if(record.done)return '';
  const exerciseId=d.substitutions?.[index]||item.exercise;
- const previous=previousSetRecord(w.student,exerciseId,record.set,w.id);
  const unit=record.unit||item.unit||'kg total';
- if(!previous||((previous.record.unit||'kg total')!==unit))return '';
+ const previous=previousSetRecord(w.student,exerciseId,record.set,w.id,db.sessions,unit);
+ if(!previous)return '';
  const p=previous.record;
  return '<div class="between muted space"><small>Última execução: '+esc(p.load)+' '+esc(unit)+(p.reps?' × '+esc(p.reps)+' rep.':'')+' · '+date(previous.session.date)+'</small><button type="button" onclick="applyPreviousLoad(\''+esc(w.id)+'\','+rowIndex+','+p.load+')">Usar carga anterior</button></div>';
 }
