@@ -40,8 +40,173 @@
 @media(max-width:850px){.md-gallery .md-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.md-gallery-filters{grid-template-columns:1fr 1fr}.md-gallery-filters input{grid-column:1/-1}}
 @media(max-width:440px){.md-gallery{padding:10px;margin:12px -4px 20px}.md-gallery .md-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.md-exercise .md-exercise-head{padding:6px;gap:5px}.md-exercise .md-exercise-id{padding:5px}.md-exercise .md-exercise-title{font-size:11px}.md-exercise .md-exercise-bottom{padding:7px}.md-gallery-kpi{font-size:11px}}
 
+
+
+/* EvoluPersonal — identidade premium aprovada (Dashboard + Biblioteca).
+   Camada exclusivamente visual: não altera IDs, dados locais, funções ou catálogo MD500. */
+:root {
+  --bg:#f2f6f8;--card:#ffffff;--ink:#142939;--muted:#687e8d;
+  --line:#dfe9ee;--accent:#137c8d;--soft:#e3f5f4;--good:#157961;
+  --shadow:0 14px 36px rgba(25,54,72,.055);
+  --brand-navy:#0b1d30;--brand-cyan:#29d3b0;
+}
+body.dark {
+  --bg:#091521;--card:#102537;--ink:#edf8fa;--muted:#9bb2bf;
+  --line:#213c4d;--accent:#48d8ca;--soft:#173b43;--good:#57ddad;
+  --shadow:0 14px 36px rgba(0,0,0,.15);
+}
+body{background:var(--bg);line-height:1.45}
+.shell{grid-template-columns:238px minmax(0,1fr)}
+.rail{align-items:stretch;padding:29px 15px 22px;background:linear-gradient(180deg,#0c2033 0%,#081724 100%);border-right:1px solid #214057;gap:8px}
+.rail .brand{width:52px;height:52px;border-radius:17px;background:linear-gradient(140deg,#10a7ae,#30d6aa);box-shadow:0 10px 27px #00c6a530;font-size:27px;margin:0 auto 3px;color:#082431}
+.rail-name{text-align:center;padding:0 0 28px;color:#f4fbfc;display:flex;flex-direction:column;gap:4px}
+.rail-name strong{font-size:15px;letter-spacing:.5px}
+.rail-name strong span{color:#47dfc8}
+.rail-name small{font-size:10px;color:#8daebc}
+.rail button{width:100%;min-height:49px;display:flex;align-items:center;gap:13px;text-align:left;padding:11px 13px;font-size:13px;font-weight:620;color:#a7bece;border-radius:12px;transition:background-color .18s,color .18s,transform .18s}
+.rail button svg{width:20px;height:20px;margin:0;flex-shrink:0}
+.rail button:hover{background:#1b3848;color:#e6ffff}
+.rail button.active{background:linear-gradient(100deg,#1a595e,#174552);color:#e3fffa;box-shadow:inset 3px 0 0 #3de0bd}
+.rail button.bottom{margin-top:auto;justify-content:center;font-size:0;border:1px solid #234252;min-height:46px}
+.rail button.bottom svg{width:21px;height:21px}
+.main{max-width:1660px;padding:0 34px 45px}
+.top{height:84px;margin-bottom:25px;border-bottom:1px solid var(--line)}
+.wordmark{font-weight:850;letter-spacing:-.85px;font-size:21px}
+.wordmark span{color:var(--accent);font-weight:750}
+.tag{border-radius:8px;padding:6px 10px;background:var(--soft);color:var(--accent);letter-spacing:.5px;font-size:10px}
+.tools button{border-color:var(--line);background:var(--card);border-radius:12px;box-shadow:0 3px 12px #00000008}
+h1{font-weight:800;letter-spacing:-1.25px;font-size:32px}
+h2{font-weight:760;letter-spacing:-.6px}
+.eyebrow{color:var(--accent);letter-spacing:1.65px;font-size:10px}
+.pagehead{margin:22px 0 18px}
+.pagehead p{max-width:640px}
+button{border-radius:11px;transition:background-color .18s,border-color .18s,transform .18s,box-shadow .18s}
+button.primary{background:linear-gradient(110deg,#0f7e93,#0aa595);border-color:#139893;color:#fff;box-shadow:0 8px 20px #009c8922}
+body.dark button.primary{color:#fff}
+button.primary:hover{box-shadow:0 12px 25px #00a89533}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #41d5bd;outline-offset:3px}
+input,select,textarea{background:var(--card);color:var(--ink);border-color:var(--line);border-radius:11px}
+.stat,.card{border-radius:18px;border-color:var(--line);box-shadow:var(--shadow)}
+.card{padding:24px}
+.hero-dashboard{position:relative;overflow:hidden;border:1px solid #20566a;background:radial-gradient(circle at 87% 20%,#1c687185,transparent 32%),linear-gradient(120deg,#0d2538 15%,#12354a 63%,#12434a 100%);color:#f2faff;padding:35px 38px;margin:16px 0 26px;min-height:236px;box-shadow:0 25px 48px #0421321a}
+.hero-dashboard::before{content:"";position:absolute;right:-85px;top:-90px;width:340px;height:340px;border:1px solid #69ebdc38;border-radius:50%;box-shadow:0 0 0 50px #69ebdc08,0 0 0 100px #69ebdc05;pointer-events:none}
+.hero-dashboard h2{font-size:clamp(25px,2.6vw,37px)!important;line-height:1.14;letter-spacing:-1.1px;margin-bottom:15px}
+.hero-dashboard .eyebrow{color:#65e6cd}
+.hero-dashboard p{color:#bfdae0;line-height:1.65;max-width:525px}
+.hero-dashboard .heroArt{border:1px solid #3d8592;box-shadow:0 0 0 17px #55d9c30a;background:#133b4c;color:#67edd3;width:135px;height:135px;position:relative}
+.hero-dashboard button:not(.primary){background:#ffffff11;color:#e7ffff;border-color:#588b99}
+.hero-dashboard button:not(.primary):hover{background:#ffffff22}
+.stats{gap:17px;margin:0 0 25px}
+.stat{position:relative;overflow:hidden;min-height:140px;padding:20px 23px;border-top:3px solid #21bfa9}
+.stat:nth-child(2){border-top-color:#448dd9}.stat:nth-child(3){border-top-color:#ecad63}
+.stat::after{content:"";position:absolute;right:-27px;top:-29px;width:110px;height:110px;border-radius:50%;background:var(--soft);opacity:.53}
+.stat .value{font-size:34px;font-weight:840;letter-spacing:-1.1px;margin:4px 0}
+.stat .muted{font-size:12px;font-weight:650}
+.stat small{font-size:11px}
+.listrow{padding:17px 0;gap:16px}
+.listrow h3{line-height:1.3}
+.avatar{border-radius:13px;background:var(--soft);color:var(--accent);width:44px;height:44px;font-size:14px}
+.student{border-top:2px solid transparent}
+.student:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 15px 35px #00000010}
+.pill{border:1px solid var(--line);background:var(--soft);color:var(--muted)}
+.exrow{background:var(--card);border-color:var(--line);border-radius:14px}
+.serieseditor,.executionseries{background:var(--bg);border-radius:13px}
+.progress{height:8px}
+.progress>div{background:linear-gradient(90deg,#1291a3,#47dcb2)}
+dialog{border-radius:22px;box-shadow:0 32px 100px #04152175}
+dialog::backdrop{background:#061726bf}
+#timer{border:1px solid var(--accent);border-radius:18px;box-shadow:0 24px 60px #0004}
+.notice,.motionstatus{border-radius:12px}
+.md-gallery{background:linear-gradient(150deg,#071523,#0c2335 64%,#081925);border:1px solid #1c4557;border-radius:22px;padding:24px;box-shadow:0 24px 55px #06223126}
+.md-gallery-logo{font-size:25px}
+.md-gallery-logo span{color:#43e2c5}
+.md-gallery-caption{font-size:12px;color:#accbd1;max-width:420px}
+.md-gallery-kpi{border:1px solid #234c60;background:#102d40;border-radius:10px;padding:8px 11px;color:#d5e7e9}
+.md-gallery-kpi strong{color:#57e0c4;font-size:14px}
+.md-gallery-filters{margin:21px 0 18px;gap:11px}
+.md-gallery input,.md-gallery select{border-radius:12px;background:#102b3c;border:1px solid #27546a;color:#f3fcfd;min-height:46px}
+.md-gallery input:focus-visible,.md-gallery select:focus-visible,.md-gallery button:focus-visible{outline-color:#42dabd}
+.md-gallery .md-gallery-grid{gap:13px}
+.md-gallery .md-exercise{background:linear-gradient(180deg,#153244,#0f2234);border:1px solid #295166;border-radius:15px;box-shadow:0 8px 25px #0002;transition:transform .18s,border-color .18s,box-shadow .18s}
+.md-gallery .md-exercise:hover{transform:translateY(-3px);border-color:#3bbfae;box-shadow:0 14px 30px #0004}
+.md-exercise .md-exercise-head{padding:12px 12px 9px;min-height:67px}
+.md-exercise .md-exercise-title{font-size:12px;letter-spacing:.05px;color:#ecf9fa}
+.md-exercise .md-exercise-id{background:#116a85;border-radius:8px;padding:6px 8px}
+.md-exercise .md-exercise-group{color:#a7c0c9;margin:0 12px 10px}
+.md-exercise .md-exercise-media{background:#e8eff0;aspect-ratio:1.12}
+.md-exercise .md-exercise-bottom{padding:11px 12px;gap:7px}
+.md-exercise .md-exercise-button{background:#143e50;color:#e9ffff;border-color:#2a7380;border-radius:9px}
+.md-exercise .md-exercise-button:hover{border-color:#4aded1;background:#195464}
+.md-exercise .md-exercise-placeholder{background:linear-gradient(145deg,#17384a,#10293c);color:#9fbeca}
+.md-exercise .md-exercise-placeholder strong{color:#b8d4da}
+.md-gallery-page button{background:#163648;border:1px solid #2a6273;color:#effcfc}
+.md-gallery-bottom{border-top:1px solid #214153;margin-top:17px}
+.md-gallery-count{color:#b3d2d9}
+@media(max-width:1100px){
+ .shell{grid-template-columns:80px minmax(0,1fr)}
+ .rail{padding:23px 10px;align-items:center}
+ .rail-name{display:none}
+ .rail button{width:58px;min-height:61px;display:flex;flex-direction:column;justify-content:center;text-align:center;gap:3px;padding:7px 2px;font-size:10px}
+ .rail button svg{margin:0;width:21px;height:21px}
+ .rail button.bottom{width:58px}
+ .main{padding:0 22px 35px}
+}
+@media(max-width:640px){
+ .shell{display:block}
+ .rail{height:74px;bottom:0;top:auto;left:0;right:0;padding:5px max(7px,env(safe-area-inset-right)) calc(5px + env(safe-area-inset-bottom));background:#0a1e2d;border-top:1px solid #2d5865;flex-direction:row;align-items:center;justify-content:space-around;gap:2px}
+ .rail .brand,.rail .rail-name,.rail .bottom{display:none}
+ .rail button{width:20%;min-width:0;min-height:58px;font-size:10px;gap:3px;border-radius:11px}
+ .rail button.active{box-shadow:inset 0 3px 0 #3de0bd}
+ .main{padding:0 14px calc(104px + env(safe-area-inset-bottom))}
+ .top{height:auto;min-height:77px;gap:10px;padding:13px 0;margin-bottom:17px}
+ .top .row{gap:7px}
+ .wordmark{font-size:18px}
+ .tag{font-size:9px;padding:4px 6px}
+ .tools{gap:6px}
+ .tools button{padding:7px 9px;font-size:10px;min-height:37px}
+ .pagehead{margin:17px 0}
+ h1{font-size:27px}
+ .hero-dashboard{min-height:0;padding:25px 22px;margin:12px 0 20px}
+ .hero-dashboard::before{right:-180px;top:-120px}
+ .hero-dashboard h2{font-size:28px!important}
+ .hero-dashboard .heroArt{display:none}
+ .hero-dashboard .row{display:flex;flex-wrap:wrap}
+ .stats{gap:9px;margin-bottom:18px}
+ .stat{min-height:118px;padding:12px 10px}
+ .stat .value{font-size:26px}
+ .stat .muted{font-size:11px;line-height:1.3}
+ .stat small{font-size:10px}
+ .card{padding:17px}
+ .grid{gap:12px}
+ .md-gallery{padding:13px;border-radius:16px;margin:12px -2px 20px}
+ .md-gallery-logo{font-size:22px}
+ .md-gallery-head{gap:12px}
+ .md-gallery .md-gallery-grid{gap:8px}
+ .md-gallery-kpis{gap:6px}
+ .md-gallery-kpi{padding:6px 8px;font-size:10px}
+ .md-gallery-kpi strong{font-size:12px}
+ .md-exercise .md-exercise-title{font-size:11px}
+ .md-exercise .md-exercise-head{padding:9px 7px;min-height:66px}
+ .md-exercise .md-exercise-group{margin:0 7px 8px}
+ .md-exercise .md-exercise-bottom{padding:8px;flex-wrap:wrap}
+ .md-exercise .md-exercise-bottom small{font-size:10px;white-space:normal}
+ .md-exercise .md-exercise-button{width:100%}
+ #timer{bottom:calc(89px + env(safe-area-inset-bottom))}
+ .toast{bottom:calc(89px + env(safe-area-inset-bottom))}
+}
+@media(max-width:365px){
+ .top{align-items:flex-start}
+ .top .row{flex-wrap:wrap}
+ .md-gallery-filters{grid-template-columns:1fr}
+ .md-gallery-filters input{grid-column:auto}
+ .md-gallery .md-gallery-grid{grid-template-columns:1fr}
+ .stat .value{font-size:22px}
+ .rail button{font-size:9px}
+}
+@media(prefers-reduced-motion:reduce){.rail button,.md-gallery .md-exercise,.student,button{transition:none!important}}
+
 </style></head><body>
-<div class="shell"><nav class="rail" aria-label="Navegação principal"><div class="brand">e</div><div id="nav" style="display:contents"></div><button class="bottom" id="themeRail" aria-label="Alternar tema"></button></nav><main class="main"><header class="top"><div class="row"><div class="wordmark">evolu<span>personal</span></div><span class="tag">ALPHA 0.9</span></div><div class="tools"><button id="modeBtn"></button><button id="themeBtn" aria-label="Alternar tema"></button></div></header><div id="app"></div><footer class="foot">EvoluPersonal · Alpha 0.9 · Projeto independente · Dados salvos neste navegador</footer></main></div>
+<div class="shell"><nav class="rail" aria-label="Navegação principal"><div class="brand">e</div><div class="rail-name"><strong>EVOLU<span>PERSONAL</span></strong><small>Treinamento inteligente</small></div><div id="nav" style="display:contents"></div><button class="bottom" id="themeRail" aria-label="Alternar tema"></button></nav><main class="main"><header class="top"><div class="row"><div class="wordmark">evolu<span>personal</span></div><span class="tag">ALPHA 0.9 · NOVA INTERFACE</span></div><div class="tools"><button id="modeBtn"></button><button id="themeBtn" aria-label="Alternar tema"></button></div></header><div id="app"></div><footer class="foot">EvoluPersonal · Alpha 0.9 · Projeto independente · Dados salvos neste navegador</footer></main></div>
 <dialog id="modal"><div class="between"><h2 id="modalTitle"></h2><button class="quiet" onclick="closeModal()" aria-label="Fechar janela">✕</button></div><div class="modalbody" id="modalBody"></div></dialog><div id="toast" role="status" hidden></div><div id="timer" hidden><small>DESCANSO</small><b id="clock">00:00</b><div class="row"><button onclick="pauseTimer()" id="pauseBtn">Pausar</button><button onclick="stopTimer()">Encerrar</button></div></div>
 <script src="training-methods.js"></script>
 <script>
@@ -218,10 +383,10 @@ const date=s=>new Date(s).toLocaleString('pt-BR',{dateStyle:'short',timeStyle:'s
 const own=id=>db.workouts.filter(w=>w.student===id);
 function toast(t){let el=document.getElementById('toast');el.textContent=t;el.hidden=false;clearTimeout(toastHandle);toastHandle=setTimeout(()=>el.hidden=true,4500)}
 function heading(k,t,p='',button=''){return '<div class="pagehead"><div><div class="eyebrow">'+k+'</div><h1>'+t+'</h1><p class="muted" style="margin:0">'+p+'</p></div>'+button+'</div>'}
-function nav(){document.getElementById('nav').innerHTML=[['home','Início'],['users','Alunos'],['train','Treinos'],['book','Biblioteca'],['settings','Ajustes']].map(([k,t])=>'<button '+(mode==='coach'&&page===k?'class="active" aria-current="page"':'')+' onclick="go(\''+k+'\')">'+ico(k)+t+'</button>').join('');document.body.classList.toggle('dark',db.theme==='dark');document.getElementById('modeBtn').textContent=mode==='coach'?'Prévia do aluno →':'← Área do personal';document.getElementById('themeBtn').textContent=db.theme==='dark'?'☀ Claro':'☾ Escuro';document.getElementById('themeRail').innerHTML=ico(db.theme==='dark'?'sun':'moon')}
+function nav(){document.getElementById('nav').innerHTML=[['home','Dashboard'],['users','Alunos'],['train','Treinos'],['book','Biblioteca'],['settings','Ajustes']].map(([k,t])=>'<button '+(mode==='coach'&&page===k?'class="active" aria-current="page"':'')+' onclick="go(\''+k+'\')">'+ico(k)+t+'</button>').join('');document.body.classList.toggle('dark',db.theme==='dark');document.getElementById('modeBtn').textContent=mode==='coach'?'Prévia do aluno →':'← Área do personal';document.getElementById('themeBtn').textContent=db.theme==='dark'?'☀ Claro':'☾ Escuro';document.getElementById('themeRail').innerHTML=ico(db.theme==='dark'?'sun':'moon')}
 function go(k){page=k;mode='coach';render();window.scrollTo(0,0)}
 function render(){nav();document.getElementById('app').innerHTML=mode==='student'?studentView():({home:home,users:users,train:trains,book:library,settings:settings}[page]||home)();bind()}
-function home(){const pending=db.students.filter(s=>!own(s.id).length);return heading('SEU ESPAÇO DE TRABALHO','Cada aluno, uma evolução.','Organize o acompanhamento e mantenha o próximo passo à vista.','<button class="primary" onclick="studentModal()">+ Novo aluno</button>')+'<section class="hero"><div><div class="eyebrow">PRESCREVER · ACOMPANHAR · EVOLUIR</div><h2 style="font-size:25px">O próximo resultado começa<br>com um bom acompanhamento.</h2><p>Da montagem do treino ao registro de cada série, tudo conectado ao perfil do aluno.</p><button class="primary" onclick="workoutModal()">Montar treino</button> <button onclick="go(\'users\')">Ver alunos</button></div><div class="heroArt">'+ico('train')+'</div></section>'+(loadError?'<div class="notice"><strong>Não foi possível ler a base anterior.</strong> Uma cópia de recuperação foi preservada, quando disponível. Abra Ajustes para exportá-la.</div>':'')+(db.demo?'<div class="notice"><strong>Ambiente de demonstração.</strong> Os quatro alunos e o treino inicial são exemplos. Você pode editá-los ou começar com uma base vazia em Ajustes.</div>':'')+'<div class="stats"><div class="stat"><div class="muted">Alunos cadastrados</div><div class="value">'+db.students.length+'</div><small>'+pending.length+' sem treino</small></div><div class="stat"><div class="muted">Treinos prescritos</div><div class="value">'+db.workouts.length+'</div><small>Rotinas disponíveis</small></div><div class="stat"><div class="muted">Sessões concluídas</div><div class="value">'+db.sessions.length+'</div><small>Registros nesta base</small></div></div><div class="cols"><section class="card"><div class="between"><h2>Próximas ações</h2><span class="tag">'+pending.length+' pendentes</span></div>'+(pending.length?pending.map(s=>'<div class="listrow"><div class="row"><div class="avatar">'+esc(initials(s.name))+'</div><div><h3>'+esc(s.name)+'</h3><p>Montar o primeiro treino · '+esc(s.goal)+'</p></div></div><button onclick="workoutModal(null,\''+esc(s.id)+'\')">Montar</button></div>').join(''):'<div class="empty">Todos os alunos têm um treino cadastrado.</div>')+'</section><section class="card"><h2>Últimos registros</h2>'+sessionList(db.sessions.slice().reverse().slice(0,4))+'</section></div>'}
+function home(){const pending=db.students.filter(s=>!own(s.id).length);return heading('PAINEL DE CONTROLE','Dashboard','Visão geral dos alunos, treinos e sessões.','<button class="primary" onclick="studentModal()">+ Novo aluno</button>')+'<section class="hero hero-dashboard"><div><div class="eyebrow">SEU CENTRO DE TREINAMENTO</div><h2>Planeje melhor.<br> acompanhe cada evolução.</h2><p>Alunos, prescrições e histórico em um ambiente profissional, organizado para o seu dia a dia.</p><button class="primary" onclick="workoutModal()">+ Montar treino</button> <button onclick="go(\'users\')">Ver alunos</button> <button onclick="go(\'book\')">Biblioteca</button></div><div class="heroArt">'+ico('train')+'</div></section>'+(loadError?'<div class="notice"><strong>Não foi possível ler a base anterior.</strong> Uma cópia de recuperação foi preservada, quando disponível. Abra Ajustes para exportá-la.</div>':'')+(db.demo?'<div class="notice"><strong>Ambiente de demonstração.</strong> Os quatro alunos e o treino inicial são exemplos. Você pode editá-los ou começar com uma base vazia em Ajustes.</div>':'')+'<div class="stats"><div class="stat"><div class="muted">Alunos cadastrados</div><div class="value">'+db.students.length+'</div><small>'+pending.length+' sem treino</small></div><div class="stat"><div class="muted">Treinos prescritos</div><div class="value">'+db.workouts.length+'</div><small>Rotinas disponíveis</small></div><div class="stat"><div class="muted">Sessões concluídas</div><div class="value">'+db.sessions.length+'</div><small>Registros nesta base</small></div></div><div class="cols"><section class="card"><div class="between"><h2>Próximas ações</h2><span class="tag">'+pending.length+' pendentes</span></div>'+(pending.length?pending.map(s=>'<div class="listrow"><div class="row"><div class="avatar">'+esc(initials(s.name))+'</div><div><h3>'+esc(s.name)+'</h3><p>Montar o primeiro treino · '+esc(s.goal)+'</p></div></div><button onclick="workoutModal(null,\''+esc(s.id)+'\')">Montar</button></div>').join(''):'<div class="empty">Todos os alunos têm um treino cadastrado.</div>')+'</section><section class="card"><h2>Últimos registros</h2>'+sessionList(db.sessions.slice().reverse().slice(0,4))+'</section></div>'}
 function sessionList(list){return list.length?list.map(s=>'<div class="listrow"><div><h3>'+esc(student(s.student)?.name||'Aluno')+'</h3><p>'+esc(s.title)+' · '+date(s.date)+'</p><p>'+esc(s.effort||'Sem esforço informado')+(s.feedback?' · '+esc(s.feedback):'')+'</p></div><button onclick="showSession(\''+esc(s.id)+'\')">Ver registro</button></div>').join(''):'<div class="empty">As sessões concluídas aparecem aqui.<br>Experimente registrar um treino na prévia do aluno.</div>'}
 function users(){return heading('ACOMPANHAMENTO','Alunos','Um perfil para cada jornada.','<button class="primary" onclick="studentModal()">+ Novo aluno</button>')+'<input class="search" id="studentSearch" aria-label="Pesquisar alunos" placeholder="Pesquisar por nome ou objetivo" value="'+esc(search)+'"><div class="grid" id="studentGrid">'+studentCards()+'</div>'+(selected&&student(selected)?profile(selected):'')}
 function studentCards(){const list=db.students.filter(s=>(s.name+' '+s.goal).toLowerCase().includes(search.toLowerCase())).sort((a,b)=>a.name.localeCompare(b.name,'pt-BR'));return list.length?list.map(s=>'<button class="card student" style="text-align:left" onclick="selected=\''+esc(s.id)+'\';render()"><div class="row"><div class="avatar">'+esc(initials(s.name))+'</div><div><h3>'+esc(s.name)+'</h3><small>'+esc(s.goal)+'</small></div></div><div class="between space"><span class="pill">'+own(s.id).length+' treino(s)</span><span class="muted">Ver perfil →</span></div></button>').join(''):'<div class="empty">Nenhum aluno encontrado.</div>'}
@@ -265,7 +430,7 @@ function library(){
  const review=catalog.filter(e=>e.media_review_pending).length;
  return heading('REPERTÓRIO OFICIAL','Biblioteca de exercícios','Somente os 500 exercícios do arquivo MD.','')+
  '<section class="md-gallery" aria-label="Biblioteca EvoluPersonal">'+
- '<div class="md-gallery-head"><div><div class="md-gallery-logo">Evolu<span>Personal</span></div><div class="md-gallery-caption">Catálogo anatômico · Layout inspirado na imagem 2</div></div>'+
+ '<div class="md-gallery-head"><div><div class="md-gallery-logo">Evolu<span>Personal</span></div><div class="md-gallery-caption">Biblioteca de movimentos · GIFs associados aos exercícios oficiais</div></div>'+
  '<div class="md-gallery-kpis"><span class="md-gallery-kpi"><strong>500</strong> exercícios MD</span><span class="md-gallery-kpi"><strong>'+count+'</strong> GIFs vinculados</span><span class="md-gallery-kpi"><strong>'+(500-count)+'</strong> aguardando GIF</span><span class="md-gallery-kpi"><strong>'+review+'</strong> em revisão</span></div></div>'+
  '<div class="md-gallery-filters"><input class="search" id="libSearch" placeholder="Pesquisar por nome" aria-label="Pesquisar exercícios" value="'+esc(libSearch)+'"><select id="groupFilter" aria-label="Grupo muscular"><option value="">Todos os grupos</option>'+['Pernas','Peito','Costas','Ombros','Braços','Core'].map(g=>'<option '+(group===g?'selected':'')+'>'+g+'</option>').join('')+'</select>'+
  '<select id="mdLibraryStatus" aria-label="Filtrar animações"><option value="all" '+(mdLibraryStatus==='all'?'selected':'')+'>Todos os 500</option><option value="animated" '+(mdLibraryStatus==='animated'?'selected':'')+'>Com GIF vinculado</option><option value="pending" '+(mdLibraryStatus==='pending'?'selected':'')+'>Aguardando GIF</option><option value="review" '+(mdLibraryStatus==='review'?'selected':'')+'>GIFs em revisão</option><option value="batch" '+(mdLibraryStatus==='batch'?'selected':'')+'>Lote atual de 25</option></select></div>'+
@@ -298,7 +463,7 @@ function exerciseModal(id){if(!id||!String(id).startsWith('md'))return toast('A 
 function preview(id){selected=id;mode='student';render();window.scrollTo(0,0)}
 function studentView(){return heading('ÁREA DO ALUNO','Seu próximo passo.','Confira o treino e registre sua execução.')+'<div class="notice"><strong>Prévia local da área do aluno.</strong> Este seletor serve para testar o fluxo. Login individual e sincronização entre aparelhos ainda não estão disponíveis.</div><label style="max-width:360px">Visualizar como<select id="studentSelect">'+db.students.map(s=>'<option value="'+esc(s.id)+'" '+(s.id===selected?'selected':'')+'>'+esc(s.name)+'</option>').join('')+'</select></label>'+(student(selected)?'<div class="section"><h2>Olá, '+esc(student(selected).name.split(' ')[0])+'. Vamos treinar?</h2><p class="muted">Seu objetivo: '+esc(student(selected).goal)+'</p>'+ (own(selected).length?own(selected).map(sessionView).join(''):'<div class="card empty">Seu personal ainda não cadastrou um treino.</div>')+'<section class="card section"><h2>Suas sessões concluídas</h2>'+sessionList(db.sessions.filter(s=>s.student===selected).slice().reverse())+'</section></div>':'<div class="empty">Cadastre um aluno para testar.</div>')}
 function finishModal(id){const w=db.workouts.find(w=>w.id===id),d=db.drafts[id];if(d.records.some(r=>!r.done))return toast('Marque todas as séries realizadas antes de concluir.');openModal('Como foi o treino?','<form id="finishForm"><label>Percepção de esforço<select name="effort"><option>Leve</option><option selected>Moderado</option><option>Intenso</option><option>Muito intenso</option></select></label><label class="space">Feedback para o personal<textarea name="feedback" maxlength="1500" placeholder="Como você se sentiu? Alguma dificuldade?"></textarea></label><div class="modalfoot"><button type="button" onclick="closeModal()">Voltar</button><button class="primary">Salvar sessão</button></div></form>');document.getElementById('finishForm').onsubmit=e=>{e.preventDefault();let v=Object.fromEntries(new FormData(e.target));db.sessions.push({id:uid(),student:w.student,workout:w.id,title:w.title,date:new Date().toISOString(),records:structuredClone(d.records),suggestions:progressionSuggestions(w,d.records),...v});delete db.drafts[id];const suggestions=progressionSuggestions(w,d.records);save();stopTimer();closeModal();render();if(suggestions.length)openModal('Sugestões para o personal','<p>Revise antes de ajustar o treino.</p>'+suggestions.map(x=>'<p>'+esc(x)+'</p>').join(''));else toast('Sessão concluída! Seu histórico foi atualizado.')}}
-function settings(){return heading('DO SEU JEITO','Ajustes','Personalize o ambiente e cuide dos seus registros.')+'<div class="cols"><section class="card"><h2>Aparência</h2><p class="muted">Base grafite, azul de destaque e cartões arredondados, inspirados na identidade do EvoluFísico2.</p><button onclick="toggleTheme()">Alternar para tema '+(db.theme==='light'?'escuro':'claro')+'</button><h2 class="section">Sobre esta versão</h2><p class="muted">Alpha 0.9 · Cadastro de alunos, biblioteca de exercícios, prescrição de treinos e registro de sessões.</p><div class="notice">Próximas etapas: contas individuais, sincronização, avaliações, agenda e gestão de mensalidades. Esta versão não envia treinos ou dados para outros aparelhos.</div></section><section class="card"><h2>Seus dados</h2>'+(recoveryRaw?'<button onclick="exportRecovery()">Exportar cópia de recuperação</button>':'')+'<p class="muted">Faça backups regularmente. Os dados desta Alpha ficam apenas no navegador e podem ser perdidos se você limpar seus dados de navegação.</p><div class="row wrap"><button class="primary" onclick="exportData()">Exportar backup</button><button onclick="document.getElementById(\'importFile\').click()">Restaurar backup</button><input hidden type="file" accept=".json,application/json" id="importFile" onchange="importData(this)"></div><h3 class="section">Começar com seus alunos</h3><p class="muted">Remove alunos, treinos e sessões desta base. Mantém a biblioteca de exercícios e o tema.</p><button onclick="clearData()">Começar com base vazia</button></section></div>'}
+function settings(){return heading('DO SEU JEITO','Ajustes','Personalize o ambiente e cuide dos seus registros.')+'<div class="cols"><section class="card"><h2>Aparência</h2><p class="muted">Identidade premium em azul-petróleo e verde-menta, com temas claro e escuro.</p><button onclick="toggleTheme()">Alternar para tema '+(db.theme==='light'?'escuro':'claro')+'</button><h2 class="section">Sobre esta versão</h2><p class="muted">Alpha 0.9 · Cadastro de alunos, biblioteca de exercícios, prescrição de treinos e registro de sessões.</p><div class="notice">Próximas etapas: contas individuais, sincronização, avaliações, agenda e gestão de mensalidades. Esta versão não envia treinos ou dados para outros aparelhos.</div></section><section class="card"><h2>Seus dados</h2>'+(recoveryRaw?'<button onclick="exportRecovery()">Exportar cópia de recuperação</button>':'')+'<p class="muted">Faça backups regularmente. Os dados desta Alpha ficam apenas no navegador e podem ser perdidos se você limpar seus dados de navegação.</p><div class="row wrap"><button class="primary" onclick="exportData()">Exportar backup</button><button onclick="document.getElementById(\'importFile\').click()">Restaurar backup</button><input hidden type="file" accept=".json,application/json" id="importFile" onchange="importData(this)"></div><h3 class="section">Começar com seus alunos</h3><p class="muted">Remove alunos, treinos e sessões desta base. Mantém a biblioteca de exercícios e o tema.</p><button onclick="clearData()">Começar com base vazia</button></section></div>'}
 function exportRecovery(){if(!recoveryRaw)return;const u=URL.createObjectURL(new Blob([recoveryRaw],{type:'application/json'})),a=document.createElement('a');a.href=u;a.download='EvoluPersonal_Recuperacao.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000)}
 function exportData(){const blob=new Blob([JSON.stringify(db,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='EvoluPersonal_Backup_'+new Date().toISOString().slice(0,10)+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('Backup exportado.')}
 async function importData(input){let f=input.files[0];if(!f)return;try{if(f.size>10*1024*1024)throw Error();let data=JSON.parse(await f.text());if(!validDB(data))throw Error();data=migrateDB(data);if(!confirm('Restaurar este backup e substituir todos os registros atuais?'))return;db=data;selected=db.students[0]?.id||'';save();render();toast('Backup restaurado.')}catch(e){toast('Backup inválido ou incompatível. Os registros atuais foram preservados.')}finally{input.value=''}}
