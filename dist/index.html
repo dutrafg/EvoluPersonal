@@ -430,10 +430,11 @@ function moveItem(n,d){const j=n+d;if(j<0||j>=editor.items.length)return;[editor
 
 const mdCurrentBatchIds=new Set([77, 197, 200, 226, 229, 260, 262, 265, 274, 300, 310, 315, 316, 317, 344, 370, 371, 383, 390, 398, 399, 418, 420, 438, 449]);
 const mdLibraryPageSize=50;
-function mdSourceCounts(){let approved=0,pending=0,none=0;for(const e of catalog){const c=mediaCandidate(e);if(!c)none++;else if(mediaCandidateApproved(e,c))approved++;else pending++}return{approved,pending,none}}
+function mdSourceCounts(){let approved=0,pending=0,none=0;for(const base of catalog){const e=exercise(base.id)||base,c=mediaCandidate(e);if(!c)none++;else if(mediaCandidateApproved(e,c))approved++;else pending++}return{approved,pending,none}}
 function mdSourceCoverageText(){const n=mdSourceCounts();return'Fontes de mídia: <strong>'+n.approved+'</strong> aprovadas · <strong>'+n.pending+'</strong> candidatas para conferência · <strong>'+n.none+'</strong> sem candidato ativo. Busca em 933 entradas de catálogo.'}
 function mdLibraryMatches(){
- return catalog.filter(e=>{
+ return catalog.filter(base=>{
+  const e=exercise(base.id)||base;
   if(group && e.group!==group)return false;
   if(!e.name.toLocaleLowerCase('pt-BR').includes(libSearch.toLocaleLowerCase('pt-BR')))return false;
   if(mdLibraryStatus==='animated'&&!e.animation)return false;
@@ -484,7 +485,8 @@ function libraryCards(){
  mdLibraryPage=Math.max(0,Math.min(mdLibraryPage,pages-1));
  const pageList=all.slice(mdLibraryPage*mdLibraryPageSize,(mdLibraryPage+1)*mdLibraryPageSize);
  if(!pageList.length)return '<div class="md-no-results">Nenhum exercício encontrado com esses filtros.</div>';
- return pageList.map(e=>{
+ return pageList.map(base=>{
+  const e=exercise(base.id)||base;
   const candidate=mediaCandidate(e);
   const has=!!candidate||!!mdMediaSource(e);
   const media=candidate?gymBellsSequence(candidate,e.name):has?'<img loading="lazy" src="'+esc(animationDisplayURL(e))+'" alt="'+(e.openexercisebase?'Ilustração de referência do exercício ':'GIF do exercício ')+esc(e.name)+'" onerror="this.hidden=true;this.parentElement.setAttribute(\'aria-label\',\'Não foi possível carregar a mídia\')">':
