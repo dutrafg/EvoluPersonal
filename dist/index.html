@@ -33,7 +33,7 @@
 .md-exercise .md-exercise-button:hover{border-color:#f3ad62}
 .md-gallery-bottom{display:flex;gap:12px;justify-content:space-between;align-items:center;flex-wrap:wrap;padding-top:16px;color:#b1c8da;font-size:12px}
 .md-gallery-page{display:flex;gap:9px;align-items:center}.md-gallery-page button{background:#173452;color:#f2f6fb;border:1px solid #315d82;min-height:36px;padding:6px 12px}
-.md-gallery-count{font-size:12px;color:#b4cbdc}
+.md-gallery-source-kpis{font-size:12px;color:var(--muted);padding:8px 2px 12px}.md-gallery-source-kpis strong{color:var(--ink)}.md-gallery-count{font-size:12px;color:#b4cbdc}
 .md-gallery .md-no-results{grid-column:1/-1;color:#adbfce;text-align:center;padding:40px 16px}
 @media(max-width:1380px){.md-gallery .md-gallery-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
 @media(max-width:1130px){.md-gallery .md-gallery-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
@@ -430,6 +430,8 @@ function moveItem(n,d){const j=n+d;if(j<0||j>=editor.items.length)return;[editor
 
 const mdCurrentBatchIds=new Set([77, 197, 200, 226, 229, 260, 262, 265, 274, 300, 310, 315, 316, 317, 344, 370, 371, 383, 390, 398, 399, 418, 420, 438, 449]);
 const mdLibraryPageSize=50;
+function mdSourceCounts(){let approved=0,pending=0,none=0;for(const e of catalog){const c=mediaCandidate(e);if(!c)none++;else if(mediaCandidateApproved(e,c))approved++;else pending++}return{approved,pending,none}}
+function mdSourceCoverageText(){const n=mdSourceCounts();return'Fontes de mídia: <strong>'+n.approved+'</strong> aprovadas · <strong>'+n.pending+'</strong> candidatas para conferência · <strong>'+n.none+'</strong> sem candidato ativo. Busca em 933 entradas de catálogo.'}
 function mdLibraryMatches(){
  return catalog.filter(e=>{
   if(group && e.group!==group)return false;
@@ -437,6 +439,10 @@ function mdLibraryMatches(){
   if(mdLibraryStatus==='animated'&&!e.animation)return false;
   if(mdLibraryStatus==='pending'&&e.animation)return false;
   if(mdLibraryStatus==='review'&&!e.media_review_pending)return false;
+  const source=mediaCandidate(e);
+  if(mdLibraryStatus==='source-approved'&&(!source||!mediaCandidateApproved(e,source)))return false;
+  if(mdLibraryStatus==='source-pending'&&(!source||mediaCandidateApproved(e,source)))return false;
+  if(mdLibraryStatus==='source-none'&&source)return false;
   if(mdLibraryStatus==='batch'&&!mdCurrentBatchIds.has(e.md_id))return false;
   return true;
  });
@@ -447,6 +453,7 @@ function mdLibraryRefresh(){
  const all=mdLibraryMatches(),pages=Math.max(1,Math.ceil(all.length/mdLibraryPageSize));
  const info=document.getElementById('mdLibraryInfo');
  if(info)info.textContent=all.length+' exercícios encontrados'+(all.length?' · mostrando '+(mdLibraryPage*mdLibraryPageSize+1)+'–'+Math.min(all.length,(mdLibraryPage+1)*mdLibraryPageSize):'');
+ const sourceInfo=document.getElementById('mdSourceCoverage');if(sourceInfo)sourceInfo.innerHTML=mdSourceCoverageText();
  const pager=document.getElementById('mdLibraryPager');
  if(pager)pager.innerHTML='<button type="button" onclick="mdLibraryChangePage(-1)" '+(mdLibraryPage===0?'disabled':'')+'>Anterior</button><span>Página '+(mdLibraryPage+1)+' / '+pages+'</span><button type="button" onclick="mdLibraryChangePage(1)" '+(mdLibraryPage>=pages-1?'disabled':'')+'>Próxima</button>';
 }
@@ -456,14 +463,14 @@ function mdLibraryChangePage(direction){
 }
 function library(){
  const count=catalog.filter(e=>!!e.animation).length;const oebCount=catalog.filter(e=>!!e.openexercisebase).length;
- const review=catalog.filter(e=>e.media_review_pending).length;
+ const review=catalog.filter(e=>e.media_review_pending).length;const sourceCounts=mdSourceCounts();
  return heading('REPERTÓRIO OFICIAL','Biblioteca de exercícios','Somente os 500 exercícios do arquivo MD.','')+
  '<section class="md-gallery" aria-label="Biblioteca EvoluPersonal">'+
  '<div class="md-gallery-head"><div><div class="md-gallery-logo">Evolu<span>Personal</span></div><div class="md-gallery-caption">Catálogo anatômico · Layout inspirado na imagem 2</div></div>'+
- '<div class="md-gallery-kpis"><span class="md-gallery-kpi"><strong>500</strong> exercícios MD</span><span class="md-gallery-kpi"><strong>'+count+'</strong> GIFs próprios</span><span class="md-gallery-kpi"><strong>'+oebCount+'</strong> imagens OpenExerciseBase</span><span class="md-gallery-kpi"><strong>'+(500-count)+'</strong> sem GIF 3D</span><span class="md-gallery-kpi"><strong>'+review+'</strong> em revisão</span></div></div>'+
+ '<div class="md-gallery-kpis"><span class="md-gallery-kpi"><strong>500</strong> exercícios MD</span><span class="md-gallery-kpi"><strong>'+count+'</strong> GIFs próprios</span><span class="md-gallery-kpi"><strong>'+oebCount+'</strong> imagens OpenExerciseBase</span><span class="md-gallery-kpi"><strong>'+(500-count)+'</strong> sem GIF 3D</span><span class="md-gallery-kpi"><strong>'+review+'</strong> em revisão</span><span class="md-gallery-kpi"><strong>'+sourceCounts.approved+'</strong> fontes aprovadas</span><span class="md-gallery-kpi"><strong>'+sourceCounts.pending+'</strong> candidatas</span></div></div>'+
  '<div class="md-gallery-filters"><input class="search" id="libSearch" placeholder="Pesquisar por nome" aria-label="Pesquisar exercícios" value="'+esc(libSearch)+'"><select id="groupFilter" aria-label="Grupo muscular"><option value="">Todos os grupos</option>'+['Pernas','Peito','Costas','Ombros','Braços','Core'].map(g=>'<option '+(group===g?'selected':'')+'>'+g+'</option>').join('')+'</select>'+
- '<select id="mdLibraryStatus" aria-label="Filtrar animações"><option value="all" '+(mdLibraryStatus==='all'?'selected':'')+'>Todos os 500</option><option value="animated" '+(mdLibraryStatus==='animated'?'selected':'')+'>Com GIF vinculado</option><option value="pending" '+(mdLibraryStatus==='pending'?'selected':'')+'>Aguardando GIF</option><option value="review" '+(mdLibraryStatus==='review'?'selected':'')+'>GIFs em revisão</option><option value="batch" '+(mdLibraryStatus==='batch'?'selected':'')+'>Lote atual de 25</option></select></div>'+
- '<div class="md-gallery-count" id="mdLibraryInfo" aria-live="polite"></div>'+
+ '<select id="mdLibraryStatus" aria-label="Filtrar animações"><option value="all" '+(mdLibraryStatus==='all'?'selected':'')+'>Todos os 500</option><option value="animated" '+(mdLibraryStatus==='animated'?'selected':'')+'>Com GIF vinculado</option><option value="pending" '+(mdLibraryStatus==='pending'?'selected':'')+'>Aguardando GIF</option><option value="review" '+(mdLibraryStatus==='review'?'selected':'')+'>GIFs em revisão</option><option value="batch" '+(mdLibraryStatus==='batch'?'selected':'')+'>Lote atual de 25</option><option value="source-approved" '+(mdLibraryStatus==='source-approved'?'selected':'')+'>Fonte aprovada</option><option value="source-pending" '+(mdLibraryStatus==='source-pending'?'selected':'')+'>Fonte para conferir</option><option value="source-none" '+(mdLibraryStatus==='source-none'?'selected':'')+'>Sem candidato ativo</option></select></div>'+
+ '<div class="md-gallery-count" id="mdLibraryInfo" aria-live="polite"></div>'+'<div class="md-gallery-source-kpis" id="mdSourceCoverage">'+mdSourceCoverageText()+'</div>'+
  '<div class="md-gallery-grid" id="libGrid">'+libraryCards()+'</div>'+
  '<div class="md-gallery-bottom"><span>As imagens exibidas são GIFs reais do acervo; exercícios pendentes não recebem ilustrações fictícias.</span><div class="md-gallery-page" id="mdLibraryPager"></div></div>'+
  '</section>';
