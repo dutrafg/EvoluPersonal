@@ -4,14 +4,14 @@
   "source_url": "https://github.com/gellyfish-ai/gymbells-exercises",
   "license": "CC BY-NC 4.0",
   "credit": "Exercise illustrations by GymBells",
-  "note": "Todas as associações são candidatas e precisam de confirmação visual. Não tratar nome parecido como correspondência aprovada.",
+  "note": "Aprovações iniciais limitadas a variantes cujo nome e equipamento coincidem diretamente com a lista MD500; os demais candidatos seguem pendentes de conferência visual.",
   "total_exercises": 500,
   "candidate_count": 117,
   "rows": [
     {
       "md_id": 1,
       "name": "Supino Reto com Barra",
-      "status": "candidate",
+      "status": "prevalidated_exact_name_and_equipment",
       "source": {
         "dataset": "GymBells",
         "id": "Barbell_Bench_Press_-_Medium_Grip",
@@ -24,12 +24,13 @@
         "license": "CC BY-NC 4.0",
         "credit": "Exercise illustrations by GymBells",
         "source_url": "https://github.com/gellyfish-ai/gymbells-exercises"
-      }
+      },
+      "review_status": "approved"
     },
     {
       "md_id": 2,
       "name": "Supino Inclinado com Barra",
-      "status": "candidate",
+      "status": "prevalidated_exact_name_and_equipment",
       "source": {
         "dataset": "GymBells",
         "id": "Barbell_Incline_Bench_Press_-_Medium_Grip",
@@ -42,12 +43,13 @@
         "license": "CC BY-NC 4.0",
         "credit": "Exercise illustrations by GymBells",
         "source_url": "https://github.com/gellyfish-ai/gymbells-exercises"
-      }
+      },
+      "review_status": "approved"
     },
     {
       "md_id": 3,
       "name": "Supino Reto com Halteres",
-      "status": "candidate",
+      "status": "prevalidated_exact_name_and_equipment",
       "source": {
         "dataset": "GymBells",
         "id": "Dumbbell_Bench_Press",
@@ -60,12 +62,13 @@
         "license": "CC BY-NC 4.0",
         "credit": "Exercise illustrations by GymBells",
         "source_url": "https://github.com/gellyfish-ai/gymbells-exercises"
-      }
+      },
+      "review_status": "approved"
     },
     {
       "md_id": 4,
       "name": "Supino Inclinado com Halteres",
-      "status": "candidate",
+      "status": "prevalidated_exact_name_and_equipment",
       "source": {
         "dataset": "GymBells",
         "id": "Incline_Dumbbell_Press",
@@ -78,12 +81,13 @@
         "license": "CC BY-NC 4.0",
         "credit": "Exercise illustrations by GymBells",
         "source_url": "https://github.com/gellyfish-ai/gymbells-exercises"
-      }
+      },
+      "review_status": "approved"
     },
     {
       "md_id": 5,
       "name": "Supino Declinado com Barra",
-      "status": "candidate",
+      "status": "prevalidated_exact_name_and_equipment",
       "source": {
         "dataset": "GymBells",
         "id": "Decline_Barbell_Bench_Press",
@@ -96,12 +100,13 @@
         "license": "CC BY-NC 4.0",
         "credit": "Exercise illustrations by GymBells",
         "source_url": "https://github.com/gellyfish-ai/gymbells-exercises"
-      }
+      },
+      "review_status": "approved"
     },
     {
       "md_id": 6,
       "name": "Paralelas (Mergulho nas Barras Paralelas com foco em Peitoral)",
-      "status": "candidate",
+      "status": "prevalidated_exact_name_and_equipment",
       "source": {
         "dataset": "GymBells",
         "id": "Dips_-_Chest_Version",
@@ -114,12 +119,13 @@
         "license": "CC BY-NC 4.0",
         "credit": "Exercise illustrations by GymBells",
         "source_url": "https://github.com/gellyfish-ai/gymbells-exercises"
-      }
+      },
+      "review_status": "approved"
     },
     {
       "md_id": 7,
       "name": "Flexão de Braços Tradicional (Push-up)",
-      "status": "candidate",
+      "status": "prevalidated_exact_name_and_equipment",
       "source": {
         "dataset": "GymBells",
         "id": "Pushups",
@@ -132,12 +138,13 @@
         "license": "CC BY-NC 4.0",
         "credit": "Exercise illustrations by GymBells",
         "source_url": "https://github.com/gellyfish-ai/gymbells-exercises"
-      }
+      },
+      "review_status": "approved"
     },
     {
       "md_id": 8,
       "name": "Supino Declinado com Halteres",
-      "status": "candidate",
+      "status": "prevalidated_exact_name_and_equipment",
       "source": {
         "dataset": "GymBells",
         "id": "Decline_Dumbbell_Bench_Press",
@@ -150,12 +157,13 @@
         "license": "CC BY-NC 4.0",
         "credit": "Exercise illustrations by GymBells",
         "source_url": "https://github.com/gellyfish-ai/gymbells-exercises"
-      }
+      },
+      "review_status": "approved"
     },
     {
       "md_id": 9,
       "name": "Supino Reto no Smith",
-      "status": "candidate",
+      "status": "prevalidated_exact_name_and_equipment",
       "source": {
         "dataset": "GymBells",
         "id": "Smith_Machine_Bench_Press",
@@ -168,12 +176,13 @@
         "license": "CC BY-NC 4.0",
         "credit": "Exercise illustrations by GymBells",
         "source_url": "https://github.com/gellyfish-ai/gymbells-exercises"
-      }
+      },
+      "review_status": "approved"
     },
     {
       "md_id": 10,
       "name": "Supino Inclinado no Smith",
-      "status": "candidate",
+      "status": "prevalidated_exact_name_and_equipment",
       "source": {
         "dataset": "GymBells",
         "id": "Smith_Machine_Incline_Press",
@@ -186,12 +195,13 @@
         "license": "CC BY-NC 4.0",
         "credit": "Exercise illustrations by GymBells",
         "source_url": "https://github.com/gellyfish-ai/gymbells-exercises"
-      }
+      },
+      "review_status": "approved"
     },
     {
       "md_id": 11,
       "name": "Supino Declinado no Smith",
-      "status": "candidate",
+      "status": "prevalidated_exact_name_and_equipment",
       "source": {
         "dataset": "GymBells",
         "id": "Smith_Machine_Decline_Press",
@@ -204,7 +214,8 @@
         "license": "CC BY-NC 4.0",
         "credit": "Exercise illustrations by GymBells",
         "source_url": "https://github.com/gellyfish-ai/gymbells-exercises"
-      }
+      },
+      "review_status": "approved"
     },
     {
       "md_id": 12,
@@ -4412,5 +4423,6 @@
       "status": "no_candidate",
       "source": null
     }
-  ]
+  ],
+  "prevalidated_count": 11
 }
