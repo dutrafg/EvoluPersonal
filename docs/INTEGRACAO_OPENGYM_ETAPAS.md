@@ -27,6 +27,12 @@
 - A carga anterior só é sugerida quando aluno, exercício, série, unidade e ID do treino correspondem. Rotinas diferentes não compartilham sugestões de carga.
 - Backups antigos sem o campo de rotinas continuam importáveis; apagar os dados também remove as rotinas.
 
+## Etapa 7 — validação em andamento
+
+- Revisão por metadados dos 77 candidatos exatos/fortes: grupo corporal corresponde em 77/77.
+- Criada a página `production/REVISAO_VISUAL_MD500.html` para marcar cada GIF como correto, associação incorreta ou pendente e exportar o resultado em CSV.
+- Etapa 7 segue aberta até que a associação visual dos GIFs seja conferida. As instruções do OpenGym orientam a comparação textual; não substituem a observação do movimento.
+
 ## Limites de conteúdo
 
 - Os 500 exercícios e IDs `md1…md500` continuam como biblioteca oficial do EvoluPersonal.
@@ -44,6 +50,6 @@
 ## Etapas 4 e 5 — progresso
 
 - **Etapa 4:** a execução agora identifica uma nova melhor 1RM estimada nas séries concluídas, usando apenas sessões anteriores do mesmo aluno e exercício. O cálculo é mostrado como estimativa; não altera o treino.
-- **Etapa 5:** a triagem comparou os 500 IDs do inventário com 5.632 exercícios e 5.632 nomes PT-BR do openGym. Resultado: 18 nomes exatos únicos, 1 nome exato ambíguo, 60 candidatos fortes, 129 candidatos para revisão e 292 sem correspondência confiável por nome. Os nomes no CSV são candidatos, não validações biomecânicas.
-- A contagem automatizada identificou 498 números por causa da formatação dos itens 127 e 132 (sem espaço após o ponto). Os dois exercícios estão presentes, e o inventário oficial foi usado para garantir os 500.
+- **Etapa 5:** a triagem comparou os 500 IDs do inventário com 5.632 exercícios e 5.632 nomes PT-BR do openGym. Resultado: 18 nomes exatos únicos, 1 nome exato ambíguo, 58 candidatos fortes, 165 candidatos para revisão e 258 sem correspondência confiável por nome. Os nomes no CSV são candidatos, não validações biomecânicas.
+- A lista Markdown e o inventário contêm 500 exercícios. Os itens 127 e 132 estão presentes, mas sem espaço após o ponto. A revisão dos 77 candidatos exatos/fortes confirmou correspondência de grupo corporal em 77/77; isso não valida visualmente os GIFs.
 - Nenhum arquivo de mídia nem instrução longa foi copiado para o EvoluPersonal. A análise usa referências, metadados e contagem de instruções; cada GIF ainda precisa ser conferido individualmente.
