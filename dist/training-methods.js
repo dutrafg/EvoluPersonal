@@ -95,8 +95,34 @@ function substitutePickHTML(w,d,i,n){
  '<p class="muted">A troca não altera a prescrição. Séries concluídas impedem alterações nesta posição.</p></div>';
 }
 
+function previousSetRecord(studentId,exerciseId,setNo,workoutId,sessions=db.sessions){
+ const rows=[];
+ for(const session of sessions||[]){
+  if(session.student!==studentId||!Array.isArray(session.records))continue;
+  for(const record of session.records){
+   const unit=record.unit||'kg total';
+   if(record.exercise===exerciseId&&record.set===setNo&&record.done===true&&Number.isFinite(record.load)&&record.load>=0&&unit==='kg total')rows.push({record,session});
+  }
+ }
+ rows.sort((a,b)=>Number(b.session.workout===workoutId)-Number(a.session.workout===workoutId)||Date.parse(b.session.date)-Date.parse(a.session.date));
+ return rows[0]||null;
+}
+function previousPerformanceHTML(w,d,item,index,record,rowIndex){
+ if(record.done)return '';
+ const exerciseId=d.substitutions?.[index]||item.exercise;
+ const previous=previousSetRecord(w.student,exerciseId,record.set,w.id);
+ const unit=record.unit||item.unit||'kg total';
+ if(!previous||((previous.record.unit||'kg total')!==unit))return '';
+ const p=previous.record;
+ return '<div class="between muted space"><small>Última execução: '+esc(p.load)+' '+esc(unit)+(p.reps?' × '+esc(p.reps)+' rep.':'')+' · '+date(previous.session.date)+'</small><button type="button" onclick="applyPreviousLoad(\''+esc(w.id)+'\','+rowIndex+','+p.load+')">Usar carga anterior</button></div>';
+}
+function applyPreviousLoad(workoutId,rowIndex,load){
+ const w=db.workouts.find(x=>x.id===workoutId),d=db.drafts[workoutId],r=d?.records[rowIndex];
+ if(!w||!r||r.done||!Number.isFinite(load)||load<0||load>2000)return toast('Não foi possível aplicar a carga anterior.');
+ r.load=load;r.manualLoad=true;save();render();toast('Carga anterior aplicada para esta série.');
+}
 function sessionView(w){const d=db.drafts[w.id]||(db.drafts[w.id]=makeDraft(w)),done=d.records.filter(r=>r.done).length;
- return '<section class="card section"><h2>'+esc(w.title)+'</h2><span id="count-'+esc(w.id)+'">'+done+'/'+d.records.length+' séries</span><p class="muted">'+planSummary(w.items)+'</p>'+(w.notes?'<p>'+esc(w.notes)+'</p>':'')+'<div class="progress"><div id="progress-'+esc(w.id)+'" style="width:'+(done/d.records.length*100)+'%"></div></div>'+w.items.map((i,n)=>'<div class="exrow"><div class="between"><h3>'+(n+1)+'. '+esc(exercise(d.substitutions?.[n]||i.exercise)?.name)+'</h3><button onclick="showMotion(\''+esc(d.substitutions?.[n]||i.exercise)+'\')">Ver GIF</button></div>'+substitutePickHTML(w,d,i,n)+d.records.map((r,k)=>r.item!==n?'':'<div class="executionseries"><div class="between"><strong>'+r.set+' · '+esc(SERIES_TYPES[r.type||'trabalho'])+'</strong><span class="pill">'+esc(r.unit||i.unit||'kg total')+'</span></div><p class="muted">Meta: '+esc(r.plannedReps||i.reps)+(r.targetRir==null?'':' · RIR '+r.targetRir)+(r.mode==='percent'?' · '+r.percent+'% '+(r.reference==='base'?'da carga base':'da série '+(r.reference+1)):'')+' · carga planejada: '+(r.plannedLoad===null?'não definida':r.plannedLoad??i.load)+'</p><div class="fields"><label>Carga realizada<input id="record-load-'+w.id+'-'+k+'" aria-label="Carga realizada série '+r.set+'" type="number" min="0" max="2000" step="any" value="'+(r.load??'')+'" '+(r.done?'disabled':'')+' onchange="recordChange(\''+w.id+'\','+k+',\'load\',this)"></label><label>Repetições / tempo realizados<input maxlength="40" value="'+esc(r.reps)+'" '+(r.done?'disabled':'')+' onchange="recordChange(\''+w.id+'\','+k+',\'reps\',this)"></label><label>RIR realizado<input type="number" min="0" max="10" value="'+(r.rir??'')+'" '+(r.done?'disabled':'')+' onchange="recordChange(\''+w.id+'\','+k+',\'rir\',this)"></label></div><div class="row wrap space"><button onclick="startTimer('+r.rest+')">Descansar antes · '+r.rest+'s</button><label class="completed"><input type="checkbox" '+(r.done?'checked':'')+' onchange="recordChange(\''+w.id+'\','+k+',\'done\',this)"> Concluída</label></div></div>').join('')+'</div>').join('')+'<button class="primary" onclick="finishModal(\''+w.id+'\')">Concluir treino</button></section>';}
+ return '<section class="card section"><h2>'+esc(w.title)+'</h2><span id="count-'+esc(w.id)+'">'+done+'/'+d.records.length+' séries</span><p class="muted">'+planSummary(w.items)+'</p>'+(w.notes?'<p>'+esc(w.notes)+'</p>':'')+'<div class="progress"><div id="progress-'+esc(w.id)+'" style="width:'+(done/d.records.length*100)+'%"></div></div>'+w.items.map((i,n)=>'<div class="exrow"><div class="between"><h3>'+(n+1)+'. '+esc(exercise(d.substitutions?.[n]||i.exercise)?.name)+'</h3><button onclick="showMotion(\''+esc(d.substitutions?.[n]||i.exercise)+'\')">Ver GIF</button></div>'+substitutePickHTML(w,d,i,n)+d.records.map((r,k)=>r.item!==n?'':'<div class="executionseries"><div class="between"><strong>'+r.set+' · '+esc(SERIES_TYPES[r.type||'trabalho'])+'</strong><span class="pill">'+esc(r.unit||i.unit||'kg total')+'</span></div><p class="muted">Meta: '+esc(r.plannedReps||i.reps)+(r.targetRir==null?'':' · RIR '+r.targetRir)+(r.mode==='percent'?' · '+r.percent+'% '+(r.reference==='base'?'da carga base':'da série '+(r.reference+1)):'')+' · carga planejada: '+(r.plannedLoad===null?'não definida':r.plannedLoad??i.load)+'</p><div class="fields"><label>Carga realizada<input id="record-load-'+w.id+'-'+k+'" aria-label="Carga realizada série '+r.set+'" type="number" min="0" max="2000" step="any" value="'+(r.load??'')+'" '+(r.done?'disabled':'')+' onchange="recordChange(\''+w.id+'\','+k+',\'load\',this)"></label><label>Repetições / tempo realizados<input maxlength="40" value="'+esc(r.reps)+'" '+(r.done?'disabled':'')+' onchange="recordChange(\''+w.id+'\','+k+',\'reps\',this)"></label><label>RIR realizado<input type="number" min="0" max="10" value="'+(r.rir??'')+'" '+(r.done?'disabled':'')+' onchange="recordChange(\''+w.id+'\','+k+',\'rir\',this)"></label></div>'+previousPerformanceHTML(w,d,i,n,r,k)+'<div class="row wrap space"><button onclick="startTimer('+r.rest+')">Descansar antes · '+r.rest+'s</button><label class="completed"><input type="checkbox" '+(r.done?'checked':'')+' onchange="recordChange(\''+w.id+'\','+k+',\'done\',this)"> Concluída</label></div></div>').join('')+'</div>').join('')+'<button class="primary" onclick="finishModal(\''+w.id+'\')">Concluir treino</button></section>';}
 function updateDependentLoads(w,d,item){const rows=d.records.filter(r=>r.item===item);for(const r of rows){if(r.mode!=='percent'||r.done)continue;const base=r.reference==='base'?w.items[item].load:rows[r.reference]?.load;const next=base==null?null:Math.round(base*r.percent)/100;r.plannedLoad=next;if(!r.manualLoad)r.load=next;}}
 function recordChange(id,k,field,el){const w=db.workouts.find(w=>w.id===id),d=db.drafts[id],r=d.records[k];
  if(field==='load'||field==='rir'){const x=el.value===''?null:Number(el.value);if(!el.validity.valid||(field==='load'?!validLoad(x):x!==null&&(!Number.isInteger(x)||x<0||x>10))){el.value=r[field]??'';return toast('Informe um valor válido.');}r[field]=x;if(field==='load'){r.manualLoad=true;updateDependentLoads(w,d,r.item);}}
