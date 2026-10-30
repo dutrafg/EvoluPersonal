@@ -98,7 +98,7 @@ function substitutePickHTML(w,d,i,n){
 function previousSetRecord(studentId,exerciseId,setNo,workoutId,sessions=db.sessions,expectedUnit='kg total'){
  const rows=[];
  for(const session of sessions||[]){
-  if(session.student!==studentId||!Array.isArray(session.records))continue;
+  if(session.student!==studentId||session.workout!==workoutId||!Array.isArray(session.records))continue;
   for(const record of session.records){
    const unit=record.unit||'kg total';
    if(record.exercise===exerciseId&&record.set===setNo&&record.done===true&&Number.isFinite(record.load)&&record.load>=0&&unit===expectedUnit)rows.push({record,session});
