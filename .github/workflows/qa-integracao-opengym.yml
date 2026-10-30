@@ -25,3 +25,5 @@ jobs:
         run: node tests-insights.cjs
       - name: Testes da agenda semanal
         run: node tests-weekly.cjs
+      - name: Testes da rotação A/B/C
+        run: node tests-rotation.cjs
