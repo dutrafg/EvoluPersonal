@@ -37,5 +37,5 @@
 
 - **Etapa 4:** a execução agora identifica uma nova melhor 1RM estimada nas séries concluídas, usando apenas sessões anteriores do mesmo aluno e exercício. O cálculo é mostrado como estimativa; não altera o treino.
 - **Etapa 5:** a triagem comparou os 500 IDs do inventário com 5.632 exercícios e 5.632 nomes PT-BR do openGym. Resultado: 18 nomes exatos únicos, 1 nome exato ambíguo, 60 candidatos fortes, 129 candidatos para revisão e 292 sem correspondência confiável por nome. Os nomes no CSV são candidatos, não validações biomecânicas.
-- A lista Markdown tem somente 498 linhas numeradas; faltam nela os números 127 e 132, que constam do inventário oficial. O inventário foi usado como referência para comparar todos os 500.
+- A contagem automatizada identificou 498 números por causa da formatação dos itens 127 e 132 (sem espaço após o ponto). Os dois exercícios estão presentes, e o inventário oficial foi usado para garantir os 500.
 - Nenhum arquivo de mídia nem instrução longa foi copiado para o EvoluPersonal. A análise usa referências, metadados e contagem de instruções; cada GIF ainda precisa ser conferido individualmente.
