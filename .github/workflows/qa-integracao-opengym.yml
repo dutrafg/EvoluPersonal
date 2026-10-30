@@ -27,3 +27,5 @@ jobs:
         run: node tests-weekly.cjs
       - name: Testes da rotação A/B/C
         run: node tests-rotation.cjs
+      - name: Testes de exercícios substitutos
+        run: node tests-substitutions.cjs
