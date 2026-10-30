@@ -13,12 +13,13 @@ const ctx={console,crypto:require('node:crypto').webcrypto,structuredClone,URL,D
 vm.createContext(ctx);vm.runInContext(methods,ctx);vm.runInContext(script,ctx);
 const run=x=>vm.runInContext(x,ctx);
 const check=(expr,expected)=>assert.deepEqual(JSON.parse(JSON.stringify(run(expr))),expected,expr);
+run('var a;');
 check('validDB(seed())',true);
 check('(()=>{let x=seed();let w=x.workouts[0],e=x.exercises.find(e=>e.group===x.exercises.find(z=>z.id===w.items[0].exercise).group&&e.id!==w.items[0].exercise);w.items[0].alternatives=[e.id];return validDB(x)})()',true);
 check('(()=>{let x=seed();x.workouts[0].items[0].alternatives=["md999"];return validDB(x)})()',false);
 check('(()=>{let x=seed();let a=x.workouts[0].items[0];a.alternatives=[a.exercise];return validDB(x)})()',false);
 check('(()=>{let x=seed();let a=x.workouts[0].items[0];a.alternatives=["md1","md1"];return validDB(x)})()',false);
-check('(()=>{let w=db.workouts[0];var a=db.exercises.find(e=>e.group===exercise(w.items[0].exercise).group&&e.id!==w.items[0].exercise);w.items[0].alternatives=[a.id];db.drafts[w.id]=makeDraft(w);return validDB(db)})()',true);
+check('(()=>{let w=db.workouts[0];a=db.exercises.find(e=>e.group===exercise(w.items[0].exercise).group&&e.id!==w.items[0].exercise);w.items[0].alternatives=[a.id];db.drafts[w.id]=makeDraft(w);return validDB(db)})()',true);
 check('(()=>{let w=db.workouts[0];chooseSubstitute(w.id,0,a.id);return [db.drafts[w.id].substitutions["0"],db.drafts[w.id].records.filter(r=>r.item===0).every(r=>r.exercise===a.id),validDB(db)]})()',[run('a.id'),true,true]);
 check('(()=>{let w=db.workouts[0];return sessionView(w).includes("Exercício nesta sessão")&&sessionView(w).includes("Substituição do exercício")})()',true);
 check('(()=>{let w=db.workouts[0];db.drafts[w.id].records[0].done=true;chooseSubstitute(w.id,0,w.items[0].exercise);return db.drafts[w.id].substitutions["0"]===a.id})()',true);
