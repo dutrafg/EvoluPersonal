@@ -235,7 +235,14 @@ function validBaseDB(d){
  if(!Array.isArray(d.exercises)||!d.exercises.every(e=>e&&id(e.id)&&str(e.name)&&e.name.trim()&&str(e.group)&&str(e.url)&&(!e.url||safeURL(e.url)))||!unique(d.exercises))return false;
  if(!Array.isArray(d.workouts)||!d.workouts.every(w=>w&&id(w.id)&&str(w.title)&&w.title.trim()&&str(w.notes)&&d.students.some(s=>s.id===w.student)&&Array.isArray(w.items)&&w.items.length>0&&w.items.every(i=>i&&d.exercises.some(e=>e.id===i.exercise)&&Number.isInteger(i.sets)&&i.sets>0&&i.sets<=30&&str(i.reps)&&i.reps.trim()&&num(i.load,2000)&&Number.isInteger(i.rest)&&num(i.rest,3600)))||!unique(d.workouts))return false;
  if(!Array.isArray(d.sessions)||!d.sessions.every(s=>s&&id(s.id)&&d.students.some(x=>x.id===s.student)&&str(s.title)&&str(s.date)&&!Number.isNaN(Date.parse(s.date))&&str(s.effort)&&str(s.feedback)&&records(s.records)&&s.records.length>0&&s.records.every(r=>r.done))||!unique(d.sessions))return false;
- if(d.weekPlan!==undefined){
+ if(d.rotationPlan!==undefined){
+ if(!d.rotationPlan||typeof d.rotationPlan!=='object'||Array.isArray(d.rotationPlan))return false;
+ if(!Object.entries(d.rotationPlan).every(([sid,r])=>id(sid)&&d.students.some(s=>s.id===sid)&&r&&typeof r==='object'&&!Array.isArray(r)&&
+ Array.isArray(r.order)&&r.order.length<=20&&r.order.every(wid=>id(wid)&&d.workouts.some(w=>w.id===wid&&w.student===sid))&&
+ new Set(r.order).size===r.order.length&&Number.isInteger(r.cursor)&&r.cursor>=0&&
+ (r.order.length===0?r.cursor===0:r.cursor<r.order.length)))return false;
+}
+if(d.weekPlan!==undefined){
   const days=['seg','ter','qua','qui','sex','sab','dom'];
   if(!d.weekPlan||typeof d.weekPlan!=='object'||Array.isArray(d.weekPlan))return false;
   if(!Object.entries(d.weekPlan).every(([studentId,plan])=>
@@ -246,7 +253,7 @@ function validBaseDB(d){
  return Object.entries(d.drafts).every(([key,x])=>{const w=d.workouts.find(w=>w.id===key);return w&&x&&records(x.records)&&x.records.length===w.items.reduce((a,i)=>a+i.sets,0)&&x.records.every(r=>w.items[r.item]?.exercise===r.exercise&&r.set<=w.items[r.item].sets)})
 }
 function save(){try{localStorage.setItem(KEY,JSON.stringify(db));return true}catch(e){toast('Não foi possível salvar. Exporte um backup antes de fechar.');return false}}
-let insightStudent='all',planStudent='',weeklyOpen=true;
+let insightStudent='all',planStudent='',weeklyOpen=true,rotationOpen=true;
 let page='home',mode='coach',selected=db.students[0]?.id||'',search='',workSearch='',libSearch='',group='',mdLibraryStatus='all',mdLibraryPage=0,editor=null,toastHandle;
 const student=id=>db.students.find(s=>s.id===id),exercise=id=>db.exercises.find(e=>e.id===id);
 const initials=name=>name.split(' ').filter(Boolean).slice(0,2).map(s=>s[0]).join('');
@@ -305,13 +312,85 @@ function assignWeek(day,workoutId){
  render();toast('Planejamento semanal salvo.');
 }
 
-function trains(){return heading('PRESCRIÇÃO','Treinos','Crie rotinas e adapte cada detalhe ao seu aluno.','<button class="primary" onclick="workoutModal()">+ Montar treino</button>')+'<input class="search" id="workSearch" aria-label="Pesquisar treinos" placeholder="Pesquisar treino ou aluno" value="'+esc(workSearch)+'"><div class="section" id="workResults">'+workoutCards(db.workouts.filter(w=>(w.title+' '+student(w.student)?.name).toLowerCase().includes(workSearch.toLowerCase())))+'</div>'+weekPlanner()}
+
+function rotationRecord(studentId){return db.rotationPlan?.[studentId]||{order:[],cursor:0};}
+function rotationPlanner(){
+ if(!db.students.length)return '';
+ if(!planStudent||!student(planStudent))planStudent=db.students[0].id;
+ const r=rotationRecord(planStudent),available=own(planStudent).filter(w=>!r.order.includes(w.id));
+ const next=db.workouts.find(w=>w.id===r.order[r.cursor]);
+ const order=r.order.map((id,i)=>{
+  const w=db.workouts.find(x=>x.id===id);
+  return w?'<div class="listrow"><div><strong>'+(i+1)+'. '+esc(w.title)+'</strong> '+(i===r.cursor?'<span class="tag">Próximo</span>':'')+'</div><div class="row wrap">'+
+   '<button onclick="editRotation(\'up\','+i+')" '+(i===0?'disabled':'')+'>↑</button>'+
+   '<button onclick="editRotation(\'down\','+i+')" '+(i===r.order.length-1?'disabled':'')+'>↓</button>'+
+   '<button onclick="editRotation(\'remove\','+i+')">Remover</button></div></div>':'';
+ }).join('');
+ return '<section class="card section"><div class="between"><div><h2>Rotação A / B / C</h2><p class="muted">Sequência sem dias fixos. Avança ao concluir o próximo treino.</p></div>'+
+ '<button onclick="rotationOpen=!rotationOpen;render()">'+(rotationOpen?'Recolher':'Expandir')+'</button></div>'+
+ (rotationOpen?'<div class="fields space"><label>Aluno<select aria-label="Aluno da rotação" onchange="planStudent=this.value;render()">'+db.students.map(s=>
+ '<option value="'+esc(s.id)+'" '+(planStudent===s.id?'selected':'')+'>'+esc(s.name)+'</option>').join('')+'</select></label>'+
+ '<div class="week-summary"><strong>Próximo:</strong> '+(next?esc(next.title):'Nenhum')+'</div></div>'+
+ (available.length?'<div class="row wrap"><select id="rotationPick" aria-label="Adicionar treino à rotação">'+available.map(w=>'<option value="'+esc(w.id)+'">'+esc(w.title)+'</option>').join('')+'</select>'+
+ '<button onclick="editRotation(\'add\',document.getElementById(\'rotationPick\').value)">Adicionar</button></div>':'')+
+ (order||'<div class="empty">Adicione um treino existente para iniciar a rotação.</div>')+
+ (r.order.length?'<div class="row wrap space"><button onclick="editRotation(\'advance\')">Pular treino</button><button onclick="editRotation(\'reset\')">Reiniciar rotação</button></div>':'')+
+ '<div class="notice">Concluir outro treino fora da ordem não altera a rotação. Planejamento semanal e rotativo são independentes.</div>':'')+'</section>';
+}
+function editRotation(action,value){
+ if(!student(planStudent))return toast('Aluno inválido.');
+ const before=structuredClone(db.rotationPlan||{}),r=structuredClone(rotationRecord(planStudent));
+ const current=r.order[r.cursor];
+ if(action==='add'){
+  if(!own(planStudent).some(w=>w.id===value)||r.order.includes(value)||r.order.length>=20)return toast('Treino inválido ou limite atingido.');
+  r.order.push(value);
+ }else if(action==='up'||action==='down'){
+  const j=value+(action==='up'?-1:1);
+  if(!Number.isInteger(value)||value<0||j<0||j>=r.order.length)return;
+  [r.order[value],r.order[j]]=[r.order[j],r.order[value]];
+ }else if(action==='remove'){
+  if(!Number.isInteger(value)||value<0||value>=r.order.length)return;
+  r.order.splice(value,1);
+ }else if(action==='advance'){
+  if(!r.order.length)return;
+  r.cursor=(r.cursor+1)%r.order.length;
+ }else if(action==='reset'){r.cursor=0;}else return;
+ if(['add','up','down','remove'].includes(action))r.cursor=r.order.length?(r.order.includes(current)?r.order.indexOf(current):Math.min(r.cursor,r.order.length-1)):0;
+ db.rotationPlan=db.rotationPlan||{};db.rotationPlan[planStudent]=r;
+ if(!validDB(db)||!save()){db.rotationPlan=before;return toast('Não foi possível salvar a rotação.')}
+ render();toast('Rotação salva.');
+}
+function advanceRotationAfterSession(workout){
+ const r=db.rotationPlan?.[workout.student];
+ if(r?.order.length&&r.order[r.cursor]===workout.id)r.cursor=(r.cursor+1)%r.order.length;
+}
+function removeRotationWorkout(workoutId,keepOwner){
+ if(!db.rotationPlan)return;
+ for(const [sid,r] of Object.entries(db.rotationPlan)){
+  if(keepOwner&&sid===keepOwner)continue;
+  const next=r.order[r.cursor];
+  r.order=r.order.filter(id=>id!==workoutId);
+  r.cursor=r.order.length?(r.order.includes(next)?r.order.indexOf(next):Math.min(r.cursor,r.order.length-1)):0;
+ }
+}
+function rotationStudentBanner(sid){
+ const r=rotationRecord(sid),w=db.workouts.find(w=>w.student===sid&&w.id===r.order[r.cursor]);
+ return w?'<div class="notice"><strong>Próximo treino da rotação:</strong> '+esc(w.title)+'</div>':'';
+}
+
+function trains(){return heading('PRESCRIÇÃO','Treinos','Crie rotinas e adapte cada detalhe ao seu aluno.','<button class="primary" onclick="workoutModal()">+ Montar treino</button>')+'<input class="search" id="workSearch" aria-label="Pesquisar treinos" placeholder="Pesquisar treino ou aluno" value="'+esc(workSearch)+'"><div class="section" id="workResults">'+workoutCards(db.workouts.filter(w=>(w.title+' '+student(w.student)?.name).toLowerCase().includes(workSearch.toLowerCase())))+'</div>'+weekPlanner()+rotationPlanner()}
 function workoutCards(list){return list.length?list.map(w=>'<div class="exrow"><div class="between"><div><h3>'+esc(w.title)+'</h3><p class="muted" style="margin:0;font-size:12px">'+esc(student(w.student)?.name)+' · '+w.items.length+' exercícios · '+counts(w.items).work+' séries de trabalho</p></div><div class="row wrap"><button onclick="workoutModal(\''+esc(w.id)+'\')">Editar</button><button onclick="duplicateWorkout(\''+esc(w.id)+'\')">Duplicar</button><button onclick="preview(\''+esc(w.student)+'\')">Ver como aluno</button><button class="quiet" onclick="deleteWorkout(\''+esc(w.id)+'\')" aria-label="Excluir '+esc(w.title)+'">Excluir</button></div></div></div>').join(''):'<div class="empty">Nenhum treino cadastrado.</div>'}
 function duplicateWorkout(id){const w=structuredClone(db.workouts.find(w=>w.id===id));w.id=uid();w.title+=' · Cópia';db.workouts.push(w);save();render();toast('Cópia criada. Edite para atribuir a outro aluno.')}
-function deleteWorkout(id){if(!confirm('Excluir este treino? As sessões concluídas serão preservadas.'))return;db.workouts=db.workouts.filter(w=>w.id!==id);delete db.drafts[id];purgeWeekAssignments(id);save();render()}
+function deleteWorkout(id){if(!confirm('Excluir este treino? As sessões concluídas serão preservadas.'))return;db.workouts=db.workouts.filter(w=>w.id!==id);delete db.drafts[id];purgeWeekAssignments(id);removeRotationWorkout(id);save();render()}
 function workoutModal(id,studentId){if(!db.students.length){toast('Cadastre um aluno antes de montar o treino.');studentModal();return}editor=id?structuredClone(db.workouts.find(w=>w.id===id)):{id:uid(),student:studentId||selected||db.students[0].id,title:'',notes:'',items:[]};openModal(id?'Editar treino':'Montar treino','<form id="workForm"><div class="fields"><label class="full">Nome do treino<input required maxlength="100" id="workTitle" value="'+esc(editor.title)+'" placeholder="Ex.: Treino A · Membros superiores"></label><label class="full">Aluno<select id="workStudent">'+db.students.map(s=>'<option value="'+esc(s.id)+'" '+(s.id===editor.student?'selected':'')+'>'+esc(s.name)+'</option>').join('')+'</select></label><label class="full">Orientações<textarea id="workNotes" maxlength="1500">'+esc(editor.notes)+'</textarea></label></div><div class="between space"><h3>Exercícios</h3><span class="muted">Ordem de execução</span></div><div class="row"><select id="exercisePick" aria-label="Selecionar exercício">'+catalog.map(e=>'<option value="'+esc(e.id)+'">'+esc(e.name)+' · '+esc(e.group)+'</option>').join('')+'</select><button type="button" onclick="addItem()">Adicionar</button></div><div id="editorItems"></div><div class="modalfoot"><button type="button" onclick="closeModal()">Cancelar</button><button class="primary">Salvar treino</button></div></form>',true);renderItems();document.getElementById('workForm').onsubmit=e=>{e.preventDefault();if(!editor.items.length)return toast('Adicione pelo menos um exercício.');editor.title=document.getElementById('workTitle').value.trim();if(!editor.title)return toast('Informe o nome do treino.');editor.student=document.getElementById('workStudent').value;editor.notes=document.getElementById('workNotes').value;for(let n=0;n<editor.items.length;n++)ensurePlan(n);const candidate=structuredClone(db);candidate.drafts={};
 if(candidate.weekPlan)for(const [owner,plan] of Object.entries(candidate.weekPlan))if(owner!==editor.student)for(const k of Object.keys(plan))if(plan[k]===editor.id)delete plan[k];
-candidate.workouts=candidate.workouts.filter(w=>w.id!==editor.id);candidate.workouts.push(structuredClone(editor));if(!validDB(candidate))return toast('Revise séries de trabalho, referências, cargas e progressão antes de salvar.');let old=db.workouts.findIndex(w=>w.id===editor.id);if(old>=0){if(db.drafts[editor.id]&&!confirm('Salvar alterações e reiniciar o registro em andamento deste treino?'))return;db.workouts[old]=editor;delete db.drafts[editor.id]}else db.workouts.push(editor);cleanWeekAssignmentsForOwner(editor.id,editor.student);save();closeModal();render();toast('Treino salvo e disponível na prévia do aluno.')}}
+if(candidate.rotationPlan)for(const [sid,rot] of Object.entries(candidate.rotationPlan)){
+ if(sid===editor.student)continue;
+ const next=rot.order[rot.cursor];
+ rot.order=rot.order.filter(wid=>wid!==editor.id);
+ rot.cursor=rot.order.length?(rot.order.includes(next)?rot.order.indexOf(next):Math.min(rot.cursor,rot.order.length-1)):0;
+}
+candidate.workouts=candidate.workouts.filter(w=>w.id!==editor.id);candidate.workouts.push(structuredClone(editor));if(!validDB(candidate))return toast('Revise séries de trabalho, referências, cargas e progressão antes de salvar.');let old=db.workouts.findIndex(w=>w.id===editor.id);if(old>=0){if(db.drafts[editor.id]&&!confirm('Salvar alterações e reiniciar o registro em andamento deste treino?'))return;db.workouts[old]=editor;delete db.drafts[editor.id]}else db.workouts.push(editor);cleanWeekAssignmentsForOwner(editor.id,editor.student);removeRotationWorkout(editor.id,editor.student);save();closeModal();render();toast('Treino salvo e disponível na prévia do aluno.')}}
 function moveItem(n,d){const j=n+d;if(j<0||j>=editor.items.length)return;[editor.items[n],editor.items[j]]=[editor.items[j],editor.items[n]];renderItems()}
 
 const mdCurrentBatchIds=new Set([77, 197, 200, 226, 229, 260, 262, 265, 274, 300, 310, 315, 316, 317, 344, 370, 371, 383, 390, 398, 399, 418, 420, 438, 449]);
@@ -377,7 +456,7 @@ function showMotion(id){const e=exercise(id);if(!e)return toast('Exercício não
 function exerciseModal(id){if(!id||!String(id).startsWith('md'))return toast('A biblioteca é exclusiva dos 500 exercícios do MD.');let ex=exercise(id)||{name:'',group:'Pernas',url:''};openModal(id?'Editar exercício':'Novo exercício','<form id="exForm"><label>Nome<input name="name" required maxlength="100" value="'+esc(ex.name)+'"></label><label class="space">Grupo<select name="group">'+['Pernas','Peito','Costas','Ombros','Braços','Core','Cardio','Corpo todo','Outros'].map(g=>'<option '+(ex.group===g?'selected':'')+'>'+g+'</option>').join('')+'</select></label><label class="space">Link de demonstração (opcional)<input name="url" type="url" value="'+esc(ex.url)+'" placeholder="https://..."></label><p class="muted">Use um vídeo seu ou um link de demonstração autorizado.</p><div class="modalfoot"><button type="button" onclick="closeModal()">Cancelar</button><button class="primary">Salvar exercício</button></div></form>');document.getElementById('exForm').onsubmit=e=>{e.preventDefault();let v=Object.fromEntries(new FormData(e.target));v.name=v.name.trim();if(!v.name)return toast('Informe o nome do exercício.');if(v.url&&!safeURL(v.url))return toast('Use um link HTTP ou HTTPS válido.');if(id)Object.assign(ex,v);else db.exercises.push({...v,id:uid()});save();closeModal();render();toast('Exercício salvo.')}}
 function preview(id){selected=id;mode='student';render();window.scrollTo(0,0)}
 function studentView(){return heading('ÁREA DO ALUNO','Seu próximo passo.','Confira o treino e registre sua execução.')+'<div class="notice"><strong>Prévia local da área do aluno.</strong> Este seletor serve para testar o fluxo. Login individual e sincronização entre aparelhos ainda não estão disponíveis.</div><label style="max-width:360px">Visualizar como<select id="studentSelect">'+db.students.map(s=>'<option value="'+esc(s.id)+'" '+(s.id===selected?'selected':'')+'>'+esc(s.name)+'</option>').join('')+'</select></label>'+(student(selected)?'<div class="section"><h2>Olá, '+esc(student(selected).name.split(' ')[0])+'. Vamos treinar?</h2><p class="muted">Seu objetivo: '+esc(student(selected).goal)+'</p>'+ (own(selected).length?own(selected).map(sessionView).join(''):'<div class="card empty">Seu personal ainda não cadastrou um treino.</div>')+'<section class="card section"><h2>Suas sessões concluídas</h2>'+sessionList(db.sessions.filter(s=>s.student===selected).slice().reverse())+'</section></div>':'<div class="empty">Cadastre um aluno para testar.</div>')}
-function finishModal(id){const w=db.workouts.find(w=>w.id===id),d=db.drafts[id];if(d.records.some(r=>!r.done))return toast('Marque todas as séries realizadas antes de concluir.');openModal('Como foi o treino?','<form id="finishForm"><label>Percepção de esforço<select name="effort"><option>Leve</option><option selected>Moderado</option><option>Intenso</option><option>Muito intenso</option></select></label><label class="space">Feedback para o personal<textarea name="feedback" maxlength="1500" placeholder="Como você se sentiu? Alguma dificuldade?"></textarea></label><div class="modalfoot"><button type="button" onclick="closeModal()">Voltar</button><button class="primary">Salvar sessão</button></div></form>');document.getElementById('finishForm').onsubmit=e=>{e.preventDefault();let v=Object.fromEntries(new FormData(e.target));db.sessions.push({id:uid(),student:w.student,workout:w.id,title:w.title,date:new Date().toISOString(),records:structuredClone(d.records),suggestions:progressionSuggestions(w,d.records),...v});delete db.drafts[id];const suggestions=progressionSuggestions(w,d.records);save();stopTimer();closeModal();render();if(suggestions.length)openModal('Sugestões para o personal','<p>Revise antes de ajustar o treino.</p>'+suggestions.map(x=>'<p>'+esc(x)+'</p>').join(''));else toast('Sessão concluída! Seu histórico foi atualizado.')}}
+function finishModal(id){const w=db.workouts.find(w=>w.id===id),d=db.drafts[id];if(d.records.some(r=>!r.done))return toast('Marque todas as séries realizadas antes de concluir.');openModal('Como foi o treino?','<form id="finishForm"><label>Percepção de esforço<select name="effort"><option>Leve</option><option selected>Moderado</option><option>Intenso</option><option>Muito intenso</option></select></label><label class="space">Feedback para o personal<textarea name="feedback" maxlength="1500" placeholder="Como você se sentiu? Alguma dificuldade?"></textarea></label><div class="modalfoot"><button type="button" onclick="closeModal()">Voltar</button><button class="primary">Salvar sessão</button></div></form>');document.getElementById('finishForm').onsubmit=e=>{e.preventDefault();let v=Object.fromEntries(new FormData(e.target));db.sessions.push({id:uid(),student:w.student,workout:w.id,title:w.title,date:new Date().toISOString(),records:structuredClone(d.records),suggestions:progressionSuggestions(w,d.records),...v});advanceRotationAfterSession(w);delete db.drafts[id];const suggestions=progressionSuggestions(w,d.records);save();stopTimer();closeModal();render();if(suggestions.length)openModal('Sugestões para o personal','<p>Revise antes de ajustar o treino.</p>'+suggestions.map(x=>'<p>'+esc(x)+'</p>').join(''));else toast('Sessão concluída! Seu histórico foi atualizado.')}}
 
 function insightsView(){
  const model=window.EvoluInsights;
@@ -420,7 +499,7 @@ function settings(){return heading('DO SEU JEITO','Ajustes','Personalize o ambie
 function exportRecovery(){if(!recoveryRaw)return;const u=URL.createObjectURL(new Blob([recoveryRaw],{type:'application/json'})),a=document.createElement('a');a.href=u;a.download='EvoluPersonal_Recuperacao.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000)}
 function exportData(){const blob=new Blob([JSON.stringify(db,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='EvoluPersonal_Backup_'+new Date().toISOString().slice(0,10)+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('Backup exportado.')}
 async function importData(input){let f=input.files[0];if(!f)return;try{if(f.size>10*1024*1024)throw Error();let data=JSON.parse(await f.text());if(!validDB(data))throw Error();data=migrateDB(data);if(!confirm('Restaurar este backup e substituir todos os registros atuais?'))return;db=data;selected=db.students[0]?.id||'';save();render();toast('Backup restaurado.')}catch(e){toast('Backup inválido ou incompatível. Os registros atuais foram preservados.')}finally{input.value=''}}
-function clearData(){if(!confirm('Apagar os alunos, treinos e sessões deste navegador? Exporte um backup antes de continuar.'))return;db.students=[];db.workouts=[];db.sessions=[];db.drafts={};db.weekPlan={};db.demo=false;selected='';save();render();toast('Base pronta para seus alunos.')}
+function clearData(){if(!confirm('Apagar os alunos, treinos e sessões deste navegador? Exporte um backup antes de continuar.'))return;db.students=[];db.workouts=[];db.sessions=[];db.drafts={};db.weekPlan={};db.rotationPlan={};db.demo=false;selected='';save();render();toast('Base pronta para seus alunos.')}
 function toggleTheme(){db.theme=db.theme==='light'?'dark':'light';save();render()}
 function openModal(t,html,wide=false){let m=document.getElementById('modal');m.classList.toggle('wide',wide);document.getElementById('modalTitle').textContent=t;document.getElementById('modalBody').innerHTML=html;m.showModal()}
 function closeModal(){document.getElementById('modal').close()}
