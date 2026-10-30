@@ -3,6 +3,34 @@
 const CACHE_NAME = 'evolupersonal-md500-offline-v1';
 const SCOPE_URL = self.registration.scope;
 const SHELL = ['./index.html', './training-methods.js', './insights.js', './offline-assets.json', './OFFLINE_CREDITS.md'];
+const ALLOWED_MEDIA_HOSTS = new Set(['gellyfish-ai.github.io', 'raw.githubusercontent.com']);
+const MEDIA_PROXY_PATH = new URL('./__offline-media', SCOPE_URL).pathname;
+
+function safeExternalURL(value) {
+  try {
+    const url = new URL(value);
+    return url.protocol === 'https:' && ALLOWED_MEDIA_HOSTS.has(url.hostname) ? url.href : null;
+  } catch (_) {
+    return null;
+  }
+}
+
+async function cachedExternalResponse(value) {
+  const url = safeExternalURL(value);
+  if (!url) return new Response('Fonte externa não permitida.', { status: 400 });
+  const cache = await caches.open(CACHE_NAME);
+  const key = new Request(url, { mode: 'no-cors' });
+  const cached = await cache.match(key);
+  if (cached) return cached;
+  try {
+    const response = await fetch(key);
+    if (response.ok || response.type === 'opaque') {
+      await cache.put(key, response.clone());
+      return response;
+    }
+  } catch (_) {}
+  return new Response('Mídia externa ainda não está disponível offline.', { status: 503 });
+}
 
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
@@ -22,7 +50,14 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
   const request = event.request;
-  if (request.method !== 'GET' || new URL(request.url).origin !== self.location.origin) return;
+  const requestURL = new URL(request.url);
+  if (request.method !== 'GET') return;
+
+  if (requestURL.origin === self.location.origin && requestURL.pathname === MEDIA_PROXY_PATH) {
+    event.respondWith(cachedExternalResponse(requestURL.searchParams.get('src') || ''));
+    return;
+  }
+  if (requestURL.origin !== self.location.origin) return;
 
   event.respondWith((async () => {
     const cache = await caches.open(CACHE_NAME);
@@ -33,11 +68,11 @@ self.addEventListener('fetch', event => {
     }
     try {
       const response = await fetch(request);
-      if (response.ok && (isNavigation || request.destination === 'script' || request.destination === 'style' || request.destination === 'image' || request.url.includes('offline-assets.json'))) {
+      if (response.ok && (isNavigation || request.destination === 'script' || request.destination === 'style' || request.destination === 'image' || requestURL.pathname.endsWith('/offline-assets.json') || requestURL.pathname.endsWith('/OFFLINE_CREDITS.md'))) {
         cache.put(request, response.clone()).catch(() => {});
       }
       return response;
-    } catch (error) {
+    } catch (_) {
       const fallback = await cache.match(request, { ignoreSearch: true })
         || (isNavigation ? await cache.match(new URL('./index.html', SCOPE_URL).href) : null);
       if (fallback) return fallback;
@@ -65,18 +100,18 @@ self.addEventListener('message', event => {
     }
 
     const assets = manifest.assets || [];
-    const total = assets.length;
+    const externalURLs = [...new Set((event.data.urls || []).map(safeExternalURL).filter(Boolean))];
+    const total = assets.length + externalURLs.length;
     let complete = 0;
     const failed = [];
     port.postMessage({ type: 'PROGRESS', total, complete, failed: 0, bytes: manifest.bytes || 0 });
 
-    for (let offset = 0; offset < total; offset += 3) {
+    for (let offset = 0; offset < assets.length; offset += 3) {
       const batch = assets.slice(offset, offset + 3);
       await Promise.all(batch.map(async path => {
         const url = new URL(path, SCOPE_URL).href;
         try {
-          const existing = await cache.match(url);
-          if (!existing) {
+          if (!await cache.match(url)) {
             const response = await fetch(url, { cache: 'reload' });
             if (!response.ok) throw new Error('HTTP ' + response.status);
             await cache.put(url, response);
@@ -90,9 +125,30 @@ self.addEventListener('message', event => {
       }));
     }
 
+    for (let offset = 0; offset < externalURLs.length; offset += 4) {
+      const batch = externalURLs.slice(offset, offset + 4);
+      await Promise.all(batch.map(async value => {
+        const key = new Request(value, { mode: 'no-cors' });
+        try {
+          if (!await cache.match(key)) {
+            const response = await fetch(key);
+            if (!response.ok && response.type !== 'opaque') throw new Error('HTTP ' + response.status);
+            await cache.put(key, response);
+          }
+        } catch (error) {
+          failed.push({ path: value, reason: error.message || 'falha ao baixar fonte externa' });
+        } finally {
+          complete++;
+          port.postMessage({ type: 'PROGRESS', total, complete, failed: failed.length, bytes: manifest.bytes || 0 });
+        }
+      }));
+    }
+
     port.postMessage({
       type: 'DONE',
       total,
+      localTotal: assets.length,
+      externalTotal: externalURLs.length,
       complete,
       failedCount: failed.length,
       failed: failed.slice(0, 30),
