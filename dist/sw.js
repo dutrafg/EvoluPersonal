@@ -2,7 +2,7 @@
 
 const CACHE_NAME = 'evolupersonal-md500-offline-v1';
 const SCOPE_URL = self.registration.scope;
-const SHELL = ['./index.html', './training-methods.js', './insights.js', './offline-assets.json'];
+const SHELL = ['./index.html', './training-methods.js', './insights.js', './offline-assets.json', './OFFLINE_CREDITS.md'];
 
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
