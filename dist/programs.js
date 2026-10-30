@@ -3,7 +3,7 @@
  'use strict';
  const LETTERS=['A','B','C','D','E','F','G'];
  let activeSlot=null;
- const api=window.EvoluPrograms={boot,view,create,editWorkout,exportProgramPDF,exportEvolutionPDF,removeProgram,renameProgram};
+ const api=window.EvoluPrograms={boot,view,create,editWorkout,exportProgramPDF,exportEvolutionPDF,removeProgram,renameProgram,openEvolution};
  function data(){return db.trainingPrograms||(db.trainingPrograms=[])}
  function key(){return crypto.randomUUID?crypto.randomUUID():'program-'+Date.now()+'-'+Math.random().toString(16).slice(2)}
  function safe(v){return esc(v)}
@@ -97,7 +97,7 @@
    save();closeModal();render();toast('Rotina criada. Agora adicione os treinos A–G.');
   };
  }
- function renameProgram(id){
+ function openEvolution(studentId){insightStudent=studentId;go('insights')}\n function renameProgram(id){
   const p=data().find(x=>x.id===id);if(!p)return;
   const name=prompt('Nome da rotina',p.name);if(name===null)return;
   const clean=name.trim();if(!clean)return toast('O nome da rotina não pode ficar vazio.');
@@ -121,7 +121,7 @@
     const w=db.workouts.find(x=>x.id===p.slots?.[letter]);
     return '<div class="listrow"><div><strong>Treino '+letter+'</strong><p class="muted">'+(w?safe(w.title):'Ainda não criado')+(w?' · '+w.items.length+' exercício(s)':'')+'</p></div><button onclick="EvoluPrograms.editWorkout(\''+safe(p.id)+'\',\''+letter+'\')">'+(w?'Editar':'Criar')+'</button></div>';
    }).join('');
-   return '<section class="card section"><div class="between"><div><div class="eyebrow">ROTINA DE TREINO</div><h2>'+safe(p.name)+'</h2><p class="muted">Aluno: '+safe(s?.name||'Aluno')+' · '+filled.length+'/7 treinos configurados</p></div><div class="row wrap"><button onclick="EvoluPrograms.exportProgramPDF(\''+safe(p.id)+'\')">Exportar PDF</button><button class="quiet" onclick="EvoluPrograms.removeProgram(\''+safe(p.id)+'\')">Remover rotina</button></div></div><div class="section">'+slots+'</div></section>';
+   return '<section class="card section"><div class="between"><div><div class="eyebrow">ROTINA DE TREINO</div><h2>'+safe(p.name)+'</h2><p class="muted">Aluno: '+safe(s?.name||'Aluno')+' · '+filled.length+'/7 treinos configurados</p></div><div class="row wrap"><button onclick="EvoluPrograms.renameProgram(\''+safe(p.id)+'\')">Renomear</button><button onclick="EvoluPrograms.openEvolution(\''+safe(p.student)+'\')">Ver evolução</button><button onclick="EvoluPrograms.exportProgramPDF(\''+safe(p.id)+'\')">Exportar PDF</button><button class="quiet" onclick="EvoluPrograms.removeProgram(\''+safe(p.id)+'\')">Remover rotina</button></div></div><div class="section">'+slots+'</div></section>';
   }).join(''):'<div class="empty">Nenhuma rotina criada. Monte um ciclo de A a G e atribua ao aluno.</div>';
   return heading('PRESCRIÇÃO','Meus treinos','Crie rotinas A–G por aluno, cada uma com treinos e histórico próprios.','<button class="primary" onclick="EvoluPrograms.create()">+ Criar rotina</button>')+
    '<div class="notice">Cada treino da rotina é ligado a um aluno e mantém seus registros separados. A Evolução reúne os dados do aluno selecionado, independentemente do treino A–G.</div>'+cards;
@@ -159,3 +159,4 @@
  }
  function bind(){}
 })();
+EvoluPrograms.boot();
