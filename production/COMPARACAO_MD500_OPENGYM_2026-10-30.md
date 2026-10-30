@@ -13,7 +13,7 @@
 |---|---:|
 | Nome exato único | 18 |
 | Nome exato com mais de um registro | 1 |
-| Candidato forte (nome, grupo e equipamento compatíveis) | 60 |
+| Candidato forte (nome, grupo e equipamento compatíveis) | 58 |
 | Candidato para revisão manual | 165 |
 | Sem correspondência confiável por nome | 258 |
 | **Total** | **500** |
@@ -22,13 +22,13 @@ A classificação automática é uma triagem, não uma aprovação biomecânica.
 
 ## Divergência encontrada na lista MD500
 
-O arquivo `docs/500-exercicios-base.md` contém **498 linhas numeradas**, enquanto o inventário oficial contém 500 itens. Os números ausentes da lista Markdown são **127 e 132**; ambos existem no inventário e possuem associações no acervo atual. A comparação usou o inventário de 500 IDs para não omitir exercícios.
+O arquivo `docs/500-exercicios-base.md` contém **500 exercícios numerados**, assim como o inventário oficial. Os itens **127** e **132** existem; há apenas uma inconsistência de formatação porque o número aparece colado ao nome (sem espaço após o ponto). A comparação usou o inventário de 500 IDs.
 
 ## Próximos passos
 
 1. Revisar primeiro os candidatos fortes e as correspondências exatas, conferindo se grupo/equipamento e a execução exibida no GIF correspondem ao nome oficial.
 2. Conferir manualmente os candidatos em revisão; não aceitar só pela semelhança textual.
-3. Para os 279 itens sem correspondência confiável, pesquisar o movimento por sinônimos/nomes em inglês e usar as instruções do openGym apenas como referência de validação.
+3. Para os 423 itens classificados como candidatos para revisão manual ou sem correspondência confiável, pesquisar sinônimos/nomes em inglês e usar instruções textuais do openGym como referência; a classificação não aprova a execução dos GIFs.
 4. Completar os GIFs ausentes com animações próprias, seguindo o padrão 3D já definido; manter os itens ainda não validados com estado de revisão.
 5. Revalidar individualmente a associação dos 500 GIFs antes de considerar a biblioteca fechada.
 
