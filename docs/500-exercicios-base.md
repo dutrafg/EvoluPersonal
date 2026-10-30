@@ -153,12 +153,12 @@ Esta lista está organizada por grupos musculares. Em cada seção, os **Exercí
 124. Encolhimento de Ombros na Máquina (Ou no aparelho de Supino em pé)
 125. Encolhimento com Barra Hexagonal (Trap Bar Shrug)
 126. Encolhimento Kelso (Kelso Shrug - retração escapular no banco inclinado)
-127.Encolhimento Acima da Cabeça (Overhead Shrug com Barra)
+127. Encolhimento Acima da Cabeça (Overhead Shrug com Barra)
 128. Remada Alta Pegada Fechada (Foco em Trapézio)
 129. Face Pull na Polia com Corda (Foco em Trapézio Médio/Inferior e Romboides)
 130. Elevação em Y no Banco Inclinado com Halteres (Foco em Trapézio Inferior)
 131. Elevação em T no Banco Inclinado com Halteres (Foco em Romboides)
-132.Elevação em W no Banco Inclinado com Halteres
+132. Elevação em W no Banco Inclinado com Halteres
 133. Retração Escapular na Barra Fixa (Scapular Pull-up)
 134. Retração Escapular na Puxada Alta
 135. Crucifixo Inverso no Cabo (Foco em Upper Back/Romboides)
