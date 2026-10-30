@@ -205,6 +205,14 @@ dialog::backdrop{background:#061726bf}
 }
 @media(prefers-reduced-motion:reduce){.rail button,.md-gallery .md-exercise,.student,button{transition:none!important}}
 
+
+/* Instalação opcional do pacote de mídia, sem alterar o esquema dos alunos */
+.md-offline-panel{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;border:1px solid var(--line);border-radius:15px;background:var(--card);padding:15px 18px;margin:7px 0 14px}
+.md-offline-panel>div:first-child{display:flex;flex-direction:column;gap:4px}
+.md-offline-panel strong{font-size:13px}
+.md-offline-panel small{font-size:11px;color:var(--muted)}
+.md-offline-panel .row{margin-left:auto}
+@media(max-width:640px){.md-offline-panel{align-items:stretch}.md-offline-panel .row{margin-left:0;display:grid;grid-template-columns:1fr 1fr}.md-offline-panel button{font-size:11px;padding:8px 10px}}
 </style></head><body>
 <div class="shell"><nav class="rail" aria-label="Navegação principal"><div class="brand">e</div><div class="rail-name"><strong>EVOLU<span>PERSONAL</span></strong><small>Treinamento inteligente</small></div><div id="nav" style="display:contents"></div><button class="bottom" id="themeRail" aria-label="Alternar tema"></button></nav><main class="main"><header class="top"><div class="row"><div class="wordmark">evolu<span>personal</span></div><span class="tag">ALPHA 0.9 · NOVA INTERFACE</span></div><div class="tools"><button id="modeBtn"></button><button id="themeBtn" aria-label="Alternar tema"></button></div></header><div id="app"></div><footer class="foot">EvoluPersonal · Alpha 0.9 · Projeto independente · Dados salvos neste navegador</footer></main></div>
 <dialog id="modal"><div class="between"><h2 id="modalTitle"></h2><button class="quiet" onclick="closeModal()" aria-label="Fechar janela">✕</button></div><div class="modalbody" id="modalBody"></div></dialog><div id="toast" role="status" hidden></div><div id="timer" hidden><small>DESCANSO</small><b id="clock">00:00</b><div class="row"><button onclick="pauseTimer()" id="pauseBtn">Pausar</button><button onclick="stopTimer()">Encerrar</button></div></div>
@@ -385,7 +393,7 @@ function toast(t){let el=document.getElementById('toast');el.textContent=t;el.hi
 function heading(k,t,p='',button=''){return '<div class="pagehead"><div><div class="eyebrow">'+k+'</div><h1>'+t+'</h1><p class="muted" style="margin:0">'+p+'</p></div>'+button+'</div>'}
 function nav(){document.getElementById('nav').innerHTML=[['home','Dashboard'],['users','Alunos'],['train','Treinos'],['book','Biblioteca'],['settings','Ajustes']].map(([k,t])=>'<button '+(mode==='coach'&&page===k?'class="active" aria-current="page"':'')+' onclick="go(\''+k+'\')">'+ico(k)+t+'</button>').join('');document.body.classList.toggle('dark',db.theme==='dark');document.getElementById('modeBtn').textContent=mode==='coach'?'Prévia do aluno →':'← Área do personal';document.getElementById('themeBtn').textContent=db.theme==='dark'?'☀ Claro':'☾ Escuro';document.getElementById('themeRail').innerHTML=ico(db.theme==='dark'?'sun':'moon')}
 function go(k){page=k;mode='coach';render();window.scrollTo(0,0)}
-function render(){nav();document.getElementById('app').innerHTML=mode==='student'?studentView():({home:home,users:users,train:trains,book:library,settings:settings}[page]||home)();bind()}
+function render(){nav();document.getElementById('app').innerHTML=mode==='student'?studentView():({home:home,users:users,train:trains,book:library,settings:settings}[page]||home)();bind();hydrateOfficialMedia();refreshOfficialPackStatus()}
 function home(){const pending=db.students.filter(s=>!own(s.id).length);return heading('PAINEL DE CONTROLE','Dashboard','Visão geral dos alunos, treinos e sessões.','<button class="primary" onclick="studentModal()">+ Novo aluno</button>')+'<section class="hero hero-dashboard"><div><div class="eyebrow">SEU CENTRO DE TREINAMENTO</div><h2>Planeje melhor.<br> acompanhe cada evolução.</h2><p>Alunos, prescrições e histórico em um ambiente profissional, organizado para o seu dia a dia.</p><button class="primary" onclick="workoutModal()">+ Montar treino</button> <button onclick="go(\'users\')">Ver alunos</button> <button onclick="go(\'book\')">Biblioteca</button></div><div class="heroArt">'+ico('train')+'</div></section>'+(loadError?'<div class="notice"><strong>Não foi possível ler a base anterior.</strong> Uma cópia de recuperação foi preservada, quando disponível. Abra Ajustes para exportá-la.</div>':'')+(db.demo?'<div class="notice"><strong>Ambiente de demonstração.</strong> Os quatro alunos e o treino inicial são exemplos. Você pode editá-los ou começar com uma base vazia em Ajustes.</div>':'')+'<div class="stats"><div class="stat"><div class="muted">Alunos cadastrados</div><div class="value">'+db.students.length+'</div><small>'+pending.length+' sem treino</small></div><div class="stat"><div class="muted">Treinos prescritos</div><div class="value">'+db.workouts.length+'</div><small>Rotinas disponíveis</small></div><div class="stat"><div class="muted">Sessões concluídas</div><div class="value">'+db.sessions.length+'</div><small>Registros nesta base</small></div></div><div class="cols"><section class="card"><div class="between"><h2>Próximas ações</h2><span class="tag">'+pending.length+' pendentes</span></div>'+(pending.length?pending.map(s=>'<div class="listrow"><div class="row"><div class="avatar">'+esc(initials(s.name))+'</div><div><h3>'+esc(s.name)+'</h3><p>Montar o primeiro treino · '+esc(s.goal)+'</p></div></div><button onclick="workoutModal(null,\''+esc(s.id)+'\')">Montar</button></div>').join(''):'<div class="empty">Todos os alunos têm um treino cadastrado.</div>')+'</section><section class="card"><h2>Últimos registros</h2>'+sessionList(db.sessions.slice().reverse().slice(0,4))+'</section></div>'}
 function sessionList(list){return list.length?list.map(s=>'<div class="listrow"><div><h3>'+esc(student(s.student)?.name||'Aluno')+'</h3><p>'+esc(s.title)+' · '+date(s.date)+'</p><p>'+esc(s.effort||'Sem esforço informado')+(s.feedback?' · '+esc(s.feedback):'')+'</p></div><button onclick="showSession(\''+esc(s.id)+'\')">Ver registro</button></div>').join(''):'<div class="empty">As sessões concluídas aparecem aqui.<br>Experimente registrar um treino na prévia do aluno.</div>'}
 function users(){return heading('ACOMPANHAMENTO','Alunos','Um perfil para cada jornada.','<button class="primary" onclick="studentModal()">+ Novo aluno</button>')+'<input class="search" id="studentSearch" aria-label="Pesquisar alunos" placeholder="Pesquisar por nome ou objetivo" value="'+esc(search)+'"><div class="grid" id="studentGrid">'+studentCards()+'</div>'+(selected&&student(selected)?profile(selected):'')}
@@ -414,7 +422,7 @@ function mdLibraryMatches(){
 }
 function mdLibraryRefresh(){
  const target=document.getElementById('libGrid');if(!target)return;
- target.innerHTML=libraryCards();
+ target.innerHTML=libraryCards();hydrateOfficialMedia();
  const all=mdLibraryMatches(),pages=Math.max(1,Math.ceil(all.length/mdLibraryPageSize));
  const info=document.getElementById('mdLibraryInfo');
  if(info)info.textContent=all.length+' exercícios encontrados'+(all.length?' · mostrando '+(mdLibraryPage*mdLibraryPageSize+1)+'–'+Math.min(all.length,(mdLibraryPage+1)*mdLibraryPageSize):'');
@@ -429,6 +437,7 @@ function library(){
  const count=catalog.filter(e=>!!mdMediaSource(e)).length;
  const review=catalog.filter(e=>e.media_review_pending).length;
  return heading('REPERTÓRIO OFICIAL','Biblioteca de exercícios','Somente os 500 exercícios do arquivo MD.','')+
+ '<div class="md-offline-panel"><div><strong>Biblioteca offline</strong><small id="offlinePackStatus">Instale os GIFs disponíveis para visualizar as animações sem internet neste dispositivo.</small></div><div class="row wrap"><button type="button" class="primary" onclick="installOfficialExercisePack()">Baixar pacote completo</button><button type="button" onclick="openPackWorkflow()">Baixar ZIP no GitHub</button></div></div>'+
  '<section class="md-gallery" aria-label="Biblioteca EvoluPersonal">'+
  '<div class="md-gallery-head"><div><div class="md-gallery-logo">Evolu<span>Personal</span></div><div class="md-gallery-caption">Biblioteca de movimentos · GIFs associados aos exercícios oficiais</div></div>'+
  '<div class="md-gallery-kpis"><span class="md-gallery-kpi"><strong>500</strong> exercícios MD</span><span class="md-gallery-kpi"><strong>'+count+'</strong> GIFs vinculados</span><span class="md-gallery-kpi"><strong>'+(500-count)+'</strong> aguardando GIF</span><span class="md-gallery-kpi"><strong>'+review+'</strong> em revisão</span></div></div>'+
@@ -478,6 +487,68 @@ function tick(){let ms=paused?remaining:Math.max(0,timerEnd-Date.now()),s=Math.c
 function pauseTimer(){if(!paused){remaining=Math.max(0,timerEnd-Date.now());paused=true}else{timerEnd=Date.now()+remaining;paused=false}document.getElementById('pauseBtn').textContent=paused?'Continuar':'Pausar';tick()}
 function stopTimer(){clearInterval(timerHandle);timerHandle=null;document.getElementById('timer').hidden=true}
 document.getElementById('themeBtn').onclick=toggleTheme;document.getElementById('themeRail').onclick=toggleTheme;document.getElementById('modeBtn').onclick=()=>{mode=mode==='coach'?'student':'coach';render()};document.getElementById('modal').addEventListener('click',e=>{if(e.target===e.currentTarget){const r=e.currentTarget.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeModal()}});
+
+/* Downloads são opcionais. O catálogo original MD500 e a base de alunos não mudam. */
+const offlineMediaDB='EvoluPersonal-ExerciciosOffline-v1';
+const offlineStatusKey='evolupersonal.mediaPack.info';
+let offlineInstalling=false,offlineMediaURLs=[],offlineEpoch=0;
+function openOfficialMediaDB(){return new Promise((resolve,reject)=>{const req=indexedDB.open(offlineMediaDB,1);req.onupgradeneeded=()=>{if(!req.result.objectStoreNames.contains('media'))req.result.createObjectStore('media')};req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error)})}
+async function officialMediaStore(path,blob){const database=await openOfficialMediaDB();try{await new Promise((resolve,reject)=>{const tx=database.transaction('media','readwrite');tx.objectStore('media').put(blob,path);tx.oncomplete=resolve;tx.onerror=()=>reject(tx.error);tx.onabort=()=>reject(tx.error)})}finally{database.close()}}
+async function officialMediaRead(path){const database=await openOfficialMediaDB();try{return await new Promise((resolve,reject)=>{const tx=database.transaction('media','readonly'),req=tx.objectStore('media').get(path);req.onsuccess=()=>resolve(req.result||null);req.onerror=()=>reject(req.error)})}finally{database.close()}}
+function officialPackText(s){const el=document.getElementById('offlinePackStatus');if(el)el.textContent=s}
+function refreshOfficialPackStatus(){if(offlineInstalling)return;try{const s=JSON.parse(localStorage.getItem(offlineStatusKey)||'null');if(s&&Number.isInteger(s.saved)){officialPackText(s.saved+' GIFs armazenados neste dispositivo · '+s.failures+' indisponíveis no servidor.');}}catch(e){}}
+function openPackWorkflow(){window.open('https://github.com/dutrafg/EvoluPersonal/actions/workflows/gerar-pacote-md500.yml','_blank','noopener,noreferrer')}
+async function installOfficialExercisePack(){
+ if(offlineInstalling)return;
+ if(location.protocol==='file:'){toast('No arquivo HTML avulso, use a opção de importar ZIP da prévia.');return}
+ if(!navigator.onLine){toast('Conecte-se à internet para baixar o pacote.');return}
+ const assets=[...new Set(catalog.map(e=>mdMediaSource(e)).filter(Boolean))];
+ if(!assets.length)return toast('Não há animações vinculadas.');
+ if(!confirm('Instalar '+assets.length+' GIFs exclusivos no navegador para uso offline? O download pode ocupar bastante armazenamento.'))return;
+ offlineInstalling=true;let current=0,saved=0,failures=0;
+ officialPackText('Preparando download dos GIFs...');
+ async function worker(){
+  while(true){
+   const index=current++;if(index>=assets.length)break;
+   const url=assets[index];
+   try{
+    const existing=await officialMediaRead(url);
+    if(existing){saved++}
+    else{
+     const res=await fetch(url,{credentials:'same-origin'});
+     if(!res.ok||!res.headers.get('content-type')?.toLowerCase().includes('image/'))throw Error('Mídia indisponível');
+     const blob=await res.blob();if(blob.size<40||blob.size>35*1024*1024)throw Error('Tamanho inválido');
+     await officialMediaStore(url,blob);saved++;
+    }
+   }catch(e){failures++}
+   const done=saved+failures;
+   if(done%5===0||done===assets.length)officialPackText('Instalando mídia: '+done+'/'+assets.length+' · '+saved+' armazenados · '+failures+' indisponíveis');
+  }
+ }
+ try{
+   await Promise.all(Array.from({length:4},worker));
+   localStorage.setItem(offlineStatusKey,JSON.stringify({saved,failures,date:new Date().toISOString()}));
+   officialPackText('Instalação finalizada: '+saved+' GIFs offline; '+failures+' não disponíveis.');
+   toast(failures?'Pacote parcialmente instalado. Consulte o status.':'Pacote offline disponível neste navegador.');
+   hydrateOfficialMedia();
+ }finally{offlineInstalling=false}
+}
+async function hydrateOfficialMedia(){
+ const root=document.getElementById('libGrid');if(!root)return;
+ const epoch=++offlineEpoch;
+ for(const u of offlineMediaURLs)URL.revokeObjectURL(u);offlineMediaURLs=[];
+ const imgs=[...root.querySelectorAll('img[src^="assets/"]')];
+ for(const img of imgs){
+  if(epoch!==offlineEpoch||!img.isConnected)return;
+  const path=img.getAttribute('src').split('?')[0];
+  try{
+   const blob=await officialMediaRead(path);
+   if(!blob||epoch!==offlineEpoch||!img.isConnected)continue;
+   const url=URL.createObjectURL(blob);offlineMediaURLs.push(url);img.src=url;
+  }catch(e){}
+ }
+}
+
 render();if(loadError)toast('Não foi possível ler a base anterior. Verifique a recuperação em Ajustes.');else save();
 </script></body></html>
 
