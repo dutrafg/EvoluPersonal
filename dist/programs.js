@@ -3,11 +3,12 @@
  'use strict';
  const LETTERS=['A','B','C','D','E','F','G'];
  let activeSlot=null;
- const api=window.EvoluPrograms={boot,view,create,editWorkout,exportProgramPDF,exportEvolutionPDF,removeProgram};
+ const api=window.EvoluPrograms={boot,view,create,editWorkout,exportProgramPDF,exportEvolutionPDF,removeProgram,renameProgram};
  function data(){return db.trainingPrograms||(db.trainingPrograms=[])}
  function key(){return crypto.randomUUID?crypto.randomUUID():'program-'+Date.now()+'-'+Math.random().toString(16).slice(2)}
  function safe(v){return esc(v)}
  function validPrograms(d){
+  if(d.trainingPrograms===undefined)return true;
   if(!Array.isArray(d.trainingPrograms))return false;
   const ids=new Set(),used=new Set();
   return d.trainingPrograms.every(p=>{
@@ -24,7 +25,7 @@
   });
  }
  function navButton(){
-  const el=document.getElementById('nav');if(!el)return;
+  const el=document.getElementById('nav');if(!el||mode!=='coach')return;
   el.insertAdjacentHTML('beforeend','<button id="myProgramsNav" '+(page==='programs'&&mode==='coach'?'class="active" aria-current="page"':'')+' onclick="go(\'programs\')">▦ Meus treinos</button>');
  }
  function boot(){
@@ -65,6 +66,17 @@
     if(p.slots[letter]===id&&!db.workouts.some(w=>w.id===id))delete p.slots[letter];
    save();
   };
+  const oldClear=window.clearData;
+  if(typeof oldClear==='function')window.clearData=function(){
+   oldClear();
+   if(!db.students.length&&!db.workouts.length){db.trainingPrograms=[];save();render()}
+  };
+  const oldImport=window.importData;
+  if(typeof oldImport==='function')window.importData=async function(input){
+   await oldImport(input);
+   if(!Array.isArray(db.trainingPrograms))db.trainingPrograms=[];
+   save();
+  };
   const oldInsights=window.insightsView;
   if(typeof oldInsights==='function')window.insightsView=function(){
    return oldInsights().replace('<button class="primary" onclick="exportInsights()">Exportar CSV</button>',
@@ -84,6 +96,12 @@
    if(!validPrograms(db)){data().pop();return toast('Não foi possível criar a rotina.')}
    save();closeModal();render();toast('Rotina criada. Agora adicione os treinos A–G.');
   };
+ }
+ function renameProgram(id){
+  const p=data().find(x=>x.id===id);if(!p)return;
+  const name=prompt('Nome da rotina',p.name);if(name===null)return;
+  const clean=name.trim();if(!clean)return toast('O nome da rotina não pode ficar vazio.');
+  p.name=clean.slice(0,100);save();render();toast('Nome da rotina atualizado.');
  }
  function removeProgram(id){
   const p=data().find(x=>x.id===id);if(!p)return;
@@ -123,7 +141,7 @@
     return plan.map((set,index)=>{
      const type=SERIES_TYPES[set.type]||'Trabalho';
      const load=set.mode==='percent'?set.percent+'% '+(set.reference==='base'?'da carga base':'da série '+(set.reference+1)):set.load===null?'A definir':set.load+' '+(item.unit||'kg total');
-     return '<tr><td>'+safe(ex?.name||'Exercício')+'</td><td>'+type+' '+(index+1)+'</td><td>'+safe(set.reps||item.reps)+'</td><td>'+safe(load)+'</td><td>'+(set.rest||0)+' s</td><td>'+(set.rir??'—')+'</td>';
+     return '<tr><td>'+safe(ex?.name||'Exercício')+'</td><td>'+type+' '+(index+1)+'</td><td>'+safe(set.reps||item.reps)+'</td><td>'+safe(load)+'</td><td>'+(set.rest||0)+' s</td><td>'+(set.rir??'—')+'</td></tr>';
     });
    }).join('');
    return '<section class="card"><h2>Treino '+letter+' — '+safe(w.title)+'</h2>'+(w.notes?'<p>'+safe(w.notes)+'</p>':'')+'<table class="table"><thead><tr><th>Exercício</th><th>Série</th><th>Repetições</th><th>Carga prescrita</th><th>Descanso</th><th>RIR</th></tr></thead><tbody>'+rows+'</tbody></table></section>';
