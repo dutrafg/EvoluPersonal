@@ -1,0 +1,25 @@
+name: QA integração EvoluPersonal
+on:
+  push:
+    branches: [integracao-opengym-ptbr]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Testes da base
+        run: node tests.cjs
+      - name: Testes de métodos de treinamento
+        run: node tests-methods.cjs
+      - name: Testes da galeria MD500
+        run: node tests-gallery.cjs
+      - name: Testes dos indicadores
+        run: node tests-insights.cjs
