@@ -471,10 +471,48 @@ function library(){
  '<div class="md-gallery-kpis"><span class="md-gallery-kpi"><strong>500</strong> exercícios MD</span><span class="md-gallery-kpi"><strong>'+count+'</strong> GIFs próprios</span><span class="md-gallery-kpi"><strong>'+oebCount+'</strong> imagens OpenExerciseBase</span><span class="md-gallery-kpi"><strong>'+(500-count)+'</strong> sem GIF 3D</span><span class="md-gallery-kpi"><strong>'+review+'</strong> em revisão</span><span class="md-gallery-kpi"><strong>'+sourceCounts.approved+'</strong> fontes aprovadas</span><span class="md-gallery-kpi"><strong>'+sourceCounts.pending+'</strong> candidatas</span></div></div>'+
  '<div class="md-gallery-filters"><input class="search" id="libSearch" placeholder="Pesquisar por nome" aria-label="Pesquisar exercícios" value="'+esc(libSearch)+'"><select id="groupFilter" aria-label="Grupo muscular"><option value="">Todos os grupos</option>'+['Pernas','Peito','Costas','Ombros','Braços','Core'].map(g=>'<option '+(group===g?'selected':'')+'>'+g+'</option>').join('')+'</select>'+
  '<select id="mdLibraryStatus" aria-label="Filtrar animações"><option value="all" '+(mdLibraryStatus==='all'?'selected':'')+'>Todos os 500</option><option value="animated" '+(mdLibraryStatus==='animated'?'selected':'')+'>Com GIF vinculado</option><option value="pending" '+(mdLibraryStatus==='pending'?'selected':'')+'>Aguardando GIF</option><option value="review" '+(mdLibraryStatus==='review'?'selected':'')+'>GIFs em revisão</option><option value="batch" '+(mdLibraryStatus==='batch'?'selected':'')+'>Lote atual de 25</option><option value="source-approved" '+(mdLibraryStatus==='source-approved'?'selected':'')+'>Fonte aprovada</option><option value="source-pending" '+(mdLibraryStatus==='source-pending'?'selected':'')+'>Fonte para conferir</option><option value="source-none" '+(mdLibraryStatus==='source-none'?'selected':'')+'>Sem candidato ativo</option></select></div>'+
- '<div class="md-gallery-count" id="mdLibraryInfo" aria-live="polite"></div>'+'<div class="md-gallery-source-kpis" id="mdSourceCoverage">'+mdSourceCoverageText()+'</div>'+
+ '<div class="md-offline-panel" style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:14px 0;padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--card)"><button id="mdOfflineDownload" class="primary" type="button" onclick="downloadOfflineLibrary()">Baixar biblioteca offline · 143 MB</button><span id="mdOfflineStatus" class="muted" aria-live="polite">Inclui os 500 exercícios, 445 GIFs vinculados (442 arquivos distintos) e 24 imagens de referência. Os 55 sem GIF continuam sem animação; fontes externas de comparação exigem internet.</span></div>'+'<div class="md-gallery-count" id="mdLibraryInfo" aria-live="polite"></div>'+'<div class="md-gallery-source-kpis" id="mdSourceCoverage">'+mdSourceCoverageText()+'</div>'+
  '<div class="md-gallery-grid" id="libGrid">'+libraryCards()+'</div>'+
  '<div class="md-gallery-bottom"><span>As imagens exibidas são GIFs reais do acervo; exercícios pendentes não recebem ilustrações fictícias.</span><div class="md-gallery-page" id="mdLibraryPager"></div></div>'+
  '</section>';
+}
+async function downloadOfflineLibrary(){
+ const button=document.getElementById('mdOfflineDownload'),status=document.getElementById('mdOfflineStatus');
+ if(!button||button.disabled)return;
+ const initialLabel=button.textContent;
+ button.disabled=true;button.textContent='Preparando download…';
+ if(status)status.textContent='Verificando suporte, conexão segura e espaço disponível.';
+ try{
+  if(!('serviceWorker'in navigator)||!window.isSecureContext)throw new Error('O download offline precisa do EvoluPersonal aberto em HTTPS no navegador.');
+  if(navigator.storage?.persist)await navigator.storage.persist();
+  const estimate=navigator.storage?.estimate?await navigator.storage.estimate():null;
+  const required=165961000;
+  if(estimate?.quota&&estimate.quota-estimate.usage<required)throw new Error('Espaço livre insuficiente. O pacote usa cerca de 143 MB; libere espaço no navegador e tente novamente.');
+  const registration=await navigator.serviceWorker.register('./sw.js',{scope:'./'});
+  await navigator.serviceWorker.ready;
+  const worker=registration.active||navigator.serviceWorker.controller;
+  if(!worker)throw new Error('Não foi possível ativar o armazenamento offline. Recarregue a página e tente novamente.');
+  button.textContent='Baixando biblioteca…';
+  const channel=new MessageChannel();
+  channel.port1.onmessage=event=>{
+   const data=event.data||{};
+   if(data.type==='PROGRESS'){
+    if(status)status.textContent='Baixando mídias para uso offline: '+data.complete+' de '+data.total+(data.failed?' · falhas: '+data.failed:'')+'. Mantenha esta página aberta.';
+   }else if(data.type==='DONE'){
+    button.disabled=false;button.textContent=data.failedCount?'Tentar novamente · '+data.failedCount+' falhas':'Atualizar biblioteca offline';
+    if(status)status.textContent=data.failedCount?'Download parcial: '+(data.total-data.failedCount)+' de '+data.total+' arquivos salvos. Verifique a conexão e tente novamente.':'Biblioteca disponível offline: 500 exercícios e '+data.total+' arquivos de mídia salvos neste navegador.';
+    channel.port1.close();
+   }else if(data.type==='ERROR'){
+    button.disabled=false;button.textContent=initialLabel;
+    if(status)status.textContent=data.message||'Falha ao iniciar o download offline.';
+    channel.port1.close();
+   }
+  };
+  worker.postMessage({type:'CACHE_LIBRARY'},[channel.port2]);
+ }catch(error){
+  button.disabled=false;button.textContent=initialLabel;
+  if(status)status.textContent=error.message||'Não foi possível preparar o download offline.';
+ }
 }
 function safeURL(s){try{let u=new URL(s);return ['https:','http:'].includes(u.protocol)?u.href:null}catch(e){return null}}
 function animationDisplayURL(e){const src=mdMediaSource(e);return src==='assets/exercises/e4.gif'?src+'?v=fix-single-frame-20261029':src}
