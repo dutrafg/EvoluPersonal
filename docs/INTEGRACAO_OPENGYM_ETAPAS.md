@@ -1,7 +1,7 @@
 # Integração EvoluPersonal + openGym — etapas
 
 **Branch de trabalho:** `integracao-opengym-ptbr`  
-**Progresso:** 3 de 10 etapas concluídas. Ao concluir cada etapa 10, 20, 30… gerar um HTML completo e testável do EvoluPersonal para revisão.  
+**Progresso:** 6 de 10 etapas concluídas. Ao concluir cada etapa 10, 20, 30… gerar um HTML completo e testável do EvoluPersonal para revisão.  
 **Publicação:** manter a `main` intacta até aprovação explícita.
 
 ## Etapas
@@ -11,13 +11,21 @@
 - [x] **3. Consultar a execução anterior:** mostrar a última carga/repetições do mesmo exercício e permitir aplicá-la à série atual, respeitando a unidade e sem alterar automaticamente a prescrição.
 - [x] **4. Recordes pessoais na execução:** indicar uma nova melhor marca estimada de 1RM apenas para uma série concluída, usando os registros anteriores do mesmo aluno e exercício.
 - [x] **5. Comparar os 500 exercícios:** cruzar nomes, grupo, equipamento e instruções disponíveis do catálogo textual openGym. Relatório gravado em `production/COMPARACAO_MD500_OPENGYM_2026-10-30.md` e CSV com todos os candidatos.
-- [ ] **6. Validar movimentos candidatos:** conferir instruções PT-BR, grupo muscular e equipamento dos candidatos contra a execução dos GIFs próprios. A ficha externa serve como referência textual; não aprova um GIF sozinha.
-- [ ] **7. Corrigir biblioteca oficial:** corrigir nomes, grupos, instruções e associações incorretas, mantendo os IDs `md1…md500`.
-- [ ] **8. Completar as animações ausentes:** criar GIFs próprios para os exercícios ainda sem mídia; não copiar nem vincular mídia do Gym visual.
-- [ ] **9. Auditar os 500 vínculos:** revisar exercício, movimento, equipamento, arquivo GIF e estado de aprovação de cada item; exportar a fila de pendências.
-- [ ] **10. Revisão integrada:** gerar o HTML completo para teste do fluxo e da biblioteca revisada; documentar o que ainda precisa de verificação em Android físico.
+- [x] **6. Criar Meus treinos e exportações:** cadastrar rotinas nomeadas por aluno com treinos A–G independentes; levar o atalho de cada aluno à Evolução; consultar histórico de carga apenas no mesmo treino; exportar a rotina e a tabela de evolução pela impressão em PDF.
+- [ ] **7. Validar movimentos candidatos:** conferir instruções PT-BR, grupo muscular e equipamento dos candidatos contra a execução dos GIFs próprios. A ficha externa serve como referência textual; não aprova um GIF sozinha.
+- [ ] **8. Corrigir biblioteca oficial:** corrigir nomes, grupos, instruções e associações incorretas, mantendo os IDs `md1…md500`.
+- [ ] **9. Completar as animações ausentes:** criar GIFs próprios para os exercícios ainda sem mídia; não copiar nem vincular mídia do Gym visual.
+- [ ] **10. Auditar os 500 vínculos e gerar a prévia:** revisar exercício, movimento, equipamento, arquivo GIF e estado de aprovação; criar o HTML completo testável para a revisão integrada e registrar o que exige Android físico.
 
-**Regra da prévia:** após cada dez etapas concluídas (10, 20, 30…), gerar um HTML completo e testável para revisão. Progresso atual: **5 de 10**.
+**Regra da prévia:** após cada dez etapas concluídas (10, 20, 30…), gerar um HTML completo e testável para revisão. Progresso atual: **6 de 10**.
+
+## Etapa 6 — rotinas e evolução por aluno
+
+- `dist/programs.js` cria rotinas nomeadas e atribui cada uma a um aluno; cada rotina tem sete espaços de treino (A–G), e cada treino mantém seu próprio título e exercícios.
+- A tela Meus treinos permite criar/editar cada letra, renomear ou remover a rotina, abrir a Evolução já filtrada pelo aluno e exportar a prescrição em formato de impressão/PDF.
+- O módulo de Evolução pode ser filtrado por aluno e reúne sessões, séries, cargas, repetições, volume e recordes estimados; oferece exportação em tabela para impressão/PDF.
+- A carga anterior só é sugerida quando aluno, exercício, série, unidade e ID do treino correspondem. Rotinas diferentes não compartilham sugestões de carga.
+- Backups antigos sem o campo de rotinas continuam importáveis; apagar os dados também remove as rotinas.
 
 ## Limites de conteúdo
 
