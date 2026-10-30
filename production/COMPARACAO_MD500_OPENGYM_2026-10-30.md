@@ -14,8 +14,8 @@
 | Nome exato único | 18 |
 | Nome exato com mais de um registro | 1 |
 | Candidato forte (nome, grupo e equipamento compatíveis) | 60 |
-| Candidato para revisão manual | 129 |
-| Sem correspondência confiável por nome | 292 |
+| Candidato para revisão manual | 165 |
+| Sem correspondência confiável por nome | 258 |
 | **Total** | **500** |
 
 A classificação automática é uma triagem, não uma aprovação biomecânica. “Candidato” indica que vale conferir a ficha textual; não comprova que um GIF específico representa o movimento. O campo `Passos PT-BR` no CSV informa se o candidato tem instruções traduzidas. Nenhum texto de instruções ou mídia do catálogo externo foi copiado para a biblioteca oficial.
