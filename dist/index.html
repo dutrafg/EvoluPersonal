@@ -516,8 +516,9 @@ async function installOfficialExercisePack(){
     if(existing){saved++}
     else{
      const res=await fetch(url,{credentials:'same-origin'});
-     if(!res.ok||!res.headers.get('content-type')?.toLowerCase().includes('image/'))throw Error('Mídia indisponível');
+     if(!res.ok)throw Error('Mídia indisponível');
      const blob=await res.blob();if(blob.size<40||blob.size>35*1024*1024)throw Error('Tamanho inválido');
+     const magic=await blob.slice(0,6).text();if(magic!=='GIF89a'&&magic!=='GIF87a')throw Error('Arquivo não é GIF');
      await officialMediaStore(url,blob);saved++;
     }
    }catch(e){failures++}
