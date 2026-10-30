@@ -33,5 +33,5 @@ check('(()=>{assignWeek("ter",db.workouts[0].id);let id=db.workouts[0].id;delete
 check('validDB(db)',true);
 check('(()=>{clearData();return db.students.length===0&&Object.keys(db.weekPlan).length===0&&validDB(db)})()',true);
 assert(html.includes('function purgeWeekAssignments(workoutId)'));
-assert(html.includes("weekPlanner()}"));
+assert(html.includes("weekPlanner()+rotationPlanner()}"));
 console.log('PASS: agenda semanal, persistência, backup, vínculos e exclusão segura de treinos.');
