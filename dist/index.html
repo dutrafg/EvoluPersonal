@@ -58,6 +58,15 @@
 .insight-empty{padding:25px;color:var(--muted);text-align:center}
 @media(max-width:900px){.insight-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:640px){.rail button{width:16%}.rail button{font-size:9px}.insight-kpis{gap:8px}.insight-kpi{padding:13px}.insight-kpi strong{font-size:20px}.insight-week{font-size:10px}}
+
+
+.week-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:16px}
+.week-day{background:var(--bg);padding:14px;border:1px solid var(--line);border-radius:12px}
+.week-day label{margin:0}.week-day select{margin-top:8px}
+.week-summary{display:flex;align-items:center;gap:7px;padding:20px 0;color:var(--muted)}
+.week-summary strong{color:var(--ink)}
+@media(max-width:1050px){.week-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:550px){.week-grid{grid-template-columns:1fr}.week-day{padding:10px}.week-summary{padding:10px 0}}
 </style></head><body>
 <div class="shell"><nav class="rail" aria-label="Navegação principal"><div class="brand">e</div><div id="nav" style="display:contents"></div><button class="bottom" id="themeRail" aria-label="Alternar tema"></button></nav><main class="main"><header class="top"><div class="row"><div class="wordmark">evolu<span>personal</span></div><span class="tag">ALPHA 0.9</span></div><div class="tools"><button id="modeBtn"></button><button id="themeBtn" aria-label="Alternar tema"></button></div></header><div id="app"></div><footer class="foot">EvoluPersonal · Alpha 0.9 · Projeto independente · Dados salvos neste navegador</footer></main></div>
 <dialog id="modal"><div class="between"><h2 id="modalTitle"></h2><button class="quiet" onclick="closeModal()" aria-label="Fechar janela">✕</button></div><div class="modalbody" id="modalBody"></div></dialog><div id="toast" role="status" hidden></div><div id="timer" hidden><small>DESCANSO</small><b id="clock">00:00</b><div class="row"><button onclick="pauseTimer()" id="pauseBtn">Pausar</button><button onclick="stopTimer()">Encerrar</button></div></div>
@@ -226,11 +235,18 @@ function validBaseDB(d){
  if(!Array.isArray(d.exercises)||!d.exercises.every(e=>e&&id(e.id)&&str(e.name)&&e.name.trim()&&str(e.group)&&str(e.url)&&(!e.url||safeURL(e.url)))||!unique(d.exercises))return false;
  if(!Array.isArray(d.workouts)||!d.workouts.every(w=>w&&id(w.id)&&str(w.title)&&w.title.trim()&&str(w.notes)&&d.students.some(s=>s.id===w.student)&&Array.isArray(w.items)&&w.items.length>0&&w.items.every(i=>i&&d.exercises.some(e=>e.id===i.exercise)&&Number.isInteger(i.sets)&&i.sets>0&&i.sets<=30&&str(i.reps)&&i.reps.trim()&&num(i.load,2000)&&Number.isInteger(i.rest)&&num(i.rest,3600)))||!unique(d.workouts))return false;
  if(!Array.isArray(d.sessions)||!d.sessions.every(s=>s&&id(s.id)&&d.students.some(x=>x.id===s.student)&&str(s.title)&&str(s.date)&&!Number.isNaN(Date.parse(s.date))&&str(s.effort)&&str(s.feedback)&&records(s.records)&&s.records.length>0&&s.records.every(r=>r.done))||!unique(d.sessions))return false;
+ if(d.weekPlan!==undefined){
+  const days=['seg','ter','qua','qui','sex','sab','dom'];
+  if(!d.weekPlan||typeof d.weekPlan!=='object'||Array.isArray(d.weekPlan))return false;
+  if(!Object.entries(d.weekPlan).every(([studentId,plan])=>
+    id(studentId)&&d.students.some(s=>s.id===studentId)&&plan&&typeof plan==='object'&&!Array.isArray(plan)&&
+    Object.entries(plan).every(([day,wid])=>days.includes(day)&&id(wid)&&d.workouts.some(w=>w.id===wid&&w.student===studentId))))return false;
+ }
  if(!d.drafts||typeof d.drafts!=='object'||Array.isArray(d.drafts))return false;
  return Object.entries(d.drafts).every(([key,x])=>{const w=d.workouts.find(w=>w.id===key);return w&&x&&records(x.records)&&x.records.length===w.items.reduce((a,i)=>a+i.sets,0)&&x.records.every(r=>w.items[r.item]?.exercise===r.exercise&&r.set<=w.items[r.item].sets)})
 }
 function save(){try{localStorage.setItem(KEY,JSON.stringify(db));return true}catch(e){toast('Não foi possível salvar. Exporte um backup antes de fechar.');return false}}
-let insightStudent='all';
+let insightStudent='all',planStudent='',weeklyOpen=true;
 let page='home',mode='coach',selected=db.students[0]?.id||'',search='',workSearch='',libSearch='',group='',mdLibraryStatus='all',mdLibraryPage=0,editor=null,toastHandle;
 const student=id=>db.students.find(s=>s.id===id),exercise=id=>db.exercises.find(e=>e.id===id);
 const initials=name=>name.split(' ').filter(Boolean).slice(0,2).map(s=>s[0]).join('');
@@ -247,11 +263,55 @@ function users(){return heading('ACOMPANHAMENTO','Alunos','Um perfil para cada j
 function studentCards(){const list=db.students.filter(s=>(s.name+' '+s.goal).toLowerCase().includes(search.toLowerCase())).sort((a,b)=>a.name.localeCompare(b.name,'pt-BR'));return list.length?list.map(s=>'<button class="card student" style="text-align:left" onclick="selected=\''+esc(s.id)+'\';render()"><div class="row"><div class="avatar">'+esc(initials(s.name))+'</div><div><h3>'+esc(s.name)+'</h3><small>'+esc(s.goal)+'</small></div></div><div class="between space"><span class="pill">'+own(s.id).length+' treino(s)</span><span class="muted">Ver perfil →</span></div></button>').join(''):'<div class="empty">Nenhum aluno encontrado.</div>'}
 function profile(id){let s=student(id);return '<section class="card detail"><div class="between"><div><div class="eyebrow">PERFIL DO ALUNO</div><h2>'+esc(s.name)+'</h2><p class="muted">'+esc(s.goal)+(s.email?' · '+esc(s.email):'')+'</p></div><div class="row wrap"><button onclick="studentModal(\''+esc(id)+'\')">Editar perfil</button><button class="primary" onclick="workoutModal(null,\''+esc(id)+'\')">+ Treino</button></div></div>'+(s.notes?'<p>'+esc(s.notes)+'</p>':'')+'<h3 class="space">Treinos</h3>'+workoutCards(own(id))+'<h3 class="space">Histórico de sessões</h3>'+sessionList(db.sessions.filter(x=>x.student===id).slice().reverse())+'</section>'}
 function studentModal(id){const s=student(id)||{name:'',goal:'Hipertrofia',email:'',notes:''};openModal(id?'Editar aluno':'Novo aluno','<form id="studentForm"><div class="fields"><label class="full">Nome completo<input name="name" required maxlength="100" value="'+esc(s.name)+'"></label><label>Objetivo<select name="goal">'+['Hipertrofia','Emagrecimento','Definição muscular','Condicionamento','Força','Qualidade de vida'].map(g=>'<option '+(g===s.goal?'selected':'')+'>'+g+'</option>').join('')+'</select></label><label>E-mail (opcional)<input type="email" name="email" maxlength="150" value="'+esc(s.email)+'"></label><label class="full">Observações do acompanhamento<textarea name="notes" maxlength="1500">'+esc(s.notes)+'</textarea></label></div><div class="modalfoot"><button type="button" onclick="closeModal()">Cancelar</button><button class="primary">Salvar aluno</button></div></form>');document.getElementById('studentForm').onsubmit=e=>{e.preventDefault();let v=Object.fromEntries(new FormData(e.target));v.name=v.name.trim();if(!v.name)return toast('Informe o nome do aluno.');if(id)Object.assign(s,v);else{v.id=uid();db.students.push(v);selected=v.id}save();closeModal();render();toast('Aluno salvo.')}}
-function trains(){return heading('PRESCRIÇÃO','Treinos','Crie rotinas e adapte cada detalhe ao seu aluno.','<button class="primary" onclick="workoutModal()">+ Montar treino</button>')+'<input class="search" id="workSearch" aria-label="Pesquisar treinos" placeholder="Pesquisar treino ou aluno" value="'+esc(workSearch)+'"><div class="section" id="workResults">'+workoutCards(db.workouts.filter(w=>(w.title+' '+student(w.student)?.name).toLowerCase().includes(workSearch.toLowerCase())))+'</div>'}
+
+const WEEK_DAYS=[['seg','Segunda'],['ter','Terça'],['qua','Quarta'],['qui','Quinta'],['sex','Sexta'],['sab','Sábado'],['dom','Domingo']];
+function purgeWeekAssignments(workoutId){
+ if(!db.weekPlan)return;
+ for(const plan of Object.values(db.weekPlan))for(const key of Object.keys(plan))if(plan[key]===workoutId)delete plan[key];
+}
+function cleanWeekAssignmentsForOwner(workoutId,ownerId){
+ if(!db.weekPlan)return;
+ for(const [studentId,plan] of Object.entries(db.weekPlan))
+  if(studentId!==ownerId)for(const key of Object.keys(plan))if(plan[key]===workoutId)delete plan[key];
+}
+function weekPlanner(){
+ if(!db.students.length)return '';
+ if(!planStudent||!student(planStudent))planStudent=db.students[0].id;
+ const week=db.weekPlan?.[planStudent]||{};
+ const workouts=own(planStudent);
+ const allOptions=workouts.map(w=>'<option value="'+esc(w.id)+'">'+esc(w.title)+'</option>').join('');
+ const cells=WEEK_DAYS.map(([key,name])=>{
+   const value=workouts.some(w=>w.id===week[key])?week[key]:'';
+   const options='<option value="">Descanso / sem treino</option>'+workouts.map(w=>
+     '<option value="'+esc(w.id)+'" '+(w.id===value?'selected':'')+'>'+esc(w.title)+'</option>').join('');
+   return '<div class="week-day"><label>'+name+'<select aria-label="Treino de '+name+'" onchange="assignWeek(\''+key+'\',this.value)">'+options+'</select></label></div>';
+ }).join('');
+ const planned=WEEK_DAYS.filter(([key])=>!!week[key]&&workouts.some(w=>w.id===week[key])).length;
+ return '<section class="card section"><div class="between"><div><h2>Planejamento semanal</h2><p class="muted" style="margin:0">Rotina recorrente por aluno, com dias de descanso.</p></div><button type="button" onclick="weeklyOpen=!weeklyOpen;render()">'+(weeklyOpen?'Recolher':'Expandir')+'</button></div>'+
+ (weeklyOpen?'<div class="fields space"><label>Aluno<select aria-label="Aluno do planejamento" onchange="planStudent=this.value;render()">'+db.students.map(s=>
+ '<option value="'+esc(s.id)+'" '+(planStudent===s.id?'selected':'')+'>'+esc(s.name)+'</option>').join('')+'</select></label>'+
+ '<div class="week-summary"><strong>'+planned+' dias de treino</strong><small> na semana · '+(7-planned)+' de descanso</small></div></div>'+
+ '<div class="week-grid">'+cells+'</div>'+
+ '<div class="notice">A agenda organiza os treinos já cadastrados. Ela não inicia nem conclui sessões automaticamente e não modifica cargas ou registros.</div>':'')+'</section>';
+}
+function assignWeek(day,workoutId){
+ if(!WEEK_DAYS.some(x=>x[0]===day)||!student(planStudent))return toast('Dados do planejamento inválidos.');
+ if(workoutId&&!db.workouts.some(w=>w.id===workoutId&&w.student===planStudent))return toast('Treino inválido para este aluno.');
+ const previous=structuredClone(db.weekPlan||{});
+ if(!db.weekPlan)db.weekPlan={};
+ const plan=db.weekPlan[planStudent]||(db.weekPlan[planStudent]={});
+ if(workoutId)plan[day]=workoutId;else delete plan[day];
+ if(!validDB(db)||!save()){db.weekPlan=previous;return toast('Não foi possível salvar o planejamento.')}
+ render();toast('Planejamento semanal salvo.');
+}
+
+function trains(){return heading('PRESCRIÇÃO','Treinos','Crie rotinas e adapte cada detalhe ao seu aluno.','<button class="primary" onclick="workoutModal()">+ Montar treino</button>')+'<input class="search" id="workSearch" aria-label="Pesquisar treinos" placeholder="Pesquisar treino ou aluno" value="'+esc(workSearch)+'"><div class="section" id="workResults">'+workoutCards(db.workouts.filter(w=>(w.title+' '+student(w.student)?.name).toLowerCase().includes(workSearch.toLowerCase())))+'</div>'+weekPlanner()}
 function workoutCards(list){return list.length?list.map(w=>'<div class="exrow"><div class="between"><div><h3>'+esc(w.title)+'</h3><p class="muted" style="margin:0;font-size:12px">'+esc(student(w.student)?.name)+' · '+w.items.length+' exercícios · '+counts(w.items).work+' séries de trabalho</p></div><div class="row wrap"><button onclick="workoutModal(\''+esc(w.id)+'\')">Editar</button><button onclick="duplicateWorkout(\''+esc(w.id)+'\')">Duplicar</button><button onclick="preview(\''+esc(w.student)+'\')">Ver como aluno</button><button class="quiet" onclick="deleteWorkout(\''+esc(w.id)+'\')" aria-label="Excluir '+esc(w.title)+'">Excluir</button></div></div></div>').join(''):'<div class="empty">Nenhum treino cadastrado.</div>'}
 function duplicateWorkout(id){const w=structuredClone(db.workouts.find(w=>w.id===id));w.id=uid();w.title+=' · Cópia';db.workouts.push(w);save();render();toast('Cópia criada. Edite para atribuir a outro aluno.')}
-function deleteWorkout(id){if(!confirm('Excluir este treino? As sessões concluídas serão preservadas.'))return;db.workouts=db.workouts.filter(w=>w.id!==id);delete db.drafts[id];save();render()}
-function workoutModal(id,studentId){if(!db.students.length){toast('Cadastre um aluno antes de montar o treino.');studentModal();return}editor=id?structuredClone(db.workouts.find(w=>w.id===id)):{id:uid(),student:studentId||selected||db.students[0].id,title:'',notes:'',items:[]};openModal(id?'Editar treino':'Montar treino','<form id="workForm"><div class="fields"><label class="full">Nome do treino<input required maxlength="100" id="workTitle" value="'+esc(editor.title)+'" placeholder="Ex.: Treino A · Membros superiores"></label><label class="full">Aluno<select id="workStudent">'+db.students.map(s=>'<option value="'+esc(s.id)+'" '+(s.id===editor.student?'selected':'')+'>'+esc(s.name)+'</option>').join('')+'</select></label><label class="full">Orientações<textarea id="workNotes" maxlength="1500">'+esc(editor.notes)+'</textarea></label></div><div class="between space"><h3>Exercícios</h3><span class="muted">Ordem de execução</span></div><div class="row"><select id="exercisePick" aria-label="Selecionar exercício">'+catalog.map(e=>'<option value="'+esc(e.id)+'">'+esc(e.name)+' · '+esc(e.group)+'</option>').join('')+'</select><button type="button" onclick="addItem()">Adicionar</button></div><div id="editorItems"></div><div class="modalfoot"><button type="button" onclick="closeModal()">Cancelar</button><button class="primary">Salvar treino</button></div></form>',true);renderItems();document.getElementById('workForm').onsubmit=e=>{e.preventDefault();if(!editor.items.length)return toast('Adicione pelo menos um exercício.');editor.title=document.getElementById('workTitle').value.trim();if(!editor.title)return toast('Informe o nome do treino.');editor.student=document.getElementById('workStudent').value;editor.notes=document.getElementById('workNotes').value;for(let n=0;n<editor.items.length;n++)ensurePlan(n);const candidate=structuredClone(db);candidate.drafts={};candidate.workouts=candidate.workouts.filter(w=>w.id!==editor.id);candidate.workouts.push(structuredClone(editor));if(!validDB(candidate))return toast('Revise séries de trabalho, referências, cargas e progressão antes de salvar.');let old=db.workouts.findIndex(w=>w.id===editor.id);if(old>=0){if(db.drafts[editor.id]&&!confirm('Salvar alterações e reiniciar o registro em andamento deste treino?'))return;db.workouts[old]=editor;delete db.drafts[editor.id]}else db.workouts.push(editor);save();closeModal();render();toast('Treino salvo e disponível na prévia do aluno.')}}
+function deleteWorkout(id){if(!confirm('Excluir este treino? As sessões concluídas serão preservadas.'))return;db.workouts=db.workouts.filter(w=>w.id!==id);delete db.drafts[id];purgeWeekAssignments(id);save();render()}
+function workoutModal(id,studentId){if(!db.students.length){toast('Cadastre um aluno antes de montar o treino.');studentModal();return}editor=id?structuredClone(db.workouts.find(w=>w.id===id)):{id:uid(),student:studentId||selected||db.students[0].id,title:'',notes:'',items:[]};openModal(id?'Editar treino':'Montar treino','<form id="workForm"><div class="fields"><label class="full">Nome do treino<input required maxlength="100" id="workTitle" value="'+esc(editor.title)+'" placeholder="Ex.: Treino A · Membros superiores"></label><label class="full">Aluno<select id="workStudent">'+db.students.map(s=>'<option value="'+esc(s.id)+'" '+(s.id===editor.student?'selected':'')+'>'+esc(s.name)+'</option>').join('')+'</select></label><label class="full">Orientações<textarea id="workNotes" maxlength="1500">'+esc(editor.notes)+'</textarea></label></div><div class="between space"><h3>Exercícios</h3><span class="muted">Ordem de execução</span></div><div class="row"><select id="exercisePick" aria-label="Selecionar exercício">'+catalog.map(e=>'<option value="'+esc(e.id)+'">'+esc(e.name)+' · '+esc(e.group)+'</option>').join('')+'</select><button type="button" onclick="addItem()">Adicionar</button></div><div id="editorItems"></div><div class="modalfoot"><button type="button" onclick="closeModal()">Cancelar</button><button class="primary">Salvar treino</button></div></form>',true);renderItems();document.getElementById('workForm').onsubmit=e=>{e.preventDefault();if(!editor.items.length)return toast('Adicione pelo menos um exercício.');editor.title=document.getElementById('workTitle').value.trim();if(!editor.title)return toast('Informe o nome do treino.');editor.student=document.getElementById('workStudent').value;editor.notes=document.getElementById('workNotes').value;for(let n=0;n<editor.items.length;n++)ensurePlan(n);const candidate=structuredClone(db);candidate.drafts={};
+if(candidate.weekPlan)for(const [owner,plan] of Object.entries(candidate.weekPlan))if(owner!==editor.student)for(const k of Object.keys(plan))if(plan[k]===editor.id)delete plan[k];
+candidate.workouts=candidate.workouts.filter(w=>w.id!==editor.id);candidate.workouts.push(structuredClone(editor));if(!validDB(candidate))return toast('Revise séries de trabalho, referências, cargas e progressão antes de salvar.');let old=db.workouts.findIndex(w=>w.id===editor.id);if(old>=0){if(db.drafts[editor.id]&&!confirm('Salvar alterações e reiniciar o registro em andamento deste treino?'))return;db.workouts[old]=editor;delete db.drafts[editor.id]}else db.workouts.push(editor);cleanWeekAssignmentsForOwner(editor.id,editor.student);save();closeModal();render();toast('Treino salvo e disponível na prévia do aluno.')}}
 function moveItem(n,d){const j=n+d;if(j<0||j>=editor.items.length)return;[editor.items[n],editor.items[j]]=[editor.items[j],editor.items[n]];renderItems()}
 
 const mdCurrentBatchIds=new Set([77, 197, 200, 226, 229, 260, 262, 265, 274, 300, 310, 315, 316, 317, 344, 370, 371, 383, 390, 398, 399, 418, 420, 438, 449]);
@@ -360,7 +420,7 @@ function settings(){return heading('DO SEU JEITO','Ajustes','Personalize o ambie
 function exportRecovery(){if(!recoveryRaw)return;const u=URL.createObjectURL(new Blob([recoveryRaw],{type:'application/json'})),a=document.createElement('a');a.href=u;a.download='EvoluPersonal_Recuperacao.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000)}
 function exportData(){const blob=new Blob([JSON.stringify(db,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='EvoluPersonal_Backup_'+new Date().toISOString().slice(0,10)+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('Backup exportado.')}
 async function importData(input){let f=input.files[0];if(!f)return;try{if(f.size>10*1024*1024)throw Error();let data=JSON.parse(await f.text());if(!validDB(data))throw Error();data=migrateDB(data);if(!confirm('Restaurar este backup e substituir todos os registros atuais?'))return;db=data;selected=db.students[0]?.id||'';save();render();toast('Backup restaurado.')}catch(e){toast('Backup inválido ou incompatível. Os registros atuais foram preservados.')}finally{input.value=''}}
-function clearData(){if(!confirm('Apagar os alunos, treinos e sessões deste navegador? Exporte um backup antes de continuar.'))return;db.students=[];db.workouts=[];db.sessions=[];db.drafts={};db.demo=false;selected='';save();render();toast('Base pronta para seus alunos.')}
+function clearData(){if(!confirm('Apagar os alunos, treinos e sessões deste navegador? Exporte um backup antes de continuar.'))return;db.students=[];db.workouts=[];db.sessions=[];db.drafts={};db.weekPlan={};db.demo=false;selected='';save();render();toast('Base pronta para seus alunos.')}
 function toggleTheme(){db.theme=db.theme==='light'?'dark':'light';save();render()}
 function openModal(t,html,wide=false){let m=document.getElementById('modal');m.classList.toggle('wide',wide);document.getElementById('modalTitle').textContent=t;document.getElementById('modalBody').innerHTML=html;m.showModal()}
 function closeModal(){document.getElementById('modal').close()}
