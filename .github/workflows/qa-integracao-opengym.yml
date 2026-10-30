@@ -23,3 +23,5 @@ jobs:
         run: node tests-gallery.cjs
       - name: Testes dos indicadores
         run: node tests-insights.cjs
+      - name: Testes da agenda semanal
+        run: node tests-weekly.cjs
