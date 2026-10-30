@@ -233,7 +233,7 @@ try{if(!localStorage.getItem(KEY+'.pre_md_only'))localStorage.setItem(KEY+'.pre_
 const mdIds=new Set(catalog.map(e=>e.id));
 const usedLegacy=new Set(db.workouts.flatMap(w=>w.items.map(i=>i.exercise)));
 db.exercises=db.exercises.filter(e=>mdIds.has(e.id)||usedLegacy.has(e.id));
-for(const item of catalog){const old=db.exercises.find(e=>e.id===item.id);if(old)Object.assign(old,item);else db.exercises.push(structuredClone(item))}
+for(const item of catalog){const old=db.exercises.find(e=>e.id===item.id);if(old){const saved={gymbells:old.gymbells,gymbells_review:old.gymbells_review,workoutguide:old.workoutguide,workoutguide_review:old.workoutguide_review};Object.assign(old,item);for(const k of Object.keys(saved))if(saved[k]!==undefined&&saved[k]!==null&&saved[k]!=='')old[k]=saved[k]}else db.exercises.push(structuredClone(item))}
 if(!loadError)save();
 function validBaseDB(d){
  const id=x=>typeof x==='string'&&/^[A-Za-z0-9_-]{1,100}$/.test(x)&&!['__proto__','constructor','prototype'].includes(x),str=x=>typeof x==='string',num=(x,max)=>Number.isFinite(x)&&x>=0&&x<=max,records=xs=>Array.isArray(xs)&&xs.every(r=>r&&id(r.exercise)&&str(r.name)&&Number.isInteger(r.item)&&r.item>=0&&Number.isInteger(r.set)&&r.set>=1&&num(r.load,2000)&&str(r.reps)&&num(r.rest,3600)&&typeof r.done==='boolean'),unique=xs=>new Set(xs.map(x=>x.id)).size===xs.length;
