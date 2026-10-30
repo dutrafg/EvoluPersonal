@@ -14,6 +14,12 @@ function validDB(d){try{
   for(let n=0;n<w.items.length;n++){
    const i=w.items[n];if(!Number.isInteger(i.sets)||i.sets<1||i.sets>20||!validLoad(i.load))return false;
    if(i.unit!==undefined&&!LOAD_UNITS.includes(i.unit))return false;
+   if(i.alternatives!==undefined){
+    const original=d.exercises.find(e=>e.id===i.exercise);
+    if(!Array.isArray(i.alternatives)||i.alternatives.length>5||new Set(i.alternatives).size!==i.alternatives.length||
+       i.alternatives.some(a=>typeof a!=='string'||a===i.exercise||
+         !d.exercises.some(e=>e.id===a&&e.group===original?.group)))return false;
+   }
    if(i.setPlan!==undefined){
     if(!Array.isArray(i.setPlan)||i.setPlan.length<1||i.setPlan.length>30||i.sets!==i.setPlan.filter(isWork).length||i.sets<1||i.sets>20)return false;
     if(!i.setPlan.every((s,k)=>s&&Object.hasOwn(SERIES_TYPES,s.type)&&['fixed','percent'].includes(s.mode)&&validLoad(s.load)&&typeof s.reps==='string'&&s.reps.trim()&&s.reps.length<=40&&Number.isInteger(s.rest)&&s.rest>=0&&s.rest<=3600&&(s.rir===null||Number.isInteger(s.rir)&&s.rir>=0&&s.rir<=10)&&Number.isFinite(s.percent)&&s.percent>0&&s.percent<=100&&(s.reference==='base'||Number.isInteger(s.reference)&&s.reference>=0&&s.reference<k&&isWork(i.setPlan[s.reference]))&&(s.type!=='backoff'||s.mode==='percent'&&Number.isInteger(s.reference))))return false;
@@ -28,7 +34,13 @@ function validDB(d){try{
  // The legacy structural validator enforces foreign keys, uniqueness and limits.
  if(!validBaseDB(projected))return false;
  for(const [id,draft]of Object.entries(d.drafts)){
-  const w=d.workouts.find(w=>w.id===id);const expected=w.items.flatMap((i,n)=>planFor(i).map((s,k)=>({item:n,set:k+1,exercise:i.exercise,type:s.type})));
+  const w=d.workouts.find(w=>w.id===id);
+  if(draft.substitutions!==undefined){
+   if(!draft.substitutions||typeof draft.substitutions!=='object'||Array.isArray(draft.substitutions)||
+      !Object.entries(draft.substitutions).every(([index,alt])=>/^(0|[1-9][0-9]*)$/.test(index)&&
+        Number(index)<w.items.length&&w.items[Number(index)].alternatives?.includes(alt)))return false;
+  }
+  const expected=w.items.flatMap((i,n)=>planFor(i).map((s,k)=>({item:n,set:k+1,exercise:draft.substitutions?.[n]||i.exercise,type:s.type})));
   if(draft.records.some((r,k)=>!expected[k]||r.item!==expected[k].item||r.set!==expected[k].set||r.exercise!==expected[k].exercise||(r.type!==undefined&&r.type!==expected[k].type)))return false;
   for(const r of draft.records){const item=w.items[r.item];if(item.setPlan){const s=item.setPlan[r.set-1];if(r.type!==s.type||r.mode!==s.mode||r.percent!==s.percent||r.reference!==s.reference||r.rest!==s.rest||r.targetRir!==s.rir||typeof r.manualLoad!=='boolean')return false;}}
  }
@@ -70,7 +82,7 @@ function recordChange(id,k,field,el){const w=db.workouts.find(w=>w.id===id),d=db
 }
 function progressionSuggestions(w,records){return w.items.flatMap((i,n)=>{
  const p=i.progression;if(!p||p.criterion==='off')return[];const rows=records.filter(r=>r.item===n&&isWork({type:r.type||'trabalho'})&&(p.criterion!=='principal'||r.type==='principal'));
- if(!rows.length)return[];const eligible=rows.every(r=>r.done&&/^\d+$/.test(r.reps)&&Number(r.reps)>=p.max&&r.load!==null&&(!Number.isFinite(r.targetRir)||r.rir!==null&&r.rir!==undefined&&r.rir>=r.targetRir));
+ if(!rows.length||rows.some(r=>r.exercise!==i.exercise))return[];const eligible=rows.every(r=>r.done&&/^\d+$/.test(r.reps)&&Number(r.reps)>=p.max&&r.load!==null&&(!Number.isFinite(r.targetRir)||r.rir!==null&&r.rir!==undefined&&r.rir>=r.targetRir));
  if(!eligible)return[];return[exercise(i.exercise)?.name+': revisar aumento de '+p.increment+' '+(i.unit||'kg total')+'; critério '+(p.criterion==='all'?'todas as séries':'série principal')+' atingido.'];
  });}
 function addItem(){const i={exercise:document.getElementById('exercisePick').value,sets:3,reps:'10–12',load:null,rest:60,unit:'kg total'};i.setPlan=legacySeries(i).map(s=>({...s,mode:'percent',percent:100,reference:'base'}));editor.items.push(i);renderItems();}
