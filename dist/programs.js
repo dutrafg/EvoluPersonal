@@ -97,7 +97,8 @@
    save();closeModal();render();toast('Rotina criada. Agora adicione os treinos A–G.');
   };
  }
- function openEvolution(studentId){insightStudent=studentId;go('insights')}\n function renameProgram(id){
+ function openEvolution(studentId){insightStudent=studentId;go('insights')}
+ function renameProgram(id){
   const p=data().find(x=>x.id===id);if(!p)return;
   const name=prompt('Nome da rotina',p.name);if(name===null)return;
   const clean=name.trim();if(!clean)return toast('O nome da rotina não pode ficar vazio.');
