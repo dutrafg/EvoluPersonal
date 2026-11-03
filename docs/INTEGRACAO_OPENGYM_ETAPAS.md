@@ -53,3 +53,11 @@
 - **Etapa 5:** a triagem comparou os 500 IDs do inventário com 5.632 exercícios e 5.632 nomes PT-BR do openGym. Resultado: 18 nomes exatos únicos, 1 nome exato ambíguo, 58 candidatos fortes, 165 candidatos para revisão e 258 sem correspondência confiável por nome. Os nomes no CSV são candidatos, não validações biomecânicas.
 - A lista Markdown e o inventário contêm 500 exercícios. Os itens 127 e 132 estão presentes, mas sem espaço após o ponto. A revisão dos 77 candidatos exatos/fortes confirmou correspondência de grupo corporal em 77/77; isso não valida visualmente os GIFs.
 - Nenhum arquivo de mídia nem instrução longa foi copiado para o EvoluPersonal. A análise usa referências, metadados e contagem de instruções; cada GIF ainda precisa ser conferido individualmente.
+
+## Prévia HTML — correção do carregamento
+
+- O HTML único foi atualizado após o print no Android mostrar somente o cabeçalho. A causa foi uma quebra de linha escapada como texto e quatro aspas escapadas em excesso no JavaScript da página; os separadores e handlers foram corrigidos.
+- Os quatro blocos JavaScript embutidos passaram na verificação de sintaxe. O arquivo atualizado está na Library como `EvoluPersonal_Teste_Completo.html` (versão 1).
+- A prévia continua buscando GIFs no repositório privado e depende de internet/acesso ao GitHub. O pacote offline requer a versão HTTPS.
+- As etapas 7–9 continuam pendentes de validação visual completa e produção das 55 animações. Por isso, o progresso não foi marcado como 10/10.
+
