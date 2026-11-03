@@ -15,7 +15,7 @@
 - [x] **7. Cruzar candidatos com OpenGym:** auditar nome, equipamento e grupo nos 77 candidatos exatos/fortes; 77/77 têm `bodyPart` compatível com o grupo da MD500. A aprovação visual individual dos GIFs permanece pendente.
 - [x] **8. Corrigir e conferir a biblioteca oficial:** ajustar a formatação dos itens 127 e 132; conferir 500 IDs únicos (1–500) no inventário e na tabela de comparação. Nenhuma associação ambígua ou sem correspondência confiável foi forçada.
 - [x] **9. Completar a prévia conceitual:** adicionar animações inline aos 55 cartões sem GIF na prévia HTML. Cada uma está identificada como conceito e movimento não validado; os arquivos finais continuam pendentes.
-- [x] **10. Auditar e preparar a prévia:** confirmar 500 linhas e 500 IDs MD únicos no CSV; manter os estados de mídia e aprovação explícitos; corrigir erros de sintaxe que causavam a tela vazia; gerar o HTML completo para teste em Android.
+- [x] **10. Auditar e preparar a prévia:** confirmar 500 linhas e 500 IDs MD únicos no CSV; manter os estados de mídia e aprovação explícitos; corrigir erros de sintaxe e ordem de inicialização que causavam a tela vazia; gerar o HTML completo para teste em Android.
 
 **Regra da prévia:** após cada dez etapas concluídas (10, 20, 30…), gerar um HTML completo e testável para revisão. Progresso atual: **10 de 10 marcos técnicos da prévia**. Os 55 GIFs finais e a aprovação visual dos movimentos continuam pendentes.
 
@@ -67,5 +67,5 @@
 
 - O CSV tem 500 linhas, IDs MD únicos de 1 a 500 e sem linhas com quantidade incorreta de colunas. Status OpenGym: 18 nomes exatos, 1 exato ambíguo, 58 candidatos fortes, 165 para revisão manual e 258 sem correspondência confiável.
 - A prévia HTML contém animações SVG inline nos 55 exercícios sem GIF. O rótulo deixa claro que é conceito e não valida movimento; nenhuma mídia externa foi copiada ou aprovada por causa dessas animações.
-- O HTML foi corrigido para remover sequências `\\n` literais entre instruções JavaScript e escapes excedentes em manipuladores de evento, causa da tela vazia observada no Android.
+- O HTML foi corrigido para remover sequências `\\n` literais, escapes excedentes e a falha de inicialização `gymBellsByMd` (uso antes da declaração) que impedia `render()` e deixava o corpo da tela vazio. A prévia passou por execução simulada dos quatro scripts e a tela inicial foi renderizada.
 - Limite desta entrega: ainda requer conferência visual humana dos GIFs ligados e produção de 55 arquivos finais antes de tratar a biblioteca como aprovada para uso real.
