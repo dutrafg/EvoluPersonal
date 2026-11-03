@@ -59,7 +59,7 @@
 - O HTML único foi atualizado após o print no Android mostrar somente o cabeçalho. A causa foi uma quebra de linha escapada como texto e quatro aspas escapadas em excesso no JavaScript da página; os separadores e handlers foram corrigidos.
 - Os quatro blocos JavaScript embutidos passaram na verificação de sintaxe. O arquivo atualizado está na Library como `EvoluPersonal_Teste_Completo.html` (versão 1).
 - A prévia continua buscando GIFs no repositório privado e depende de internet/acesso ao GitHub. O pacote offline requer a versão HTTPS.
-- As etapas 7–9 continuam pendentes de validação visual completa e produção das 55 animações. Por isso, o progresso não foi marcado como 10/10.
+- O protótipo fecha os marcos 7–10 para teste. A revisão visual humana dos GIFs ligados e a produção dos 55 arquivos finais permanecem explicitamente pendentes, sem status de aprovação.
 
 
 
