@@ -1278,8 +1278,9 @@ render();if(loadError)toast('Não foi possível ler a base anterior. Verifique a
     document.getElementById('epmAppointmentForm').onsubmit = e => {
       e.preventDefault(); const value = Object.fromEntries(new FormData(e.currentTarget));
       const row = { id: item?.id || uid(), student: value.student, date: value.date, time: value.time, type: value.type, location: value.location.trim(), notes: value.notes.trim(), status: item?.status || 'scheduled' };
+      const before = item ? structuredClone(item) : null;
       if (item) Object.assign(item, row); else db.appointments.push(row);
-      if (!validDB(db) || !save()) { if (item) Object.assign(item, item); else db.appointments.pop(); return toast('Não foi possível salvar. Confira os dados e o espaço disponível.'); }
+      if (!validDB(db) || !save()) { if (item) Object.assign(item, before); else db.appointments.pop(); return toast('Não foi possível salvar. Confira os dados e o espaço disponível.'); }
       closeModal(); render(); toast(item ? 'Compromisso atualizado.' : 'Compromisso agendado.');
     };
   }
@@ -1319,8 +1320,9 @@ render();if(loadError)toast('Não foi possível ler a base anterior. Verifique a
     document.getElementById('epmAssessmentForm').onsubmit = e => {
       e.preventDefault(); const form = Object.fromEntries(new FormData(e.currentTarget));
       const row = { id: item?.id || uid(), student: sid, date: form.date, weightKg: form.weightKg === '' ? null : Number(form.weightKg), bodyFatPct: form.bodyFatPct === '' ? null : Number(form.bodyFatPct), waistCm: form.waistCm === '' ? null : Number(form.waistCm), hipCm: form.hipCm === '' ? null : Number(form.hipCm), chestCm: form.chestCm === '' ? null : Number(form.chestCm), armCm: form.armCm === '' ? null : Number(form.armCm), thighCm: form.thighCm === '' ? null : Number(form.thighCm), notes: form.notes.trim() };
+      const before = item ? structuredClone(item) : null;
       if (item) Object.assign(item, row); else db.assessments.push(row);
-      if (!validDB(db) || !save()) { if (!item) db.assessments.pop(); return toast('Informe pelo menos uma medida válida.'); }
+      if (!validDB(db) || !save()) { if (item) Object.assign(item, before); else db.assessments.pop(); return toast('Informe pelo menos uma medida válida.'); }
       closeModal(); render(); toast('Avaliação salva.');
     };
   }
@@ -1331,14 +1333,15 @@ render();if(loadError)toast('Não foi possível ler a base anterior. Verifique a
       e.preventDefault(); const form = Object.fromEntries(new FormData(e.currentTarget)); const spec = epmMetrics[form.metric];
       const row = { id: item?.id || uid(), student: studentId, metric: form.metric, initial: Number(form.initial), target: Number(form.target), dueDate: form.dueDate, notes: form.notes.trim() };
       if (!spec || row.initial === row.target) return toast('A meta precisa ter valores inicial e desejado diferentes.');
+      const before = item ? structuredClone(item) : null;
       if (item) Object.assign(item, row); else db.goals.push(row);
-      if (!validDB(db) || !save()) { if (!item) db.goals.pop(); return toast('Não foi possível salvar a meta.'); }
+      if (!validDB(db) || !save()) { if (item) Object.assign(item, before); else db.goals.pop(); return toast('Não foi possível salvar a meta.'); }
       closeModal(); render(); toast('Meta salva.');
     };
   }
   function epmGoalMetricChanged(select) {
     const metric = epmMetrics[select.value]; const input = document.querySelector('#epmGoalForm [name="initial"]');
-    if (input && !input.value) { const latest = latestAssessment(selected); const value = metricValue(latest, select.value); if (Number.isFinite(value)) input.value = value; }
+    if (input) { const latest = latestAssessment(selected); const value = metricValue(latest, select.value); input.value = Number.isFinite(value) ? value : ''; }
   }
   function epmDeleteAssessment(id) {
     const index = db.assessments.findIndex(x => x.id === id); if (index < 0 || !confirm('Excluir esta avaliação?')) return;
