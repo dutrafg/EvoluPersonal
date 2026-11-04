@@ -1,0 +1,606 @@
+{
+  "source": {
+    "name": "OpenExerciseBase",
+    "repository": "OpenExerciseBase/OpenExerciseBase-Database",
+    "revision": "57790f9a16840b433b3e79ad9fec838bff3e8dfe",
+    "license": "CC BY-NC 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+  },
+  "audit": {
+    "targetList": "docs/500-exercicios-base.md",
+    "targetTotal": 500,
+    "sourceTotal": 191,
+    "matchedSourceExercises": 24,
+    "matchedTargetExercises": 25,
+    "method": "Correspondência por nome, padrão de movimento e equipamento; pares candidatos com diferença de variante foram deixados de fora."
+  },
+  "exercises": [
+    {
+      "id": "EX-dumbbell-bench-press-3J2GPJPQMF8JKD4DS1N2KYT2M9",
+      "name": "Dumbbell Bench Press",
+      "bodyParts": [
+        "chest",
+        "triceps",
+        "shoulders"
+      ],
+      "equipment": [
+        "dumbbells",
+        "bench"
+      ],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 3,
+          "name": "Supino Reto com Halteres"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-dumbbell-bench-press-3J2GPJPQMF8JKD4DS1N2KYT2M9/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-dumbbell-bench-press-3J2GPJPQMF8JKD4DS1N2KYT2M9/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-standard-push-up-2JAXEZ5GHQJK37N03V66V5QVEA",
+      "name": "Standard Push-Up",
+      "bodyParts": [
+        "chest",
+        "triceps",
+        "shoulders",
+        "core",
+        "upper_back"
+      ],
+      "equipment": [],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 7,
+          "name": "Flexão de Braços Tradicional (Push-up)"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-standard-push-up-2JAXEZ5GHQJK37N03V66V5QVEA/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-standard-push-up-2JAXEZ5GHQJK37N03V66V5QVEA/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-incline-push-up-6PYPR4RGH5GBRPPFEFT3QDCGJK",
+      "name": "Incline Push-Up",
+      "bodyParts": [
+        "chest",
+        "triceps",
+        "shoulders",
+        "core",
+        "upper_back"
+      ],
+      "equipment": [
+        "bench"
+      ],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 55,
+          "name": "Flexão de Braços Inclinada (Mãos no banco)"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-incline-push-up-6PYPR4RGH5GBRPPFEFT3QDCGJK/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-incline-push-up-6PYPR4RGH5GBRPPFEFT3QDCGJK/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-lat-pulldown-60Y3WQ802BGA7R7H1MPEMAGSN9",
+      "name": "Lat Pulldown",
+      "bodyParts": [
+        "upper_back",
+        "biceps",
+        "forearms"
+      ],
+      "equipment": [
+        "cable_machine"
+      ],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 70,
+          "name": "Puxada Alta na Polia pela Frente (Pulldown Pegada Aberta)"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-lat-pulldown-60Y3WQ802BGA7R7H1MPEMAGSN9/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-lat-pulldown-60Y3WQ802BGA7R7H1MPEMAGSN9/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-assisted-pull-up-68JE9TCX2XQBYA1NP6127HY7ZM",
+      "name": "Band-Assisted Pull-Up",
+      "bodyParts": [
+        "upper_back",
+        "biceps",
+        "forearms",
+        "core"
+      ],
+      "equipment": [
+        "pull_up_bar",
+        "resistance_band"
+      ],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 79,
+          "name": "Barra Fixa com Elástico de Assistência"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-assisted-pull-up-68JE9TCX2XQBYA1NP6127HY7ZM/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-assisted-pull-up-68JE9TCX2XQBYA1NP6127HY7ZM/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-barbell-hip-hinge-deadlift-0TE617K6ZEVETTH0404XTV8FTN",
+      "name": "Barbell Hip Hinge Deadlift",
+      "bodyParts": [
+        "glutes",
+        "hamstrings",
+        "forearms",
+        "lower_back"
+      ],
+      "equipment": [
+        "barbell",
+        "weight_plates"
+      ],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 61,
+          "name": "Levantamento Terra Convencional (Deadlift)"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-barbell-hip-hinge-deadlift-0TE617K6ZEVETTH0404XTV8FTN/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-barbell-hip-hinge-deadlift-0TE617K6ZEVETTH0404XTV8FTN/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-romanian-deadlift-with-dumbbells-02YF72Q5VZ8YVWB7F7Z5GQ9D97",
+      "name": "Romanian Deadlift with Dumbbells",
+      "bodyParts": [
+        "hamstrings",
+        "glutes",
+        "forearms",
+        "lower back",
+        "hip flexors",
+        "core"
+      ],
+      "equipment": [
+        "dumbbells"
+      ],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 203,
+          "name": "Levantamento Terra Romeno com Halteres"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-romanian-deadlift-with-dumbbells-02YF72Q5VZ8YVWB7F7Z5GQ9D97/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-romanian-deadlift-with-dumbbells-02YF72Q5VZ8YVWB7F7Z5GQ9D97/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-dead-bug-403Z20MSBAQ73W292PMSXTDY3J",
+      "name": "Dead Bug",
+      "bodyParts": [
+        "core",
+        "hips",
+        "hip_flexors"
+      ],
+      "equipment": [
+        "yoga mat"
+      ],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 496,
+          "name": "Dead Bug (Inseto Morto - estabilização lombar contralateral)"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-dead-bug-403Z20MSBAQ73W292PMSXTDY3J/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-dead-bug-403Z20MSBAQ73W292PMSXTDY3J/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-biceps-curl-5YAEAAX06FCK6GRY0G5RNKTAQ2",
+      "name": "Biceps Curl",
+      "bodyParts": [
+        "biceps",
+        "forearms"
+      ],
+      "equipment": [
+        "dumbbells"
+      ],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 354,
+          "name": "Rosca Simultânea em Pé com Halteres"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-biceps-curl-5YAEAAX06FCK6GRY0G5RNKTAQ2/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-biceps-curl-5YAEAAX06FCK6GRY0G5RNKTAQ2/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-cable-triceps-pressdown-5EECQM8KH6N6CFPYWYBVCMT3NZ",
+      "name": "Cable Triceps Pressdown",
+      "bodyParts": [
+        "triceps"
+      ],
+      "equipment": [
+        "cable_machine"
+      ],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 405,
+          "name": "Tríceps Pulley na Polia Alta com Barra Reta ou W (Pushdown)"
+        },
+        {
+          "id": 406,
+          "name": "Tríceps Pulley na Polia Alta com Corda"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-cable-triceps-pressdown-5EECQM8KH6N6CFPYWYBVCMT3NZ/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-cable-triceps-pressdown-5EECQM8KH6N6CFPYWYBVCMT3NZ/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-goblet-squat-0C4G448Z5SRV4JYT0F4YD83G4P",
+      "name": "Goblet Squat",
+      "bodyParts": [
+        "quadriceps",
+        "glutes",
+        "hips",
+        "core",
+        "hamstrings",
+        "inner_thighs"
+      ],
+      "equipment": [
+        "dumbbells"
+      ],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 150,
+          "name": "Agachamento Goblet (Com Halter ou Kettlebell no peito)"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-goblet-squat-0C4G448Z5SRV4JYT0F4YD83G4P/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-goblet-squat-0C4G448Z5SRV4JYT0F4YD83G4P/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-seated-chest-press-machine-269KM1A5E15DCPF3YP0P54B8HH",
+      "name": "Seated Chest Press Machine",
+      "bodyParts": [
+        "chest",
+        "triceps",
+        "shoulders"
+      ],
+      "equipment": [
+        "chest_press_machine"
+      ],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 12,
+          "name": "Supino Reto na Máquina (Sentado / Vertical)"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-seated-chest-press-machine-269KM1A5E15DCPF3YP0P54B8HH/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-seated-chest-press-machine-269KM1A5E15DCPF3YP0P54B8HH/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-dumbbell-lateral-raise-4GDQTWWKGHDSK0WB60WGCRCYAX",
+      "name": "Dumbbell Lateral Raise",
+      "bodyParts": [
+        "shoulders"
+      ],
+      "equipment": [
+        "dumbbells"
+      ],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 295,
+          "name": "Elevação Lateral com Halteres em Pé"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-dumbbell-lateral-raise-4GDQTWWKGHDSK0WB60WGCRCYAX/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-dumbbell-lateral-raise-4GDQTWWKGHDSK0WB60WGCRCYAX/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-farmer-carry-733B47QMQ0P9DZC56Z4XXCMF81",
+      "name": "Farmer Carry",
+      "bodyParts": [
+        "forearms",
+        "core",
+        "shoulders",
+        "full body",
+        "upper back"
+      ],
+      "equipment": [
+        "dumbbells"
+      ],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 138,
+          "name": "Caminhada do Fazendeiro (Farmer's Walk - Foco em Trapézio e Estabilizadores)"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-farmer-carry-733B47QMQ0P9DZC56Z4XXCMF81/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-farmer-carry-733B47QMQ0P9DZC56Z4XXCMF81/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-suitcase-carry-5Q2TEDCGHJVAVZDACBMG37BKSR",
+      "name": "Suitcase Carry",
+      "bodyParts": [
+        "core",
+        "forearms",
+        "shoulders",
+        "hips"
+      ],
+      "equipment": [
+        "kettlebell"
+      ],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 499,
+          "name": "Caminhada da Mala Unilateral (Suitcase Carry - Anti-flexão lateral)"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-suitcase-carry-5Q2TEDCGHJVAVZDACBMG37BKSR/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-suitcase-carry-5Q2TEDCGHJVAVZDACBMG37BKSR/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-single-leg-glute-bridge-740GSXTBK7FSCZA7Z7J1VR4GNV",
+      "name": "Single-Leg Glute Bridge",
+      "bodyParts": [
+        "glutes",
+        "hamstrings",
+        "core",
+        "hips"
+      ],
+      "equipment": [
+        "yoga mat"
+      ],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 256,
+          "name": "Ponte de Glúteo Unilateral no Solo (Single-Leg Glute Bridge)"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-single-leg-glute-bridge-740GSXTBK7FSCZA7Z7J1VR4GNV/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-single-leg-glute-bridge-740GSXTBK7FSCZA7Z7J1VR4GNV/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-pistol-squats-01KZ3V3DYR43D2FTV12ZVQHG10",
+      "name": "Pistol Squats",
+      "bodyParts": [
+        "quadriceps",
+        "glutes",
+        "hips",
+        "lower_back",
+        "hamstrings"
+      ],
+      "equipment": [],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 191,
+          "name": "Agachamento Pistol (Unilateral com peso do corpo)"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-pistol-squats-01KZ3V3DYR43D2FTV12ZVQHG10/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-pistol-squats-01KZ3V3DYR43D2FTV12ZVQHG10/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-pallof-press-1Q1QK615SWWMD19AGNT9C9SJ46",
+      "name": "Pallof Press",
+      "bodyParts": [
+        "core",
+        "shoulders",
+        "chest"
+      ],
+      "equipment": [
+        "resistance_band"
+      ],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 488,
+          "name": "Pallof Press na Polia Média (Exercício de Anti-Rotação)"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-pallof-press-1Q1QK615SWWMD19AGNT9C9SJ46/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-pallof-press-1Q1QK615SWWMD19AGNT9C9SJ46/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-russian-twist-01KZ3V3DYQG2ZAZAGXM9YXKZ4A",
+      "name": "Russian Twist",
+      "bodyParts": [
+        "core",
+        "hip_flexors",
+        "lower_back"
+      ],
+      "equipment": [
+        "yoga mat"
+      ],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 483,
+          "name": "Giro Russo Sentado com Peso ou Medicine Ball (Russian Twist)"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-russian-twist-01KZ3V3DYQG2ZAZAGXM9YXKZ4A/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-russian-twist-01KZ3V3DYQG2ZAZAGXM9YXKZ4A/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-bicycle-crunches-01KZ3V3DYMQ0JFE1ZDQWY74XFE",
+      "name": "Bicycle Crunches",
+      "bodyParts": [
+        "core",
+        "abdominals",
+        "lower back",
+        "hip flexors"
+      ],
+      "equipment": [],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 484,
+          "name": "Abdominal Bicicleta no Solo (Bicycle Crunch)"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-bicycle-crunches-01KZ3V3DYMQ0JFE1ZDQWY74XFE/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-bicycle-crunches-01KZ3V3DYMQ0JFE1ZDQWY74XFE/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-leg-raises-01KZ3V3DYND08RZF4CTKT9VFT9",
+      "name": "Leg Raises",
+      "bodyParts": [
+        "core",
+        "hip flexors",
+        "lower back"
+      ],
+      "equipment": [],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 473,
+          "name": "Abdominal Infra no Solo ou Banco (Elevação de pernas deitado)"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-leg-raises-01KZ3V3DYND08RZF4CTKT9VFT9/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-leg-raises-01KZ3V3DYND08RZF4CTKT9VFT9/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-v-up-01KZ3V3DYPMJ0VD30AKHABF5P6",
+      "name": "V-Up",
+      "bodyParts": [
+        "core",
+        "hip_flexors"
+      ],
+      "equipment": [
+        "yoga mat"
+      ],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 475,
+          "name": "Abdominal Canivete (V-Up)"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-v-up-01KZ3V3DYPMJ0VD30AKHABF5P6/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-v-up-01KZ3V3DYPMJ0VD30AKHABF5P6/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-front-plank-2MCVVADVSQBQVAQMMRV3BH3HQA",
+      "name": "Front Plank",
+      "bodyParts": [
+        "core",
+        "shoulders"
+      ],
+      "equipment": [
+        "yoga mat"
+      ],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 463,
+          "name": "Prancha Abdominal Isométrica no Solo (Plank)"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-front-plank-2MCVVADVSQBQVAQMMRV3BH3HQA/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-front-plank-2MCVVADVSQBQVAQMMRV3BH3HQA/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    },
+    {
+      "id": "EX-tibialis-raise-against-wall-76FV9RX9M9F4Z30F7YEWW3NJVF",
+      "name": "Standing Tibialis Raise (Against Wall)",
+      "bodyParts": [
+        "ankles",
+        "feet",
+        "calves"
+      ],
+      "equipment": [
+        "wall"
+      ],
+      "category": "strength_and_resistance",
+      "imageFile": "image_1.png",
+      "md500": [
+        {
+          "id": 458,
+          "name": "Elevação Tibial na Parede (Bodyweight Tibialis Raise)"
+        }
+      ],
+      "imageAsset": "assets/openexercisebase/EX-tibialis-raise-against-wall-76FV9RX9M9F4Z30F7YEWW3NJVF/image_1.png",
+      "sourceAsset": "https://github.com/OpenExerciseBase/OpenExerciseBase-Database/blob/main/images/EX-tibialis-raise-against-wall-76FV9RX9M9F4Z30F7YEWW3NJVF/image_1.png",
+      "license": "CC BY-NC 4.0",
+      "credit": "OpenExerciseBase — Ludwig Boltzmann Institute for Digital Health and Prevention"
+    }
+  ]
+}

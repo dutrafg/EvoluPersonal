@@ -1,0 +1,1607 @@
+{
+  "date": "2026-10-30",
+  "total": 55,
+  "source": {
+    "repository": "DuarteSantos8/openGym",
+    "commit": "b6cfe2bbd3f099523ffbf2677438864e9a09a06f",
+    "ptBrEntries": 5632
+  },
+  "licenseNote": "Somente referência textual; nenhuma mídia do Gym visual foi reutilizada.",
+  "items": [
+    {
+      "mdId": 153,
+      "name": "Agachamento Pêndulo na Máquina (Pendulum Squat)",
+      "group": "upper legs",
+      "productionState": "aguardando_producao",
+      "comparison": "review-candidate",
+      "openGymCandidate": {
+        "id": "4951",
+        "name": "agachamento pêndulo na máquina (com anilhas)",
+        "equipment": "leverage machine",
+        "nameSimilarity": 0.5,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "1038",
+          "name": "agachamento na cadeira na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.43
+        },
+        {
+          "id": "1039",
+          "name": "agachamento completo na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.43
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 155,
+      "name": "Agachamento V-Squat na Máquina",
+      "group": "upper legs",
+      "productionState": "aguardando_producao",
+      "comparison": "review-candidate",
+      "openGymCandidate": {
+        "id": "1038",
+        "name": "agachamento na cadeira na máquina",
+        "equipment": "leverage machine",
+        "nameSimilarity": 0.5,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "1039",
+          "name": "agachamento completo na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.5
+        },
+        {
+          "id": "5516",
+          "name": "hack squat na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.5
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 171,
+      "name": "Leg Press Articulado (Iso-Lateral)",
+      "group": "upper legs",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "1027",
+        "name": "leg press unilateral assistido",
+        "equipment": "leverage machine",
+        "nameSimilarity": 0.29,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "2287",
+          "name": "leg press alternado (máquina)",
+          "equipment": "leverage machine",
+          "similarity": 0.29
+        },
+        {
+          "id": "8375",
+          "name": "leg press angulado na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.25
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 173,
+      "name": "Leg Press Horizontal Unilateral",
+      "group": "upper legs",
+      "productionState": "aguardando_producao",
+      "comparison": "strong-candidate",
+      "openGymCandidate": {
+        "id": "2611",
+        "name": "leg press horizontal unilateral na máquina",
+        "equipment": "leverage machine",
+        "nameSimilarity": 0.67,
+        "ptBrInstructionSteps": 6
+      },
+      "otherCandidates": [
+        {
+          "id": "1027",
+          "name": "leg press unilateral assistido",
+          "equipment": "leverage machine",
+          "similarity": 0.6
+        },
+        {
+          "id": "2951",
+          "name": "leg press horizontal na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.5
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 175,
+      "name": "Agachamento Hack Unilateral",
+      "group": "upper legs",
+      "productionState": "aguardando_producao",
+      "comparison": "review-candidate",
+      "openGymCandidate": {
+        "id": "9929",
+        "name": "agachamento unilateral no hack squat",
+        "equipment": "leverage machine",
+        "nameSimilarity": 0.6,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "1476",
+          "name": "agachamento unilateral",
+          "equipment": "body weight",
+          "similarity": 0.67
+        },
+        {
+          "id": "1573",
+          "name": "agachamento unilateral sentado na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.33
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 214,
+      "name": "RDL na Máquina de Hack / V-Squat Invertido",
+      "group": "upper legs",
+      "productionState": "aguardando_producao",
+      "comparison": "review-candidate",
+      "openGymCandidate": {
+        "id": "6733",
+        "name": "bom dia na máquina de hack squat",
+        "equipment": "leverage machine",
+        "nameSimilarity": 0.5,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "5516",
+          "name": "hack squat na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.5
+        },
+        {
+          "id": "8799",
+          "name": "levantamento terra unilateral na máquina de hack squat",
+          "equipment": "leverage machine",
+          "similarity": 0.45
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 219,
+      "name": "Bom Dia na Máquina (Hack Squat ou Pendulum)",
+      "group": "upper legs",
+      "productionState": "aguardando_producao",
+      "comparison": "strong-candidate",
+      "openGymCandidate": {
+        "id": "6733",
+        "name": "bom dia na máquina de hack squat",
+        "equipment": "leverage machine",
+        "nameSimilarity": 0.67,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "5516",
+          "name": "hack squat na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.5
+        },
+        {
+          "id": "6523",
+          "name": "hack squat linear na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.44
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 228,
+      "name": "Flexora Ajoelhada na Máquina (Kneeling Leg Curl)",
+      "group": "upper legs",
+      "productionState": "aguardando_producao",
+      "comparison": "review-candidate",
+      "openGymCandidate": {
+        "id": "0582",
+        "name": "flexora ajoelhada (máquina)",
+        "equipment": "leverage machine",
+        "nameSimilarity": 0.43,
+        "ptBrInstructionSteps": 7
+      },
+      "otherCandidates": [
+        {
+          "id": "8375",
+          "name": "leg press angulado na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.33
+        },
+        {
+          "id": "2749",
+          "name": "leg press assistido na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.33
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 240,
+      "name": "Razor Curl no Aparelho de GHR",
+      "group": "upper legs",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "0130",
+        "name": "extensão de quadril no banco",
+        "equipment": "body weight",
+        "nameSimilarity": 0.22,
+        "ptBrInstructionSteps": 5
+      },
+      "otherCandidates": [
+        {
+          "id": "4421",
+          "name": "coice de glúteo no cabo",
+          "equipment": "cable",
+          "similarity": 0.22
+        },
+        {
+          "id": "0168",
+          "name": "adução de quadril no cabo",
+          "equipment": "cable",
+          "similarity": 0.22
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 250,
+      "name": "Elevação Pélvica na Cadeira Extensora / Mesa Flexora (Adaptação)",
+      "group": "upper legs",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "7384",
+        "name": "elevação pélvica na máquina (com anilhas)",
+        "equipment": "leverage machine",
+        "nameSimilarity": 0.27,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "3386",
+          "name": "cadeira extensora na máquina v. 2",
+          "equipment": "leverage machine",
+          "similarity": 0.27
+        },
+        {
+          "id": "8604",
+          "name": "mesa flexora sentado na máquina (com anilhas)",
+          "equipment": "leverage machine",
+          "similarity": 0.25
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 269,
+      "name": "Coice no Smith (Empurrando a barra com a sola do pé em 4 apoios)",
+      "group": "upper legs",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "1183",
+        "name": "coice traseiro ajoelhado no smith",
+        "equipment": "smith machine",
+        "nameSimilarity": 0.2,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "3856",
+          "name": "agachamento no smith com faixa elástica",
+          "equipment": "smith machine",
+          "similarity": 0.19
+        },
+        {
+          "id": "4179",
+          "name": "agachamento completo no smith com faixa elástica",
+          "equipment": "smith machine",
+          "similarity": 0.18
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 275,
+      "name": "Cadeira Abdutora em Pé (Sem sentar no banco)",
+      "group": "upper legs",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "10916",
+        "name": "toque no pé em levantamento terra unilateral sem peso",
+        "equipment": "body weight",
+        "nameSimilarity": 0.31,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "1518",
+          "name": "avanço com pé no banco declinado com barra",
+          "equipment": "barbell",
+          "similarity": 0.25
+        },
+        {
+          "id": "0228",
+          "name": "extensão de quadril em pé no cabo",
+          "equipment": "cable",
+          "similarity": 0.25
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 278,
+      "name": "Abdução de Quadril Deitado de Lado na Polia Baixa",
+      "group": "upper legs",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "6739",
+        "name": "abdução de quadril ajoelhado no cabo",
+        "equipment": "cable",
+        "nameSimilarity": 0.27,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "3048",
+          "name": "abdução de quadril no cabo v. 2",
+          "equipment": "cable",
+          "similarity": 0.25
+        },
+        {
+          "id": "8875",
+          "name": "flexão de quadril unilateral deitado no cabo",
+          "equipment": "cable",
+          "similarity": 0.25
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 290,
+      "name": "Máquina Multiquadril (4-Way Hip Machine - Extensão, Flexão, Abdução, Adução)",
+      "group": "upper legs",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "2146",
+        "name": "hip thrust na máquina",
+        "equipment": "leverage machine",
+        "nameSimilarity": 0.17,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "2746",
+          "name": "agachamento de abdução na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.15
+        },
+        {
+          "id": "2747",
+          "name": "adução de quadril na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.15
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 308,
+      "name": "Viking Press (No acessório específico ou Landmine)",
+      "group": "shoulders",
+      "productionState": "aguardando_producao",
+      "comparison": "review-candidate",
+      "openGymCandidate": {
+        "id": "5074",
+        "name": "press no landmine",
+        "equipment": "landmine",
+        "nameSimilarity": 0.43,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "5094",
+          "name": "press unilateral no landmine",
+          "equipment": "landmine",
+          "similarity": 0.38
+        },
+        {
+          "id": "10190",
+          "name": "push press unilateral no landmine",
+          "equipment": "landmine",
+          "similarity": 0.33
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 311,
+      "name": "Bradford Press (Passando a barra da frente para trás da cabeça sem trancar os cotovelos)",
+      "group": "shoulders",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "2914",
+        "name": "transporte acima da cabeça com barra",
+        "equipment": "barbell",
+        "nameSimilarity": 0.18,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "0086",
+          "name": "desenvolvimento militar sentado atrás da cabeça com barra",
+          "equipment": "barbell",
+          "similarity": 0.16
+        },
+        {
+          "id": "0107",
+          "name": "elevação frontal em pé acima da cabeça com barra",
+          "equipment": "barbell",
+          "similarity": 0.15
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 318,
+      "name": "Elevação Lateral Dupla Cruzada nos Cabos (Bilateral no Crossover)",
+      "group": "shoulders",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "4013",
+        "name": "elevação lateral cruzada deitado no cabo",
+        "equipment": "cable",
+        "nameSimilarity": 0.36,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "9872",
+          "name": "elevação lateral cruzada deitado no banco no cabo",
+          "equipment": "cable",
+          "similarity": 0.33
+        },
+        {
+          "id": "9874",
+          "name": "elevação lateral cruzada unilateral deitado no cabo",
+          "equipment": "cable",
+          "similarity": 0.33
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 321,
+      "name": "Elevação Lateral com Peito Apoiado no Banco Inclinado",
+      "group": "shoulders",
+      "productionState": "aguardando_producao",
+      "comparison": "review-candidate",
+      "openGymCandidate": {
+        "id": "3685",
+        "name": "elevação lateral com apoio no peito e halteres",
+        "equipment": "dumbbell",
+        "nameSimilarity": 0.45,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "3880",
+          "name": "elevação lateral inclinado no cabo",
+          "equipment": "cable",
+          "similarity": 0.44
+        },
+        {
+          "id": "3980",
+          "name": "elevação frontal inclinado com apoio no peito e halteres",
+          "equipment": "dumbbell",
+          "similarity": 0.42
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 346,
+      "name": "Powell Raise (Crucifixo inverso unilateral deitado de lado no banco)",
+      "group": "shoulders",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "9491",
+        "name": "elevação lateral unilateral deitado de lado no cabo",
+        "equipment": "cable",
+        "nameSimilarity": 0.38,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "4122",
+          "name": "crucifixo inverso unilateral no cabo",
+          "equipment": "cable",
+          "similarity": 0.36
+        },
+        {
+          "id": "0240",
+          "name": "crucifixo inverso deitado no cabo",
+          "equipment": "cable",
+          "similarity": 0.36
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 347,
+      "name": "Face Pull com Rotação Externa na Polia Alta",
+      "group": "shoulders",
+      "productionState": "aguardando_producao",
+      "comparison": "review-candidate",
+      "openGymCandidate": {
+        "id": "11060",
+        "name": "face pull com rotação externa no cabo",
+        "equipment": "cable",
+        "nameSimilarity": 0.5,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "5658",
+          "name": "face pull sentado no cabo (com corda)",
+          "equipment": "cable",
+          "similarity": 0.25
+        },
+        {
+          "id": "5656",
+          "name": "face pull em pé no cabo (com corda)",
+          "equipment": "cable",
+          "similarity": 0.23
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 350,
+      "name": "Cuban Press (Remada alta + rotação externa + desenvolvimento)",
+      "group": "shoulders",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "0935",
+        "name": "rotação externa de ombro em remada alta com faixa elástica",
+        "equipment": "band",
+        "nameSimilarity": 0.31,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "8879",
+          "name": "press de rotação externa meio ajoelhado no cabo",
+          "equipment": "cable",
+          "similarity": 0.25
+        },
+        {
+          "id": "10106",
+          "name": "remada alta com barra",
+          "equipment": "barbell",
+          "similarity": 0.22
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 372,
+      "name": "Rosca na Máquina (Sentado, braços na horizontal)",
+      "group": "upper arms",
+      "productionState": "aguardando_producao",
+      "comparison": "review-candidate",
+      "openGymCandidate": {
+        "id": "4336",
+        "name": "rosca bíceps na máquina",
+        "equipment": "leverage machine",
+        "nameSimilarity": 0.43,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "0592",
+          "name": "rosca scott na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.43
+        },
+        {
+          "id": "1451",
+          "name": "mergulho sentado na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.43
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 381,
+      "name": "Rosca Inclinada na Polia Baixa (Banco a 45° posicionado no crossover)",
+      "group": "upper arms",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "5703",
+        "name": "rosca bíceps inclinada no cabo",
+        "equipment": "cable",
+        "nameSimilarity": 0.23,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "11763",
+          "name": "rosca inclinada sentado no cabo",
+          "equipment": "cable",
+          "similarity": 0.23
+        },
+        {
+          "id": "4345",
+          "name": "rosca inclinada pegada fechada no cabo",
+          "equipment": "cable",
+          "similarity": 0.21
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 396,
+      "name": "Pronação e Supinação de Antebraço com Halter ou Barra unilateral",
+      "group": "upper arms",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "0354",
+        "name": "Kickback de tríceps unilateral com halter",
+        "equipment": "dumbbell",
+        "nameSimilarity": 0.33,
+        "ptBrInstructionSteps": 6
+      },
+      "otherCandidates": [
+        {
+          "id": "4343",
+          "name": "extensão de tríceps unilateral com halter",
+          "equipment": "dumbbell",
+          "similarity": 0.33
+        },
+        {
+          "id": "1735",
+          "name": "Extensão de tríceps deitado unilateral com halter",
+          "equipment": "dumbbell",
+          "similarity": 0.31
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 397,
+      "name": "Flexão Radial e Ulnar de Punho (Movimento de martelada em pé com halter)",
+      "group": "upper arms",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "0430",
+        "name": "extensão de tríceps em pé com halter",
+        "equipment": "dumbbell",
+        "nameSimilarity": 0.36,
+        "ptBrInstructionSteps": 5
+      },
+      "otherCandidates": [
+        {
+          "id": "0423",
+          "name": "extensão de tríceps em pé com halter, um braço",
+          "equipment": "dumbbell",
+          "similarity": 0.31
+        },
+        {
+          "id": "1670",
+          "name": "Rosca em pé unilateral com halter",
+          "equipment": "dumbbell",
+          "similarity": 0.29
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 412,
+      "name": "Extensão de Tríceps Passando da Cabeça ( pullover + testa / Rolling Triceps Extension)",
+      "group": "upper arms",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "6067",
+        "name": "extensão de tríceps acima da cabeça com garrafa",
+        "equipment": "weighted",
+        "nameSimilarity": 0.38,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "5860",
+          "name": "extensão de tríceps acima da cabeça com kettlebell",
+          "equipment": "kettlebell",
+          "similarity": 0.38
+        },
+        {
+          "id": "7864",
+          "name": "extensão de tríceps acima da cabeça na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.38
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 413,
+      "name": "JM Press com Barra ou no Smith (Híbrido entre Supino Fechado e Testa)",
+      "group": "upper arms",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "9385",
+        "name": "supino jm na máquina smith",
+        "equipment": "smith machine",
+        "nameSimilarity": 0.2,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "10116",
+          "name": "supino inclinado pegada fechada no smith",
+          "equipment": "smith machine",
+          "similarity": 0.19
+        },
+        {
+          "id": "4546",
+          "name": "rosca drag no smith",
+          "equipment": "smith machine",
+          "similarity": 0.13
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 414,
+      "name": "California Press",
+      "group": "upper arms",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "3291",
+        "name": "stalder press",
+        "equipment": "body weight",
+        "nameSimilarity": 0.33,
+        "ptBrInstructionSteps": 6
+      },
+      "otherCandidates": [
+        {
+          "id": "0816",
+          "name": "press de tríceps",
+          "equipment": "body weight",
+          "similarity": 0.25
+        },
+        {
+          "id": "0436",
+          "name": "tate press com halter",
+          "equipment": "dumbbell",
+          "similarity": 0.2
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 415,
+      "name": "Tate Press (Extensão com halteres apontando os cotovelos para fora no peito)",
+      "group": "upper arms",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "5884",
+        "name": "rosca, press e extensão com halteres",
+        "equipment": "dumbbell",
+        "nameSimilarity": 0.29,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "2738",
+          "name": "extensão de tríceps deitado no chão com halteres",
+          "equipment": "dumbbell",
+          "similarity": 0.25
+        },
+        {
+          "id": "0389",
+          "name": "Extensão de tríceps sentado no banco com halteres",
+          "equipment": "dumbbell",
+          "similarity": 0.25
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 421,
+      "name": "Paralelas no Graviton (Foco em Tríceps)",
+      "group": "upper arms",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "5110",
+        "name": "mergulho de tríceps no chão",
+        "equipment": "body weight",
+        "nameSimilarity": 0.22,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "1492",
+          "name": "alongamento de tríceps no mergulho",
+          "equipment": "body weight",
+          "similarity": 0.22
+        },
+        {
+          "id": "0815",
+          "name": "mergulho para tríceps no chão",
+          "equipment": "body weight",
+          "similarity": 0.22
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 427,
+      "name": "Tríceps Francês Sentado na Máquina Específica",
+      "group": "upper arms",
+      "productionState": "aguardando_producao",
+      "comparison": "review-candidate",
+      "openGymCandidate": {
+        "id": "1451",
+        "name": "mergulho sentado na máquina",
+        "equipment": "leverage machine",
+        "nameSimilarity": 0.43,
+        "ptBrInstructionSteps": 5
+      },
+      "otherCandidates": [
+        {
+          "id": "0607",
+          "name": "extensão de tríceps na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.38
+        },
+        {
+          "id": "0591",
+          "name": "mergulho de tríceps pegada pronada na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.3
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 428,
+      "name": "PJR Pullover (Híbrido de Pullover com Francês usando Halter pesado)",
+      "group": "upper arms",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "1736",
+        "name": "Tríceps francês unilateral na bola de estabilidade com halter",
+        "equipment": "dumbbell",
+        "nameSimilarity": 0.29,
+        "ptBrInstructionSteps": 5
+      },
+      "otherCandidates": [
+        {
+          "id": "7879",
+          "name": "kickback de tríceps inclinado com halter",
+          "equipment": "dumbbell",
+          "similarity": 0.25
+        },
+        {
+          "id": "7880",
+          "name": "kickback de tríceps ajoelhado com halter",
+          "equipment": "dumbbell",
+          "similarity": 0.25
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 432,
+      "name": "Tríceps Cruzado no Cabo (Cross-body Cable Triceps Extension - Bilateral ou Unilateral)",
+      "group": "upper arms",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "1723",
+        "name": "tríceps pulley unilateral no cabo",
+        "equipment": "cable",
+        "nameSimilarity": 0.33,
+        "ptBrInstructionSteps": 8
+      },
+      "otherCandidates": [
+        {
+          "id": "1728",
+          "name": "kickback de tríceps bilateral no cabo",
+          "equipment": "cable",
+          "similarity": 0.31
+        },
+        {
+          "id": "1609",
+          "name": "extensão lateral de tríceps unilateral no cabo",
+          "equipment": "cable",
+          "similarity": 0.29
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 436,
+      "name": "Tríceps Coice em Pé na Polia (Tronco a 45°)",
+      "group": "upper arms",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "1819",
+        "name": "alongamento com suspensão na polia em supinação",
+        "equipment": "cable",
+        "nameSimilarity": 0.23,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "0231",
+          "name": "extensão de tríceps unilateral em pé no cabo",
+          "equipment": "cable",
+          "similarity": 0.21
+        },
+        {
+          "id": "1722",
+          "name": "extensão de tríceps acima da cabeça na polia alta",
+          "equipment": "cable",
+          "similarity": 0.2
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 437,
+      "name": "Extensão de Tríceps Sentado na Máquina (Apoio tipo Rosca Scott invertida)",
+      "group": "upper arms",
+      "productionState": "aguardando_producao",
+      "comparison": "review-candidate",
+      "openGymCandidate": {
+        "id": "0607",
+        "name": "extensão de tríceps na máquina",
+        "equipment": "leverage machine",
+        "nameSimilarity": 0.45,
+        "ptBrInstructionSteps": 5
+      },
+      "otherCandidates": [
+        {
+          "id": "1033",
+          "name": "extensão de tríceps na máquina v. 2",
+          "equipment": "leverage machine",
+          "similarity": 0.38
+        },
+        {
+          "id": "2198",
+          "name": "extensão de tríceps na máquina v. 3",
+          "equipment": "leverage machine",
+          "similarity": 0.38
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 440,
+      "name": "Pin Press Fechado (Empurrada final do supino saindo dos pinos de segurança)",
+      "group": "upper arms",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "1191",
+        "name": "press de tríceps (cabeça abaixo do banco)",
+        "equipment": "dumbbell",
+        "nameSimilarity": 0.19,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "0816",
+          "name": "press de tríceps",
+          "equipment": "body weight",
+          "similarity": 0.15
+        },
+        {
+          "id": "1751",
+          "name": "supino em pinos com barra",
+          "equipment": "barbell",
+          "similarity": 0.13
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 451,
+      "name": "Panturrilha no V-Squat / Pêndulo",
+      "group": "upper legs",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "9929",
+        "name": "agachamento unilateral no hack squat",
+        "equipment": "leverage machine",
+        "nameSimilarity": 0.25,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "5516",
+          "name": "hack squat na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.13
+        },
+        {
+          "id": "6523",
+          "name": "hack squat linear na máquina",
+          "equipment": "leverage machine",
+          "similarity": 0.11
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 456,
+      "name": "Panturrilha Agachado (Squat Calf Raise / Iso-Hold)",
+      "group": "upper legs",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "7566",
+        "name": "hack squat com halteres",
+        "equipment": "dumbbell",
+        "nameSimilarity": 0.1,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "4169",
+          "name": "pistol squat com salto",
+          "equipment": "body weight",
+          "similarity": 0.1
+        },
+        {
+          "id": "5628",
+          "name": "hack squat no landmine",
+          "equipment": "landmine",
+          "similarity": 0.1
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 457,
+      "name": "Caminhada na Ponta dos Pés com Halteres (Farmer's Walk on Toes)",
+      "group": "upper legs",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "0412",
+        "name": "agachamento com halteres (costas na bola de estabilidade na parede)",
+        "equipment": "dumbbell",
+        "nameSimilarity": 0.17,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "0435",
+          "name": "agachamento sumô com halteres (costas na bola de estabilidade na parede)",
+          "equipment": "dumbbell",
+          "similarity": 0.16
+        },
+        {
+          "id": "0295",
+          "name": "Clean com halteres",
+          "equipment": "dumbbell",
+          "similarity": 0.15
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 459,
+      "name": "Elevação Tibial com Barra Tibial ou Kettlebell (Weighted Tib Raise)",
+      "group": "upper legs",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "10673",
+        "name": "agachamento com kettlebell",
+        "equipment": "kettlebell",
+        "nameSimilarity": 0.2,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "0549",
+          "name": "swing com kettlebell",
+          "equipment": "kettlebell",
+          "similarity": 0.2
+        },
+        {
+          "id": "6193",
+          "name": "agachamento cossaco com kettlebell",
+          "equipment": "kettlebell",
+          "similarity": 0.18
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 468,
+      "name": "Abdominal no Banco Declinado (Sit-up Declinado)",
+      "group": "waist",
+      "productionState": "aguardando_producao",
+      "comparison": "review-candidate",
+      "openGymCandidate": {
+        "id": "3838",
+        "name": "abdominal no banco",
+        "equipment": "body weight",
+        "nameSimilarity": 0.5,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "3329",
+          "name": "abdominal no banco romano",
+          "equipment": "body weight",
+          "similarity": 0.43
+        },
+        {
+          "id": "4333",
+          "name": "círculo de abdominal reverso no banco",
+          "equipment": "body weight",
+          "similarity": 0.33
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 472,
+      "name": "Elevação de Pernas / Joelhos na Cadeira Romana (Captain's Chair)",
+      "group": "waist",
+      "productionState": "aguardando_producao",
+      "comparison": "review-candidate",
+      "openGymCandidate": {
+        "id": "2963",
+        "name": "elevação de pernas retas na cadeira romana",
+        "equipment": "body weight",
+        "nameSimilarity": 0.55,
+        "ptBrInstructionSteps": 6
+      },
+      "otherCandidates": [
+        {
+          "id": "5107",
+          "name": "elevação de pernas na cadeira do capitão",
+          "equipment": "body weight",
+          "similarity": 0.42
+        },
+        {
+          "id": "11878",
+          "name": "elevação de pernas na espaldar",
+          "equipment": "body weight",
+          "similarity": 0.36
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 474,
+      "name": "Abdominal Infra no Banco Inclinado (Reverse Crunch / Encolhimento reverso da pelve)",
+      "group": "waist",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "4333",
+        "name": "círculo de abdominal reverso no banco",
+        "equipment": "body weight",
+        "nameSimilarity": 0.31,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "3838",
+          "name": "abdominal no banco",
+          "equipment": "body weight",
+          "similarity": 0.27
+        },
+        {
+          "id": "7417",
+          "name": "abdominal acima da cabeça com pernas no banco",
+          "equipment": "body weight",
+          "similarity": 0.27
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 477,
+      "name": "Abdominal GHD (Glute-Ham Developer Sit-up)",
+      "group": "waist",
+      "productionState": "aguardando_producao",
+      "comparison": "review-candidate",
+      "openGymCandidate": {
+        "id": "10639",
+        "name": "abdominal completo no glute ham developer",
+        "equipment": "leverage machine",
+        "nameSimilarity": 0.44,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "11282",
+          "name": "abdominal completo com braços estendidos no glute ham developer",
+          "equipment": "body weight",
+          "similarity": 0.33
+        },
+        {
+          "id": "3016",
+          "name": "abdominal curl-up",
+          "equipment": "body weight",
+          "similarity": 0.25
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 478,
+      "name": "Abdominal Janda (Janda Sit-up - contraindo posteriores para anular o psoas)",
+      "group": "waist",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "0508",
+        "name": "abdominal janda",
+        "equipment": "body weight",
+        "nameSimilarity": 0.2,
+        "ptBrInstructionSteps": 5
+      },
+      "otherCandidates": [
+        {
+          "id": "4187",
+          "name": "abdominal com pernas para o lado e barra EZ",
+          "equipment": "ez barbell",
+          "similarity": 0.19
+        },
+        {
+          "id": "3016",
+          "name": "abdominal curl-up",
+          "equipment": "body weight",
+          "similarity": 0.18
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 479,
+      "name": "Dragon Flag (Bandeira do Dragão no banco)",
+      "group": "waist",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "9318",
+        "name": "dragon flag negativo deitado no chão",
+        "equipment": "body weight",
+        "nameSimilarity": 0.3,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "9319",
+          "name": "meio dragon flag negativo deitado no chão",
+          "equipment": "body weight",
+          "similarity": 0.27
+        },
+        {
+          "id": "9322",
+          "name": "dragon flag negativo unilateral deitado no chão",
+          "equipment": "body weight",
+          "similarity": 0.27
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 480,
+      "name": "L-Sit (Sustentação isométrica em L nas paralelas ou argolas)",
+      "group": "waist",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "10951",
+        "name": "elevação de perna em l sit",
+        "equipment": "body weight",
+        "nameSimilarity": 0.25,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "1402",
+          "name": "l sit",
+          "equipment": "body weight",
+          "similarity": 0.22
+        },
+        {
+          "id": "11877",
+          "name": "l sit suspenso",
+          "equipment": "body weight",
+          "similarity": 0.2
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 486,
+      "name": "Lenhador na Polia Baixa para o Alto (Low-to-High Cable Woodchopper)",
+      "group": "waist",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "7584",
+        "name": "corte antirrotação ajoelhado de alto para baixo no cabo",
+        "equipment": "cable",
+        "nameSimilarity": 0.11,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "11251",
+          "name": "lenhador ajoelhado no cabo v. 3",
+          "equipment": "cable",
+          "similarity": 0.06
+        },
+        {
+          "id": "1207",
+          "name": "rotação no cabo (de baixo para cima)",
+          "equipment": "cable",
+          "similarity": 0.06
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 487,
+      "name": "Lenhador Horizontal na Polia Média",
+      "group": "waist",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "1202",
+        "name": "pallof press horizontal no cabo",
+        "equipment": "cable",
+        "nameSimilarity": 0.11,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "11251",
+          "name": "lenhador ajoelhado no cabo v. 3",
+          "equipment": "cable",
+          "similarity": 0.1
+        },
+        {
+          "id": "4356",
+          "name": "pallof press horizontal no cabo v. 2",
+          "equipment": "cable",
+          "similarity": 0.09
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 489,
+      "name": "Rotação de Tronco no Landmine em Pé (Landmine 180s / Rainbow)",
+      "group": "waist",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "11092",
+        "name": "giros de 180 graus ajoelhado no landmine",
+        "equipment": "landmine",
+        "nameSimilarity": 0.23,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "11271",
+          "name": "rotação de tronco em pé no cabo v. 3",
+          "equipment": "cable",
+          "similarity": 0.5
+        },
+        {
+          "id": "0112",
+          "name": "rotação de tronco em pé com barra",
+          "equipment": "barbell",
+          "similarity": 0.45
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 490,
+      "name": "Elevação de Pernas Oblíqua na Barra Fixa (Windshield Wipers / Para-brisa)",
+      "group": "waist",
+      "productionState": "aguardando_producao",
+      "comparison": "review-candidate",
+      "openGymCandidate": {
+        "id": "0472",
+        "name": "elevação de pernas na barra fixa",
+        "equipment": "body weight",
+        "nameSimilarity": 0.55,
+        "ptBrInstructionSteps": 5
+      },
+      "otherCandidates": [
+        {
+          "id": "1761",
+          "name": "elevação de joelhos oblíqua na barra fixa",
+          "equipment": "body weight",
+          "similarity": 0.5
+        },
+        {
+          "id": "0475",
+          "name": "elevação de pernas estendidas na barra fixa",
+          "equipment": "body weight",
+          "similarity": 0.5
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 492,
+      "name": "Flexão Lateral de Tronco no Banco Romano (45°)",
+      "group": "waist",
+      "productionState": "aguardando_producao",
+      "comparison": "review-candidate",
+      "openGymCandidate": {
+        "id": "0002",
+        "name": "flexão lateral de tronco a 45°",
+        "equipment": "body weight",
+        "nameSimilarity": 0.56,
+        "ptBrInstructionSteps": 5
+      },
+      "otherCandidates": [
+        {
+          "id": "5699",
+          "name": "flexão lateral de tronco a 45 graus",
+          "equipment": "body weight",
+          "similarity": 0.5
+        },
+        {
+          "id": "3329",
+          "name": "abdominal no banco romano",
+          "equipment": "body weight",
+          "similarity": 0.33
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 494,
+      "name": "Prancha Dinâmica na Bola Suíça (Stir the Pot)",
+      "group": "waist",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "7859",
+        "name": "prancha dinâmica explosiva",
+        "equipment": "body weight",
+        "nameSimilarity": 0.22,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "7389",
+          "name": "prancha na parede",
+          "equipment": "body weight",
+          "similarity": 0.22
+        },
+        {
+          "id": "3852",
+          "name": "elevação lateral na prancha",
+          "equipment": "body weight",
+          "similarity": 0.2
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 495,
+      "name": "Prancha RKC (Contração máxima de glúteos, quadríceps e dorsais)",
+      "group": "waist",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "2358",
+        "name": "prancha glúteos (verificação de postura)",
+        "equipment": "body weight",
+        "nameSimilarity": 0.27,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "2347",
+          "name": "prancha frontal glúteos (verificação de postura)",
+          "equipment": "body weight",
+          "similarity": 0.25
+        },
+        {
+          "id": "2349",
+          "name": "prancha lateral glúteos (verificação de postura)",
+          "equipment": "body weight",
+          "similarity": 0.25
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    },
+    {
+      "mdId": 500,
+      "name": "Vacuum Abdominal (Contração isométrica do Transverso do Abdômen)",
+      "group": "waist",
+      "productionState": "aguardando_producao",
+      "comparison": "no-reliable-match",
+      "openGymCandidate": {
+        "id": "5242",
+        "name": "contração abdominal ajoelhado",
+        "equipment": "body weight",
+        "nameSimilarity": 0.25,
+        "ptBrInstructionSteps": 0
+      },
+      "otherCandidates": [
+        {
+          "id": "2889",
+          "name": "abdominal estrela-do-mar (avançado)",
+          "equipment": "body weight",
+          "similarity": 0.2
+        },
+        {
+          "id": "3813",
+          "name": "abdominal estrela-do-mar (iniciante)",
+          "equipment": "body weight",
+          "similarity": 0.2
+        }
+      ],
+      "validation": "Candidato textual; ainda não aprova a animação."
+    }
+  ]
+}
