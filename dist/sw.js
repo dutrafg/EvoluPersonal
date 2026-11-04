@@ -85,6 +85,7 @@ self.addEventListener('fetch', event => {
 });
 
 self.addEventListener('message', event => {
+  if (event.data?.type === 'SKIP_WAITING') { event.waitUntil(self.skipWaiting()); return; }
   if (event.data?.type !== 'CACHE_LIBRARY' || !event.ports?.[0]) return;
   const port = event.ports[0];
   event.waitUntil((async () => {
