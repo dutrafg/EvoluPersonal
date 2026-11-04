@@ -1,8 +1,8 @@
 'use strict';
 
-const CACHE_NAME = 'evolupersonal-md500-offline-v2';
+const CACHE_NAME = 'evolupersonal-md500-offline-v3';
 const SCOPE_URL = self.registration.scope;
-const SHELL = ['./index.html', './training-methods.js', './insights.js', './programs.js', './offline-assets.json', './OFFLINE_CREDITS.md'];
+const SHELL = ['./index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable-512.png', './training-methods.js', './insights.js', './programs.js', './offline-assets.json', './OFFLINE_CREDITS.md'];
 const ALLOWED_MEDIA_HOSTS = new Set(['gellyfish-ai.github.io', 'raw.githubusercontent.com']);
 const MEDIA_PROXY_PATH = new URL('./__offline-media', SCOPE_URL).pathname;
 
@@ -156,3 +156,4 @@ self.addEventListener('message', event => {
     });
   })());
 });
+
