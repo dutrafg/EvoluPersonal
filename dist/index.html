@@ -1746,6 +1746,7 @@ EvoluPrograms.boot();
 })();
 </script>
 
+
 <script>
 /* EvoluPersonal Alpha 0.21 — Etapas 7 a 10: anamnese, relatórios, tarefas e prontidão PWA. */
 (() => {
@@ -1946,9 +1947,12 @@ EvoluPrograms.boot();
   };
   window.epCheckPWA = async function () {
     const el = document.getElementById('epPwaStatus');
-    if (!window.isSecureContext || !('serviceWorker' in navigator)) { if (el) el.textContent = 'Abra o app publicado em HTTPS para habilitar a instalação e o uso offline.'; return; }
-    try { pwaRegistration = await navigator.serviceWorker.getRegistration('./') || await navigator.serviceWorker.register('./sw.js', { scope: './' }); await pwaRegistration.update(); if (el) el.textContent = 'Service worker ativo · versão de cache v3 · ' + ((window.matchMedia('(display-mode: standalone)').matches || navigator.standalone) ? 'instalado como aplicativo.' : 'pode ser instalado pelo navegador.'); }
-    catch (_) { if (el) el.textContent = 'Não foi possível conferir a instalação. Verifique a conexão e tente novamente.'; }
+    if (!window.isSecureContext || !('serviceWorker' in navigator)) {
+      if (el) el.textContent = 'Abra o app publicado em HTTPS para habilitar a instalação e o uso offline.';
+    } else {
+      try { pwaRegistration = await navigator.serviceWorker.getRegistration('./') || await navigator.serviceWorker.register('./sw.js', { scope: './' }); await pwaRegistration.update(); if (el) el.textContent = 'Service worker ativo · versão de cache v3 · ' + ((window.matchMedia('(display-mode: standalone)').matches || navigator.standalone) ? 'instalado como aplicativo.' : 'pode ser instalado pelo navegador.'); }
+      catch (_) { if (el) el.textContent = 'Não foi possível conferir a instalação. Verifique a conexão e tente novamente.'; }
+    }
     const storage = document.getElementById('epStorageStatus');
     if (storage && navigator.storage?.estimate) { try { const x = await navigator.storage.estimate(), used = (x.usage || 0) / 1048576, quota = (x.quota || 0) / 1048576; storage.textContent = 'Armazenamento do navegador: ' + used.toFixed(1) + ' MB usados de ' + quota.toFixed(0) + ' MB disponíveis.'; } catch (_) { storage.textContent = 'O navegador não informou o uso de armazenamento.'; } }
   };
@@ -1962,7 +1966,7 @@ EvoluPrograms.boot();
     } catch (_) { toast('Não foi possível verificar atualizações agora.'); }
   };
   const priorSettings = window.settings;
-  window.settings = () => priorSettings() + pwaPanel();
+  window.settings = () => { const html = priorSettings() + pwaPanel(); setTimeout(window.epCheckPWA, 0); return html; };
   if (typeof window.render === 'function') window.render();
 
   const style = document.createElement('style');
